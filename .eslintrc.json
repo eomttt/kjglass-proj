@@ -33,6 +33,8 @@
         "jsx-a11y/html-has-lang": "off",
         "react/forbid-prop-types": "off",
         "react/jsx-props-no-spreading": "off",
-        "react/self-closing-comp": "off"
+        "react/self-closing-comp": "off",
+        "linebreak-style": "off",
+        "react/jsx-curly-brace-presence": "off"
     }
 }

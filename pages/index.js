@@ -1,14 +1,17 @@
 import React from 'react';
 
 import NavBar from '../components/common/NavBar';
+import Header from '../components/common/Header';
+
+import { ViewContainer } from '../styles/style';
 
 const Home = () => {
     return (
         <>
-        <NavBar/>
-        <div>
-            {"HOME"}
-        </div>
+            <NavBar />
+            <ViewContainer>
+                <Header />
+            </ViewContainer>
         </>
     );
 };

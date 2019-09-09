@@ -3,10 +3,9 @@ import PropTypes from 'prop-types';
 
 const AppLayout = ({ children }) => {
     return (
-        <div>
+        <>
             {children}
-            {"TEST"}
-        </div>
+        </>
     );
 };
 
