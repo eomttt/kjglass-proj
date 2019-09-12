@@ -2,8 +2,6 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-import HeaderImage from '../../lib/images/subvisual.png';
-
 const Container = styled.div`
     width: 100%;
     & img {
@@ -11,10 +9,10 @@ const Container = styled.div`
     }
 `;
 
-const Header = () => (
+const Footer = () => (
     <Container>
-        <img src={HeaderImage} alt={'Header'} />
+        {'footer'}
     </Container>
 );
 
-export default Header;
+export default Footer;

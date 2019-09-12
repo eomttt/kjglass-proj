@@ -7,7 +7,7 @@ import AppLayout from '../components/AppLayout';
 const App = ({ Component, pageProps }) => (
     <>
         <Head>
-            <title>광진이화학</title>
+            <title>광진이화학 KJGLASS</title>
         </Head>
         <AppLayout>
             <Component {...pageProps} />

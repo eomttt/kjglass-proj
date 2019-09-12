@@ -9,23 +9,23 @@ const Title = styled.div`
 
 const Content = styled.div`
 
-`;
+`
 
-const Notice = () => {
+const ProductSearch = () => {
     return (
         <div>
             <Title>
-                {'공지 사항'}
+                {'제품 검색'}
             </Title>
             <Content>
-                {'공지 사항 들'}
+                {'제품 검색 들'}
             </Content>
         </div>
     );
 };
 
-Notice.propTypes = {
+ProductSearch.propTypes = {
 
 };
 
-export default Notice;
+export default ProductSearch;
