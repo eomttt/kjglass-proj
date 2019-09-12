@@ -13,13 +13,11 @@ const Container = styled.div`
     }
 `;
 
-const Product = ({ product, clickProduct }) => {
-    return (
-        <Container onClick={clickProduct}>
-            <img src={product.image} alt={'Product'} />
-        </Container>
-    );
-};
+const Product = ({ product, clickProduct }) => (
+    <Container onClick={clickProduct}>
+        <img src={product.image} alt={'Product'} />
+    </Container>
+);
 
 Product.propTypes = {
     product: PropTypes.object.isRequired,

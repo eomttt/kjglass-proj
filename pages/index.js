@@ -7,7 +7,7 @@ import NavBar from '../containers/common/NavBar';
 import CustomerCenter from '../containers/main/CustomerCenter';
 import ProductPreview from '../containers/main/ProductPreview';
 import Notice from '../containers/main/Notice';
-import ProductSearch from '../containers/main/ProductSearch';
+import SearchProduct from '../containers/main/SearchProduct';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
@@ -20,7 +20,7 @@ const Home = () => {
                 <ProductPreview />
                 <ViewContent>
                     <Notice />
-                    <ProductSearch />
+                    <SearchProduct />
                     <CustomerCenter />
                 </ViewContent>
                 <Footer />

@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import common from '../../styles/style';
+import common, { pointColor } from '../../styles/style';
 
 import Logo from '../../lib/images/logo.png';
 
@@ -17,7 +17,7 @@ const Container = styled.div`
     background-color: white;
     display: flex;
     text-align: center;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid ${pointColor};
 `;
 
 const ImageContainer = styled.div`

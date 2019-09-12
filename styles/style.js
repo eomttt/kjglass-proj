@@ -4,6 +4,9 @@ const common = css`
     color: black;
 `;
 
+export const pointColor = 'red';
+export const subPoringColor = '#384aa5';
+
 export const ViewContainer = styled.div`
     display: flex;
     flex-direction: column;
