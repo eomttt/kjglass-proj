@@ -3,10 +3,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { pointColor } from '../../styles/style';
+import { pointColor, lightGrayColor } from '../../styles/style';
 
 const Container = styled.div`
-    border-top: 1px solid ${pointColor}
+    padding: 12px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    border-top: 2px solid ${pointColor};
+    border-bottom: 1px solid ${lightGrayColor};
+    cursor: pointer;
 `;
 
 const ItemTitle = ({ title, clickTitle }) => (

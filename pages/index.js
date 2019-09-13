@@ -9,7 +9,8 @@ import ProductPreview from '../containers/main/ProductPreview';
 import Notice from '../containers/main/Notice';
 import SearchProduct from '../containers/main/SearchProduct';
 
-import { ViewContainer, ViewContent } from '../styles/style';
+import { ViewContainer } from '../styles/style';
+import { MainItems, MainItem } from '../styles/main';
 
 const Home = () => {
     return (
@@ -18,13 +19,19 @@ const Home = () => {
             <ViewContainer>
                 <Header />
                 <ProductPreview />
-                <ViewContent>
-                    <Notice />
-                    <SearchProduct />
-                    <CustomerCenter />
-                </ViewContent>
-                <Footer />
+                <MainItems>
+                    <MainItem>
+                        <Notice />
+                    </MainItem>
+                    <MainItem>
+                        <SearchProduct />
+                    </MainItem>
+                    <MainItem>
+                        <CustomerCenter />
+                    </MainItem>
+                </MainItems>
             </ViewContainer>
+            <Footer />
         </>
     );
 };

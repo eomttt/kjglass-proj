@@ -3,36 +3,55 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import common, { pointColor } from '../../styles/style';
+import common, {
+    pointColor, navBarHeight, footerHeight, isMobile,
+} from '../../styles/style';
 
 import Logo from '../../lib/images/logo.png';
 
 const Container = styled.div`
     ${common}
     width: 100%;
-    height: 75px;
+    height: ${navBarHeight};
     position: fixed;
     top: 0;
-    left: 0;
     background-color: white;
     display: flex;
     text-align: center;
     border-bottom: 1px solid ${pointColor};
+
+    ${isMobile} {
+        height: ${footerHeight};
+        bottom: 0;
+        top: initial;
+        border-bottom: initial;
+        border-top: 1px solid ${pointColor};
+    }
 `;
 
 const ImageContainer = styled.div`
     width: 15%;
     cursor: pointer;
+    display: flex;
+
+    ${isMobile} {
+        display: none;
+    }
 `;
 
 const Image = styled.img`
     height: 100%;
-    margin-left: 20px;
+    max-height: 50px;
+    margin: auto;
 `;
 
 const Menu = styled.div`
     width: 85%;
     display: flex;
+
+    ${isMobile} {
+        width: 100%;
+    }
 `;
 
 const Text = styled.div`

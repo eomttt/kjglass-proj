@@ -6,18 +6,21 @@ const common = css`
 
 export const pointColor = 'red';
 export const subPoringColor = '#384aa5';
+export const lightGrayColor = '#8080802b';
+
+export const navBarHeight = '75px';
+export const footerHeight = '60px';
+
+export const mobileNavBar = '50px';
+
+export const isMobile = '@media (max-width: 768px)';
 
 export const ViewContainer = styled.div`
     display: flex;
     flex-direction: column;
+    width: 90%;
     max-width: 1364px;
-    margin-top: 75px;
-`;
-
-export const ViewContent = styled.div`
-    margin: auto 10px;
-    display: flex;
-    flex-direction: column;
+    margin: ${navBarHeight} auto ${footerHeight};
 `;
 
 export default common;

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useCallback, useRef } from 'react';
 
 import ItemTitle from '../../components/main/ItemTitle';
 import NoticeItems from '../../components/main/NoticeItems';
@@ -26,9 +26,9 @@ const Notice = () => {
         content: 'test content',
     }]);
 
-    const onClickTitle = () => {
+    const onClickTitle = useCallback(() => {
         console.log('Notice click title');
-    };
+    }, []);
 
     return (
         <>

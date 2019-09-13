@@ -5,10 +5,12 @@ import styled from 'styled-components';
 
 import Product from '../../containers/main/Product';
 
+import { lightGrayColor } from '../../styles/style';
+
 const Container = styled.div`
     display: flex;
     width: 100%;
-    background-color: #8080802b;
+    background-color: ${lightGrayColor};
     overflow: scroll;
     flex-direction: row;
 `;

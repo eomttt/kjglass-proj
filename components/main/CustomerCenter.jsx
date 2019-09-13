@@ -3,25 +3,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import { isMobile } from '../../styles/style';
+
 import CSImage from '../../lib/images/cs_center.png';
 
-const Title = styled.div`
-
-`;
-
-const Content = styled.div`
-
+const Container = styled.div`
+    display: flex;
+    & img {
+        margin: auto;
+        width: 100%;
+        cursor: pointer;
+        ${isMobile} {
+            width: 90%;
+        }
+    }
 `;
 
 const CustomerCenter = ({ onClickCS }) => (
-    <div onClick={onClickCS}>
-        <Title>
-            {'고객 센터'}
-        </Title>
-        <Content>
-            <img src={CSImage} alt={'cs'} />
-        </Content>
-    </div>
+    <Container onClick={onClickCS}>
+        <img src={CSImage} alt={'cs'} />
+    </Container>
 );
 
 CustomerCenter.propTypes = {

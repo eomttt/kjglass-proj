@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 
+import ItemTitle from '../../components/main/ItemTitle';
 import CustmoerCenterComponent from '../../components/main/CustomerCenter';
 
 const CustmoerCenter = () => {
-    const onClick = () => {
+    const onClick = useCallback(() => {
         console.log('Click customer center');
-    };
+    }, []);
 
     return (
-        <CustmoerCenterComponent onClickCS={onClick} />
+        <>
+            <ItemTitle title={'고객 센터'} clickTitle={onClick} />
+            <CustmoerCenterComponent onClickCS={onClick} />
+        </>
     );
 };
 

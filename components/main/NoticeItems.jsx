@@ -12,7 +12,7 @@ const Container = styled.div`
 const NoticeItems = ({ notices }) => (
     <Container>
         {
-            notices.slice(0, 3).map((notice) => <NoticeItem notice={notice} />)
+            notices.slice(0, 3).map((notice) => <NoticeItem notice={notice} key={notice.id} />)
         }
     </Container>
 );

@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { subPoringColor } from '../../styles/style';
+import { subPoringColor, isMobile } from '../../styles/style';
 
 const Container = styled.div`
     padding: 10px;
@@ -18,6 +18,10 @@ const Title = styled.div`
     & span {
         color: ${subPoringColor}; 
     }
+
+    ${isMobile} {
+        display: none;
+    }
 `;
 
 const Button = styled.div`
@@ -26,6 +30,11 @@ const Button = styled.div`
     color: white;
     padding: 15px;
     cursor: pointer;
+
+    ${isMobile} {
+        width: 80%;
+        margin: auto;
+    }
 `;
 
 const ProductPreview = ({ clickDownload }) => (
