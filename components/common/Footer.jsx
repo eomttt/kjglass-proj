@@ -27,11 +27,10 @@ const Container = styled.div`
 `;
 
 const Content = styled.div`
-    margin: auto 10px;
     padding: 10px;
     text-align: initial;
     & div {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     ${isMobile} {
