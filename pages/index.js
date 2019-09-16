@@ -4,6 +4,7 @@ import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 
 import NavBar from '../containers/common/NavBar';
+
 import CustomerCenter from '../containers/main/CustomerCenter';
 import ProductPreview from '../containers/main/ProductPreview';
 import Notice from '../containers/main/Notice';

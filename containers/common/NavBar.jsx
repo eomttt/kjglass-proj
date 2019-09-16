@@ -11,7 +11,9 @@ const NavBar = () => {
     }, []);
 
     const openInfo = useCallback(() => {
-
+        Router.push({
+            pathname: '/info',
+        });
     }, []);
 
     const openProduct = useCallback(() => {
