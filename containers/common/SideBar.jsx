@@ -1,16 +1,18 @@
 import React from 'react';
 import Router from 'next/router';
 
-import SideBarItemComponent from '../../components/common/SideBarItem';
+import PropTypes from 'prop-types';
 
-const SideBar = ({ sideBarItems }) => {
-    return (
-        <SideBarItemComponent />
-    );
-};
+import SideBarComponent from '../../components/common/SideBar';
+
+const SideBar = ({ sideBarItems }) => (
+    <>
+        <SideBarComponent sideBarItems={sideBarItems} />
+    </>
+);
 
 SideBar.propTypes = {
     sideBarItems: PropTypes.array.isRequired,
-}
+};
 
 export default SideBar;

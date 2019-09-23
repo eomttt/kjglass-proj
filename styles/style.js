@@ -11,6 +11,8 @@ export const lightGrayColor = '#8080802b';
 export const navBarHeight = '75px';
 export const footerHeight = '60px';
 
+export const sideBarWidth = '300px';
+
 export const mobileNavBar = '50px';
 
 export const isMobile = '@media (max-width: 768px)';
@@ -22,5 +24,11 @@ export const ViewContainer = styled.div`
     max-width: 1364px;
     margin: ${navBarHeight} auto ${footerHeight};
 `;
+
+export const ViewContent = styled.div`
+    display: flex;
+    position: relative;
+    padding-left: ${sideBarWidth};
+`
 
 export default common;
