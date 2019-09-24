@@ -18,16 +18,29 @@ const Container = styled.div`
     }
 `;
 
-const SideBar = ({ sideBarItems }) => (
+const Item = styled.div`
+    cursor: pointer;
+`;
+
+const SideBar = ({ sideBarItems, sideBarTitle, clickSideItem }) => (
     <Container>
+        <div>
+            {sideBarTitle}
+        </div>
         {
-            sideBarItems.map((sideBarItem) => <SideBarItemComponent sideBarItem={sideBarItem} />)
+            sideBarItems && sideBarItems.map((sideBarItem) => (
+                <Item onClick={() => clickSideItem(sideBarItem.id)}>
+                    <SideBarItemComponent item={sideBarItem} />
+                </Item>
+            ))
         }
     </Container>
 );
 
 SideBar.propTypes = {
     sideBarItems: PropTypes.array.isRequired,
+    sideBarTitle: PropTypes.string.isRequired,
+    clickSideItem: PropTypes.func.isRequired,
 };
 
 export default SideBar;
