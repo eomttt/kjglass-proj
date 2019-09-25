@@ -7,12 +7,11 @@ import { subPoringColor } from '../../styles/style';
 const Container = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 30px;
 `;
 
 const Title = styled.div`
     font-size: 25px;
-    font-weight: bolder;
     margin-bottom: 25px;
 `;
 

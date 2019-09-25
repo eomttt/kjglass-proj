@@ -5,14 +5,13 @@ import PropTypes from 'prop-types';
 
 import SideBarItemComponent from './SideBarItem';
 
-import { isMobile, sideBarWidth } from '../../styles/style';
+import { isMobile, sideBarWidth, subPoringColor } from '../../styles/style';
 
 const Container = styled.div`
     position: absolute;
     left: 0;
     width: ${sideBarWidth};
     height: 100%;
-    background-color: red;
     ${isMobile} {
         display: none;
     }
@@ -22,11 +21,19 @@ const Item = styled.div`
     cursor: pointer;
 `;
 
+const Title = styled.div`
+    font-size: 30px;
+    text-align: center;
+    color: ${subPoringColor};
+    margin-top: 20px;
+    margin-bottom: 20px;
+`;
+
 const SideBar = ({ sideBarItems, sideBarTitle, clickSideItem }) => (
     <Container>
-        <div>
+        <Title>
             {sideBarTitle}
-        </div>
+        </Title>
         {
             sideBarItems && sideBarItems.map((sideBarItem) => (
                 <Item onClick={() => clickSideItem(sideBarItem.id)}>

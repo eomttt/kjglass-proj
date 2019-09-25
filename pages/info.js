@@ -9,7 +9,9 @@ import SideBar from '../components/common/SideBar';
 
 import NavBar from '../containers/common/NavBar';
 
+import Ci from '../components/info/Ci';
 import Greeting from '../components/info/Greeting';
+import History from '../components/info/History';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
@@ -70,7 +72,9 @@ const Info = ({ id }) => {
                         sideBarItems={sideBarItems}
                         clickSideItem={clickSideItem}
                     />
-                    <Greeting />
+                    {id === '1' && <Greeting />}
+                    {id === '2' && <History />}
+                    {id === '3' && <Ci />}
                 </ViewContent>
             </ViewContainer>
             <Footer />
@@ -84,6 +88,6 @@ Info.getInitialProps = async (context) => ({
 
 Info.propTypes = {
     id: PropTypes.string.isRequired,
-}
+};
 
 export default Info;
