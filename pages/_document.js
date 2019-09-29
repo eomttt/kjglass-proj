@@ -17,6 +17,7 @@ class MyDocument extends Document {
             <html>
                 <Head>
                     {this.props.styleTags}
+                    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10268c3a3e909de2ed288407e0902486"></script>
                 </Head>
                 <body style={{ margin: 0 }}>
                     <Main />

@@ -12,6 +12,7 @@ import NavBar from '../containers/common/NavBar';
 import Ci from '../components/info/Ci';
 import Greeting from '../components/info/Greeting';
 import History from '../components/info/History';
+import Map from '../components/info/Map';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
@@ -38,11 +39,7 @@ const Info = ({ id }) => {
     const setSelectedItem = useCallback((sideId) => {
         const itemId = sideId || +sideId > 4 ? +sideId : 1;
         const newItmes = sideBarItems.reduce((acc, cur) => {
-            if (cur.id === itemId) {
-                acc.push({ ...cur, clicked: true });
-            } else {
-                acc.push({ ...cur, clicked: false });
-            }
+            acc.push({ ...cur, clicked: cur.id === itemId });
             return acc;
         }, []);
 
@@ -72,9 +69,10 @@ const Info = ({ id }) => {
                         sideBarItems={sideBarItems}
                         clickSideItem={clickSideItem}
                     />
-                    {id === '1' && <Greeting />}
+                    {(!id || id === '1') && <Greeting />}
                     {id === '2' && <History />}
                     {id === '3' && <Ci />}
+                    {id === '4' && <Map />}
                 </ViewContent>
             </ViewContainer>
             <Footer />

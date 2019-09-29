@@ -15,11 +15,14 @@ const Content = styled.div`
 const Year = styled.div`
     color: ${subPoringColor};
     font-size: 25px;
-    margin: auto 30px auto 0;
+    width: 30%;
+    text-align: center;
+    margin: auto;
 `;
 
 const Month = styled.div`
-    margin: auto 45px auto 0;
+    width: 10%;
+    margin: auto;
 `;
 
 const Title = styled.div`
@@ -28,7 +31,8 @@ const Title = styled.div`
 `;
 
 const Text = styled.div`
-    margin: auto auto auto 0;
+    width: 60%;
+    margin: auto;
 `;
 
 const History = () => {

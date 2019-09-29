@@ -19,6 +19,7 @@ const Container = styled.div`
     display: flex;
     text-align: center;
     border-bottom: 1px solid ${pointColor};
+    z-index: 5;
 
     ${isMobile} {
         height: ${footerHeight};
