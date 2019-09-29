@@ -16,6 +16,7 @@ const Container = styled.div`
     border-top: 1px solid ${pointColor};
     display: flex;
     text-align: center;
+    z-index: 5;
 
     ${isMobile} {
         height: ${mobileNavBar};
