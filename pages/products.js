@@ -9,29 +9,29 @@ import SideBar from '../components/common/SideBar';
 
 import NavBar from '../containers/common/NavBar';
 
-import Ci from '../components/info/Ci';
-import Greeting from '../components/info/Greeting';
-import History from '../components/info/History';
-import Map from '../components/info/Map';
+import RefactorPlan from '../containers/products/RefactorPlan';
+import ExperimentEquipment from '../containers/products/ExperimentEquipment';
+import PumpStirrer from '../containers/products/PumpStirrer';
+import Safety from '../containers/products/Safety';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
 
-const Info = ({ id }) => {
+const Products = ({ id, productId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
-        text: '인사말',
+        text: 'Refactor Plan',
         id: 1,
         clicked: false,
     }, {
-        text: '연혁',
+        text: '실험기자재',
         id: 2,
         clicked: false,
     }, {
-        text: 'CI',
+        text: 'Pump & Stirrer',
         id: 3,
         clicked: false,
     }, {
-        text: '오시는 길',
+        text: 'Safety',
         id: 4,
         clicked: false,
     }]);
@@ -53,7 +53,7 @@ const Info = ({ id }) => {
     const clickSideItem = useCallback((itemId) => {
         setSelectedItem(itemId);
         Router.push({
-            pathname: '/info',
+            pathname: '/products',
             query: { id: itemId },
         });
     }, [sideBarItems]);
@@ -65,14 +65,14 @@ const Info = ({ id }) => {
                 <Header />
                 <ViewContent>
                     <SideBar
-                        sideBarTitle={'회사소개'}
+                        sideBarTitle={'주요제품'}
                         sideBarItems={sideBarItems}
                         clickSideItem={clickSideItem}
                     />
-                    {(!id || id === '1') && <Greeting />}
-                    {id === '2' && <History />}
-                    {id === '3' && <Ci />}
-                    {id === '4' && <Map />}
+                    {(!id || id === '1') && <RefactorPlan productId={productId} />}
+                    {id === '2' && <ExperimentEquipment productId={productId} />}
+                    {id === '3' && <PumpStirrer productId={productId} />}
+                    {id === '4' && <Safety productId={productId} />}
                 </ViewContent>
             </ViewContainer>
             <Footer />
@@ -80,16 +80,19 @@ const Info = ({ id }) => {
     );
 };
 
-Info.getInitialProps = async (context) => ({
+Products.getInitialProps = async (context) => ({
     id: context.query.id,
+    productId: context.query.productId,
 });
 
-Info.propTypes = {
+Products.propTypes = {
     id: PropTypes.string,
+    productId: PropTypes.string,
 };
 
-Info.defaultProps = {
+Products.defaultProps = {
     id: null,
+    productId: null,
 };
 
-export default Info;
+export default Products;

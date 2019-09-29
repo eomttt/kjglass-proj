@@ -17,7 +17,9 @@ const NavBar = () => {
     }, []);
 
     const openProduct = useCallback(() => {
-
+        Router.push({
+            pathname: '/products',
+        });
     }, []);
 
     const openProductSearch = useCallback(() => {

@@ -36,7 +36,7 @@ const SideBar = ({ sideBarItems, sideBarTitle, clickSideItem }) => (
         </Title>
         {
             sideBarItems && sideBarItems.map((sideBarItem) => (
-                <Item onClick={() => clickSideItem(sideBarItem.id)}>
+                <Item onClick={() => clickSideItem(sideBarItem.id)} key={sideBarItem.id}>
                     <SideBarItemComponent item={sideBarItem} />
                 </Item>
             ))
