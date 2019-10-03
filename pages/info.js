@@ -37,7 +37,13 @@ const Info = ({ id }) => {
     }]);
 
     const setSelectedItem = useCallback((sideId) => {
-        const itemId = sideId || +sideId > 4 ? +sideId : 1;
+        const sideBarIds = Object.values(sideBarItems).map((sideBarItem) => {
+            return sideBarItem.id;
+        });
+
+        const isSupportSideId = sideBarIds.includes(+sideId);
+        const itemId = isSupportSideId ? +sideId : 1;
+
         const newItmes = sideBarItems.reduce((acc, cur) => {
             acc.push({ ...cur, clicked: cur.id === itemId });
             return acc;
