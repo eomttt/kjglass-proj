@@ -29,6 +29,10 @@ export const ViewContent = styled.div`
     display: flex;
     position: relative;
     padding-left: ${sideBarWidth};
-`
+`;
+
+export const ItemContainer = styled.div`
+
+`;
 
 export default common;
