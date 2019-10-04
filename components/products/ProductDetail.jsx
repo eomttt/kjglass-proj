@@ -1,7 +1,9 @@
-import React, { useCallback, useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import styled from 'styled-components';
+
+import ProductDetailOptions from './ProductDetailOptions';
 
 import { subPoringColor } from '../../styles/style';
 
@@ -59,105 +61,52 @@ const DetailContentOptions = styled.div`
 
 `;
 
-
-const OptionContent = styled.div`
-    margin-bottom: 20px;
-`;
-
-const OptionContentTitle = styled.div`
-    font-size: 20px;
-    margin-bottom: 10px;
-`;
-
-const OptionContentText = styled.div`
-    font-size: initial;
-    padding-left: 10px;
-    margin-bottom: 5px;
-`;
-
-
-const ProductDtail = ({ product }) => {
-    const [selecetedImage, setSelectedImage] = useState(null);
-
-    useEffect(() => {
-        if (product) {
-            setSelectedImage(product.images[0]);
-        }
-    }, [product]);
-
-    const clickSetToPrimayImage = useCallback((imageUrl) => {
-        setSelectedImage(imageUrl);
-    }, [product]);
-
-    return (
-        <>
-            {
-                product
-            && (
-                <Container>
-                    <DetailContent>
-                        <PrimaryImage>
-                            <img src={selecetedImage} alt={'Primay'} />
-                        </PrimaryImage>
-                        <ProductContent>
-                            <ProductTitle>
-                                {product.title}
-                            </ProductTitle>
-                            <ProductText>
-                                {product.content}
-                            </ProductText>
-                            <ImageList>
-                                {
-                                    product.images.map((image) => (
-                                        <div onClick={() => clickSetToPrimayImage(image)} key={image}>
-                                            <img src={image} alt={'List'} />
-                                        </div>
-                                    ))
-                                }
-                            </ImageList>
-                            <DetailContentOptions>
-                                <div>
-                                    <OptionContent>
-                                        <OptionContentTitle>
-                                            {'Product Details'}
-                                        </OptionContentTitle>
-                                        {
-                                            product.detail.map((detail) => <OptionContentText>{`- ${detail}`}</OptionContentText>)
-                                        }
-                                    </OptionContent>
-                                    <OptionContent>
-                                        <OptionContentTitle>
-                                            {'Application'}
-                                        </OptionContentTitle>
-                                        {
-                                            product.application.map((application) => <OptionContentText>{`- ${application}`}</OptionContentText>)
-                                        }
-                                    </OptionContent>
-                                    <OptionContent>
-                                        <OptionContentTitle>
-                                            {'Specification'}
-                                        </OptionContentTitle>
-                                        {
-                                            product.specification.map((specification) => <OptionContentText>{`- ${specification}`}</OptionContentText>)
-                                        }
-                                    </OptionContent>
+const ProductDtail = ({
+    title, content, images, detail, application, specification,
+    primaryImage, onClickImage,
+}) => (
+    <>
+        <Container>
+            <DetailContent>
+                <PrimaryImage>
+                    <img src={primaryImage} alt={'Primay'} />
+                </PrimaryImage>
+                <ProductContent>
+                    <ProductTitle>
+                        {title}
+                    </ProductTitle>
+                    <ProductText>
+                        {content}
+                    </ProductText>
+                    <ImageList>
+                        {
+                            images && images.map((image) => (
+                                <div onClick={() => onClickImage(image)} key={image}>
+                                    <img src={image} alt={'List'} />
                                 </div>
-                            </DetailContentOptions>
-                        </ProductContent>
-                    </DetailContent>
-                </Container>
-            )
-            }
-        </>
-    );
-};
+                            ))
+                        }
+                    </ImageList>
+                    <DetailContentOptions>
+                        <ProductDetailOptions title={'Product Details'} items={detail} />
+                        <ProductDetailOptions title={'Application'} items={application} />
+                        <ProductDetailOptions title={'Specification'} items={specification} />
+                    </DetailContentOptions>
+                </ProductContent>
+            </DetailContent>
+        </Container>
+    </>
+);
 
 ProductDtail.propTypes = {
-    product: PropTypes.object,
-};
-
-ProductDtail.defaultProps = {
-    product: null,
+    title: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired,
+    images: PropTypes.array.isRequired,
+    detail: PropTypes.array.isRequired,
+    application: PropTypes.array.isRequired,
+    specification: PropTypes.array.isRequired,
+    primaryImage: PropTypes.string.isRequired,
+    onClickImage: PropTypes.func.isRequired,
 };
 
 export default ProductDtail;

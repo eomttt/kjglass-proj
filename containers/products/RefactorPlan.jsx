@@ -3,8 +3,11 @@ import React, { useState, useCallback, useEffect } from 'react';
 import Router from 'next/router';
 import PropTypes from 'prop-types';
 
+// Presentation
 import Products from '../../components/products/Products';
-import ProductDetail from '../../components/products/ProductDetail';
+
+// Container
+import ProductDetail from './ProductDetail';
 
 const RefactorPlan = ({ productId }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);

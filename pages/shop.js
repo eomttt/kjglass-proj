@@ -8,29 +8,26 @@ import Footer from '../components/common/Footer';
 import SideBar from '../components/common/SideBar';
 
 import NavBar from '../containers/common/NavBar';
-import RefactorPlan from '../containers/products/RefactorPlan';
-import ExperimentEquipment from '../containers/products/ExperimentEquipment';
-// import PumpStirrer from '../containers/products/PumpStirrer';
-// import Safety from '../containers/products/Safety';
+import GlassItems from '../containers/shop/GlassItems';
+import ExpendablesItems from '../containers/shop/ExpendablesItems';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
-
-const Products = ({ id, productId }) => {
+const Shop = ({ id, productId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
-        text: 'Refactor Plan',
+        text: '글라스',
         id: 1,
         clicked: false,
     }, {
-        text: '실험기자재',
+        text: '소모품',
         id: 2,
+        clicked: false,
+    }, {
+        text: '카타로그 다운로드',
+        id: 3,
         clicked: false,
     },
     // {
-    //     text: 'Pump & Stirrer',
-    //     id: 3,
-    //     clicked: false,
-    // }, {
     //     text: 'Safety',
     //     id: 4,
     //     clicked: false,
@@ -60,7 +57,7 @@ const Products = ({ id, productId }) => {
     const clickSideItem = useCallback((itemId) => {
         setSelectedItem(itemId);
         Router.push({
-            pathname: '/products',
+            pathname: '/shop',
             query: { id: itemId },
         });
     }, [sideBarItems]);
@@ -72,12 +69,12 @@ const Products = ({ id, productId }) => {
                 <Header />
                 <ViewContent>
                     <SideBar
-                        sideBarTitle={'주요제품'}
+                        sideBarTitle={'제품검색'}
                         sideBarItems={sideBarItems}
                         clickSideItem={clickSideItem}
                     />
-                    {(!id || id === '1') && <RefactorPlan productId={productId} />}
-                    {id === '2' && <ExperimentEquipment productId={productId} />}
+                    {(!id || id === '1') && <GlassItems productId={productId} />}
+                    {id === '2' && <ExpendablesItems productId={productId} />}
                     {/* {id === '3' && <PumpStirrer productId={productId} />} */}
                     {/* {id === '4' && <Safety productId={productId} />} */}
                 </ViewContent>
@@ -87,19 +84,19 @@ const Products = ({ id, productId }) => {
     );
 };
 
-Products.getInitialProps = async (context) => ({
+Shop.getInitialProps = async (context) => ({
     id: context.query.id,
     productId: context.query.productId,
 });
 
-Products.propTypes = {
+Shop.propTypes = {
     id: PropTypes.string,
     productId: PropTypes.string,
 };
 
-Products.defaultProps = {
+Shop.defaultProps = {
     id: null,
     productId: null,
 };
 
-export default Products;
+export default Shop;
