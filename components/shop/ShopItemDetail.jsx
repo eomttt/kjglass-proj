@@ -44,7 +44,7 @@ const DetailContentOptions = styled.div`
 `;
 
 const ShopItemDtail = ({
-    image, classify, title, content
+    image, classify, title, content,
 }) => (
     <>
         <Container>
@@ -74,7 +74,7 @@ ShopItemDtail.propTypes = {
     image: PropTypes.string.isRequired,
     classify: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    content: PropTypes.string.isRequired,
+    content: PropTypes.array.isRequired,
 };
 
 export default ShopItemDtail;
