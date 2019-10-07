@@ -11,7 +11,7 @@ export const lightGrayColor = '#8080802b';
 export const navBarHeight = '75px';
 export const footerHeight = '60px';
 
-export const sideBarWidth = '300px';
+export const sideBarWidth = '280px';
 
 export const mobileNavBar = '50px';
 

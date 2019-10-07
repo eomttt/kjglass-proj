@@ -7,6 +7,7 @@ import { subPoringColor } from '../../styles/style';
 
 const Container = styled.div`
     display: flex;
+    flex-direction: column;
     width: 100%;
 `;
 
@@ -16,15 +17,17 @@ const DetailContent = styled.div`
 `;
 
 const PrimaryImage = styled.div`
-    width: 50%;
+    width: 35%;
+    display: flex;
     padding: 15px;
     & img {
-        width: 100%;
+        margin: auto;
+        width: 80%;
     }
 `;
 
 const ProductContent = styled.div`
-    width: 50%;
+    width: 65%;
     padding-top: 15px;
 `;
 
@@ -40,11 +43,19 @@ const ProductText = styled.div`
 
 
 const DetailContentOptions = styled.div`
+    margin-top: 30px;
+`;
 
+const DetailTitle = styled.div`
+    margin-bottom: 20px;
+`;
+
+const DetailText = styled.div`
+    margin-bottom: 10px
 `;
 
 const ShopItemDtail = ({
-    image, classify, title, content,
+    image, title, content, specification,
 }) => (
     <>
         <Container>
@@ -59,22 +70,27 @@ const ShopItemDtail = ({
                     <ProductText>
                         {content}
                     </ProductText>
-                    <DetailContentOptions>
-                        {/* <ProductDetailOptions title={'Product Details'} items={detail} /> */}
-                        {/* <ProductDetailOptions title={'Application'} items={application} /> */}
-                        {/* <ProductDetailOptions title={'Specification'} items={specification} /> */}
-                    </DetailContentOptions>
                 </ProductContent>
             </DetailContent>
+            <DetailContentOptions>
+                <DetailTitle>
+                    {'Specification'}
+                </DetailTitle>
+                {
+                    specification.map((spec) => {
+                        return <DetailText>{`- ${spec.content}`}</DetailText>;
+                    })
+                }
+            </DetailContentOptions>
         </Container>
     </>
 );
 
 ShopItemDtail.propTypes = {
     image: PropTypes.string.isRequired,
-    classify: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     content: PropTypes.array.isRequired,
+    specification: PropTypes.array.isRequired,
 };
 
 export default ShopItemDtail;

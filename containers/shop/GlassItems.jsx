@@ -82,7 +82,6 @@ const GlassItems = ({ productId }) => {
 
     const getSelectedProduct = useCallback((id) => {
         return Object.values(products).filter((product) => {
-            console.log('cCC', product.id, id);
             return product.id === id;
         });
     }, [products]);
