@@ -9,6 +9,7 @@ import { subPointColor } from '../../styles/style';
 
 const Container = styled.div`
     display: flex;
+    flex-direction: column;
     width: 100%;
     flex-direction: column;
 `;
@@ -19,15 +20,17 @@ const DetailContent = styled.div`
 `;
 
 const PrimaryImage = styled.div`
-    width: 50%;
+    width: 35%;
+    display: flex;
     padding: 15px;
     & img {
-        width: 100%;
+        margin: auto;
+        width: 80%;
     }
 `;
 
 const ProductContent = styled.div`
-    width: 50%;
+    width: 65%;
     padding-top: 15px;
 `;
 
@@ -43,7 +46,15 @@ const ProductText = styled.div`
 
 
 const DetailContentOptions = styled.div`
+    margin-top: 30px;
+`;
 
+const DetailTitle = styled.div`
+    margin-bottom: 20px;
+`;
+
+const DetailText = styled.div`
+    margin-bottom: 10px
 `;
 
 const ShopItemDtail = ({
@@ -65,12 +76,14 @@ const ShopItemDtail = ({
                 </ProductContent>
             </DetailContent>
             <DetailContentOptions>
+                <DetailTitle>
+                    {'Specification'}
+                </DetailTitle>
                 {
-                    specification.map((item) => <ShopSpecification key={item.id} item={item} />)
+                    specification.map((spec) => {
+                        return <DetailText>{`- ${spec.content}`}</DetailText>;
+                    })
                 }
-                {/* <ProductDetailOptions title={'Product Details'} items={detail} /> */}
-                {/* <ProductDetailOptions title={'Application'} items={application} /> */}
-                {/* <ProductDetailOptions title={'Specification'} items={specification} /> */}
             </DetailContentOptions>
         </Container>
     </>
