@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styled from 'styled-components';
 
-import { subPoringColor } from '../../styles/style';
+import { subPointColor } from '../../styles/style';
 
 const Container = styled.div`
     padding: 30px;
@@ -13,7 +13,7 @@ const Content = styled.div`
 `;
 
 const Year = styled.div`
-    color: ${subPoringColor};
+    color: ${subPointColor};
     font-size: 25px;
     width: 30%;
     text-align: center;

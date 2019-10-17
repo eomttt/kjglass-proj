@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { subPoringColor } from '../../styles/style';
+import { subPointColor } from '../../styles/style';
 
 const Container = styled.div`
 `;
@@ -10,7 +10,7 @@ const Container = styled.div`
 const Selected = styled.div`
     color: white;
     padding: 15px 10px;
-    background-color: ${subPoringColor};
+    background-color: ${subPointColor};
 `;
 
 const Unselected = styled.div`

@@ -5,7 +5,7 @@ const common = css`
 `;
 
 export const pointColor = 'red';
-export const subPoringColor = '#384aa5';
+export const subPointColor = '#384aa5';
 export const lightGrayColor = '#8080802b';
 
 export const navBarHeight = '75px';
