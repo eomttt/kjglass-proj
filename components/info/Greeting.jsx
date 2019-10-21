@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-import { subPoringColor } from '../../styles/style';
+import { subPointColor } from '../../styles/style';
 
 const Container = styled.div`
     display: flex;
@@ -17,7 +17,7 @@ const Title = styled.div`
 
 const SubTitle = styled.div`
     font-size: 23px;
-    color: ${subPoringColor};
+    color: ${subPointColor};
     margin-bottom: 30px;
 `;
 

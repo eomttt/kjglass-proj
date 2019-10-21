@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import SideBarItemComponent from './SideBarItem';
 
-import { isMobile, sideBarWidth, subPoringColor } from '../../styles/style';
+import { isMobile, sideBarWidth, subPointColor } from '../../styles/style';
 
 const Container = styled.div`
     position: absolute;
@@ -24,7 +24,7 @@ const Item = styled.div`
 const Title = styled.div`
     font-size: 30px;
     text-align: center;
-    color: ${subPoringColor};
+    color: ${subPointColor};
     margin-top: 20px;
     margin-bottom: 20px;
 `;

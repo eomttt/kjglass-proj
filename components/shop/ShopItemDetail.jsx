@@ -5,12 +5,13 @@ import styled from 'styled-components';
 
 import ShopItemDetailInfo from '../../containers/shop/ShopItemDetailInfo';
 
-import { subPoringColor } from '../../styles/style';
+import { subPointColor } from '../../styles/style';
 
 const Container = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
+    flex-direction: column;
 `;
 
 const DetailContent = styled.div`
@@ -36,7 +37,7 @@ const ProductContent = styled.div`
 const ProductTitle = styled.div`
     font-size: 25px;
     margin-bottom: 20px;
-    color: ${subPoringColor}
+    color: ${subPointColor}
 `;
 
 const ProductText = styled.div`

@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { subPoringColor, isMobile } from '../../styles/style';
+import { subPointColor, isMobile } from '../../styles/style';
 
 const Container = styled.div`
     padding: 10px;
@@ -16,7 +16,7 @@ const Title = styled.div`
     font-size: 25px;
     font-weight: 500;
     & span {
-        color: ${subPoringColor}; 
+        color: ${subPointColor}; 
     }
 
     ${isMobile} {
@@ -26,7 +26,7 @@ const Title = styled.div`
 
 const Button = styled.div`
     margin-right: 0;
-    background-color: ${subPoringColor};
+    background-color: ${subPointColor};
     color: white;
     padding: 15px;
     cursor: pointer;
