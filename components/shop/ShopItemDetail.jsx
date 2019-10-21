@@ -76,7 +76,7 @@ const ShopItemDtail = ({
                     {'Specification'}
                 </DetailTitle>
                 {
-                    specification.map((spec) => <ShopItemDetailInfo specificationItem={spec} />)
+                    specification.map((spec) => <ShopItemDetailInfo key={spec.id} specificationItem={spec} />)
                 }
             </DetailContentOptions>
         </Container>

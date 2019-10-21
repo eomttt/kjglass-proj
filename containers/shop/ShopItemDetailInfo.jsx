@@ -1,26 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import PropTypes from 'prop-types';
 
 import ShopItemDetailInfoComp from '../../components/shop/ShopItemDetailInfo';
 
 const ShopItemDetailInfo = ({ specificationItem }) => {
-    const onChangeInputCount = () => {
+    const [count, setCount] = useState(0);
 
+    const onChangeInputCount = (e) => {
+        setCount(e.target.value);
     };
 
-    const onClickAddBascket = () => {
-
+    const onClickAddBascket = (id) => {
+        console.log('Click add bascket', id, count);
     };
 
     return (
-        <ShopItemDetailInfoComp onChangeInputCount={onChangeInputCount} 
-                                onClickAddBascket={onClickAddBascket} 
-                                content={specificationItem.content} />
+        <ShopItemDetailInfoComp
+            onChangeInputCount={onChangeInputCount}
+            onClickAddBascket={onClickAddBascket}
+            content={specificationItem.content}
+        />
     );
 };
 
-ShopItemDetailInfo.prototype = {
+ShopItemDetailInfo.propTypes = {
     specificationItem: PropTypes.object.isRequired,
 };
 
