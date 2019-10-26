@@ -1,4 +1,4 @@
-import { observable, action } from 'mobx';
+import { observable, action, toJS } from 'mobx';
 
 import dummyItems from '../dummy/glassItem';
 
@@ -7,11 +7,11 @@ export default class GlassItemStore {
 
   @action addBasket = (selectedId, specificationId, selectedCount) => {
       const findedItem = this.glassItems.filter((glassItem) => glassItem.id === selectedId)[0];
-      
       if (findedItem) {
-          const specificationItem = findedItem.specification.filter((specification) => specification.id === specificationId))[0];
+          const { specification } = findedItem;
+          const specificationItem = specification.filter((item) => item.id === specificationId);
 
-          specification && (specification.selected = true);
+          specificationItem
       }
   }
 }

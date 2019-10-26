@@ -1,7 +1,10 @@
 import React, { useState, useCallback, useEffect } from 'react';
+import { toJS } from 'mobx';
+import { observer } from 'mobx-react';
 
 import Router from 'next/router';
 import PropTypes from 'prop-types';
+import useStore from '../../hooks/useStore';
 
 import ShopItems from '../../components/shop/ShopItmes';
 
@@ -9,15 +12,19 @@ import ShopItemDetail from './ShopItemDetail';
 
 import dummyItems from '../../dummy/glassItem';
 
-const GlassItems = ({ productId }) => {
+const GlassItems = observer(({ productId }) => {
+    const { glass } = useStore();
+
+    useEffect(() => {
+        console.log('AAAA', toJS(glass.glassItems));
+    }, []);
+
     const [selectedProduct, setSelectedProduct] = useState(null);
     const [products] = useState(dummyItems);
 
-    const getSelectedProduct = useCallback((id) => {
-        return Object.values(products).filter((product) => {
+    const getSelectedProduct = useCallback((id) => Object.values(products).filter((product) => {
             return product.id === id;
-        });
-    }, [products]);
+        }), [products]);
 
     const clickProduct = useCallback((id) => {
         const selectedProductArr = getSelectedProduct(id);
@@ -45,7 +52,7 @@ const GlassItems = ({ productId }) => {
             }
         </>
     );
-};
+});
 
 GlassItems.propTypes = {
     productId: PropTypes.string,
