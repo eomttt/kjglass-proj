@@ -10,21 +10,12 @@ import ShopItems from '../../components/shop/ShopItmes';
 
 import ShopItemDetail from './ShopItemDetail';
 
-import dummyItems from '../../dummy/glassItem';
-
 const GlassItems = observer(({ productId }) => {
     const { glass } = useStore();
 
-    useEffect(() => {
-        console.log('AAAA', toJS(glass.glassItems));
-    }, []);
-
     const [selectedProduct, setSelectedProduct] = useState(null);
-    const [products] = useState(dummyItems);
 
-    const getSelectedProduct = useCallback((id) => Object.values(products).filter((product) => {
-            return product.id === id;
-        }), [products]);
+    const getSelectedProduct = useCallback((id) => Object.values(toJS(glass.glassItems)).filter((product) => product.id === id), [toJS(glass.glassItems)]);
 
     const clickProduct = useCallback((id) => {
         const selectedProductArr = getSelectedProduct(id);
@@ -48,7 +39,7 @@ const GlassItems = observer(({ productId }) => {
             {
                 productId
                     ? <ShopItemDetail product={selectedProduct} />
-                    : <ShopItems products={products} onClickProduct={clickProduct} />
+                    : <ShopItems products={toJS(glass.glassItems)} onClickProduct={clickProduct} />
             }
         </>
     );

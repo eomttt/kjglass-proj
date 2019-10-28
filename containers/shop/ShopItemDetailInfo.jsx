@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
+import { toJS } from 'mobx';
+import { observer } from 'mobx-react';
 
 import PropTypes from 'prop-types';
+import useStore from '../../hooks/useStore';
 
 import ShopItemDetailInfoComp from '../../components/shop/ShopItemDetailInfo';
 
-const ShopItemDetailInfo = ({ specificationItem }) => {
+const ShopItemDetailInfo = observer(({ specificationItem }) => {
+    const { bascket } = useStore();
     const [count, setCount] = useState(0);
 
     const onChangeInputCount = (e) => {
@@ -12,7 +16,7 @@ const ShopItemDetailInfo = ({ specificationItem }) => {
     };
 
     const onClickAddBascket = (id) => {
-        console.log('Click add bascket', id, count);
+        bascket.addBasket();
     };
 
     return (
@@ -22,7 +26,7 @@ const ShopItemDetailInfo = ({ specificationItem }) => {
             content={specificationItem.content}
         />
     );
-};
+});
 
 ShopItemDetailInfo.propTypes = {
     specificationItem: PropTypes.object.isRequired,
