@@ -54,7 +54,7 @@ const DetailTitle = styled.div`
 `;
 
 const ShopItemDtail = ({
-    image, title, content, specification,
+    type, id, image, title, content, specification,
 }) => (
     <>
         <Container>
@@ -76,7 +76,14 @@ const ShopItemDtail = ({
                     {'Specification'}
                 </DetailTitle>
                 {
-                    specification.map((spec) => <ShopItemDetailInfo key={spec.id} specificationItem={spec} />)
+                    specification.map((item) => (
+                        <ShopItemDetailInfo
+                            key={item.id}
+                            itemType={type}
+                            itemId={id}
+                            specificationItem={item}
+                        />
+                    ))
                 }
             </DetailContentOptions>
         </Container>
@@ -84,6 +91,8 @@ const ShopItemDtail = ({
 );
 
 ShopItemDtail.propTypes = {
+    type: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     content: PropTypes.array.isRequired,

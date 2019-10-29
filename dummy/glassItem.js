@@ -1,4 +1,5 @@
 const items = [{
+    type: 'glass',
     id: '1',
     image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2FKJ-A1_l.jpg?alt=media&token=1a70698e-a7ef-4ec9-b1fd-94fdd4297866',
     classify: 'Adapters',
@@ -25,6 +26,7 @@ const items = [{
         },
     ],
 }, {
+    type: 'glass',
     id: '2',
     image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2FKJ-A2_l.jpg?alt=media&token=4fb5ebed-29ba-43ea-8ccb-34211705efb6',
     classify: 'Adapters',
@@ -51,6 +53,7 @@ const items = [{
         },
     ],
 }, {
+    type: 'glass',
     id: '3',
     image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2FKJ-A3_l.jpg?alt=media&token=b491219f-762d-48a7-8717-76a7a926a89b',
     classify: 'Adapters',

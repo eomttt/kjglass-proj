@@ -3,17 +3,15 @@ import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 
-import GlassStore from '../stores/glass';
 import BascketStore from '../stores/bascket';
 
 import AppLayout from '../components/AppLayout';
 
-const glass = new GlassStore();
 const bascket = new BascketStore();
 
 const App = ({ Component, pageProps }) => (
     <>
-        <Provider glass={glass} bascket={bascket}>
+        <Provider bascket={bascket}>
             <Head>
                 <title>광진이화학 KJGLASS</title>
             </Head>

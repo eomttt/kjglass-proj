@@ -4,8 +4,7 @@ import Router from 'next/router';
 import PropTypes from 'prop-types';
 
 import ShopItems from '../../components/shop/ShopItmes';
-
-import ShopItemDetail from './ShopItemDetail';
+import ShopItemDetail from '../../components/shop/ShopItemDetail';
 
 import dummyItems from '../../dummy/expendablesItem';
 
@@ -39,8 +38,8 @@ const ExpendablesItems = ({ productId }) => {
     return (
         <>
             {
-                productId
-                    ? <ShopItemDetail product={selectedProduct} />
+                selectedProduct
+                    ? <ShopItemDetail {...selectedProduct} />
                     : <ShopItems products={products} onClickProduct={clickProduct} />
             }
         </>

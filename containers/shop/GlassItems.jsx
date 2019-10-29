@@ -7,8 +7,7 @@ import PropTypes from 'prop-types';
 import useStore from '../../hooks/useStore';
 
 import ShopItems from '../../components/shop/ShopItmes';
-
-import ShopItemDetail from './ShopItemDetail';
+import ShopItemDetail from '../../components/shop/ShopItemDetail';
 
 const GlassItems = observer(({ productId }) => {
     const { glass } = useStore();
@@ -37,8 +36,8 @@ const GlassItems = observer(({ productId }) => {
     return (
         <>
             {
-                productId
-                    ? <ShopItemDetail product={selectedProduct} />
+                selectedProduct
+                    ? <ShopItemDetail {...selectedProduct} />
                     : <ShopItems products={toJS(glass.glassItems)} onClickProduct={clickProduct} />
             }
         </>

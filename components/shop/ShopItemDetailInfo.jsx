@@ -44,7 +44,7 @@ const ButtonContainer = styled.div`
 `;
 
 const ShopItemDetailInfo = ({
-    id, content, onChangeInputCount, onClickAddBascket,
+    content, onChangeInputCount, onClickAddBascket,
 }) => (
     <Container>
         <Content>
@@ -52,8 +52,8 @@ const ShopItemDetailInfo = ({
         </Content>
         <InputContainer>
             <InputContent>
-                <input onChange={onChangeInputCount} placeholder={0} type={'number'} />
-                <ButtonContainer onClick={() => onClickAddBascket(id)}>
+                <input onChange={onChangeInputCount} placeholder={0} type="number" min="0" />
+                <ButtonContainer onClick={onClickAddBascket}>
                     {'장바구니'}
                 </ButtonContainer>
             </InputContent>
@@ -62,14 +62,12 @@ const ShopItemDetailInfo = ({
 );
 
 ShopItemDetailInfo.propTypes = {
-    id: PropTypes.string,
     content: PropTypes.string,
     onChangeInputCount: PropTypes.func.isRequired,
     onClickAddBascket: PropTypes.func.isRequired,
 };
 
 ShopItemDetailInfo.defaultProps = {
-    id: null,
     content: null,
 };
 
