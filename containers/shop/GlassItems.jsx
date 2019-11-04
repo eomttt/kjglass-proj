@@ -1,48 +1,18 @@
-import React, { useState, useCallback, useEffect } from 'react';
-import { toJS } from 'mobx';
-import { observer } from 'mobx-react';
+import React, { useState } from 'react';
 
-import Router from 'next/router';
 import PropTypes from 'prop-types';
-import useStore from '../../hooks/useStore';
 
-import ShopItems from '../../components/shop/ShopItmes';
-import ShopItemDetail from '../../components/shop/ShopItemDetail';
+import ShopItems from './ShopItems';
 
-const GlassItems = observer(({ productId }) => {
-    const { glass } = useStore();
+import dummyItems from '../../dummy/glassItem';
 
-    const [selectedProduct, setSelectedProduct] = useState(null);
-
-    const getSelectedProduct = useCallback((id) => Object.values(toJS(glass.glassItems)).filter((product) => product.id === id), [toJS(glass.glassItems)]);
-
-    const clickProduct = useCallback((id) => {
-        const selectedProductArr = getSelectedProduct(id);
-        setSelectedProduct(selectedProductArr[0]);
-
-        Router.push({
-            pathname: '/shop',
-            query: { id: '1', productId: selectedProductArr[0].id },
-        });
-    }, []);
-
-    useEffect(() => {
-        if (productId) {
-            const selectedProductArr = getSelectedProduct(productId);
-            setSelectedProduct(selectedProductArr[0]);
-        }
-    }, [productId]);
+const GlassItems = ({ productId }) => {
+    const [products] = useState(dummyItems);
 
     return (
-        <>
-            {
-                selectedProduct
-                    ? <ShopItemDetail {...selectedProduct} />
-                    : <ShopItems products={toJS(glass.glassItems)} onClickProduct={clickProduct} />
-            }
-        </>
+        <ShopItems shopId={'1'} products={products} productId={productId} />
     );
-});
+};
 
 GlassItems.propTypes = {
     productId: PropTypes.string,

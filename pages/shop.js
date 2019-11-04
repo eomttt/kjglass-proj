@@ -10,6 +10,7 @@ import SideBar from '../components/common/SideBar';
 import NavBar from '../containers/common/NavBar';
 import GlassItems from '../containers/shop/GlassItems';
 import ExpendablesItems from '../containers/shop/ExpendablesItems';
+import DownloadCatalog from '../containers/shop/DownloadCatalog';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
@@ -75,7 +76,7 @@ const Shop = ({ id, productId }) => {
                     />
                     {(!id || id === '1') && <GlassItems productId={productId} />}
                     {id === '2' && <ExpendablesItems productId={productId} />}
-                    {/* {id === '3' && <PumpStirrer productId={productId} />} */}
+                    {id === '3' && <DownloadCatalog productId={productId} />}
                     {/* {id === '4' && <Safety productId={productId} />} */}
                 </ViewContent>
             </ViewContainer>
