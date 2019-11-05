@@ -28,8 +28,10 @@ const NavBar = () => {
         });
     }, []);
 
-    const openProductInfo = useCallback(() => {
-
+    const openEquipment = useCallback(() => {
+        Router.push({
+            pathname: '/equipment',
+        });
     }, []);
 
     const openCustomerCenter = useCallback(() => {
@@ -43,7 +45,7 @@ const NavBar = () => {
             openInfo={openInfo}
             openProduct={openProduct}
             openProductSearch={openProductSearch}
-            openProductInfo={openProductInfo}
+            openProductInfo={openEquipment}
             openCustomerCenter={openCustomerCenter}
         />
     );

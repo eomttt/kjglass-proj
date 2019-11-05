@@ -6,25 +6,25 @@ import PropTypes from 'prop-types';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import SideBar from '../components/common/SideBar';
+import EquipmentComp from '../components/equipment/equipment';
+import GlassInfo from '../components/equipment/glassInfo';
+import GlassProcessing from '../components/equipment/glassProcessing';
 
 import NavBar from '../containers/common/NavBar';
-import GlassItems from '../containers/shop/GlassItems';
-import ExpendablesItems from '../containers/shop/ExpendablesItems';
-import DownloadCatalog from '../containers/shop/DownloadCatalog';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
-const Shop = ({ id, productId }) => {
+const Equipment = ({ id, productId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
-        text: '글라스',
+        text: '초자기구 세척법',
         id: 1,
         clicked: false,
     }, {
-        text: '소모품',
+        text: 'Glass 정보',
         id: 2,
         clicked: false,
     }, {
-        text: '카타로그 다운로드',
+        text: 'Glass 가공작업',
         id: 3,
         clicked: false,
     },
@@ -53,7 +53,7 @@ const Shop = ({ id, productId }) => {
     const clickSideItem = useCallback((itemId) => {
         setSelectedItem(itemId);
         Router.push({
-            pathname: '/shop',
+            pathname: '/equipment',
             query: { id: itemId },
         });
     }, [sideBarItems]);
@@ -65,14 +65,13 @@ const Shop = ({ id, productId }) => {
                 <Header />
                 <ViewContent>
                     <SideBar
-                        sideBarTitle={'제품검색'}
+                        sideBarTitle={'기자재정보'}
                         sideBarItems={sideBarItems}
                         clickSideItem={clickSideItem}
                     />
-                    {(!id || id === '1') && <GlassItems productId={productId} />}
-                    {id === '2' && <ExpendablesItems productId={productId} />}
-                    {id === '3' && <DownloadCatalog productId={productId} />}
-                    {/* {id === '4' && <Safety productId={productId} />} */}
+                    {(!id || id === '1') && <EquipmentComp productId={productId} />}
+                    {id === '2' && <GlassInfo productId={productId} />}
+                    {id === '3' && <GlassProcessing productId={productId} />}
                 </ViewContent>
             </ViewContainer>
             <Footer />
@@ -80,19 +79,19 @@ const Shop = ({ id, productId }) => {
     );
 };
 
-Shop.getInitialProps = async (context) => ({
+Equipment.getInitialProps = async (context) => ({
     id: context.query.id,
     productId: context.query.productId,
 });
 
-Shop.propTypes = {
+Equipment.propTypes = {
     id: PropTypes.string,
     productId: PropTypes.string,
 };
 
-Shop.defaultProps = {
+Equipment.defaultProps = {
     id: null,
     productId: null,
 };
 
-export default Shop;
+export default Equipment;
