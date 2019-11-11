@@ -8,7 +8,10 @@ const GlassInfo = () => {
     const [glassInfos] = useState(glassInfoDummy);
 
     const onClickGlassInfo = useCallback((id) => {
-        // TODO: Click event;
+        const clickedGlassInfo = Object.values(glassInfos).filter((glassInfo) => {
+            return glassInfo.id === id;
+        });
+        window.open(clickedGlassInfo[0].image);
     }, [glassInfos]);
 
     return (
