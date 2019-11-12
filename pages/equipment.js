@@ -7,10 +7,10 @@ import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import SideBar from '../components/common/SideBar';
 import EquipmentComp from '../components/equipment/equipment';
-import GlassProcessing from '../components/equipment/glassProcessing';
 
 import NavBar from '../containers/common/NavBar';
 import GlassInfo from '../containers/equipment/glassInfo';
+import GlassProcessing from '../containers/equipment/glassProcessings';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
