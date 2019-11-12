@@ -1,2 +1,9 @@
 node_modules/
 .next/
+
+.firebase/
+.firebaserc
+firebase.json
+public/
+storage.rules
+
