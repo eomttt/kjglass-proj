@@ -6,4 +6,4 @@ node_modules/
 firebase.json
 public/
 storage.rules
-
+database.rules.json
