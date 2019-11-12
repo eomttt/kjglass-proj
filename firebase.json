@@ -1,0 +1,29 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [{
+      "source": "/info",
+      "destination": "/info.html"
+    }, {
+      "source": "/equipment",
+      "destination": "/equipment.html"
+    }, {
+      "source": "products",
+      "destination": "/products.html"
+    }, {
+      "source": "shop",
+      "destination": "/shop.html"
+    }]
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

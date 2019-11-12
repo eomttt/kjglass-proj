@@ -86,9 +86,11 @@ const Info = ({ id }) => {
     );
 };
 
-Info.getInitialProps = async (context) => ({
-    id: context.query.id,
-});
+Info.getInitialProps = async (context) => {
+    return {
+        id: context.query.id,
+    };
+};
 
 Info.propTypes = {
     id: PropTypes.string,
