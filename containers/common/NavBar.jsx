@@ -35,7 +35,9 @@ const NavBar = () => {
     }, []);
 
     const openCustomerCenter = useCallback(() => {
-
+        Router.push({
+            pathname: '/customercenter',
+        });
     }, []);
 
 
