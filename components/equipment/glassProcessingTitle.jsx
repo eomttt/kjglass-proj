@@ -9,6 +9,12 @@ const GlassProcessingTitle = ({
 }) => {
     const Container = styled.div`
         background-color: ${isSelected ? subPointColor : 'white'};
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        padding: 10px 0;
+        color: ${isSelected ? 'white' : 'black'};
     `;
 
     return (
