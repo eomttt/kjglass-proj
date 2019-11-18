@@ -76,7 +76,7 @@ const ExperimentEquip = ({ productId }) => {
     return (
         <>
             {
-                productId
+                selectedProduct
                     ? <ProductDetail product={selectedProduct} />
                     : <Products products={products} onClickProduct={clickProduct} />
             }

@@ -13,7 +13,7 @@ import Contact from '../containers/customercenter/Contact';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
-const CustomerCenter = ({ id, productId }) => {
+const CustomerCenter = ({ id, noticeId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
         text: '공지사항',
         id: 1,
@@ -64,8 +64,8 @@ const CustomerCenter = ({ id, productId }) => {
                         sideBarItems={sideBarItems}
                         clickSideItem={clickSideItem}
                     />
-                    {(!id || id === '1') && <Notices productId={productId} />}
-                    {id === '2' && <Contact productId={productId} />}
+                    {(!id || id === '1') && <Notices noticeId={noticeId} />}
+                    {id === '2' && <Contact />}
                 </ViewContent>
             </ViewContainer>
             <Footer />
@@ -75,17 +75,17 @@ const CustomerCenter = ({ id, productId }) => {
 
 CustomerCenter.getInitialProps = async (context) => ({
     id: context.query.id,
-    productId: context.query.productId,
+    noticeId: context.query.noticeId,
 });
 
 CustomerCenter.propTypes = {
     id: PropTypes.string,
-    productId: PropTypes.string,
+    noticeId: PropTypes.string,
 };
 
 CustomerCenter.defaultProps = {
     id: null,
-    productId: null,
+    noticeId: null,
 };
 
 export default CustomerCenter;

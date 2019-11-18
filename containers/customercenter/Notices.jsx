@@ -1,18 +1,38 @@
-import React, { useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
+import PropTypes from 'prop-types';
+import Router from 'next/router';
 
 import NoticesComp from '../../components/customercenter/Notices';
 import NoticeComp from '../../components/customercenter/Notice';
 
 import dummy from '../../dummy/notices';
 
-const Notice = () => {
+const Notice = ({ noticeId }) => {
     const [notices] = useState(dummy);
     const [selectedNotice, setSelectedNotice] = useState(null);
 
-    const clickNotice = useCallback((noticeId) => {
-        const selected = Object.values(notices).filter((notice) => notice.id === noticeId);
-        setSelectedNotice(selected[0]);
+    const getSelectedNotice = useCallback((id) => {
+        return Object.values(notices).filter((notice) => {
+            return notice.id === id;
+        });
     }, [notices]);
+
+    const clickNotice = useCallback((id) => {
+        const selectedProductArr = getSelectedNotice(id);
+        setSelectedNotice(selectedProductArr[0]);
+
+        Router.push({
+            pathname: '/customercenter',
+            query: { id: '1', noticeId: selectedProductArr[0].id },
+        });
+    }, []);
+
+    useEffect(() => {
+        if (noticeId) {
+            const selectedProductArr = getSelectedNotice(noticeId);
+            setSelectedNotice(selectedProductArr[0]);
+        }
+    }, []);
 
     return (
         <>
@@ -23,6 +43,14 @@ const Notice = () => {
             }
         </>
     );
+};
+
+Notice.propTypes = {
+    noticeId: PropTypes.string,
+};
+
+Notice.defaultProps = {
+    noticeId: null,
 };
 
 export default Notice;
