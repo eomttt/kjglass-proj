@@ -8,11 +8,15 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 `;
 
 const Content = styled.div`
-
+    border: 1px solid black;
+    padding: 15px;
+    line-height: 25px;
 `;
 
 const Notice = ({ selectedNotice }) => (
@@ -20,9 +24,7 @@ const Notice = ({ selectedNotice }) => (
         <Title>
             {selectedNotice.title}
         </Title>
-        <Content>
-            {selectedNotice.content}
-        </Content>
+        <Content dangerouslySetInnerHTML={{ __html: selectedNotice.content }} />
     </Container>
 );
 
