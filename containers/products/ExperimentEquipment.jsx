@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import Products from '../../components/products/Products';
 
 // Container
-import ProductDetail from './ProductDetail'
+import ProductDetail from './ProductDetail';
 
 const ExperimentEquip = ({ productId }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);
@@ -76,7 +76,7 @@ const ExperimentEquip = ({ productId }) => {
     return (
         <>
             {
-                selectedProduct
+                (productId && selectedProduct)
                     ? <ProductDetail product={selectedProduct} />
                     : <Products products={products} onClickProduct={clickProduct} />
             }

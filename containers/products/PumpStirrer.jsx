@@ -93,7 +93,7 @@ const PumpStirrer = ({ productId }) => {
     return (
         <>
             {
-                selectedProduct
+                (productId && selectedProduct)
                     ? <ProductDetail product={selectedProduct} />
                     : <Products products={products} onClickProduct={clickProduct} />
             }

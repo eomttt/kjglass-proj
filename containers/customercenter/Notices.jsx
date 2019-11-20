@@ -37,7 +37,7 @@ const Notice = ({ noticeId }) => {
     return (
         <>
             {
-                selectedNotice
+                (noticeId && selectedNotice)
                     ? <NoticeComp selectedNotice={selectedNotice} />
                     : <NoticesComp notices={notices} clickNotice={clickNotice} />
             }

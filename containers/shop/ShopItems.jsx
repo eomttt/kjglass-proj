@@ -35,7 +35,7 @@ const ShopItems = ({ shopId, products, productId }) => {
     return (
         <>
             {
-                selectedProduct
+                (productId && selectedProduct)
                     ? <ShopItemDetailComp {...selectedProduct} />
                     : <ShopItemsComp products={products} onClickProduct={clickProduct} />
             }
