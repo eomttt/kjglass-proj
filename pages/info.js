@@ -64,6 +64,10 @@ const Info = ({ id }) => {
         });
     }, [sideBarItems]);
 
+    const clickMenu = () => {
+        
+    };
+
     return (
         <>
             <NavBar />
@@ -81,7 +85,7 @@ const Info = ({ id }) => {
                     {id === '4' && <Map />}
                 </ViewContent>
             </ViewContainer>
-            <Footer />
+            <Footer clickMenu={clickMenu} />
         </>
     );
 };

@@ -2,12 +2,15 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-import { subPointColor } from '../../styles/style';
+import { subPointColor, isMobile } from '../../styles/style';
 
 const Container = styled.div`
     display: flex;
     flex-direction: column;
     padding: 30px;
+    ${isMobile} {
+        padding: 0;
+    }
 `;
 
 const Title = styled.div`

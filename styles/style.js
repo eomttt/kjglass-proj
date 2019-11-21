@@ -29,6 +29,9 @@ export const ViewContent = styled.div`
     display: flex;
     position: relative;
     padding-left: ${sideBarWidth};
+    ${isMobile} {
+        padding: 0;        
+    }
 `;
 
 export const ItemContainer = styled.div`

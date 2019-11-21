@@ -63,6 +63,10 @@ const Text = styled.div`
     $ div {
         display: inline-block;
     }
+
+    ${isMobile} {
+        font-size: 12px;
+    }
 `;
 
 

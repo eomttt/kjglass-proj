@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { pointColor } from '../../styles/style';
+import { pointColor, isMobile } from '../../styles/style';
 
 import CiLogo from '../../lib/images/ci.png';
 
@@ -11,6 +11,10 @@ const Container = styled.div`
     text-align: center;
     & img {
         width: 700px;
+    }
+
+    ${isMobile} {
+        padding: 0;
     }
 `;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import {
@@ -45,6 +45,7 @@ const ImageContainer = styled.div`
     width: 15%;
 
     ${isMobile} {
+        width: 100%;
         margin: auto;
         height: 100%;
     }
@@ -61,8 +62,15 @@ const Image = styled.img`
     }
 `;
 
-const Footer = () => (
+const MenuContainer = styled.div`
+    position: absolute;
+`;
+
+const Footer = ({ clickMenu }) => (
     <Container>
+        <MenuContainer onClick={clickMenu}>
+            {'MENU'}
+        </MenuContainer>
         <ImageContainer>
             <Image src={Logo} />
         </ImageContainer>
@@ -79,5 +87,9 @@ const Footer = () => (
         </Content>
     </Container>
 );
+
+Footer.propTypes = {
+    clickMenu: PropTypes.func.isRequired,
+};
 
 export default Footer;
