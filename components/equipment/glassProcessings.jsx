@@ -22,6 +22,7 @@ const GlassProcessings = ({ glassProcessings, selectedProcessing, clickTitle }) 
                         text={item.title}
                         isSelected={isSelected(item.id)}
                         clickTitle={clickTitle}
+                        key={item.id}
                     />
                 ))
             }

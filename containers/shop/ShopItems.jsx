@@ -46,7 +46,11 @@ const ShopItems = ({ shopId, products, productId }) => {
 ShopItems.propTypes = {
     shopId: PropTypes.string.isRequired,
     products: PropTypes.array.isRequired,
-    productId: PropTypes.string.isRequired,
+    productId: PropTypes.string,
+};
+
+ShopItems.defaultProps = {
+    productId: null,
 };
 
 export default ShopItems;

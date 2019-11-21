@@ -36,7 +36,7 @@ const GlassInfo = ({ glassInfos, onClickGlassInfo }) => (
         </Title>
         {
             Object.values(glassInfos).map((glassInfo) => (
-                <Content onClick={() => onClickGlassInfo(glassInfo.id)}>{glassInfo.title}</Content>
+                <Content onClick={() => onClickGlassInfo(glassInfo.id)} key={glassInfo.id}>{glassInfo.title}</Content>
             ))
         }
     </Container>
