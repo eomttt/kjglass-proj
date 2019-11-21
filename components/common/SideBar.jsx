@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 import SideBarItemComponent from './SideBarItem';
 
-import { isMobile, sideBarWidth, subPointColor } from '../../styles/style';
+import { isMobile, sideBarWidth, subPointColor, footerHeight } from '../../styles/style';
 
 const Container = styled.div`
     position: absolute;
@@ -13,12 +13,19 @@ const Container = styled.div`
     width: ${sideBarWidth};
     height: 100%;
     ${isMobile} {
-        display: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: ${footerHeight};
+        background-color: black;
     }
 `;
 
 const Item = styled.div`
     cursor: pointer;
+    ${isMobile} {
+        display: none;
+    }
 `;
 
 const Title = styled.div`
@@ -27,6 +34,9 @@ const Title = styled.div`
     color: ${subPointColor};
     margin-top: 20px;
     margin-bottom: 20px;
+    ${isMobile} {
+        display: none;;
+    }
 `;
 
 const SideBar = ({ sideBarItems, sideBarTitle, clickSideItem }) => (

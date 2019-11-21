@@ -19,11 +19,7 @@ const Container = styled.div`
     z-index: 5;
 
     ${isMobile} {
-        height: ${mobileNavBar};
-        bottom: initial;
-        top: 0;
-        border-bottom: 1px solid ${pointColor};
-        border-top: initial;
+        display: none;
     }
 `;
 
@@ -33,44 +29,22 @@ const Content = styled.div`
     & div {
         font-size: 10px;
     }
-
-    ${isMobile} {
-        display: none;
-    }
 `;
 
 const ImageContainer = styled.div`
     cursor: pointer;
     display: flex;
     width: 15%;
-
-    ${isMobile} {
-        width: 100%;
-        margin: auto;
-        height: 100%;
-    }
 `;
 
 const Image = styled.img`
     width: 100%;
     max-width: 100px;
     margin: auto;
-    ${isMobile} {
-        width: auto;
-        height: 100%;
-        margin: auto;
-    }
 `;
 
-const MenuContainer = styled.div`
-    position: absolute;
-`;
-
-const Footer = ({ clickMenu }) => (
+const Footer = () => (
     <Container>
-        <MenuContainer onClick={clickMenu}>
-            {'MENU'}
-        </MenuContainer>
         <ImageContainer>
             <Image src={Logo} />
         </ImageContainer>
@@ -87,9 +61,5 @@ const Footer = ({ clickMenu }) => (
         </Content>
     </Container>
 );
-
-Footer.propTypes = {
-    clickMenu: PropTypes.func.isRequired,
-};
 
 export default Footer;
