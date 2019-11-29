@@ -55,7 +55,10 @@ const CustomerCenter = ({ id, noticeId }) => {
 
     return (
         <>
-            <NavBar />
+            <NavBar
+                sideMenuItems={sideBarItems}
+                clickSideItem={clickSideItem}
+            />
             <ViewContainer>
                 <Header />
                 <ViewContent>

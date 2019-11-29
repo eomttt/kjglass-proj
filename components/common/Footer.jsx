@@ -1,9 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import NavBarItems from '../../containers/common/NavBarItems';
+
 import {
-    pointColor, mobileNavBar, isMobile,
+    pointColor, isMobile, mobileNavBar,
 } from '../../styles/style';
 
 import Logo from '../../lib/images/logo.png';
@@ -17,10 +18,6 @@ const Container = styled.div`
     display: flex;
     text-align: center;
     z-index: 5;
-
-    ${isMobile} {
-        display: none;
-    }
 `;
 
 const Content = styled.div`
@@ -29,18 +26,35 @@ const Content = styled.div`
     & div {
         font-size: 10px;
     }
+
+    ${isMobile} {
+        display: none;
+    }
 `;
 
 const ImageContainer = styled.div`
     cursor: pointer;
     display: flex;
     width: 15%;
+    ${isMobile} {
+        display: none;
+    }
 `;
 
 const Image = styled.img`
     width: 100%;
     max-width: 100px;
     margin: auto;
+`;
+
+const Menu = styled.div`
+    display: none;
+    ${isMobile} {
+        display: flex;
+        height: ${mobileNavBar};
+        flex-direction: row;
+        width: 100%;
+    }
 `;
 
 const Footer = () => (
@@ -59,6 +73,9 @@ const Footer = () => (
                 {'COPYRIGHT @ 2017 Kwangjin Scientific Galss Ware Instruments , All rights reserved'}
             </div>
         </Content>
+        <Menu>
+            <NavBarItems />
+        </Menu>
     </Container>
 );
 

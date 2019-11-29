@@ -1,56 +1,58 @@
-import React, { useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import Router from 'next/router';
+import PropTypes from 'prop-types';
 
 import NavBarComponent from '../../components/common/NavBar';
+import SideBarItems from '../../components/common/SideBarItems';
+import PopupMenu from '../../components/common/PopupMenu';
 
-const NavBar = () => {
+import NavBarItems from './NavBarItems';
+
+const NavBar = ({ sideMenuItems, clickSideItem }) => {
+    const [isOpenSideMenu, setIsOpenSideMenu] = useState(false);
+
     const moveMainPage = useCallback(() => {
         Router.push({
             pathname: '/',
         });
     }, []);
 
-    const openInfo = useCallback(() => {
-        Router.push({
-            pathname: '/info',
-        });
+    const openSideMenu = useCallback(() => {
+        setIsOpenSideMenu(true);
     }, []);
 
-    const openProduct = useCallback(() => {
-        Router.push({
-            pathname: '/products',
-        });
+    const closeSideMenu = useCallback(() => {
+        setIsOpenSideMenu(false);
     }, []);
 
-    const openProductSearch = useCallback(() => {
-        Router.push({
-            pathname: '/shop',
-        });
+    const onClickSideItem = useCallback((itemId) => {
+        closeSideMenu();
+        clickSideItem(itemId);
     }, []);
-
-    const openEquipment = useCallback(() => {
-        Router.push({
-            pathname: '/equipment',
-        });
-    }, []);
-
-    const openCustomerCenter = useCallback(() => {
-        Router.push({
-            pathname: '/customercenter',
-        });
-    }, []);
-
 
     return (
-        <NavBarComponent
-            moveMainPage={moveMainPage}
-            openInfo={openInfo}
-            openProduct={openProduct}
-            openProductSearch={openProductSearch}
-            openProductInfo={openEquipment}
-            openCustomerCenter={openCustomerCenter}
-        />
+        <>
+            <NavBarComponent moveMainPage={moveMainPage} openSideMenu={openSideMenu}>
+                <NavBarItems />
+            </NavBarComponent>
+            {
+                isOpenSideMenu
+                && (
+                    <PopupMenu closePopup={closeSideMenu}>
+                        <SideBarItems
+                            sideBarItems={sideMenuItems}
+                            clickSideItem={onClickSideItem}
+                        />
+                    </PopupMenu>
+                )
+            }
+        </>
     );
+};
+
+NavBar.propTypes = {
+    sideMenuItems: PropTypes.array.isRequired,
+    clickSideItem: PropTypes.func.isRequired,
 };
 
 export default NavBar;

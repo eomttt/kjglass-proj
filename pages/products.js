@@ -67,7 +67,10 @@ const Products = ({ id, productId }) => {
 
     return (
         <>
-            <NavBar />
+            <NavBar
+                sideMenuItems={sideBarItems}
+                clickSideItem={clickSideItem}
+            />
             <ViewContainer>
                 <Header />
                 <ViewContent>

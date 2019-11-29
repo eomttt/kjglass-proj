@@ -3,26 +3,17 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import SideBarItemComponent from './SideBarItem';
+import SideBarItems from './SideBarItems';
 
-import { isMobile, sideBarWidth, subPointColor, footerHeight } from '../../styles/style';
+import {
+    isMobile, sideBarWidth, subPointColor,
+} from '../../styles/style';
 
 const Container = styled.div`
     position: absolute;
     left: 0;
     width: ${sideBarWidth};
     height: 100%;
-    ${isMobile} {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: ${footerHeight};
-        background-color: black;
-    }
-`;
-
-const Item = styled.div`
-    cursor: pointer;
     ${isMobile} {
         display: none;
     }
@@ -34,9 +25,6 @@ const Title = styled.div`
     color: ${subPointColor};
     margin-top: 20px;
     margin-bottom: 20px;
-    ${isMobile} {
-        display: none;;
-    }
 `;
 
 const SideBar = ({ sideBarItems, sideBarTitle, clickSideItem }) => (
@@ -44,13 +32,7 @@ const SideBar = ({ sideBarItems, sideBarTitle, clickSideItem }) => (
         <Title>
             {sideBarTitle}
         </Title>
-        {
-            sideBarItems && sideBarItems.map((sideBarItem) => (
-                <Item onClick={() => clickSideItem(sideBarItem.id)} key={sideBarItem.id}>
-                    <SideBarItemComponent item={sideBarItem} />
-                </Item>
-            ))
-        }
+        <SideBarItems sideBarItems={sideBarItems} clickSideItem={clickSideItem} />
     </Container>
 );
 

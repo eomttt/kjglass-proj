@@ -23,6 +23,9 @@ export const ViewContainer = styled.div`
     width: 90%;
     max-width: 1364px;
     margin: ${navBarHeight} auto ${footerHeight};
+    ${isMobile} {
+        margin: ${footerHeight} auto ${footerHeight};
+    }
 `;
 
 export const ViewContent = styled.div`

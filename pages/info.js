@@ -6,13 +6,12 @@ import PropTypes from 'prop-types';
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import SideBar from '../components/common/SideBar';
-
-import NavBar from '../containers/common/NavBar';
-
 import Ci from '../components/info/Ci';
 import Greeting from '../components/info/Greeting';
 import History from '../components/info/History';
 import Map from '../components/info/Map';
+
+import NavBar from '../containers/common/NavBar';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
@@ -64,13 +63,12 @@ const Info = ({ id }) => {
         });
     }, [sideBarItems]);
 
-    const clickMenu = () => {
-        
-    };
-
     return (
         <>
-            <NavBar />
+            <NavBar
+                sideMenuItems={sideBarItems}
+                clickSideItem={clickSideItem}
+            />
             <ViewContainer>
                 <Header />
                 <ViewContent>
@@ -85,7 +83,7 @@ const Info = ({ id }) => {
                     {id === '4' && <Map />}
                 </ViewContent>
             </ViewContainer>
-            <Footer clickMenu={clickMenu} />
+            <Footer />
         </>
     );
 };

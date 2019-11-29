@@ -3,11 +3,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import NavBarItems from '../../containers/common/NavBarItems';
+
 import common, {
-    pointColor, navBarHeight, footerHeight, isMobile,
+    pointColor, navBarHeight, mobileNavBar, isMobile,
 } from '../../styles/style';
 
 import Logo from '../../lib/images/logo.png';
+import MenuImage from '../../lib/images/menu.png';
 
 const Container = styled.div`
     ${common}
@@ -22,12 +25,15 @@ const Container = styled.div`
     z-index: 5;
 
     ${isMobile} {
-        height: ${footerHeight};
-        bottom: 0;
-        top: initial;
-        border-bottom: initial;
-        border-top: 1px solid ${pointColor};
+        height: ${mobileNavBar};
     }
+`;
+
+const Content = styled.div`
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
 `;
 
 const ImageContainer = styled.div`
@@ -36,7 +42,7 @@ const ImageContainer = styled.div`
     display: flex;
 
     ${isMobile} {
-        display: none;
+        width: 100%;
     }
 `;
 
@@ -51,50 +57,60 @@ const Menu = styled.div`
     display: flex;
 
     ${isMobile} {
-        width: 100%;
+        display: none;
     }
 `;
 
-const Text = styled.div`
-    width: 20%;
-    margin: auto;
-    text-align: center;
-    cursor: pointer;
-    $ div {
-        display: inline-block;
-    }
+const MenuIcon = styled.div`
+    display: none;
 
     ${isMobile} {
-        font-size: 12px;
+        display: block;
+        position: absolute;
+        width: 20%;
+        height: 100%;
+
+        & div {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+    
+        & img {
+            width: 20px;
+            margin: auto 10px;
+        }
     }
 `;
 
-
-const NavBar = ({
-    moveMainPage, openInfo, openProduct,
-    openProductSearch, openProductInfo, openCustomerCenter,
-}) => (
+const NavBar = ({ moveMainPage, openSideMenu }) => (
     <Container>
-        <ImageContainer onClick={moveMainPage}>
-            <Image src={Logo} />
-        </ImageContainer>
-        <Menu>
-            <Text onClick={openInfo}><div>{'회사소개'}</div></Text>
-            <Text onClick={openProduct}><div>{'주요제품'}</div></Text>
-            <Text onClick={openProductSearch}><div>{'제품검색'}</div></Text>
-            <Text onClick={openProductInfo}><div>{'기자재정보'}</div></Text>
-            <Text onClick={openCustomerCenter}><div>{'고객센터'}</div></Text>
-        </Menu>
+        <Content>
+            <MenuIcon
+                onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    openSideMenu();
+                }}
+            >
+                <div>
+                    <img src={MenuImage} alt={'Menu'} />
+                </div>
+            </MenuIcon>
+            <ImageContainer onClick={moveMainPage}>
+                <Image src={Logo} />
+            </ImageContainer>
+            <Menu>
+                <NavBarItems />
+            </Menu>
+        </Content>
     </Container>
 );
 
 NavBar.propTypes = {
     moveMainPage: PropTypes.func.isRequired,
-    openInfo: PropTypes.func.isRequired,
-    openProduct: PropTypes.func.isRequired,
-    openProductSearch: PropTypes.func.isRequired,
-    openProductInfo: PropTypes.func.isRequired,
-    openCustomerCenter: PropTypes.func.isRequired,
+    openSideMenu: PropTypes.func.isRequired,
 };
 
 export default NavBar;

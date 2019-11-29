@@ -60,7 +60,10 @@ const Shop = ({ id, productId }) => {
 
     return (
         <>
-            <NavBar />
+            <NavBar
+                sideMenuItems={sideBarItems}
+                clickSideItem={clickSideItem}
+            />
             <ViewContainer>
                 <Header />
                 <ViewContent>
