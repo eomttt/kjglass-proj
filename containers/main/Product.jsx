@@ -1,4 +1,5 @@
 import React from 'react';
+import Router from 'next/router';
 
 import PropTypes from 'prop-types';
 
@@ -6,7 +7,9 @@ import ProductComponent from '../../components/main/Product';
 
 const Product = ({ product }) => {
     const onClickProduct = () => {
-        console.log('Click product');
+        Router.push({
+            pathname: '/shop',
+        });
     };
 
     return (

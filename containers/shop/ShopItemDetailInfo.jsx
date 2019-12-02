@@ -1,6 +1,5 @@
 /* eslint-disable no-alert */
 import React, { useState } from 'react';
-import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 
 import PropTypes from 'prop-types';

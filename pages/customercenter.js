@@ -10,6 +10,7 @@ import SideBar from '../components/common/SideBar';
 import NavBar from '../containers/common/NavBar';
 import Notices from '../containers/customercenter/Notices';
 import Contact from '../containers/customercenter/Contact';
+import Basket from '../containers/customercenter/Basket';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
@@ -22,8 +23,11 @@ const CustomerCenter = ({ id, noticeId }) => {
         text: '견적문의',
         id: 2,
         clicked: false,
-    },
-    ]);
+    }, {
+        text: '장바구니',
+        id: 3,
+        clicked: false,
+    }]);
 
     const setSelectedItem = useCallback((sideId) => {
         const sideBarIds = Object.values(sideBarItems).map((sideBarItem) => {
@@ -69,6 +73,7 @@ const CustomerCenter = ({ id, noticeId }) => {
                     />
                     {(!id || id === '1') && <Notices noticeId={noticeId} />}
                     {id === '2' && <Contact />}
+                    {id === '3' && <Basket />}
                 </ViewContent>
             </ViewContainer>
             <Footer />

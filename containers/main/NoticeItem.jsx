@@ -1,4 +1,5 @@
 import React from 'react';
+import Router from 'next/router';
 
 import PropTypes from 'prop-types';
 
@@ -6,7 +7,13 @@ import NoticeItemComponent from '../../components/main/NoticeItem';
 
 const NoticeItem = ({ notice }) => {
     const onClickNotice = () => {
-        console.log('Click notice id', notice.id);
+        Router.push({
+            pathname: '/customercenter',
+            query: {
+                id: '1',
+                noticeId: String(notice.id),
+            },
+        });
     };
 
     return (

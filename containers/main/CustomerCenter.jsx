@@ -1,11 +1,17 @@
 import React, { useCallback } from 'react';
+import Router from 'next/router';
 
 import ItemTitle from '../../components/main/ItemTitle';
 import CustmoerCenterComponent from '../../components/main/CustomerCenter';
 
 const CustmoerCenter = () => {
     const onClick = useCallback(() => {
-        console.log('Click customer center');
+        Router.push({
+            pathname: '/customercenter',
+            query: {
+                id: '2',
+            },
+        });
     }, []);
 
     return (
