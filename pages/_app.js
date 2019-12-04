@@ -4,14 +4,16 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 
 import BascketStore from '../stores/bascket';
+import ItemsStore from '../stores/items';
 
 import AppLayout from '../components/AppLayout';
 
-const bascket = new BascketStore();
+const bascketStore = new BascketStore();
+const itemsStore = new ItemsStore();
 
 const App = ({ Component, pageProps }) => (
     <>
-        <Provider bascket={bascket}>
+        <Provider bascketStore={bascketStore} itemsStore={itemsStore}>
             <Head>
                 <title>광진이화학 KJGLASS</title>
             </Head>

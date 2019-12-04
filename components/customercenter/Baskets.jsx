@@ -13,16 +13,26 @@ const Container = styled.div`
     flex-direction: column;
 `;
 
+const Title = styled.div`
+    color: ${subPointColor};
+`;
+
 const Baskets = ({ glassItems, expendableItems }) => (
     <Container>
         <>
+            <Title>
+                {'글라스'}
+            </Title>
             {
-                glassItems.map((glassItem) => <Basket item={glassItem} key={glassItem.id} />)
+                glassItems.map((glassItem) => <Basket type={'glasses'} item={glassItem} key={`${glassItem.id}glassesType`} />)
             }
         </>
         <>
+            <Title>
+                {'소모품'}
+            </Title>
             {
-                expendableItems.map((expendableItem) => <Basket item={expendableItem} key={expendableItem.id} />)
+                expendableItems.map((expendableItem) => <Basket type={'expendables'} item={expendableItem} key={`${expendableItem.id}expendablesType`} />)
             }
         </>
     </Container>

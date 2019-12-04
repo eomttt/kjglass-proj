@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Basket = ({ item }) => {
-    console.log('Basekt', item);
+const Basket = ({ type, item }) => {
+    console.log('DDD', item, type);
     return (
         <>
             {item.content}
@@ -11,6 +11,7 @@ const Basket = ({ item }) => {
 };
 
 Basket.propTypes = {
+    type: PropTypes.string.isRequired,
     item: PropTypes.object.isRequired,
 };
 

@@ -6,11 +6,14 @@ import useStore from '../../hooks/useStore';
 import BasketsComp from '../../components/customercenter/Baskets';
 
 const Basket = () => {
-    const { bascket } = useStore();
+    const { bascketStore } = useStore();
+    const { glassItems } = toJS(bascketStore);
+
+    console.log('Bascket item', glassItems);
 
     return (
-        toJS(bascket) &&
-        <BasketsComp glassItems={toJS(bascket).glassItems.glass} expendableItems={toJS(bascket).glassItems.expendable} />
+        toJS(bascketStore)
+        && <BasketsComp glassItems={glassItems.glass} expendableItems={glassItems.expendable} />
     );
 };
 

@@ -1,16 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 
+import { toJS } from 'mobx';
 import PropTypes from 'prop-types';
+import useStore from '../../hooks/useStore';
 
 import ShopItems from './ShopItems';
 
-import dummyItems from '../../dummy/expendablesItem';
-
 const ExpendablesItems = ({ productId }) => {
-    const [products] = useState(dummyItems);
+    const { itemsStore } = useStore();
+    const { items } = toJS(itemsStore);
 
     return (
-        <ShopItems shopId={'2'} products={products} productId={productId} />
+        <>
+            {
+                items
+                && <ShopItems shopId={'2'} products={items.expendables} productId={productId} />
+            }
+        </>
     );
 };
 

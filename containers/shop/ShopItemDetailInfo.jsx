@@ -8,7 +8,7 @@ import useStore from '../../hooks/useStore';
 import ShopItemDetailInfoComp from '../../components/shop/ShopItemDetailInfo';
 
 const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem }) => {
-    const { bascket } = useStore();
+    const { bascketStore } = useStore();
     const [count, setCount] = useState(0);
 
     const onChangeInputCount = (e) => {
@@ -20,7 +20,7 @@ const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem }) =>
             alert(' 1개 이상으로 선택해주세요');
             return;
         }
-        bascket.addBasket({
+        bascketStore.addBasket({
             type: itemType,
             itemId,
             specificatinoItemId: specificationItem.id,
