@@ -7,16 +7,21 @@ const Container = styled.div`
 `;
 
 const Basket = ({ item }) => {
-    console.log('Basket item', item);
-    const { count, selectedItem, selectedSpecificItem } = item;
+    if (item) {
+        const { count, selectedItem, selectedSpecificItem } = item;
+        return (
+            <Container>
+                <img src={selectedItem.image} alt={'basket'} />
+                {selectedItem.content[0]}
+                {selectedSpecificItem.content}
+                {`Count: ${count}`}
+            </Container>
+        );
+    }
+
     return (
-        <Container>
-            <img src={selectedItem.image} alt={'basket'} />
-            {selectedItem.content[0]}
-            {selectedSpecificItem.content}
-            {`Count: ${count}`}
-        </Container>
-    );
+        <></>
+    )
 };
 
 Basket.propTypes = {

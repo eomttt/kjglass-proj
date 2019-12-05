@@ -7,10 +7,8 @@ import BasketComp from '../../components/customercenter/Basket';
 
 const Basket = ({ type, item }) => {
     const { itemsStore } = useStore();
-    const [basketItem, setBasketItem] = useState({});
+    const [basketItem, setBasketItem] = useState();
     const { count } = item;
-
-    console.log('eee', count);
 
     useEffect(() => {
         console.log('START')
