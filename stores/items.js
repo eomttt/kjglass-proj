@@ -15,8 +15,5 @@ export default class ItemsStore {
         } = params;
 
         const selectedItems = this.items[type];
-        return selectedItems.filter((selectedItem) => {
-          return selectedItem.id === itemId,
-        })[0];
     }
 }
