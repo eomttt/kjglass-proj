@@ -1,17 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
-const Basket = ({ type, item }) => {
-    console.log('DDD', item, type);
+const Container = styled.div`
+
+`;
+
+const Basket = ({ item }) => {
+    console.log('Basket item', item);
+    const { count, selectedItem, selectedSpecificItem } = item;
     return (
-        <>
-            {item.content}
-        </>
-    )
+        <Container>
+            <img src={selectedItem.image} alt={'basket'} />
+            {selectedItem.content[0]}
+            {selectedSpecificItem.content}
+            {`Count: ${count}`}
+        </Container>
+    );
 };
 
 Basket.propTypes = {
-    type: PropTypes.string.isRequired,
     item: PropTypes.object.isRequired,
 };
 

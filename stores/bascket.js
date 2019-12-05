@@ -8,13 +8,13 @@ export default class BaskestStore {
 
   @action addBasket = (params) => {
       const {
-          type, itemId, count, specificatinoItemId,
+          type, itemId, count, specificationItemId,
       } = params;
 
       this.glassItems[type].push({
           itemId,
           count,
-          specificatinoItemId,
+          specificationItemId,
       });
   }
 }

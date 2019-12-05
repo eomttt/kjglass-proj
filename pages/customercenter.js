@@ -10,7 +10,7 @@ import SideBar from '../components/common/SideBar';
 import NavBar from '../containers/common/NavBar';
 import Notices from '../containers/customercenter/Notices';
 import Contact from '../containers/customercenter/Contact';
-import Basket from '../containers/customercenter/Basket';
+import Baskets from '../containers/customercenter/Baskets';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
@@ -73,7 +73,7 @@ const CustomerCenter = ({ id, noticeId }) => {
                     />
                     {(!id || id === '1') && <Notices noticeId={noticeId} />}
                     {id === '2' && <Contact />}
-                    {id === '3' && <Basket />}
+                    {id === '3' && <Baskets />}
                 </ViewContent>
             </ViewContainer>
             <Footer />

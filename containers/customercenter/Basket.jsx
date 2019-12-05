@@ -1,20 +1,39 @@
-import React from 'react';
-import { toJS } from 'mobx';
+import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 
 import useStore from '../../hooks/useStore';
 
-import BasketsComp from '../../components/customercenter/Baskets';
+import BasketComp from '../../components/customercenter/Basket';
 
-const Basket = () => {
-    const { bascketStore } = useStore();
-    const { glassItems } = toJS(bascketStore);
+const Basket = ({ type, item }) => {
+    const { itemsStore } = useStore();
+    const [basketItem, setBasketItem] = useState({});
+    const { count } = item;
 
-    console.log('Bascket item', glassItems);
+    console.log('eee', count);
+
+    useEffect(() => {
+        console.log('START')
+        const itemInfo = itemsStore.getItemInfo({
+            type,
+            itemId: item.itemId,
+            specificationId: item.specificationItemId,
+        });
+        console.log('Item info', itemInfo);
+        setBasketItem({
+            ...itemInfo,
+            count,
+        });
+    }, []);
 
     return (
-        toJS(bascketStore)
-        && <BasketsComp glassItems={glassItems.glass} expendableItems={glassItems.expendable} />
+        <BasketComp item={basketItem} />
     );
+};
+
+Basket.propTypes = {
+    type: PropTypes.string.isRequired,
+    item: PropTypes.object.isRequired,
 };
 
 export default Basket;

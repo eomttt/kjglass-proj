@@ -23,7 +23,7 @@ const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem }) =>
         bascketStore.addBasket({
             type: itemType,
             itemId,
-            specificatinoItemId: specificationItem.id,
+            specificationItemId: specificationItem.id,
             count,
         });
         alert('장바구니에 저장되었습니다. 장바구니를 통해 확인해주세요');
