@@ -21,7 +21,7 @@ const Basket = ({ item }) => {
 
     return (
         <></>
-    )
+    );
 };
 
 Basket.propTypes = {

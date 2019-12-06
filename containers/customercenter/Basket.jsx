@@ -11,13 +11,12 @@ const Basket = ({ type, item }) => {
     const { count } = item;
 
     useEffect(() => {
-        console.log('START')
         const itemInfo = itemsStore.getItemInfo({
             type,
             itemId: item.itemId,
             specificationId: item.specificationItemId,
         });
-        console.log('Item info', itemInfo);
+        
         setBasketItem({
             ...itemInfo,
             count,
