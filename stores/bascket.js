@@ -1,4 +1,4 @@
-import { observable, action } from 'mobx';
+import { observable, action, toJS } from 'mobx';
 
 export default class BaskestStore {
   @observable glassItems = {
@@ -11,10 +11,39 @@ export default class BaskestStore {
           type, itemId, count, specificationItemId,
       } = params;
 
-      this.glassItems[type].push({
-          itemId,
-          count,
-          specificationItemId,
-      });
+      const findedItem = this.glassItems[type].filter((item) => {
+          const toJSItem = toJS(item);
+
+          if (toJSItem.itemId === itemId) {
+              if (toJSItem.specificationItemId === specificationItemId) {
+                  return true;
+              }
+          }
+          return false;
+      })[0];
+
+      console.log('findedItem', toJS(findedItem));
+      if (toJS(findedItem)) {
+          this.glassItems[type] = this.glassItems[type].map((item) => {
+              const toJSItem = toJS(item);
+
+              if (toJSItem.itemId === itemId) {
+                  if (toJSItem.specificationItemId === specificationItemId) {
+                      return {
+                          itemId: item.itemId,
+                          count: Number(item.count) + Number(count),
+                          specificationItemId: item.specificationItemId,
+                      };
+                  }
+              }
+              return item;
+          });
+      } else {
+          this.glassItems[type].push({
+              itemId,
+              count,
+              specificationItemId,
+          });
+      }
   }
 }
