@@ -16,7 +16,7 @@ import { ViewContainer, ViewContent } from '../styles/style';
 
 const CustomerCenter = ({ id, noticeId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
-        text: '공지사항',
+        text: '공지사항',
         id: 1,
         clicked: false,
     }, {

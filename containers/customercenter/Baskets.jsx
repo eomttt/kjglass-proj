@@ -1,6 +1,7 @@
 import React from 'react';
 import Router from 'next/router';
 import { toJS } from 'mobx';
+import { observer } from 'mobx-react';
 
 import useStore from '../../hooks/useStore';
 
@@ -56,4 +57,4 @@ const Baskets = () => {
     );
 };
 
-export default Baskets;
+export default observer(Baskets);
