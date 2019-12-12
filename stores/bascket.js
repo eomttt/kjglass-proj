@@ -22,7 +22,6 @@ export default class BaskestStore {
           return false;
       })[0];
 
-      console.log('findedItem', toJS(findedItem));
       if (toJS(findedItem)) {
           this.glassItems[type] = this.glassItems[type].map((item) => {
               const toJSItem = toJS(item);
@@ -45,5 +44,36 @@ export default class BaskestStore {
               specificationItemId,
           });
       }
+  }
+
+  @action removeBasket = (params) => {
+      const {
+          type, itemId, specificationItemId,
+      } = params;
+
+      const findedItem = this.glassItems[type].filter((item) => {
+          const toJSItem = toJS(item);
+
+          if (toJSItem.itemId === itemId) {
+              if (toJSItem.specificationItemId === specificationItemId) {
+                  return true;
+              }
+          }
+          return false;
+      })[0];
+
+      if (toJS(findedItem)) {
+          this.glassItems[type] = this.glassItems[type].filter((item) => {
+              const toJSItem = toJS(item);
+
+              if (toJSItem.itemId === itemId) {
+                  if (toJSItem.specificationItemId === specificationItemId) {
+                      return false;
+                  }
+              }
+              return true;
+          });
+      }
+      console.log('this.glassItems[type]', toJS(this.glassItems[type]));
   }
 }

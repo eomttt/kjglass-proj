@@ -10,8 +10,6 @@ const Baskets = () => {
     const { bascketStore, itemsStore } = useStore();
     const { glassItems } = toJS(bascketStore);
 
-    console.log('Glass items', glassItems);
-
     const convertItem = (items, type) => items.map((item) => {
         const itemInfo = itemsStore.getItemInfo({
             type,
@@ -35,7 +33,15 @@ const Baskets = () => {
             },
         });
         // console.log('itemInfo', itemInfo);
-    }
+    };
+
+    const onClickRemove = (selectedItem, selectedSpecificItem) => {
+        bascketStore.removeBasket({
+            type: selectedItem.type,
+            itemId: selectedItem.id,
+            specificationItemId: selectedSpecificItem.id,
+        });
+    };
 
     return (
         toJS(bascketStore)
@@ -43,6 +49,7 @@ const Baskets = () => {
             <BasketsComp
                 glassItems={convertItem(glassItems.glass, 'glasses')}
                 expendableItems={convertItem(glassItems.expendable, 'expendables')}
+                onClickRemove={onClickRemove}
                 openItem={openItem}
             />
         )

@@ -7,7 +7,7 @@ import Basket from './Basket';
 import { subPointColor } from '../../styles/style';
 
 const Container = styled.div`
-    margin: 10px;
+    margin: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ const Title = styled.div`
     color: ${subPointColor};
 `;
 
-const Baskets = ({ glassItems, expendableItems, openItem }) => (
+const Baskets = ({ glassItems, expendableItems, openItem, onClickRemove }) => (
     <Container>
         <Content>
             <Title>
@@ -33,6 +33,7 @@ const Baskets = ({ glassItems, expendableItems, openItem }) => (
                         <Basket
                             type={'glasses'}
                             item={glassItem}
+                            onClickRemove={onClickRemove}
                         />
                     </div>
                 ))
@@ -48,6 +49,7 @@ const Baskets = ({ glassItems, expendableItems, openItem }) => (
                         <Basket
                             type={'expendables'}
                             item={expendableItem}
+                            onClickRemove={onClickRemove}
                         />
                     </div>
                 ))
@@ -60,6 +62,7 @@ Baskets.propTypes = {
     glassItems: PropTypes.array.isRequired,
     expendableItems: PropTypes.array.isRequired,
     openItem: PropTypes.func.isRequired,
+    onClickRemove: PropTypes.func.isRequired,
 };
 
 export default Baskets;
