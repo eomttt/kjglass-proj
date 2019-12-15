@@ -44,11 +44,11 @@ const ButtonContainer = styled.div`
 `;
 
 const ShopItemDetailInfo = ({
-    content, onChangeInputCount, onClickAddBascket,
+    content, number, onChangeInputCount, onClickAddBascket,
 }) => (
     <Container>
         <Content>
-            {`- ${content}`}
+            {`${number}: ${content}`}
         </Content>
         <InputContainer>
             <InputContent>
@@ -62,12 +62,14 @@ const ShopItemDetailInfo = ({
 );
 
 ShopItemDetailInfo.propTypes = {
+    number: PropTypes.string,
     content: PropTypes.string,
     onChangeInputCount: PropTypes.func.isRequired,
     onClickAddBascket: PropTypes.func.isRequired,
 };
 
 ShopItemDetailInfo.defaultProps = {
+    number: null,
     content: null,
 };
 

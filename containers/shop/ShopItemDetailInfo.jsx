@@ -34,6 +34,7 @@ const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem }) =>
             onChangeInputCount={onChangeInputCount}
             onClickAddBascket={onClickAddBascket}
             content={specificationItem.content}
+            number={specificationItem.number}
         />
     );
 });

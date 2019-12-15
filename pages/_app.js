@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
@@ -11,18 +11,24 @@ import AppLayout from '../components/AppLayout';
 const bascketStore = new BascketStore();
 const itemsStore = new ItemsStore();
 
-const App = ({ Component, pageProps }) => (
-    <>
-        <Provider bascketStore={bascketStore} itemsStore={itemsStore}>
-            <Head>
-                <title>광진이화학 KJGLASS</title>
-            </Head>
-            <AppLayout>
-                <Component {...pageProps} />
-            </AppLayout>
-        </Provider>
-    </>
-);
+const App = ({ Component, pageProps }) => {
+    useEffect(() => {
+        bascketStore.initBasket();
+    }, []);
+
+    return (
+        <>
+            <Provider bascketStore={bascketStore} itemsStore={itemsStore}>
+                <Head>
+                    <title>광진이화학 KJGLASS</title>
+                </Head>
+                <AppLayout>
+                    <Component {...pageProps} />
+                </AppLayout>
+            </Provider>
+        </>
+    );
+};
 
 App.getInitialProps = async (context) => {
     const { ctx, Component } = context;

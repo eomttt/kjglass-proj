@@ -6,6 +6,16 @@ export default class BaskestStore {
       expendable: [],
   };
 
+  @action initBasket = () => {
+      const glassLocalStorageItems = JSON.parse(localStorage.getItem('glass'));
+      const expendableLocalStorageItems = JSON.parse(localStorage.getItem('expendable'));
+
+      this.glassItems = {
+          glass: glassLocalStorageItems || [],
+          expendable: expendableLocalStorageItems || [],
+      };
+  }
+
   @action addBasket = (params) => {
       const {
           type, itemId, count, specificationItemId,
@@ -44,6 +54,8 @@ export default class BaskestStore {
               specificationItemId,
           });
       }
+
+      localStorage.setItem(type, JSON.stringify(toJS(this.glassItems[type])));
   }
 
   @action removeBasket = (params) => {
@@ -74,6 +86,5 @@ export default class BaskestStore {
               return true;
           });
       }
-      console.log('this.glassItems[type]', toJS(this.glassItems[type]));
   }
 }

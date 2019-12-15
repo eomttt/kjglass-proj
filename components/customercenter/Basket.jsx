@@ -17,8 +17,7 @@ const Container = styled.div`
 `;
 
 const Content = styled.div`
-    margin-left: auto;
-    margin-top: auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
 `;
@@ -32,9 +31,10 @@ const Delete = styled.div`
 `;
 
 const Count = styled.div`
-    margin-top: 10px;
-    margin-left: auto;
+    position: absolute;
     text-decoration: underline;
+    bottom: 0;
+    right: 0;
     font-size: 20px;
     color: ${subPointColor};
 `;
@@ -61,10 +61,7 @@ const Basket = ({ item, onClickRemove }) => {
                         {'삭제'}
                     </Delete>
                     <div>
-                        {selectedItem.content[0]}
-                    </div>
-                    <div>
-                        {selectedSpecificItem.content}
+                        {`${selectedSpecificItem.number}: ${selectedSpecificItem.content}`}
                     </div>
                     <Count>
                         {`갯수: ${count}`}
