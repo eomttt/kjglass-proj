@@ -14,7 +14,7 @@ app.prepare().then(() => {
     server.use(express.json());
     server.use(express.urlencoded({ extended: true }));
 
-    server.listen(prod ? process.env.PORT : 3060, () => {
-        console.log(`next+express running on port ${prod ? process.env.PORT : 3060}`);
+    server.listen(prod ? process.env.PORT : 3000, () => {
+        console.log(`next+express running on port ${prod ? process.env.PORT : 3000}`);
     });
 });
