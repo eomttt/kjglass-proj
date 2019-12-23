@@ -7,13 +7,14 @@ import ShopItemsComp from '../../components/shop/ShopItmes';
 import ShopItemDetailComp from '../../components/shop/ShopItemDetail';
 
 const ShopItems = ({ shopId, products, productId }) => {
+    const [sortedProducts, setSortedProducts] = useState(products);
     const [selectedProduct, setSelectedProduct] = useState(null);
 
-    const getSelectedProduct = useCallback((id) => {
-        return Object.values(products).filter((product) => {
+    const getSelectedProduct = useCallback((id) => Object.values(products).filter((product) => {
+        if (product) {
             return product.id === id;
-        });
-    }, [products]);
+        }
+    }), [products]);
 
     const clickProduct = useCallback((id) => {
         const selectedProductArr = getSelectedProduct(id);
@@ -32,12 +33,49 @@ const ShopItems = ({ shopId, products, productId }) => {
         }
     }, [productId]);
 
+    const sortByTitle = () => {
+        const newProducts = [...products];
+        newProducts.sort((a, b) => {
+            if (a.title < b.title) {
+                return -1;
+            }
+            if (a.title > b.title) {
+                return 1;
+            }
+            return 0;
+        });
+
+        setSortedProducts(newProducts);
+    };
+
+    const sortByClassify = () => {
+        const newProducts = [...products];
+        newProducts.sort((a, b) => {
+            if (a.classify < b.classify) {
+                return -1;
+            }
+            if (a.classify > b.classify) {
+                return 1;
+            }
+            return 0;
+        });
+
+        setSortedProducts(newProducts);
+    };
+
     return (
         <>
             {
                 (productId && selectedProduct)
                     ? <ShopItemDetailComp {...selectedProduct} />
-                    : <ShopItemsComp products={products} onClickProduct={clickProduct} />
+                    : (
+                        <ShopItemsComp
+                            products={sortedProducts}
+                            onClickProduct={clickProduct}
+                            sortByTitle={sortByTitle}
+                            sortByClassify={sortByClassify}
+                        />
+                    )
             }
         </>
     );
