@@ -76,7 +76,7 @@ const ShopItemDtail = ({
                     {'Specification'}
                 </DetailTitle>
                 {
-                    specification.map((item) => (
+                    specification && specification.map((item) => (
                         <ShopItemDetailInfo
                             key={item.id}
                             itemType={type}

@@ -1,2844 +1,11428 @@
-const items = [
-    {
-        type: 'glass',
-        id: '1',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F1.jpg?alt=media&token=bdf7b40f-70b1-48d3-bc75-0b2f82339e18',
-        classify: 'Adapters',
-        title: 'Bent distillation',
-        content: [
-            'bent 105˚ angle with a outer joint at top',
-        ],
-        specification: [
-            {
+const items = {
+    glass: [
+        {
+            classify: 'Adapters',
+            content: ['bent 105˚ angle with a outer joint at top'],
+            id: '1',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F1.jpg?alt=media&token=6e07689e-2b3f-4005-b1eb-f83231c7e4c5',
+            specification: [{
+                content: 'Adapter Bent Distillation 14/20',
                 id: '1',
                 number: 'KJ-A1-1',
                 selected: false,
-                content: 'Adapter Bent Distillation 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 24/40',
                 id: '2',
                 number: 'KJ-A1-2',
                 selected: false,
-                content: 'Adapter Bent Distillation 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 19/38',
                 id: '3',
                 number: 'KJ-A1-3',
                 selected: false,
-                content: 'Adapter Bent Distillation 19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 29/42',
                 id: '4',
                 number: 'KJ-A1-4',
                 selected: false,
-                content: 'Adapter Bent Distillation 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 34/45',
                 id: '5',
                 number: 'KJ-A1-5',
                 selected: false,
-                content: 'Adapter Bent Distillation 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '2',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F2.jpg?alt=media&token=ae470811-de2e-46f2-9c0b-f0706df13fcb',
-        classify: 'Adapters',
-        title: 'Bent distillation',
-        content: [
-            'outer joint at 105˚ angle with inner joint at bottom',
-        ],
-        specification: [
-            {
+            }],
+            title: 'Bent distillation',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            content: ['outer joint at 105˚ angle with inner joint at bottom'],
+            id: '2',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F2.jpg?alt=media&token=835bafbc-e7fd-488b-ba13-1450c156d48c',
+            specification: [{
+                content: 'Adapter Bent Distillation 14/20',
                 id: '1',
                 number: 'KJ-A2-1',
                 selected: false,
-                content: 'Adapter Bent Distillation 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 24/40',
                 id: '2',
                 number: '         KJ-A2-2',
                 selected: false,
-                content: 'Adapter Bent Distillation 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 29/42',
                 id: '3',
                 number: 'KJ-A2-3',
                 selected: false,
-                content: 'Adapter Bent Distillation 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 34/45',
                 id: '4',
                 number: 'KJ-A2-4',
                 selected: false,
-                content: 'Adapter Bent Distillation 34/45',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 19/38',
                 id: '5',
                 number: 'KJ-A2-5',
                 selected: false,
-                content: 'Adapter Bent Distillation 19/38',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '3',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F3.jpg?alt=media&token=26a3b7c6-810d-4c19-af20-03a1a9b675a5',
-        classify: 'Adapters',
-        title: 'Bent distillation',
-        content: [
-            '75˚ angle with inner joint each end',
-        ],
-        specification: [
-            {
+            }],
+            title: 'Bent distillation',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            content: ['75˚ angle with inner joint each end'],
+            id: '3',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F3.jpg?alt=media&token=0664c4fe-f0f8-46cd-827d-ce27138417fa',
+            specification: [{
+                content: 'Adapter Bent Distillation 14/20',
                 id: '1',
                 number: 'KJ-A3-1',
                 selected: false,
-                content: 'Adapter Bent Distillation 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 24/40',
                 id: '2',
                 number: '         KJ-A3-2',
                 selected: false,
-                content: 'Adapter Bent Distillation 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 34/45',
                 id: '3',
                 number: 'KJ-A3-3',
                 selected: false,
-                content: 'Adapter Bent Distillation 34/45',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 19/38',
                 id: '4',
                 number: '         KJ-A3-4',
                 selected: false,
-                content: 'Adapter Bent Distillation 19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Distillation 29/42',
                 id: '5',
                 number: 'KJ-A3-5',
                 selected: false,
-                content: 'Adapter Bent Distillation 29/42',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '4',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F4.jpg?alt=media&token=05082d9e-4d98-4730-9143-27168342d592',
-        classify: 'Adapters',
-        title: 'Vent jacket',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Bent distillation',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '4',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F4.jpg?alt=media&token=2d1ff2d1-b7c7-4fb5-ab3e-885d45d1f685',
+            specification: [{
+                content: 'Adapter Bent Jacket 14/20',
                 id: '1',
                 number: '         KJ-A4-1',
                 selected: false,
-                content: 'Adapter Bent Jacket 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Jacket 24/40',
                 id: '2',
                 number: '         KJ-A4-2',
                 selected: false,
-                content: 'Adapter Bent Jacket 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Jacket 34/45',
                 id: '3',
                 number: '         KJ-A4-3',
                 selected: false,
-                content: 'Adapter Bent Jacket 34/45',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Jacket 19/38',
                 id: '4',
                 number: 'KJ-A4-4',
                 selected: false,
-                content: 'Adapter Bent Jacket 19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Bent Jacket 29/42',
                 id: '5',
                 number: 'KJ-A4-5',
                 selected: false,
-                content: 'Adapter Bent Jacket 29/42',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '5',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F5.jpg?alt=media&token=e112acee-7bc2-4156-9469-41705accdd6f',
-        classify: 'Adapters',
-        title: 'Claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Vent jacket',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '5',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F5.jpg?alt=media&token=8c8339e1-8418-4080-9c2f-89b896548a2e',
+            specification: [{
+                content: 'Adapter Claisen 14/20,14/20',
                 id: '1',
                 number: 'KJ-A5-1',
                 selected: false,
-                content: 'Adapter Claisen 14/20,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,14/20',
                 id: '2',
                 number: 'KJ-A5-2',
                 selected: false,
-                content: 'Adapter Claisen 24/40,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 14/20,10/20',
                 id: '3',
                 number: '         KJ-A5-3',
                 selected: false,
-                content: 'Adapter Claisen 14/20,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,10/20',
                 id: '4',
                 number: 'KJ-A5-4',
                 selected: false,
-                content: 'Adapter Claisen 24/40,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 19/28,10/20',
                 id: '5',
                 number: 'KJ-A5-5',
                 selected: false,
-                content: 'Adapter Claisen 19/28,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 29/42,10/20',
                 id: '6',
                 number: 'KJ-A5-6',
                 selected: false,
-                content: 'Adapter Claisen 29/42,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 34/45,10/20',
                 id: '7',
                 number: 'KJ-A5-7',
                 selected: false,
-                content: 'Adapter Claisen 34/45,10/20',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '6',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F6.jpg?alt=media&token=48180d99-f1a9-4e9e-9578-84a3db7d187f',
-        classify: 'Adapters',
-        title: 'Claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Claisen',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '6',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F6.jpg?alt=media&token=2a1380ab-80cb-4df3-ad66-a9aec8d117fc',
+            specification: [{
+                content: 'ter Claisen 14/20',
                 id: '1',
                 number: '         KJ-A6-1',
                 selected: false,
-                content: 'ter Claisen 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40',
                 id: '2',
                 number: '         KJ-A6-2',
                 selected: false,
-                content: 'Adapter Claisen 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 19/38',
                 id: '3',
                 number: 'KJ-A6-3',
                 selected: false,
-                content: 'Adapter Claisen 19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 29/42',
                 id: '4',
                 number: '         KJ-A6-4',
                 selected: false,
-                content: 'Adapter Claisen 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 34/45',
                 id: '5',
                 number: '         KJ-A6-5',
                 selected: false,
-                content: 'Adapter Claisen 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '7',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F7.jpg?alt=media&token=6f402208-54c2-405e-94e9-efde9f223def',
-        classify: 'Adapters',
-        title: 'Claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Claisen',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '7',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F7.jpg?alt=media&token=14ccf111-b0d1-44b1-9c90-92a062a8a770',
+            specification: [{
+                content: 'Adapter Claisen 14/20',
                 id: '1',
                 number: '         KJ-A7-1',
                 selected: false,
-                content: 'Adapter Claisen 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40',
                 id: '2',
                 number: '         KJ-A7-2',
                 selected: false,
-                content: 'Adapter Claisen 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 19/38',
                 id: '3',
                 number: '         KJ-A7-3',
                 selected: false,
-                content: 'Adapter Claisen 19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 29/42',
                 id: '4',
                 number: '         KJ-A7-4',
                 selected: false,
-                content: 'Adapter Claisen 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 34/45',
                 id: '5',
                 number: 'KJ-A7-5',
                 selected: false,
-                content: 'Adapter Claisen 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '8',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F8.jpg?alt=media&token=485d2222-1fdc-4d0c-a996-57b625f2f0aa',
-        classify: 'Adapters',
-        title: 'Claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Claisen',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '8',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F8.jpg?alt=media&token=25fb19d6-3876-478b-b152-1664ed0b5b48',
+            specification: [{
+                content: 'Adapter Claisen 24/40,10/20,10/30',
                 id: '1',
                 number: '         KJ-A8-1',
                 selected: false,
-                content: 'Adapter Claisen 24/40,10/20,10/30',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,14/20',
                 id: '2',
                 number: '         KJ-A8-2',
                 selected: false,
-                content: 'Adapter Claisen 24/40,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 14/40,10/20',
                 id: '3',
                 number: '         KJ-A8-3',
                 selected: false,
-                content: 'Adapter Claisen 14/40,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 14/20,14/20',
                 id: '4',
                 number: '         KJ-A8-4',
                 selected: false,
-                content: 'Adapter Claisen 14/20,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,24/40',
                 id: '5',
                 number: '         KJ-A8-5',
                 selected: false,
-                content: 'Adapter Claisen 24/40,24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '9',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F9.jpg?alt=media&token=d82f424f-fe46-4e6e-b249-68e2416be713',
-        classify: 'Adapters',
-        title: 'Claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Claisen',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '9',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F9.jpg?alt=media&token=2b691d05-8939-48ea-bed9-06d41a3cfa2b',
+            specification: [{
+                content: 'Adapter Claisen 14/20,10/20',
                 id: '1',
                 number: '         KJ-A9-1',
                 selected: false,
-                content: 'Adapter Claisen 14/20,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 14/20,14/20',
                 id: '2',
                 number: 'KJ-A9-2',
                 selected: false,
-                content: 'Adapter Claisen 14/20,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,10/20',
                 id: '3',
                 number: '         KJ-A9-3',
                 selected: false,
-                content: 'Adapter Claisen 24/40,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,14/20',
                 id: '4',
                 number: '         KJ-A9-4',
                 selected: false,
-                content: 'Adapter Claisen 24/40,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,24/40',
                 id: '5',
                 number: 'KJ-A9-5',
                 selected: false,
-                content: 'Adapter Claisen 24/40,24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '10',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F10.jpg?alt=media&token=c6e867aa-0705-413f-b1c7-8cb97cfc48ef',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Claisen',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '10',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F10.jpg?alt=media&token=8601d3ec-700f-4b81-8401-caa1dfc9585c',
+            specification: [{
+                content: 'Adapter Connecting 14/20',
                 id: '1',
                 number: '         KJ-A10-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40',
                 id: '2',
                 number: 'KJ-A10-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 19/38',
                 id: '3',
                 number: 'KJ-A10-3',
                 selected: false,
-                content: 'Adapter Connecting 19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 29/42',
                 id: '4',
                 number: '         KJ-A10-4',
                 selected: false,
-                content: 'Adapter Connecting 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45',
                 id: '5',
                 number: 'KJ-A10-5',
                 selected: false,
-                content: 'Adapter Connecting 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '11',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F11.jpg?alt=media&token=ea5c4f38-6e57-412e-9ed4-59e4e9b36a99',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '11',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F11.jpg?alt=media&token=a443aec3-8026-4c50-8196-3cd3011da3ea',
+            specification: [{
+                content: 'Adapter Connecting 10/30-14/20',
                 id: '1',
                 number: '         KJ-A11-1',
                 selected: false,
-                content: 'Adapter Connecting 10/30-14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 10/30-24/40',
                 id: '2',
                 number: '         KJ-A11-2',
                 selected: false,
-                content: 'Adapter Connecting 10/30-24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 14/20-10/30',
                 id: '3',
                 number: 'KJ-A11-3',
                 selected: false,
-                content: 'Adapter Connecting 14/20-10/30',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 14/20-24/40',
                 id: '4',
                 number: 'KJ-A11-4',
                 selected: false,
-                content: 'Adapter Connecting 14/20-24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40-14/20',
                 id: '5',
                 number: 'KJ-A11-5',
                 selected: false,
-                content: 'Adapter Connecting 24/40-14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40-34/45',
                 id: '6',
                 number: '         KJ-A11-6',
                 selected: false,
-                content: 'Adapter Connecting 24/40-34/45',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40-45/50',
                 id: '7',
                 number: '         KJ-A11-7',
                 selected: false,
-                content: 'Adapter Connecting 24/40-45/50',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40-50/50',
                 id: '8',
                 number: '         KJ-A11-8',
                 selected: false,
-                content: 'Adapter Connecting 24/40-50/50',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45-24/40',
                 id: '9',
                 number: 'KJ-A11-9',
                 selected: false,
-                content: 'Adapter Connecting 34/45-24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 45/50-24/40',
                 id: '10',
                 number: '         KJ-A11-10',
                 selected: false,
-                content: 'Adapter Connecting 45/50-24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 14/20-19/38',
                 id: '11',
                 number: 'KJ-A11-11',
                 selected: false,
-                content: 'Adapter Connecting 14/20-19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 19/38-14/20',
                 id: '12',
                 number: '         KJ-A11-12',
                 selected: false,
-                content: 'Adapter Connecting 19/38-14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40-29/42',
                 id: '13',
                 number: '         KJ-A11-13',
                 selected: false,
-                content: 'Adapter Connecting 24/40-29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 29/42-24/40',
                 id: '14',
                 number: 'KJ-A11-14',
                 selected: false,
-                content: 'Adapter Connecting 29/42-24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/40-45/50',
                 id: '15',
                 number: 'KJ-A11-15',
                 selected: false,
-                content: 'Adapter Connecting 34/40-45/50',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45-50/50',
                 id: '16',
                 number: '         KJ-A11-16',
                 selected: false,
-                content: 'Adapter Connecting 34/45-50/50',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '12',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F12.jpg?alt=media&token=91a285d5-e3e4-41e1-8707-d01095addee8',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '12',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F12.jpg?alt=media&token=f01b2486-036f-4289-b3e8-bae48e9499ac',
+            specification: [{
+                content: 'Adapter Connecting 14/20,10/20',
                 id: '1',
                 number: '         KJ-A12-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 14/20,14/20',
                 id: '2',
                 number: 'KJ-A12-2',
                 selected: false,
-                content: 'Adapter Connecting 14/20,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40,10/20',
                 id: '3',
                 number: '         KJ-A12-3',
                 selected: false,
-                content: 'Adapter Connecting 24/40,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40,14/20',
                 id: '4',
                 number: 'KJ-A12-4',
                 selected: false,
-                content: 'Adapter Connecting 24/40,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40,24/40',
                 id: '5',
                 number: '         KJ-A12-5',
                 selected: false,
-                content: 'Adapter Connecting 24/40,24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '13',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F13.jpg?alt=media&token=651f0441-21e9-4aea-855c-64ed7075f618',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '13',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F13.jpg?alt=media&token=11855b8d-3b3f-46e1-91e1-f3626bf544b8',
+            specification: [{
+                content: 'Adapter Connecting 14/20',
                 id: '1',
                 number: 'KJ-A13-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40',
                 id: '2',
                 number: 'KJ-A13-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 19/38',
                 id: '3',
                 number: 'KJ-A13-3',
                 selected: false,
-                content: 'Adapter Connecting 19/38',
-            },
-            {
+            }, {
+                content: 'apter Connecting 29/42',
                 id: '4',
                 number: 'KJ-A13-4',
                 selected: false,
-                content: 'apter Connecting 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45',
                 id: '5',
                 number: 'KJ-A13-5',
                 selected: false,
-                content: 'Adapter Connecting 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '14',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F14.jpg?alt=media&token=609b33b6-512a-446a-9014-57a1d6c2147e',
-        classify: 'Adapters',
-        title: 'Distilling',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '14',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F14.jpg?alt=media&token=b5933d39-a6ee-4552-8211-7593d9d597e9',
+            specification: [{
+                content: 'Adapter Distillating 14/20',
                 id: '1',
                 number: '         KJ-A14-1',
                 selected: false,
-                content: 'Adapter Distillating 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 24/40',
                 id: '2',
                 number: 'KJ-A14-2',
                 selected: false,
-                content: 'Adapter Distillating 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 29/42',
                 id: '3',
                 number: '         KJ-A14-3',
                 selected: false,
-                content: 'Adapter Distillating 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 34/45',
                 id: '4',
                 number: '         KJ-A14-4',
                 selected: false,
-                content: 'Adapter Distillating 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '15',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F15.jpg?alt=media&token=0b9018c0-878a-4e6a-bec6-afc165eac792',
-        classify: 'Adapters',
-        title: 'Distilling',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Distilling',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '15',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F15.jpg?alt=media&token=3b6e73bd-bdf1-4575-8b56-15db35831bb3',
+            specification: [{
+                content: 'Adapter Distillating 14/20',
                 id: '1',
                 number: 'KJ-A15-1',
                 selected: false,
-                content: 'Adapter Distillating 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 24/40',
                 id: '2',
                 number: 'KJ-A15-2',
                 selected: false,
-                content: 'Adapter Distillating 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 29/42',
                 id: '3',
                 number: 'KJ-A15-3',
                 selected: false,
-                content: 'Adapter Distillating 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 34/45',
                 id: '4',
                 number: '         KJ-A15-4',
                 selected: false,
-                content: 'Adapter Distillating 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '16',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F16.jpg?alt=media&token=b5b6d6f3-66c7-4a07-9102-00fe40f2acfb',
-        classify: 'Adapters',
-        title: 'Distilling',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Distilling',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '16',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F16.jpg?alt=media&token=a284f016-6cd3-481d-ab21-5a12d6dcbdb1',
+            specification: [{
+                content: 'Adapter Distillating 14/20,10/20',
                 id: '1',
                 number: '         KJ-A16-1',
                 selected: false,
-                content: 'Adapter Distillating 14/20,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 14/20,14/20',
                 id: '2',
                 number: 'KJ-A16-2',
                 selected: false,
-                content: 'Adapter Distillating 14/20,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 24/40,10/20',
                 id: '3',
                 number: '         KJ-A16-3',
                 selected: false,
-                content: 'Adapter Distillating 24/40,10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Distillating 24/40,14/20',
                 id: '4',
                 number: 'KJ-A16-4',
                 selected: false,
-                content: 'Adapter Distillating 24/40,14/20',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '17',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F17.jpg?alt=media&token=cc3a9bad-ac1e-456c-ac56-3756a3b720a3',
-        classify: 'Adapters',
-        title: 'Vacuum filtration',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Distilling',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '17',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F17.jpg?alt=media&token=fb2b13b0-d555-47d7-9fc3-9d02c79e2086',
+            specification: [{
+                content: 'Adapter Vacuum Filteration 14/20',
                 id: '1',
                 number: '         KJ-A17-1',
                 selected: false,
-                content: 'Adapter Vacuum Filteration 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Vacuum Filteration 24/40',
                 id: '2',
                 number: 'KJ-A17-2',
                 selected: false,
-                content: 'Adapter Vacuum Filteration 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '18',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F18.jpg?alt=media&token=377e87bd-9429-479a-a144-5196a094ac86',
-        classify: 'Adapters',
-        title: 'Flow control, Glass Plug',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Vacuum filtration',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '18',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F18.jpg?alt=media&token=c05eb2ea-66fd-46fc-a4e4-17eb69ba2037',
+            specification: [{
+                content: 'Adapter Flow Control 14/20 G/C',
                 id: '1',
                 number: '         KJ-A18-1',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 G/C',
                 id: '2',
                 number: 'KJ-A18-2',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 14/20 외산G/C',
                 id: '3',
                 number: '         KJ-A18-3',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 외산G/C',
                 id: '4',
                 number: 'KJ-A18-4',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 외산G/C',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '19',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F19.jpg?alt=media&token=6c99400a-be00-41a6-82fb-e17356f42f31',
-        classify: 'Adapters',
-        title: 'Flow control, PTFE Plug',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Flow control, Glass Plug',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '19',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F19.jpg?alt=media&token=c1378e39-8bd8-4e85-b8e6-701c014c0fc5',
+            specification: [{
+                content: 'Adapter Flow Control 14/20 T/C',
                 id: '1',
                 number: '         KJ-A19-1',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 T/C',
                 id: '2',
                 number: 'KJ-A19-2',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 14/20 외산T/C',
                 id: '3',
                 number: '         KJ-A19-3',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 외산T/C',
                 id: '4',
                 number: '         KJ-A19-4',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 외산T/C',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '20',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F20.jpg?alt=media&token=70720ebc-d36e-4cda-9f1e-90650d71d230',
-        classify: 'Adapters',
-        title: 'Flow control',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Flow control, PTFE Plug',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '20',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F20.jpg?alt=media&token=976a4e47-37ae-406a-b2ae-a8d027c2afcf',
+            specification: [{
+                content: 'Adapter Flow Control 14/20 G/C',
                 id: '1',
                 number: '         KJ-A20-1',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 G/C',
                 id: '2',
                 number: '         KJ-A20-2',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 14/20 T/C',
                 id: '3',
                 number: '         KJ-A20-3',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 T/C',
                 id: '4',
                 number: 'KJ-A20-4',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 14/20 외산G/C',
                 id: '5',
                 number: '         KJ-A20-5',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 외산G/C',
                 id: '6',
                 number: '         KJ-A20-6',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 14/20 외산T/C',
                 id: '7',
                 number: '         KJ-A20-7',
                 selected: false,
-                content: 'Adapter Flow Control 14/20 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Flow Control 24/40 외산T/C',
                 id: '8',
                 number: '         KJ-A20-8',
                 selected: false,
-                content: 'Adapter Flow Control 24/40 외산T/C',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '21',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F21.jpg?alt=media&token=0124e9c4-b6e5-4fd5-a451-a054f0247200',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Flow control',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '21',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F21.jpg?alt=media&token=53007d6f-037b-4d9a-82d3-6cd4ff9b5a2b',
+            specification: [{
+                content: 'Adapter Inlet 14/20',
                 id: '1',
                 number: 'KJ-A21-1',
                 selected: false,
-                content: 'Adapter Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 24/40',
                 id: '2',
                 number: '         KJ-A21-2',
                 selected: false,
-                content: 'Adapter Inlet 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '22',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F22.jpg?alt=media&token=830029d4-2d1a-432e-9301-d8752e228c28',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '22',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F22.jpg?alt=media&token=c98d07f3-6f52-46d3-a9ee-4b3728ad4ef7',
+            specification: [{
+                content: 'Adapter Inlet 14/20',
                 id: '1',
                 number: '         KJ-A22-1',
                 selected: false,
-                content: 'Adapter Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 24/40',
                 id: '2',
                 number: '         KJ-A22-2',
                 selected: false,
-                content: 'Adapter Inlet 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '23',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F23.jpg?alt=media&token=fcbde592-b58f-4ef4-a2b4-f1d9873e981f',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '23',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F23.jpg?alt=media&token=506a6cb5-b82a-48d0-a965-7534d776b268',
+            specification: [{
+                content: 'pter Inlet 14/20',
                 id: '1',
                 number: '         KJ-A23-1',
                 selected: false,
-                content: 'pter Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 24/40',
                 id: '2',
                 number: '         KJ-A23-2',
                 selected: false,
-                content: 'Adapter Inlet 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '24',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F24.jpg?alt=media&token=abe3cc57-293e-4356-b57b-51ff4e67816c',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '24',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F24.jpg?alt=media&token=5a39e535-9842-417a-b0ca-6bbd90c1578d',
+            specification: [{
+                content: 'Adapter Inlet 14/20',
                 id: '1',
                 number: 'KJ-A24-1',
                 selected: false,
-                content: 'Adapter Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 24/40',
                 id: '2',
                 number: '         KJ-A24-2',
                 selected: false,
-                content: 'Adapter Inlet 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '25',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F25.jpg?alt=media&token=1a4995a6-474f-4524-9a92-5d8b5678489f',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '25',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F25.jpg?alt=media&token=59765cba-808a-4b77-803c-05e6f1e05ee9',
+            specification: [{
+                content: 'Adapter Inlet 14/20',
                 id: '1',
                 number: '         KJ-A25-1',
                 selected: false,
-                content: 'Adapter Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 24/40',
                 id: '2',
                 number: 'KJ-A25-2',
                 selected: false,
-                content: 'Adapter Inlet 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '26',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F26.jpg?alt=media&token=94fd4a36-3de2-4d0c-989d-523b77df1324',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '26',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F26.jpg?alt=media&token=1b67490f-86cc-4ddc-a764-097cfb227d90',
+            specification: [{
+                content: 'Adapter R:7mm',
                 id: '1',
                 number: 'KJ-A26-1',
                 selected: false,
-                content: 'Adapter R:7mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '27',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F27.jpg?alt=media&token=71903781-b041-4159-862a-105517dedccf',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '27',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F27.jpg?alt=media&token=a1a0d859-ab3e-4023-b6bf-5811fdae20b2',
+            specification: [{
+                content: 'Adapter Inlet 10/20',
                 id: '1',
                 number: '         KJ-A27-1',
                 selected: false,
-                content: 'Adapter Inlet 10/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 10/30',
                 id: '2',
                 number: '         KJ-A27-2',
                 selected: false,
-                content: 'Adapter Inlet 10/30',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 14/20',
                 id: '3',
                 number: '         KJ-A27-3',
                 selected: false,
-                content: 'Adapter Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 24/40',
                 id: '4',
                 number: '         KJ-A27-4',
                 selected: false,
-                content: 'Adapter Inlet 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '28',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F28.jpg?alt=media&token=10159d9b-c676-4f75-9299-f23a42a84a81',
-        classify: 'Adapters',
-        title: 'Innet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '28',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F28.jpg?alt=media&token=1f136e56-b7fd-484c-aebd-e7239a9c4a59',
+            specification: [{
+                content: 'apter Inlet 14/20',
                 id: '1',
                 number: 'KJ-A29-1',
                 selected: false,
-                content: 'apter Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Inlet 24/40',
                 id: '2',
                 number: 'KJ-A29-2',
                 selected: false,
-                content: 'Adapter Inlet 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '29',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F29.jpg?alt=media&token=73b2c0d7-f653-40a0-9956-bff0e5f0bd27',
-        classify: 'Adapters',
-        title: 'Innet 3way stop cock',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '29',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F29.jpg?alt=media&token=c13a7661-a605-4781-9778-f615f5303bfb',
+            specification: [{
+                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 G/C',
                 id: '1',
                 number: '         KJ-A30N-1',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 G/C',
                 id: '2',
                 number: '         KJ-A30N-2',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 T/C',
                 id: '3',
                 number: '         KJ-A30N-3',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 T/C',
                 id: '4',
                 number: '         KJ-A30N-4',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 외산G/C',
                 id: '5',
                 number: '         KJ-A30N-5',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 외산G/C',
                 id: '6',
                 number: '         KJ-A30N-6',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 외산T/C',
                 id: '7',
                 number: '         KJ-A30N-7',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 14/20 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 외산T/C',
                 id: '8',
                 number: '         KJ-A30N-8',
                 selected: false,
-                content: 'Adapter Gas Inlet,3Way Stop Cock 24/40 외산T/C',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '30',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F30.jpg?alt=media&token=b58ad6af-e480-4282-a0f9-9fc5e8e17bd7',
-        classify: 'Adapters',
-        title: 'Septum inlet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Innet 3way stop cock',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '30',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F30.jpg?alt=media&token=aef23f01-5cc3-4607-a190-0004a0fa63d6',
+            specification: [{
+                content: 'Adapter Septum Inlet 14/20 T/C',
                 id: '1',
                 number: '         KJ-A32-1',
                 selected: false,
-                content: 'Adapter Septum Inlet 14/20 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 24/40 T/C',
                 id: '2',
                 number: 'KJ-A32-2',
                 selected: false,
-                content: 'Adapter Septum Inlet 24/40 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 34/45 T/C',
                 id: '3',
                 number: '         KJ-A32-3',
                 selected: false,
-                content: 'Adapter Septum Inlet 34/45 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 14/20 G/C',
                 id: '4',
                 number: 'KJ-A32-4',
                 selected: false,
-                content: 'Adapter Septum Inlet 14/20 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 24/40 G/C',
                 id: '5',
                 number: '         KJ-A32-5',
                 selected: false,
-                content: 'Adapter Septum Inlet 24/40 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 34/45 G/C',
                 id: '6',
                 number: '         KJ-A32-6',
                 selected: false,
-                content: 'Adapter Septum Inlet 34/45 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 14/20 외산T/C',
                 id: '7',
                 number: '         KJ-A32-11',
                 selected: false,
-                content: 'Adapter Septum Inlet 14/20 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 24/40 외산T/C',
                 id: '8',
                 number: '         KJ-A32-12',
                 selected: false,
-                content: 'Adapter Septum Inlet 24/40 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 34/45 외산T/C',
                 id: '9',
                 number: '         KJ-A32-13',
                 selected: false,
-                content: 'Adapter Septum Inlet 34/45 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 14/20 외산G/C',
                 id: '10',
                 number: 'KJ-A32-15',
                 selected: false,
-                content: 'Adapter Septum Inlet 14/20 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 24/40 외산G/C',
                 id: '11',
                 number: '         KJ-A32-16',
                 selected: false,
-                content: 'Adapter Septum Inlet 24/40 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Septum Inlet 34/45 외산G/C',
                 id: '12',
                 number: '         KJ-A32-17',
                 selected: false,
-                content: 'Adapter Septum Inlet 34/45 외산G/C',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '31',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F31.jpg?alt=media&token=0f5087ab-8957-435b-971c-a83c5dfbf21d',
-        classify: 'Adapters',
-        title: 'Vent',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Septum inlet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '31',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F31.jpg?alt=media&token=3d7e949e-f620-496c-86d2-6bf287dad817',
+            specification: [{
+                content: 'Adapter Vent 14/20',
                 id: '1',
                 number: '         KJ-A33-1',
                 selected: false,
-                content: 'Adapter Vent 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Vent 24/40',
                 id: '2',
                 number: '         KJ-A33-2',
                 selected: false,
-                content: 'Adapter Vent 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Vent 19/38',
                 id: '3',
                 number: '         KJ-A33-3',
                 selected: false,
-                content: 'Adapter Vent 19/38',
-            },
-            {
+            }, {
+                content: 'Adapter Vent 29/42',
                 id: '4',
                 number: '         KJ-A33-4',
                 selected: false,
-                content: 'Adapter Vent 29/42',
-            },
-            {
+            }, {
+                content: 'Adapter Vent 34/45',
                 id: '5',
                 number: ' KJ-A33-5',
                 selected: false,
-                content: 'Adapter Vent 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '32',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F32.jpg?alt=media&token=c4011476-a8a8-4c88-9364-a6b498e89964',
-        classify: 'Adapters',
-        title: 'Vent, inlet/outlet',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Vent',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '32',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F32.jpg?alt=media&token=65126f00-e636-43c2-bcf8-4667677ce279',
+            specification: [{
+                content: 'Adapter Vent Inlet 14/20',
                 id: '1',
                 number: '         KJ-A34-1',
                 selected: false,
-                content: 'Adapter Vent Inlet 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Vent Outer 14/20',
                 id: '2',
                 number: '         KJ-A34-2',
                 selected: false,
-                content: 'Adapter Vent Outer 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Vent Inlet 24/40',
                 id: '3',
                 number: '         KJ-A34-3',
                 selected: false,
-                content: 'Adapter Vent Inlet 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Vent Outer 24/40',
                 id: '4',
                 number: '         KJ-A34-4',
                 selected: false,
-                content: 'Adapter Vent Outer 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '33',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F33.jpg?alt=media&token=53ea6c4a-d617-4d8b-bc9f-48801a3e3bed',
-        classify: 'Adapters',
-        title: 'Offset',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Vent, inlet/outlet',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '33',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F33.jpg?alt=media&token=1307ff78-dda7-4888-bad3-c28b867f6c77',
+            specification: [{
+                content: 'Adapter Offset 14/20',
                 id: '1',
                 number: '         KJ-A35-1',
                 selected: false,
-                content: 'Adapter Offset 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Offset 24/40',
                 id: '2',
                 number: '         KJ-A35-2',
                 selected: false,
-                content: 'Adapter Offset 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '34',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F34.jpg?alt=media&token=79124b56-3654-4917-a7c9-07b8b5b9ef0f',
-        classify: 'Adapters',
-        title: 'Thermometer',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Offset',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '34',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F34.jpg?alt=media&token=e4c4ec3b-8cca-4d72-80b5-a02a99c04474',
+            specification: [{
+                content: 'Adapter Thermometer 24/40',
                 id: '1',
                 number: 'KJ-A36-1',
                 selected: false,
-                content: 'Adapter Thermometer 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Thermometer 29/42',
                 id: '2',
                 number: '         KJ-A36-2',
                 selected: false,
-                content: 'Adapter Thermometer 29/42',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '35',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F35.jpg?alt=media&token=a3708c8d-afed-4f0c-b887-07c87589e856',
-        classify: 'Adapters',
-        title: 'Universal inlet/vacuum',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Thermometer',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '35',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F35.jpg?alt=media&token=81635d71-3ec9-4a8b-bdc4-4662f3cdd7ce',
+            specification: [{
+                content: 'Adapter Universal Inlet/Vacuum GL14번 14/20',
                 id: '1',
                 number: '         KJ-A37-1',
                 selected: false,
-                content: 'Adapter Universal Inlet/Vacuum GL14번 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Universal Inlet/Vacuum GL14번 24/40',
                 id: '2',
                 number: '         KJ-A37-2',
                 selected: false,
-                content: 'Adapter Universal Inlet/Vacuum GL14번 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '36',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F36.jpg?alt=media&token=940f2c4a-4536-49e9-b2c9-3ea8f1fdf1b6',
-        classify: 'Adapters',
-        title: 'Universal offset',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Universal inlet/vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '36',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F36.jpg?alt=media&token=4e576cc8-12ee-4444-8208-599406faf885',
+            specification: [{
+                content: 'Adapter Universal Offset 14/20 GL14번',
                 id: '1',
                 number: 'KJ-A38-1',
                 selected: false,
-                content: 'Adapter Universal Offset 14/20 GL14번',
-            },
-            {
+            }, {
+                content: 'Adapter Universal Offset 24/40 GL14번',
                 id: '2',
                 number: '         KJ-A38-2',
                 selected: false,
-                content: 'Adapter Universal Offset 24/40 GL14번',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '37',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F37.jpg?alt=media&token=e26f81f5-62f5-49d0-addd-e3a6bfda7700',
-        classify: 'Adapters',
-        title: 'Universal Double offset',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Universal offset',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '37',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F37.jpg?alt=media&token=7a417063-584a-4500-9747-6dbd0dec0f5b',
+            specification: [{
+                content: 'Adapter Universal Double Offset 24/25',
                 id: '1',
                 number: '         KJ-A39-1',
                 selected: false,
-                content: 'Adapter Universal Double Offset 24/25',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '38',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F38.jpg?alt=media&token=960d52d5-a35a-48d9-b12b-156270ffdb28',
-        classify: 'Adapters',
-        title: 'Vacuum',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Universal Double offset',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '38',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F38.jpg?alt=media&token=ac17cd14-9d9c-4466-ab5c-4b2b00fcf0bb',
+            specification: [{
+                content: 'apter Vacuum 14/20',
                 id: '1',
                 number: '         KJ-A40-1',
                 selected: false,
-                content: 'apter Vacuum 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Vacuum 24/40',
                 id: '2',
                 number: '         KJ-A40-2',
                 selected: false,
-                content: 'Adapter Vacuum 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Vacuum 34/45',
                 id: '3',
                 number: 'KJ-A40-3',
                 selected: false,
-                content: 'Adapter Vacuum 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '39',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F39.jpg?alt=media&token=00fd8baf-b173-4fb7-a5bd-2c48732b7c05',
-        classify: 'Adapters',
-        title: 'Vacuum filtration',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '39',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F39.jpg?alt=media&token=5ffa93be-218b-4159-9891-b3b87e4c02b9',
+            specification: [{
+                content: 'Adapter Filtering 14/20',
                 id: '1',
                 number: ' KJ-A49-1',
                 selected: false,
-                content: 'Adapter Filtering 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Filtering 24/40',
                 id: '2',
                 number: 'KJ-A49-2',
                 selected: false,
-                content: 'Adapter Filtering 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Filtering 29/32',
                 id: '3',
                 number: 'KJ-A49-3',
                 selected: false,
-                content: 'Adapter Filtering 29/32',
-            },
-            {
+            }, {
+                content: 'Adapter Filtering 34/45',
                 id: '4',
                 number: 'KJ-A49-4',
                 selected: false,
-                content: 'Adapter Filtering 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '40',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F40.jpg?alt=media&token=2f06eb51-5e97-433b-be08-126b1a1d29ed',
-        classify: 'Adapters',
-        title: 'Vacuum filtration',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Vacuum filtration',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '40',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F40.jpg?alt=media&token=e7544700-8f39-4276-ba34-9a9f812b4d5d',
+            specification: [{
+                content: 'Adapter Filtering 14/20',
                 id: '1',
                 number: 'KJ-A50-1',
                 selected: false,
-                content: 'Adapter Filtering 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Filtering 19/22',
                 id: '2',
                 number: 'KJ-A50-2',
                 selected: false,
-                content: 'Adapter Filtering 19/22',
-            },
-            {
+            }, {
+                content: 'Adapter Filtering 24/40',
                 id: '3',
                 number: 'KJ-A50-3',
                 selected: false,
-                content: 'Adapter Filtering 24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Filtering 34/45',
                 id: '4',
                 number: 'KJ-A50-4',
                 selected: false,
-                content: 'Adapter Filtering 34/45',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '41',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F41.jpg?alt=media&token=e7336da6-c0a6-4182-984f-0ce3dd07a5c0',
-        classify: 'Adapters',
-        title: 'Solid addition',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Vacuum filtration',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '41',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F41.jpg?alt=media&token=37a10520-305b-460b-980d-00d6db4e9432',
+            specification: [{
+                content: 'Adapter Solid Addition 24/40',
                 id: '1',
                 number: 'KJ-A51-1',
                 selected: false,
-                content: 'Adapter Solid Addition 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '42',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F42.jpg?alt=media&token=45be49e7-3741-4214-a6ac-1fb4c4ff8f68',
-        classify: 'Adapters',
-        title: 'Distillation collector',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Solid addition',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '42',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F42.jpg?alt=media&token=38f39bd7-817b-466f-997d-dc6b82546641',
+            specification: [{
+                content: 'Adapter 14/20',
                 id: '1',
                 number: ' KJ-A52-1',
                 selected: false,
-                content: 'Adapter 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter 24/20',
                 id: '2',
                 number: 'KJ-A52-2',
                 selected: false,
-                content: 'Adapter 24/20',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '43',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F43.jpg?alt=media&token=24f57b22-92ea-49b0-a8dd-685521898a3d',
-        classify: 'Adapters',
-        title: 'Thermometer O-ring PTFE cotting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Distillation collector',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '43',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F43.jpg?alt=media&token=f2eb3b3f-acd7-479c-8f5c-f701b5ea7204',
+            specification: [{
+                content: 'Adapter Thermometer O-ring PTFE Cotting 14/20,GL14',
                 id: '1',
                 number: 'KJ-A53-1',
                 selected: false,
-                content: 'Adapter Thermometer O-ring PTFE Cotting 14/20,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Thermometer O-ring PTFE Cotting 24/40,GL14',
                 id: '2',
                 number: ' KJ-A53-2',
                 selected: false,
-                content: 'Adapter Thermometer O-ring PTFE Cotting 24/40,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Thermometer O-ring PTFE Cotting 29/42,GL14',
                 id: '3',
                 number: 'KJ-A53-3',
                 selected: false,
-                content: 'Adapter Thermometer O-ring PTFE Cotting 29/42,GL14',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '44',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F44.jpg?alt=media&token=9b0684a8-692e-4f4d-afcf-b6189e2ff350',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Thermometer O-ring PTFE cotting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '44',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F44.jpg?alt=media&token=7a2a8cca-8c76-42fa-9e14-159dccd4a9f1',
+            specification: [{
+                content: 'Adapter Connecting 14/20,GL14',
                 id: '1',
                 number: 'KJ-A54-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40,GL14',
                 id: '2',
                 number: 'KJ-A54-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 19/22,GL14',
                 id: '3',
                 number: 'KJ-A54-3',
                 selected: false,
-                content: 'Adapter Connecting 19/22,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 29/32,GL14',
                 id: '4',
                 number: 'KJ-A54-4',
                 selected: false,
-                content: 'Adapter Connecting 29/32,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45,GL14',
                 id: '5',
                 number: 'KJ-A54-5',
                 selected: false,
-                content: 'Adapter Connecting 34/45,GL14',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '45',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F45.jpg?alt=media&token=170fcd08-0b38-4e0e-9291-c4d43f2973c2',
-        classify: 'Adapters',
-        title: 'Claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '45',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F45.jpg?alt=media&token=c1909bbe-a531-462c-81ec-b2cf2943e9ff',
+            specification: [{
+                content: 'Adapter Claisen 14/20,GL14',
                 id: '1',
                 number: 'KJ-A55-1',
                 selected: false,
-                content: 'Adapter Claisen 14/20,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,GL14',
                 id: '2',
                 number: 'KJ-A55-2',
                 selected: false,
-                content: 'Adapter Claisen 24/40,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 19/22,GL14',
                 id: '3',
                 number: 'KJ-A55-3',
                 selected: false,
-                content: 'Adapter Claisen 19/22,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 29/32,GL14',
                 id: '4',
                 number: 'KJ-A55-4',
                 selected: false,
-                content: 'Adapter Claisen 29/32,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 34/45,GL14',
                 id: '5',
                 number: ' KJ-A55-5',
                 selected: false,
-                content: 'Adapter Claisen 34/45,GL14',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '46',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F46.jpg?alt=media&token=66d46356-c0a7-405c-aecd-24d8e4a266ac',
-        classify: 'Adapters',
-        title: 'Claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Claisen',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '46',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F46.jpg?alt=media&token=2cc126ee-6ca1-422a-a5cf-55cc88eaabae',
+            specification: [{
+                content: 'Adapter Claisen 14/20,GL14',
                 id: '1',
                 number: 'KJ-A56-1',
                 selected: false,
-                content: 'Adapter Claisen 14/20,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 24/40,GL14',
                 id: '2',
                 number: 'KJ-A56-2',
                 selected: false,
-                content: 'Adapter Claisen 24/40,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 19/22,GL14',
                 id: '3',
                 number: 'KJ-A56-3',
                 selected: false,
-                content: 'Adapter Claisen 19/22,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 29/32,GL14',
                 id: '4',
                 number: 'KJ-A56-4',
                 selected: false,
-                content: 'Adapter Claisen 29/32,GL14',
-            },
-            {
+            }, {
+                content: 'Adapter Claisen 34/45,GL14',
                 id: '5',
                 number: 'KJ-A56-5',
                 selected: false,
-                content: 'Adapter Claisen 34/45,GL14',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '47',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F47.jpg?alt=media&token=446cc158-dc2f-4877-88ee-59966f79b29c',
-        classify: 'Adapters',
-        title: 'Distilling claisen',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Claisen',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '47',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F47.jpg?alt=media&token=effd3eaa-2916-4382-b7b7-2fc100488a59',
+            specification: [{
+                content: 'Adapter Distilling Claisen 10/20,14/20',
                 id: '1',
                 number: 'KJ-A57-1',
                 selected: false,
-                content: 'Adapter Distilling Claisen 10/20,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Distilling Claisen 10/20,24/40',
                 id: '2',
                 number: 'KJ-A57-2',
                 selected: false,
-                content: 'Adapter Distilling Claisen 10/20,24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Distilling Claisen 10/20,29/32',
                 id: '3',
                 number: 'KJ-A57-3',
                 selected: false,
-                content: 'Adapter Distilling Claisen 10/20,29/32',
-            },
-            {
+            }, {
+                content: 'Adapter Distilling Claisen GL14,14/20',
                 id: '4',
                 number: 'KJ-A57-4',
                 selected: false,
-                content: 'Adapter Distilling Claisen GL14,14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Distilling Claisen GL14,24/40',
                 id: '5',
                 number: 'KJ-A57-5',
                 selected: false,
-                content: 'Adapter Distilling Claisen GL14,24/40',
-            },
-            {
+            }, {
+                content: 'Adapter Distilling Claisen GL14,29/32',
                 id: '6',
                 number: 'KJ-A57-6',
                 selected: false,
-                content: 'Adapter Distilling Claisen GL14,29/32',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '48',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F48.jpg?alt=media&token=ac13ada3-5dcd-43bf-b6a0-ff7b476b0cb6',
-        classify: 'Beaker',
-        title: 'Griffin, low form',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Distilling claisen',
+            type: 'glass',
+        }, {
+            classify: 'Beaker',
+            id: '48',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F48.jpg?alt=media&token=bd076c03-1370-444c-ac59-e9c6e913d187',
+            specification: [{
+                content: 'Beaker Griffin Form 50ML(IWAKI)',
                 id: '1',
                 number: 'KJ-B1-1',
                 selected: false,
-                content: 'Beaker Griffin Form 50ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 100ML(IWAKI)',
                 id: '2',
                 number: 'KJ-B1-2',
                 selected: false,
-                content: 'Beaker Griffin Form 100ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 250ML(IWAKI)',
                 id: '3',
                 number: 'KJ-B1-3',
                 selected: false,
-                content: 'Beaker Griffin Form 250ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 400ML(IWAKI)',
                 id: '4',
                 number: 'KJ-B1-4',
                 selected: false,
-                content: 'Beaker Griffin Form 400ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 500ML(IWAKI)',
                 id: '5',
                 number: 'KJ-B1-5',
                 selected: false,
-                content: 'Beaker Griffin Form 500ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 600ML(IWAKI)',
                 id: '6',
                 number: 'KJ-B1-6',
                 selected: false,
-                content: 'Beaker Griffin Form 600ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 1000ML(IWAKI)',
                 id: '7',
                 number: 'KJ-B1-7',
                 selected: false,
-                content: 'Beaker Griffin Form 1000ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 2000ML(IWAKI)',
                 id: '8',
                 number: 'KJ-B1-8',
                 selected: false,
-                content: 'Beaker Griffin Form 2000ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 3000ML(IWAKI)',
                 id: '9',
                 number: 'KJ-B1-9',
                 selected: false,
-                content: 'Beaker Griffin Form 3000ML(IWAKI)',
-            },
-            {
+            }, {
+                content: 'Beaker Griffin Form 5000ML(IWAKI)',
                 id: '10',
                 number: 'KJ-B1-10',
                 selected: false,
-                content: 'Beaker Griffin Form 5000ML(IWAKI)',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '49',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F49.jpg?alt=media&token=93925363-70a8-4a6a-b94b-e6fff36a9400',
-        classify: 'Burets',
-        title: 'Buret',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Griffin, low form',
+            type: 'glass',
+        }, {
+            classify: 'Burets',
+            id: '49',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F49.jpg?alt=media&token=69c4e0b1-76d5-43c2-8f81-45ae624bbfba',
+            specification: [{
+                content: 'Buret Glass Plug , Clear 10ML (WITEG)',
                 id: '1',
                 number: 'KJ-BU1-1C',
                 selected: false,
-                content: 'Buret Glass Plug , Clear 10ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug ,Amber 10ML (WITEG)',
                 id: '2',
                 number: 'KJ-BU1-1A',
                 selected: false,
-                content: 'Buret Glass Plug ,Amber 10ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug, Clear 25ML (WITEG)',
                 id: '3',
                 number: 'KJ-BU1-2C',
                 selected: false,
-                content: 'Buret Glass Plug, Clear 25ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug, Amber 25ML (WITEG)',
                 id: '4',
                 number: 'KJ-BU1-2A',
                 selected: false,
-                content: 'Buret Glass Plug, Amber 25ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug, Clear 50ML (WITEG)',
                 id: '5',
                 number: 'KJ-BU1-3C',
                 selected: false,
-                content: 'Buret Glass Plug, Clear 50ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug, Amber 50ML (WITEG)',
                 id: '6',
                 number: 'KJ-BU1-3A',
                 selected: false,
-                content: 'Buret Glass Plug, Amber 50ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug , Clear 10ML (WITEG)',
                 id: '7',
                 number: 'KJ-BU1-4C',
                 selected: false,
-                content: 'Buret PTFE Plug , Clear 10ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug ,Amber 10ML (WITEG)',
                 id: '8',
                 number: 'KJ-BU1-4A',
                 selected: false,
-                content: 'Buret PTFE Plug ,Amber 10ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Clear 10ML (WITEG)',
                 id: '9',
                 number: 'KJ-BU1-4S',
                 selected: false,
-                content: 'Buret Screw Cock , Clear 10ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Amber 10ML (WITEG)',
                 id: '10',
                 number: 'KJ-BU1-4SA',
                 selected: false,
-                content: 'Buret Screw Cock , Amber 10ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug , Clear 25ML (WITEG)',
                 id: '11',
                 number: 'KJ-BU1-5C',
                 selected: false,
-                content: 'Buret PTFE Plug , Clear 25ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug ,Amber 25ML (WITEG)',
                 id: '12',
                 number: 'KJ-BU1-5A',
                 selected: false,
-                content: 'Buret PTFE Plug ,Amber 25ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Clear 25ML (WITEG)',
                 id: '13',
                 number: 'KJ-BU1-5S',
                 selected: false,
-                content: 'Buret Screw Cock , Clear 25ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Amber 25ML (WITEG)',
                 id: '14',
                 number: 'KJ-BU1-5SA',
                 selected: false,
-                content: 'Buret Screw Cock , Amber 25ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug , Clear 50ML (WITEG)',
                 id: '15',
                 number: 'KJ-BU1-6C',
                 selected: false,
-                content: 'Buret PTFE Plug , Clear 50ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug ,Amber 50ML (WITEG)',
                 id: '16',
                 number: 'KJ-BU1-6A',
                 selected: false,
-                content: 'Buret PTFE Plug ,Amber 50ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Clear 50ML (WITEG)',
                 id: '17',
                 number: 'KJ-BU1-6S',
                 selected: false,
-                content: 'Buret Screw Cock , Clear 50ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Amber 50ML (WITEG)',
                 id: '18',
                 number: 'KJ-BU1-6SA',
                 selected: false,
-                content: 'Buret Screw Cock , Amber 50ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug , Clear 5ML (WITEG)',
                 id: '19',
                 number: 'KJ-BU1-7C',
                 selected: false,
-                content: 'Buret Glass Plug , Clear 5ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug ,Amber 5ML (WITEG)',
                 id: '20',
                 number: 'KJ-BU1-7A',
                 selected: false,
-                content: 'Buret Glass Plug ,Amber 5ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug , Clear 5ML (WITEG)',
                 id: '21',
                 number: 'KJ-BU1-8C',
                 selected: false,
-                content: 'Buret PTFE Plug , Clear 5ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug ,Amber 5ML (WITEG)',
                 id: '22',
                 number: 'KJ-BU1-8A',
                 selected: false,
-                content: 'Buret PTFE Plug ,Amber 5ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug , Clear 100ML (WITEG)',
                 id: '23',
                 number: 'KJ-BU1-9C',
                 selected: false,
-                content: 'Buret Glass Plug , Clear 100ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug ,Amber 100ML (WITEG)',
                 id: '24',
                 number: ' KJ-BU1-9A',
                 selected: false,
-                content: 'Buret Glass Plug ,Amber 100ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug , Clear 100ML (WITEG)',
                 id: '25',
                 number: 'KJ-BU1-10C',
                 selected: false,
-                content: 'Buret PTFE Plug , Clear 100ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret PTFE Plug ,Amber 100ML (WITEG)',
                 id: '26',
                 number: 'KJ-BU1-10A',
                 selected: false,
-                content: 'Buret PTFE Plug ,Amber 100ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Clear 100ML (WITEG)',
                 id: '27',
                 number: 'KJ-BU1-10S',
                 selected: false,
-                content: 'Buret Screw Cock , Clear 100ML (WITEG)',
-            },
-            {
+            }, {
+                content: 'Buret Screw Cock , Amber 100ML (WITEG)',
                 id: '28',
                 number: 'KJ-BU1-10SA',
                 selected: false,
-                content: 'Buret Screw Cock , Amber 100ML (WITEG)',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '50',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F50.jpg?alt=media&token=9a1f9946-283e-4fb6-89f6-c69ef19d41d8',
-        classify: 'Burets',
-        title: 'Buret G/C',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Buret',
+            type: 'glass',
+        }, {
+            classify: 'Burets',
+            id: '50',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F50.jpg?alt=media&token=c7a4d9cf-8a4b-45b6-82ca-d260efe8463f',
+            specification: [{
+                content: 'Buret Glass Plug 250ML',
                 id: '1',
                 number: ' KJ-BU2-1',
                 selected: false,
-                content: 'Buret Glass Plug 250ML',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug 500ML',
                 id: '2',
                 number: ' KJ-BU2-2',
                 selected: false,
-                content: 'Buret Glass Plug 500ML',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug 1000ML',
                 id: '3',
                 number: 'KJ-BU2-3',
                 selected: false,
-                content: 'Buret Glass Plug 1000ML',
-            },
-            {
+            }, {
+                content: 'Buret Glass Plug 2000ML',
                 id: '4',
                 number: 'KJ-BU2-4',
                 selected: false,
-                content: 'Buret Glass Plug 2000ML',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '51',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F51.jpg?alt=media&token=75e22c64-ce31-45fb-94a1-aca65445adf2',
-        classify: 'Burets',
-        title: 'Buret T/C',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Buret G/C',
+            type: 'glass',
+        }, {
+            classify: 'Burets',
+            id: '51',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F51.jpg?alt=media&token=b390f3bb-09dc-4e0a-9669-6495c6287c15',
+            specification: [{
+                content: 'Buret PTFE 250ML',
                 id: '1',
                 number: 'KJ-BU3-1',
                 selected: false,
-                content: 'Buret PTFE 250ML',
-            },
-            {
+            }, {
+                content: 'Buret PTFE 500ML',
                 id: '2',
                 number: 'KJ-BU3-2',
                 selected: false,
-                content: 'Buret PTFE 500ML',
-            },
-            {
+            }, {
+                content: 'Buret PTFE 1000ML',
                 id: '3',
                 number: 'KJ-BU3-3',
                 selected: false,
-                content: 'Buret PTFE 1000ML',
-            },
-            {
+            }, {
+                content: 'Buret PTFE 2000ML',
                 id: '4',
                 number: 'KJ-BU3-4',
                 selected: false,
-                content: 'Buret PTFE 2000ML',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '52',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F52.jpg?alt=media&token=cd837d79-1e00-49bd-9494-5e6b1013acde',
-        classify: 'Burets',
-        title: 'Buret T/C',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Buret T/C',
+            type: 'glass',
+        }, {
+            classify: 'Burets',
+            id: '52',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F52.jpg?alt=media&token=8657443b-c4be-41aa-bd59-b7466b63e9eb',
+            specification: [{
+                content: 'Buret Clear 10ML',
                 id: '1',
                 number: 'KJ-BU4-1',
                 selected: false,
-                content: 'Buret Clear 10ML',
-            },
-            {
+            }, {
+                content: 'Buret Amber 10ML',
                 id: '2',
                 number: 'KJ-BU4-1A',
                 selected: false,
-                content: 'Buret Amber 10ML',
-            },
-            {
+            }, {
+                content: 'Buret Clear 25ML',
                 id: '3',
                 number: 'KJ-BU4-2',
                 selected: false,
-                content: 'Buret Clear 25ML',
-            },
-            {
+            }, {
+                content: 'Buret Amber 25ML',
                 id: '4',
                 number: ' KJ-BU4-2A',
                 selected: false,
-                content: 'Buret Amber 25ML',
-            },
-            {
+            }, {
+                content: 'Buret Clear 50ML',
                 id: '5',
                 number: 'KJ-BU4-3',
                 selected: false,
-                content: 'Buret Clear 50ML',
-            },
-            {
+            }, {
+                content: 'Buret Amber 50ML',
                 id: '6',
                 number: 'KJ-BU4-3A',
                 selected: false,
-                content: 'Buret Amber 50ML',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '53',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F53.jpg?alt=media&token=3286d22f-3c11-4b29-a625-27ccb770e219',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Buret T/C',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '53',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F53.jpg?alt=media&token=f1a67cba-00b5-4ab3-a00a-1de39542c00a',
+            specification: [{
+                content: 'Adapter Connecting 14/20',
                 id: '1',
                 number: 'KJ-A43-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40',
                 id: '2',
                 number: 'KJ-A43-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '54',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F54.jpg?alt=media&token=44699f6b-2f37-476c-96f6-05120178c673',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '54',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F54.jpg?alt=media&token=25772e47-0774-4ceb-9843-a833293d4358',
+            specification: [{
+                content: 'Adapter Connecting 14/20',
                 id: '1',
                 number: 'KJ-A44-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40',
                 id: '2',
                 number: 'KJ-A44-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '55',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F55.jpg?alt=media&token=76584186-9276-491f-8468-146ad6b38992',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '55',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F55.jpg?alt=media&token=951d57db-6736-4048-acec-1333a35487eb',
+            specification: [{
+                content: 'Adapter Connecting 14/20',
                 id: '1',
                 number: ' KJ-A45-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40',
                 id: '2',
                 number: 'KJ-A45-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '56',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F56.jpg?alt=media&token=40b23993-3e7b-478f-8eb7-6ee0df6f3b9e',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '56',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F56.jpg?alt=media&token=99325e5d-d4c7-4aa1-9fcb-da656fcaec56',
+            specification: [{
+                content: 'Adapter Connecting 14/20 G/C',
                 id: '1',
                 number: 'KJ-A46-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40 G/C',
                 id: '2',
                 number: 'KJ-A46-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45 G/C',
                 id: '3',
                 number: 'KJ-A46-3',
                 selected: false,
-                content: 'Adapter Connecting 34/45 G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 14/20 T/C',
                 id: '4',
                 number: ' KJ-A46-4',
                 selected: false,
-                content: 'Adapter Connecting 14/20 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40 T/C',
                 id: '5',
                 number: 'KJ-A46-5',
                 selected: false,
-                content: 'Adapter Connecting 24/40 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45 T/C',
                 id: '6',
                 number: 'KJ-A46-6',
                 selected: false,
-                content: 'Adapter Connecting 34/45 T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 14/20 외산G/C',
                 id: '7',
                 number: 'KJ-A46-7',
                 selected: false,
-                content: 'Adapter Connecting 14/20 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40 외산G/C',
                 id: '8',
                 number: 'KJ-A46-8',
                 selected: false,
-                content: 'Adapter Connecting 24/40 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45 외산G/C',
                 id: '9',
                 number: ' KJ-A46-9',
                 selected: false,
-                content: 'Adapter Connecting 34/45 외산G/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 14/20 외산T/C',
                 id: '10',
                 number: 'KJ-A46-10',
                 selected: false,
-                content: 'Adapter Connecting 14/20 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40 외산T/C',
                 id: '11',
                 number: ' KJ-A46-11',
                 selected: false,
-                content: 'Adapter Connecting 24/40 외산T/C',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 34/45 외산T/C',
                 id: '12',
                 number: 'KJ-A46-12',
                 selected: false,
-                content: 'Adapter Connecting 34/45 외산T/C',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '57',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F57.jpg?alt=media&token=76e94c99-d8dc-4e86-93cb-867d0c15719d',
-        classify: 'Adapters',
-        title: 'Connecting',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '57',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F57.jpg?alt=media&token=3d810024-51ce-453e-80dc-cdbbfb3618be',
+            specification: [{
+                content: 'Adapter Connecting 14/20',
                 id: '1',
                 number: 'KJ-A47-1',
                 selected: false,
-                content: 'Adapter Connecting 14/20',
-            },
-            {
+            }, {
+                content: 'Adapter Connecting 24/40',
                 id: '2',
                 number: 'KJ-A47-2',
                 selected: false,
-                content: 'Adapter Connecting 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '58',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F58.jpg?alt=media&token=1f79799a-3876-4c04-abe1-325499cd24ec',
-        classify: 'Condensers',
-        title: 'Condenser, allihn',
-        content: [
-            'with drip joint and outer top',
-        ],
-        specification: [
-            {
+            }],
+            title: 'Connecting',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            content: ['with drip joint and outer top'],
+            id: '58',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F58.jpg?alt=media&token=41e009cc-f8c1-4135-aac5-95a350895ad6',
+            specification: [{
+                content: 'Condenser Allihn 24/40 200mm',
                 id: '1',
                 number: 'KJ-C1-1',
                 selected: false,
-                content: 'Condenser Allihn 24/40 200mm',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 24/40 250mm',
                 id: '2',
                 number: 'KJ-C1-2',
                 selected: false,
-                content: 'Condenser Allihn 24/40 250mm',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 24/40 300mm',
                 id: '3',
                 number: '         KJ-C1-3',
                 selected: false,
-                content: 'Condenser Allihn 24/40 300mm',
-            },
-            {
+            }, {
+                content: 'enser Allihn 24/40 400mm',
                 id: '4',
                 number: '         KJ-C1-4',
                 selected: false,
-                content: 'enser Allihn 24/40 400mm',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 29/42 400mm',
                 id: '5',
                 number: 'KJ-C1-5',
                 selected: false,
-                content: 'Condenser Allihn 29/42 400mm',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 34/45 400mm',
                 id: '6',
                 number: '         KJ-C1-6',
                 selected: false,
-                content: 'Condenser Allihn 34/45 400mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '59',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F59.jpg?alt=media&token=73e16458-91e4-4438-8f49-5df9fd763af1',
-        classify: 'Condensers',
-        title: 'Condenser, allihn',
-        content: [
-            'with straight outlet tube at top and water cooled inner drip joint at bottom',
-        ],
-        specification: [
-            {
+            }],
+            title: 'Condenser, allihn',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            content: ['with straight outlet tube at top and water cooled inner drip joint at bottom'],
+            id: '59',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F59.jpg?alt=media&token=c93bb1b6-9310-4585-90b3-d039b7de6fab',
+            specification: [{
+                content: 'Condenser Allihn 24/40',
                 id: '1',
                 number: 'KJ-C2-1',
                 selected: false,
-                content: 'Condenser Allihn 24/40',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 34/45',
                 id: '2',
                 number: 'KJ-C2-2',
                 selected: false,
-                content: 'Condenser Allihn 34/45',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 45/50',
                 id: '3',
                 number: 'KJ-C2-3',
                 selected: false,
-                content: 'Condenser Allihn 45/50',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 50/55',
                 id: '4',
                 number: '         KJ-C2-4',
                 selected: false,
-                content: 'Condenser Allihn 50/55',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 55/50',
                 id: '5',
                 number: '         KJ-C2-5',
                 selected: false,
-                content: 'Condenser Allihn 55/50',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '60',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F60.jpg?alt=media&token=dae96898-6f06-4357-8176-072372006298',
-        classify: 'Condensers',
-        title: 'Condenser, allihn',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, allihn',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '60',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F60.jpg?alt=media&token=dc46f13a-cd88-4671-a054-b4bc759895c6',
+            specification: [{
+                content: 'Condenser Allihn 24/40',
                 id: '1',
                 number: '         KJ-C3-1',
                 selected: false,
-                content: 'Condenser Allihn 24/40',
-            },
-            {
+            }, {
+                content: 'nser Allihn 29/42',
                 id: '2',
                 number: 'KJ-C3-2',
                 selected: false,
-                content: 'nser Allihn 29/42',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 35/45',
                 id: '3',
                 number: '         KJ-C3-3',
                 selected: false,
-                content: 'Condenser Allihn 35/45',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 45/50',
                 id: '4',
                 number: '         KJ-C3-4',
                 selected: false,
-                content: 'Condenser Allihn 45/50',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 50/55',
                 id: '5',
                 number: '         KJ-C3-5',
                 selected: false,
-                content: 'Condenser Allihn 50/55',
-            },
-            {
+            }, {
+                content: 'Condenser Allihn 55/50',
                 id: '6',
                 number: 'KJ-C3-6',
                 selected: false,
-                content: 'Condenser Allihn 55/50',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '61',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F61.jpg?alt=media&token=87088589-df75-4382-8997-e45387310413',
-        classify: 'Condensers',
-        title: 'Condenser, cold finger',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, allihn',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '61',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F61.jpg?alt=media&token=1d0bf4cb-5ef0-43c0-af73-f0b96596d2d4',
+            specification: [{
+                content: 'Condenser Cold Finger 24/40',
                 id: '1',
                 number: '         KJ-C4-1',
                 selected: false,
-                content: 'Condenser Cold Finger 24/40',
-            },
-            {
+            }, {
+                content: 'Condenser Cold Finger 14/20',
                 id: '2',
                 number: 'KJ-C4-2',
                 selected: false,
-                content: 'Condenser Cold Finger 14/20',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '62',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F62.jpg?alt=media&token=2695f97b-1a66-4460-b0ba-b02181a24bb9',
-        classify: 'Condensers',
-        title: 'Condenser, concentrator',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, cold finger',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '62',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F62.jpg?alt=media&token=f7f4d0af-e6fd-4d35-b81d-64d62c78bc8b',
+            specification: [{
+                content: 'Condenser Concentrator 24/40, 24/40',
                 id: '1',
                 number: '         KJ-C5-1',
                 selected: false,
-                content: 'Condenser Concentrator 24/40, 24/40',
-            },
-            {
+            }, {
+                content: 'Condenser Concentrator 34/45, 24/40',
                 id: '2',
                 number: 'KJ-C5-2',
                 selected: false,
-                content: 'Condenser Concentrator 34/45, 24/40',
-            },
-            {
+            }, {
+                content: 'Condenser Concentrator 24/40, 14/20',
                 id: '3',
                 number: '         KJ-C5-3',
                 selected: false,
-                content: 'Condenser Concentrator 24/40, 14/20',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '63',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F63.jpg?alt=media&token=bfbdb442-17eb-4c70-ad9d-63b80bcb7d54',
-        classify: 'Condensers',
-        title: 'Condenser, dewar',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, concentrator',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '63',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F63.jpg?alt=media&token=2299a6d7-c0e0-4b39-9127-730620b7a1a8',
+            specification: [{
+                content: 'Condenser Dewar 14/20,100ml',
                 id: '1',
                 number: '         KJ-C6-1',
                 selected: false,
-                content: 'Condenser Dewar 14/20,100ml',
-            },
-            {
+            }, {
+                content: 'Condenser Dewar 24/40,400ml',
                 id: '2',
                 number: '         KJ-C6-2',
                 selected: false,
-                content: 'Condenser Dewar 24/40,400ml',
-            },
-            {
+            }, {
+                content: 'Condenser Dewar 24/40,1000ml',
                 id: '3',
                 number: '         KJ-C6-3',
                 selected: false,
-                content: 'Condenser Dewar 24/40,1000ml',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '64',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F64.jpg?alt=media&token=bdd8550d-212c-4f55-93f7-7c1083c0cbb2',
-        classify: 'Condensers',
-        title: 'Condenser, friedrich',
-        content: [
-            'inclined outer joint on side and two hose connectors at top. Inner drip joint at bottom',
-        ],
-        specification: [
-            {
+            }],
+            title: 'Condenser, dewar',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            content: ['inclined outer joint on side and two hose connectors at top. Inner drip joint at bottom'],
+            id: '64',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F64.jpg?alt=media&token=d3b10b15-4e7d-4313-9f00-972df944abc7',
+            specification: [{
+                content: 'Condenser Friedrich 24/40',
                 id: '1',
                 number: '         KJ-C7-1',
                 selected: false,
-                content: 'Condenser Friedrich 24/40',
-            },
-            {
+            }, {
+                content: 'Condenser Friedrich 34/45',
                 id: '2',
                 number: '         KJ-C7-2',
                 selected: false,
-                content: 'Condenser Friedrich 34/45',
-            },
-            {
+            }, {
+                content: 'nser Friedrich 45/50',
                 id: '3',
                 number: '         KJ-C7-3',
                 selected: false,
-                content: 'nser Friedrich 45/50',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '65',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F65.jpg?alt=media&token=217cce4c-6e50-4f94-8f1d-ad9f3a08da5f',
-        classify: 'Condensers',
-        title: 'Condenser, friedrich',
-        content: [
-            'water inlet and outer located above ring sealed inner condensing tube.)',
-        ],
-        specification: [
-            {
+            }],
+            title: 'Condenser, friedrich',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            content: ['water inlet and outer located above ring sealed inner condensing tube.)'],
+            id: '65',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F65.jpg?alt=media&token=76234770-576a-4a6b-9d32-4c763f057cde',
+            specification: [{
+                content: 'er Friedrich 24/40',
                 id: '1',
                 number: '         KJ-C8-1',
                 selected: false,
-                content: 'er Friedrich 24/40',
-            },
-            {
+            }, {
+                content: 'Condenser Friedrich 34/45',
                 id: '2',
                 number: '         KJ-C8-3',
                 selected: false,
-                content: 'Condenser Friedrich 34/45',
-            },
-            {
+            }, {
+                content: 'Condenser Friedrich 45/50',
                 id: '3',
                 number: '         KJ-C8-4',
                 selected: false,
-                content: 'Condenser Friedrich 45/50',
-            },
-            {
+            }, {
+                content: 'Condenser Friedrich 55/50',
                 id: '4',
                 number: 'KJ-C8-5',
                 selected: false,
-                content: 'Condenser Friedrich 55/50',
-            },
-            {
+            }, {
+                content: 'Condenser Friedrich 60/50',
                 id: '5',
                 number: '         KJ-C8-6',
                 selected: false,
-                content: 'Condenser Friedrich 60/50',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '66',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F66.jpg?alt=media&token=e547db11-2b55-40d1-a8d3-017cc21aa1b3',
-        classify: 'Condensers',
-        title: 'Condenser, graham',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, friedrich',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '66',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F66.jpg?alt=media&token=f37ab1f4-4807-4882-945d-a7e56dcc0533',
+            specification: [{
+                content: 'Condenser Graham 24/40 200mm',
                 id: '1',
                 number: '         KJ-C9-1',
                 selected: false,
-                content: 'Condenser Graham 24/40 200mm',
-            },
-            {
+            }, {
+                content: 'Condenser Graham 24/40 250mm',
                 id: '2',
                 number: '         KJ-C9-2',
                 selected: false,
-                content: 'Condenser Graham 24/40 250mm',
-            },
-            {
+            }, {
+                content: 'Condenser Graham 24/40 300mm',
                 id: '3',
                 number: '         KJ-C9-3',
                 selected: false,
-                content: 'Condenser Graham 24/40 300mm',
-            },
-            {
+            }, {
+                content: 'Condenser Graham 24/40 400mm',
                 id: '4',
                 number: '         KJ-C9-4',
                 selected: false,
-                content: 'Condenser Graham 24/40 400mm',
-            },
-            {
+            }, {
+                content: 'Condenser Graham 14/20 120mm',
                 id: '5',
                 number: '         KJ-C9-5',
                 selected: false,
-                content: 'Condenser Graham 14/20 120mm',
-            },
-            {
+            }, {
+                content: 'Condenser Graham 19/38 180mm',
                 id: '6',
                 number: 'KJ-C9-6',
                 selected: false,
-                content: 'Condenser Graham 19/38 180mm',
-            },
-            {
+            }, {
+                content: 'Condenser Graham 29/42 280mm',
                 id: '7',
                 number: '         KJ-C9-7',
                 selected: false,
-                content: 'Condenser Graham 29/42 280mm',
-            },
-            {
+            }, {
+                content: 'Condenser Graham 34/45 350mm',
                 id: '8',
                 number: '         KJ-C9-8',
                 selected: false,
-                content: 'Condenser Graham 34/45 350mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '67',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F67.jpg?alt=media&token=fb85b459-4216-4039-9ac7-629def07c320',
-        classify: 'Condensers',
-        title: 'Condenser, liebig',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, graham',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '67',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F67.jpg?alt=media&token=0108dbd2-d6bb-4f92-816c-8d907afd9bc2',
+            specification: [{
+                content: 'Condenser Liebig 14/20',
                 id: '1',
                 number: '         KJ-C10-1',
                 selected: false,
-                content: 'Condenser Liebig 14/20',
-            },
-            {
+            }, {
+                content: 'Condenser Liebig 24/40',
                 id: '2',
                 number: '         KJ-C10-2',
                 selected: false,
-                content: 'Condenser Liebig 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '68',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F68.jpg?alt=media&token=3b6d4055-f7ab-43aa-9ead-bda49908b6f6',
-        classify: 'Condensers',
-        title: 'Condenser, liebig',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, liebig',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '68',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F68.jpg?alt=media&token=237de7d0-73ee-4a7b-8c86-e1a9d4674a8a',
+            specification: [{
+                content: 'Condenser Liebig 24/40 100mm',
                 id: '1',
                 number: '         KJ-C11-1',
                 selected: false,
-                content: 'Condenser Liebig 24/40 100mm',
-            },
-            {
+            }, {
+                content: 'Condenser Liebig 24/40 200mm',
                 id: '2',
                 number: 'KJ-C11-2',
                 selected: false,
-                content: 'Condenser Liebig 24/40 200mm',
-            },
-            {
+            }, {
+                content: 'Condenser Liebig 24/40 250mm',
                 id: '3',
                 number: '         KJ-C11-3',
                 selected: false,
-                content: 'Condenser Liebig 24/40 250mm',
-            },
-            {
+            }, {
+                content: 'Condenser Liebig 24/40 300mm',
                 id: '4',
                 number: '         KJ-C11-4',
                 selected: false,
-                content: 'Condenser Liebig 24/40 300mm',
-            },
-            {
+            }, {
+                content: 'Condenser Liebig 24/40 400mm',
                 id: '5',
                 number: 'KJ-C11-5',
                 selected: false,
-                content: 'Condenser Liebig 24/40 400mm',
-            },
-            {
+            }, {
+                content: 'Condenser Liebig 34/45 400mm',
                 id: '6',
                 number: 'KJ-C11-6',
                 selected: false,
-                content: 'Condenser Liebig 34/45 400mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '69',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F69.jpg?alt=media&token=2adff4f7-e021-4c1c-b3b7-122225962720',
-        classify: 'Condensers',
-        title: 'Condenser, liebig',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, liebig',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '69',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F69.jpg?alt=media&token=7eb86884-8996-4355-a529-d5a1ba1bbbcf',
+            specification: [{
+                content: 'Condenser Liebig 24/40 320mm',
                 id: '1',
                 number: '         KJ-C12-1',
                 selected: false,
-                content: 'Condenser Liebig 24/40 320mm',
-            },
-            {
+            }, {
+                content: 'Condenser Liebig 14/20 200mm',
                 id: '2',
                 number: 'KJ-C12-2',
                 selected: false,
-                content: 'Condenser Liebig 14/20 200mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '70',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F70.jpg?alt=media&token=1ec1d2c8-b920-48b6-8e8b-d92c9849aff4',
-        classify: 'Condensers',
-        title: 'Condenser, reflux',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, liebig',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '70',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F70.jpg?alt=media&token=5ec75ef0-4035-457f-841f-ecc8a34762f6',
+            specification: [{
+                content: 'Condenser Reflux 19/38',
                 id: '1',
                 number: '         KJ-C13-2',
                 selected: false,
-                content: 'Condenser Reflux 19/38',
-            },
-            {
+            }, {
+                content: 'Condenser Reflux 24/40',
                 id: '2',
                 number: 'KJ-C13-3',
                 selected: false,
-                content: 'Condenser Reflux 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '71',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F71.jpg?alt=media&token=29c07f6c-6f8c-4cbc-8619-dbbb2f896c9c',
-        classify: 'Condensers',
-        title: 'Condenser, reflux',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, reflux',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '71',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F71.jpg?alt=media&token=af698f86-37fc-4571-a8e2-5760e885f739',
+            specification: [{
+                content: 'Condenser Reflux 14/20',
                 id: '1',
                 number: '         KJ-C14-1',
                 selected: false,
-                content: 'Condenser Reflux 14/20',
-            },
-            {
+            }, {
+                content: 'Condenser Reflux 24/40',
                 id: '2',
                 number: '         KJ-C14-2',
                 selected: false,
-                content: 'Condenser Reflux 24/40',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '72',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F72.jpg?alt=media&token=ffca5d8e-efbb-43c0-888b-51be70b7bf0d',
-        classify: 'Condensers',
-        title: 'Condenser, reflux',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, reflux',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '72',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F72.jpg?alt=media&token=5cfa635f-f9c6-4848-bdb6-b967d4cab58e',
+            specification: [{
+                content: 'Condenser Reflux 24/40 200mm',
                 id: '1',
                 number: '         KJ-C15-1',
                 selected: false,
-                content: 'Condenser Reflux 24/40 200mm',
-            },
-            {
+            }, {
+                content: 'Condenser Reflux 24/40 300mm',
                 id: '2',
                 number: '         KJ-C15-2',
                 selected: false,
-                content: 'Condenser Reflux 24/40 300mm',
-            },
-            {
+            }, {
+                content: 'Condenser Reflux 14/20 150mm',
                 id: '3',
                 number: 'KJ-C15-3',
                 selected: false,
-                content: 'Condenser Reflux 14/20 150mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '73',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F73.jpg?alt=media&token=3fe25c52-3a69-4159-8388-945e3db5bdbd',
-        classify: 'Condensers',
-        title: 'Condenser, reflux Jacket',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, reflux',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '73',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F73.jpg?alt=media&token=7e2e5107-233e-49f4-9ccd-d863b4ce8061',
+            specification: [{
+                content: 'Condenser Reflux Jacket 24/40 225mm',
                 id: '1',
                 number: '         KJ-C16-1',
                 selected: false,
-                content: 'Condenser Reflux Jacket 24/40 225mm',
-            },
-            {
+            }, {
+                content: 'Condenser Reflux Jacket 34/45 280mm',
                 id: '2',
                 number: 'KJ-C16-2',
                 selected: false,
-                content: 'Condenser Reflux Jacket 34/45 280mm',
-            },
-            {
+            }, {
+                content: 'Condenser Reflux Jacket 24/40 350mm',
                 id: '3',
                 number: 'KJ-C16-3',
                 selected: false,
-                content: 'Condenser Reflux Jacket 24/40 350mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '74',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F74.jpg?alt=media&token=f3637375-83f8-40aa-9378-518ed2b38454',
-        classify: 'Condensers',
-        title: 'Condenser, spiral reflux',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, reflux Jacket',
+            type: 'glass',
+        }, {
+            classify: 'Condensers',
+            id: '74',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F74.jpg?alt=media&token=6eb4da0b-0e91-4833-b3d3-9225de4a9e1d',
+            specification: [{
+                content: 'Condenser Spiral Refluex 14/20 120mm',
                 id: '1',
                 number: '         KJ-C17-1',
                 selected: false,
-                content: 'Condenser Spiral Refluex 14/20 120mm',
-            },
-        ],
-    },
-    {
-        type: 'glass',
-        id: '75',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F75.jpg?alt=media&token=18c75500-0662-408d-ae61-933be7ab6b26',
-        classify: 'Columns',
-        title: 'Column, PTFE Plug',
-        content: [],
-        specification: [
-            {
+            }],
+            title: 'Condenser, spiral reflux',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '75',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F75.jpg?alt=media&token=b0156b51-d20d-40b9-9a2f-f3381c9990f5',
+            specification: [{
+                content: 'Column Chromatography 11*200',
                 id: '1',
                 number: 'KJ-CO2-1',
                 selected: false,
-                content: 'Column Chromatography 11*200',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 15*250',
                 id: '2',
                 number: 'KJ-CO2-2',
                 selected: false,
-                content: 'Column Chromatography 15*250',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 19*300',
                 id: '3',
                 number: 'KJ-CO2-3',
                 selected: false,
-                content: 'Column Chromatography 19*300',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 22*350',
                 id: '4',
                 number: 'KJ-CO2-4',
                 selected: false,
-                content: 'Column Chromatography 22*350',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 30*400',
                 id: '5',
                 number: 'KJ-CO2-5',
                 selected: false,
-                content: 'Column Chromatography 30*400',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 41*500',
                 id: '6',
                 number: 'KJ-CO2-6',
                 selected: false,
-                content: 'Column Chromatography 41*500',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 49*700',
                 id: '7',
                 number: 'KJ-CO2-7',
                 selected: false,
-                content: 'Column Chromatography 49*700',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 60*700',
                 id: '8',
                 number: 'KJ-CO2-8',
                 selected: false,
-                content: 'Column Chromatography 60*700',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 70*700',
                 id: '9',
                 number: 'KJ-CO2-9',
                 selected: false,
-                content: 'Column Chromatography 70*700',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 80*700',
                 id: '10',
                 number: 'KJ-CO2-10',
                 selected: false,
-                content: 'Column Chromatography 80*700',
-            },
-            {
+            }, {
+                content: 'Column Chromatography 90*800',
                 id: '11',
                 number: 'KJ-CO2-11',
                 selected: false,
-                content: 'Column Chromatography 90*800',
-            },
-        ],
-    },
-];
-
-export default items;
+            }],
+            title: 'Column, PTFE Plug',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '76',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F76.jpg?alt=media&token=4becd315-9a4f-4ec4-a0ea-09199caf49ec',
+            specification: [{
+                content: 'Column Chromatography 10.5*300 Filter',
+                id: '1',
+                number: 'KJ-CO3-1',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 19*400 Filter',
+                id: '2',
+                number: ' KJ-CO3-2',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 22*300 Filter',
+                id: '3',
+                number: 'KJ-CO3-3',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 22*400 Filter',
+                id: '4',
+                number: 'KJ-CO3-4',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 25*300 Filter',
+                id: '5',
+                number: 'KJ-CO3-5',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 25*500 Filter',
+                id: '6',
+                number: 'KJ-CO3-6',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 30*300 Filter',
+                id: '7',
+                number: 'KJ-CO3-13',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 40*600 Filter',
+                id: '8',
+                number: 'KJ-CO3-7',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 50*600 Filter',
+                id: '9',
+                number: 'KJ-CO3-8',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 60*600 Filter',
+                id: '10',
+                number: 'KJ-CO3-9',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 70*600 Filter',
+                id: '11',
+                number: 'KJ-CO3-10',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 80*700 Filter',
+                id: '12',
+                number: 'KJ-CO3-11',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 90*800 Filter',
+                id: '13',
+                number: 'KJ-CO3-12',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 100*800 Filter',
+                id: '14',
+                number: 'KJ-CO3-14',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 110*800 Filter',
+                id: '15',
+                number: 'KJ-CO3-15',
+                selected: false,
+            }],
+            title: 'Column',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '77',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F77.jpg?alt=media&token=045f05f9-57d2-437e-a6b3-764122688492',
+            specification: [{
+                content: 'Column,Flash Chromatography Set 10*100mL',
+                id: '1',
+                number: 'KJ-CO5-1A',
+                selected: false,
+            }, {
+                content: 'Column,Flash Chromatography Set 19*250mL',
+                id: '2',
+                number: 'KJ-CO5-2A',
+                selected: false,
+            }, {
+                content: 'Column,Flash Chromatography Set 30*250mL',
+                id: '3',
+                number: 'KJ-CO5-3A',
+                selected: false,
+            }, {
+                content: 'Column,Flash Chromatography Set 40*500mL',
+                id: '4',
+                number: 'KJ-CO5-4A',
+                selected: false,
+            }, {
+                content: 'Column,Flash Chromatography Set 50*500mL',
+                id: '5',
+                number: 'KJ-CO5-5A',
+                selected: false,
+            }, {
+                content: 'Column,Flash Chromatography Set 60*1000mL',
+                id: '6',
+                number: 'KJ-CO5-6A',
+                selected: false,
+            }, {
+                content: 'Column,Flash Chromatography Set 70*1000mL',
+                id: '7',
+                number: 'KJ-CO5-7A',
+                selected: false,
+            }, {
+                content: 'Column,Flash Chromatography Set 80*2000mL',
+                id: '8',
+                number: 'KJ-CO5-8A',
+                selected: false,
+            }, {
+                content: 'Column Flash B ,Ball 35 PTFE',
+                id: '9',
+                number: '         KJ-CO5-1B',
+                selected: false,
+            }, {
+                content: 'Column Flash C 100ML',
+                id: '10',
+                number: 'KJ-CO5-1C',
+                selected: false,
+            }, {
+                content: 'Column Flash C 250ML',
+                id: '11',
+                number: 'KJ-CO5-2C,3C',
+                selected: false,
+            }, {
+                content: 'Column Flash C 500ML',
+                id: '12',
+                number: 'KJ-CO5-4C,5C',
+                selected: false,
+            }, {
+                content: 'Column Flash C 1000ML',
+                id: '13',
+                number: 'KJ-CO5-6C,7C',
+                selected: false,
+            }, {
+                content: 'Column Flash C 2000ML',
+                id: '14',
+                number: ' KJ-CO5-8C',
+                selected: false,
+            }, {
+                content: 'Column Flash D 10mm Filter T/C',
+                id: '15',
+                number: 'KJ-CO5-1D',
+                selected: false,
+            }, {
+                content: 'Column Flash D 19mm Filter T/C',
+                id: '16',
+                number: 'KJ-CO5-2D',
+                selected: false,
+            }, {
+                content: 'Column Flash D 30mm Filter T/C',
+                id: '17',
+                number: 'KJ-CO5-3D',
+                selected: false,
+            }, {
+                content: 'lumn Flash D 40mm Filter T/C',
+                id: '18',
+                number: 'KJ-CO5-4D',
+                selected: false,
+            }, {
+                content: 'Column Flash D 50mm Filter T/C',
+                id: '19',
+                number: 'KJ-CO5-5D',
+                selected: false,
+            }, {
+                content: 'Column Flash D 60mm Filter T/C',
+                id: '20',
+                number: 'KJ-CO5-6D',
+                selected: false,
+            }, {
+                content: 'Column Flash D 70mm Filter T/C',
+                id: '21',
+                number: 'KJ-CO5-7D',
+                selected: false,
+            }, {
+                content: 'Column Flash D 80mm Filter T/C',
+                id: '22',
+                number: 'KJ-CO5-8D',
+                selected: false,
+            }, {
+                content: 'Column Flash D 10mm T/C',
+                id: '23',
+                number: 'KJ-CO5-1E',
+                selected: false,
+            }, {
+                content: 'Column Flash D 19mm T/C',
+                id: '24',
+                number: 'KJ-CO5-2E',
+                selected: false,
+            }, {
+                content: 'Column Flash D 30mm T/C',
+                id: '25',
+                number: 'KJ-CO5-3E',
+                selected: false,
+            }, {
+                content: 'Column Flash D 40mm T/C',
+                id: '26',
+                number: 'KJ-CO5-4E',
+                selected: false,
+            }, {
+                content: 'Column Flash D 50mm T/C',
+                id: '27',
+                number: 'KJ-CO5-5E',
+                selected: false,
+            }, {
+                content: 'Column Flash D 60mm T/C',
+                id: '28',
+                number: 'KJ-CO5-6E',
+                selected: false,
+            }, {
+                content: 'Column Flash D 70mm T/C',
+                id: '29',
+                number: ' KJ-CO5-7E',
+                selected: false,
+            }, {
+                content: 'Column Flash D 80mm T/C',
+                id: '30',
+                number: 'KJ-CO5-8E',
+                selected: false,
+            }],
+            title: 'Column Flash, PTFE Plug',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '78',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F78.jpg?alt=media&token=74356246-9693-4937-8589-8b4d1cac020a',
+            specification: [{
+                content: 'Column, Flash A Set 100ML*20*500 T/C',
+                id: '1',
+                number: 'KJ-CO7-1A',
+                selected: false,
+            }, {
+                content: 'Column, Flash A Set 100ML*20*500 T/C',
+                id: '2',
+                number: '         KJ-CO7-2A',
+                selected: false,
+            }, {
+                content: 'Column, Flash A Set 500ML*40*500 T/C',
+                id: '3',
+                number: 'KJ-CO7-3A',
+                selected: false,
+            }, {
+                content: 'Column, Flash A Set 500ML*50*600 T/C',
+                id: '4',
+                number: '         KJ-CO7-4A',
+                selected: false,
+            }, {
+                content: 'Column, Flash A Set 500ML*60*600 T/C',
+                id: '5',
+                number: 'KJ-CO7-5A',
+                selected: false,
+            }, {
+                content: 'Column, Flash A Set 1000ML*70*600 T/C',
+                id: '6',
+                number: 'KJ-CO7-6A',
+                selected: false,
+            }, {
+                content: 'Column, Flash A Set 1000ML*80*700 T/C',
+                id: '7',
+                number: ' KJ-CO7-7A',
+                selected: false,
+            }, {
+                content: 'Column, Flash 24/29',
+                id: '8',
+                number: 'KJ-CO7-1B',
+                selected: false,
+            }, {
+                content: 'Column, Flash C 100ML',
+                id: '9',
+                number: 'KJ-CO7-1C',
+                selected: false,
+            }, {
+                content: 'Column, Flash C 250ML',
+                id: '10',
+                number: 'KJ-CO7-2C',
+                selected: false,
+            }, {
+                content: 'Column, Flash C 500ML',
+                id: '11',
+                number: 'KJ-CO7-3~5C',
+                selected: false,
+            }, {
+                content: 'Column, Flash C 1000ML',
+                id: '12',
+                number: 'KJ-CO7-6~7C',
+                selected: false,
+            }, {
+                content: 'Column, Flash C 2000ML',
+                id: '13',
+                number: 'KJ-CO7-8C',
+                selected: false,
+            }, {
+                content: 'Column, Flash D 20*500 T/C',
+                id: '14',
+                number: 'KJ-CO7-1D',
+                selected: false,
+            }, {
+                content: 'Column, Flash D 30*500 T/C',
+                id: '15',
+                number: 'KJ-CO7-2D',
+                selected: false,
+            }, {
+                content: 'Column, Flash D 40*500 T/C',
+                id: '16',
+                number: 'KJ-CO7-3D',
+                selected: false,
+            }, {
+                content: 'Column, Flash D 50*600 T/C',
+                id: '17',
+                number: 'KJ-CO7-4D',
+                selected: false,
+            }, {
+                content: 'Column, Flash D 60*600 T/C',
+                id: '18',
+                number: 'KJ-CO7-5D',
+                selected: false,
+            }, {
+                content: 'Column, Flash D 70*600 T/C',
+                id: '19',
+                number: 'KJ-CO7-6D',
+                selected: false,
+            }, {
+                content: 'mn, Flash D 80*700 T/C',
+                id: '20',
+                number: 'KJ-CO7-7D',
+                selected: false,
+            }],
+            title: 'Column Flash  assembly',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '79',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F79.jpg?alt=media&token=dc23cc32-4972-4fab-b78e-b86856c8c9bb',
+            specification: [{
+                content: 'Column, Flask 14/20 50ML 10*150 ,Filter T/C',
+                id: '1',
+                number: '         KJ-CO8-1',
+                selected: false,
+            }, {
+                content: 'Column, Flask 14/20 100ML 20*150 ,Filter T/C',
+                id: '2',
+                number: '         KJ-CO8-2',
+                selected: false,
+            }, {
+                content: 'Column, Flask 24/40 250ML 30*230 ,Filter T/C',
+                id: '3',
+                number: 'KJ-CO8-3',
+                selected: false,
+            }, {
+                content: 'Column, Flask 24/40 500ML 40*280 ,Filter T/C',
+                id: '4',
+                number: 'KJ-CO8-4',
+                selected: false,
+            }, {
+                content: 'Column, Flask 24/40 500ML 50*300 ,Filter T/C',
+                id: '5',
+                number: 'KJ-CO8-5',
+                selected: false,
+            }, {
+                content: 'Column, Flask 24/40 500ML 60*350 ,Filter T/C',
+                id: '6',
+                number: 'KJ-CO8-6',
+                selected: false,
+            }, {
+                content: 'Column, Flask 34/45 1000ML 70*350 ,Filter T/C',
+                id: '7',
+                number: 'KJ-CO8-7',
+                selected: false,
+            }, {
+                content: 'Column, Flask 34/45 1000ML 80*450 ,Filter T/C',
+                id: '8',
+                number: 'KJ-CO8-8',
+                selected: false,
+            }, {
+                content: 'Column, Flask 34/45 1000ML 90*500 ,Filter T/C',
+                id: '9',
+                number: 'KJ-CO8-9',
+                selected: false,
+            }, {
+                content: 'Column, Flask 34/45 1000ML 100*500 ,Filter T/C',
+                id: '10',
+                number: 'KJ-CO8-10',
+                selected: false,
+            }, {
+                content: 'Column, Flask 45/50 2000ML 110*600 ,Filter T/C',
+                id: '11',
+                number: 'KJ-CO8-11',
+                selected: false,
+            }, {
+                content: 'Column, Flask 45/50 2000ML 120*600 ,Filter T/C',
+                id: '12',
+                number: 'KJ-CO8-12',
+                selected: false,
+            }],
+            title: 'Column Flask GlassFilter M. PTFE Plug',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '80',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F80.jpg?alt=media&token=f7fbd337-795b-44e5-8bdf-f048f107eddf',
+            specification: [{
+                content: 'Column PTFE Plug OD;10*300 14/20',
+                id: '1',
+                number: 'KJ-CON1-1',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;20*300 24/40',
+                id: '2',
+                number: 'KJ-CON1-2',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;30*300 24/40',
+                id: '3',
+                number: 'KJ-CON1-3',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;40*300 24/40',
+                id: '4',
+                number: 'KJ-CON1-4',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;50*400 34/45',
+                id: '5',
+                number: '         KJ-CON1-5',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;60*500 34/45',
+                id: '6',
+                number: 'KJ-CON1-6',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;70*550 45/50',
+                id: '7',
+                number: 'KJ-CON1-7',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;80*600 45/50',
+                id: '8',
+                number: 'KJ-CON1-8',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;90*650 55/50',
+                id: '9',
+                number: ' KJ-CON1-9',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;100*700 55/50',
+                id: '10',
+                number: 'KJ-CON1-10',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;110*800 55/50',
+                id: '11',
+                number: 'KJ-CON1-11',
+                selected: false,
+            }, {
+                content: 'Column PTFE Plug OD;120*800 55/50',
+                id: '12',
+                number: ' KJ-CON1-12',
+                selected: false,
+            }],
+            title: 'Column PTFE Plug',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '81',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F81.jpg?alt=media&token=cc70ce61-431c-4380-9acb-a3eac21dabb9',
+            specification: [{
+                content: 'Column Chromatography 10.5*300 Filter 14/20',
+                id: '1',
+                number: 'KJ-CON4-1',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 19*400 Filter 24/40',
+                id: '2',
+                number: 'KJ-CON4-2',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 22*300 Filter 24/40',
+                id: '3',
+                number: 'KJ-CON4-3',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 25*400 Filter 24/40',
+                id: '4',
+                number: 'KJ-CON4-4',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 30*300 Filter 24/40',
+                id: '5',
+                number: 'KJ-CON4-5',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 35*500 Filter 24/40',
+                id: '6',
+                number: 'KJ-CON4-6',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 40*600 Filter 24/40',
+                id: '7',
+                number: 'KJ-CON4-7',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 50*600 Filter 34/45',
+                id: '8',
+                number: 'KJ-CON4-8',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 60*600 Filter 34/45',
+                id: '9',
+                number: 'KJ-CON4-9',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 70*600 Filter 45/50',
+                id: '10',
+                number: 'KJ-CON4-10',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 80*700 Filter 45/50',
+                id: '11',
+                number: 'KJ-CON4-11',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 90*800 Filter 55/50',
+                id: '12',
+                number: 'KJ-CON4-12',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 100*800 Filter 55/50',
+                id: '13',
+                number: 'KJ-CON4-13',
+                selected: false,
+            }, {
+                content: 'Column Chromatography 110*800 Filter 55/50',
+                id: '14',
+                number: 'KJ-CON4-14',
+                selected: false,
+            }],
+            title: 'Column',
+            type: 'glass',
+        }, {
+            classify: 'Columns',
+            id: '82',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F82.jpg?alt=media&token=68d67bd8-12fa-498c-b94d-c88a8a98bb07',
+            specification: [{
+                content: 'Column Flask Chromatography 10*150 50ML 14/20',
+                id: '1',
+                number: 'KJ-CON6-1',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 20*150 100ML 14/20',
+                id: '2',
+                number: 'KJ-CON6-2',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 30*230 250ML 24/40',
+                id: '3',
+                number: 'KJ-CON6-3',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 40*280 500ML 24/40',
+                id: '4',
+                number: 'KJ-CON6-4',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 50*300 500ML 24/40',
+                id: '5',
+                number: 'KJ-CON6-5',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 60*350 500ML 24/40',
+                id: '6',
+                number: 'KJ-CON6-6',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 70*350 1000ML 34/45',
+                id: '7',
+                number: 'KJ-CON6-7',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 80*450 1000ML 34/45',
+                id: '8',
+                number: 'KJ-CON6-8',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 90*500 2000ML 34/45',
+                id: '9',
+                number: 'KJ-CON6-9',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 100*500 2000ML 34/45',
+                id: '10',
+                number: ' KJ-CON6-10',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 110*600 2000ML 45/50',
+                id: '11',
+                number: 'KJ-CON6-11',
+                selected: false,
+            }, {
+                content: 'Column Flask Chromatography 120*600 2000ML 45/50',
+                id: '12',
+                number: 'KJ-CON6-12',
+                selected: false,
+            }],
+            title: 'Column Flask,  PTFE Plug',
+            type: 'glass',
+        }, {
+            classify: 'TLC Cutter',
+            id: '83',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F83.jpg?alt=media&token=9d3f0143-def7-4140-9888-9a130ba32ff1',
+            title: 'TLC Cutter',
+            type: 'glass',
+        }, {
+            classify: 'Cylinders',
+            id: '84',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F84.jpg?alt=media&token=4f0f609b-1b0d-4bcb-8d5e-1c38a43e40d5',
+            specification: [{
+                content: 'Cylinder Gradated 14/20 5ML S/T포함',
+                id: '1',
+                number: '         KJ-CY1-1',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 5ML',
+                id: '2',
+                number: 'KJ-CY1-2',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 10ML S/T포함',
+                id: '3',
+                number: 'KJ-CY1-3',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 10ML',
+                id: '4',
+                number: 'KJ-CY1-4',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 25ML S/T포함',
+                id: '5',
+                number: '         KJ-CY1-5',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 25ML',
+                id: '6',
+                number: 'KJ-CY1-6',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 50ML S/T포함',
+                id: '7',
+                number: 'KJ-CY1-7',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 50ML',
+                id: '8',
+                number: '         KJ-CY1-8',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 50ML S/T포함',
+                id: '9',
+                number: '         KJ-CY1-9',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 50ML',
+                id: '10',
+                number: 'KJ-CY1-10',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 100ML S/T포함',
+                id: '11',
+                number: '         KJ-CY1-11',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 14/20 100ML',
+                id: '12',
+                number: 'KJ-CY1-12',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 100ML S/T포함',
+                id: '13',
+                number: 'KJ-CY1-13',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 100ML',
+                id: '14',
+                number: 'KJ-CY1-14',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 250ML S/T포함',
+                id: '15',
+                number: '         KJ-CY1-15',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 250ML',
+                id: '16',
+                number: 'KJ-CY1-16',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 500ML S/T포함',
+                id: '17',
+                number: 'KJ-CY1-17',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 500ML',
+                id: '18',
+                number: '         KJ-CY1-18',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 1000ML S/T포함',
+                id: '19',
+                number: '         KJ-CY1-19',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 1000ML',
+                id: '20',
+                number: 'KJ-CY1-20',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 2000ML S/T포함',
+                id: '21',
+                number: '         KJ-CY1-21',
+                selected: false,
+            }, {
+                content: 'Cylinder Gradated 24/40 2000ML',
+                id: '22',
+                number: 'KJ-CY1-22',
+                selected: false,
+            }],
+            title: 'Cylinder, Graduated',
+            type: 'glass',
+        }, {
+            classify: 'Cylinders',
+            id: '85',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F85.jpg?alt=media&token=a9c1d8e7-3cad-4c12-8dfa-3f020618b4c1',
+            specification: [{
+                content: 'Cylinder Graduated 5ML',
+                id: '1',
+                number: 'KJ-CY2-1',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 10ML',
+                id: '2',
+                number: '         KJ-CY2-2',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 25ML',
+                id: '3',
+                number: 'KJ-CY2-3',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 50ML',
+                id: '4',
+                number: 'KJ-CY2-4',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 100ML',
+                id: '5',
+                number: 'KJ-CY2-5',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 250ML',
+                id: '6',
+                number: 'KJ-CY2-6',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 500ML',
+                id: '7',
+                number: 'KJ-CY2-7',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 1000ML',
+                id: '8',
+                number: '         KJ-CY2-8',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 2000ML',
+                id: '9',
+                number: 'KJ-CY2-9',
+                selected: false,
+            }],
+            title: 'Cylinder, Graduated',
+            type: 'glass',
+        }, {
+            classify: 'Cylinders',
+            id: '86',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F86.jpg?alt=media&token=f09623fd-c59b-4ab7-8b15-2aaed968f646',
+            specification: [{
+                content: 'Cylinder Graduated 5ML(IWAKI)',
+                id: '1',
+                number: '         KJ-CY3-1',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 10ML(IWAKI)',
+                id: '2',
+                number: 'KJ-CY3-2',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 25ML(IWAKI)',
+                id: '3',
+                number: '         KJ-CY3-3',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 50ML(IWAKI)',
+                id: '4',
+                number: 'KJ-CY3-4',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 100ML(IWAKI)',
+                id: '5',
+                number: 'KJ-CY3-5',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 250ML(IWAKI)',
+                id: '6',
+                number: '         KJ-CY3-6',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 500ML(IWAKI)',
+                id: '7',
+                number: '         KJ-CY3-7',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 1000ML(IWAKI)',
+                id: '8',
+                number: '         KJ-CY3-8',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 2000ML(IWAKI)',
+                id: '9',
+                number: '         KJ-CY3-9',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 5ML(WITEG)',
+                id: '10',
+                number: 'KJ-CY3-1',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 10ML(WITEG)',
+                id: '11',
+                number: 'KJ-CY3-2',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 25L(WITEG)',
+                id: '12',
+                number: 'KJ-CY3-3',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 50ML(WITEG)',
+                id: '13',
+                number: '         KJ-CY3-4',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 100ML(WITEG)',
+                id: '14',
+                number: '         KJ-CY3-5',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 250ML(WITEG)',
+                id: '15',
+                number: 'KJ-CY3-6',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 500ML(WITEG)',
+                id: '16',
+                number: '         KJ-CY3-7',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 1000ML(WITEG)',
+                id: '17',
+                number: '         KJ-CY3-8',
+                selected: false,
+            }, {
+                content: 'Cylinder Graduated 2000ML(WITEG)',
+                id: '18',
+                number: '         KJ-CY3-9',
+                selected: false,
+            }],
+            title: 'Cylinder, graduated',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Apparatus',
+            id: '87',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F87.jpg?alt=media&token=1706d299-5efe-4062-8587-6f29722bc0ef',
+            specification: [{
+                content: 'Distillation Apparatus Head Only 500ml',
+                id: '1',
+                number: '         KJ-DA1-1',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Set 500ml (B,C,D,F)',
+                id: '2',
+                number: 'KJ-DA1-2',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 24/40 19/9',
+                id: '3',
+                number: 'KJ-DA1-A',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 24/40 19/9',
+                id: '4',
+                number: '         KJ-DA1-B',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 10/20',
+                id: '5',
+                number: '         KJ-DA1-C',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 1000ML',
+                id: '6',
+                number: '         KJ-DA1-D',
+                selected: false,
+            }, {
+                content: 'tillation Apparatus 2000ML',
+                id: '7',
+                number: '         KJ-DA1-E',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 1000ML (조절기부착)',
+                id: '8',
+                number: '         KJ-DA1-F',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 2000ML (조절기부착)',
+                id: '9',
+                number: 'KJ-DA1-G',
+                selected: false,
+            }],
+            title: 'Distillation Apparatus solvent repurication',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Apparatus',
+            id: '88',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F88.jpg?alt=media&token=86fcaa11-55d6-4de8-93c9-86870d73e0af',
+            specification: [{
+                content: 'Distillation Apparatus Short Path 14/20 SET',
+                id: '1',
+                number: 'KJ-DA2-1',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Short Path 24/40 SET',
+                id: '2',
+                number: '         KJ-DA2-2',
+                selected: false,
+            }],
+            title: 'Distillation Apparatus, short path set',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Apparatus',
+            id: '89',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F89.jpg?alt=media&token=40bef58f-30c3-4832-be2a-1e9416e0a494',
+            specification: [{
+                content: 'Distillation Apparatus Head 125ML(Flask제외)',
+                id: '1',
+                number: 'KJ-DA3-1',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Head 500ML(Flask제외)',
+                id: '2',
+                number: '         KJ-DA3-2',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Head Set 125ML(A,D)',
+                id: '3',
+                number: '         KJ-DA3-3',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Head Set 500ML(B,E)',
+                id: '4',
+                number: '         KJ-DA3-4',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Head 1000ML(Flask제외)',
+                id: '5',
+                number: 'KJ-DA3-5',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Head Set 1000ML(C,F)',
+                id: '6',
+                number: 'KJ-DA3-6',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 2-Neck Flask 24/40 500ML',
+                id: '7',
+                number: '         KJ-DA3-A',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 2-Neck Flask 24/40 1000ML',
+                id: '8',
+                number: '         KJ-DA3-B',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 2-Neck Flask 24/40 2000ML',
+                id: '9',
+                number: 'KJ-DA3-C',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 1-Neck Flask 14/20 50ML',
+                id: '10',
+                number: 'KJ-DA3-D',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 1-Neck Flask 14/20 100ML',
+                id: '11',
+                number: 'KJ-DA3-E',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus 1-Neck Flask 24/40 250ML',
+                id: '12',
+                number: '         KJ-DA3-F',
+                selected: false,
+            }],
+            title: 'Distillation Apparatus solvent repurication',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Apparatus',
+            id: '90',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F90.jpg?alt=media&token=d5ae8fa8-efd1-4186-861a-20ac730034ff',
+            specification: [{
+                content: 'Distillation Apparatus Solvent 500ML(냉각기,온도계별도)',
+                id: '1',
+                number: '         KJ-DA4-1',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Set 29/42(A,B,D,E)(냉각기,온도계별도)',
+                id: '2',
+                number: 'KJ-DA4-2',
+                selected: false,
+            }, {
+                content: '2-Neck Flask 1000ML',
+                id: '3',
+                number: 'KJ-DA4-A',
+                selected: false,
+            }, {
+                content: 'condenser 29/42',
+                id: '4',
+                number: '         KJ-DA4-B',
+                selected: false,
+            }, {
+                content: 'Jacket Condenser 29/42',
+                id: '5',
+                number: '         KJ-DA4-C',
+                selected: false,
+            }, {
+                content: 'Thermometer Adapter 14/20',
+                id: '6',
+                number: 'KJ-DA4-D',
+                selected: false,
+            }, {
+                content: 'Drying Tube',
+                id: '7',
+                number: '         KJ-DA4-E',
+                selected: false,
+            }],
+            title: 'Distillation Apparatus, solvent',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Apparatus',
+            id: '91',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F91.jpg?alt=media&token=d9f8410b-1509-48e9-aafb-a3bad5d31adf',
+            specification: [{
+                content: 'Distillation Apparatus,Vacuum 14/20 SET',
+                id: '1',
+                number: '         KJ-DA5-1',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus,Vacuum 24/40 SET',
+                id: '2',
+                number: '         KJ-DA5-2',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus,Vacuum 29/42 SET',
+                id: '3',
+                number: 'KJ-DA5-3',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus,Vacuum 19/26 SET',
+                id: '4',
+                number: '         KJ-DA5-4',
+                selected: false,
+            }],
+            title: 'Distillation Apparatus, vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Apparatus',
+            id: '92',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F92.jpg?alt=media&token=58ab731e-bf6d-4626-8c94-1d2da88e2244',
+            specification: [{
+                content: 'Distillation Apparatus Solvent Head 250 Set',
+                id: '1',
+                number: '         KJ-DA6-2',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Head 500 Set',
+                id: '2',
+                number: '         KJ-DA6-3',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Head 1000 Set',
+                id: '3',
+                number: '         KJ-DA6-4',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Head 2000 Set',
+                id: '4',
+                number: '         KJ-DA6-5',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Head Only 250',
+                id: '5',
+                number: 'KJ-DA6-6',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Head Only 500',
+                id: '6',
+                number: '         KJ-DA6-7',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Head Only 1000',
+                id: '7',
+                number: '         KJ-DA6-8',
+                selected: false,
+            }, {
+                content: 'Distillation Apparatus Solvent Head Only 2000',
+                id: '8',
+                number: 'KJ-DA6-9',
+                selected: false,
+            }, {
+                content: '3 Way Adapter',
+                id: '9',
+                number: '         KJ-DA6-A',
+                selected: false,
+            }, {
+                content: 'Jacket Condenser',
+                id: '10',
+                number: '         KJ-DA6-B',
+                selected: false,
+            }, {
+                content: 'Reflux Condenser',
+                id: '11',
+                number: 'KJ-DA6-C',
+                selected: false,
+            }, {
+                content: '2-Neck Flask 500ML',
+                id: '12',
+                number: '         KJ-DA6-D',
+                selected: false,
+            }, {
+                content: '2-Neck Flask 1000ML',
+                id: '13',
+                number: '         KJ-DA6-E',
+                selected: false,
+            }, {
+                content: '2-Neck Flask 2000ML',
+                id: '14',
+                number: '         KJ-DA6-F',
+                selected: false,
+            }, {
+                content: '2-Neck Flask 5000ML',
+                id: '15',
+                number: 'KJ-DA6-G',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 500ML',
+                id: '16',
+                number: '         KJ-DA6-H',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 1000ML',
+                id: '17',
+                number: '         KJ-DA6-I',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 2000ML',
+                id: '18',
+                number: '         KJ-DA6-J',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 5000ML',
+                id: '19',
+                number: '         KJ-DA6-K',
+                selected: false,
+            }],
+            title: 'Distillation Apparatus, solvent',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Apparatus',
+            id: '93',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F93.jpg?alt=media&token=f4325d6c-1764-4cef-b751-ea2e9219f3eb',
+            specification: [{
+                content: 'Reflux Apparatus Continuous Head Only 500ML 24/40',
+                id: '1',
+                number: '         KJ-DA7-1',
+                selected: false,
+            }, {
+                content: 'Reflux Apparatus Continuous Head Only 1000ML 24/40',
+                id: '2',
+                number: '         KJ-DA7-2',
+                selected: false,
+            }, {
+                content: 'Reflux Apparatus Continuous Head Only 2000ML 34/45',
+                id: '3',
+                number: '         KJ-DA7-3',
+                selected: false,
+            }, {
+                content: 'Reflux Apparatus Continuous Head Set 500ML',
+                id: '4',
+                number: '         KJ-DA7-4',
+                selected: false,
+            }, {
+                content: 'Reflux Apparatus Continuous Head Set 1000ML',
+                id: '5',
+                number: 'KJ-DA7-5',
+                selected: false,
+            }, {
+                content: 'Reflux Apparatus Continuous Head Set 2000ML',
+                id: '6',
+                number: '         KJ-DA7-6',
+                selected: false,
+            }, {
+                content: 'Condenser',
+                id: '7',
+                number: '         KJ-DA7-A',
+                selected: false,
+            }, {
+                content: 'Jacket Column',
+                id: '8',
+                number: '         KJ-DA7-B',
+                selected: false,
+            }, {
+                content: '3 Way Adapter',
+                id: '9',
+                number: '         KJ-DA7-C',
+                selected: false,
+            }],
+            title: 'Distillation Apparatus, continuous',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Columns',
+            content: ['plain'],
+            id: '94',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F94.jpg?alt=media&token=38b8458b-9d6e-4390-8358-284283707d14',
+            specification: [{
+                content: 'Distillation Column Plain 14/20 130mm',
+                id: '1',
+                number: '         KJ-DC1-1',
+                selected: false,
+            }, {
+                content: 'Distillation Column Plain 14/20 250mm',
+                id: '2',
+                number: 'KJ-DC1-2',
+                selected: false,
+            }, {
+                content: 'Distillation Column Plain 24/40 250mm',
+                id: '3',
+                number: '         KJ-DC1-3',
+                selected: false,
+            }, {
+                content: 'Distillation Column Plain 24/40 350mm',
+                id: '4',
+                number: '         KJ-DC1-4',
+                selected: false,
+            }, {
+                content: 'Distillation Column Plain 14/20 ID;25*130mm',
+                id: '5',
+                number: '         KJ-DC1N-1',
+                selected: false,
+            }, {
+                content: 'Distillation Column Plain 24/40 35*200mm',
+                id: '6',
+                number: 'KJ-DC1N-2',
+                selected: false,
+            }, {
+                content: 'Distillation Column Plain 34/45 45*250mm',
+                id: '7',
+                number: '         KJ-DC1N-3',
+                selected: false,
+            }, {
+                content: 'Distillation Column Plain 29/42 40*200mm',
+                id: '8',
+                number: 'KJ-DC1N-4',
+                selected: false,
+            }],
+            title: 'Distillation Column',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Columns',
+            content: ['snyde'],
+            id: '95',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F95.jpg?alt=media&token=bfc9fa48-6ec6-430a-8a69-38aa211b93ea',
+            specification: [{
+                content: 'Distillation Column Snyder 24/40 305mm',
+                id: '1',
+                number: 'KJ-DC2-1',
+                selected: false,
+            }, {
+                content: 'Distillation Column Snyder 24/40 455mm',
+                id: '2',
+                number: 'KJ-DC2-2',
+                selected: false,
+            }],
+            title: 'Distillation Column, Snyder',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Columns',
+            content: ['improved snyder'],
+            id: '96',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F96.jpg?alt=media&token=20005110-269b-489e-94cb-0fedeac229e4',
+            specification: [{
+                content: 'Distillation Column Improved Snyder 24/40 120mm',
+                id: '1',
+                number: 'KJ-DC3-1',
+                selected: false,
+            }, {
+                content: 'Distillation Column Improved Snyder 24/40 170mm',
+                id: '2',
+                number: '         KJ-DC3-2',
+                selected: false,
+            }],
+            title: 'Distillation Column,Improved',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Columns',
+            content: ['vacuum'],
+            id: '97',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F97.jpg?alt=media&token=6692a1a3-505f-4c8b-9ccb-025ff0586c1d',
+            specification: [{
+                content: 'Distillation Column Vacuum 14/20',
+                id: '1',
+                number: '         KJ-DC4-1',
+                selected: false,
+            }, {
+                content: 'Distilllation Column Vacuum 24/40',
+                id: '2',
+                number: 'KJ-DC4-2',
+                selected: false,
+            }],
+            title: 'Distillation Column Vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Columns',
+            content: ['vigreux'],
+            id: '98',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F98.jpg?alt=media&token=0e8a62c2-65f5-47ad-83a2-05664c04c737',
+            specification: [{
+                content: 'Distillation Column Vigreux 14/20 130mm',
+                id: '1',
+                number: '         KJ-DC5-1',
+                selected: false,
+            }, {
+                content: 'Distillation Column Vigreux 24/40 150mm',
+                id: '2',
+                number: '         KJ-DC5-2',
+                selected: false,
+            }, {
+                content: 'Distillation Column Vigreux 24/40 300mm',
+                id: '3',
+                number: '         KJ-DC5-3',
+                selected: false,
+            }],
+            title: 'Distillation Column Vigreux',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            id: '99',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F99.jpg?alt=media&token=e461ef68-8f5c-45f8-963a-e3339eddf33a',
+            specification: [{
+                content: 'Distillation Head 14/20 14/20',
+                id: '1',
+                number: '         KJ-DH1-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head 24/40 14/20',
+                id: '2',
+                number: 'KJ-DH1-2',
+                selected: false,
+            }, {
+                content: 'Distillation Head 14/20 10/20',
+                id: '3',
+                number: 'KJ-DH1-3',
+                selected: false,
+            }, {
+                content: 'Distillation Head 24/40 10/20',
+                id: '4',
+                number: 'KJ-DH1-4',
+                selected: false,
+            }, {
+                content: 'Distillation Head 14/20 14/20',
+                id: '5',
+                number: '         KJ-DH1A-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head 14/20 10/20',
+                id: '6',
+                number: '         KJ-DH1A-2',
+                selected: false,
+            }, {
+                content: 'Distillation Head 24/40 14/20',
+                id: '7',
+                number: 'KJ-DH1A-3',
+                selected: false,
+            }, {
+                content: 'Distillation Head 24/40 10/20',
+                id: '8',
+                number: 'KJ-DH1A-4',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            id: '100',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F100.jpg?alt=media&token=30c1aaaf-1469-4d8b-b065-27534b718e8d',
+            specification: [{
+                content: 'Distillation Head 24/40 10/20',
+                id: '1',
+                number: 'KJ-DH2-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head 14/20 10/20',
+                id: '2',
+                number: 'KJ-DH2-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            id: '101',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F101.jpg?alt=media&token=6fdf001c-95ce-4d07-b987-5b0e201c6a70',
+            specification: [{
+                content: 'Distillation Head 250 4mm',
+                id: '1',
+                number: '         KJ-DH3-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head 500 4mm',
+                id: '2',
+                number: '         KJ-DH3-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['Extraction Head'],
+            id: '102',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F102.jpg?alt=media&token=de1c4638-60fb-498d-a7b2-da1827515696',
+            specification: [{
+                content: 'Distillation Head/Extraction Head 34/45(Flask제외)',
+                id: '1',
+                number: 'KJ-DH4-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head/Extraction Head Set',
+                id: '2',
+                number: 'KJ-DH4-2',
+                selected: false,
+            }, {
+                content: '1-Neck Flask 1000ML',
+                id: '3',
+                number: '         KJ-DH4-A',
+                selected: false,
+            }, {
+                content: 'Adapter 24/40',
+                id: '4',
+                number: '         KJ-DH4-B',
+                selected: false,
+            }, {
+                content: 'Receiving Tube 24/40',
+                id: '5',
+                number: '         KJ-DH4-C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 1L',
+                id: '6',
+                number: '         KJ-DH4-D',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['Short path'],
+            id: '103',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F103.jpg?alt=media&token=1955edff-60a6-493e-be4b-c0a176003d6b',
+            specification: [{
+                content: 'Distillation Head Short Path 14/20',
+                id: '1',
+                number: '         KJ-DH5-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Short Path 24/40',
+                id: '2',
+                number: 'KJ-DH5-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['Short path, Vacuum Jacketed'],
+            id: '104',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F104.jpg?alt=media&token=c621ac19-1e29-40ea-bf2a-cff66c23fa4d',
+            specification: [{
+                content: 'Distillation Head Short Path Vacuum Jacketed 14/20',
+                id: '1',
+                number: '         KJ-DH6-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Short Path Vacuum Jacketed 24/40',
+                id: '2',
+                number: 'KJ-DH6-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['Short path, Vigreux'],
+            id: '105',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F105.jpg?alt=media&token=0d272bea-af8f-472d-bc78-04b459880e4e',
+            specification: [{
+                content: 'Distillation Head Short Path Vigreux 14/20',
+                id: '1',
+                number: '         KJ-DH7-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Short Path Vigreux 24/40',
+                id: '2',
+                number: 'KJ-DH7-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['vacuum Jacketed Vigreux'],
+            id: '106',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F106.jpg?alt=media&token=5174655c-3734-4702-820c-4cc6b1470826',
+            specification: [{
+                content: 'Distillation Head Short Path Vacuum Jacketed Vigreux 14/20',
+                id: '1',
+                number: '         KJ-DH8-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Short Path Vacuum Jacketed Vigreux 24/40',
+                id: '2',
+                number: '         KJ-DH8-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['vacuum Jacketed Vigreux'],
+            id: '107',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F107.jpg?alt=media&token=b5d76b64-6047-46b7-91e8-8d93b53865dc',
+            specification: [{
+                content: 'Distillation Head Short Path Vacuum Jacketed Vigreux 14/20',
+                id: '1',
+                number: '         KJ-DH9-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Short Path Vacuum Jacketed Vigreux 24/40',
+                id: '2',
+                number: 'KJ-DH9-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['vacuum Jacketed Vigreux'],
+            id: '108',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F108.jpg?alt=media&token=fc327b58-ed15-4348-b50a-6f43fad03ba0',
+            specification: [{
+                content: 'Distillation Head Short Path Vacuum Jacketed Vigreux 14/20',
+                id: '1',
+                number: 'KJ-DH10-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Short Path Vacuum Jacketed Vigreux 24/40',
+                id: '2',
+                number: 'KJ-DH10-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['Variable Reflux'],
+            id: '109',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F109.jpg?alt=media&token=8a2d38e4-a887-486b-b148-950701f843d6',
+            specification: [{
+                content: 'Distillation Head Vriable Reflux 14/20 24/40 PTFE',
+                id: '1',
+                number: '         KJ-DH11-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vriable Reflux 24/40 29/42 PTFE',
+                id: '2',
+                number: '         KJ-DH11-2',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vriable Reflux 14/20 24/40 Glass',
+                id: '3',
+                number: 'KJ-DH11-3',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vriable Reflux 24/40 29/42 Glass',
+                id: '4',
+                number: 'KJ-DH11-4',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['Variable Reflux PTFE'],
+            id: '110',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F110.jpg?alt=media&token=29b8ffb6-633a-4d12-acf0-fa3972a3b557',
+            specification: [{
+                content: 'Distillation Head Vriable Reflux PTFE 24/40,29/42 SET',
+                id: '1',
+                number: '         KJ-DH12-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vriable Reflux PTFE 14/20,24/40 SET',
+                id: '2',
+                number: 'KJ-DH12-2',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vriable Reflux PTFE 24/40,29/42 SET',
+                id: '3',
+                number: '         KJ-DH12-3',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vriable Reflux PTFE 14/20,24/40 SET',
+                id: '4',
+                number: 'KJ-DH12-4',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['vigreux'],
+            id: '111',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F111.jpg?alt=media&token=1b7b0fc5-77f1-4559-a41d-46a8060554a0',
+            specification: [{
+                content: 'Distillation Head Vigreux 14/20',
+                id: '1',
+                number: 'KJ-DH13-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 24/40',
+                id: '2',
+                number: '         KJ-DH13-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['vigreux'],
+            id: '112',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F112.jpg?alt=media&token=6ce7b970-6e74-4371-a96a-6b9845fbf71a',
+            specification: [{
+                content: 'Distillation Head Vigreux 14/20',
+                id: '1',
+                number: 'KJ-DH14-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 24/40',
+                id: '2',
+                number: 'KJ-DH14-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            content: ['vigreux'],
+            id: '113',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F113.jpg?alt=media&token=eae6c670-bc1f-4321-a03e-ad94132f604f',
+            specification: [{
+                content: 'Distillation Head Vigreux 14/20,10/20,T/C,Jacket',
+                id: '1',
+                number: 'KJ-DH15-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 24/40,10/20,T/C,Jacket',
+                id: '2',
+                number: 'KJ-DH15-2',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 14/20,10/20,T/C,No Jacket',
+                id: '3',
+                number: 'KJ-DH15-3',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 24/40,10/20,T/C,No Jacket',
+                id: '4',
+                number: 'KJ-DH15-4',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 14/20,10/20,G/C,Jacket',
+                id: '5',
+                number: '         KJ-DH15-5',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 24/40,10/20,G/C,Jacket',
+                id: '6',
+                number: '         KJ-DH15-6',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 14/20,10/20,G/C,No Jacket',
+                id: '7',
+                number: 'KJ-DH15-7',
+                selected: false,
+            }, {
+                content: 'Distillation Head Vigreux 24/40,10/20,G/C,No Jacket',
+                id: '8',
+                number: '         KJ-DH15-8',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Heads',
+            id: '114',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F114.jpg?alt=media&token=beb8409a-ed86-4f60-b827-0c2cd92396e0',
+            specification: [{
+                content: 'Distillation Head 14/20 10/20',
+                id: '1',
+                number: 'KJ-DH16-1',
+                selected: false,
+            }, {
+                content: 'Distillation Head 24/40 10/20',
+                id: '2',
+                number: 'KJ-DH16-2',
+                selected: false,
+            }],
+            title: 'Distillation Head',
+            type: 'glass',
+        }, {
+            classify: 'Dish Crystallizing',
+            id: '115',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F115.jpg?alt=media&token=bf8d4ee2-ac78-4ecc-810e-c46c42bb2126',
+            specification: [{
+                content: 'Dish Crystallizing 70*50 180ML',
+                id: '1',
+                number: '         KJ-DI1-1',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 80*40 180ML',
+                id: '2',
+                number: '         KJ-DI1-2',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 90*50 270ML',
+                id: '3',
+                number: '         KJ-DI1-3',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 100*50 325ML',
+                id: '4',
+                number: '         KJ-DI1-4',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 125*65 740ML',
+                id: '5',
+                number: '         KJ-DI1-5',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 150*75 1200ML',
+                id: '6',
+                number: '         KJ-DI1-6',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 170*90 1770ML',
+                id: '7',
+                number: '         KJ-DI1-7',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 190*100 2500ML',
+                id: '8',
+                number: '         KJ-DI1-8',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 40*25 20ML',
+                id: '9',
+                number: '         KJ-DI1-11',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 50*30 40ML',
+                id: '10',
+                number: 'KJ-DI1-12',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 60*35 60ML',
+                id: '11',
+                number: 'KJ-DI1-13',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 70*40 100ML',
+                id: '12',
+                number: 'KJ-DI1-14',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 80*45 150ML',
+                id: '13',
+                number: 'KJ-DI1-15',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 95*55 300ML',
+                id: '14',
+                number: 'KJ-DI1-16',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 115*65 500ML',
+                id: '15',
+                number: '         KJ-DI1-17',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 140*75 900ML',
+                id: '16',
+                number: 'KJ-DI1-18',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 190*90 2000ML',
+                id: '17',
+                number: 'KJ-DI1-19',
+                selected: false,
+            }, {
+                content: 'Dish Crystallizing 230*100 3500ML',
+                id: '18',
+                number: '         KJ-DI1-20',
+                selected: false,
+            }],
+            title: 'Dish Crystallizing',
+            type: 'glass',
+        }, {
+            classify: 'M.T Parcelain Crucible',
+            id: '116',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F116.jpg?alt=media&token=8b67215b-b125-47f4-8c52-cf5b13723300',
+            specification: [{
+                content: 'Crucible 36*27 15ML',
+                id: '1',
+                number: '         KJ-DIC-1',
+                selected: false,
+            }, {
+                content: 'Crucible 45*36 30ML',
+                id: '2',
+                number: '         KJ-DIC-2',
+                selected: false,
+            }, {
+                content: 'Crucible 53*43 50ML',
+                id: '3',
+                number: '         KJ-DIC-3',
+                selected: false,
+            }, {
+                content: 'Crucible 65*54 100ML',
+                id: '4',
+                number: '         KJ-DIC-4',
+                selected: false,
+            }, {
+                content: 'Crucible 72*59 155ML',
+                id: '5',
+                number: '         KJ-DIC-5',
+                selected: false,
+            }, {
+                content: 'Crucible 87*72 280ML',
+                id: '6',
+                number: '         KJ-DIC-6',
+                selected: false,
+            }],
+            title: 'M.T Parcelain Crucible',
+            type: 'glass',
+        }, {
+            classify: 'Dispenser',
+            id: '117',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F117.jpg?alt=media&token=b49f12d4-15d5-480e-a51a-c39e49160811',
+            title: 'Dispenser',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '118',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F118.jpg?alt=media&token=1ae19ccb-b199-4cd2-88d7-d5db6b2f9b71',
+            specification: [{
+                content: 'Distillation Receiver 14/20(Flask별도)',
+                id: '1',
+                number: 'KJ-DR1-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40(Flask별도)',
+                id: '2',
+                number: '         KJ-DR1-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 14/20',
+                id: '3',
+                number: '         KJ-DR1-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40',
+                id: '4',
+                number: 'KJ-DR1-4',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '119',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F119.jpg?alt=media&token=b97787be-4040-4f12-b1fd-f967620944aa',
+            specification: [{
+                content: 'Distillation Receiver 14/20 SET',
+                id: '1',
+                number: 'KJ-DR2-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 SET',
+                id: '2',
+                number: 'KJ-DR2-2',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '120',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F120.jpg?alt=media&token=50bc1100-a4c6-4fe7-9a16-29112639a54e',
+            specification: [{
+                content: 'Distillation Receiver 14/20 Vacuum Adapter A Only',
+                id: '1',
+                number: '         KJ-DR3-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 Vacuum Adapter A Only',
+                id: '2',
+                number: '         KJ-DR3-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 14/20 Receiver B Only',
+                id: '3',
+                number: '         KJ-DR3-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 Receiver B Only',
+                id: '4',
+                number: 'KJ-DR3-4',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 14/20 Set A,B,Flask 15*3ea',
+                id: '5',
+                number: 'KJ-DR3-5',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 Set A,B,Flask 50*3ea',
+                id: '6',
+                number: 'KJ-DR3-6',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '121',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F121.jpg?alt=media&token=0d414a65-20e0-4bac-8602-d20743728c5b',
+            specification: [{
+                content: 'Distillation Receiver 14/20 Vacuum Adapter A Only',
+                id: '1',
+                number: '         KJ-DR4-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 Vacuum Adapter A Only',
+                id: '2',
+                number: '         KJ-DR4-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 14/20 Receiver B Only',
+                id: '3',
+                number: '         KJ-DR4-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 Receiver B Only',
+                id: '4',
+                number: 'KJ-DR4-4',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 14/20 Set A,B,Flask 15*3ea',
+                id: '5',
+                number: 'KJ-DR4-5',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 Set A,B,Flask 50*3ea',
+                id: '6',
+                number: '         KJ-DR4-6',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '122',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F122.jpg?alt=media&token=51612f80-2717-4234-b069-54aeb6daec0c',
+            specification: [{
+                content: 'Distillation Receiver 14/20',
+                id: '1',
+                number: '         KJ-DR5-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40',
+                id: '2',
+                number: '         KJ-DR5-2',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '123',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F123.jpg?alt=media&token=43a95c9b-7957-4267-b7e4-3bcce5657c9f',
+            specification: [{
+                content: 'Distillation Receiver 14/20 12ML',
+                id: '1',
+                number: 'KJ-DR6-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 14/20 40ML',
+                id: '2',
+                number: '         KJ-DR6-2',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '124',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F124.jpg?alt=media&token=c3217b43-077a-4a84-87cb-a869344511d3',
+            specification: [{
+                content: 'Distillation Receiver 24/40 50ML',
+                id: '1',
+                number: '         KJ-DR7-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 100ML',
+                id: '2',
+                number: '         KJ-DR7-2',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '125',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F125.jpg?alt=media&token=0ff7c8e0-5548-4aac-a880-d223b33275fe',
+            specification: [{
+                content: 'Distillation Receiver 14/20',
+                id: '1',
+                number: 'KJ-DR8-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40',
+                id: '2',
+                number: '         KJ-DR8-2',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '126',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F126.jpg?alt=media&token=cd398df6-1f07-445e-861a-65254e4eb79f',
+            specification: [{
+                content: 'Distillation Receiver 14/20 3ML',
+                id: '1',
+                number: '         KJ-DR9-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 5ML',
+                id: '2',
+                number: 'KJ-DR9-2',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '127',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F127.jpg?alt=media&token=3fb958b0-f53c-41a0-a2c6-3c032cc8f5ba',
+            specification: [{
+                content: 'Distillation Receiver Moisture Test 14/20 5ML',
+                id: '1',
+                number: '         KJ-DR10-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 24/40 20ML',
+                id: '2',
+                number: 'KJ-DR10-2',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '128',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F128.jpg?alt=media&token=4661c0a5-8dd0-4ef2-b360-6021a3dfb596',
+            specification: [{
+                content: 'Distillation Receiver Moisture Test 24/40 10ML',
+                id: '1',
+                number: 'KJ-DR11-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 24/40 20ML',
+                id: '2',
+                number: '         KJ-DR11-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 14/20 10ML',
+                id: '3',
+                number: 'KJ-DR11-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 14/20 5ML',
+                id: '4',
+                number: 'KJ-DR11-4',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 24/40 50ML',
+                id: '5',
+                number: 'KJ-DR11-5',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '129',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F129.jpg?alt=media&token=d316873e-0b89-44e1-8768-ed24a8d453a9',
+            specification: [{
+                content: 'Distillation Receiver Moisture Test 24/40 10ML',
+                id: '1',
+                number: '         KJ-DR12-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 24/40 20ML',
+                id: '2',
+                number: 'KJ-DR12-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 14/20 10ML',
+                id: '3',
+                number: 'KJ-DR12-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 14/20 5ML',
+                id: '4',
+                number: '         KJ-DR12-4',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '130',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F130.jpg?alt=media&token=f4fd8d95-ae29-4bab-b33c-8b1ce3cc5da6',
+            specification: [{
+                content: 'Distillation Receiver Moisture Test 14/20 5ML',
+                id: '1',
+                number: 'KJ-DR13-1',
+                selected: false,
+            }, {
+                content: 'llation Receiver Moisture Test 14/20 10ML',
+                id: '2',
+                number: '         KJ-DR13-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 24/40 10ML',
+                id: '3',
+                number: 'KJ-DR13-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver Moisture Test 24/40 20ML',
+                id: '4',
+                number: '         KJ-DR13-4',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '131',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F131.jpg?alt=media&token=d4cc8919-fd18-4197-841e-fdd6e356a7d4',
+            specification: [{
+                content: 'Distillation Receiver 29/32 24/40*5',
+                id: '1',
+                number: '         KJ-DR14-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 29/32 24/40*6',
+                id: '2',
+                number: 'KJ-DR14-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 24/40*5',
+                id: '3',
+                number: '         KJ-DR14-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 24/40*6',
+                id: '4',
+                number: '         KJ-DR14-4',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 14/20*5',
+                id: '5',
+                number: '         KJ-DR14-5',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 14/20*6',
+                id: '6',
+                number: 'KJ-DR14-6',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Distillation Receivers',
+            id: '132',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F132.jpg?alt=media&token=c51739dc-b4a5-4156-8fc3-9562ea9381d0',
+            specification: [{
+                content: 'Distillation Receiver 29/32 24/40*5',
+                id: '1',
+                number: '         KJ-DR15-1',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 29/32 24/40*6',
+                id: '2',
+                number: '         KJ-DR15-2',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 24/40*5',
+                id: '3',
+                number: '         KJ-DR15-3',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 24/40*6',
+                id: '4',
+                number: '         KJ-DR15-4',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 14/20*5',
+                id: '5',
+                number: 'KJ-DR15-5',
+                selected: false,
+            }, {
+                content: 'Distillation Receiver 24/40 14/20*6',
+                id: '6',
+                number: '         KJ-DR15-6',
+                selected: false,
+            }],
+            title: 'Distillation Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Drying Apparatus',
+            id: '133',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F133.jpg?alt=media&token=31a5e587-cd3f-4b8b-8964-fe72a6c234bf',
+            specification: [{
+                content: 'Drying Apparatus Vacuum Desiccant Flask 45/50 A',
+                id: '1',
+                number: 'KJ-DRA1-1',
+                selected: false,
+            }, {
+                content: 'Drying Apparatus Vacuum Drying Chamber B',
+                id: '2',
+                number: 'KJ-DRA1-2',
+                selected: false,
+            }, {
+                content: 'Drying Apparatus Vacuum Condenser 300ML 24/40 C',
+                id: '3',
+                number: '         KJ-DRA1-3',
+                selected: false,
+            }, {
+                content: 'Drying Apparatus Vacuum Boiling Flask 250ML 24/40 D',
+                id: '4',
+                number: '         KJ-DRA1-4',
+                selected: false,
+            }, {
+                content: 'Drying Apparatus Vacuum Full Set',
+                id: '5',
+                number: 'KJ-DRA1-5',
+                selected: false,
+            }],
+            title: 'Drying Apparatus,Vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Drying Apparatus',
+            content: ['glass'],
+            id: '134',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F134.jpg?alt=media&token=d3a5d599-285c-432a-91cb-fe7b6b4389f4',
+            specification: [{
+                content: 'Drying Desiccator Glass 200mm Cle',
+                id: '1',
+                number: '         KJ-DRA2-1',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Glass 250mm Clear',
+                id: '2',
+                number: 'KJ-DRA2-2',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Glass 300mm Clear',
+                id: '3',
+                number: 'KJ-DRA2-3',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Glass 360mm Clear',
+                id: '4',
+                number: 'KJ-DRA2-4',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Glass 200mm Amber',
+                id: '5',
+                number: 'KJ-DRA2-5',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Glass 250mm Amber',
+                id: '6',
+                number: '         KJ-DRA2-6',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Glass 300mm Amber',
+                id: '7',
+                number: 'KJ-DRA2-7',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Glass 360mm Amber',
+                id: '8',
+                number: 'KJ-DRA2-8',
+                selected: false,
+            }],
+            title: 'Drying Desiccator',
+            type: 'glass',
+        }, {
+            classify: 'Drying Apparatus',
+            content: ['glass'],
+            id: '135',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F135.jpg?alt=media&token=2c678797-35a8-43fc-9e50-93ffccc43f95',
+            specification: [{
+                content: 'Drying Desiccator Vacuum Glass 200mm Clear',
+                id: '1',
+                number: '         KJ-DRA3-1',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Vacuum Glass 250mm Clear',
+                id: '2',
+                number: 'KJ-DRA3-2',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Vacuum Glass 300mm Clear',
+                id: '3',
+                number: '         KJ-DRA3-3',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Vacuum Glass 360mm Clear',
+                id: '4',
+                number: 'KJ-DRA3-4',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Vacuum Glass 200mm Amber',
+                id: '5',
+                number: 'KJ-DRA3-5',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Vacuum Glass 250mm Amber',
+                id: '6',
+                number: '         KJ-DRA3-6',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Vacuum Glass 300mm Amber',
+                id: '7',
+                number: '         KJ-DRA3-7',
+                selected: false,
+            }, {
+                content: 'Drying Desiccator Vacuum Glass 360mm Amber',
+                id: '8',
+                number: 'KJ-DRA3-8',
+                selected: false,
+            }],
+            title: 'Drying Desiccator',
+            type: 'glass',
+        }, {
+            classify: 'Extraction Apparatus',
+            id: '136',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F136.jpg?alt=media&token=58d84123-78bf-4fa3-9de9-668bd48b4fc2',
+            specification: [{
+                content: 'Extraction Apparatus Soxhlet 34/45 SET',
+                id: '1',
+                number: '         KJ-EA1-1',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet 45/50 SET',
+                id: '2',
+                number: '         KJ-EA1-2',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet 55/50 SET',
+                id: '3',
+                number: '         KJ-EA1-3',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet 71/60 SET',
+                id: '4',
+                number: '         KJ-EA1-4',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 34/45',
+                id: '5',
+                number: '         KJ-EA1-6',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 45/50',
+                id: '6',
+                number: '         KJ-EA1-7',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 55/50',
+                id: '7',
+                number: '         KJ-EA1-8',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 71/60',
+                id: '8',
+                number: '         KJ-EA1-9',
+                selected: false,
+            }],
+            title: 'Extraction Apparatus,Soxhlet',
+            type: 'glass',
+        }, {
+            classify: 'Extraction Apparatus',
+            id: '137',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F137.jpg?alt=media&token=cf89cfff-dea6-4607-b9dd-da0b1cc719ab',
+            specification: [{
+                content: 'Extraction Apparatus Soxhlet 34/45 SET',
+                id: '1',
+                number: '         KJ-EA2-1',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet 45/50 SET',
+                id: '2',
+                number: 'KJ-EA2-2',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet 55/50 SET',
+                id: '3',
+                number: '         KJ-EA2-3',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet 71/60 SET',
+                id: '4',
+                number: '         KJ-EA2-4',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 34/45',
+                id: '5',
+                number: '         KJ-EA2-6',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 45/50',
+                id: '6',
+                number: '         KJ-EA2-7',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 55/50',
+                id: '7',
+                number: 'KJ-EA2-8',
+                selected: false,
+            }, {
+                content: 'Extraction Apparatus Soxhlet Only 71/60',
+                id: '8',
+                number: 'KJ-EA2-9',
+                selected: false,
+            }],
+            title: 'Extraction Apparatus,Soxhlet',
+            type: 'glass',
+        }, {
+            classify: 'Extraction Apparatus',
+            id: '138',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F138.jpg?alt=media&token=08df0f7f-96bc-4203-b4a9-fe0c989b0b7e',
+            specification: [{
+                content: 'Extraction Thimbles 25*90 25ea/Box',
+                id: '1',
+                number: 'KJ-EA3-1',
+                selected: false,
+            }, {
+                content: 'Extraction Thimbles 28*100 25ea/Box',
+                id: '2',
+                number: '         KJ-EA3-2',
+                selected: false,
+            }, {
+                content: 'Extraction Thimbles 33*120 25ea/Box',
+                id: '3',
+                number: '         KJ-EA3-3',
+                selected: false,
+            }, {
+                content: 'Extraction Thimbles 35*120 25ea/Box',
+                id: '4',
+                number: 'KJ-EA3-4',
+                selected: false,
+            }],
+            title: 'Extraction Thimbles',
+            type: 'glass',
+        }, {
+            classify: 'Extraction Apparatus',
+            id: '139',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F139.jpg?alt=media&token=702a8cc4-64a7-4522-ae20-a214cbf4d4f8',
+            specification: [{
+                content: 'Thimble Extraction 28 34/45',
+                id: '1',
+                number: '         KJ-EA4-1',
+                selected: false,
+            }, {
+                content: 'Thimble Extraction 38 45/50',
+                id: '2',
+                number: '         KJ-EA4-2',
+                selected: false,
+            }, {
+                content: 'Thimble Extraction 45 55/50',
+                id: '3',
+                number: '         KJ-EA4-3',
+                selected: false,
+            }, {
+                content: 'Thimble Extraction 55 60/50',
+                id: '4',
+                number: 'KJ-EA4-4',
+                selected: false,
+            }],
+            title: 'Extraction Thimbles',
+            type: 'glass',
+        }, {
+            classify: 'Extraction Apparatus',
+            id: '140',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F140.jpg?alt=media&token=bfefbe71-c06a-46c9-ab35-d27654be4176',
+            specification: [{
+                content: 'Apparatus Extractors 55m/m 24/40 O-ring Type',
+                id: '1',
+                number: '         KJ-EA5-1',
+                selected: false,
+            }, {
+                content: 'Apparatus Extractors Sus Clamp, No75',
+                id: '2',
+                number: 'KJ-EA5-2',
+                selected: false,
+            }, {
+                content: 'Apparatus Extractors Glass Thimble',
+                id: '3',
+                number: 'KJ-EA5-3',
+                selected: false,
+            }, {
+                content: 'Apparatus Extractors Full Set',
+                id: '4',
+                number: '         KJ-EA5-4',
+                selected: false,
+            }],
+            title: 'Extractors',
+            type: 'glass',
+        }, {
+            classify: 'Extraction Apparatus',
+            id: '141',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F141.jpg?alt=media&token=633dd24a-abf6-49f6-8467-b5df44876a0a',
+            specification: [{
+                content: 'Distillation Extractors 100ML 24/40,14/20',
+                id: '1',
+                number: '         KJ-EA6-1',
+                selected: false,
+            }, {
+                content: 'Distillation Extractors 250ML 24/40,14/20',
+                id: '2',
+                number: '         KJ-EA6-2',
+                selected: false,
+            }, {
+                content: 'Distillation Extractors 500ML 24/40,24/40',
+                id: '3',
+                number: '         KJ-EA6-3',
+                selected: false,
+            }, {
+                content: 'Distillation Extractors 1000ML 34/45,24/40',
+                id: '4',
+                number: 'KJ-EA6-4',
+                selected: false,
+            }, {
+                content: 'Distillation Extractors 2000ML 45/50,24/40',
+                id: '5',
+                number: '         KJ-EA6-5',
+                selected: false,
+            }, {
+                content: 'Distillation Extractors 3000ML 55/50,29/42',
+                id: '6',
+                number: 'KJ-EA6-6',
+                selected: false,
+            }],
+            title: 'Extractors',
+            type: 'glass',
+        }, {
+            classify: 'Extraction Apparatus',
+            id: '142',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F142.jpg?alt=media&token=e73c690e-d0c8-4990-ba7a-0bee48666fb3',
+            specification: [{
+                content: 'Diffusion Cell 4m/m',
+                id: '1',
+                number: '         KJ-EA7-1',
+                selected: false,
+            }, {
+                content: 'Diffusion Cell 10m/m',
+                id: '2',
+                number: 'KJ-EA7-2',
+                selected: false,
+            }],
+            title: 'Diffusion Cell',
+            type: 'glass',
+        }, {
+            classify: '전기로',
+            id: '143',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F143.jpg?alt=media&token=ff5cc45f-a3f0-4566-b684-387efaa56cf6',
+            title: '전기로',
+            type: 'glass',
+        }, {
+            classify: '전기로',
+            id: '144',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F144.jpg?alt=media&token=dade0d33-d98b-463d-8a98-096c5553f6f1',
+            title: '전기로',
+            type: 'glass',
+        }, {
+            classify: '전기로',
+            id: '145',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F145.jpg?alt=media&token=08430a2e-6e0c-4a3c-b8d7-34a2d4ae4cea',
+            title: '전기로',
+            type: 'glass',
+        }, {
+            classify: '전기로',
+            id: '146',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F146.jpg?alt=media&token=11fc1018-6cb6-4e18-a722-0c8469fe4829',
+            title: '전기로',
+            type: 'glass',
+        }, {
+            classify: '전기로',
+            id: '147',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F147.jpg?alt=media&token=24b4bc2d-3eb9-4d7d-8820-4ce09b7d48bb',
+            title: '전기로',
+            type: 'glass',
+        }, {
+            classify: '전기로',
+            id: '148',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F148.jpg?alt=media&token=8470a252-1afc-4662-aac3-7ba58ef6bca1',
+            title: '전기로',
+            type: 'glass',
+        }, {
+            classify: 'Evaporative Concenrators',
+            id: '149',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F149.jpg?alt=media&token=254b8a5d-f68a-4130-b7ae-26e43cd9ba48',
+            specification: [{
+                content: 'Evaporative Concentrators 125ML 5ML A,B,C',
+                id: '1',
+                number: '         KJ-EV1-1',
+                selected: false,
+            }, {
+                content: 'Evaporative Concentrators 250ML 10ML A,B,C',
+                id: '2',
+                number: 'KJ-EV1-2',
+                selected: false,
+            }, {
+                content: 'Evaporative Concentrators 500ML 15ML A,B,C',
+                id: '3',
+                number: '         KJ-EV1-3',
+                selected: false,
+            }, {
+                content: 'Evaporative Concentrators 1000ML 20ML A,B,C',
+                id: '4',
+                number: '         KJ-EV1-4',
+                selected: false,
+            }, {
+                content: 'Evaporative Concentrators 125ML 5ML A,C',
+                id: '5',
+                number: '         KJ-EV1-5',
+                selected: false,
+            }, {
+                content: 'Evaporative Concentrators 250ML 10ML A,C',
+                id: '6',
+                number: 'KJ-EV1-6',
+                selected: false,
+            }, {
+                content: 'Evaporative Concentrators 500ML 15ML A,C',
+                id: '7',
+                number: '         KJ-EV1-7',
+                selected: false,
+            }, {
+                content: 'Evaporative Concentrators 1000ML 20ML A,C',
+                id: '8',
+                number: '         KJ-EV1-8',
+                selected: false,
+            }],
+            title: 'Evaporative Concentrator',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '150',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F150.jpg?alt=media&token=87bee873-24aa-4c37-96e5-5baf66a1c580',
+            specification: [{
+                content: 'Flask Erlenmeyer 14/20 10ML',
+                id: '1',
+                number: '         KJ-FA1-1',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 14/20 25ML',
+                id: '2',
+                number: 'KJ-FA1-2',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 14/20 50ML',
+                id: '3',
+                number: '         KJ-FA1-3',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 24/40 100ML',
+                id: '4',
+                number: '         KJ-FA1-4',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 24/40 250ML',
+                id: '5',
+                number: '         KJ-FA1-5',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 24/40 500ML',
+                id: '6',
+                number: '         KJ-FA1-6',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 24/40 1000ML',
+                id: '7',
+                number: 'KJ-FA1-7',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 24/40 50ML',
+                id: '8',
+                number: 'KJ-FA1-8',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 14/20 100ML',
+                id: '9',
+                number: 'KJ-FA1-9',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 34/45 2000ML',
+                id: '10',
+                number: 'KJ-FA1-10',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 34/45 3000ML',
+                id: '11',
+                number: 'KJ-FA1-11',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 34/45 5000ML',
+                id: '12',
+                number: 'KJ-FA1-12',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL14 10ML',
+                id: '13',
+                number: '         KJ-FS1-1',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL14 25ML',
+                id: '14',
+                number: '         KJ-FS1-2',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL25 50ML',
+                id: '15',
+                number: 'KJ-FS1-3',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL25 100ML',
+                id: '16',
+                number: '         KJ-FS1-4',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL32 250ML',
+                id: '17',
+                number: '         KJ-FS1-5',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL32 500ML',
+                id: '18',
+                number: '         KJ-FS1-6',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL32 1000ML',
+                id: '19',
+                number: 'KJ-FS1-7',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL32 2000ML',
+                id: '20',
+                number: '         KJ-FS1-8',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL45 3000ML',
+                id: '21',
+                number: '         KJ-FS1-9',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer GL45 5000ML',
+                id: '22',
+                number: 'KJ-FS1-10',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 50ML',
+                id: '23',
+                number: '         KJ-FSB1-1',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 100ML',
+                id: '24',
+                number: 'KJ-FSB1-2',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 250ML',
+                id: '25',
+                number: '         KJ-FSB1-3',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 500ML',
+                id: '26',
+                number: 'KJ-FSB1-4',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 1000ML',
+                id: '27',
+                number: '         KJ-FSB1-5',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 2000ML',
+                id: '28',
+                number: 'KJ-FSB1-6',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 3000ML',
+                id: '29',
+                number: '         KJ-FSB1-7',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer Baffled 5000ML',
+                id: '30',
+                number: '         KJ-FSB1-8',
+                selected: false,
+            }],
+            title: 'Flask Erlenmeyer',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '151',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F151.jpg?alt=media&token=024a3c1a-4097-40ba-b6bb-78519c04d125',
+            specification: [{
+                content: 'Flask Filter 24/40 Connecter 50ML',
+                id: '1',
+                number: '         KJ-F2-12',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Connecter 100ML',
+                id: '2',
+                number: '         KJ-F2-1',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Connecter 250ML',
+                id: '3',
+                number: '         KJ-F2-2',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Connecter 500ML',
+                id: '4',
+                number: 'KJ-F2-3',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Connecter 1000ML',
+                id: '5',
+                number: 'KJ-F2-4',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Connecter 2000ML',
+                id: '6',
+                number: 'KJ-F2-5',
+                selected: false,
+            }, {
+                content: 'Flask Filter 34/45 Connecter 1000ML',
+                id: '7',
+                number: '         KJ-F2-6',
+                selected: false,
+            }, {
+                content: 'Flask Filter 34/45 Connecter 2000ML',
+                id: '8',
+                number: '         KJ-F2-7',
+                selected: false,
+            }, {
+                content: 'Flask Filter 34/45 Connecter 3000ML',
+                id: '9',
+                number: '         KJ-F2-8',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Connecter 5000ML',
+                id: '10',
+                number: 'KJ-F2-9',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Connecter 10000ML',
+                id: '11',
+                number: 'KJ-F2-10',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Connecter 20000ML',
+                id: '12',
+                number: 'KJ-F2-11',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Non Connecter 50ML',
+                id: '13',
+                number: 'KJ-F2A-12',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Non Connecter 100ML',
+                id: '14',
+                number: '         KJ-F2A-1',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Non Connecter 250ML',
+                id: '15',
+                number: '         KJ-F2A-2',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Non Connecter 500ML',
+                id: '16',
+                number: '         KJ-F2A-3',
+                selected: false,
+            }, {
+                content: 'Flask Filter 24/40 Non Connecter 1000ML',
+                id: '17',
+                number: 'KJ-F2A-4',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Non Connecter 2000ML',
+                id: '18',
+                number: 'KJ-F2A-5',
+                selected: false,
+            }, {
+                content: 'Flask Filter 34/45 Non Connecter 1000ML',
+                id: '19',
+                number: '         KJ-F2A-6',
+                selected: false,
+            }, {
+                content: 'Flask Filter 34/45 Non Connecter 2000ML',
+                id: '20',
+                number: '         KJ-F2A-7',
+                selected: false,
+            }, {
+                content: 'Flask Filter 34/45 Non Connecter 3000ML',
+                id: '21',
+                number: '         KJ-F2A-8',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Non Connecter 5000ML',
+                id: '22',
+                number: 'KJ-F2A-9',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Non Connecter 10000ML',
+                id: '23',
+                number: 'KJ-F2A-10',
+                selected: false,
+            }, {
+                content: 'Flask Filter 45/50 Non Connecter 20000ML',
+                id: '24',
+                number: 'KJ-F2A-11',
+                selected: false,
+            }, {
+                content: 'Flask Filter 50ML',
+                id: '25',
+                number: 'KJ-F2N-01',
+                selected: false,
+            }, {
+                content: 'Flask Filter 100ML',
+                id: '26',
+                number: '         KJ-F2N-1',
+                selected: false,
+            }, {
+                content: 'Flask Filter 250ML',
+                id: '27',
+                number: '         KJ-F2N-2',
+                selected: false,
+            }, {
+                content: 'Flask Filter 500ML',
+                id: '28',
+                number: '         KJ-F2N-3',
+                selected: false,
+            }, {
+                content: 'Flask Filter 1000ML',
+                id: '29',
+                number: 'KJ-F2N-4',
+                selected: false,
+            }, {
+                content: 'Flask Filter 2000ML',
+                id: '30',
+                number: '         KJ-F2N-5',
+                selected: false,
+            }, {
+                content: 'Flask Filter 3000ML',
+                id: '31',
+                number: '         KJ-F2N-6',
+                selected: false,
+            }, {
+                content: 'Flask Filter 5000ML',
+                id: '32',
+                number: '         KJ-F2N-7',
+                selected: false,
+            }, {
+                content: 'Flask Filter 10000ML',
+                id: '33',
+                number: '         KJ-F2N-8',
+                selected: false,
+            }, {
+                content: 'Flask Filter 20000ML',
+                id: '34',
+                number: '         KJ-F2N-9',
+                selected: false,
+            }],
+            title: 'Flask Filter',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '152',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F152.jpg?alt=media&token=c2fc657a-ad43-4a0b-9e49-94936b0d0724',
+            specification: [{
+                content: 'Flask Recovery 14/20 5ML',
+                id: '1',
+                number: '         KJ-F3-1',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 14/20 10ML',
+                id: '2',
+                number: '         KJ-F3-2',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 14/20 25ML',
+                id: '3',
+                number: '         KJ-F3-3',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 14/20 50ML',
+                id: '4',
+                number: '         KJ-F3-4',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 14/20 100ML',
+                id: '5',
+                number: '         KJ-F3-5',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 100ML',
+                id: '6',
+                number: '         KJ-F3-6',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 14/20 250ML',
+                id: '7',
+                number: '         KJ-F3-7',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 250ML',
+                id: '8',
+                number: '         KJ-F3-8',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 500ML',
+                id: '9',
+                number: '         KJ-F3-9',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 29/42 500ML',
+                id: '10',
+                number: 'KJ-F3-10',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 1000ML',
+                id: '11',
+                number: '         KJ-F3-11',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 29/42 1000ML',
+                id: '12',
+                number: '         KJ-F3-12',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 2000ML',
+                id: '13',
+                number: '         KJ-F3-13',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 29/42 2000ML',
+                id: '14',
+                number: '         KJ-F3-14',
+                selected: false,
+            }],
+            title: 'Flask Recovery',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '153',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F153.jpg?alt=media&token=7b2693b1-a80e-4bde-9558-112d9c9c02b4',
+            specification: [{
+                content: 'Flask Recovery 24/40 100ML',
+                id: '1',
+                number: 'KJ-F4-1',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 500ML',
+                id: '2',
+                number: 'KJ-F4-2',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 14/20 100ML',
+                id: '3',
+                number: '         KJ-F4-3',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 14/20 50ML',
+                id: '4',
+                number: '         KJ-F4-4',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 250ML',
+                id: '5',
+                number: '         KJ-F4-5',
+                selected: false,
+            }, {
+                content: 'Flask Recovery 24/40 1000ML',
+                id: '6',
+                number: 'KJ-F4-6',
+                selected: false,
+            }],
+            title: 'Flask Recovery  Kjelahl',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '154',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F154.jpg?alt=media&token=5190bc1d-7e90-49a9-9933-15a174a356f0',
+            specification: [{
+                content: 'Flask Pear Shaped 14/20 5ML',
+                id: '1',
+                number: 'KJ-F5-1',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 14/20 10ML',
+                id: '2',
+                number: 'KJ-F5-2',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 14/20 25ML',
+                id: '3',
+                number: '         KJ-F5-3',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 14/20 50ML',
+                id: '4',
+                number: 'KJ-F5-4',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 14/20 100ML',
+                id: '5',
+                number: '         KJ-F5-5',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 24/40 200ML',
+                id: '6',
+                number: '         KJ-F5-6',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 14/20 250ML',
+                id: '7',
+                number: '         KJ-F5-7',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 24/40 250ML',
+                id: '8',
+                number: 'KJ-F5-8',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 24/40 500ML',
+                id: '9',
+                number: 'KJ-F5-9',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 29/42 500ML',
+                id: '10',
+                number: '         KJ-F5-10',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 24/40 1000ML',
+                id: '11',
+                number: 'KJ-F5-11',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 29/42 1000ML',
+                id: '12',
+                number: 'KJ-F5-12',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 24/40 2000ML',
+                id: '13',
+                number: '         KJ-F5-13',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped 29/42 2000ML',
+                id: '14',
+                number: '         KJ-F5-14',
+                selected: false,
+            }],
+            title: 'Flask Pear Shaped',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '155',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F155.jpg?alt=media&token=5400ee06-4914-454e-b0aa-97a052a8c80b',
+            specification: [{
+                content: 'Flask Pear Shaped With Side Tubulation 14/20 5ML',
+                id: '1',
+                number: '         KJ-F6-1',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped With Side Tubulation 14/20 10ML',
+                id: '2',
+                number: 'KJ-F6-2',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped With Side Tubulation 14/20 25ML',
+                id: '3',
+                number: '         KJ-F6-3',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped With Side Tubulation 14/20 50ML',
+                id: '4',
+                number: '         KJ-F6-4',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped With Side Tubulation 14/20 100ML',
+                id: '5',
+                number: '         KJ-F6-5',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped With Side Tubulation 24/40 100ML',
+                id: '6',
+                number: 'KJ-F6-6',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped With Side Tubulation 24/40 250ML',
+                id: '7',
+                number: 'KJ-F6-7',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped With Side Tubulation 24/40 500ML',
+                id: '8',
+                number: '         KJ-F6-8',
+                selected: false,
+            }],
+            title: 'Flask Pear Shaped',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '156',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F156.jpg?alt=media&token=831a3fbe-9c3a-43f9-9e9e-dfe858128e5b',
+            specification: [{
+                content: 'Flask Pear Shaped Two Neck 14/20 10ML',
+                id: '1',
+                number: 'KJ-F7-1',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Two Neck 14/20 25ML',
+                id: '2',
+                number: '         KJ-F7-2',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Two Neck 14/20 50ML',
+                id: '3',
+                number: '         KJ-F7-3',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Two Neck 14/20 100ML',
+                id: '4',
+                number: '         KJ-F7-4',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Two Neck 24/40 250ML',
+                id: '5',
+                number: 'KJ-F7-5',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Two Neck 24/40 500ML',
+                id: '6',
+                number: 'KJ-F7-6',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Two Neck 24/40 1000ML',
+                id: '7',
+                number: '         KJ-F7-7',
+                selected: false,
+            }],
+            title: 'Flask Pear Shaped 2 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '157',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F157.jpg?alt=media&token=26740cfc-4ad2-4bfc-b5e1-8d883dba8f54',
+            specification: [{
+                content: 'Flask Pear Shaped Three Neck 14/20 15ML',
+                id: '1',
+                number: '         KJ-F8-1',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Three Neck 14/20 25ML',
+                id: '2',
+                number: 'KJ-F8-2',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Three Neck 14/20 50ML',
+                id: '3',
+                number: '         KJ-F8-3',
+                selected: false,
+            }, {
+                content: 'Flask Pear Shaped Three Neck 14/20 100ML',
+                id: '4',
+                number: '         KJ-F8-4',
+                selected: false,
+            }],
+            title: 'Flask Pear Shaped 3 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '158',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F158.jpg?alt=media&token=c7a988b0-e3dc-4b9e-9acd-6afcb4e134d2',
+            specification: [{
+                content: 'Flask Round Bottom 14/20 5ML',
+                id: '1',
+                number: '         KJ-F9-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 14/20 10ML',
+                id: '2',
+                number: 'KJ-F9-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 14/20 25ML',
+                id: '3',
+                number: '         KJ-F9-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 14/20 50ML',
+                id: '4',
+                number: 'KJ-F9-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 14/20 100ML',
+                id: '5',
+                number: '         KJ-F9-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 14/20 250ML',
+                id: '6',
+                number: '         KJ-F9-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 14/20 500ML',
+                id: '7',
+                number: '         KJ-F9-7',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 1000ML',
+                id: '8',
+                number: 'KJ-F9-8',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 2000ML',
+                id: '9',
+                number: '         KJ-F9-9',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 3000ML',
+                id: '10',
+                number: 'KJ-F9-10',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 5000ML',
+                id: '11',
+                number: 'KJ-F9-11',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 34/45 10000ML',
+                id: '12',
+                number: '         KJ-F9-12',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 45/50 20000ML',
+                id: '13',
+                number: '         KJ-F9-13',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 50ML',
+                id: '14',
+                number: 'KJ-F9-24',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 100ML',
+                id: '15',
+                number: 'KJ-F9-14',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 250ML',
+                id: '16',
+                number: 'KJ-F9-15',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 24/40 500ML',
+                id: '17',
+                number: '         KJ-F9-16',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 29/42 1000ML',
+                id: '18',
+                number: '         KJ-F9-17',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 29/42 2000ML',
+                id: '19',
+                number: '         KJ-F9-18',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 34/45 2000ML',
+                id: '20',
+                number: '         KJ-F9-19',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 34/45 3000ML',
+                id: '21',
+                number: 'KJ-F9-20',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 34/45 5000ML',
+                id: '22',
+                number: 'KJ-F9-21',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 34/45 10000ML',
+                id: '23',
+                number: '         KJ-F9-22',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom 34/45 20000ML',
+                id: '24',
+                number: '         KJ-F9-23',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '159',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F159.jpg?alt=media&token=1cc5ee11-f92e-4458-ade5-ec8bce283717',
+            specification: [{
+                content: 'Flask Round Bottom Ball Joint 500ML',
+                id: '1',
+                number: 'KJ-F10-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Ball Joint 1L',
+                id: '2',
+                number: '         KJ-F10-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Ball Joint 2L',
+                id: '3',
+                number: 'KJ-F10-3',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '160',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F160.jpg?alt=media&token=9b185ab2-0025-446f-8b35-1c17dca0da0d',
+            specification: [{
+                content: 'Flask Flat Bottom 24/40 50ML',
+                id: '1',
+                number: 'KJ-F11-1',
+                selected: false,
+            }, {
+                content: 'Flask Flat Bottom 24/40 100ML',
+                id: '2',
+                number: '         KJ-F11-2',
+                selected: false,
+            }, {
+                content: 'Flask Flat Bottom 24/40 500ML',
+                id: '3',
+                number: '         KJ-F11-3',
+                selected: false,
+            }, {
+                content: 'Flask Flat Bottom 24/40 1000ML',
+                id: '4',
+                number: '         KJ-F11-4',
+                selected: false,
+            }, {
+                content: 'Flask Flat Bottom 24/40 2000ML',
+                id: '5',
+                number: '         KJ-F11-5',
+                selected: false,
+            }, {
+                content: 'Flask Flat Bottom 24/40 500ML',
+                id: '6',
+                number: 'KJ-F11-6',
+                selected: false,
+            }, {
+                content: 'Flask Flat Bottom 24/40 3000ML',
+                id: '7',
+                number: '         KJ-F11-7',
+                selected: false,
+            }, {
+                content: 'Flask Flat Bottom 24/40 5000ML',
+                id: '8',
+                number: '         KJ-F11-8',
+                selected: false,
+            }],
+            title: 'Flask FLAT Bottom',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '161',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F161.jpg?alt=media&token=d17f210f-f181-45f6-b443-1b4d40d35df7',
+            specification: [{
+                content: 'Flask Round Bottom Two Neck 24/40 100ML',
+                id: '1',
+                number: '         KJ-F12-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40 250ML',
+                id: '2',
+                number: '         KJ-F12-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40 500ML',
+                id: '3',
+                number: '         KJ-F12-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40 1L',
+                id: '4',
+                number: 'KJ-F12-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40 2L',
+                id: '5',
+                number: '         KJ-F12-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 34/45,24/40 3L',
+                id: '6',
+                number: '         KJ-F12-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck45/50, 24/40 5L',
+                id: '7',
+                number: '         KJ-F12-7',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom 2 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '162',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F162.jpg?alt=media&token=31631745-38d8-4d8e-8ae8-47a686c94425',
+            specification: [{
+                content: 'Flask Round Bottom Two Neck 14/20,14/20 50ML',
+                id: '1',
+                number: '         KJ-F13-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 14/20,14/20 100ML',
+                id: '2',
+                number: '         KJ-F13-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40,24/40 250ML',
+                id: '3',
+                number: '         KJ-F13-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40,24/40 500ML',
+                id: '4',
+                number: '         KJ-F13-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40,24/40 1000ML',
+                id: '5',
+                number: 'KJ-F13-7',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 24/40,24/40 2000ML',
+                id: '6',
+                number: '         KJ-F13-8',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 34/45,24/40',
+                id: '7',
+                number: 'KJ-F13-9',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 45/50,24/40 5000ML',
+                id: '8',
+                number: '         KJ-F13-10',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 45/50,34/45 10000ML',
+                id: '9',
+                number: 'KJ-F13-11',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Two Neck 45/50,34/45 20000ML',
+                id: '10',
+                number: 'KJ-F13-12',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom 2 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '163',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F163.jpg?alt=media&token=ab1558ac-1837-4f72-98bb-b239c2e13094',
+            specification: [{
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 100ML',
+                id: '1',
+                number: 'KJ-F14-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 250ML',
+                id: '2',
+                number: '         KJ-F14-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 500ML',
+                id: '3',
+                number: '         KJ-F14-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 1000ML',
+                id: '4',
+                number: 'KJ-F14-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 2000ML',
+                id: '5',
+                number: 'KJ-F14-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 3000ML',
+                id: '6',
+                number: 'KJ-F14-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 45/50 24/40 5000ML',
+                id: '7',
+                number: '         KJ-F14-7',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 45/50 34/45 10000ML',
+                id: '8',
+                number: '         KJ-F14-8',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 55/50 34/45 20000ML',
+                id: '9',
+                number: '         KJ-F14-9',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom 3 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '164',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F164.jpg?alt=media&token=8a73e1f3-3e8b-444b-a351-d0378598d37a',
+            specification: [{
+                content: 'Flask Round Bottom Three Neck 14/20 14/20 50ML',
+                id: '1',
+                number: '         KJ-F15-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 14/20 14/20 100ML',
+                id: '2',
+                number: '         KJ-F15-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 14/20 250ML',
+                id: '3',
+                number: 'KJ-F15-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 500ML',
+                id: '4',
+                number: '         KJ-F15-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 1000ML',
+                id: '5',
+                number: '         KJ-F15-7',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 2000ML',
+                id: '6',
+                number: 'KJ-F15-8',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 24/40 24/40 3000ML',
+                id: '7',
+                number: '         KJ-F15-9',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 45/50 24/40 5000ML',
+                id: '8',
+                number: '         KJ-F15-10',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 45/50 34/45 10000ML',
+                id: '9',
+                number: '         KJ-F15-11',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Three Neck 55/50 34/45 20000ML',
+                id: '10',
+                number: '         KJ-F15-12',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom 3 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '165',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F165.jpg?alt=media&token=de12e8b1-aabf-45fb-a838-57e4b994aa31',
+            specification: [{
+                content: 'Flask Round Bottom Indeted Three Neck 14/20 50ML',
+                id: '1',
+                number: 'KJ-F16-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 14/20 100ML',
+                id: '2',
+                number: 'KJ-F16-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 24/40 250ML',
+                id: '3',
+                number: '         KJ-F16-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 24/40 500ML',
+                id: '4',
+                number: 'KJ-F16-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 24/40 1L',
+                id: '5',
+                number: '         KJ-F16-5',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom Indented',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '166',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F166.jpg?alt=media&token=c44473f6-1cc9-4798-84a7-0b8c80c443a9',
+            specification: [{
+                content: 'Flask Round Bottom Indeted Three Neck 24/40 24/40 500ML',
+                id: '1',
+                number: '         KJ-F17-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 24/40 24/40 1000ML',
+                id: '2',
+                number: '         KJ-F17-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 34/45 24/40 1000ML',
+                id: '3',
+                number: '         KJ-F17-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 24/40 24/40 2000ML',
+                id: '4',
+                number: '         KJ-F17-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 24/40 24/40 3000ML',
+                id: '5',
+                number: '         KJ-F17-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Indeted Three Neck 34/45 24/40 5000ML',
+                id: '6',
+                number: '         KJ-F17-6',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom Indented',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '167',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F167.jpg?alt=media&token=927e7624-38d7-4f5f-aa15-93406fdd0a85',
+            specification: [{
+                content: 'Flask Round Bottom Four Neck 24/40 500ML',
+                id: '1',
+                number: '         KJ-F18-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 24/40 1L',
+                id: '2',
+                number: '         KJ-F18-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 24/40 2L',
+                id: '3',
+                number: '         KJ-F18-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 24/40 3L',
+                id: '4',
+                number: 'KJ-F18-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 55/50 24/40 10L',
+                id: '5',
+                number: '         KJ-F18-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 45/50 24/40 5L',
+                id: '6',
+                number: '         KJ-F18-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 24/40 250ML',
+                id: '7',
+                number: '         KJ-F18-7',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 34/45 24/40 2L',
+                id: '8',
+                number: '         KJ-F18-8',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 34/45 24/40 3L',
+                id: '9',
+                number: '         KJ-F18-9',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 45/50 24/40 10L',
+                id: '10',
+                number: 'KJ-F18-10',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 55/50 24/40 20L',
+                id: '11',
+                number: '         KJ-F18-11',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 14/20 100ML',
+                id: '12',
+                number: '         KJ-F18-12',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Four Neck 14/20 50ML',
+                id: '13',
+                number: 'KJ-F18-13',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom 4 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '168',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F168.jpg?alt=media&token=0cca7265-81ea-4d08-8e89-00faac03a551',
+            specification: [{
+                content: 'Flask Round Bottom Five Neck 14/20 14/20 100ML',
+                id: '1',
+                number: '         KJ-F20-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 24/40 14/20 250ML',
+                id: '2',
+                number: 'KJ-F20-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 24/40 24/40 500ML',
+                id: '3',
+                number: '         KJ-F20-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 24/40 24/40 1000ML',
+                id: '4',
+                number: 'KJ-F20-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 24/40 24/40',
+                id: '5',
+                number: 'KJ-F20-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 34/45 24/40 3000ML',
+                id: '6',
+                number: 'KJ-F20-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 34/45 24/40 5000ML',
+                id: '7',
+                number: '         KJ-F20-7',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 45/50 34/45 24/40 10000ML',
+                id: '8',
+                number: 'KJ-F20-8',
+                selected: false,
+            }, {
+                content: 'Flask Round Bottom Five Neck 45/50 34/45 24/40 20000ML',
+                id: '9',
+                number: 'KJ-F20-9',
+                selected: false,
+            }],
+            title: 'Flask Round Bottom 5 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '169',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F169.jpg?alt=media&token=8ed5ec20-69ce-49cc-abcd-d995acd48b23',
+            specification: [{
+                content: 'Flask Storage 14/20 50ML',
+                id: '1',
+                number: '         KJ-F21-1',
+                selected: false,
+            }, {
+                content: 'Flask Storage 14/20 100ML',
+                id: '2',
+                number: '         KJ-F21-2',
+                selected: false,
+            }, {
+                content: 'Flask Storage 24/40 100ML',
+                id: '3',
+                number: '         KJ-F21-3',
+                selected: false,
+            }, {
+                content: 'Flask Storage 14/20 250ML',
+                id: '4',
+                number: 'KJ-F21-4',
+                selected: false,
+            }, {
+                content: 'Flask Storage 24/40 250ML',
+                id: '5',
+                number: 'KJ-F21-5',
+                selected: false,
+            }, {
+                content: 'Flask Storage 24/40 500ML',
+                id: '6',
+                number: '         KJ-F21-6',
+                selected: false,
+            }, {
+                content: 'Flask Storage 24/40 1000ML',
+                id: '7',
+                number: '         KJ-F21-7',
+                selected: false,
+            }, {
+                content: 'Flask Storage 24/40 2000ML',
+                id: '8',
+                number: 'KJ-F21-8',
+                selected: false,
+            }, {
+                content: 'Flask Storage 24/40 3000ML',
+                id: '9',
+                number: '         KJ-F21-9',
+                selected: false,
+            }],
+            title: 'Flask Storage,Schlenk',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '170',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F170.jpg?alt=media&token=06a4cf3c-6b47-44df-81be-112fcaaaf2d6',
+            specification: [{
+                content: 'Flask Storage Two Neck 14/20 50ML',
+                id: '1',
+                number: '         KJ-F22-1',
+                selected: false,
+            }, {
+                content: 'Flask Storage Two Neck 14/20 100ML',
+                id: '2',
+                number: '         KJ-F22-2',
+                selected: false,
+            }, {
+                content: 'Flask Storage Two Neck 14/20 250ML',
+                id: '3',
+                number: '         KJ-F22-3',
+                selected: false,
+            }, {
+                content: 'Flask Storage Two Neck 24/40 250ML',
+                id: '4',
+                number: 'KJ-F22-4',
+                selected: false,
+            }, {
+                content: 'Flask Storage Two Neck 24/40 500ML',
+                id: '5',
+                number: '         KJ-F22-5',
+                selected: false,
+            }, {
+                content: 'Flask Storage Two Neck 24/40 1000ML',
+                id: '6',
+                number: 'KJ-F22-6',
+                selected: false,
+            }, {
+                content: 'Flask Storage Two Neck 24/40 2000ML',
+                id: '7',
+                number: 'KJ-F22-7',
+                selected: false,
+            }],
+            title: 'Flask Storage,Schlenk 2 Neck',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '171',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F171.jpg?alt=media&token=43138d09-67de-4ef8-b19d-166f8170bd18',
+            specification: [{
+                content: 'Flask Neck Taper 14/20 25ML',
+                id: '1',
+                number: 'KJ-F23-1',
+                selected: false,
+            }, {
+                content: 'Flask Neck Taper 14/20 50ML',
+                id: '2',
+                number: 'KJ-F23-2',
+                selected: false,
+            }, {
+                content: 'Flask Neck Taper 14/20 125ML',
+                id: '3',
+                number: 'KJ-F23-3',
+                selected: false,
+            }, {
+                content: 'Flask Neck Taper 14/20 250ML',
+                id: '4',
+                number: 'KJ-F23-4',
+                selected: false,
+            }],
+            title: 'Flask Taper',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '172',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F172.jpg?alt=media&token=bc84e084-3567-4117-8c07-2a0cefb60bd2',
+            specification: [{
+                content: 'Flask Three Neck Taper 24/40 14/20 250ML',
+                id: '1',
+                number: 'KJ-F24-1',
+                selected: false,
+            }, {
+                content: 'Flask Three Neck Taper 24/40 14/20 500ML',
+                id: '2',
+                number: '         KJ-F24-2',
+                selected: false,
+            }, {
+                content: 'Flask Three Neck Taper 24/40 14/20 1000ML',
+                id: '3',
+                number: '         KJ-F24-3',
+                selected: false,
+            }],
+            title: 'Flask Taper',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '173',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F173.jpg?alt=media&token=0a9d97b3-b909-4ed5-8f40-a8f7f96d2eca',
+            specification: [{
+                content: 'Flask Solvent Storage 24/40 100ML T/C',
+                id: '1',
+                number: '         KJ-F25-1',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 250ML T/C',
+                id: '2',
+                number: 'KJ-F25-2',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 500ML T/C',
+                id: '3',
+                number: 'KJ-F25-3',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 50ML T/C',
+                id: '4',
+                number: '         KJ-F25-4',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 1000ML T/C',
+                id: '5',
+                number: '         KJ-F25-5',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 100ML G/C',
+                id: '6',
+                number: 'KJ-F25-6',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 250ML G/C',
+                id: '7',
+                number: '         KJ-F25-7',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 500ML G/C',
+                id: '8',
+                number: 'KJ-F25-8',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 50ML G/C',
+                id: '9',
+                number: 'KJ-F25-9',
+                selected: false,
+            }, {
+                content: 'Flask Solvent Storage 24/40 1000ML G/C',
+                id: '10',
+                number: '         KJ-F25-10',
+                selected: false,
+            }],
+            title: 'Flask Storage,Solvent',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '174',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F174.jpg?alt=media&token=320a5daf-283e-4fe7-8477-05fa3b347410',
+            specification: [{
+                content: 'Flask Schlenk 14/20 10ML',
+                id: '1',
+                number: 'KJ-F26-1',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 14/20 25ML',
+                id: '2',
+                number: 'KJ-F26-2',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 14/20 50ML',
+                id: '3',
+                number: 'KJ-F26-3',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 14/20 100ML',
+                id: '4',
+                number: 'KJ-F26-4',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 250ML',
+                id: '5',
+                number: 'KJ-F26-5',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 500ML',
+                id: '6',
+                number: '         KJ-F26-6',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 1L',
+                id: '7',
+                number: '         KJ-F26-7',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 100ML',
+                id: '8',
+                number: 'KJ-F26-8',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 2L',
+                id: '9',
+                number: '         KJ-F26-9',
+                selected: false,
+            }],
+            title: 'Flask Storage,Schlenk',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '175',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F175.jpg?alt=media&token=ddec08f8-89d3-467b-9427-a352f5813820',
+            specification: [{
+                content: 'Flask Schlenk 14/20 10ML',
+                id: '1',
+                number: '         KJ-F27-1',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 14/20 25ML',
+                id: '2',
+                number: 'KJ-F27-2',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 14/20 50ML',
+                id: '3',
+                number: 'KJ-F27-3',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 14/20 100ML',
+                id: '4',
+                number: 'KJ-F27-4',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 250ML',
+                id: '5',
+                number: 'KJ-F27-5',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 500ML',
+                id: '6',
+                number: 'KJ-F27-6',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 1000ML',
+                id: '7',
+                number: 'KJ-F27-7',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 2000ML',
+                id: '8',
+                number: '         KJ-F27-8',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 24/40 100ML',
+                id: '9',
+                number: '         KJ-F27-9',
+                selected: false,
+            }],
+            title: 'Flask Storage,Schlenk',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '176',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F176.jpg?alt=media&token=010a1476-2cd6-4424-8f51-c733832dcbcd',
+            specification: [{
+                content: 'Flask Reaction Type 1000ML',
+                id: '1',
+                number: 'KJ-F28-1',
+                selected: false,
+            }, {
+                content: 'Flask Reaction Type 2000ML',
+                id: '2',
+                number: '         KJ-F28-2',
+                selected: false,
+            }, {
+                content: 'Flask Reaction Type 3000ML',
+                id: '3',
+                number: 'KJ-F28-3',
+                selected: false,
+            }, {
+                content: 'Flask Reaction Type 500ML',
+                id: '4',
+                number: '         KJ-F28-4',
+                selected: false,
+            }, {
+                content: 'Flask Reaction Type 250ML',
+                id: '5',
+                number: '         KJ-F28-5',
+                selected: false,
+            }, {
+                content: 'Flask Reaction Type 5000ML',
+                id: '6',
+                number: '         KJ-F28-6',
+                selected: false,
+            }, {
+                content: 'Flask Reaction Type 10000ML',
+                id: '7',
+                number: 'KJ-F28-7',
+                selected: false,
+            }, {
+                content: 'Flask Reaction Type 20000ML',
+                id: '8',
+                number: '         KJ-F28-8',
+                selected: false,
+            }],
+            title: 'Flask, Reactor',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '177',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F177.jpg?alt=media&token=15d81146-99f4-4e79-bd05-901f7fc12952',
+            specification: [{
+                content: 'Flask Beaker Type With Jacket 250ML 70*90 DN60',
+                id: '1',
+                number: '         KJ-F29-1',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket 500ML 90*100 DN100',
+                id: '2',
+                number: '         KJ-F29-2',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket 1000ML 110*130',
+                id: '3',
+                number: 'KJ-F29-3',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket 2000ML 130*150 DN120',
+                id: '4',
+                number: 'KJ-F29-4',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket 3000ML 150*180 DN140',
+                id: '5',
+                number: '         KJ-F29-5',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket 5000ML 160*190 DN150',
+                id: '6',
+                number: '         KJ-F29-6',
+                selected: false,
+            }],
+            title: 'Flask Beaker Type',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '178',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F178.jpg?alt=media&token=32e56bc3-1fee-4ccc-b2ec-25ec93651b3a',
+            specification: [{
+                content: 'Flask Round Type 250ML DN60',
+                id: '1',
+                number: '         KJ-F30-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Type 500ML DN100',
+                id: '2',
+                number: 'KJ-F30-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Type 1000ML DN100',
+                id: '3',
+                number: 'KJ-F30-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Type 2000ML DN120',
+                id: '4',
+                number: '         KJ-F30-4',
+                selected: false,
+            }, {
+                content: 'Flask Round Type 3000ML DN140',
+                id: '5',
+                number: '         KJ-F30-5',
+                selected: false,
+            }, {
+                content: 'Flask Round Type 5000ML DN150',
+                id: '6',
+                number: '         KJ-F30-6',
+                selected: false,
+            }, {
+                content: 'Flask Round Type 10000ML DN150',
+                id: '7',
+                number: 'KJ-F30-7',
+                selected: false,
+            }, {
+                content: 'Flask Round Type 20000ML DN200',
+                id: '8',
+                number: '         KJ-F30-8',
+                selected: false,
+            }],
+            title: 'Flask Round Type',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '179',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F179.jpg?alt=media&token=876c7005-e015-4821-aedd-59be9598d448',
+            specification: [{
+                content: 'Flask Round Type width jacket 250ml',
+                id: '1',
+                number: 'KJ-F31-1',
+                selected: false,
+            }, {
+                content: 'Flask Round Type width jacket 500ml',
+                id: '2',
+                number: 'KJ-F31-2',
+                selected: false,
+            }, {
+                content: 'Flask Round Type width jacket 1000ml',
+                id: '3',
+                number: '         KJ-F31-3',
+                selected: false,
+            }, {
+                content: 'Flask Round Type width jacket 2000ml',
+                id: '4',
+                number: '         KJ-F31-4',
+                selected: false,
+            }],
+            title: 'Flask Round type, with jacket',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '180',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F180.jpg?alt=media&token=164aa587-e90c-4718-b70d-0b0d0a920fd4',
+            specification: [{
+                content: 'Flask Beaker Type With Jacket Drain Valve 250ML 70*90 T/C',
+                id: '1',
+                number: 'KJ-F32-1',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket Drain Valve 500ML 90*100 T/C',
+                id: '2',
+                number: 'KJ-F32-2',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket Drain Valve 1000ML 110*130 T/C',
+                id: '3',
+                number: '         KJ-F32-3',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket Drain Valve 2000ML 130*150 T/C',
+                id: '4',
+                number: '         KJ-F32-4',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket Drain Valve 3000ML 150*180 T/C',
+                id: '5',
+                number: '         KJ-F32-5',
+                selected: false,
+            }, {
+                content: 'Flask Beaker Type With Jacket Drain Valve 5000ML 160*190 T/C',
+                id: '6',
+                number: '         KJ-F32-6',
+                selected: false,
+            }],
+            title: 'Beaker Type, Drain Valve',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '181',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F181.jpg?alt=media&token=cdea3ae5-8411-4537-9da7-0f91863a2e26',
+            specification: [{
+                content: 'Reaction Flask Head A 250ML DN60 24/40 14/20',
+                id: '1',
+                number: "         KJ-F33-1 'A'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head A 500ML DN100 24/40 24/40 14/20',
+                id: '2',
+                number: "KJ-F33-2 'A'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head A 1000ML DN100 24/40 24/40',
+                id: '3',
+                number: "         KJ-F33-3 'A'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head A 2000ML DN120 34/45 24/40',
+                id: '4',
+                number: "         KJ-F33-4 'A'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head A 3000ML DN140 34/45 24/40',
+                id: '5',
+                number: "         KJ-F33-5 'A'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head A 5000ML DN150 34/45 24/40',
+                id: '6',
+                number: "         KJ-F33-6 'A'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head A 20000ML DN200 34/45 24/40',
+                id: '7',
+                number: "KJ-F33-7 'A'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head B 250ML DN60 24/40,24/40,14/20,14/20',
+                id: '8',
+                number: "KJ-F33-1 'B'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head B 500ML DN100 24/40 *3, 14/20',
+                id: '9',
+                number: "         KJ-F33-2 'B'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head B 1000ML DN100 24/40 *4',
+                id: '10',
+                number: "         KJ-F33-3 'B'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head B 2000ML DN120 34/45 24/40*3',
+                id: '11',
+                number: "KJ-F33-4 'B'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head B 3000ML DN140 34/45 24/40*3',
+                id: '12',
+                number: "         KJ-F33-5 'B'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head B 5000ML DN150 34/45*2 24/40*2',
+                id: '13',
+                number: "         KJ-F33-6 'B'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head B 20000ML DN200 34/45 *4',
+                id: '14',
+                number: "         KJ-F33-7 'B'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head C 250ML DN60 24/40 14/20*4',
+                id: '15',
+                number: "         KJ-F33-1 'C'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head C 500ML DN100 24/40 24/40 14/20*3',
+                id: '16',
+                number: "KJ-F33-2 'C'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head C 1000ML DN100 24/40*5',
+                id: '17',
+                number: "         KJ-F33-3 'C'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head C 2000ML DN120 34/45',
+                id: '18',
+                number: "KJ-F33-4 'C'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head C 3000ML DN140 34/45 24/40*4',
+                id: '19',
+                number: "         KJ-F33-5 'C'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head C 5000ML DN150 34/45 24/40*4',
+                id: '20',
+                number: "KJ-F33-6 'C'",
+                selected: false,
+            }, {
+                content: 'Reaction Flask Head C 20000ML DN200 34/45*5',
+                id: '21',
+                number: "KJ-F33-7 'C'",
+                selected: false,
+            }],
+            title: 'Reactor Head',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '182',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F182.jpg?alt=media&token=1e951096-1cfe-4a14-ad10-c1951c65e31c',
+            specification: [{
+                content: 'Reaction Flask Clamp DN60',
+                id: '1',
+                number: 'KJ-F34-1',
+                selected: false,
+            }, {
+                content: 'Reaction Flask Clamp DN100',
+                id: '2',
+                number: '         KJ-F34-2',
+                selected: false,
+            }, {
+                content: 'Reaction Flask Clamp DN120',
+                id: '3',
+                number: 'KJ-F34-3',
+                selected: false,
+            }, {
+                content: 'Reaction Flask Clamp DN140',
+                id: '4',
+                number: '         KJ-F34-4',
+                selected: false,
+            }, {
+                content: 'Reaction Flask Clamp DN150',
+                id: '5',
+                number: '         KJ-F34-5',
+                selected: false,
+            }, {
+                content: 'Reaction Flask Clamp DN200',
+                id: '6',
+                number: 'KJ-F34-6',
+                selected: false,
+            }],
+            title: 'Reactor Clamp',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '183',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F183.jpg?alt=media&token=51debfa0-880e-42b4-92cc-c401effe2d78',
+            specification: [{
+                content: 'Flask Erlenmeyer 51*85*22 50ML IWAKI',
+                id: '1',
+                number: 'KJ-F35-1',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 64*105*23 100ML (IWAKI)',
+                id: '2',
+                number: '         KJ-F35-2',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 85*140*34 250ML (IWAKI)',
+                id: '3',
+                number: 'KJ-F35-3',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 105*175*34 500ML (IWAKI)',
+                id: '4',
+                number: 'KJ-F35-4',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 131*220*42 1000ML (IWAKI)',
+                id: '5',
+                number: 'KJ-F35-5',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 172*270*50 2000ML (IWAKI)',
+                id: '6',
+                number: 'KJ-F35-6',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 192*305*50 3000ML ( IWAKI)',
+                id: '7',
+                number: '         KJ-F35-7',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 226*350*55 5000ML (IWAKI)',
+                id: '8',
+                number: '         KJ-F35-8',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 25ML (DURAN)',
+                id: '9',
+                number: 'KJ-F35-11',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 50ML (DURAN)',
+                id: '10',
+                number: 'KJ-F35-1',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 100ML (DURAN)',
+                id: '11',
+                number: 'KJ-F35-2',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 200ML (DURAN)',
+                id: '12',
+                number: 'KJ-F35-12',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 250ML (DURAN)',
+                id: '13',
+                number: '         KJ-F35-3',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 300ML (DURAN)',
+                id: '14',
+                number: '         KJ-F35-13',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 500ML (DURAN)',
+                id: '15',
+                number: '         KJ-F35-4',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 1000ML (DURAN)',
+                id: '16',
+                number: 'KJ-F35-5',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 2000ML (DURAN)',
+                id: '17',
+                number: '         KJ-F35-6',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 3000ML (DURAN)',
+                id: '18',
+                number: '         KJ-F35-7',
+                selected: false,
+            }, {
+                content: 'Flask Erlenmeyer 5000ML (DURAN)',
+                id: '19',
+                number: 'KJ-F35-8',
+                selected: false,
+            }],
+            title: 'Flask Erlenmeyer',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '184',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F184.jpg?alt=media&token=8ee487cb-fc89-44e8-aa38-60ffef95a414',
+            specification: [{
+                content: 'Flask Volumetric 10ML(IWAKI)',
+                id: '1',
+                number: 'KJ-F36-1',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 25ML(IWAKI)',
+                id: '2',
+                number: 'KJ-F36-2',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 100ML(IWAKI)',
+                id: '3',
+                number: 'KJ-F36-3',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 250ML(IWAKI)',
+                id: '4',
+                number: 'KJ-F36-4',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 1000ML(IWAKI)',
+                id: '5',
+                number: '         KJ-F36-5',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 20ML(IWAKI)',
+                id: '6',
+                number: 'KJ-F36-6',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 50ML(IWAKI)',
+                id: '7',
+                number: '         KJ-F36-7',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 200ML(IWAKI)',
+                id: '8',
+                number: '         KJ-F36-8',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 500ML(IWAKI)',
+                id: '9',
+                number: '         KJ-F36-9',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 2000ML(IWAKI)',
+                id: '10',
+                number: '         KJ-F36-10',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 10ML(DURAN)',
+                id: '11',
+                number: 'KJ-F36-1',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 25ML(DURAN)',
+                id: '12',
+                number: 'KJ-F36-2',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 100ML(DURAN)',
+                id: '13',
+                number: 'KJ-F36-3',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 250ML(DURAN)',
+                id: '14',
+                number: '         KJ-F36-4',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 1000ML(DURAN)',
+                id: '15',
+                number: 'KJ-F36-5',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 20ML(DURAN)',
+                id: '16',
+                number: '         KJ-F36-6',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 50ML(DURAN)',
+                id: '17',
+                number: 'KJ-F36-7',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 200ML(DURAN)',
+                id: '18',
+                number: '         KJ-F36-8',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 500ML(DURAN)',
+                id: '19',
+                number: '         KJ-F36-9',
+                selected: false,
+            }, {
+                content: 'Flask Volumetric 2000ML(DURAN)',
+                id: '20',
+                number: '         KJ-F36-10',
+                selected: false,
+            }],
+            title: 'Flask Volumetric',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '185',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F185.jpg?alt=media&token=dfff3f37-00e6-4689-a3df-074467f9c009',
+            specification: [{
+                content: 'Dewar Flask With Mouth Cylindrical 350ML 70*125',
+                id: '1',
+                number: '         KJ-F37-1',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 670ML 70*195',
+                id: '2',
+                number: '         KJ-F37-2',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 1000ML 70*302',
+                id: '3',
+                number: '         KJ-F37-3',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 2000ML 120*190',
+                id: '4',
+                number: '         KJ-F37-4',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 4300ML 143*305',
+                id: '5',
+                number: 'KJ-F37-5',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 1000ML 77*235',
+                id: '6',
+                number: '         KJ-F37-6',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 1500ML 90*245',
+                id: '7',
+                number: 'KJ-F37-7',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 2000ML 100*290',
+                id: '8',
+                number: 'KJ-F37-8',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Mouth Cylindrical 3000ML 138*230',
+                id: '9',
+                number: '         KJ-F37-9',
+                selected: false,
+            }],
+            title: 'Flask Dewar',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '186',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F186.jpg?alt=media&token=9f94cb69-716f-423f-84e7-cfdf86e0b508',
+            specification: [{
+                content: 'Dewar Flask With Narrow Mouth Cylindrical 440ml 61*195',
+                id: '1',
+                number: 'KJ-F38-1',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Narrow Mouth Cylindrical 845ml 70*279',
+                id: '2',
+                number: '         KJ-F38-2',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Narrow Mouth Cylindrical 2000ml 158*335',
+                id: '3',
+                number: 'KJ-F38-3',
+                selected: false,
+            }, {
+                content: 'Dewar Flask With Narrow Mouth Cylindrical 5000ml 216*370',
+                id: '4',
+                number: 'KJ-F38-4',
+                selected: false,
+            }],
+            title: 'Flask Dewar Narrow Mouth',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '187',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F187.jpg?alt=media&token=6354223f-3ac3-466e-b02c-e9408dfc882d',
+            specification: [{
+                content: 'Dewar Flask (Hemispherical) 150ML 80*40',
+                id: '1',
+                number: '         KJ-F39-1',
+                selected: false,
+            }, {
+                content: 'Dewar Flask (Hemispherical) 300ML 100*55',
+                id: '2',
+                number: 'KJ-F39-2',
+                selected: false,
+            }, {
+                content: 'Dewar Flask (Hemispherical) 600ML 140*65',
+                id: '3',
+                number: 'KJ-F39-3',
+                selected: false,
+            }],
+            title: 'Flask Dewar(Hemispherical)',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '188',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F188.jpg?alt=media&token=8b29445a-deda-4db9-ad62-f75cee368e0f',
+            specification: [{
+                content: 'Dewar Flask (Cylindrical) 220ML 65*65',
+                id: '1',
+                number: '         KJ-F40-1',
+                selected: false,
+            }, {
+                content: 'Dewar Flask (Cylindrical) 150ML 80*35',
+                id: '2',
+                number: 'KJ-F40-2',
+                selected: false,
+            }, {
+                content: 'Dewar Flask (Cylindrical) 350ML 80*75',
+                id: '3',
+                number: 'KJ-F40-3',
+                selected: false,
+            }, {
+                content: 'Dewar Flask (Cylindrical) 850ML 130*75',
+                id: '4',
+                number: 'KJ-F40-4',
+                selected: false,
+            }, {
+                content: 'Dewar Flask (Cylindrical) 2500ML 170*135',
+                id: '5',
+                number: '         KJ-F40-5',
+                selected: false,
+            }],
+            title: 'Flask Dewar(Cylindrical)',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '189',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F189.jpg?alt=media&token=176cd5e8-d741-4100-b2ad-1f1445a882a5',
+            specification: [{
+                content: 'Flask Storage Bottles 50ML T/C',
+                id: '1',
+                number: 'KJ-F41-1',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 100ML T/C',
+                id: '2',
+                number: '         KJ-F41-2',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 250ML T/C',
+                id: '3',
+                number: 'KJ-F41-3',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 500ML T/C',
+                id: '4',
+                number: '         KJ-F41-4',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 1000ML T/C',
+                id: '5',
+                number: '         KJ-F41-5',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 2000ML T/C',
+                id: '6',
+                number: '         KJ-F41-6',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 50ML G/C',
+                id: '7',
+                number: '         KJ-F41-7',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 100ML G/C',
+                id: '8',
+                number: '         KJ-F41-8',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 250ML G/C',
+                id: '9',
+                number: 'KJ-F41-9',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 500ML G/C',
+                id: '10',
+                number: 'KJ-F41-10',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 1000ML G/C',
+                id: '11',
+                number: '         KJ-F41-11',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles 2000ML G/C',
+                id: '12',
+                number: '         KJ-F41-12',
+                selected: false,
+            }],
+            title: 'Flask Storage,Bottles',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '190',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F190.jpg?alt=media&token=7366dd2e-f90f-4f87-94f4-25835050db59',
+            specification: [{
+                content: 'Flask Storage Bottles Rodaviss 50ML T/C',
+                id: '1',
+                number: 'KJ-F42-1',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 100ML T/C',
+                id: '2',
+                number: '         KJ-F42-2',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 250ML T/C',
+                id: '3',
+                number: 'KJ-F42-3',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 500ML T/C',
+                id: '4',
+                number: '         KJ-F42-4',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 1000ML T/C',
+                id: '5',
+                number: '         KJ-F42-5',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 2000ML T/C',
+                id: '6',
+                number: 'KJ-F42-6',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 50ML G/C',
+                id: '7',
+                number: 'KJ-F42-7',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 100ML G/C',
+                id: '8',
+                number: 'KJ-F42-8',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 250ML G/C',
+                id: '9',
+                number: 'KJ-F42-9',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 500ML G/C',
+                id: '10',
+                number: 'KJ-F42-10',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 1000ML G/C',
+                id: '11',
+                number: '         KJ-F42-11',
+                selected: false,
+            }, {
+                content: 'Flask Storage Bottles Rodaviss 2000ML G/C',
+                id: '12',
+                number: '         KJ-F42-12',
+                selected: false,
+            }],
+            title: 'Flask Storage,Rodaviss',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '191',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F191.jpg?alt=media&token=521f369f-7a2a-442b-b2ea-1dae6a406836',
+            specification: [{
+                content: 'Flask Storage Ampule 5ML',
+                id: '1',
+                number: 'KJ-F43-1',
+                selected: false,
+            }, {
+                content: 'Flask Storage Ampule 10ML',
+                id: '2',
+                number: 'KJ-F43-2',
+                selected: false,
+            }, {
+                content: 'Flask Storage Ampule 25ML',
+                id: '3',
+                number: '         KJ-F43-3',
+                selected: false,
+            }, {
+                content: 'Flask Storage Ampule 50ML',
+                id: '4',
+                number: 'KJ-F43-4',
+                selected: false,
+            }, {
+                content: 'Flask Storage Ampule 100ML',
+                id: '5',
+                number: '         KJ-F43-5',
+                selected: false,
+            }],
+            title: 'Flask Ampule',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '192',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F192.jpg?alt=media&token=a8768e23-e9c0-476e-9b05-c24bdb135804',
+            specification: [{
+                content: 'Flask Receiver Adapter 50ML 14/20',
+                id: '1',
+                number: 'KJ-F44-1',
+                selected: false,
+            }, {
+                content: 'Flask Receiver Adapter 100ML 14/20',
+                id: '2',
+                number: '         KJ-F44-2',
+                selected: false,
+            }, {
+                content: 'Flask Receiver Adapter 100ML 24/40',
+                id: '3',
+                number: 'KJ-F44-3',
+                selected: false,
+            }, {
+                content: 'Flask Receiver Adapter 250ML 24/40',
+                id: '4',
+                number: 'KJ-F44-4',
+                selected: false,
+            }, {
+                content: 'Flask Receiver Adapter 500ML 24/40',
+                id: '5',
+                number: '         KJ-F44-5',
+                selected: false,
+            }, {
+                content: 'Flask Receiver Adapter 1000ML 24/40',
+                id: '6',
+                number: '         KJ-F44-6',
+                selected: false,
+            }, {
+                content: 'Flask Receiver Adapter 2000ML 24/40',
+                id: '7',
+                number: '         KJ-F44-7',
+                selected: false,
+            }],
+            title: 'Flask Receiver',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '193',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F193.jpg?alt=media&token=01ff17fe-51ee-4766-a778-03c129ad6a22',
+            specification: [{
+                content: 'Flask Airless Solvent Storage 250ML 24/40',
+                id: '1',
+                number: '         KJ-F45-1',
+                selected: false,
+            }, {
+                content: 'Flask Airless Solvent Storage 500ML 24/40',
+                id: '2',
+                number: '         KJ-F45-2',
+                selected: false,
+            }, {
+                content: 'Flask Airless Solvent Storage 1000ML 24/40',
+                id: '3',
+                number: '         KJ-F45-3',
+                selected: false,
+            }, {
+                content: 'Flask Airless Solvent Storage 2000ML 24/40',
+                id: '4',
+                number: 'KJ-F45-4',
+                selected: false,
+            }],
+            title: 'Flask Solvent Storage',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '194',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F194.jpg?alt=media&token=1c51eecf-0f7a-4f32-9fc7-0413be1dcc6f',
+            specification: [{
+                content: 'Flask Display Bottle 50ml 50*120',
+                id: '1',
+                number: '         KJ-F47-1',
+                selected: false,
+            }, {
+                content: 'Flask Display Bottle 100ml 60*125',
+                id: '2',
+                number: '         KJ-F47-2',
+                selected: false,
+            }, {
+                content: 'Flask Display Bottle 200ml 70*135',
+                id: '3',
+                number: 'KJ-F47-3',
+                selected: false,
+            }, {
+                content: 'Flask Display Bottle 400ml 80*155',
+                id: '4',
+                number: 'KJ-F47-4',
+                selected: false,
+            }, {
+                content: 'Flask Display Bottle 50ml 50*120',
+                id: '5',
+                number: 'KJ-F47-5',
+                selected: false,
+            }, {
+                content: 'Flask Display Bottle 100ml 60*125',
+                id: '6',
+                number: 'KJ-F47-6',
+                selected: false,
+            }, {
+                content: 'Flask Display Bottle 300ml 70*150',
+                id: '7',
+                number: 'KJ-F47-7',
+                selected: false,
+            }, {
+                content: 'Flask Display Bottle 500ml 80*165',
+                id: '8',
+                number: '         KJ-F47-8',
+                selected: false,
+            }],
+            title: 'Flask Display Bottle',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '195',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F195.jpg?alt=media&token=39e52a25-1196-4b46-b6ca-50018c8b2997',
+            specification: [{
+                content: 'Flask TLC Chamber 25ML 30*60',
+                id: '1',
+                number: '         KJ-F48-1',
+                selected: false,
+            }, {
+                content: 'Flask TLC Chamber 60ML 40*70',
+                id: '2',
+                number: '         KJ-F48-2',
+                selected: false,
+            }, {
+                content: 'Flask TLC Chamber 110ML 50*80',
+                id: '3',
+                number: '         KJ-F48-3',
+                selected: false,
+            }, {
+                content: 'Flask TLC Chamber 180ML 60*80',
+                id: '4',
+                number: '         KJ-F48-4',
+                selected: false,
+            }, {
+                content: 'Flask TLC Chamber 250ML 70*80',
+                id: '5',
+                number: 'KJ-F48-5',
+                selected: false,
+            }],
+            title: 'Flask TLC Chamber',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '196',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F196.jpg?alt=media&token=d7901f2a-0ab3-4c92-8324-df8b018ac679',
+            specification: [{
+                content: 'Flask Tray Glass 275*175*37 1995ML',
+                id: '1',
+                number: '         KJ-F49-1',
+                selected: false,
+            }, {
+                content: 'Flask Tray Glass 200*200*50 1995ML',
+                id: '2',
+                number: '         KJ-F49-2',
+                selected: false,
+            }, {
+                content: 'Flask Tray Glass 325*225*50 3420ML',
+                id: '3',
+                number: 'KJ-F49-3',
+                selected: false,
+            }, {
+                content: 'Flask Tray Glass 380*255*50 4655ML',
+                id: '4',
+                number: '         KJ-F49-4',
+                selected: false,
+            }],
+            title: 'Flask Tray. Glass',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '197',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F197.jpg?alt=media&token=d0c1eb56-6ec4-4a60-abe5-641aae9ff807',
+            specification: [{
+                content: 'Flask Tray Sus 530*430*80',
+                id: '1',
+                number: '         KJ-F50-1',
+                selected: false,
+            }, {
+                content: 'Flask Tray Sus 360*320*60',
+                id: '2',
+                number: 'KJ-F50-2',
+                selected: false,
+            }, {
+                content: 'Flask Tray Sus 280*220*55',
+                id: '3',
+                number: '         KJ-F50-3',
+                selected: false,
+            }, {
+                content: 'Flask Tray Sus 210*170*30',
+                id: '4',
+                number: '         KJ-F50-4',
+                selected: false,
+            }],
+            title: 'Flask Tray, Sus',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '198',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F198.jpg?alt=media&token=57cadd6f-509f-47d4-96f5-022453f3858e',
+            specification: [{
+                content: 'Flask Spray Bottle 50ML',
+                id: '1',
+                number: 'KJ-F51-1',
+                selected: false,
+            }, {
+                content: 'Flask Spray Bottle 125ML',
+                id: '2',
+                number: '         KJ-F51-2',
+                selected: false,
+            }],
+            title: 'Flask Spray Bottle',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '199',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F199.jpg?alt=media&token=6e409537-005f-4bc5-8dba-c4c79d4079f6',
+            specification: [{
+                content: 'Flask Spray 50ML',
+                id: '1',
+                number: '         KJ-F52-1',
+                selected: false,
+            }, {
+                content: 'Flask Spray 125ML',
+                id: '2',
+                number: 'KJ-F52-2',
+                selected: false,
+            }, {
+                content: 'Flask Spray 250ML',
+                id: '3',
+                number: '         KJ-F52-3',
+                selected: false,
+            }],
+            title: 'Flask Spray',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '200',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F200.jpg?alt=media&token=30c16740-410e-44c8-93b4-4542062e3c68',
+            specification: [{
+                content: 'Flask Schlenk 50ML 14/20 T/C',
+                id: '1',
+                number: '         KJ-F53-1',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 100ML 14/20 T/C',
+                id: '2',
+                number: '         KJ-F53-2',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 100ML 24/40 T/C',
+                id: '3',
+                number: 'KJ-F53-3',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 250ML 24/40 T/C',
+                id: '4',
+                number: 'KJ-F53-4',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 500ML 24/40 T/C',
+                id: '5',
+                number: '         KJ-F53-5',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 1000ML 24/40 T/C',
+                id: '6',
+                number: 'KJ-F53-6',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 2000ML 24/40 T/C',
+                id: '7',
+                number: 'KJ-F53-7',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 3000ML 24/40 T/C',
+                id: '8',
+                number: '         KJ-F53-8',
+                selected: false,
+            }],
+            title: 'Flask Storage,Schlenk',
+            type: 'glass',
+        }, {
+            classify: 'Flasks',
+            id: '201',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F201.jpg?alt=media&token=a3f01700-7262-42e1-9a10-6913b4fa2b2a',
+            specification: [{
+                content: 'Flask Schlenk 10ML 14/20 A.B.C',
+                id: '1',
+                number: '         KJ-F54-1',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 25ML 14/20 A.B.C',
+                id: '2',
+                number: '         KJ-F54-2',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 50ML 14/20 A.B.C',
+                id: '3',
+                number: '         KJ-F54-3',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 100ML 24/40 A.B.C',
+                id: '4',
+                number: 'KJ-F54-4',
+                selected: false,
+            }, {
+                content: 'Flask Schlenk 250ML 24/40 A.B.C',
+                id: '5',
+                number: '         KJ-F54-5',
+                selected: false,
+            }],
+            title: 'Flask Schlenk,Glass Stopcock',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '202',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F202.jpg?alt=media&token=aa61f95a-ea2b-4176-8676-05f929c6f0b9',
+            specification: [{
+                content: 'Funnel Filter 60ML 14/20 C',
+                id: '1',
+                number: '         KJ-FU1-1',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 60ML 14/20 M',
+                id: '2',
+                number: 'KJ-FU1-2',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 200ML 24/40 C',
+                id: '3',
+                number: '         KJ-FU1-3',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 200ML 24/40 M',
+                id: '4',
+                number: 'KJ-FU1-4',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 400ML 24/40 C',
+                id: '5',
+                number: '         KJ-FU1-5',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 400ML 24/40 M',
+                id: '6',
+                number: '         KJ-FU1-6',
+                selected: false,
+            }],
+            title: 'Funnel Filter',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '203',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F203.jpg?alt=media&token=eb3358c9-993c-4500-8df8-d567dc5b9392',
+            specification: [{
+                content: 'Funnel Filter 60ML 14/20 C',
+                id: '1',
+                number: '         KJ-FU2-1',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 60ML 14/20 M',
+                id: '2',
+                number: '         KJ-FU2-2',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 150ML 24/40 C',
+                id: '3',
+                number: '         KJ-FU2-3',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 150ML 24/40 M',
+                id: '4',
+                number: '         KJ-FU2-4',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 400ML 24/40 C',
+                id: '5',
+                number: 'KJ-FU2-5',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 400ML 24/40 M',
+                id: '6',
+                number: 'KJ-FU2-6',
+                selected: false,
+            }],
+            title: 'Funnel Filter',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '204',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F204.jpg?alt=media&token=41686b7e-daba-4541-8c46-7f65ebaf64a0',
+            specification: [{
+                content: 'Funnel Dropping T/C 10ML 14/20',
+                id: '1',
+                number: '         KJ-FU3-1',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 25ML 14/20',
+                id: '2',
+                number: '         KJ-FU3-2',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 50ML 14/20',
+                id: '3',
+                number: '         KJ-FU3-3',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 250ML 24/40',
+                id: '4',
+                number: 'KJ-FU3-4',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 500ML 24/40',
+                id: '5',
+                number: 'KJ-FU3-5',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 1L 24/40',
+                id: '6',
+                number: 'KJ-FU3-6',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 2L 24/40',
+                id: '7',
+                number: '         KJ-FU3-7',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 100ML 14/20',
+                id: '8',
+                number: 'KJ-FU3-8',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 100ML 24/40',
+                id: '9',
+                number: '         KJ-FU3-9',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 10ML 14/20',
+                id: '10',
+                number: '         KJ-FU3-10',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 25ML 14/20',
+                id: '11',
+                number: '         KJ-FU3-11',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 50ML 14/20',
+                id: '12',
+                number: '         KJ-FU3-12',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 100ML 14/20',
+                id: '13',
+                number: '         KJ-FU3-13',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 100ML 24/40',
+                id: '14',
+                number: 'KJ-FU3-14',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 250ML 24/40',
+                id: '15',
+                number: 'KJ-FU3-15',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 500ML 24/40',
+                id: '16',
+                number: '         KJ-FU3-16',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 1000ML 24/40',
+                id: '17',
+                number: '         KJ-FU3-17',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 2000ML 24/40',
+                id: '18',
+                number: '         KJ-FU3-18',
+                selected: false,
+            }],
+            title: 'Funnel Dropping',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '205',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F205.jpg?alt=media&token=25fdb92b-377a-4307-a75e-3baa3b368c53',
+            specification: [{
+                content: 'Funnel Dropping T/C 10ML 14/20',
+                id: '1',
+                number: '         KJ-FU4-1',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 25ML 14/20',
+                id: '2',
+                number: '         KJ-FU4-2',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 50ML 14/20',
+                id: '3',
+                number: '         KJ-FU4-3',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 100ML 14/20',
+                id: '4',
+                number: 'KJ-FU4-4',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 100ML 24/40',
+                id: '5',
+                number: 'KJ-FU4-5',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 250ML 24/40',
+                id: '6',
+                number: 'KJ-FU4-6',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 500ML 24/40',
+                id: '7',
+                number: 'KJ-FU4-7',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 1L 24/40',
+                id: '8',
+                number: '         KJ-FU4-8',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C 2L 24/40',
+                id: '9',
+                number: '         KJ-FU4-9',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 10ML 14/20',
+                id: '10',
+                number: '         KJ-FU4-10',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 25ML 14/20',
+                id: '11',
+                number: 'KJ-FU4-11',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 50ML 14/20',
+                id: '12',
+                number: 'KJ-FU4-12',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 100ML 14/20',
+                id: '13',
+                number: '         KJ-FU4-13',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 100ML 24/40',
+                id: '14',
+                number: 'KJ-FU4-14',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 250ML 24/40',
+                id: '15',
+                number: 'KJ-FU4-15',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 500ML 24/40',
+                id: '16',
+                number: '         KJ-FU4-16',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 1L 24/40',
+                id: '17',
+                number: 'KJ-FU4-17',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping G/C 2L 24/40',
+                id: '18',
+                number: 'KJ-FU4-18',
+                selected: false,
+            }],
+            title: 'Funnel Dropping',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '206',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F206.jpg?alt=media&token=a84751d3-0fc4-41c9-a8d3-dbe010cc52d6',
+            specification: [{
+                content: 'Funnel Dropping Cooling Bath 14/20 75ML',
+                id: '1',
+                number: '         KJ-FU5-1',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping Cooling Bath 24/40 250ML',
+                id: '2',
+                number: '         KJ-FU5-2',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping Cooling Bath 14/20 50ML',
+                id: '3',
+                number: 'KJ-FU5-3',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping Cooling Bath 24/40 100ML',
+                id: '4',
+                number: '         KJ-FU5-4',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping Cooling Bath 24/40 500ML',
+                id: '5',
+                number: '         KJ-FU5-5',
+                selected: false,
+            }],
+            title: 'Funnel Dropping',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '207',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F207.jpg?alt=media&token=f86a363f-c3c9-4d8a-a8a9-4db13b0e1a7b',
+            specification: [{
+                content: 'Funnel Dropping(눈금,Cock) 10ML 14/20',
+                id: '1',
+                number: '         KJ-FU6-1',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping(눈금,Cock) 25ML 14/20',
+                id: '2',
+                number: 'KJ-FU6-3',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping(눈금,Cock) 50ML 14/20',
+                id: '3',
+                number: '         KJ-FU6-5',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping(눈금,Cock) 100ML 14/20',
+                id: '4',
+                number: '         KJ-FU6-7',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping(눈금,Cock) 100ML 24/40',
+                id: '5',
+                number: 'KJ-FU6-8',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping(눈금,Cock) 250ML 24/40',
+                id: '6',
+                number: '         KJ-FU6-9',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping(눈금,Cock) 500ML 24/40',
+                id: '7',
+                number: '         KJ-FU6-10',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping(눈금,Cock)1000ML 24/40',
+                id: '8',
+                number: 'KJ-FU6-11',
+                selected: false,
+            }],
+            title: 'Funnel Dropping(눈금,cock)',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '208',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F208.jpg?alt=media&token=8740aedb-b9a2-423f-bee3-b2024a1091da',
+            specification: [{
+                content: 'Glass Filter 30ML 14/20 G1,G2,G3,G4',
+                id: '1',
+                number: '         KJ-FU7-1',
+                selected: false,
+            }, {
+                content: 'Glass Filter 60ML 14/20 G1,G2,G3,G4',
+                id: '2',
+                number: '         KJ-FU7-5',
+                selected: false,
+            }, {
+                content: 'Glass Filter 140ML 24/40 G1,G2,G3,G4',
+                id: '3',
+                number: 'KJ-FU7-6',
+                selected: false,
+            }, {
+                content: 'Glass Filter 450ML 24/40 G1,G2,G3,G4',
+                id: '4',
+                number: '         KJ-FU7-7',
+                selected: false,
+            }, {
+                content: 'Glass Filter 750ML 24/40 G1,G2,G3,G4',
+                id: '5',
+                number: '         KJ-FU7-8',
+                selected: false,
+            }, {
+                content: 'Glass Filter 1000ML 24/40 G1,G2,G3,G4',
+                id: '6',
+                number: '         KJ-FU7-9',
+                selected: false,
+            }, {
+                content: 'Glass Filter 1200ML 24/40 G1,G2,G3,G4',
+                id: '7',
+                number: 'KJ-FU7-10',
+                selected: false,
+            }, {
+                content: 'Glass Filter 4000ML 45/50 G1,G2,G3,G4',
+                id: '8',
+                number: '         KJ-FU7-11',
+                selected: false,
+            }],
+            title: 'Funnel Filter',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '209',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F209.jpg?alt=media&token=98627d9d-7d0c-4754-a9cf-070645aed47e',
+            specification: [{
+                content: 'Funnel Filling 24/40 60m/m',
+                id: '1',
+                number: 'KJ-FU8-1',
+                selected: false,
+            }],
+            title: 'Funnel Filling',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '210',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F210.jpg?alt=media&token=c03a1ee6-49fb-4be7-bb0a-a86b60f341c2',
+            specification: [{
+                content: 'Funnel Filter 60ML 상하14/20 G1,G2,G3,G4',
+                id: '1',
+                number: '         KJ-FU9-4',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 110ML 상하14/20 G1,G2,G3,G4',
+                id: '2',
+                number: 'KJ-FU9-5',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 110ML 상하24/40 G1,G2,G3,G4',
+                id: '3',
+                number: '         KJ-FU9-6',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 250ML 상하24/40 G1,G2,G3,G4',
+                id: '4',
+                number: '         KJ-FU9-7',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 750ML 상하24/40 G1,G2,G3,G4',
+                id: '5',
+                number: 'KJ-FU9-8',
+                selected: false,
+            }, {
+                content: 'Funnel Filter 1100ML 상하24/40 G1,G2,G3,G4',
+                id: '6',
+                number: 'KJ-FU9-9',
+                selected: false,
+            }],
+            title: 'Funnel Filter',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '211',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F211.jpg?alt=media&token=1cf5ea1f-019e-4405-89f4-a225c1f7236d',
+            specification: [{
+                content: 'Funnel Fritted Hirsch O.D:50mm',
+                id: '1',
+                number: 'KJ-FU10-1',
+                selected: false,
+            }, {
+                content: 'Funnel Fritted Hirsch O.D:75mm',
+                id: '2',
+                number: '         KJ-FU10-2',
+                selected: false,
+            }],
+            title: 'Funnel Filter',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '212',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F212.jpg?alt=media&token=dd4fd1a1-37d2-4572-a7fe-e6f51c171da2',
+            specification: [{
+                content: 'Funnel 40mm F',
+                id: '1',
+                number: 'KJ-FU11-1',
+                selected: false,
+            }, {
+                content: 'Funnel 40mm M',
+                id: '2',
+                number: '         KJ-FU11-2',
+                selected: false,
+            }, {
+                content: 'Funnel 40mm C',
+                id: '3',
+                number: 'KJ-FU11-3',
+                selected: false,
+            }],
+            title: 'Funnel Filter Cylindrical',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '213',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F213.jpg?alt=media&token=3ab04d59-5b87-4637-aaf0-22d8d801e73b',
+            specification: [{
+                content: 'Funnel Powder 14/20',
+                id: '1',
+                number: '         KJ-FU12-1',
+                selected: false,
+            }, {
+                content: 'Funnel Powder 24/40',
+                id: '2',
+                number: 'KJ-FU12-2',
+                selected: false,
+            }, {
+                content: 'Funnel Powder 29/42',
+                id: '3',
+                number: 'KJ-FU12-3',
+                selected: false,
+            }],
+            title: 'Funnel, Powder',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '214',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F214.jpg?alt=media&token=c2365db6-4b2f-4e9b-9ed7-2889e8168af4',
+            specification: [{
+                content: 'Funnel Powder Offset 14/20',
+                id: '1',
+                number: 'KJ-FU13-1',
+                selected: false,
+            }, {
+                content: 'Funnel Powder Offset 24/40',
+                id: '2',
+                number: 'KJ-FU13-2',
+                selected: false,
+            }],
+            title: 'Funnel, Powder Offset',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '215',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F215.jpg?alt=media&token=d473f8c5-b523-4136-8144-e55ca6b0bee6',
+            specification: [{
+                content: 'Funnel Separatory 14/20 50ML T/C',
+                id: '1',
+                number: 'KJ-FU14-1',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 100ML T/C',
+                id: '2',
+                number: '         KJ-FU14-2',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/40 250ML T/C',
+                id: '3',
+                number: 'KJ-FU14-3',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/40 500ML T/C',
+                id: '4',
+                number: '         KJ-FU14-4',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 10ML T/C',
+                id: '5',
+                number: 'KJ-FU14-5',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 25ML T/C',
+                id: '6',
+                number: 'KJ-FU14-6',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 1000ML T/C',
+                id: '7',
+                number: 'KJ-FU14-7',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 29/32 2000ML T/C',
+                id: '8',
+                number: 'KJ-FU14-8',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 3000ML T/C',
+                id: '9',
+                number: 'KJ-FU14-9',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 5000ML T/C',
+                id: '10',
+                number: '         KJ-FU14-10',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 45/35 10000ML T/C',
+                id: '11',
+                number: '         KJ-FU14-11',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 10ML G/C',
+                id: '12',
+                number: '         KJ-FU14-12',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 25ML G/C',
+                id: '13',
+                number: '         KJ-FU14-13',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 50ML G/C',
+                id: '14',
+                number: 'KJ-FU14-14',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 100ML G/C',
+                id: '15',
+                number: 'KJ-FU14-15',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 250ML G/C',
+                id: '16',
+                number: '         KJ-FU14-16',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 500ML G/C',
+                id: '17',
+                number: 'KJ-FU14-17',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 1000ML G/C',
+                id: '18',
+                number: 'KJ-FU14-18',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 29/42 2000ML G/C',
+                id: '19',
+                number: 'KJ-FU14-19',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 3000ML G/C',
+                id: '20',
+                number: '         KJ-FU14-20',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 5000ML G/C',
+                id: '21',
+                number: '         KJ-FU14-21',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 45/35 10000ML G/C',
+                id: '22',
+                number: '         KJ-FU14-22',
+                selected: false,
+            }],
+            title: 'Funnel Separatory',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '216',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F216.jpg?alt=media&token=166a4177-9d0b-4538-ba30-c9c9b395b344',
+            specification: [{
+                content: 'Funnel Separatory 14/20 25ML T/C',
+                id: '1',
+                number: 'KJ-FU15-1',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 50ML T/C',
+                id: '2',
+                number: '         KJ-FU15-2',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 100ML T/C',
+                id: '3',
+                number: '         KJ-FU15-3',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 250ML T/C',
+                id: '4',
+                number: '         KJ-FU15-4',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 500ML T/C',
+                id: '5',
+                number: 'KJ-FU15-5',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 1000ML T/C',
+                id: '6',
+                number: '         KJ-FU15-6',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 29/32 2000ML T/C',
+                id: '7',
+                number: '         KJ-FU15-7',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 3000ML T/C',
+                id: '8',
+                number: '         KJ-FU15-8',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 5000ML T/C',
+                id: '9',
+                number: 'KJ-FU15-9',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 10ML T/C',
+                id: '10',
+                number: 'KJ-FU15-10',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 45/35 10000ML T/C',
+                id: '11',
+                number: 'KJ-FU15-11',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 10ML G/C',
+                id: '12',
+                number: 'KJ-FU15-12',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 25ML G/C',
+                id: '13',
+                number: 'KJ-FU15-13',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 50ML G/C',
+                id: '14',
+                number: 'KJ-FU15-14',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 14/20 100ML G/C',
+                id: '15',
+                number: '         KJ-FU15-15',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 250ML G/C',
+                id: '16',
+                number: 'KJ-FU15-16',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 500ML G/C',
+                id: '17',
+                number: 'KJ-FU15-17',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 24/22 1000ML G/C',
+                id: '18',
+                number: 'KJ-FU15-18',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 29/42 2000ML G/C',
+                id: '19',
+                number: '         KJ-FU15-19',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 3000ML G/C',
+                id: '20',
+                number: '         KJ-FU15-20',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 34/35 5000ML G/C',
+                id: '21',
+                number: '         KJ-FU15-21',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 45/35 10000ML G/C',
+                id: '22',
+                number: '         KJ-FU15-22',
+                selected: false,
+            }, {
+                content: 'Funnel Separatory 45/35 20000ML Screw Valve',
+                id: '23',
+                number: '         KJ-FU15-23',
+                selected: false,
+            }],
+            title: 'Funnel Separatory',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '217',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F217.jpg?alt=media&token=e7fd9f07-3726-489d-a70e-7edcd26fb8ef',
+            specification: [{
+                content: 'Funnel Dropping T/C plug 14/20 50ML',
+                id: '1',
+                number: 'KJ-FU16-1',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C plug 24/40 125ML',
+                id: '2',
+                number: '         KJ-FU16-2',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C plug 24/40 250ML',
+                id: '3',
+                number: '         KJ-FU16-3',
+                selected: false,
+            }, {
+                content: 'Funnel Dropping T/C plug 24/40 500ML',
+                id: '4',
+                number: '         KJ-FU16-4',
+                selected: false,
+            }],
+            title: 'Funnel Dropping',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '218',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F218.jpg?alt=media&token=7ee5b04a-4c5a-4c77-a3a2-ebb950fc9cc1',
+            specification: [{
+                content: 'Funnel Powder Dispensing PTFE plug 24/40 100ML',
+                id: '1',
+                number: '         KJ-FU17-1',
+                selected: false,
+            }, {
+                content: 'Funnel Powder Dispensing PTFE plug 24/40 250ML',
+                id: '2',
+                number: '         KJ-FU17-2',
+                selected: false,
+            }, {
+                content: 'Funnel Powder Dispensing PTFE plug 24/40 500ML',
+                id: '3',
+                number: '         KJ-FU17-3',
+                selected: false,
+            }],
+            title: 'Funnel Powder Dispensing',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '219',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F219.jpg?alt=media&token=85159ce7-c33e-4489-8b54-4d688499282a',
+            specification: [{
+                content: 'Funnel Glass Filter 15ML',
+                id: '1',
+                number: 'KJ-FU18-1',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Filter 30ML',
+                id: '2',
+                number: '         KJ-FU18-2',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Filter 60ML',
+                id: '3',
+                number: '         KJ-FU18-3',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Filter 140ML',
+                id: '4',
+                number: 'KJ-FU18-4',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Filter 450ML',
+                id: '5',
+                number: 'KJ-FU18-5',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Filter 750ML',
+                id: '6',
+                number: 'KJ-FU18-6',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Filter 1000ML',
+                id: '7',
+                number: 'KJ-FU18-7',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Filter 4000ML',
+                id: '8',
+                number: '         KJ-FU18-8',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:48mm 70ML',
+                id: '9',
+                number: 'KJ-FU18B-1',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:60mm 125ML',
+                id: '10',
+                number: 'KJ-FU18B-2',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:73mm 220ML',
+                id: '11',
+                number: '         KJ-FU18B-3',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:95mm 500ML',
+                id: '12',
+                number: '         KJ-FU18B-4',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:120mm 1000ML',
+                id: '13',
+                number: '         KJ-FU18B-5',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:48mm 14/20',
+                id: '14',
+                number: '         KJ-FU18B-6',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:60mm 24/40',
+                id: '15',
+                number: '         KJ-FU18B-7',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:73mm 24/40',
+                id: '16',
+                number: '         KJ-FU18B-8',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:95mm 24/40',
+                id: '17',
+                number: '         KJ-FU18B-9',
+                selected: false,
+            }, {
+                content: 'Funnel Glass Buchner D:120mm 34/45',
+                id: '18',
+                number: 'KJ-FU18B-10',
+                selected: false,
+            }],
+            title: 'Funnel Filter',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '220',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F220.jpg?alt=media&token=ffc4bb65-e0da-4697-8f9e-a672845b00ab',
+            specification: [{
+                content: 'Funnel Powder Angled 14/20 D:60mm',
+                id: '1',
+                number: 'KJ-FU19-1',
+                selected: false,
+            }, {
+                content: 'Funnel Powder Angled 24/40 D:75mm',
+                id: '2',
+                number: '         KJ-FU19-2',
+                selected: false,
+            }, {
+                content: 'Funnel Powder Angled 24/40 D:100mm',
+                id: '3',
+                number: '         KJ-FU19-3',
+                selected: false,
+            }],
+            title: 'Funnel,Powder Angled',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '221',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F221.jpg?alt=media&token=59aad972-d11e-42ae-ad4c-9dda91031533',
+            specification: [{
+                content: 'Funnel Powder 55mm',
+                id: '1',
+                number: 'KJ-FU20-1',
+                selected: false,
+            }, {
+                content: 'Funnel Powder 65mm',
+                id: '2',
+                number: '         KJ-FU20-2',
+                selected: false,
+            }, {
+                content: 'Funnel Powder 75mm',
+                id: '3',
+                number: 'KJ-FU20-3',
+                selected: false,
+            }, {
+                content: 'Funnel Powder 90mm',
+                id: '4',
+                number: 'KJ-FU20-4',
+                selected: false,
+            }, {
+                content: 'Funnel Powder 100mm',
+                id: '5',
+                number: '         KJ-FU20-5',
+                selected: false,
+            }],
+            title: 'Funnel,Powder',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '222',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F222.jpg?alt=media&token=b164daf4-6cbd-40f5-b7e1-d0bc57609955',
+            specification: [{
+                content: 'Funnel 55mm',
+                id: '1',
+                number: 'KJ-FU21-1',
+                selected: false,
+            }, {
+                content: 'Funnel 65mm',
+                id: '2',
+                number: 'KJ-FU21-2',
+                selected: false,
+            }, {
+                content: 'Funnel 75mm',
+                id: '3',
+                number: 'KJ-FU21-3',
+                selected: false,
+            }, {
+                content: 'Funnel 90mm',
+                id: '4',
+                number: '         KJ-FU21-4',
+                selected: false,
+            }, {
+                content: 'Funnel 100mm',
+                id: '5',
+                number: 'KJ-FU21-5',
+                selected: false,
+            }],
+            title: 'Funnel',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '223',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F223.jpg?alt=media&token=05aa919c-71c1-47f0-8b5e-f67af52bd866',
+            specification: [{
+                content: 'Funnel Filter Jacket 30ML C.M.F',
+                id: '1',
+                number: '         KJ-FU22-1',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 60ML C.M.F',
+                id: '2',
+                number: '         KJ-FU22-2',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 140ML C.M.F',
+                id: '3',
+                number: '         KJ-FU22-3',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 450ML C.M.F',
+                id: '4',
+                number: '         KJ-FU22-4',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 750ML C.M.F',
+                id: '5',
+                number: 'KJ-FU22-5',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 30ML C.M.F 14/20',
+                id: '6',
+                number: '         KJ-FU22-6',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 60ML C.M.F 24/40',
+                id: '7',
+                number: 'KJ-FU22-7',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 140ML C.M.F 24/40',
+                id: '8',
+                number: '         KJ-FU22-8',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 450ML C.M.F 34/45',
+                id: '9',
+                number: '         KJ-FU22-9',
+                selected: false,
+            }, {
+                content: 'Funnel Filter Jacket 750ML C.M.F 34/45',
+                id: '10',
+                number: 'KJ-FU22-10',
+                selected: false,
+            }],
+            title: 'Funnel Filter Jacker',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '224',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F224.jpg?alt=media&token=e637c85f-087f-4dc8-b116-727777bb09cb',
+            specification: [{
+                content: 'Funnel Filter D:60m/m',
+                id: '1',
+                number: 'KJ-FU23-1',
+                selected: false,
+            }, {
+                content: 'Funnel Filter D:80m/m',
+                id: '2',
+                number: 'KJ-FU23-2',
+                selected: false,
+            }],
+            title: 'Funnel Filter',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '225',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F225.jpg?alt=media&token=1c4d817a-7889-4b8b-ad0b-44c49bd09b4b',
+            specification: [{
+                content: 'Dropping Funnel With Jacket 14/20 50ML',
+                id: '1',
+                number: '         KJ-FU24-1',
+                selected: false,
+            }, {
+                content: 'Dropping Funnel With Jacket 14/20 100ML',
+                id: '2',
+                number: '         KJ-FU24-2',
+                selected: false,
+            }, {
+                content: 'Dropping Funnel With Jacket 24/40 250ML',
+                id: '3',
+                number: 'KJ-FU24-3',
+                selected: false,
+            }, {
+                content: 'Dropping Funnel With Jacket 24/40 500ML',
+                id: '4',
+                number: 'KJ-FU24-4',
+                selected: false,
+            }, {
+                content: 'Dropping Funnel With Jacket 24/40 1000ML',
+                id: '5',
+                number: 'KJ-FU24-5',
+                selected: false,
+            }, {
+                content: 'Dropping Funnel With Jacket 24/40 2000ML',
+                id: '6',
+                number: 'KJ-FU24-6',
+                selected: false,
+            }],
+            title: 'Funnel Dropping',
+            type: 'glass',
+        }, {
+            classify: 'Funnels',
+            id: '226',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F226.jpg?alt=media&token=e7ff44a1-8c0b-471a-a06c-85b9227d6e1d',
+            specification: [{
+                content: 'Funnel, Buchnner 48mm*70ml',
+                id: '1',
+                number: 'KJ-FU18B-1',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 60mm*125ml',
+                id: '2',
+                number: 'KJ-FU18B-2',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 73mm*220ml',
+                id: '3',
+                number: 'KJ-FU18B-3',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 95mm*500ml',
+                id: '4',
+                number: 'KJ-FU18B-4',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 120mm*1000ml',
+                id: '5',
+                number: 'KJ-FU18B-5',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 48mm 14/20',
+                id: '6',
+                number: 'KJ-FU18B-6',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 60mm 24/40',
+                id: '7',
+                number: 'KJ-FU18B-7',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 73mm 24/40',
+                id: '8',
+                number: 'KJ-FU18B-8',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 95mm 24/40',
+                id: '9',
+                number: 'KJ-FU18B-9',
+                selected: false,
+            }, {
+                content: 'Funnel, Buchnner 120mm 34/45',
+                id: '10',
+                number: 'KJ-FU18B-10',
+                selected: false,
+            }],
+            title: 'Funnel Glass Buchnner',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '227',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F227.jpg?alt=media&token=5e5a69cd-0071-425e-b262-0e12d5c4839c',
+            specification: [{
+                content: 'Gas Bubbler 14/20',
+                id: '1',
+                number: '         KJ-GB1-1',
+                selected: false,
+            }, {
+                content: 'Gas Bubbler 24/40',
+                id: '2',
+                number: 'KJ-GB1-2',
+                selected: false,
+            }],
+            title: 'Gas Bubbler',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '228',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F228.jpg?alt=media&token=c6b5d0dd-25a4-4372-9b6d-e302055ebb8b',
+            specification: [{
+                content: 'Gas Bubbler O.D:50mm,H:195mm',
+                id: '1',
+                number: '         KJ-GB2-1',
+                selected: false,
+            }],
+            title: 'GasnBubbler',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '229',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F229.jpg?alt=media&token=1f7fab20-97aa-4aa7-b4fa-176473516123',
+            specification: [{
+                content: 'Oil Bubbler 14/20,14/20',
+                id: '1',
+                number: 'KJ-GB3-1',
+                selected: false,
+            }, {
+                content: 'Oil Bubbler 24/40,14/20',
+                id: '2',
+                number: 'KJ-GB3-2',
+                selected: false,
+            }],
+            title: 'Oil Bubbler',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '230',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F230.jpg?alt=media&token=360db110-b686-4570-b8df-a4f2263ebc90',
+            specification: [{
+                content: 'Oil Bubbler 30*150',
+                id: '1',
+                number: 'KJ-GB4',
+                selected: false,
+            }],
+            title: 'Oil Bubbler',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '231',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F231.jpg?alt=media&token=991aaf91-9249-4207-9f6e-cfe885c76260',
+            specification: [{
+                content: 'Bubbler Mecrury 24/40',
+                id: '1',
+                number: 'KJ-GB5',
+                selected: false,
+            }],
+            title: 'Bubbler Mecrury',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '232',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F232.jpg?alt=media&token=f250da67-3646-44b2-a60d-575c0f86f61b',
+            specification: [{
+                content: 'Oil Bubbler 14/20',
+                id: '1',
+                number: '         KJ-GB6-1',
+                selected: false,
+            }, {
+                content: 'Oil Bubbler 24/40',
+                id: '2',
+                number: '         KJ-GB6-2',
+                selected: false,
+            }],
+            title: 'Oil Bubbler',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '233',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F233.jpg?alt=media&token=2f55dd18-10c4-4108-924f-b3e244071093',
+            specification: [{
+                content: 'Oil Bubbler 30*280*2ea',
+                id: '1',
+                number: '         KJ-GB7-1',
+                selected: false,
+            }, {
+                content: 'Oil Bubbler 30*280*3ea',
+                id: '2',
+                number: 'KJ-GB7-2',
+                selected: false,
+            }, {
+                content: 'Oil Bubbler 30*280*4ea',
+                id: '3',
+                number: '         KJ-GB7-3',
+                selected: false,
+            }],
+            title: 'Oil Bubbler',
+            type: 'glass',
+        }, {
+            classify: 'Gas . Oil Bubblers',
+            id: '234',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F234.jpg?alt=media&token=7083c482-b40c-46ee-8500-e4d103455e57',
+            specification: [{
+                content: 'Oil Bubbler(mini Gas Bubbler)',
+                id: '1',
+                number: '         KJ-GB8-1',
+                selected: false,
+            }],
+            title: 'Oil Bubbler(Mini Gas)',
+            type: 'glass',
+        }, {
+            classify: 'Gas Manifold/Washing Bottles',
+            id: '235',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F235.jpg?alt=media&token=5b29078b-f2e8-4de7-934e-cce0aed3b9c7',
+            specification: [{
+                content: 'Gas Manifold 155*102mm',
+                id: '1',
+                number: 'KJ-GM1-1',
+                selected: false,
+            }],
+            title: 'Gas Manifold KJ-GM1',
+            type: 'glass',
+        }, {
+            classify: 'Gas Washing Bottles',
+            id: '236',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F236.jpg?alt=media&token=008f7fb4-68ed-44e0-9c30-31459febfd21',
+            specification: [{
+                content: 'Gas Washing Bottle 125ML,C,29/42',
+                id: '1',
+                number: '         KJ-GW1-1',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 250ML,C,29/42',
+                id: '2',
+                number: 'KJ-GW1-2',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 500ML,C,29/42',
+                id: '3',
+                number: '         KJ-GW1-3',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 1000ML,C,29/43',
+                id: '4',
+                number: 'KJ-GW1-4',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 2000ML,C,34/45',
+                id: '5',
+                number: 'KJ-GW1-5',
+                selected: false,
+            }],
+            title: 'Gas Washing Bottle',
+            type: 'glass',
+        }, {
+            classify: 'Gas Washing Bottles',
+            id: '237',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F237.jpg?alt=media&token=05fa69b9-335f-4d45-ad67-9758ee91f4d1',
+            specification: [{
+                content: 'Gas Washing Bottle 125ML,C,29/42',
+                id: '1',
+                number: 'KJ-GW2-1',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 250ML,C,29/42',
+                id: '2',
+                number: '         KJ-GW2-2',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 500ML,C29/42',
+                id: '3',
+                number: 'KJ-GW2-3',
+                selected: false,
+            }],
+            title: 'Gas Washing Bottle',
+            type: 'glass',
+        }, {
+            classify: 'Gas Washing Bottles',
+            id: '238',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F238.jpg?alt=media&token=10dbff79-7a5d-47fd-8c9b-3495eec0b473',
+            specification: [{
+                content: 'Gas Washing Bottle 350ML,C,24/40',
+                id: '1',
+                number: 'KJ-GW3-1',
+                selected: false,
+            }],
+            title: 'Gas Washing Bottle',
+            type: 'glass',
+        }, {
+            classify: 'Gas Washing Bottles',
+            id: '239',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F239.jpg?alt=media&token=0f0eef38-4598-432b-918b-17e440827042',
+            specification: [{
+                content: 'Gas Washing Bottle 125ML,C,24/40',
+                id: '1',
+                number: '         KJ-GW4-1',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 250ML,C,24/40',
+                id: '2',
+                number: 'KJ-GW4-2',
+                selected: false,
+            }, {
+                content: 'Gas Washing Bottle 500ML,C,24/40',
+                id: '3',
+                number: '         KJ-GW4-3',
+                selected: false,
+            }],
+            title: 'Gas Washing Bottle',
+            type: 'glass',
+        }, {
+            classify: 'Hose Connectors',
+            id: '240',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F240.jpg?alt=media&token=c3f474d6-6849-45de-83c4-cfbec2a2fabb',
+            specification: [{
+                content: 'Hose Connector T-Shaped 8mm',
+                id: '1',
+                number: '         KJ-H1-1',
+                selected: false,
+            }, {
+                content: 'Hose Connector T-Shaped 10mm',
+                id: '2',
+                number: 'KJ-H1-2',
+                selected: false,
+            }],
+            title: 'Glass Connector T-Shaped',
+            type: 'glass',
+        }, {
+            classify: 'Hose Connectors',
+            id: '241',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F241.jpg?alt=media&token=17e2cad6-f656-4ee4-be5f-839989d6b040',
+            specification: [{
+                content: 'Hose Connector Y-Shaped 8mm',
+                id: '1',
+                number: 'KJ-H2-1',
+                selected: false,
+            }, {
+                content: 'Hose Connector Y-Shaped 10mm',
+                id: '2',
+                number: '         KJ-H2-2',
+                selected: false,
+            }],
+            title: 'Glass Connector Y-Shaped',
+            type: 'glass',
+        }, {
+            classify: 'Homogenizer',
+            id: '242',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F242.jpg?alt=media&token=a6042d2c-720f-49a6-babd-02657775f2e9',
+            specification: [{
+                content: 'Homogenizer 20N',
+                id: '1',
+                number: '         KJ-HMZ-20N',
+                selected: false,
+            }, {
+                content: 'Homogenizer 20DN',
+                id: '2',
+                number: '         KJ-HMZ-20DN',
+                selected: false,
+            }, {
+                content: 'Homogenizer C40',
+                id: '3',
+                number: '         KJ-HMZ-C40',
+                selected: false,
+            }],
+            title: 'Homogenizer',
+            type: 'glass',
+        }, {
+            classify: 'HPLS Solvent Clean-Up',
+            id: '243',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F243.jpg?alt=media&token=69f50ae3-25e4-4b41-9bfe-f80a659aa003',
+            specification: [{
+                content: 'HPLC Solvent Clean-Up Assembly, SET',
+                id: '1',
+                number: 'KJ-HP1-1',
+                selected: false,
+            }, {
+                content: 'HPLC Solvent Clean-Up Assembly Cup Funnel',
+                id: '2',
+                number: 'KJ-HP1-A',
+                selected: false,
+            }, {
+                content: 'HPLC Solvent Clean-Up Assembly Fritted Filtering 34/45',
+                id: '3',
+                number: '         KJ-HP1-B',
+                selected: false,
+            }, {
+                content: 'HPLC Solvent Clean-Up Assembly Flask 1000ML 34/45',
+                id: '4',
+                number: '         KJ-HP1-C',
+                selected: false,
+            }, {
+                content: 'HPLC Solvent Clean-Up Assembly Clamp',
+                id: '5',
+                number: '         KJ-HP1-D',
+                selected: false,
+            }],
+            title: 'HPLC Solvent Clean-Up Assembly, SET',
+            type: 'glass',
+        }, {
+            classify: 'HPLS Solvent Clean-Up',
+            id: '244',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F244.jpg?alt=media&token=dc7d5fc6-c1a5-438a-ab90-4d0445c1f76f',
+            specification: [{
+                content: '47mm ULTRA-WARE All-Glass Assembly, SET',
+                id: '1',
+                number: 'KJ-HP2-1',
+                selected: false,
+            }, {
+                content: '47mm ULTRA-WARE All-Glass Assembly Cup Funnel',
+                id: '2',
+                number: '         KJ-HP2-A',
+                selected: false,
+            }, {
+                content: '47mm ULTRA-WARE All-Glass Assembly Fritted Filtering',
+                id: '3',
+                number: 'KJ-HP2-B',
+                selected: false,
+            }, {
+                content: '47mm ULTRA-WARE All-Glass Assembly Rubber Stopper',
+                id: '4',
+                number: '         KJ-HP2-C',
+                selected: false,
+            }],
+            title: '47mm ULTRA-WARE All-Glass Assembly, SET',
+            type: 'glass',
+        }, {
+            classify: 'Impellers',
+            id: '245',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F245.jpg?alt=media&token=16a500f9-9295-4869-b851-779cf6c78a76',
+            specification: [{
+                content: 'Impellers 크로바 3날개 40MM',
+                id: '1',
+                number: '         KJ-IMP1-1',
+                selected: false,
+            }, {
+                content: 'Impellers 크로바 3날개 50MM',
+                id: '2',
+                number: 'KJ-IMP1-2',
+                selected: false,
+            }, {
+                content: 'Impellers 크로바 3날개 70MM',
+                id: '3',
+                number: 'KJ-IMP1-3',
+                selected: false,
+            }, {
+                content: 'Impellers 크로바 3날개 100MM',
+                id: '4',
+                number: '         KJ-IMP1-4',
+                selected: false,
+            }, {
+                content: 'Impellers 프로펠라 70MM',
+                id: '5',
+                number: '         KJ-IMP1-5',
+                selected: false,
+            }, {
+                content: 'Impellers 프로펠라 100MM',
+                id: '6',
+                number: '         KJ-IMP1-6',
+                selected: false,
+            }, {
+                content: 'Impellers 프로펠라 120MM',
+                id: '7',
+                number: '         KJ-IMP1-7',
+                selected: false,
+            }, {
+                content: 'Impellers 다이아몬드 90MM',
+                id: '8',
+                number: '         KJ-IMP1-8',
+                selected: false,
+            }, {
+                content: 'Impellers 크로바 4날개 150MM',
+                id: '9',
+                number: '         KJ-IMP1-9',
+                selected: false,
+            }, {
+                content: 'Impellers 터빈 38MM',
+                id: '10',
+                number: '         KJ-IMP1-10',
+                selected: false,
+            }, {
+                content: 'Impellers 터빈 64MM',
+                id: '11',
+                number: 'KJ-IMP1-11',
+                selected: false,
+            }, {
+                content: 'Impellers 분쇄형 40MM',
+                id: '12',
+                number: '         KJ-IMP1-12',
+                selected: false,
+            }, {
+                content: 'Impellers 분쇄형 60MM',
+                id: '13',
+                number: 'KJ-IMP1-13',
+                selected: false,
+            }, {
+                content: 'Impellers 분쇄형 80MM',
+                id: '14',
+                number: '         KJ-IMP1-14',
+                selected: false,
+            }, {
+                content: 'Impellers 분쇄형 100MM',
+                id: '15',
+                number: 'KJ-IMP1-15',
+                selected: false,
+            }, {
+                content: 'Impellers 반달형 60MM',
+                id: '16',
+                number: '         KJ-IMP-S1',
+                selected: false,
+            }, {
+                content: 'Impellers 반달형 80MM',
+                id: '17',
+                number: '         KJ-IMP-S2',
+                selected: false,
+            }, {
+                content: 'Impellers U자형 50MM',
+                id: '18',
+                number: 'KJ-IMP-S3',
+                selected: false,
+            }, {
+                content: 'Impellers U자형 90MM',
+                id: '19',
+                number: 'KJ-IMP-S4',
+                selected: false,
+            }, {
+                content: 'Impellers U자 각형 65MM',
+                id: '20',
+                number: '         KJ-IMP-S5',
+                selected: false,
+            }, {
+                content: 'Impellers U자 각형 100MM',
+                id: '21',
+                number: '         KJ-IMP-S6',
+                selected: false,
+            }, {
+                content: 'Impellers 접이형 100MM',
+                id: '22',
+                number: 'KJ-IMP-S7',
+                selected: false,
+            }, {
+                content: 'Impellers Teflon 80MM',
+                id: '23',
+                number: '         KJ-IMP-S8',
+                selected: false,
+            }, {
+                content: 'Impellers Seal 24/40',
+                id: '24',
+                number: '         KJ-IMP-TS1',
+                selected: false,
+            }, {
+                content: 'Impellers Seal 29/42',
+                id: '25',
+                number: 'KJ-IMP-TS2',
+                selected: false,
+            }, {
+                content: 'Impellers Seal 34/45',
+                id: '26',
+                number: '         KJ-IMP-TS3',
+                selected: false,
+            }, {
+                content: 'Impellers Seal 45/50',
+                id: '27',
+                number: 'KJ-IMP-TS4',
+                selected: false,
+            }, {
+                content: 'Impellers Seal 55/50',
+                id: '28',
+                number: 'KJ-IMP-TS5',
+                selected: false,
+            }, {
+                content: '보조Impellers 크로바 3날개 40MM',
+                id: '29',
+                number: '         KJ-IMP-1A',
+                selected: false,
+            }, {
+                content: '보조Impellers 크로바 3날개 50MM',
+                id: '30',
+                number: '         KJ-IMP-2A',
+                selected: false,
+            }, {
+                content: '보조Impellers 프로펠라 70MM',
+                id: '31',
+                number: '         KJ-IMP-5A',
+                selected: false,
+            }, {
+                content: '보조Impellers 프로펠라 120MM',
+                id: '32',
+                number: 'KJ-IMP-7A',
+                selected: false,
+            }, {
+                content: '보조Impellers 다이아몬드형 90MM',
+                id: '33',
+                number: '         KJ-IMP-8A',
+                selected: false,
+            }, {
+                content: '보조Impellers 터빈형 38MM',
+                id: '34',
+                number: '         KJ-IMP-10A',
+                selected: false,
+            }, {
+                content: '보조Impellers 터빈형 64MM',
+                id: '35',
+                number: '         KJ-IMP-11A',
+                selected: false,
+            }, {
+                content: '보조Impellers 프로펠라 2날개 110MM',
+                id: '36',
+                number: 'KJ-IMP-20A',
+                selected: false,
+            }],
+            title: 'Impellers',
+            type: 'glass',
+        }, {
+            classify: 'Joints',
+            id: '246',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F246.jpg?alt=media&token=e0ed8d24-fea7-4a6a-8fe9-449ef01725cc',
+            specification: [{
+                content: 'Joint Rodaviss 14/20',
+                id: '1',
+                number: 'KJ-J1-1',
+                selected: false,
+            }],
+            title: 'Joint Rodaviss',
+            type: 'glass',
+        }, {
+            classify: 'Joints',
+            id: '247',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F247.jpg?alt=media&token=a9fff17a-a737-4d1a-96e6-7583da8f5ed4',
+            specification: [{
+                content: 'Joint Screwthread GL14 14/20',
+                id: '1',
+                number: 'KJ-J2-1',
+                selected: false,
+            }],
+            title: 'Joint Screwthread GL',
+            type: 'glass',
+        }, {
+            classify: 'Joints',
+            id: '248',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F248.jpg?alt=media&token=2346a1eb-ec16-4260-9e3c-197504514323',
+            specification: [{
+                content: 'Joint Ball Type O-Ring Seal',
+                id: '1',
+                number: '         KJ-J3-1',
+                selected: false,
+            }],
+            title: 'Joint Ball Type O-Ring Seal',
+            type: 'glass',
+        }, {
+            classify: 'Jacket Reactor',
+            id: '249',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F249.jpg?alt=media&token=8487832c-563b-4154-99f3-a97b45f825e8',
+            title: '20L Jacket Reactor',
+            type: 'glass',
+        }, {
+            classify: 'Jacket Reactor',
+            id: '250',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F250.jpg?alt=media&token=858cd8c3-2dae-4099-b2b3-7d970aefafec',
+            title: '30L Jacket Reactor',
+            type: 'glass',
+        }, {
+            classify: 'Jacket Reactor',
+            id: '251',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F251.jpg?alt=media&token=971fb415-5db0-4c02-82e4-295dfb0edd49',
+            title: '50L Jacket Reactor',
+            type: 'glass',
+        }, {
+            classify: 'Jacket Beaker',
+            id: '252',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F252.jpg?alt=media&token=168cff5c-2180-4945-beb8-321ba03ae6ad',
+            specification: [{
+                content: 'Beaker Jacketed Reaction 50ML',
+                id: '1',
+                number: 'KJ-JB1-1',
+                selected: false,
+            }, {
+                content: 'Beaker Jacketed Reaction 100ML',
+                id: '2',
+                number: 'KJ-JB1-2',
+                selected: false,
+            }, {
+                content: 'Beaker Jacketed Reaction 250ML',
+                id: '3',
+                number: 'KJ-JB1-3',
+                selected: false,
+            }, {
+                content: 'Beaker Jacketed Reaction 500ML',
+                id: '4',
+                number: 'KJ-JB1-4',
+                selected: false,
+            }, {
+                content: 'Beaker Jacketed Reaction 1000ML',
+                id: '5',
+                number: 'KJ-JB1-5',
+                selected: false,
+            }, {
+                content: 'Beaker Jacketed Reaction 2000ML',
+                id: '6',
+                number: 'KJ-JB1-6',
+                selected: false,
+            }],
+            title: 'Jacketed reaction',
+            type: 'glass',
+        }, {
+            classify: 'Mantle/Controller/Heating Jacket',
+            id: '253',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F253.jpg?alt=media&token=0669722e-1e9f-45d3-891e-b22b95a0196a',
+            specification: [{
+                content: 'Heating Mantle 100ML HMIC Flask Type',
+                id: '1',
+                number: 'KJ-M1-1A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 100ML HMI Flask Type',
+                id: '2',
+                number: 'KJ-M1-1B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 100ML HMGS Flask Type',
+                id: '3',
+                number: '         KJ-M1-1C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 300ML HMIC Flask Type',
+                id: '4',
+                number: '         KJ-M1-2A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 300ML HMI Flask Type',
+                id: '5',
+                number: 'KJ-M1-2B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 300ML HMGS Flask Type',
+                id: '6',
+                number: 'KJ-M1-2C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 500ML HMIC Flask Type',
+                id: '7',
+                number: '         KJ-M1-3A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 500ML HMI Flask Type',
+                id: '8',
+                number: '         KJ-M1-3B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 500ML HMGS Flask Type',
+                id: '9',
+                number: '         KJ-M1-3C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 1L HMIC Flask Type',
+                id: '10',
+                number: 'KJ-M1-4A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 1L HMI Flask Type',
+                id: '11',
+                number: '         KJ-M1-4B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 1L HMGS Flask Type',
+                id: '12',
+                number: '         KJ-M1-4C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 2L HMIC Flask Type',
+                id: '13',
+                number: '         KJ-M1-5A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 2L HMI Flask Type',
+                id: '14',
+                number: 'KJ-M1-5B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 2L HMGS Flask Type',
+                id: '15',
+                number: 'KJ-M1-5C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 3L HMIC Flask Type',
+                id: '16',
+                number: 'KJ-M1-6A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 3L HMI Flask Type',
+                id: '17',
+                number: '         KJ-M1-6B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 3L HMGS Flask Type',
+                id: '18',
+                number: '         KJ-M1-6C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 5L HMIC Flask Type',
+                id: '19',
+                number: '         KJ-M1-7A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 5L HMI Flask Type',
+                id: '20',
+                number: 'KJ-M1-7B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 5L HMGS Flask Type',
+                id: '21',
+                number: 'KJ-M1-7C',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 10L HMIC Flask Type',
+                id: '22',
+                number: '         KJ-M1-8A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 10L HMI Flask Type',
+                id: '23',
+                number: '         KJ-M1-8B',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 20L HMIC Flask Type',
+                id: '24',
+                number: '         KJ-M1-9A',
+                selected: false,
+            }, {
+                content: 'Heating Mantle 20L HMI Flask Type',
+                id: '25',
+                number: '         KJ-M1-9B',
+                selected: false,
+            }],
+            title: 'Heating Mantle',
+            type: 'glass',
+        }, {
+            classify: 'Mantle/Controller/Heating Jacket',
+            id: '254',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F254.jpg?alt=media&token=8c77a4cf-ecf5-4773-a74f-cb51bd4540f4',
+            specification: [{
+                content: 'Rota Mantle 50ML',
+                id: '1',
+                number: 'KJ-M2-1',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 100ML',
+                id: '2',
+                number: 'KJ-M2-2',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 250ML',
+                id: '3',
+                number: '         KJ-M2-3',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 300ML',
+                id: '4',
+                number: 'KJ-M2-4',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 500ML',
+                id: '5',
+                number: '         KJ-M2-5',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 1L',
+                id: '6',
+                number: '         KJ-M2-6',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 2L',
+                id: '7',
+                number: '         KJ-M2-7',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 3L',
+                id: '8',
+                number: '         KJ-M2-8',
+                selected: false,
+            }, {
+                content: 'Rota Mantle 5L',
+                id: '9',
+                number: '         KJ-M2-9',
+                selected: false,
+            }],
+            title: 'Rota Mantle',
+            type: 'glass',
+        }, {
+            classify: 'Mantle/Controller/Heating Jacket',
+            id: '255',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F255.jpg?alt=media&token=b160ca9a-1633-4783-8462-1602c05e69bb',
+            specification: [{
+                content: 'Extraction Mantle 50ML 6Hole',
+                id: '1',
+                number: '         KJ-M3-1',
+                selected: false,
+            }, {
+                content: 'Extraction Mantle 100ML 6Hole',
+                id: '2',
+                number: '         KJ-M3-2',
+                selected: false,
+            }, {
+                content: 'Extraction Mantle 250ML 6Hole',
+                id: '3',
+                number: '         KJ-M3-3',
+                selected: false,
+            }, {
+                content: 'Extraction Mantle 500ML 6Hole',
+                id: '4',
+                number: '         KJ-M3-4',
+                selected: false,
+            }, {
+                content: 'Extraction Mantle 1000ML 6Hole',
+                id: '5',
+                number: '         KJ-M3-5',
+                selected: false,
+            }, {
+                content: 'Extraction Mantle 2000ML 6Hole',
+                id: '6',
+                number: '         KJ-M3-6',
+                selected: false,
+            }],
+            title: 'Extraction Mantle',
+            type: 'glass',
+        }, {
+            classify: 'Mantle/Controller/Heating Jacket',
+            id: '256',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F256.jpg?alt=media&token=eaee518d-fd49-45e7-9996-d534d1237c7d',
+            specification: [{
+                content: 'Heating Tape 1M 150W',
+                id: '1',
+                number: 'KJ-M4-1',
+                selected: false,
+            }, {
+                content: 'Heating Tape 1.5M 200W',
+                id: '2',
+                number: '         KJ-M4-2',
+                selected: false,
+            }, {
+                content: 'Heating Tape 2M 250W',
+                id: '3',
+                number: '         KJ-M4-3',
+                selected: false,
+            }, {
+                content: 'Heating Tape 2.5M 300W',
+                id: '4',
+                number: '         KJ-M4-4',
+                selected: false,
+            }, {
+                content: 'Heating Tape 3M 400W',
+                id: '5',
+                number: '         KJ-M4-5',
+                selected: false,
+            }, {
+                content: 'Heating Tape 4M',
+                id: '6',
+                number: 'KJ-M4-6',
+                selected: false,
+            }],
+            title: 'Heating Tape',
+            type: 'glass',
+        }, {
+            classify: 'Mantle/Controller/Heating Jacket',
+            id: '257',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F257.jpg?alt=media&token=c2aa51c8-b644-4ad8-83c6-c1d6755e3beb',
+            specification: [{
+                content: 'Mantle Controller-P',
+                id: '1',
+                number: 'KJ-M5-MC-P',
+                selected: false,
+            }, {
+                content: 'Mantle Controller-S',
+                id: '2',
+                number: 'KJ-M5-MC-S',
+                selected: false,
+            }, {
+                content: 'Mantle Controller-D',
+                id: '3',
+                number: '         KJ-M5-MC-D',
+                selected: false,
+            }, {
+                content: 'Mantle Controller-E',
+                id: '4',
+                number: 'KJ-M5-MC-E',
+                selected: false,
+            }],
+            title: 'Mantle Controller',
+            type: 'glass',
+        }, {
+            classify: 'Mantle/Controller/Heating Jacket',
+            id: '258',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F258.jpg?alt=media&token=2ae7280f-b327-449c-8585-b9d20b754ce9',
+            specification: [{
+                content: 'Heating Jacket',
+                id: '1',
+                number: '         KJ-M6-1',
+                selected: false,
+            }, {
+                content: 'Heating Jacket',
+                id: '2',
+                number: '         KJ-M6-2',
+                selected: false,
+            }, {
+                content: 'Heating Jacket',
+                id: '3',
+                number: '         KJ-M6-3',
+                selected: false,
+            }, {
+                content: 'Heating Jacket',
+                id: '4',
+                number: '         KJ-M6-4',
+                selected: false,
+            }, {
+                content: 'Heating Jacket',
+                id: '5',
+                number: '         KJ-M6-5',
+                selected: false,
+            }, {
+                content: 'Heating Jacket',
+                id: '6',
+                number: 'KJ-M6-6',
+                selected: false,
+            }],
+            title: 'Heating Jacket',
+            type: 'glass',
+        }, {
+            classify: 'Manifolds',
+            id: '259',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F259.jpg?alt=media&token=0f6c4d59-499a-4c47-85e0-7fe168ceb65e',
+            specification: [{
+                content: 'Manifold 2Way-3Cock',
+                id: '1',
+                number: '         KJ-MA1-1',
+                selected: false,
+            }, {
+                content: 'Manifold 2Way-4Cock',
+                id: '2',
+                number: '         KJ-MA1-2',
+                selected: false,
+            }, {
+                content: 'Manifold 2Way-5Cock',
+                id: '3',
+                number: 'KJ-MA1-3',
+                selected: false,
+            }],
+            title: 'Manifold 2Way',
+            type: 'glass',
+        }, {
+            classify: 'Manifolds',
+            id: '260',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F260.jpg?alt=media&token=d529f2e9-1a4b-4fe5-8694-f2ec2ea09e3f',
+            specification: [{
+                content: 'Manifold 2Way-3Cock Between Valves',
+                id: '1',
+                number: '         KJ-MA2-1',
+                selected: false,
+            }, {
+                content: 'Manifold 2Way-4Cock Between Valves',
+                id: '2',
+                number: '         KJ-MA2-2',
+                selected: false,
+            }, {
+                content: 'Manifold 2Way-5Cock Between Valves',
+                id: '3',
+                number: '         KJ-MA2-3',
+                selected: false,
+            }],
+            title: 'Manifold 2Way',
+            type: 'glass',
+        }, {
+            classify: 'Manifolds',
+            id: '261',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F261.jpg?alt=media&token=c2e665bf-54b4-4418-86be-e7436c2f9b5a',
+            specification: [{
+                content: 'Manifold 14/20',
+                id: '1',
+                number: '         KJ-MA3-1',
+                selected: false,
+            }, {
+                content: 'Manifold 24/40',
+                id: '2',
+                number: 'KJ-MA3-2',
+                selected: false,
+            }],
+            title: 'Manifold',
+            type: 'glass',
+        }, {
+            classify: 'Manifolds',
+            id: '262',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F262.jpg?alt=media&token=09ca4e71-738e-42cf-b1f6-70dfafa51f5d',
+            specification: [{
+                content: 'Manifold 1Way-3Cock',
+                id: '1',
+                number: '         KJ-MA4-1',
+                selected: false,
+            }, {
+                content: 'Manifold 1Way-4Cock',
+                id: '2',
+                number: 'KJ-MA4-2',
+                selected: false,
+            }, {
+                content: 'Manifold 1Way-5Cock',
+                id: '3',
+                number: 'KJ-MA4-3',
+                selected: false,
+            }, {
+                content: 'Manifold 1Way-6Cock',
+                id: '4',
+                number: '         KJ-MA4-4',
+                selected: false,
+            }],
+            title: 'Manifold 1Way',
+            type: 'glass',
+        }, {
+            classify: 'Manifold',
+            id: '263',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F263.jpg?alt=media&token=874e5804-d56f-4ba7-b309-2443fde953bb',
+            title: 'Manifold',
+            type: 'glass',
+        }, {
+            classify: 'Pipet',
+            id: '264',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F264.jpg?alt=media&token=1829a9b4-1012-4cd1-81e2-52b605eb14ce',
+            specification: [{
+                content: 'Pipet Serologlcal 0.1ML (WITEG)',
+                id: '1',
+                number: '         KJ-P1-1',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 0.2ML (WITEG)',
+                id: '2',
+                number: '         KJ-P1-2',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 0.5ML (WITEG)',
+                id: '3',
+                number: '         KJ-P1-3',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 1ML (WITEG)',
+                id: '4',
+                number: '         KJ-P1-4',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 2ML (WITEG)',
+                id: '5',
+                number: '         KJ-P1-5',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 5ML (WITEG)',
+                id: '6',
+                number: '         KJ-P1-6',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 10ML (WITEG)',
+                id: '7',
+                number: '         KJ-P1-7',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 25ML (WITEG)',
+                id: '8',
+                number: '         KJ-P1-8',
+                selected: false,
+            }, {
+                content: 'Pipet Serologlcal 20ML (WITEG)',
+                id: '9',
+                number: 'KJ-P1-9',
+                selected: false,
+            }],
+            title: 'Pipet Serologlcal',
+            type: 'glass',
+        }, {
+            classify: 'Pipet',
+            id: '265',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F265.jpg?alt=media&token=190a71db-519a-46ed-970b-9ad5aa739ceb',
+            specification: [{
+                content: 'Pipet Measuring Mohr Type 0.5ML (WITEG)',
+                id: '1',
+                number: '         KJ-P2-3',
+                selected: false,
+            }, {
+                content: 'Pipet Measuring Mohr Type 1ML (WITEG)',
+                id: '2',
+                number: '         KJ-P2-4',
+                selected: false,
+            }, {
+                content: 'Pipet Measuring Mohr Type 2ML (WITEG)',
+                id: '3',
+                number: '         KJ-P2-5',
+                selected: false,
+            }, {
+                content: 'Pipet Measuring Mohr Type 5ML (WITEG)',
+                id: '4',
+                number: '         KJ-P2-6',
+                selected: false,
+            }, {
+                content: 'Pipet Measuring Mohr Type 10ML (WITEG)',
+                id: '5',
+                number: '         KJ-P2-7',
+                selected: false,
+            }, {
+                content: 'Pipet Measuring Mohr Type 25ML (WITEG)',
+                id: '6',
+                number: '         KJ-P2-8',
+                selected: false,
+            }],
+            title: 'Pipet Measuring',
+            type: 'glass',
+        }, {
+            classify: 'Pipet',
+            id: '266',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F266.jpg?alt=media&token=aab12161-214d-4fea-9c42-e348563cf55a',
+            specification: [{
+                content: 'Pipet Transfer Type 1ML (WITEG)',
+                id: '1',
+                number: '         KJ-P3-1',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 2ML (WITEG)',
+                id: '2',
+                number: '         KJ-P3-2',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 3ML (WITEG)',
+                id: '3',
+                number: '         KJ-P3-3',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 5ML (WITEG)',
+                id: '4',
+                number: '         KJ-P3-4',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 10ML (WITEG)',
+                id: '5',
+                number: '         KJ-P3-5',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 15ML (WITEG)',
+                id: '6',
+                number: 'KJ-P3-6',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 20ML (WITEG)',
+                id: '7',
+                number: '         KJ-P3-7',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 25ML (WITEG)',
+                id: '8',
+                number: '         KJ-P3-8',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 50ML (WITEG)',
+                id: '9',
+                number: '         KJ-P3-9',
+                selected: false,
+            }, {
+                content: 'Pipet Transfer Type 100ML (WITEG)',
+                id: '10',
+                number: '         KJ-P3-10',
+                selected: false,
+            }],
+            title: 'Pipet Transfer Type',
+            type: 'glass',
+        }, {
+            classify: 'Reaction',
+            id: '267',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F267.jpg?alt=media&token=379711bf-18c4-4dd8-91d7-58620f9fba94',
+            specification: [{
+                content: 'Reaction Vessel,Photochemical,Borosilicate60/40,24/40',
+                id: '1',
+                number: '         KJ-PR1-1',
+                selected: false,
+            }, {
+                content: 'Reaction Vessel,Photochemical,Borosilicate60/40,14/20',
+                id: '2',
+                number: 'KJ-PR1-2',
+                selected: false,
+            }],
+            title: 'Reactor Vessel,Photochemical',
+            type: 'glass',
+        }, {
+            classify: 'Reaction',
+            id: '268',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F268.jpg?alt=media&token=37d5e486-39dd-4140-8682-9e67a8cd172e',
+            specification: [{
+                content: 'Immersion Well,Phptochemical,Borosilicate 60/40,220mm',
+                id: '1',
+                number: 'KJ-PR2-1',
+                selected: false,
+            }, {
+                content: 'Immersion Well,Phptochemical,Borosilicate 60/40,290mm',
+                id: '2',
+                number: 'KJ-PR2-2',
+                selected: false,
+            }],
+            title: 'Reactor Vessel,Immersion Well,Photochemical',
+            type: 'glass',
+        }, {
+            classify: 'Stirrers',
+            id: '269',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F269.jpg?alt=media&token=7512b820-a8da-48b0-a97a-a9a7c26cc3e2',
+            specification: [{
+                content: 'Stirrer Assembly PTFE BLADE 14/20 Flask 100ML',
+                id: '1',
+                number: 'KJ-S1-1',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 14/20 Flask 250ML',
+                id: '2',
+                number: 'KJ-S1-2',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 24/40 Flask 500ML',
+                id: '3',
+                number: 'KJ-S1-3',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 24/40 Flask 1000ML',
+                id: '4',
+                number: '         KJ-S1-4',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 24/40 Flask 2000ML',
+                id: '5',
+                number: 'KJ-S1-5',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 34/45 Flask 3000ML',
+                id: '6',
+                number: 'KJ-S1-6',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 34/45 Flask 5000ML',
+                id: '7',
+                number: 'KJ-S1-7',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 45/50 Flask 10000ML',
+                id: '8',
+                number: '         KJ-S1-8',
+                selected: false,
+            }],
+            title: 'Glass Shaft &amp; Bearing',
+            type: 'glass',
+        }, {
+            classify: 'Stirrers',
+            id: '270',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F270.jpg?alt=media&token=1a53d962-8171-4970-b86c-35747caa774f',
+            specification: [{
+                content: 'Stirrer Assembly PTFE BLADE 14/20 Flask 100ML',
+                id: '1',
+                number: '         KJ-S2-1',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 14/20 Flask 250ML',
+                id: '2',
+                number: 'KJ-S2-2',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 24/40 Flask 500ML',
+                id: '3',
+                number: 'KJ-S2-3',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 24/40 Flask 1000ML',
+                id: '4',
+                number: 'KJ-S2-4',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 24/40 Flask 2000MLc',
+                id: '5',
+                number: 'KJ-S2-5',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 34/45 Flask 5000MLStirrer Assembly PTFE BLADE 34/45 Flask 5000ML',
+                id: '6',
+                number: '         KJ-S2-6',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 34/45 Flask 5000ML',
+                id: '7',
+                number: 'KJ-S2-7',
+                selected: false,
+            }, {
+                content: 'Stirrer Assembly PTFE BLADE 45/50 Flask 10000ML',
+                id: '8',
+                number: '         KJ-S2-8',
+                selected: false,
+            }],
+            title: 'Glass Shaft &amp; Water Cooled Bearing',
+            type: 'glass',
+        }, {
+            classify: 'Stirrers',
+            id: '271',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F271.jpg?alt=media&token=7e562232-bdf6-4bab-9616-bc0fabc7b9bc',
+            specification: [{
+                content: 'Stirrer Assembly,Vacuum Threaded 24/40',
+                id: '1',
+                number: '         KJ-S3',
+                selected: false,
+            }],
+            title: 'Stirrer Assembly,Vacuum Threaded',
+            type: 'glass',
+        }, {
+            classify: 'Stirrers',
+            id: '272',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F272.jpg?alt=media&token=6262a6b1-cb79-4f15-a888-a22fd0652b13',
+            specification: [{
+                content: 'Stirrer Assembly,Teflon Bearing 24/40',
+                id: '1',
+                number: 'KJ-S4',
+                selected: false,
+            }],
+            title: 'Stirrer Assembly,Teflon Bearing',
+            type: 'glass',
+        }, {
+            classify: 'Stirring Motors',
+            id: '273',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F273.jpg?alt=media&token=edbe2b3b-3c68-4030-9663-033231459eeb',
+            specification: [{
+                content: 'Stirring Motors',
+                id: '1',
+                number: '         KJ-SSM20D',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '2',
+                number: 'KJ-SSM20',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '3',
+                number: '         KJ-SM20',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '4',
+                number: '         KJ-SSM11D',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '5',
+                number: 'KJ-SSM11',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '6',
+                number: 'KJ-SM10',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '7',
+                number: 'KJ-SM11',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '8',
+                number: 'KJ-SM41',
+                selected: false,
+            }, {
+                content: 'Stirring Motors (Stirrer Accessary)',
+                id: '9',
+                number: 'KJ-SBC',
+                selected: false,
+            }, {
+                content: 'Stirring Motors',
+                id: '10',
+                number: 'KJ-SMM10',
+                selected: false,
+            }],
+            title: 'Stirring Motors',
+            type: 'glass',
+        }, {
+            classify: 'Stopper',
+            id: '274',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F274.jpg?alt=media&token=e7845a75-9995-4cc2-adb8-bebd8e4aa728',
+            specification: [{
+                content: '  Stopper 14/20',
+                id: '1',
+                number: '         KJ-ST1-1',
+                selected: false,
+            }, {
+                content: 'Stopper 24/40',
+                id: '2',
+                number: '         KJ-ST1-2',
+                selected: false,
+            }, {
+                content: 'Stopper 29/32',
+                id: '3',
+                number: 'KJ-ST1-3',
+                selected: false,
+            }, {
+                content: 'Stopper 34/45',
+                id: '4',
+                number: 'KJ-ST1-4',
+                selected: false,
+            }, {
+                content: 'Stopper 19/22',
+                id: '5',
+                number: 'KJ-ST1-5',
+                selected: false,
+            }, {
+                content: 'Stopper 45/50',
+                id: '6',
+                number: '         KJ-ST1-6',
+                selected: false,
+            }, {
+                content: 'Stopper 50/42',
+                id: '7',
+                number: '         KJ-ST1-7',
+                selected: false,
+            }, {
+                content: 'Stopper 10/20',
+                id: '8',
+                number: '         KJ-ST1-8',
+                selected: false,
+            }],
+            title: 'Stopper',
+            type: 'glass',
+        }, {
+            classify: 'Stopper',
+            id: '275',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F275.jpg?alt=media&token=02dd7e0f-9799-42d5-9c24-1b30df62191d',
+            specification: [{
+                content: 'Stopper,Cap Type 14/20',
+                id: '1',
+                number: 'KJ-ST2-1',
+                selected: false,
+            }, {
+                content: 'Stopper,Cap Type 24/40',
+                id: '2',
+                number: '         KJ-ST2-2',
+                selected: false,
+            }, {
+                content: 'Stopper,Cap Type 29/32',
+                id: '3',
+                number: 'KJ-ST2-3',
+                selected: false,
+            }, {
+                content: 'Stopper,Cap Type 34/45',
+                id: '4',
+                number: 'KJ-ST2-4',
+                selected: false,
+            }, {
+                content: 'Stopper,Cap Type 19/22',
+                id: '5',
+                number: '         KJ-ST2-5',
+                selected: false,
+            }, {
+                content: 'Stopper,Cap Type 45/50',
+                id: '6',
+                number: 'KJ-ST2-6',
+                selected: false,
+            }, {
+                content: 'Stopper,Cap Type 50/42',
+                id: '7',
+                number: 'KJ-ST2-7',
+                selected: false,
+            }, {
+                content: 'Stopper,Cap Type 10/20',
+                id: '8',
+                number: '         KJ-ST2-8',
+                selected: false,
+            }],
+            title: 'Stopper Cap Type',
+            type: 'glass',
+        }, {
+            classify: 'Stopcock',
+            id: '276',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F276.jpg?alt=media&token=46a1147e-be3e-4a5a-b7a4-597190cd030c',
+            specification: [{
+                content: 'StopCock,T-Bore,T/C 90 1.6mm (Duran)',
+                id: '1',
+                number: 'KJ-STO1-1',
+                selected: false,
+            }, {
+                content: 'StopCock,T-Bore,T/C 90 2.5mm (Duran)',
+                id: '2',
+                number: '         KJ-STO1-2',
+                selected: false,
+            }, {
+                content: 'StopCock,T-Bore,T/C 90 4mm (Duran)',
+                id: '3',
+                number: '         KJ-STO1-3',
+                selected: false,
+            }, {
+                content: 'StopCock,T-Bore,T/C 90 6.3mm (Duran)',
+                id: '4',
+                number: 'KJ-STO1-4',
+                selected: false,
+            }, {
+                content: 'StopCock,T-Bore,G/C 90 1.6mm (Duran)',
+                id: '5',
+                number: '         KJ-STO1-5',
+                selected: false,
+            }, {
+                content: 'StopCock,T-Bore,G/C 90 2.5mm (Duran)',
+                id: '6',
+                number: 'KJ-STO1-6',
+                selected: false,
+            }, {
+                content: 'StopCock,T-Bore,G/C 90 4mm (Duran)',
+                id: '7',
+                number: '         KJ-STO1-7',
+                selected: false,
+            }, {
+                content: 'StopCock,T-Bore,G/C 90 6.3mm (Duran)',
+                id: '8',
+                number: 'KJ-STO1-8',
+                selected: false,
+            }],
+            title: 'StopCock,T-Bore',
+            type: 'glass',
+        }, {
+            classify: 'Stopcock',
+            id: '277',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F277.jpg?alt=media&token=88bc6948-5aea-47a0-bd33-586c367fab97',
+            specification: [{
+                content: 'StopCock 2mm (Duran)',
+                id: '1',
+                number: '         KJ-STO2-1',
+                selected: false,
+            }, {
+                content: 'StopCock 4mm (Duran)',
+                id: '2',
+                number: '         KJ-STO2-2',
+                selected: false,
+            }, {
+                content: 'StopCock 6mm (Duran)',
+                id: '3',
+                number: 'KJ-STO2-3',
+                selected: false,
+            }, {
+                content: 'StopCock 6mm (Duran)',
+                id: '4',
+                number: 'KJ-STO2-3',
+                selected: false,
+            }, {
+                content: 'One-Way 4mm',
+                id: '5',
+                number: 'KJ-STO2JY-A4',
+                selected: false,
+            }, {
+                content: 'One-Way 6mm',
+                id: '6',
+                number: '         KJ-STO2JY-A6',
+                selected: false,
+            }, {
+                content: 'One-Way 8mm',
+                id: '7',
+                number: 'KJ-STO2JY-A8',
+                selected: false,
+            }, {
+                content: 'One-Way 10mm',
+                id: '8',
+                number: '         KJ-STO2JY-A10',
+                selected: false,
+            }, {
+                content: 'Right Angle 4mm',
+                id: '9',
+                number: '         KJ-STO2JY-B4',
+                selected: false,
+            }, {
+                content: 'Right Angle 6mm',
+                id: '10',
+                number: 'KJ-STO2JY-B6',
+                selected: false,
+            }, {
+                content: 'Right Angle 8mm',
+                id: '11',
+                number: '         KJ-STO2JY-B8',
+                selected: false,
+            }, {
+                content: 'Right Angle 10mm',
+                id: '12',
+                number: 'KJ-STO2JY-B10',
+                selected: false,
+            }, {
+                content: 'One-Way 4mm',
+                id: '13',
+                number: 'KJ-STO2KO-A4',
+                selected: false,
+            }, {
+                content: 'One-Way 8mm',
+                id: '14',
+                number: 'KJ-STO2KO-A8',
+                selected: false,
+            }, {
+                content: 'One-Way 10mm',
+                id: '15',
+                number: '         KJ-STO2KO-A12',
+                selected: false,
+            }, {
+                content: 'Right Angle 4mm',
+                id: '16',
+                number: 'KJ-STO2KO-B4',
+                selected: false,
+            }, {
+                content: 'Right Angle 8mm',
+                id: '17',
+                number: '         KJ-STO2KO-B8',
+                selected: false,
+            }, {
+                content: 'Right Angle 10mm',
+                id: '18',
+                number: '         KJ-STO2KO-B12',
+                selected: false,
+            }],
+            title: 'StopCock Screw Valve',
+            type: 'glass',
+        }, {
+            classify: 'Stopcock',
+            id: '278',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F278.jpg?alt=media&token=5715fa43-7cd9-4f2b-94de-df60c2dd9abb',
+            specification: [{
+                content: 'StopCock 2Way T/C 1.6mm (Duran)',
+                id: '1',
+                number: '         KJ-STO3-1',
+                selected: false,
+            }, {
+                content: 'StopCock 2Way T/C 2.5mm (Duran)',
+                id: '2',
+                number: '         KJ-STO3-2',
+                selected: false,
+            }, {
+                content: 'StopCock 2Way T/C 4mm (Duran)',
+                id: '3',
+                number: '         KJ-STO3-3',
+                selected: false,
+            }, {
+                content: 'StopCock 2Way T/C 6.3mm (Duran)',
+                id: '4',
+                number: '         KJ-STO3-4',
+                selected: false,
+            }, {
+                content: 'StopCock 2Way G/C 1.6mm (Duran)',
+                id: '5',
+                number: 'KJ-STO3-5',
+                selected: false,
+            }, {
+                content: 'StopCock 2Way G/C 2.5mm (Duran)',
+                id: '6',
+                number: 'KJ-STO3-6',
+                selected: false,
+            }, {
+                content: 'StopCock 2Way G/C 4mm (Duran)',
+                id: '7',
+                number: '         KJ-STO3-7',
+                selected: false,
+            }, {
+                content: 'StopCock 2Way G/C 6.3mm (Duran)',
+                id: '8',
+                number: 'KJ-STO3-8',
+                selected: false,
+            }],
+            title: 'StopCock 2Way',
+            type: 'glass',
+        }, {
+            classify: 'Stopcock',
+            id: '279',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F279.jpg?alt=media&token=c4575fe6-dd81-4c97-8722-fecd11e5c535',
+            specification: [{
+                content: 'Valve Double 4mm (Duran)',
+                id: '1',
+                number: '         KJ-STO4-1',
+                selected: false,
+            }],
+            title: 'Valve Double Check',
+            type: 'glass',
+        }, {
+            classify: 'Stopcock',
+            id: '280',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F280.jpg?alt=media&token=a95f453b-d6a8-4c7e-8744-ebbe4175fe2b',
+            specification: [{
+                content: 'StopCock Double G/C 2.5mm (Duran)',
+                id: '1',
+                number: '         KJ-STO5-1',
+                selected: false,
+            }, {
+                content: 'StopCock Double G/C 4mm (Duran)',
+                id: '2',
+                number: '         KJ-STO5-2',
+                selected: false,
+            }, {
+                content: 'StopCock Double T/C 2.5mm (Duran)',
+                id: '3',
+                number: '         KJ-STO5-3',
+                selected: false,
+            }, {
+                content: 'StopCock Double T/C 4mm (Duran)',
+                id: '4',
+                number: '         KJ-STO5-4',
+                selected: false,
+            }],
+            title: 'StopCock Double',
+            type: 'glass',
+        }, {
+            classify: 'Stopcock',
+            id: '281',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F281.jpg?alt=media&token=c9997776-7374-4ac5-b321-b97c111218ea',
+            specification: [{
+                content: 'Stopcock High Vacuum G/C 2mm (Duran)',
+                id: '1',
+                number: '         KJ-STO6-1',
+                selected: false,
+            }, {
+                content: 'Stopcock High Vacuum G/C 4mm (Duran)',
+                id: '2',
+                number: '         KJ-STO6-2',
+                selected: false,
+            }, {
+                content: 'Stopcock High Vacuum G/C 6mm (Duran)',
+                id: '3',
+                number: '         KJ-STO6-3',
+                selected: false,
+            }],
+            title: 'Stopcock High Vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Sublimators',
+            id: '282',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F282.jpg?alt=media&token=24ff4858-9fe8-40f7-8eb2-008322d4d1b7',
+            specification: [{
+                content: 'Sublimator 50*70mm 24/40 PTEF Screw',
+                id: '1',
+                number: '         KJ-SU1-1',
+                selected: false,
+            }, {
+                content: 'Sublimator 50*70mm 24/40 G/C',
+                id: '2',
+                number: '         KJ-SU1-2',
+                selected: false,
+            }, {
+                content: 'Sublimator Clamp 75 (국산)',
+                id: '3',
+                number: 'KJ-SU1-3',
+                selected: false,
+            }],
+            title: 'Sublimator',
+            type: 'glass',
+        }, {
+            classify: 'Sublimators',
+            id: '283',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F283.jpg?alt=media&token=befae622-4945-4ae8-a13b-30ab0bb2246b',
+            specification: [{
+                content: 'Sublimator 50*105mm PTEF Screw',
+                id: '1',
+                number: '         KJ-SU2-1',
+                selected: false,
+            }, {
+                content: 'Sublimator 50*105mm G/C Vacuum',
+                id: '2',
+                number: 'KJ-SU2-2',
+                selected: false,
+            }, {
+                content: 'Sublimator Clamp 75 (국산)',
+                id: '3',
+                number: '         KJ-SU2-3',
+                selected: false,
+            }, {
+                content: 'Sublimator 105*200mm PTEF Screw',
+                id: '4',
+                number: '         KJ-SU2-4',
+                selected: false,
+            }, {
+                content: 'Sublimator 105*200mm G/C Vacuum',
+                id: '5',
+                number: 'KJ-SU2-5',
+                selected: false,
+            }, {
+                content: 'Sublimator Clamp 100',
+                id: '6',
+                number: '         KJ-SU2-6',
+                selected: false,
+            }],
+            title: 'Sublimator',
+            type: 'glass',
+        }, {
+            classify: 'Sublimators',
+            id: '284',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F284.jpg?alt=media&token=eb91f277-d583-4d85-ae04-4c381f5a3ad9',
+            specification: [{
+                content: 'Sublimator Clamp',
+                id: '1',
+                number: 'KJ-SU3-1',
+                selected: false,
+            }],
+            title: 'Sublimator Clamp',
+            type: 'glass',
+        }, {
+            classify: 'Sublimators',
+            id: '285',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F285.jpg?alt=media&token=d2fd36fd-1faa-488f-a2ff-bb528ba3161a',
+            specification: [{
+                content: 'Sublimator Adapter 24/40',
+                id: '1',
+                number: '         KJ-SU4',
+                selected: false,
+            }],
+            title: 'Sublimator Adapter',
+            type: 'glass',
+        }, {
+            classify: 'Thermometers',
+            id: '286',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F286.jpg?alt=media&token=67d98868-b3e2-43aa-b88b-aa00c61f0054',
+            specification: [{
+                content: 'Thermometer 10/20 30mm',
+                id: '1',
+                number: '         KJ-T1-1',
+                selected: false,
+            }, {
+                content: 'Thermometer 10/20 60mm',
+                id: '2',
+                number: '         KJ-T1-2',
+                selected: false,
+            }, {
+                content: 'Thermometer 10/30 30mm',
+                id: '3',
+                number: '         KJ-T1-3',
+                selected: false,
+            }, {
+                content: 'Thermometer 10/30 60mm',
+                id: '4',
+                number: 'KJ-T1-4',
+                selected: false,
+            }],
+            title: 'Thermometer Joint',
+            type: 'glass',
+        }, {
+            classify: 'Thermometers',
+            id: '287',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F287.jpg?alt=media&token=746ac75d-e379-434f-a845-cdc874c0657c',
+            specification: [{
+                content: 'Thermometer -30~50 L:300 수은',
+                id: '1',
+                number: '         KJ-T2-1',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~100 L:300 수은',
+                id: '2',
+                number: '         KJ-T2-2',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~150 L:300 수은',
+                id: '3',
+                number: '         KJ-T2-3',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~200 L:300 수은',
+                id: '4',
+                number: '         KJ-T2-4',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~250 L:300 수은',
+                id: '5',
+                number: '         KJ-T2-5',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~300 L:300 수은',
+                id: '6',
+                number: '         KJ-T2-6',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~360 L:300 수은',
+                id: '7',
+                number: '         KJ-T2-7',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~400 L:400 수은',
+                id: '8',
+                number: 'KJ-T2-8',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~500 L:450 수은',
+                id: '9',
+                number: '         KJ-T2-9',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~500 L:300 수은',
+                id: '10',
+                number: 'KJ-T2-10',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~600 L:450 수은',
+                id: '11',
+                number: '         KJ-T2-11',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~600 L:300 수은',
+                id: '12',
+                number: '         KJ-T2-12',
+                selected: false,
+            }, {
+                content: 'Thermometer -5 ~ +50 L:300 수은',
+                id: '13',
+                number: '         KJ-T2-13',
+                selected: false,
+            }, {
+                content: 'Thermometer -10~110 L:300 알코올',
+                id: '14',
+                number: '         KJ-T2-21',
+                selected: false,
+            }, {
+                content: 'Thermometer -30~100 L:300 알코올',
+                id: '15',
+                number: '         KJ-T2-22',
+                selected: false,
+            }, {
+                content: 'Thermometer -20~120 L:300 알코올',
+                id: '16',
+                number: '         KJ-T2-23',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~150 L:300 알코올',
+                id: '17',
+                number: '         KJ-T2-24',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~200 L:300 알코올',
+                id: '18',
+                number: '         KJ-T2-25',
+                selected: false,
+            }, {
+                content: 'Thermometer -10~50 L:300 알코올',
+                id: '19',
+                number: 'KJ-T2-26',
+                selected: false,
+            }, {
+                content: 'Thermometer -30~50 L:300 알코올',
+                id: '20',
+                number: '         KJ-T2-27',
+                selected: false,
+            }, {
+                content: 'Thermometer -30~150 L:300 알코올',
+                id: '21',
+                number: 'KJ-T2-28',
+                selected: false,
+            }, {
+                content: 'Thermometer -30~200 L:300 알코올',
+                id: '22',
+                number: '         KJ-T2-29',
+                selected: false,
+            }, {
+                content: 'Thermometer -50~100 L:300 알코올',
+                id: '23',
+                number: 'KJ-T2-30',
+                selected: false,
+            }, {
+                content: 'Thermometer -100~50 L:300 알코올',
+                id: '24',
+                number: 'KJ-T2-31',
+                selected: false,
+            }, {
+                content: 'Thermometer -80~20 L:300 알코올',
+                id: '25',
+                number: '         KJ-T2-32',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~50 L:150 알코올',
+                id: '26',
+                number: 'KJ-T2-33',
+                selected: false,
+            }, {
+                content: 'Thermometer 0~100 L:150 알코올',
+                id: '27',
+                number: '         KJ-T2-34',
+                selected: false,
+            }],
+            title: 'Thermometer',
+            type: 'glass',
+        }, {
+            classify: 'Traps',
+            id: '288',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F288.jpg?alt=media&token=1b1b8f51-90ce-4046-97ca-8fe6ba3a67cb',
+            specification: [{
+                content: 'Trap Distilling 14/20-100ML-14/20',
+                id: '1',
+                number: 'KJ-TR1-1',
+                selected: false,
+            }, {
+                content: 'Trap Distilling 24/40-100ML-14/20',
+                id: '2',
+                number: '         KJ-TR1-2',
+                selected: false,
+            }, {
+                content: 'Trap Distilling 24/40-100ML-24/40',
+                id: '3',
+                number: 'KJ-TR1-3',
+                selected: false,
+            }, {
+                content: 'Trap Distilling 24/40-250ML-14/20',
+                id: '4',
+                number: 'KJ-TR1-4',
+                selected: false,
+            }, {
+                content: 'Trap Distilling 24/40-250ML-24/40',
+                id: '5',
+                number: 'KJ-TR1-5',
+                selected: false,
+            }, {
+                content: 'Trap Distilling 29/32-100ML-14/20',
+                id: '6',
+                number: '         KJ-TR1-6',
+                selected: false,
+            }, {
+                content: 'Trap Distilling 29/32-250ML-24/40',
+                id: '7',
+                number: '         KJ-TR1-7',
+                selected: false,
+            }],
+            title: 'Trap Distilling',
+            type: 'glass',
+        }, {
+            classify: 'Traps',
+            id: '289',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F289.jpg?alt=media&token=dc79326b-5f5c-40d8-9bfe-b8b089faa97c',
+            specification: [{
+                content: 'Trap Rotary 24/40-100ML-14/20',
+                id: '1',
+                number: 'KJ-TR2-1',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 24/40-250ML-24/40',
+                id: '2',
+                number: '         KJ-TR2-2',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 29/32-250ML-24/40',
+                id: '3',
+                number: 'KJ-TR2-3',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 24/40-250ML-14/20',
+                id: '4',
+                number: '         KJ-TR2-4',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 29/32-100ML-14/20',
+                id: '5',
+                number: '         KJ-TR2-5',
+                selected: false,
+            }],
+            title: 'Trap Rotary',
+            type: 'glass',
+        }, {
+            classify: 'Traps',
+            id: '290',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F290.jpg?alt=media&token=905d7430-8ceb-44c7-b283-ebe351908e7e',
+            specification: [{
+                content: 'Trap Rotary 24/40-100ML-14/20',
+                id: '1',
+                number: 'KJ-TR3-1',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 24/40-250ML-24/40',
+                id: '2',
+                number: 'KJ-TR3-2',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 29/32-250ML-24/40',
+                id: '3',
+                number: '         KJ-TR3-3',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 24/40-250ML-14/20',
+                id: '4',
+                number: '         KJ-TR3-4',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 29/32-100ML-14/20',
+                id: '5',
+                number: '         KJ-TR3-5',
+                selected: false,
+            }],
+            title: 'Trap Rotary',
+            type: 'glass',
+        }, {
+            classify: 'Traps',
+            id: '291',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F291.jpg?alt=media&token=51361129-f4cf-4d84-b705-8a16e2593851',
+            specification: [{
+                content: 'Trap Rotary 24/40-100ML-14/20',
+                id: '1',
+                number: 'KJ-TR4-1',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 24/40-250ML-24/40',
+                id: '2',
+                number: 'KJ-TR4-2',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 29/32-250ML-24/40',
+                id: '3',
+                number: '         KJ-TR4-3',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 24/40-250ML-14/20',
+                id: '4',
+                number: '         KJ-TR4-4',
+                selected: false,
+            }, {
+                content: 'Trap Rotary 29/32-100ML-14/20',
+                id: '5',
+                number: '         KJ-TR4-5',
+                selected: false,
+            }],
+            title: 'Trap Rotary',
+            type: 'glass',
+        }, {
+            classify: 'Traps',
+            id: '292',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F292.jpg?alt=media&token=ffd6c269-e09f-43c2-9981-aa2a8b92b6f6',
+            specification: [{
+                content: 'Trap NAOH 34/45',
+                id: '1',
+                number: '         KJ-TR5-1',
+                selected: false,
+            }, {
+                content: 'Trap NAOH 45/50',
+                id: '2',
+                number: 'KJ-TR5-2',
+                selected: false,
+            }, {
+                content: 'Trap NAOH 24/40',
+                id: '3',
+                number: 'KJ-TR5-3',
+                selected: false,
+            }],
+            title: 'Trap NAOH',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '293',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F293.jpg?alt=media&token=a2fac7bc-74d5-4f73-bef5-59f745116a32',
+            specification: [{
+                content: 'Tube Centrifuge 3ML 14/20',
+                id: '1',
+                number: '         KJ-TU1-1',
+                selected: false,
+            }, {
+                content: 'Tube Centrifuge 5ML 14/20',
+                id: '2',
+                number: 'KJ-TU1-2',
+                selected: false,
+            }, {
+                content: 'Tube Centrifuge 15ML 14/20',
+                id: '3',
+                number: '         KJ-TU1-3',
+                selected: false,
+            }, {
+                content: 'Tube Centrifuge 50ML 24/40',
+                id: '4',
+                number: '         KJ-TU1-4',
+                selected: false,
+            }],
+            title: 'Tube Centrifuge',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '294',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F294.jpg?alt=media&token=6eca4564-d90e-460e-b495-f0a91a294af6',
+            specification: [{
+                content: 'Tube Centrifuge 130*170m/m GL18',
+                id: '1',
+                number: '         KJ-TU2-1',
+                selected: false,
+            }, {
+                content: 'Tube Centrifuge 158*28m/m GL32',
+                id: '2',
+                number: '         KJ-TU2-2',
+                selected: false,
+            }],
+            title: 'Tube Centrifuge',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '295',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F295.jpg?alt=media&token=94efba5a-a359-4c0c-95aa-f242dd3639fb',
+            specification: [{
+                content: 'Tube Drying 14/20',
+                id: '1',
+                number: '         KJ-TU3-1',
+                selected: false,
+            }, {
+                content: 'Tube Drying 24/40',
+                id: '2',
+                number: '         KJ-TU3-2',
+                selected: false,
+            }],
+            title: 'Tube Drying',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '296',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F296.jpg?alt=media&token=1617f504-b32d-4d3c-b854-790500100835',
+            specification: [{
+                content: 'Tube Drying 14/20',
+                id: '1',
+                number: 'KJ-TU4-1',
+                selected: false,
+            }, {
+                content: 'Tube Drying 24/40',
+                id: '2',
+                number: 'KJ-TU4-2',
+                selected: false,
+            }],
+            title: 'Tube Drying',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '297',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F297.jpg?alt=media&token=8eb15aa3-fb8c-4c59-8226-a5211698d51e',
+            specification: [{
+                content: 'Tube Drying 14/20',
+                id: '1',
+                number: '         KJ-TU5-1',
+                selected: false,
+            }, {
+                content: 'Tube Drying 24/40',
+                id: '2',
+                number: 'KJ-TU5-2',
+                selected: false,
+            }],
+            title: 'Tube Drying',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '298',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F298.jpg?alt=media&token=d3596aa8-3d19-44cd-8410-ab5aa5e5bdad',
+            specification: [{
+                content: 'Tube Drying 24/40',
+                id: '1',
+                number: '         KJ-TU6-2',
+                selected: false,
+            }],
+            title: 'Tube Drying',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '299',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F299.jpg?alt=media&token=0854d944-1709-411a-9d16-79a14ef69559',
+            specification: [{
+                content: 'Tube Drying 14/20',
+                id: '1',
+                number: '         KJ-TU7-1',
+                selected: false,
+            }, {
+                content: 'Tube Drying 24/40',
+                id: '2',
+                number: '         KJ-TU7-2',
+                selected: false,
+            }],
+            title: 'Tube Drying',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '300',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F300.jpg?alt=media&token=acd2d2ec-ac0e-4326-8f91-4842ac8e1104',
+            specification: [{
+                content: 'Tube Fritted Conical Sealing 30mm C.M.F',
+                id: '1',
+                number: 'KJ-TU8-1',
+                selected: false,
+            }, {
+                content: 'Tube Fritted Conical Sealing 40mm C.M.F',
+                id: '2',
+                number: '         KJ-TU8-2',
+                selected: false,
+            }],
+            title: 'Tube Fritted Conical Sealing',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '301',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F301.jpg?alt=media&token=e82323ca-a6a5-44b0-9f0e-af0128e8c5ae',
+            specification: [{
+                content: 'Tube Schlenk 25ML',
+                id: '1',
+                number: '         KJ-TU9-1',
+                selected: false,
+            }, {
+                content: 'Tube Schlenk 50ML',
+                id: '2',
+                number: '         KJ-TU9-2',
+                selected: false,
+            }, {
+                content: 'Tube Schlenk 100ML',
+                id: '3',
+                number: '         KJ-TU9-3',
+                selected: false,
+            }, {
+                content: 'Tube Schlenk 350ML',
+                id: '4',
+                number: '         KJ-TU9-4',
+                selected: false,
+            }],
+            title: 'Flask Storage,Schlenk Tube',
+            type: 'glass',
+        }, {
+            classify: 'Tubes',
+            id: '302',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F302.jpg?alt=media&token=16904397-9f60-44ca-95fd-a5a64f2b7e49',
+            specification: [{
+                content: 'NMR-Tube Cleaner 24/40 5mm',
+                id: '1',
+                number: 'KJ-TU10-1',
+                selected: false,
+            }, {
+                content: 'NMR-Tube Cleaner 24/40 10mm',
+                id: '2',
+                number: 'KJ-TU10-2',
+                selected: false,
+            }],
+            title: 'NMR-Tube Cleaner',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '303',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F303.jpg?alt=media&token=2bfb3a3a-7401-44a8-bc58-1acd3e9e0e2e',
+            specification: [{
+                content: 'Adapter Vacuum 14/20',
+                id: '1',
+                number: 'KJ-A41-1',
+                selected: false,
+            }, {
+                content: 'apter Vacuum 24/40',
+                id: '2',
+                number: '         KJ-A41-2',
+                selected: false,
+            }, {
+                content: 'Adapter Vacuum 34/45',
+                id: '3',
+                number: '         KJ-A41-3',
+                selected: false,
+            }],
+            title: 'Vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '304',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F304.jpg?alt=media&token=6d6b2b5f-d4fa-4275-b13f-3ad1cdc482f1',
+            specification: [{
+                content: 'Adapter Vacuum 14/20',
+                id: '1',
+                number: '         KJ-A42-1',
+                selected: false,
+            }, {
+                content: 'Adapter Vacuum 24/40',
+                id: '2',
+                number: '         KJ-A42-2',
+                selected: false,
+            }],
+            title: 'Vacuum',
+            type: 'glass',
+        }, {
+            classify: 'Adapters',
+            id: '305',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F305.jpg?alt=media&token=36e3439c-88ca-404a-89a6-3e808ad11027',
+            specification: [{
+                content: 'Adapter Filtering 14/20',
+                id: '1',
+                number: ' KJ-A48-1',
+                selected: false,
+            }, {
+                content: 'Adapter Filtering 24/20',
+                id: '2',
+                number: 'KJ-A48-2',
+                selected: false,
+            }, {
+                content: 'Adapter Filtering 29/32',
+                id: '3',
+                number: 'KJ-A48-3',
+                selected: false,
+            }, {
+                content: 'Adapter Filtering 34/45',
+                id: '4',
+                number: 'KJ-A48-4',
+                selected: false,
+            }],
+            title: 'Vacuum filtration',
+            type: 'glass',
+        }, {
+            classify: 'Vacuum Trap',
+            id: '306',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F306.jpg?alt=media&token=2ff73e4a-9ff8-430d-a242-405e19883a12',
+            specification: [{
+                content: 'Vacuum Check Valve',
+                id: '1',
+                number: '         KJ-V1-1',
+                selected: false,
+            }],
+            title: 'Vacuum Check Valve',
+            type: 'glass',
+        }, {
+            classify: 'Vacuum Trap',
+            id: '307',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F307.jpg?alt=media&token=8fbe2cb3-4892-4de7-ac68-ff37fc83dc63',
+            specification: [{
+                content: 'Vacuum Pump ,Oil Diffusion',
+                id: '1',
+                number: '         KJ-V2-1',
+                selected: false,
+            }],
+            title: 'Vacuum Pump ,Oil Diffusion',
+            type: 'glass',
+        }, {
+            classify: 'Vacuum Trap',
+            id: '308',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F308.jpg?alt=media&token=42f75aa6-57e2-4bc2-a0e0-fd0b5ef4f8af',
+            specification: [{
+                content: 'Vacuum Trap Dewar Type 24/40',
+                id: '1',
+                number: '         KJ-V3-1',
+                selected: false,
+            }],
+            title: 'Vacuum Trap',
+            type: 'glass',
+        }, {
+            classify: 'Vacuum Trap',
+            id: '309',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F309.jpg?alt=media&token=c2897b01-d5c8-4ea0-9d17-647944744000',
+            specification: [{
+                content: 'Vacuum Trap 34/45',
+                id: '1',
+                number: '         KJ-V4-1',
+                selected: false,
+            }, {
+                content: 'Vacuum Trap 45/50',
+                id: '2',
+                number: 'KJ-V4-2',
+                selected: false,
+            }, {
+                content: 'Vacuum Trap 50/50',
+                id: '3',
+                number: '         KJ-V4-3',
+                selected: false,
+            }, {
+                content: 'Vacuum Trap 55/50',
+                id: '4',
+                number: '         KJ-V4-4',
+                selected: false,
+            }],
+            title: 'Vacuum Trap',
+            type: 'glass',
+        }, {
+            classify: 'Vacuum Trap',
+            id: '310',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F310.jpg?alt=media&token=02a518fa-b5cc-4db1-b72a-ff746daf35a1',
+            specification: [{
+                content: 'Vacuum Trap 30*225',
+                id: '1',
+                number: 'KJ-V5-1',
+                selected: false,
+            }, {
+                content: 'Vacuum Trap 38*220',
+                id: '2',
+                number: '         KJ-V5-2',
+                selected: false,
+            }, {
+                content: 'Vacuum Trap 51*300',
+                id: '3',
+                number: '         KJ-V5-3',
+                selected: false,
+            }],
+            title: 'Vacuum Trap',
+            type: 'glass',
+        }, {
+            classify: 'Vacuum Trap',
+            id: '311',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F311.jpg?alt=media&token=7cc57f29-0260-48b9-a1ab-aed1c6999282',
+            specification: [{
+                content: 'Vacuum Trap 55/50 55*300',
+                id: '1',
+                number: '         KJ-V6-1',
+                selected: false,
+            }, {
+                content: 'Vacuum Trap O-ring Type',
+                id: '2',
+                number: '         KJ-V6-2',
+                selected: false,
+            }, {
+                content: 'Vacuum Trap O-ring Type Clamp 75',
+                id: '3',
+                number: 'KJ-V6-3',
+                selected: false,
+            }],
+            title: 'Vacuum Trap',
+            type: 'glass',
+        }, {
+            classify: 'Vial',
+            id: '312',
+            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F312.jpg?alt=media&token=54e803fd-0d1c-410d-9b72-369bdd2a5ef5',
+            specification: [{
+                content: 'Vial 12*36mm 2ML 770ea/1PK',
+                id: '1',
+                number: 'KJ-VL1-1',
+                selected: false,
+            }, {
+                content: 'Vial 15*45mm 4.5ML 500ea/1PK',
+                id: '2',
+                number: '         KJ-VL1-2',
+                selected: false,
+            }, {
+                content: 'Vial 16.4*60mm 8ML 500ea/1PK',
+                id: '3',
+                number: 'KJ-VL1-3',
+                selected: false,
+            }, {
+                content: 'Vial 18*60mm 10ML 420ea/1PK',
+                id: '4',
+                number: 'KJ-VL1-4',
+                selected: false,
+            }, {
+                content: 'Vial 22*48mm 10ML 250ea/1PK',
+                id: '5',
+                number: '         KJ-VL1-5',
+                selected: false,
+            }, {
+                content: 'Vial 20*70mm 15ML 350ea/1PK',
+                id: '6',
+                number: '         KJ-VL1-6',
+                selected: false,
+            }, {
+                content: 'Vial 26*60mm 20ML 200ea/1PK',
+                id: '7',
+                number: '         KJ-VL1-7',
+                selected: false,
+            }, {
+                content: 'Vial 26*75mm 25ML 200ea/1PK',
+                id: '8',
+                number: '         KJ-VL1-8',
+                selected: false,
+            }, {
+                content: 'Vial 30*75mm 30ML 150ea/1PK',
+                id: '9',
+                number: '         KJ-VL1-9',
+                selected: false,
+            }, {
+                content: 'Vial 30*90mm 40ML 150ea/1PK',
+                id: '10',
+                number: '         KJ-VL1-10',
+                selected: false,
+            }, {
+                content: 'Vial 30*110mm 50ML 150ea/1PK',
+                id: '11',
+                number: '         KJ-VL1-11',
+                selected: false,
+            }],
+            title: 'Vial',
+            type: 'glass',
+        }],
+};
+export default items.glass;

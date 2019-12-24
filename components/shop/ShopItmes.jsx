@@ -108,7 +108,7 @@ const ShopItems = ({ products, onClickProduct, sortByTitle, sortByClassify }) =>
                                         {product.classify}
                                     </Classify>
                                     <Specifications>
-                                        {product.specification.length}
+                                        {product.specification ? product.specification.length : 0}
                                     </Specifications>
                                 </Detail>
                             </Content>
