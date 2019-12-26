@@ -10,6 +10,9 @@ const ShopItems = ({ shopId, products, productId }) => {
     const [sortedProducts, setSortedProducts] = useState(products);
     const [selectedProduct, setSelectedProduct] = useState(null);
 
+    const [isSortByTitle, setIsSortByTitle] = useState(false);
+    const [isSortByClassify, setIsSortByClassify] = useState(true);
+
     const getSelectedProduct = useCallback((id) => Object.values(products).filter((product) => {
         if (product) {
             return product.id === id;
@@ -36,30 +39,51 @@ const ShopItems = ({ shopId, products, productId }) => {
     const sortByTitle = () => {
         const newProducts = [...products];
         newProducts.sort((a, b) => {
-            if (a.title < b.title) {
-                return -1;
+            if (isSortByTitle) {
+                if (a.title < b.title) {
+                    return 1;
+                }
+                if (a.title > b.title) {
+                    return -1;
+                }
+            } else {
+                if (a.title < b.title) {
+                    return -1;
+                }
+                if (a.title > b.title) {
+                    return 1;
+                } 
             }
-            if (a.title > b.title) {
-                return 1;
-            }
+
             return 0;
         });
-
+        setIsSortByTitle(!isSortByTitle);
+        setIsSortByClassify(false);
         setSortedProducts(newProducts);
     };
 
     const sortByClassify = () => {
         const newProducts = [...products];
         newProducts.sort((a, b) => {
-            if (a.classify < b.classify) {
-                return -1;
-            }
-            if (a.classify > b.classify) {
-                return 1;
+            if (isSortByClassify) {
+                if (a.classify < b.classify) {
+                    return 1;
+                }
+                if (a.classify > b.classify) {
+                    return -1;
+                }
+            } else {
+                if (a.classify < b.classify) {
+                    return -1;
+                }
+                if (a.classify > b.classify) {
+                    return 1;
+                } 
             }
             return 0;
         });
-
+        setIsSortByTitle(false);
+        setIsSortByClassify(!isSortByClassify)
         setSortedProducts(newProducts);
     };
 
@@ -73,7 +97,9 @@ const ShopItems = ({ shopId, products, productId }) => {
                             products={sortedProducts}
                             onClickProduct={clickProduct}
                             sortByTitle={sortByTitle}
+                            isSortByTitle={isSortByTitle}
                             sortByClassify={sortByClassify}
+                            isSortByClassify={isSortByClassify}
                         />
                     )
             }

@@ -2887,12 +2887,6 @@ const items = {
             title: 'Column Flask,  PTFE Plug',
             type: 'glass',
         }, {
-            classify: 'TLC Cutter',
-            id: '83',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F83.jpg?alt=media&token=9d3f0143-def7-4140-9888-9a130ba32ff1',
-            title: 'TLC Cutter',
-            type: 'glass',
-        }, {
             classify: 'Cylinders',
             id: '84',
             image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F84.jpg?alt=media&token=4f0f609b-1b0d-4bcb-8d5e-1c38a43e40d5',
@@ -4161,12 +4155,6 @@ const items = {
             title: 'M.T Parcelain Crucible',
             type: 'glass',
         }, {
-            classify: 'Dispenser',
-            id: '117',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F117.jpg?alt=media&token=b49f12d4-15d5-480e-a51a-c39e49160811',
-            title: 'Dispenser',
-            type: 'glass',
-        }, {
             classify: 'Distillation Receivers',
             id: '118',
             image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F118.jpg?alt=media&token=1ae19ccb-b199-4cd2-88d7-d5db6b2f9b71',
@@ -4902,42 +4890,6 @@ const items = {
                 selected: false,
             }],
             title: 'Diffusion Cell',
-            type: 'glass',
-        }, {
-            classify: '전기로',
-            id: '143',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F143.jpg?alt=media&token=ff5cc45f-a3f0-4566-b684-387efaa56cf6',
-            title: '전기로',
-            type: 'glass',
-        }, {
-            classify: '전기로',
-            id: '144',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F144.jpg?alt=media&token=dade0d33-d98b-463d-8a98-096c5553f6f1',
-            title: '전기로',
-            type: 'glass',
-        }, {
-            classify: '전기로',
-            id: '145',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F145.jpg?alt=media&token=08430a2e-6e0c-4a3c-b8d7-34a2d4ae4cea',
-            title: '전기로',
-            type: 'glass',
-        }, {
-            classify: '전기로',
-            id: '146',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F146.jpg?alt=media&token=11fc1018-6cb6-4e18-a722-0c8469fe4829',
-            title: '전기로',
-            type: 'glass',
-        }, {
-            classify: '전기로',
-            id: '147',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F147.jpg?alt=media&token=24b4bc2d-3eb9-4d7d-8820-4ce09b7d48bb',
-            title: '전기로',
-            type: 'glass',
-        }, {
-            classify: '전기로',
-            id: '148',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F148.jpg?alt=media&token=8470a252-1afc-4662-aac3-7ba58ef6bca1',
-            title: '전기로',
             type: 'glass',
         }, {
             classify: 'Evaporative Concenrators',
@@ -9420,24 +9372,6 @@ const items = {
             title: 'Joint Ball Type O-Ring Seal',
             type: 'glass',
         }, {
-            classify: 'Jacket Reactor',
-            id: '249',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F249.jpg?alt=media&token=8487832c-563b-4154-99f3-a97b45f825e8',
-            title: '20L Jacket Reactor',
-            type: 'glass',
-        }, {
-            classify: 'Jacket Reactor',
-            id: '250',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F250.jpg?alt=media&token=858cd8c3-2dae-4099-b2b3-7d970aefafec',
-            title: '30L Jacket Reactor',
-            type: 'glass',
-        }, {
-            classify: 'Jacket Reactor',
-            id: '251',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F251.jpg?alt=media&token=971fb415-5db0-4c02-82e4-295dfb0edd49',
-            title: '50L Jacket Reactor',
-            type: 'glass',
-        }, {
             classify: 'Jacket Beaker',
             id: '252',
             image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F252.jpg?alt=media&token=168cff5c-2180-4945-beb8-321ba03ae6ad',
@@ -9883,12 +9817,6 @@ const items = {
                 selected: false,
             }],
             title: 'Manifold 1Way',
-            type: 'glass',
-        }, {
-            classify: 'Manifold',
-            id: '263',
-            image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/glass%2F263.jpg?alt=media&token=874e5804-d56f-4ba7-b309-2443fde953bb',
-            title: 'Manifold',
             type: 'glass',
         }, {
             classify: 'Pipet',

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { subPointColor } from '../../styles/style';
 
-import DownArrow from '../../lib/images/downwards-pointer.png';
+import SortDescending from '../../lib/images/sort-descending.png';
+import SortAscending from '../../lib/images/sort-ascending.png';
 
 const Container = styled.div`
     margin: 10px;
@@ -16,7 +17,7 @@ const MenuContent = styled.div`
     padding-bottom: 10px;
     margin-bottom: 10px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 11px;
     color: ${subPointColor}
 `;
 
@@ -25,7 +26,7 @@ const Content = styled.div`
     border-bottom: 1px solid black;
     margin-bottom: 10px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 11px;
 `;
 
 const Image = styled.div`
@@ -43,24 +44,34 @@ const Detail = styled.div`
 `;
 
 const Title = styled.div`
-    width: 60%;
-    padding-left: 10px;
+    width: 42%;
     display: inline-block;
     position: relative;
+    overflow: hidden;
+    margin-right: 3%;
+    word-break: break-all;
     & img {
         position: absolute;
-        width: 20px;
+        height: 13px;
         right: 10%;
     }
 `;
 
-const Classify = styled.div`
-    width: 25%;
+const Number = styled.div`
+    width: 20%;
     display: inline-block;
     position: relative;
+    word-break: break-all;
+`;
+
+const Classify = styled.div`
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    word-break: break-all;
     & img {
         position: absolute;
-        width: 20px;
+        height: 13px;
         right: 10%;
     }
 `;
@@ -68,64 +79,101 @@ const Classify = styled.div`
 const Specifications = styled.div`
     width: 15%;
     display: inline-block;
+    text-align: right;
+    word-break: break-all;
 `;
 
-const ShopItems = ({ products, onClickProduct, sortByTitle, sortByClassify }) => (
-    <Container>
-        <MenuContent>
-            <Image>
-                {'사진'}
-            </Image>
-            <Detail>
-                <Title onClick={sortByTitle}>
-                    {'품명'}
-                    <img src={DownArrow} alt={'Down arrow'} />
-                </Title>
-                <Classify onClick={sortByClassify}>
-                    {'분류'}
-                    <img src={DownArrow} alt={'Down arrow'} />
-                </Classify>
-                <Specifications>
-                    {'품목수'}
-                </Specifications>
-            </Detail>
-        </MenuContent>
-        {
-            products.map((product) => (
-                <>
-                    {
-                        product
-                        && (
-                            <Content onClick={() => onClickProduct(product.id)} key={product.id}>
-                                <Image>
-                                    <img src={product.image} alt="product" />
-                                </Image>
-                                <Detail>
-                                    <Title>
-                                        {product.title}
-                                    </Title>
-                                    <Classify>
-                                        {product.classify}
-                                    </Classify>
-                                    <Specifications>
-                                        {product.specification ? product.specification.length : 0}
-                                    </Specifications>
-                                </Detail>
-                            </Content>
-                        )
-                    }
-                </>
-
-            ))
+const ShopItems = ({
+    products, onClickProduct, isSortByTitle, sortByTitle, isSortByClassify, sortByClassify,
+}) => {
+    const getItemNumber = (product) => {
+        if (product.specification) {
+            return `${product.specification[0].number.split('-')[0]}-${product.specification[0].number.split('-')[1]}`;
         }
-    </Container>
-);
+        return '';
+    };
+
+    const toggleSortByTitle = () => {
+        sortByTitle();
+    };
+
+    const toggleSortByClassify = () => {
+        sortByClassify();
+    };
+
+    return (
+        <Container>
+            <MenuContent>
+                <Image>
+                    {'사진'}
+                </Image>
+                <Detail>
+                    <Title onClick={toggleSortByTitle}>
+                        {'품명'}
+                        {
+                            isSortByTitle
+                                ? <img src={SortDescending} alt={'Descending icon'} />
+                                : <img src={SortAscending} alt={'Asceding'} />
+                        }
+                    </Title>
+                    <Number>
+                        {'품번'}
+                    </Number>
+                    <Classify onClick={toggleSortByClassify}>
+                        {'분류'}
+                        {
+                            isSortByClassify
+                                ? <img src={SortDescending} alt={'Descending icon'} />
+                                : <img src={SortAscending} alt={'Asceding'} />
+                        }
+                    </Classify>
+                    <Specifications>
+                        {'품목수'}
+                    </Specifications>
+                </Detail>
+            </MenuContent>
+            {
+                products.map((product) => (
+                    <>
+                        {
+                            product
+                            && (
+                                <Content onClick={() => onClickProduct(product.id)} key={product.id}>
+                                    <Image>
+                                        <img src={product.image} alt="product" />
+                                    </Image>
+                                    <Detail>
+                                        <Title>
+                                            {product.title}
+                                        </Title>
+                                        <Number>
+                                            {getItemNumber(product)}
+                                        </Number>
+                                        <Classify>
+                                            {product.classify}
+                                        </Classify>
+                                        <Specifications>
+                                            {product.specification ? product.specification.length : 0}
+                                        </Specifications>
+                                    </Detail>
+                                </Content>
+                            )
+                        }
+                    </>
+
+                ))
+            }
+        </Container>
+    );
+};
 
 ShopItems.propTypes = {
     products: PropTypes.array.isRequired,
     onClickProduct: PropTypes.func.isRequired,
     sortByTitle: PropTypes.func.isRequired,
+    isSortByTitle: PropTypes.bool.isRequired,
     sortByClassify: PropTypes.func.isRequired,
+    isSortByClassify: PropTypes.bool.isRequired,
 };
 
 export default ShopItems;
