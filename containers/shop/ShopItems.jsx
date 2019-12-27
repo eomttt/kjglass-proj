@@ -111,6 +111,8 @@ const ShopItems = ({ shopId, products, productId }) => {
 
     const setInitItems = () => {
         setSortedProducts([...products]);
+        setIsSortByTitle(false);
+        setIsSortByClassify(true);
     };
 
     return (
