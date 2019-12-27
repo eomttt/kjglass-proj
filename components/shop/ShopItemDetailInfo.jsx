@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 import PropTypes from 'prop-types';
 
+import { isMobile } from '../../styles/style';
+
 const Container = styled.div`
     margin-bottom: 10px;
     display: flex;
@@ -27,6 +29,9 @@ const InputContent = styled.div`
         text-align: center;
         width: 50px;
         margin-right: 50px;
+        ${isMobile} {
+            margin-right: 10px;
+        }
     }
 `;
 
@@ -36,10 +41,14 @@ const ButtonContainer = styled.div`
     padding: 5px;
     margin-right: 0;
     box-shadow: 1px 1px black;
+    display: flex;
     &: active {
         box-shadow: none;
         margin-left: 1px;
         margin-right: -1px;
+    }
+    & div {
+        margin: auto;
     }
 `;
 
@@ -54,7 +63,9 @@ const ShopItemDetailInfo = ({
             <InputContent>
                 <input onChange={onChangeInputCount} placeholder={0} type="number" min="0" />
                 <ButtonContainer onClick={onClickAddBascket}>
-                    {'장바구니'}
+                    <div>
+                        {'장바구니'}
+                    </div>
                 </ButtonContainer>
             </InputContent>
         </InputContainer>
