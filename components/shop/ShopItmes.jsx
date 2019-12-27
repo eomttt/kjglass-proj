@@ -5,6 +5,7 @@ import { subPointColor } from '../../styles/style';
 
 import SortDescending from '../../lib/images/sort-descending.png';
 import SortAscending from '../../lib/images/sort-ascending.png';
+import SearchIcon from '../../lib/images/search.png';
 
 const Container = styled.div`
     margin: 10px;
@@ -83,9 +84,45 @@ const Specifications = styled.div`
     word-break: break-all;
 `;
 
+const InputContainer = styled.div`
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+`;
+
+const InputBoxContainer = styled.div`
+    position: relative;
+    margin-left: auto;
+    width: 80%;
+    display: flex;
+    & img {
+        width: 15px;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+    }
+    & input {
+        padding-left: 30px;
+        width: calc(100% - 100px);
+        height: 20px;
+    }
+    & button {
+        width: 50px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+`;
+
 const ShopItems = ({
-    products, onClickProduct, isSortByTitle, sortByTitle, isSortByClassify, sortByClassify,
+    products, onClickProduct,
+    isSortByTitle, sortByTitle,
+    isSortByClassify, sortByClassify,
+    findByText, setInitItems,
 }) => {
+    const [inputText, setInputText] = useState('');
+
     const getItemNumber = (product) => {
         if (product.specification) {
             return `${product.specification[0].number.split('-')[0]}-${product.specification[0].number.split('-')[1]}`;
@@ -101,8 +138,28 @@ const ShopItems = ({
         sortByClassify();
     };
 
+    const onChangeText = (e) => {
+        setInputText(e.target.value);
+    };
+
+    const setFindItemsByText = () => {
+        findByText(inputText);
+    };
+
     return (
         <Container>
+            <InputContainer>
+                <InputBoxContainer>
+                    <img src={SearchIcon} alt={'Search icon'} />
+                    <input placeholder={'품명 또는 품번을 검색해주세요.'} value={inputText} onChange={onChangeText}/>
+                    <button type="button" onClick={setFindItemsByText}>
+                        {'검색'}
+                    </button>
+                    <button type="button" onClick={setInitItems}>
+                        {'초기화'}
+                    </button>
+                </InputBoxContainer>
+            </InputContainer>
             <MenuContent>
                 <Image>
                     {'사진'}
@@ -134,11 +191,11 @@ const ShopItems = ({
             </MenuContent>
             {
                 products.map((product) => (
-                    <>
+                    <div key={product.id}>
                         {
                             product
                             && (
-                                <Content onClick={() => onClickProduct(product.id)} key={product.id}>
+                                <Content onClick={() => onClickProduct(product.id)}>
                                     <Image>
                                         <img src={product.image} alt="product" />
                                     </Image>
@@ -159,7 +216,7 @@ const ShopItems = ({
                                 </Content>
                             )
                         }
-                    </>
+                    </div>
 
                 ))
             }
@@ -174,6 +231,8 @@ ShopItems.propTypes = {
     isSortByTitle: PropTypes.bool.isRequired,
     sortByClassify: PropTypes.func.isRequired,
     isSortByClassify: PropTypes.bool.isRequired,
+    findByText: PropTypes.func.isRequired,
+    setInitItems: PropTypes.func.setInitItems,
 };
 
 export default ShopItems;

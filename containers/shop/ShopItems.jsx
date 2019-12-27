@@ -37,7 +37,7 @@ const ShopItems = ({ shopId, products, productId }) => {
     }, [productId]);
 
     const sortByTitle = () => {
-        const newProducts = [...products];
+        const newProducts = [...sortedProducts];
         newProducts.sort((a, b) => {
             if (isSortByTitle) {
                 if (a.title < b.title) {
@@ -52,7 +52,7 @@ const ShopItems = ({ shopId, products, productId }) => {
                 }
                 if (a.title > b.title) {
                     return 1;
-                } 
+                }
             }
 
             return 0;
@@ -63,7 +63,7 @@ const ShopItems = ({ shopId, products, productId }) => {
     };
 
     const sortByClassify = () => {
-        const newProducts = [...products];
+        const newProducts = [...sortedProducts];
         newProducts.sort((a, b) => {
             if (isSortByClassify) {
                 if (a.classify < b.classify) {
@@ -78,13 +78,39 @@ const ShopItems = ({ shopId, products, productId }) => {
                 }
                 if (a.classify > b.classify) {
                     return 1;
-                } 
+                }
             }
             return 0;
         });
         setIsSortByTitle(false);
-        setIsSortByClassify(!isSortByClassify)
+        setIsSortByClassify(!isSortByClassify);
         setSortedProducts(newProducts);
+    };
+
+
+    const getItemNumber = (product) => {
+        if (product.specification) {
+            return `${product.specification[0].number.split('-')[0]}-${product.specification[0].number.split('-')[1]}`;
+        }
+        return '';
+    };
+
+    const findByText = (findedText) => {
+        const lowerText = findedText.toLowerCase();
+        const newProducts = products.filter((product) => {
+            if (product.title.toLowerCase().indexOf(lowerText) > -1) {
+                return true;
+            }
+            if (getItemNumber(product).toLowerCase().indexOf(lowerText) > -1) {
+                return true;
+            }
+            return false;
+        });
+        setSortedProducts(newProducts);
+    };
+
+    const setInitItems = () => {
+        setSortedProducts([...products]);
     };
 
     return (
@@ -100,6 +126,8 @@ const ShopItems = ({ shopId, products, productId }) => {
                             isSortByTitle={isSortByTitle}
                             sortByClassify={sortByClassify}
                             isSortByClassify={isSortByClassify}
+                            findByText={findByText}
+                            setInitItems={setInitItems}
                         />
                     )
             }
