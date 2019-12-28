@@ -104,6 +104,7 @@ const InputBoxContainer = styled.div`
         transform: translateY(-50%);
     }
     & input {
+        font-size: 16px;
         padding-left: 30px;
         width: calc(100% - 100px);
         height: 20px;

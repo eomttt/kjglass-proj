@@ -43,8 +43,14 @@ const Contact = () => {
         }
     };
 
+    const openKakao = () => {
+        window.open('https://open.kakao.com/o/szj7uKQb');
+    };
+
     return (
-        <ContactComp submitContact={submitContact} />
+        <ContactComp
+            submitContact={submitContact}
+            openKakao={openKakao}/>
     );
 };
 

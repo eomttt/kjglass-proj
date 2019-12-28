@@ -26,11 +26,13 @@ const InputContainer = styled.div`
     }
 
     & input {
+        font-size: 16px;
         width: 100%;
         height: 25px;
     }
 
     & textarea {
+        font-size: 16px;
         width: 100%;
         height: 100px;
         padding: 10px;
@@ -50,7 +52,8 @@ const InputContent = styled.div`
     }
 
     & input {
-        width: 95%;
+        width: 85%;
+        font-size: 16px;
         height: 25px;
     }
 
@@ -64,7 +67,6 @@ const InputContent = styled.div`
 `;
 
 const Button = styled.div`
-    width: 20%;
     text-align: center;
     padding: 10px;
     color: white;
@@ -74,7 +76,6 @@ const Button = styled.div`
 `;
 
 const KakaoButton = styled.div`
-    width: 20%;
     text-align: center;
     padding: 10px;
     color: white;
@@ -84,7 +85,7 @@ const KakaoButton = styled.div`
     margin: 10px auto;
 `;
 
-const Contact = ({ submitContact }) => {
+const Contact = ({ submitContact, openKakao }) => {
     const [title, setTitle] = useState('');
     const [company, setCompany] = useState('');
     const [team, setTeam] = useState('');
@@ -106,10 +107,6 @@ const Contact = ({ submitContact }) => {
             content,
         });
     }, [title, company, name, email, number, faxNum, content]);
-
-    const openKakao = () => {
-        window.open('https://open.kakao.com/o/skpWswjb');
-    };
 
     return (
         <Container>
@@ -181,6 +178,7 @@ const Contact = ({ submitContact }) => {
 
 Contact.propTypes = {
     submitContact: PropTypes.func.isRequired,
+    openKakao: PropTypes.func.isRequired,
 };
 
 export default Contact;

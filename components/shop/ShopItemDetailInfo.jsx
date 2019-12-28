@@ -26,6 +26,7 @@ const InputContent = styled.div`
     margin-right: 10px;
     display: flex;
     & input {
+        font-size: 16px;
         text-align: center;
         width: 50px;
         margin-right: 50px;

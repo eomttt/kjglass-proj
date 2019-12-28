@@ -4,15 +4,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { subPointColor } from '../../styles/style';
+import { subPointColor, isMobile } from '../../styles/style';
 
 const Container = styled.div`
+    width: 100%;
     margin: 10px;
+    position: relative;
     display: flex;
     border-bottom: 1px solid black;
     position: relative;
     & img {
+        margin-top: 0;
         width: 100px;
+        ${isMobile} {
+            width: auto;
+            height: 100px;
+            margin: auto 0;
+        }
     }
 `;
 
