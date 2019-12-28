@@ -7,3 +7,4 @@ firebase.json
 public/
 storage.rules
 database.rules.json
+mail.config.js

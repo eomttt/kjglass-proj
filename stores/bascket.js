@@ -21,7 +21,7 @@ export default class BaskestStore {
           type, itemId, count, specificationItemId,
       } = params;
 
-      const findedItem = this.glassItems[type].filter((item) => {
+      const findedItem = this.glassItems[type] && this.glassItems[type].filter((item) => {
           const toJSItem = toJS(item);
 
           if (toJSItem.itemId === itemId) {
@@ -33,7 +33,7 @@ export default class BaskestStore {
       })[0];
 
       if (toJS(findedItem)) {
-          this.glassItems[type] = this.glassItems[type].map((item) => {
+          this.glassItems[type] = this.glassItems[type] && this.glassItems[type].map((item) => {
               const toJSItem = toJS(item);
 
               if (toJSItem.itemId === itemId) {
@@ -63,7 +63,7 @@ export default class BaskestStore {
           type, itemId, specificationItemId,
       } = params;
 
-      const findedItem = this.glassItems[type].filter((item) => {
+      const findedItem = this.glassItems[type] && this.glassItems[type].filter((item) => {
           const toJSItem = toJS(item);
 
           if (toJSItem.itemId === itemId) {
@@ -86,5 +86,7 @@ export default class BaskestStore {
               return true;
           });
       }
+
+      localStorage.setItem(type, JSON.stringify(toJS(this.glassItems[type])));
   }
 }

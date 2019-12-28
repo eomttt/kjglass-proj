@@ -73,6 +73,17 @@ const Button = styled.div`
     margin: auto;
 `;
 
+const KakaoButton = styled.div`
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #ffdf00;
+    color: #222;
+    cursor: pointer;
+    margin: 10px auto;
+`;
+
 const Contact = ({ submitContact }) => {
     const [title, setTitle] = useState('');
     const [company, setCompany] = useState('');
@@ -95,6 +106,10 @@ const Contact = ({ submitContact }) => {
             content,
         });
     }, [title, company, name, email, number, faxNum, content]);
+
+    const openKakao = () => {
+        window.open('https://open.kakao.com/o/skpWswjb');
+    };
 
     return (
         <Container>
@@ -155,8 +170,11 @@ const Contact = ({ submitContact }) => {
                 </InputContainer>
             </Content>
             <Button onClick={submit}>
-                {'문의하기'}
+                {'메일로 문의하기'}
             </Button>
+            <KakaoButton onClick={openKakao}>
+                {'카카오로 문의하기'}
+            </KakaoButton>
         </Container>
     );
 };

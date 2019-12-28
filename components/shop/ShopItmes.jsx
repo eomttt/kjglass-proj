@@ -109,7 +109,7 @@ const InputBoxContainer = styled.div`
         height: 20px;
     }
     & button {
-        width: 50px;
+        white-space: nowrap;
         margin-left: 5px;
         cursor: pointer;
     }
@@ -151,7 +151,16 @@ const ShopItems = ({
             <InputContainer>
                 <InputBoxContainer>
                     <img src={SearchIcon} alt={'Search icon'} />
-                    <input placeholder={'품명 또는 품번을 검색해주세요.'} value={inputText} onChange={onChangeText}/>
+                    <input
+                        placeholder={'품명 또는 품번을 검색해주세요.'}
+                        value={inputText}
+                        onChange={onChangeText}
+                        onKeyPress={(event) => {
+                            if (event.key === 'Enter') {
+                                setFindItemsByText();
+                            }
+                        }}
+                    />
                     <button type="button" onClick={setFindItemsByText}>
                         {'검색'}
                     </button>
