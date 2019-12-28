@@ -35,8 +35,8 @@ const PrimaryImage = styled.div`
         width: 100%;
         margin-top: 70px;
         padding: 0;
+        display: block;
         & img {
-            margin: 0 auto;
             width: 40%;
         } 
     }
