@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 import ShopItemDetailInfo from '../../containers/shop/ShopItemDetailInfo';
 
-import { subPointColor } from '../../styles/style';
+import { subPointColor, isMobile } from '../../styles/style';
 
 const Container = styled.div`
     display: flex;
@@ -17,6 +17,10 @@ const Container = styled.div`
 const DetailContent = styled.div`
     display: flex;
     width: 100%;
+    position: relative;
+    ${isMobile} {
+        display: inline-block;
+    }
 `;
 
 const PrimaryImage = styled.div`
@@ -26,6 +30,15 @@ const PrimaryImage = styled.div`
     & img {
         margin: auto;
         width: 80%;
+    }
+    ${isMobile} {
+        width: 100%;
+        margin-top: 70px;
+        padding: 0;
+        & img {
+            margin: 0 auto;
+            width: 40%;
+        } 
     }
 `;
 
@@ -37,7 +50,14 @@ const ProductContent = styled.div`
 const ProductTitle = styled.div`
     font-size: 25px;
     margin-bottom: 20px;
-    color: ${subPointColor}
+    color: ${subPointColor};
+    ${isMobile} {
+        width: 100%;
+        text-align: right;
+        position: absolute;
+        top: 10px;
+        margin-bottom: 0;
+    }
 `;
 
 const ProductText = styled.div`
@@ -51,6 +71,7 @@ const DetailContentOptions = styled.div`
 
 const DetailTitle = styled.div`
     margin-bottom: 20px;
+    font-weight: bold;
 `;
 
 const ShopItemDtail = ({
@@ -73,7 +94,7 @@ const ShopItemDtail = ({
             </DetailContent>
             <DetailContentOptions>
                 <DetailTitle>
-                    {'Specification'}
+                    {'* Specification'}
                 </DetailTitle>
                 {
                     specification && specification.map((item) => (

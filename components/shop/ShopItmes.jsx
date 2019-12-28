@@ -232,7 +232,7 @@ ShopItems.propTypes = {
     sortByClassify: PropTypes.func.isRequired,
     isSortByClassify: PropTypes.bool.isRequired,
     findByText: PropTypes.func.isRequired,
-    setInitItems: PropTypes.func.setInitItems,
+    setInitItems: PropTypes.func.isRequired,
 };
 
 export default ShopItems;
