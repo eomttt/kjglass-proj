@@ -13,10 +13,13 @@ const ShopItemDetailInfo = ({
         margin-bottom: 10px;
         display: flex;
         width: 100%;
+        height: ${isMenu ? '30px' : ''};
+        background-color: ${isMenu ? '#8080804d' : 'transparent'};
     `;
 
     const Content = styled.div`
         width: 50%;
+        margin: ${isMenu ? 'auto 0 auto 10px' : '0 0 0 10px'};
     `;
 
     const InputContainer = styled.div`
@@ -67,17 +70,22 @@ const ShopItemDetailInfo = ({
             <InputContainer>
                 <InputContent>
                     {
-                        !isMenu
-                        && (
-                            <>
-                                <input onChange={onChangeInputCount} placeholder={0} type="number" min="0" />
-                                <ButtonContainer onClick={onClickAddBascket}>
-                                    <div>
-                                        {'장바구니'}
-                                    </div>
-                                </ButtonContainer>
-                            </>
-                        )
+                        isMenu
+                            ? (
+                                <div>
+                                    {'수량'}
+                                </div>
+                            )
+                            : (
+                                <>
+                                    <input onChange={onChangeInputCount} placeholder={0} type="number" min="0" />
+                                    <ButtonContainer onClick={onClickAddBascket}>
+                                        <div>
+                                            {'장바구니'}
+                                        </div>
+                                    </ButtonContainer>
+                                </>
+                            )
                     }
                 </InputContent>
             </InputContainer>
