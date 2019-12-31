@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import styled from 'styled-components';
 
+import ShopItemDetailInfoComp from './ShopItemDetailInfo';
+
 import ShopItemDetailInfo from '../../containers/shop/ShopItemDetailInfo';
 
 import { subPointColor, isMobile } from '../../styles/style';
@@ -69,11 +71,6 @@ const DetailContentOptions = styled.div`
     margin-top: 30px;
 `;
 
-const DetailTitle = styled.div`
-    margin-bottom: 20px;
-    font-weight: bold;
-`;
-
 const ShopItemDtail = ({
     type, id, image, title, content, specification,
 }) => (
@@ -93,9 +90,11 @@ const ShopItemDtail = ({
                 </ProductContent>
             </DetailContent>
             <DetailContentOptions>
-                <DetailTitle>
-                    {'* Specification'}
-                </DetailTitle>
+                <ShopItemDetailInfoComp
+                    number={'Cat.No'}
+                    content={'Description'}
+                    isMenu
+                />
                 {
                     specification && specification.map((item) => (
                         <ShopItemDetailInfo
