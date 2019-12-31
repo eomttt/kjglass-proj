@@ -40,6 +40,9 @@ const ShopItemDetailInfo = ({
                 margin-right: 10px;
             }
         }
+        & div {
+            
+        }
     `;
 
     const ButtonContainer = styled.div`
