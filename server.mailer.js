@@ -2,6 +2,8 @@ const nodemailer = require('nodemailer');
 
 const config = require('./mail.config');
 
+const SEND_TO_MAIL = '733@hanmail.net';
+
 const transporter = nodemailer.createTransport({
     service: config.mailer.service,
     auth: {
