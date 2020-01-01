@@ -38,6 +38,7 @@ const PrimaryImage = styled.div`
         margin-top: 70px;
         padding: 0;
         display: block;
+        text-align: center;
         & img {
             width: 40%;
         } 
@@ -55,7 +56,7 @@ const ProductTitle = styled.div`
     color: ${subPointColor};
     ${isMobile} {
         width: 100%;
-        text-align: right;
+        text-align: left;
         position: absolute;
         top: 10px;
         margin-bottom: 0;
