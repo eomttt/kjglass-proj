@@ -14,8 +14,14 @@ const Container = styled.div`
     background-color: ${(props) => (props.isMenu ? '#8080804d' : 'transparent')};
 `;
 
+const Number = styled.div`
+    min-width: 20%;
+    margin: auto 0;
+    padding-left: 1%;
+`;
+
 const Content = styled.div`
-    min-width: 30%;
+    min-width: 40%;
     margin: auto 0;
     padding-left: 1%;
 `;
@@ -67,9 +73,9 @@ const ShopItemDetailInfo = ({
     content, number, onChangeInputCount, onClickAddBascket, isMenu,
 }) => (
     <Container isMenu={isMenu}>
-        <Content>
+        <Number>
             {number}
-        </Content>
+        </Number>
         <Content>
             {content}
         </Content>
