@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -50,6 +51,42 @@ const ProductContent = styled.div`
     padding-top: 15px;
 `;
 
+const ProductTable = styled.div`
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    & table {
+        font-weight: initial;
+        font-size: initial;
+        color: initial;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        th {
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            background-color: #8080804d;
+            height: 30px;
+        }
+        th:nth-child(1) {
+            border-left: 1px solid black;
+        }
+        th:nth-child(n + 1) {
+            border-right: 1px solid black;
+        }
+        td {
+            border-bottom: 1px solid black;
+            text-align: center;
+            height: 30px;
+        }
+        td:nth-child(1) {
+            border-left: 1px solid black;
+        }
+        td:nth-child(n + 1) {
+            border-right: 1px solid black;
+        }
+    }
+`;
+
 const ProductTitle = styled.div`
     font-size: 25px;
     margin-bottom: 20px;
@@ -69,11 +106,11 @@ const ProductText = styled.div`
 
 
 const DetailContentOptions = styled.div`
-    margin-top: 30px;
+
 `;
 
-const ShopItemDtail = ({
-    type, id, image, title, content, specification,
+const ShopItemDetail = ({
+    type, id, image, title, content, specification, tableItems,
 }) => (
     <>
         <Container>
@@ -86,10 +123,26 @@ const ShopItemDtail = ({
                         {title}
                     </ProductTitle>
                     <ProductText>
-                        {content}
+                        {
+                            content.map((text) => (
+                                <div>
+                                    {text}
+                                </div>
+                            ))
+                        }
                     </ProductText>
                 </ProductContent>
             </DetailContent>
+            {
+                tableItems
+                    && (
+                        <ProductTable dangerouslySetInnerHTML={{
+                            __html: tableItems,
+                        }}
+                        >
+                        </ProductTable>
+                    )
+            }
             <DetailContentOptions>
                 <ShopItemDetailInfoComp
                     number={'Cat.No'}
@@ -111,13 +164,14 @@ const ShopItemDtail = ({
     </>
 );
 
-ShopItemDtail.propTypes = {
+ShopItemDetail.propTypes = {
     type: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     content: PropTypes.array.isRequired,
     specification: PropTypes.array.isRequired,
+    tableItems: PropTypes.string.isRequired,
 };
 
-export default ShopItemDtail;
+export default ShopItemDetail;
