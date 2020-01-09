@@ -6,7 +6,7 @@ const items = [
             '■ LukeGL®',
         ],
         id: '1',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/expendables%2F1.jpg?alt=media&token=9c599868-7579-4927-afc4-9fd492995f3a',
+        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/expendables%2F1.jpg?alt=media&token=d39ffa0c-a27f-4f4b-900f-d070bb7ddb2d',
         specification: [
             {
                 id: '1',
@@ -82,7 +82,7 @@ const items = [
         tableItems: [
             '   투명, Clear Ampule               <table summary="상세규격표" class="st-tablebox" cellpadding="0" cellspacing="0"><thead>                <tr>                 <th scope="row" width="200">Cat. No.</th>                 <th scope="row" width="200">Model</th>                 <th scope="row" width="200">용량</th>                 <th scope="row" width="200" class="tdfin">Size</th>               </tr>              </thead>              <tbody>                <tr>                  <td scope="row" class="trfinth4">A09-256-117</td>                  <td scope="row">9400-01</td>                  <td scope="row">1 ml</td>                  <td scope="row" class="tdfin">Ø10.0×h68 mm</td>                </tr>                <tr>                  <td scope="row" class="trfinth4">A09-256-124</td>                  <td scope="row">9400-02</td>                  <td scope="row">2 ml</td>                  <td scope="row" class="tdfin">Ø11.0×h75 mm</td>                </tr>                <tr>                  <td scope="row" class="trfinth4">A09-256-131</td>                  <td scope="row">9400-05</td>                  <td scope="row">5 ml</td>                  <td scope="row" class="tdfin">Ø15.0×h86 mm</td>                </tr>                <tr>                  <td scope="row" class="trfinth4">A09-256-138</td>                  <td scope="row">9400-10</td>                  <td scope="row">10 ml</td>                  <td scope="row" class="tdfin">Ø17.0×h110 mm</td>                </tr>                <tr>                  <td scope="row" class="trfinth">A09-256-145</td>                  <td class="trfin" scope="row">9400-20</td>                  <td class="trfin" scope="row">20 ml</td>                  <td scope="row" class="trfin2">Ø24.5×h115 mm</td>                </tr>                                              </tbody></table>     갈색, Amber Ampule   <table summary="상세규격표" class="st-tablebox" cellpadding="0" cellspacing="0"><thead>    <tr>      <th scope="row" width="200">Cat. No.</th>      <th scope="row" width="200">Model</th>      <th scope="row" width="200">용량</th>      <th scope="row" width="200" class="tdfin">Size</th>    </tr>  </thead>  <tbody>    <tr>      <td scope="row" class="trfinth4">A09-256-517</td>      <td scope="row">9401-01</td>      <td scope="row">1 ml</td>      <td scope="row" class="tdfin">Ø10.0×h68 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth4">A09-256-524</td>      <td scope="row">9401-02</td>      <td scope="row">2 ml</td>      <td scope="row" class="tdfin">Ø11.0×h75 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth4">A09-256-531</td>      <td scope="row">9401-05</td>      <td scope="row">5 ml</td>      <td scope="row" class="tdfin">Ø15.0×h86 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth4">A09-256-538</td>      <td scope="row">9401-10</td>      <td scope="row">10 ml</td>      <td scope="row" class="tdfin">Ø17.0×h110 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth">A09-256-545</td>      <td class="trfin" scope="row">9401-20</td>      <td class="trfin" scope="row">20 ml</td>      <td scope="row" class="trfin2" "="">Ø24.5×h115 mm</td>    </tr>  </tbody></table>',
         ],
-        title: '앰플, 기본형, LukeGL® (Ampule)',
+        title: 'Ampule (앰플, 기본형, LukeGL®)',
         type: 'expendables',
     },
     {
@@ -92,7 +92,7 @@ const items = [
             '■ LabPlasti®',
         ],
         id: '2',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/expendables%2F2.jpg?alt=media&token=5b869379-552f-4987-a823-8f9bb526a7de',
+        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/expendables%2F2.jpg?alt=media&token=74b09afc-d945-4e5d-ae9f-b02a1f836246',
         specification: [
             {
                 id: '1',
@@ -112,7 +112,7 @@ const items = [
         tableItems: [
             '<table summary="상세규격표" class="st-tablebox" cellpadding="0" cellspacing="0">  <thead>    <tr>      <th scope="row" width="200">Cat. No</th>      <th scope="row" width="200">Model</th>      <th scope="row" width="400" class="tdfin">규 격</th>    </tr>  </thead>  <tbody>    <tr>      <td scope="row" class="trfinth4">A09-20-911</td>      <td scope="row">AC0104</td>      <td scope="row" class="tdfin">1 ~ 4 ml 용</td>    </tr>    <tr>      <td scope="row" class="trfinth">A09-20-918</td>      <td class="trfin scope=" row"="">AC0510</td>      <td scope="row" class="trfin2">5 ~ 10 ml 용</td>    </tr>  </tbody></table>',
         ],
-        title: '앰플 따개 (Ampule Cracker)',
+        title: 'Ampule Cracker (앰플 따개)',
         type: 'expendables',
     },
     {
@@ -123,7 +123,7 @@ const items = [
             '■ Chemglass',
         ],
         id: '3',
-        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/expendables%2F3.jpg?alt=media&token=34c783d8-1386-4214-a3ec-fc881ec9582e',
+        image: 'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/expendables%2F3.jpg?alt=media&token=0b8c60a4-f6d1-4a96-a86b-2447c2edd97a',
         specification: [
             {
                 id: '1',
@@ -164,7 +164,7 @@ const items = [
         tableItems: [
             '<table summary="상세규격표" class="st-tablebox" cellpadding="0" cellspacing="0">  <thead>    <tr>      <th width="133" align="center" scope="row">Cat. No</th>      <th width="132" align="center" scope="row">Model</th>      <th width="132" align="center" scope="row">용량</th>      <th width="132" align="center" class="tdfin" scope="row">Size</th>    </tr>      </thead>  <tbody>    <tr>      <td scope="row" class="trfinth4">A09-132-223</td>      <td scope="row">AF0084-01</td>      <td scope="row">5 ml</td>      <td scope="row" class="tdfin">Ø17×h147 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth4">A09-132-227</td>      <td scope="row">AF0084-02</td>      <td scope="row">10 ml</td>      <td scope="row" class="tdfin">Ø17×h177 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth4">A09-132-231</td>      <td scope="row">AF0084-03</td>      <td scope="row">20 ml</td>      <td scope="row" class="tdfin">Ø25×h178 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth4">A09-132-235</td>      <td scope="row">AF0084-04</td>      <td scope="row">50 ml</td>      <td scope="row" class="tdfin">Ø35×h200 mm</td>    </tr>    <tr>      <td scope="row" class="trfinth">A09-132-239</td>      <td class="trfin" scope="row">AF0084-05</td>      <td class="trfin" scope="row">100 ml</td>      <td scope="row" class="trfin2">Ø41×h225 mm</td>    </tr>  </tbody></table>',
         ],
-        title: '드라잉 앰플 (Drying Ampule, Round Bottom)',
+        title: 'Drying Ampule, Round Bottom (드라잉 앰플)',
         type: 'expendables',
     },
 ];
