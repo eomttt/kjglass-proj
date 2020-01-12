@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { subPointColor, isMobile } from '../../styles/style';
+import { subPointColor } from '../../styles/style';
 
 const Container = styled.div`
     margin: 10px;

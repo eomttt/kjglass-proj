@@ -27,7 +27,13 @@ const translateMail = (data) => new Promise((resolve, reject) => {
         );
     });
 
-    console.log('glassInfoItems', glassInfoItems);
+    const expendableItems = expendable.map((expendableData) => {
+        const { url, count, selectedSpecificItem } = expendableData;
+        const { number: catalogNumber } = selectedSpecificItem;
+        return (
+            `<div><div>URL: ${url}</div><div>카타로그 번호: ${catalogNumber}</div><div>주문 갯수: ${count}</div></div>`
+        );
+    });
 
     const mailOptions = {
         from: 'FROM < hyunt0413@naver.com >',
@@ -43,7 +49,8 @@ const translateMail = (data) => new Promise((resolve, reject) => {
                <div>내용: ${content}</div>
                <div></div>
                <div>제품 상세</div>
-               <div>${glassInfoItems.map((glassItem) => glassItem)}</div>`,
+               <div>${glassInfoItems.map((glassItem) => glassItem)}</div>
+               <div>${expendableItems.map((expendableItem) => expendableItem)}</div>`,
     };
 
     transporter.sendMail(mailOptions, (err, res) => {
