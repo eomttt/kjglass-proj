@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import { subPointColor } from '../../styles/style';
+import { subPointColor, isMobile } from '../../styles/style';
 
 const Container = styled.div`
     margin: 10px;
@@ -14,10 +14,6 @@ const Title = styled.div`
     margin-bottom: 20px;
 `;
 
-const Content = styled.div`
-    margin: 15px;
-`;
-
 const List = styled.div`
     color: ${subPointColor};
     border-bottom: 1px solid ${subPointColor};
@@ -25,28 +21,44 @@ const List = styled.div`
     display: flex;
 `;
 
-
-const Writer = styled.div`
-    color: black;
-    margin-right: 10px;
-    margin-left: auto;
-`;
-
-const Category = styled.div`
-    margin: 15px 15px 30px;
-    ${List} {
-        color: black;
-        cursor: initial;
-    }
-`;
-
 const Number = styled.div`
-    margin-left: 10px;
+    width: 11%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center; 
 `;
 
 const NoticeTitle = styled.div`
     text-align: center;
-    margin: auto;
+    width: 70%;
+    border-right: 1px solid black; 
+`;
+
+const Writer = styled.div`
+    width: 19%;
+    color: black;
+    text-align: center;
+    border-right: 1px solid black;
+`;
+
+const Content = styled.div`
+    ${Number} {
+       padding: 10px 0; 
+    }
+    ${NoticeTitle} {
+        padding: 10px 0;
+    }
+    ${Writer} {
+        padding: 10px 0;
+    }
+`;
+
+const Category = styled.div`
+    ${List} {
+        color: black;
+        cursor: initial;
+        border-top: 1px solid black;
+    }
 `;
 
 const Notices = ({ notices, clickNotice }) => (
