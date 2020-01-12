@@ -19,6 +19,16 @@ const translateMail = (data) => new Promise((resolve, reject) => {
     } = contactData;
     const { glass, expendable } = item;
 
+    const glassInfoItems = glass.map((glassData) => {
+        const { url, count, selectedSpecificItem } = glassData;
+        const { number: catalogNumber } = selectedSpecificItem;
+        return (
+            `<div><div>URL: ${url}</div><div>카타로그 번호: ${catalogNumber}</div><div>주문 갯수: ${count}</div></div>`
+        );
+    });
+
+    console.log('glassInfoItems', glassInfoItems);
+
     const mailOptions = {
         from: 'FROM < hyunt0413@naver.com >',
         to: 'hyunt0413@gmail.com',
@@ -30,7 +40,10 @@ const translateMail = (data) => new Promise((resolve, reject) => {
                <div>이메일: ${email}</div>
                <div>전화번호: ${number}</div>
                <div>팩스: ${faxNum}</div>
-               <div>내용: ${content}</div>`,
+               <div>내용: ${content}</div>
+               <div></div>
+               <div>제품 상세</div>
+               <div>${glassInfoItems.map((glassItem) => glassItem)}</div>`,
     };
 
     transporter.sendMail(mailOptions, (err, res) => {

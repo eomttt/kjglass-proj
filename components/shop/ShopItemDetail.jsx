@@ -124,7 +124,7 @@ const ShopItemDetail = ({
                     </ProductTitle>
                     <ProductText>
                         {
-                            content.map((text) => (
+                            content && content.map((text) => (
                                 <div>
                                     {text}
                                 </div>
@@ -169,9 +169,15 @@ ShopItemDetail.propTypes = {
     id: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    content: PropTypes.array.isRequired,
-    specification: PropTypes.array.isRequired,
-    tableItems: PropTypes.string.isRequired,
+    content: PropTypes.array,
+    specification: PropTypes.array,
+    tableItems: PropTypes.string,
+};
+
+ShopItemDetail.defaultProps = {
+    content: [],
+    specification: [],
+    tableItems: '',
 };
 
 export default ShopItemDetail;

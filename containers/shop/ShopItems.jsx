@@ -119,7 +119,17 @@ const ShopItems = ({ shopId, products, productId }) => {
         <>
             {
                 (productId && selectedProduct)
-                    ? <ShopItemDetailComp {...selectedProduct} />
+                    ? (
+                        <ShopItemDetailComp
+                            type={selectedProduct.type}
+                            id={selectedProduct.id}
+                            image={selectedProduct.image}
+                            title={selectedProduct.title}
+                            content={selectedProduct.content}
+                            specification={selectedProduct.specification}
+                            tableItems={selectedProduct.tableItems}
+                        />
+                    )
                     : (
                         <ShopItemsComp
                             products={sortedProducts}

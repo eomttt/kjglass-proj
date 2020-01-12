@@ -21,8 +21,8 @@ const Contact = () => {
 
         return {
             ...itemInfo,
-            index: `${item.itemId}${item.specificationItemId}`,
             count: item.count,
+            url: `http://kjglass.shop/shop?id=${type === 'glasses' ? 1 : 2}&productId=${item.itemId}`,
         };
     });
 
