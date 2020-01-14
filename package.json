@@ -21,6 +21,7 @@
     "body-parser": "^1.19.0",
     "concurrently": "^5.0.2",
     "express": "^4.17.1",
+    "firebase": "^7.6.2",
     "g": "^2.0.1",
     "mobx": "^5.14.2",
     "mobx-react": "^6.1.4",
