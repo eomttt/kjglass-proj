@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { toJS } from 'mobx';
+import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import useStore from '../../hooks/useStore';
 
@@ -28,4 +29,4 @@ ExpendablesItems.defaultProps = {
     productId: null,
 };
 
-export default ExpendablesItems;
+export default observer(ExpendablesItems);

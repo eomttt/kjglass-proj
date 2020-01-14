@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { toJS } from 'mobx';
+import { observer } from 'mobx-react';
 import PropTypes from 'prop-types';
 import useStore from '../../hooks/useStore';
 
@@ -13,7 +14,7 @@ const GlassItems = ({ productId }) => {
     return (
         <>
             {
-                items
+                items.glasses
                 && <ShopItems shopId={'1'} products={items.glasses} productId={productId} />
             }
         </>
@@ -28,4 +29,4 @@ GlassItems.defaultProps = {
     productId: null,
 };
 
-export default GlassItems;
+export default observer(GlassItems);

@@ -3,17 +3,33 @@ import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 
+import * as firebase from 'firebase/app';
+import 'firebase/database';
+
+
 import BascketStore from '../stores/bascket';
 import ItemsStore from '../stores/items';
 
 import AppLayout from '../components/AppLayout';
 
+import FirebaseConfig from '../firebase.config';
+
 const bascketStore = new BascketStore();
 const itemsStore = new ItemsStore();
 
 const App = ({ Component, pageProps }) => {
+    const getDatas = async () => {
+        firebase.initializeApp(FirebaseConfig);
+        const dataBase = firebase.database();
+        const expendableItems = await dataBase.ref('/expendables').once('value');
+        const glssItems = await dataBase.ref('/glass').once('value');
+
+        itemsStore.setItems(glssItems.val(), expendableItems.val());
+    };
+
     useEffect(() => {
         bascketStore.initBasket();
+        getDatas();
     }, []);
 
     return (

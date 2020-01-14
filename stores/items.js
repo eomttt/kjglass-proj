@@ -1,12 +1,19 @@
 import { observable, action, toJS } from 'mobx';
 
-import glassDummy from '../dummy/glassItem';
-import expendablesItemDummy from '../dummy/expendablesItem';
+// import glassDummy from '../dummy/glassItem';
+// import expendablesItemDummy from '../dummy/expendablesItem';
 
 export default class ItemsStore {
     @observable items = {
-        glasses: glassDummy,
-        expendables: expendablesItemDummy,
+        glasses: [],
+        expendables: [],
+    }
+
+    @action setItems = (glasses, expendables) => {
+        this.items = {
+            glasses,
+            expendables,
+        };
     }
 
     @action getItemInfo = (params) => {

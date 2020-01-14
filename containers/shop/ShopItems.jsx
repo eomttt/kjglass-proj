@@ -13,6 +13,12 @@ const ShopItems = ({ shopId, products, productId }) => {
     const [isSortByTitle, setIsSortByTitle] = useState(false);
     const [isSortByClassify, setIsSortByClassify] = useState(true);
 
+    useEffect(() => {
+        setSortedProducts([...products].filter((product) => {
+            return !!product;
+        }));
+    }, [products]);
+
     const getSelectedProduct = useCallback((id) => Object.values(products).filter((product) => {
         if (product) {
             return product.id === id;
@@ -27,7 +33,7 @@ const ShopItems = ({ shopId, products, productId }) => {
             pathname: '/shop',
             query: { id: shopId, productId: selectedProductArr[0].id },
         });
-    }, []);
+    }, [getSelectedProduct]);
 
     useEffect(() => {
         if (productId) {

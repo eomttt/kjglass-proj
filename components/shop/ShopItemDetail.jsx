@@ -125,7 +125,7 @@ const ShopItemDetail = ({
                     <ProductText>
                         {
                             content && content.map((text) => (
-                                <div>
+                                <div key={text}>
                                     {text}
                                 </div>
                             ))
@@ -171,7 +171,7 @@ ShopItemDetail.propTypes = {
     title: PropTypes.string.isRequired,
     content: PropTypes.array,
     specification: PropTypes.array,
-    tableItems: PropTypes.string,
+    tableItems: PropTypes.array,
 };
 
 ShopItemDetail.defaultProps = {
