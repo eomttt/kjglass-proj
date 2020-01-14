@@ -6,29 +6,44 @@ import PropTypes from 'prop-types';
 
 import { isMobile } from '../../styles/style';
 
+const Table = styled.div`
+    width: inherit;
+    display: flex;
+    border: 1px solid black;
+    min-height: ${(props) => (props.isMenu ? '30px' : '70px')};
+    font-weight: ${(props) => (props.isMenu ? 'bold' : '')}; 
+`;
+
 const Container = styled.div`
-    margin-bottom: 10px;
     display: flex;
     width: 100%;
-    height: ${(props) => (props.isMenu ? '30px' : '')};
     background-color: ${(props) => (props.isMenu ? '#8080804d' : 'transparent')};
+    ${Table}:nth-child(3n+1) {
+        border-right: 0;
+        min-width: 20%;
+    }
+    ${Table}:nth-child(3n+2) {
+        border-right: 0;
+        min-width: 40%;
+    }
+    ${Table}:nth-child(3n) {
+        min-width: 38%;
+    }
 `;
 
 const Number = styled.div`
-    min-width: 20%;
     margin: auto 0;
     padding-left: 1%;
 `;
 
 const Content = styled.div`
-    min-width: 40%;
     margin: auto 0;
     padding-left: 1%;
 `;
 
 const InputContainer = styled.div`
-    min-width: 38%;
     display: flex;
+    width: 100%;
 `;
 
 const InputContent = styled.div`
@@ -73,34 +88,41 @@ const ShopItemDetailInfo = ({
     content, number, onChangeInputCount, onClickAddBascket, isMenu,
 }) => (
     <Container isMenu={isMenu}>
-        <Number>
-            {number}
-        </Number>
-        <Content>
-            {content}
-        </Content>
-        <InputContainer>
-            <InputContent isMenu={isMenu}>
-                {
-                    isMenu
-                        ? (
-                            <div>
-                                {'수량'}
-                            </div>
-                        )
-                        : (
-                            <>
-                                <input onChange={onChangeInputCount} placeholder={0} type="number" min="0" />
-                                <ButtonContainer onClick={onClickAddBascket}>
-                                    <div>
-                                        {'장바구니'}
-                                    </div>
-                                </ButtonContainer>
-                            </>
-                        )
-                }
-            </InputContent>
-        </InputContainer>
+        <Table isMenu={isMenu}>
+            <Number>
+                {number}
+            </Number>
+        </Table>
+        <Table isMenu={isMenu}>
+            <Content>
+                {content}
+            </Content>
+        </Table>
+        <Table isMenu={isMenu}>
+            <InputContainer>
+                <InputContent isMenu={isMenu}>
+                    {
+                        isMenu
+                            ? (
+                                <div>
+                                    {'수량'}
+                                </div>
+                            )
+                            : (
+                                <>
+                                    <input onChange={onChangeInputCount} placeholder={0} type="number" min="0" />
+                                    <ButtonContainer onClick={onClickAddBascket}>
+                                        <div>
+                                            {'장바구니'}
+                                        </div>
+                                    </ButtonContainer>
+                                </>
+                            )
+                    }
+                </InputContent>
+            </InputContainer>
+        </Table>
+
     </Container>
 );
 
