@@ -34,16 +34,22 @@ const Container = styled.div`
 const Number = styled.div`
     margin: auto 0;
     padding-left: 1%;
+    display: inline-block;
 `;
 
 const Content = styled.div`
     margin: auto 0;
     padding-left: 1%;
+    display: inline-block;
 `;
 
 const InputContainer = styled.div`
     display: flex;
     width: 100%;
+`;
+
+const InputMenuText = styled.div`
+    padding-right: 5%;
 `;
 
 const InputContent = styled.div`
@@ -57,7 +63,8 @@ const InputContent = styled.div`
         text-align: center;
         width: 40px;
         height: 20px;
-        margin: auto 0;
+        padding-right: 5%;
+        margin: auto;
         ${isMobile} {
             width: 20px;
         }
@@ -73,6 +80,7 @@ const ButtonContainer = styled.div`
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
+    margin-right: 5%;
     max-height: 20px;
     &: active {
         box-shadow: none;
@@ -80,7 +88,7 @@ const ButtonContainer = styled.div`
         margin-right: -1px;
     }
     & div {
-        margin: auto;
+        margin: auto 5%;
     }
 `;
 
@@ -104,9 +112,9 @@ const ShopItemDetailInfo = ({
                     {
                         isMenu
                             ? (
-                                <div>
+                                <InputMenuText>
                                     {'수량'}
-                                </div>
+                                </InputMenuText>
                             )
                             : (
                                 <>

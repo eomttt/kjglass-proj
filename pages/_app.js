@@ -14,6 +14,8 @@ import AppLayout from '../components/AppLayout';
 
 import FirebaseConfig from '../firebase.config';
 
+import glassJSON from '../dummy/glassItem';
+
 const bascketStore = new BascketStore();
 const itemsStore = new ItemsStore();
 
@@ -22,9 +24,8 @@ const App = ({ Component, pageProps }) => {
         firebase.initializeApp(FirebaseConfig);
         const dataBase = firebase.database();
         const expendableItems = await dataBase.ref('/expendables').once('value');
-        const glssItems = await dataBase.ref('/glass').once('value');
 
-        itemsStore.setItems(glssItems.val(), expendableItems.val());
+        itemsStore.setItems(glassJSON, expendableItems.val());
     };
 
     useEffect(() => {
