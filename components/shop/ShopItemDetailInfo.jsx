@@ -35,12 +35,14 @@ const Number = styled.div`
     margin: auto 0;
     padding-left: 1%;
     display: inline-block;
+    width: 100%;
 `;
 
 const Content = styled.div`
     margin: auto 0;
     padding-left: 1%;
     display: inline-block;
+    width: 100%;
 `;
 
 const InputContainer = styled.div`
@@ -49,7 +51,8 @@ const InputContainer = styled.div`
 `;
 
 const InputMenuText = styled.div`
-    padding-right: 5%;
+    padding-left: 5%;
+    white-space: nowrap;
 `;
 
 const InputContent = styled.div`
@@ -58,13 +61,18 @@ const InputContent = styled.div`
     margin-bottom: ${(props) => (props.isMenu ? 'auto' : '0')};
     margin-left: 0;
     display: flex;
+`;
+
+const InputDetail = styled.div`
+    display: flex;
+    width: 100%;
     & input {
         font-size: 16px;
         text-align: center;
         width: 40px;
         height: 20px;
         padding-right: 5%;
-        margin: auto;
+        margin: auto auto auto 5%;
         ${isMobile} {
             width: 20px;
         }
@@ -76,21 +84,16 @@ const ButtonContainer = styled.div`
     border: 1px solid black;
     padding: 5px;
     box-shadow: 1px 1px black;
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: 5%;
+    margin: auto 5% auto auto;
     max-height: 20px;
+    white-space: nowrap;
     &: active {
         box-shadow: none;
         margin-left: 1px;
         margin-right: -1px;
     }
-    & div {
-        margin: auto 5%;
-    }
 `;
+
 
 const ShopItemDetailInfo = ({
     content, number, onChangeInputCount, onClickAddBascket, isMenu,
@@ -117,14 +120,12 @@ const ShopItemDetailInfo = ({
                                 </InputMenuText>
                             )
                             : (
-                                <>
+                                <InputDetail>
                                     <input onChange={onChangeInputCount} placeholder={0} type="number" min="0" />
                                     <ButtonContainer onClick={onClickAddBascket}>
-                                        <div>
-                                            {'장바구니'}
-                                        </div>
+                                        {'장바구니'}
                                     </ButtonContainer>
-                                </>
+                                </InputDetail>
                             )
                     }
                 </InputContent>
