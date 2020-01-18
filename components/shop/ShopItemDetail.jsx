@@ -116,7 +116,7 @@ const ShopItemDetail = ({
         <Container>
             <DetailContent>
                 <PrimaryImage>
-                    <img src={image} alt={'Primay'} />
+                    <img src={`${image}?70x70`} alt={'Primay'} />
                 </PrimaryImage>
                 <ProductContent>
                     <ProductTitle>

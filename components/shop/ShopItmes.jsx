@@ -119,7 +119,6 @@ const InputBoxContainer = styled.div`
 const ShopItems = ({
     products, onClickProduct,
     isSortByTitle, sortByTitle,
-    isSortByClassify, sortByClassify,
     findByText, setInitItems,
 }) => {
     const [inputText, setInputText] = useState('');
@@ -133,10 +132,6 @@ const ShopItems = ({
 
     const toggleSortByTitle = () => {
         sortByTitle();
-    };
-
-    const toggleSortByClassify = () => {
-        sortByClassify();
     };
 
     const onChangeText = (e) => {
@@ -186,13 +181,8 @@ const ShopItems = ({
                     <Number>
                         {'품번'}
                     </Number>
-                    <Classify onClick={toggleSortByClassify}>
+                    <Classify>
                         {'분류'}
-                        {
-                            isSortByClassify
-                                ? <img src={SortDescending} alt={'Descending icon'} />
-                                : <img src={SortAscending} alt={'Asceding'} />
-                        }
                     </Classify>
                     <Specifications>
                         {'품목수'}
@@ -201,9 +191,11 @@ const ShopItems = ({
             </MenuContent>
             {
                 products.map((product) => (
-                    <div key={product.id}>
-                        {
-                            product
+                    product
+                        && (
+                            <div key={product.id}>
+                                {
+                                    product
                             && (
                                 <Content onClick={() => onClickProduct(product.id)}>
                                     <Image>
@@ -225,9 +217,9 @@ const ShopItems = ({
                                     </Detail>
                                 </Content>
                             )
-                        }
-                    </div>
-
+                                }
+                            </div>
+                        )
                 ))
             }
         </Container>
@@ -239,8 +231,6 @@ ShopItems.propTypes = {
     onClickProduct: PropTypes.func.isRequired,
     sortByTitle: PropTypes.func.isRequired,
     isSortByTitle: PropTypes.bool.isRequired,
-    sortByClassify: PropTypes.func.isRequired,
-    isSortByClassify: PropTypes.bool.isRequired,
     findByText: PropTypes.func.isRequired,
     setInitItems: PropTypes.func.isRequired,
 };

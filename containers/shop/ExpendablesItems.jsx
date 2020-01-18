@@ -7,25 +7,34 @@ import useStore from '../../hooks/useStore';
 
 import ShopItems from './ShopItems';
 
-const ExpendablesItems = ({ productId }) => {
+const ExpendablesItems = ({ classifiedId, productId }) => {
     const { itemsStore } = useStore();
     const { items } = toJS(itemsStore);
 
     return (
         <>
             {
-                items
-                && <ShopItems shopId={'2'} products={items.expendables} productId={productId} />
+                items && items.expendables
+                && (
+                    <ShopItems
+                        shopId={'2'}
+                        products={items.expendables}
+                        classifiedId={classifiedId}
+                        productId={productId}
+                    />
+                )
             }
         </>
     );
 };
 
 ExpendablesItems.propTypes = {
+    classifiedId: PropTypes.string,
     productId: PropTypes.string,
 };
 
 ExpendablesItems.defaultProps = {
+    classifiedId: null,
     productId: null,
 };
 

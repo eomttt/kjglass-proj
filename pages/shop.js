@@ -14,7 +14,7 @@ import DownloadCatalog from '../containers/shop/DownloadCatalog';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
-const Shop = ({ id, productId }) => {
+const Shop = ({ id, classifiedId, productId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
         text: '글라스',
         id: 1,
@@ -72,8 +72,8 @@ const Shop = ({ id, productId }) => {
                         sideBarItems={sideBarItems}
                         clickSideItem={clickSideItem}
                     />
-                    {(!id || id === '1') && <GlassItems productId={productId} />}
-                    {id === '2' && <ExpendablesItems productId={productId} />}
+                    {(!id || id === '1') && <GlassItems classifiedId={classifiedId} productId={productId} />}
+                    {id === '2' && <ExpendablesItems classifiedId={classifiedId} productId={productId} />}
                     {id === '3' && <DownloadCatalog productId={productId} />}
                     {/* {id === '4' && <Safety productId={productId} />} */}
                 </ViewContent>
@@ -85,16 +85,19 @@ const Shop = ({ id, productId }) => {
 
 Shop.getInitialProps = async (context) => ({
     id: context.query.id,
+    classifiedId: context.query.classifiedId,
     productId: context.query.productId,
 });
 
 Shop.propTypes = {
     id: PropTypes.string,
+    classifiedId: PropTypes.string,
     productId: PropTypes.string,
 };
 
 Shop.defaultProps = {
     id: null,
+    classifiedId: null,
     productId: null,
 };
 

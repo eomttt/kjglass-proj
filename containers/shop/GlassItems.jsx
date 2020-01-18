@@ -7,25 +7,34 @@ import useStore from '../../hooks/useStore';
 
 import ShopItems from './ShopItems';
 
-const GlassItems = ({ productId }) => {
+const GlassItems = ({ classifiedId, productId }) => {
     const { itemsStore } = useStore();
     const { items } = toJS(itemsStore);
 
     return (
         <>
             {
-                items.glasses
-                && <ShopItems shopId={'1'} products={items.glasses} productId={productId} />
+                items && items.glasses
+                && (
+                    <ShopItems
+                        shopId={'1'}
+                        products={items.glasses}
+                        classifiedId={classifiedId}
+                        productId={productId}
+                    />
+                )
             }
         </>
     );
 };
 
 GlassItems.propTypes = {
+    classifiedId: PropTypes.string,
     productId: PropTypes.string,
 };
 
 GlassItems.defaultProps = {
+    classifiedId: null,
     productId: null,
 };
 
