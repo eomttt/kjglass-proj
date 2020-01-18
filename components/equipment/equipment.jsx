@@ -98,7 +98,7 @@ const Equipment = () => (
             </div>
         </Content>
         <Image>
-            <img alt={'table'} src={'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/equipments%2Ftable.png?alt=media&token=f01579b4-1dae-4115-adbd-70e3a9525545'} />
+            <img alt={'table'} src={'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/clean/clean_1.png'} />
         </Image>
         <Content>
             <div>
@@ -109,7 +109,7 @@ const Equipment = () => (
             </div>
         </Content>
         <InfoImage>
-            <img alt={'info'} src={'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/equipments%2Fequipment-info.png?alt=media&token=a969a306-cea0-4377-b715-1c30d80328c3'} />
+            <img alt={'info'} src={'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/clean/clean_2.png'} />
         </InfoImage>
         <Title>
             {'실험실 초자기구 세척방법'}
