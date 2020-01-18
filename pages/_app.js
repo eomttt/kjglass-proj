@@ -6,15 +6,12 @@ import PropTypes from 'prop-types';
 import * as firebase from 'firebase/app';
 import 'firebase/database';
 
-
 import BascketStore from '../stores/bascket';
 import ItemsStore from '../stores/items';
 
 import AppLayout from '../components/AppLayout';
 
 import FirebaseConfig from '../firebase.config';
-
-import glassJSON from '../dummy/glassItem';
 
 const bascketStore = new BascketStore();
 const itemsStore = new ItemsStore();
@@ -24,8 +21,9 @@ const App = ({ Component, pageProps }) => {
         firebase.initializeApp(FirebaseConfig);
         const dataBase = firebase.database();
         const expendableItems = await dataBase.ref('/expendables').once('value');
+        const glassItems = await dataBase.ref('/glass').once('value');
 
-        itemsStore.setItems(glassJSON, expendableItems.val());
+        itemsStore.setItems(glassItems.val(), expendableItems.val());
     };
 
     useEffect(() => {

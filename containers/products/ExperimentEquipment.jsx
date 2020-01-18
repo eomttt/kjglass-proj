@@ -9,7 +9,7 @@ import Products from '../../components/products/Products';
 // Container
 import ProductDetail from './ProductDetail';
 
-import experimentDummy from '../../dummy/experimentEquipment';
+import experimentDummy from '../../data/experimentEquipment';
 
 const ExperimentEquip = ({ productId }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);

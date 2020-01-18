@@ -1,7 +1,8 @@
 const items = [{
     id: '1',
     images: [
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-1%3A1.jpg?alt=media&token=e6cded15-3b38-4d38-942f-920f0bfb254d',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_1_1.jpg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_1_2.jpg',
     ],
     title: '핵산 회수 장치',
     content: `반응물에 핵산을 회수하는 장치 입니다.   
@@ -14,9 +15,10 @@ const items = [{
 }, {
     id: '2',
     images: [
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-2%3A1.jpeg?alt=media&token=265a877f-270e-42b1-9562-b154671f23ee',
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-2%3A2.jpeg?alt=media&token=f88c19d9-9f54-4ce8-97dd-4b072137935b',
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-2%3A3.jpeg?alt=media&token=060757f2-ad2b-493e-a5c3-38e2b711ecaf',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_2_1.jpeg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_2_2.jpeg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_2_3.jpeg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_2_4.jpeg',
     ],
     title: 'Vacuum Mainfold 2',
     content: '',
@@ -26,8 +28,8 @@ const items = [{
 }, {
     id: '3',
     images: [
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-3-1.jpg?alt=media&token=b67997c9-cead-4fe8-af3a-f1c0eea2e611',
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-3-2.jpeg?alt=media&token=6cdc4b92-9ff4-464f-baed-b31adeb7120e',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_3_1.jpg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_3_2.jpeg',
     ],
     title: '10리터 이중 자켓 하부 써스 메쉬 필터 탈부착 후렌지 타입',
     content: '하부 후렌지 사이에 써스 메쉬를 탈 부착 가능 하게 제작을 한것입니다.',
@@ -37,8 +39,9 @@ const items = [{
 }, {
     id: '4',
     images: [
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-4-1.jpg?alt=media&token=1709d0f3-f020-4458-8470-8321c69b7a82',
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-4-2.jpg?alt=media&token=834469f5-dbc4-4f3e-896d-7d4b35f8bf7a',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_4_1.jpg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_4_2.jpg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_4_3.jpg',
     ],
     title: '10L Filtering Reacter System',
     content: '하부에 Glass Filter를 넣어 반응 후 용매를 진공으로 빼고 다른 용액을 넣어 교반작업 하는것을 반목할수 있음.',
@@ -48,7 +51,9 @@ const items = [{
 }, {
     id: '5',
     images: [
-        'https://firebasestorage.googleapis.com/v0/b/kjglass-60495.appspot.com/o/refactorPlan-image-5-1.jpeg?alt=media&token=a8185f98-9d3c-47e0-8112-282d37579970',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_5_1.jpeg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_5_2.jpeg',
+        'https://kjglass-images.s3.ap-northeast-2.amazonaws.com/refactor/refactor_5_3.jpeg,'
     ],
     title: 'Glass Manifold',
     content: 'Gas와 Vacuum  2라인을 함께쓸수 있는 유리 메니폴드립니다.',

@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 
 import GlassProcessingsComp from '../../components/equipment/glassProcessings';
 
-import glassProcessingsInfo from '../../dummy/glassProcessing';
+import glassProcessingsInfo from '../../data/glassProcessing';
 
 const GlassProcessings = () => {
     const [glassProcessings] = useState(glassProcessingsInfo);

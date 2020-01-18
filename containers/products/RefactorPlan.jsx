@@ -9,7 +9,7 @@ import Products from '../../components/products/Products';
 // Container
 import ProductDetail from './ProductDetail';
 
-import refactorPlanDummy from '../../dummy/refactorPlan';
+import refactorPlanDummy from '../../data/refactorPlan';
 
 const RefactorPlan = ({ productId }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);

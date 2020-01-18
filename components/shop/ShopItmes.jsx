@@ -207,7 +207,7 @@ const ShopItems = ({
                             && (
                                 <Content onClick={() => onClickProduct(product.id)}>
                                     <Image>
-                                        <img src={product.image} alt="product" />
+                                        <img src={`${product.image}?s=52x52`} alt="product" />
                                     </Image>
                                     <Detail>
                                         <Title>

@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react';
 
 import GlassInfoComp from '../../components/equipment/glassInfo';
 
-import glassInfoDummy from '../../dummy/glassInfo';
+import glassInfoDummy from '../../data/glassInfo';
 
 const GlassInfo = () => {
     const [glassInfos] = useState(glassInfoDummy);

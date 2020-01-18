@@ -4,7 +4,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Container = styled.div`
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
     display: inline-block;
     width: 170px;
     cursor: pointer;

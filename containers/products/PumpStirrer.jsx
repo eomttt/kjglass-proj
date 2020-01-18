@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Products from '../../components/products/Products';
 import ProductDetail from '../../components/products/ProductDetail';
 
-import pumpStirrerDummy from '../../dummy/pumpStirrer';
+import pumpStirrerDummy from '../../data/pumpStirrer';
 
 const PumpStirrer = ({ productId }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);

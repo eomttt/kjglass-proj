@@ -5,7 +5,7 @@ import Router from 'next/router';
 import NoticesComp from '../../components/customercenter/Notices';
 import NoticeComp from '../../components/customercenter/Notice';
 
-import dummy from '../../dummy/notices';
+import dummy from '../../data/notices';
 
 const Notice = ({ noticeId }) => {
     const [notices] = useState(dummy);

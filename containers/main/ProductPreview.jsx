@@ -4,7 +4,7 @@ import Router from 'next/router';
 import ProductPreviewTitle from '../../components/main/ProductPreviewTitle';
 import ProductList from '../../components/main/ProductList';
 
-import dummy from '../../dummy/productPreview';
+import dummy from '../../data/productPreview';
 
 const ProductPreview = () => {
     const clickDownload = () => {

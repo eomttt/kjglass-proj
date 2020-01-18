@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Products from '../../components/products/Products';
 import ProductDetail from '../../components/products/ProductDetail';
 
-import safetyDummy from '../../dummy/safety';
+import safetyDummy from '../../data/safety';
 
 const Safety = ({ productId }) => {
     const [selectedProduct, setSelectedProduct] = useState(null);

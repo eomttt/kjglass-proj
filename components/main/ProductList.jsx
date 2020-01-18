@@ -11,14 +11,14 @@ const Container = styled.div`
     display: flex;
     width: 100%;
     background-color: ${lightGrayColor};
-    overflow: scroll;
+    overflow: hidden;
     flex-direction: row;
 `;
 
 const Content = styled.div`
     white-space: nowrap;
-    overflow: scroll;
-    margin: 15px auto;
+    overflow-x: scroll;
+    margin: 10px auto;
 `;
 
 const ProductList = ({ products }) => (

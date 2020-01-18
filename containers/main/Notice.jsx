@@ -4,7 +4,7 @@ import Router from 'next/router';
 import ItemTitle from '../../components/main/ItemTitle';
 import NoticeItems from '../../components/main/NoticeItems';
 
-import dummy from '../../dummy/notices';
+import dummy from '../../data/notices';
 
 const Notice = () => {
     const onClickTitle = useCallback(() => {

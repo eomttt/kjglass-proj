@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Catalogs from '../../components/shop/Catalogs';
 
-import dummyItems from '../../dummy/catalogs';
+import dummyItems from '../../data/catalogs';
 
 const DownloadCatalog = () => {
     const [products] = useState(dummyItems);
