@@ -1,19 +1,16 @@
-import { observable, action, toJS } from 'mobx';
+import { observable, action, toJS, extendObservable } from 'mobx';
 
 // import glassDummy from '../dummy/glassItem';
 // import expendablesItemDummy from '../dummy/expendablesItem';
 
 export default class ItemsStore {
-    @observable items = {
-        glasses: [],
-        expendables: [],
-    }
+    @observable glasses = [];
+
+    @observable expendables = [];
 
     @action setItems = (glasses, expendables) => {
-        this.items = {
-            glasses,
-            expendables,
-        };
+        this.glasses = [...glasses];
+        this.expendables = [...expendables];
     }
 
     @action getItemInfo = (params) => {
@@ -21,17 +18,29 @@ export default class ItemsStore {
             type, itemId, specificationId,
         } = params;
 
-        const selectedItems = toJS(this.items)[type];
-        const selectedItem = selectedItems && selectedItems.filter((item) => {
-            return item.id === itemId;
-        })[0];
-        const selectedSpecificItem = selectedItem.specification.filter((specificationItem) => {
-            return specificationItem.id === specificationId;
-        })[0];
+        let selectedItems = [];
 
-        return {
-            selectedItem,
-            selectedSpecificItem,
-        };
+        if (type === 'glasses') {
+            selectedItems = [...toJS(this.glasses)];
+        } else {
+            selectedItems = [...toJS(this.expendables)];
+        }
+
+        if (selectedItems.length > 0) {
+            const selectedItem = selectedItems && selectedItems.filter((item) => {
+                if (item) {
+                    return item.id === itemId;
+                }
+                return false;
+            })[0];
+            const selectedSpecificItem = selectedItem && selectedItem.specification.filter((specificationItem) => {
+                return specificationItem.id === specificationId;
+            })[0];
+            return {
+                selectedItem,
+                selectedSpecificItem,
+            };
+        }
+        return null;
     }
 }

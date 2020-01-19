@@ -36,7 +36,7 @@ const PrimaryImage = styled.div`
     }
     ${isMobile} {
         width: 100%;
-        margin-top: 70px;
+        margin-top: 10px;
         padding: 0;
         display: block;
         text-align: center;
@@ -49,6 +49,9 @@ const PrimaryImage = styled.div`
 const ProductContent = styled.div`
     width: 65%;
     padding-top: 15px;
+    ${isMobile} {
+        width: 100%;
+    }
 `;
 
 const ProductTable = styled.div`
@@ -92,11 +95,7 @@ const ProductTitle = styled.div`
     margin-bottom: 20px;
     color: ${subPointColor};
     ${isMobile} {
-        width: 100%;
-        text-align: left;
-        position: absolute;
-        top: 10px;
-        margin-bottom: 0;
+        display: none;
     }
 `;
 
@@ -109,12 +108,23 @@ const DetailContentOptions = styled.div`
 
 `;
 
+const ProductTitleMobile = styled.div`
+    display: none;
+    ${isMobile} {
+        color: ${subPointColor};
+        display: flex;
+    }
+`;
+
 const ShopItemDetail = ({
-    type, id, image, title, content, specification, tableItems,
+    type, id, image, title, content, specification, tableItems, classifiedId,
 }) => (
     <>
         <Container>
             <DetailContent>
+                <ProductTitleMobile>
+                    {title}
+                </ProductTitleMobile>
                 <PrimaryImage>
                     <img src={`${image}?70x70`} alt={'Primay'} />
                 </PrimaryImage>
@@ -156,6 +166,7 @@ const ShopItemDetail = ({
                             itemType={type}
                             itemId={id}
                             specificationItem={item}
+                            classifiedId={classifiedId}
                         />
                     ))
                 }
@@ -172,6 +183,7 @@ ShopItemDetail.propTypes = {
     content: PropTypes.array,
     specification: PropTypes.array,
     tableItems: PropTypes.array,
+    classifiedId: PropTypes.string.isRequired,
 };
 
 ShopItemDetail.defaultProps = {

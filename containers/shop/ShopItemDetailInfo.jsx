@@ -7,7 +7,7 @@ import useStore from '../../hooks/useStore';
 
 import ShopItemDetailInfoComp from '../../components/shop/ShopItemDetailInfo';
 
-const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem }) => {
+const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem, classifiedId }) => {
     const { bascketStore } = useStore();
     const [count, setCount] = useState(0);
 
@@ -25,6 +25,7 @@ const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem }) =>
             itemId,
             specificationItemId: specificationItem.id,
             count,
+            classifiedId,
         });
         alert('장바구니에 저장되었습니다. 장바구니를 통해 확인해주세요');
     };
@@ -43,6 +44,7 @@ ShopItemDetailInfo.propTypes = {
     itemType: PropTypes.string.isRequired,
     itemId: PropTypes.string.isRequired,
     specificationItem: PropTypes.object.isRequired,
+    classifiedId: PropTypes.string.isRequired,
 };
 
 export default ShopItemDetailInfo;

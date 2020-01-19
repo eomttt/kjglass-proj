@@ -44,10 +44,10 @@ const ProductSearch = ({ openGlass, openConsumer }) => (
     <Container>
         <Left onClick={openGlass}>
             <Title>
-                {'글라스'}
+                {'광진이화학 제품군'}
             </Title>
             <Content>
-                {'광진이화학의 글라스 제품을 검색 할 수 있는 페이지로 이동합니다.'}
+                {'광진이화학의 제품을 검색 할 수 있는 페이지로 이동합니다.'}
             </Content>
             <Button>
                 {'더 보기'}
@@ -58,7 +58,7 @@ const ProductSearch = ({ openGlass, openConsumer }) => (
                 {'소모품'}
             </Title>
             <Content>
-                {'광진이화학의 소모품 제품을 검색 할 수 있는 페이지로 이동합니다.'}
+                {'기타 제품을 검색 할 수 있는 페이지로 이동합니다.'}
             </Content>
             <Button>
                 {'더 보기'}

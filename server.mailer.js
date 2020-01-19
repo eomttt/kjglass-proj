@@ -17,7 +17,7 @@ const translateMail = (data) => new Promise((resolve, reject) => {
     const {
         title, company, team, name, email, number, faxNum, content,
     } = contactData;
-    const { glass, expendable } = item;
+    const { glass, expendables } = item;
 
     const glassInfoItems = glass.map((glassData) => {
         const { url, count, selectedSpecificItem } = glassData;
@@ -27,7 +27,7 @@ const translateMail = (data) => new Promise((resolve, reject) => {
         );
     });
 
-    const expendableItems = expendable.map((expendableData) => {
+    const expendableItems = expendables.map((expendableData) => {
         const { url, count, selectedSpecificItem } = expendableData;
         const { number: catalogNumber } = selectedSpecificItem;
         return (

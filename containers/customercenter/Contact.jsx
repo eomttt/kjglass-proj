@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
 
@@ -10,7 +10,12 @@ import ContactComp from '../../components/customercenter/Contact';
 
 const Contact = () => {
     const { bascketStore, itemsStore } = useStore();
+    const { glasses, expendables } = toJS(itemsStore);
     const { glassItems } = toJS(bascketStore);
+
+    useEffect(() => {
+        // Nothing. But to update component
+    }, [glasses, expendables]);
 
     const convertItem = (items, type) => items.map((item) => {
         const itemInfo = itemsStore.getItemInfo({
@@ -22,22 +27,27 @@ const Contact = () => {
         return {
             ...itemInfo,
             count: item.count,
-            url: `http://kjglass.shop/shop?id=${type === 'glasses' ? 1 : 2}&productId=${item.itemId}`,
+            url: `http://kjglass.shop/shop?id=${type === 'glasses' ? 1 : 2}&classifiedId=${itemInfo.selectedItem.classify}&productId=${item.itemId}`,
         };
     });
 
-    const submitContact = (contactData) => {
+    const submitContact = async (contactData) => {
         const { email, number } = contactData;
 
         if (email || number) {
             alert('장바구니에 담긴 정보가 함께 전송 됩니다.');
-            axios.post('/translate-mail', {
-                contactData,
-                item: {
-                    glass: convertItem(glassItems.glass, 'glasses'),
-                    expendable: convertItem(glassItems.expendable, 'expendables'),
-                },
-            });
+            try {
+                await axios.post('/translate-mail', {
+                    contactData,
+                    item: {
+                        glass: convertItem(glassItems.glass, 'glasses'),
+                        expendables: convertItem(glassItems.expendables, 'expendables'),
+                    },
+                });
+                alert('성공적으로 전송 되었습니다.');
+            } catch (error) {
+                alert(`에러가 발생 하였습니다${error}`);
+            }
         } else {
             alert('이메일 또는 전화번호를 남겨주세요.');
         }
@@ -50,7 +60,8 @@ const Contact = () => {
     return (
         <ContactComp
             submitContact={submitContact}
-            openKakao={openKakao}/>
+            openKakao={openKakao}
+        />
     );
 };
 

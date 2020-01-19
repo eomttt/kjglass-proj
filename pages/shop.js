@@ -16,11 +16,11 @@ import { ViewContainer, ViewContent } from '../styles/style';
 
 const Shop = ({ id, classifiedId, productId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
-        text: '글라스',
+        text: '광진이화학 제품군',
         id: 1,
         clicked: false,
     }, {
-        text: '소모품',
+        text: '기타 제품군',
         id: 2,
         clicked: false,
     }, {

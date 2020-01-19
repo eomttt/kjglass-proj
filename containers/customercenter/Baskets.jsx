@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Router from 'next/router';
 import { toJS } from 'mobx';
 import { observer } from 'mobx-react';
@@ -9,7 +9,12 @@ import BasketsComp from '../../components/customercenter/Baskets';
 
 const Baskets = () => {
     const { bascketStore, itemsStore } = useStore();
+    const { glasses, expendables } = toJS(itemsStore);
     const { glassItems } = toJS(bascketStore);
+    
+    useEffect(() => {
+        // Nothing. But to update component
+    }, [glasses, expendables]);
 
     const convertItem = (items, type) => items.map((item) => {
         const itemInfo = itemsStore.getItemInfo({
@@ -18,11 +23,17 @@ const Baskets = () => {
             specificationId: item.specificationItemId,
         });
 
+        if (!itemInfo) {
+            return null;
+        }
+
         return {
             ...itemInfo,
             index: `${item.itemId}${item.specificationItemId}`,
             count: item.count,
         };
+    }).filter((item) => {
+        return !!item;
     });
 
     const openItem = (type, itemInfo) => {
@@ -30,6 +41,7 @@ const Baskets = () => {
             pathname: '/shop',
             query: {
                 id: `${type}`,
+                classifiedId: `${itemInfo.selectedItem.classify}`,
                 productId: `${itemInfo.selectedItem.id}`,
             },
         });
@@ -49,7 +61,7 @@ const Baskets = () => {
         && (
             <BasketsComp
                 glassItems={convertItem(glassItems.glass, 'glasses')}
-                expendableItems={convertItem(glassItems.expendable, 'expendables')}
+                expendableItems={convertItem(glassItems.expendables, 'expendables')}
                 onClickRemove={onClickRemove}
                 openItem={openItem}
             />

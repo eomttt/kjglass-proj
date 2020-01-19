@@ -3,23 +3,25 @@ import { observable, action, toJS } from 'mobx';
 export default class BaskestStore {
   @observable glassItems = {
       glass: [],
-      expendable: [],
+      expendables: [],
   };
 
   @action initBasket = () => {
       const glassLocalStorageItems = JSON.parse(localStorage.getItem('glass'));
-      const expendableLocalStorageItems = JSON.parse(localStorage.getItem('expendable'));
+      const expendableLocalStorageItems = JSON.parse(localStorage.getItem('expendables'));
 
       this.glassItems = {
           glass: glassLocalStorageItems || [],
-          expendable: expendableLocalStorageItems || [],
+          expendables: expendableLocalStorageItems || [],
       };
   }
 
   @action addBasket = (params) => {
       const {
-          type, itemId, count, specificationItemId,
+          type, itemId, count, specificationItemId, classifiedId,
       } = params;
+
+      console.log('type', type);
 
       const findedItem = this.glassItems[type] && this.glassItems[type].filter((item) => {
           const toJSItem = toJS(item);
@@ -42,6 +44,7 @@ export default class BaskestStore {
                           itemId: item.itemId,
                           count: Number(item.count) + Number(count),
                           specificationItemId: item.specificationItemId,
+                          classifiedId,
                       };
                   }
               }
@@ -52,6 +55,7 @@ export default class BaskestStore {
               itemId,
               count,
               specificationItemId,
+              classifiedId,
           });
       }
 

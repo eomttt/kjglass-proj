@@ -21,42 +21,49 @@ const Title = styled.div`
     color: ${subPointColor};
 `;
 
-const Baskets = ({ glassItems, expendableItems, openItem, onClickRemove }) => (
-    <Container>
-        <Content>
-            <Title>
-                {'글라스'}
-            </Title>
-            {
-                glassItems.map((glassItem) => (
-                    <div onClick={() => openItem('1', glassItem)} key={`${glassItem.index}glasses`}>
-                        <Basket
-                            type={'glasses'}
-                            item={glassItem}
-                            onClickRemove={onClickRemove}
-                        />
-                    </div>
-                ))
-            }
-        </Content>
-        <Content>
-            <Title>
-                {'소모품'}
-            </Title>
-            {
-                expendableItems.map((expendableItem) => (
-                    <div onClick={() => openItem('2', expendableItem)} key={`${expendableItem.index}expendables`}>
-                        <Basket
-                            type={'expendables'}
-                            item={expendableItem}
-                            onClickRemove={onClickRemove}
-                        />
-                    </div>
-                ))
-            }
-        </Content>
-    </Container>
-);
+const Baskets = ({
+    glassItems, expendableItems, openItem, onClickRemove,
+}) => {
+    // console.log('glassItems', glassItems);
+    // console.log('expendableItems', expendableItems);
+
+    return (
+        <Container>
+            <Content>
+                <Title>
+                    {'광진이화학 제품군'}
+                </Title>
+                {
+                    glassItems && glassItems.length > 0 && glassItems.map((glassItem) => (
+                        <div onClick={() => openItem('1', glassItem)} key={`${glassItem.index}glasses`}>
+                            <Basket
+                                type={'glasses'}
+                                item={glassItem}
+                                onClickRemove={onClickRemove}
+                            />
+                        </div>
+                    ))
+                }
+            </Content>
+            <Content>
+                <Title>
+                    {'기타 제품군'}
+                </Title>
+                {
+                    expendableItems && expendableItems.length > 0 && expendableItems.map((expendableItem) => (
+                        <div onClick={() => openItem('2', expendableItem)} key={`${expendableItem.index}expendables`}>
+                            <Basket
+                                type={'expendables'}
+                                item={expendableItem}
+                                onClickRemove={onClickRemove}
+                            />
+                        </div>
+                    ))
+                }
+            </Content>
+        </Container>
+    );
+};
 
 Baskets.propTypes = {
     glassItems: PropTypes.array.isRequired,

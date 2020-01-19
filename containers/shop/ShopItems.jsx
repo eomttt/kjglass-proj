@@ -147,6 +147,7 @@ const ShopItems = ({
                     content={selectedProduct.content}
                     specification={selectedProduct.specification}
                     tableItems={selectedProduct.tableItems || []}
+                    classifiedId={selectedProduct.classify}
                 />
             );
         }
@@ -164,6 +165,7 @@ const ShopItems = ({
         }
         return (
             <ShopItemsByClassified
+                shopId={shopId}
                 products={productsByClassify}
                 clickClassify={clickClassify}
             />

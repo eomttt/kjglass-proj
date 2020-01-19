@@ -14,7 +14,17 @@ const Title = styled.div`
     text-align: left;
     font-size: 20px;
     margin-left: 10px;
+    margin-bottom: 10px;
+    color: ${subPointColor}
+`;
+
+const SubTitle = styled.div`
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10px;
     margin-bottom: 50px;
+    color: ${subPointColor};
 `;
 
 const Content = styled.div`
@@ -29,11 +39,14 @@ const Content = styled.div`
     }
 `;
 
-const ShopItemsByClassified = ({ products, clickClassify }) => (
+const ShopItemsByClassified = ({ shopId, products, clickClassify }) => (
     <Container>
         <Title>
-            {'분류를 선택해 주세요.'}
+            {shopId === '1' ? '광진이화학 제품군' : '기타 제품군' }
         </Title>
+        <SubTitle>
+            {'분류를 선택해 주세요.'}
+        </SubTitle>
         {
             Object.keys(products).map((classify) => (
                 <Content key={classify} onClick={() => clickClassify(classify)}>
@@ -45,6 +58,7 @@ const ShopItemsByClassified = ({ products, clickClassify }) => (
 );
 
 ShopItemsByClassified.propTypes = {
+    shopId: PropTypes.string.isRequired,
     products: PropTypes.object.isRequired,
     clickClassify: PropTypes.func.isRequired,
 };

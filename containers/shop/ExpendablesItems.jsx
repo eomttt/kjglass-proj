@@ -9,16 +9,16 @@ import ShopItems from './ShopItems';
 
 const ExpendablesItems = ({ classifiedId, productId }) => {
     const { itemsStore } = useStore();
-    const { items } = toJS(itemsStore);
+    const { expendables } = toJS(itemsStore);
 
     return (
         <>
             {
-                items && items.expendables
+                expendables
                 && (
                     <ShopItems
                         shopId={'2'}
-                        products={items.expendables}
+                        products={expendables}
                         classifiedId={classifiedId}
                         productId={productId}
                     />
