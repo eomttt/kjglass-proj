@@ -33,7 +33,7 @@ const ShopItems = ({
             pathname: '/shop',
             query: {
                 id: shopId,
-                classifiedId: classify,
+                classifiedId: encodeURI(classify),
             },
         });
     }, [shopId, productsByClassify]);
@@ -46,7 +46,7 @@ const ShopItems = ({
             pathname: '/shop',
             query: {
                 id: shopId,
-                classifiedId,
+                classifiedId: encodeURI(classifiedId),
                 productId: selectedProductArr[0].id,
             },
         });
