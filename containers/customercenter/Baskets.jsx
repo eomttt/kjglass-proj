@@ -41,11 +41,10 @@ const Baskets = () => {
             pathname: '/shop',
             query: {
                 id: `${type}`,
-                classifiedId: `${itemInfo.selectedItem.classify}`,
+                classifiedId: encodeURI(`${itemInfo.selectedItem.classify}`),
                 productId: `${itemInfo.selectedItem.id}`,
             },
         });
-        // console.log('itemInfo', itemInfo);
     };
 
     const onClickRemove = (selectedItem, selectedSpecificItem) => {

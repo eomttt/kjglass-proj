@@ -85,7 +85,7 @@ const Shop = ({ id, classifiedId, productId }) => {
 
 Shop.getInitialProps = async (context) => ({
     id: context.query.id,
-    classifiedId: context.query.classifiedId,
+    classifiedId: decodeURI(context.query.classifiedId),
     productId: context.query.productId,
 });
 

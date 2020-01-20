@@ -27,7 +27,7 @@ const Contact = () => {
         return {
             ...itemInfo,
             count: item.count,
-            url: `http://kjglass.shop/shop?id=${type === 'glasses' ? 1 : 2}&classifiedId=${itemInfo.selectedItem.classify}&productId=${item.itemId}`,
+            url: `http://kjglass.shop/shop?id=${type === 'glasses' ? 1 : 2}&classifiedId=${encodeURI(itemInfo.selectedItem.classify)}&productId=${item.itemId}`,
         };
     });
 
