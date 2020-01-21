@@ -55,7 +55,7 @@ const ProductSearch = ({ openGlass, openConsumer }) => (
         </Left>
         <Right onClick={openConsumer}>
             <Title>
-                {'소모품'}
+                {'기타 제품군'}
             </Title>
             <Content>
                 {'기타 제품을 검색 할 수 있는 페이지로 이동합니다.'}
