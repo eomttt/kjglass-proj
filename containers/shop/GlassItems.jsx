@@ -10,7 +10,6 @@ import ShopItems from './ShopItems';
 const GlassItems = ({ classifiedId, productId }) => {
     const { itemsStore } = useStore();
     const { glasses } = toJS(itemsStore);
-
     return (
         <>
             {

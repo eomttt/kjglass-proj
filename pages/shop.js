@@ -83,11 +83,15 @@ const Shop = ({ id, classifiedId, productId }) => {
     );
 };
 
-Shop.getInitialProps = async (context) => ({
-    id: context.query.id,
-    classifiedId: decodeURI(context.query.classifiedId),
-    productId: context.query.productId,
-});
+Shop.getInitialProps = async (context) => {
+    const { query } = context;
+
+    return {
+        id: query.id,
+        classifiedId: query.classifiedId ? decodeURI(query.classifiedId) : null,
+        productId: query.productId,
+    };
+};
 
 Shop.propTypes = {
     id: PropTypes.string,

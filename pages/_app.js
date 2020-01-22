@@ -20,10 +20,16 @@ const App = ({ Component, pageProps }) => {
     const getDatas = async () => {
         firebase.initializeApp(FirebaseConfig);
         const dataBase = firebase.database();
-        const expendableItems = await dataBase.ref('/expendables').once('value');
-        const glassItems = await dataBase.ref('/glass').once('value');
-
-        itemsStore.setItems(glassItems.val(), expendableItems.val());
+        try {
+            const expendableItems = await dataBase.ref('/expendables').once('value');
+            const glassItems = await dataBase.ref('/glass').once('value');
+    
+            console.log('glassItems', glassItems.val());
+    
+            itemsStore.setItems(glassItems.val(), expendableItems.val());
+        } catch (error) {
+            console.log('Get data error', error);
+        }
     };
 
     useEffect(() => {
