@@ -3,30 +3,21 @@ import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 
-import * as firebase from 'firebase/app';
-import 'firebase/database';
-
 import BascketStore from '../stores/bascket';
 import ItemsStore from '../stores/items';
 
 import AppLayout from '../components/AppLayout';
 
-import FirebaseConfig from '../firebase.config';
+import getData from '../containers/Data';
 
 const bascketStore = new BascketStore();
 const itemsStore = new ItemsStore();
 
 const App = ({ Component, pageProps }) => {
     const getDatas = async () => {
-        firebase.initializeApp(FirebaseConfig);
-        const dataBase = firebase.database();
         try {
-            const expendableItems = await dataBase.ref('/expendables').once('value');
-            const glassItems = await dataBase.ref('/glass').once('value');
-    
-            console.log('glassItems', glassItems.val());
-    
-            itemsStore.setItems(glassItems.val(), expendableItems.val());
+            const { glasses, expendables } = getData();
+            itemsStore.setItems(glasses, expendables);
         } catch (error) {
             console.log('Get data error', error);
         }

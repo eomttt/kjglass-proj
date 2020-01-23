@@ -1,0 +1,1279 @@
+[ {
+  "classify" : "Oil[오일]",
+  "content" : [ "■ Polydimethylsiloxane Polymer", "■ 무색 무향의 열매체유로 사용 가능한 실리콘 오일", "■ 휘발성이 낮아 오랫동안 사용 가능함", "■ Dow Corning" ],
+  "id" : "1908",
+  "image" : "http://lklab.com/product_image/S-8357.jpg",
+  "specification" : [ {
+    "content" : "Silicon Oil 10CS 1kg",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "F200-10-1",
+    "number" : "O02-543-666"
+  }, {
+    "content" : "Silicon Oil 10CS 4kg",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "F200-10-4",
+    "number" : "O02-543-672"
+  }, {
+    "content" : "Silicon Oil 10CS 16KG",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "F200-10-16",
+    "number" : "O02-543-678"
+  }, {
+    "content" : "Silicon Oil 50CS 4Kg",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "F200-50-4",
+    "number" : "O02-543-680"
+  }, {
+    "content" : "Silicon Oil 50CS 16kg",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "F200-50-20",
+    "number" : "O02-543-682"
+  }, {
+    "content" : "Silicon Oil 100CS 1kg",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "F200-100-1",
+    "number" : "O02-543-684"
+  }, {
+    "content" : "Silicon Oil 100CS 4kg",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "F200-100-4",
+    "number" : "O02-543-692"
+  }, {
+    "content" : "Silicon Oil 100CS 20kg",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "F200-100-16",
+    "number" : "O02-543-700"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"169\">Cat. No</th>                 <th width=\"186\" scope=\"row\">Model</th>                 <th width=\"139\" scope=\"row\">내열온도</th>                 <th width=\"152\" scope=\"row\">점도(at 25℃)</th>                 <th width=\"152\" scope=\"row\" class=\"tdfin\">포장</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-543-666 </td>                  <td scope=\"row\">F200-10-1</td>                  <td rowspan=\"8\" class=\"trfin\" scope=\"row\">-40 ~ 150℃</td>                  <td rowspan=\"3\" scope=\"row\">10 CS</td>                  <td class=\"tdfin\" scope=\"row\">1 kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-543-672</td>                  <td scope=\"row\">F200-10-4</td>                  <td class=\"tdfin\" scope=\"row\">4 kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-543-678</td>                  <td scope=\"row\">F200-10-16</td>                  <td class=\"tdfin\" scope=\"row\">16 kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-543-680</td>                  <td scope=\"row\">F200-50-4</td>                  <td rowspan=\"2\" scope=\"row\">50 CS</td>                  <td class=\"tdfin\" scope=\"row\">4 kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-543-682</td>                  <td scope=\"row\">F200-50-16</td>                  <td class=\"tdfin\" scope=\"row\">16 kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-543-684</td>                  <td scope=\"row\">F200-100-1</td>                  <td class=\"trfin\" rowspan=\"3\" scope=\"row\">100 CS</td>                  <td class=\"tdfin\" scope=\"row\">1 kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-543-692</td>                  <td scope=\"row\">F200-100-4</td>                  <td class=\"tdfin\" scope=\"row\">4 kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O02-543-700</td>                  <td class=\"trfin\" scope=\"row\">F200-100-16</td>                  <td class=\"trfin2\" scope=\"row\">20 kg</td>                </tr>              </tbody></table>" ],
+  "title" : "Silicon Oil - Silicon Fluid (실리콘 오일)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oil[오일]",
+  "content" : [ "■ “Phenylmethyl Siloxane”의 고온용 열매체", "■ 무색, 무취, 투명한 저점도 고온용 실리콘 오일", "■ Dow Corning" ],
+  "id" : "1909",
+  "image" : "http://lklab.com/product_image/S-6333.jpg",
+  "specification" : [ {
+    "content" : "Silicon Oil High Temperature 내열온도 -40~232℃/점도(at 25℃) 125CS",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "CD550-1",
+    "number" : "O02-246-111"
+  }, {
+    "content" : "Silicon Oil High Temperature 내열온도 -40~232℃/점도(at 25℃) 125CS",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "CD550-4",
+    "number" : "O02-246-118"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><tbody>  <tr></tr></tbody><thead>  <tr>    <th scope=\"row\" width=\"169\">Cat. No</th>    <th width=\"186\" scope=\"row\">Model</th>    <th width=\"139\" scope=\"row\">내열온도</th>    <th width=\"152\" scope=\"row\">점도(at 25℃)</th>    <th width=\"152\" scope=\"row\" class=\"tdfin\">포장</th>  </tr></thead><tbody>  <tr>    <td scope=\"row\" class=\"trfinth4\">O02-246-111</td>    <td scope=\"row\">CD550-1</td>    <td rowspan=\"2\" class=\"trfin\" scope=\"row\">-40 ~ 232℃</td>    <td rowspan=\"2\" class=\"trfin\" scope=\"row\">125 CS</td>    <td class=\"tdfin\" scope=\"row\">1 kg</td>  </tr>  <tr>    <td scope=\"row\" class=\"trfinth\">O02-246-118</td>    <td class=\"trfin\" scope=\"row\">CD550-4</td>    <td class=\"trfin2\" scope=\"row\">4 kg</td>  </tr></tbody></table>" ],
+  "title" : "High Temperature Silicon Oil (고온용 메틸 페닐 실리콘 오일)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oil[오일]",
+  "content" : [ "■ ShinEtsu" ],
+  "id" : "1910",
+  "image" : "http://lklab.com/product_image/S-6332.jpg",
+  "specification" : [ {
+    "content" : "Silicon Oil 점도(at 25℃) 10CS Max.120℃",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "KF96-10",
+    "number" : "O02-245-231"
+  }, {
+    "content" : "Oil 기본형 내열온도 Max.140℃/점도(at 25℃) 50CS",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "KF96-50",
+    "number" : "O02-245-240"
+  }, {
+    "content" : "Oil 기본형 내열온도 Max.140℃/점도(at 25℃) 100CS",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "KF96-100",
+    "number" : "O02-245-249"
+  }, {
+    "content" : "Oil 기본형 내열온도 Max.140℃/점도(at 25℃) 1000CS",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "KF96-1000",
+    "number" : "O02-245-258"
+  }, {
+    "content" : "Oil 내열용 내열온도 -30~250℃/점도(at 25℃) 400CS",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "KF54",
+    "number" : "O02-245-311"
+  }, {
+    "content" : "Oil 내한용 내열온도 -60~200℃/점도(at 25℃) 100CS",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "KF50-100",
+    "number" : "O02-245-411"
+  } ],
+  "tableItems" : [ " 기본형 실리콘 오일              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"169\">Cat. No</th>                 <th width=\"141\" scope=\"row\">Model</th>                 <th width=\"140\" scope=\"row\">내열온도</th>                 <th width=\"163\" scope=\"row\">점도(at 25℃)</th>                 <th width=\"185\" scope=\"row\" class=\"tdfin\">포장</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-245-231</td>                  <td scope=\"row\">KF96-10</td>                  <td scope=\"row\">Max. 120℃</td>                  <td scope=\"row\">10 CS</td>                  <td rowspan=\"4\" class=\"trfin2\" scope=\"row\">1 Kg</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-245-240</td>                  <td scope=\"row\">KF96-50</td>                  <td rowspan=\"3\" class=\"trfin\" scope=\"row\">Max. 140℃</td>                  <td scope=\"row\">50 CS</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-245-249</td>                  <td scope=\"row\">KF96-100</td>                  <td scope=\"row\">100 CS</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O02-245-258</td>                  <td class=\"trfin\" scope=\"row\">KF96-1000</td>                  <td scope=\"row\" class=\"trfin\">1000 CS</td>                </tr>              </tbody></table> <ul style=\"list-style:none; display:block;  float:left; margin:15px 0 25px;  width:800px;\">  <li style=\"font-size: 12px; color: #666; line-height: 18px;\">● 무색, 무취, 투명의 디메틸 폴리 실록산 구조를 가진 오일<br>  ● 열에 강한 실록산 결합과 유기질의 메틸기로 구성</li></ul>   내열용 실리콘 오일              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"169\">Cat. No</th>                 <th width=\"141\" scope=\"row\">Model</th>                 <th width=\"140\" scope=\"row\">내열온도</th>                 <th width=\"163\" scope=\"row\">점도(at 25℃)</th>                 <th width=\"185\" scope=\"row\" class=\"tdfin\">포장</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth\">O02-245-311</td>                  <td class=\"trfin\" scope=\"row\">KF54</td>                  <td class=\"trfin\" scope=\"row\">-30 ~ 250℃</td>                  <td scope=\"row\" class=\"trfin\">400 CS</td>                  <td class=\"trfin2\" scope=\"row\">1 kg</td>                </tr>              </tbody></table> <ul style=\"list-style:none; display:block;  float:left; margin:15px 0 25px;  width:800px;\">  <li style=\"font-size: 12px; color: #666; line-height: 18px;\">● 디메틸 실리콘 오일의 메틸기 일부를 페닐기로 치환한 메틸페닐계 실리콘 오일<br>  ● 오일베스등 주로 개방형 열매체유로 사용</li></ul>   내한용 실리콘 오일              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"169\">Cat. No</th>                 <th width=\"141\" scope=\"row\">Model</th>                 <th width=\"140\" scope=\"row\">내열온도</th>                 <th width=\"163\" scope=\"row\">점도(at 25℃)</th>                 <th width=\"185\" scope=\"row\" class=\"tdfin\">포장</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth\">O02-245-411</td>                  <td class=\"trfin\" scope=\"row\">KF50-100</td>                  <td class=\"trfin\" scope=\"row\">-60 ~ 200℃ </td>                  <td scope=\"row\" class=\"trfin\">100 CS</td>                  <td class=\"trfin2\" scope=\"row\">1 kg</td>                </tr>              </tbody></table> <ul style=\"list-style:none; display:block;  float:left; margin:15px 0 25px;  width:800px;\">  <li style=\"font-size: 12px; color: #666; line-height: 18px;\">● 저온용 열매체유로 주로 사용됨</li></ul>  " ],
+  "title" : "Silicon Oil (실리콘 오일)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oil[오일]",
+  "content" : [ "■ Corrosive Gases or Vapors 용", "■ welch Chenstar Pump 와 같은 Belt_driven 과 사용하기 알맞음", "■ Double Distilled Synthetic Hydrocarbon Oil", "■ No Additives or Inhibitors", "■ High Stability in Chemical Enviroments with Exceptionally Low Vapor Pressure", "■ Welch-ilmvac" ],
+  "id" : "1911",
+  "image" : "http://lklab.com/product_image/S-11694.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Pump Oil Gold, Welch 1L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "8995G-11",
+    "number" : "P06-750-995"
+  }, {
+    "content" : "Vacuum Pump Oil Gold, Welch 4L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "8995G-15",
+    "number" : "P06-750-997"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th scope=\"row\">Model</th>                 <th class=\"tdfin\" scope=\"row\">용량</th>                </tr>              </thead>              <tbody>                                        <tr>         <td scope=\"row\" class=\"trfinth4\">P06-750-995</td>          <td scope=\"row\">8995G-11</td>          <td class=\"tdfin\" scope=\"row\">1 L</td>          </tr><tr>            <td scope=\"row\" class=\"trfinth\">P06-750-997</td>            <td class=\"trfin\" scope=\"row\">8995G-15</td>            <td class=\"trfin2\" scope=\"row\">1 Gallon(3.8 L)</td>            </tr></tbody></table>" ],
+  "title" : "Gold Vaccum Pump Oil, DirectTorr® (진공펌프 오일, welch)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oil[오일]",
+  "content" : [ "■ Moresco" ],
+  "id" : "1912",
+  "image" : "http://lklab.com/product_image/S-6334.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Pump Oil MR100 1L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "MR100-1",
+    "number" : "O02-246-311"
+  }, {
+    "content" : "Vacuum Pump Oil MR100 4L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "MR100-4",
+    "number" : "O02-246-314"
+  }, {
+    "content" : "Vacuum Pump Oil MR100 18L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "MR100-18",
+    "number" : "O02-246-316"
+  }, {
+    "content" : "Vacuum Pump Oil MR200 4L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "MR200-4",
+    "number" : "O02-246-318"
+  }, {
+    "content" : "Vacuum Pump Oil MR200 18L",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "MR200-18",
+    "number" : "O02-246-320"
+  }, {
+    "content" : "Vacuum Pump Oil 내화학 펌프용, SO-M 4L",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SOM",
+    "number" : "O02-246-325"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th width=\"160\" scope=\"col\">Cat. No.</th>                 <th width=\"160\" scope=\"col\">Model </th>                 <th width=\"160\" scope=\"col\">Vapor 압력</th>                 <th width=\"160\" scope=\"col\">점도(at 40℃)</th>                 <th class=\"tdfin\" width=\"160\" scope=\"col\">포장</th>                </tr>              </thead>              <tbody>                <tr>                  <td class=\"trfinth4\" scope=\"col\">O02-246-311</td>                  <td scope=\"col\">MR100-1</td>                  <td rowspan=\"3\" scope=\"col\">1×10<sup>-4</sup> torr</td>                  <td rowspan=\"3\" scope=\"col\">44.6</td>                  <td class=\"tdfin\" scope=\"col\">1 L</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"col\">O02-246-314</td>                  <td scope=\"col\">MR100-4</td>                  <td class=\"tdfin\" scope=\"col\">4 L</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"col\">O02-246-316</td>                  <td scope=\"col\">MR100-18</td>                  <td class=\"tdfin\" scope=\"col\">18 L</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"col\">O02-246-318</td>                  <td scope=\"col\">MR200-4</td>                  <td rowspan=\"2\" scope=\"col\">1×10<sup>-5</sup> torr</td>                  <td rowspan=\"2\" scope=\"col\">73.6</td>                  <td class=\"tdfin\" scope=\"col\">4 L</td>                </tr>                <tr>                  <td width=\"165\" class=\"trfinth4\" scope=\"col\">O02-246-320</td>                  <td scope=\"col\">MR200-18</td>                  <td class=\"tdfin\" scope=\"col\">18 L</td>                </tr>                <tr>                  <td class=\"trfinth\" scope=\"col\">O02-246-325</td>                  <td class=\"trfin\" scope=\"col\">SOM</td>                  <td class=\"trfin\" scope=\"col\">1×10<sup>-6</sup> torr</td>                  <td class=\"trfin\" scope=\"col\">63.7</td>                  <td class=\"trfin2\" scope=\"col\">4 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th width=\"160\" scope=\"col\">Model</th>                 <th width=\"640\" class=\"tdfin\" scope=\"col\">Specification</th>                </tr>              </thead>              <tbody>                <tr>                  <td class=\"trfinth4\" scope=\"col\">MR100</td>                  <td class=\"tdfin\" scope=\"col\">High Vacuum in a Small Pump (&lt; 50 L/min)</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"col\">MR200</td>                  <td class=\"tdfin\" scope=\"col\">High Vacuum in all Kind of Pump</td>                </tr>                <tr>                  <td class=\"trfinth\" scope=\"col\">SOM</td>                  <td class=\"trfin2\" scope=\"col\">내화학 Pump용 진공오일</td>                </tr>              </tbody></table>" ],
+  "title" : "Vacuum Pump Oil (진공펌프 오일)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oil[오일]",
+  "content" : [ "■ Edwards" ],
+  "id" : "1913",
+  "image" : "http://lklab.com/product_image/S-8359.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Pump Oil 4L Edward",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "Ultragrade15-4",
+    "number" : "O02-121-314"
+  }, {
+    "content" : "Vacuum Pump Oil 4L Edward",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "Ultragrade19-4",
+    "number" : "O02-121-325"
+  }, {
+    "content" : "Vacuum Pump Oil Fomblinⓡ YVAC 06/6 1 kg (532 ML)",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "H11301019",
+    "number" : "O02-121-500"
+  }, {
+    "content" : "Vacuum Pump Oil Krytoxⓡ 1506 1 kg (532 ML)",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "H11307018",
+    "number" : "O02-121-510"
+  } ],
+  "tableItems" : [ "<ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"> </li></ul> Vacuum Pump Oil, Ultragrad®   <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:30px\"><thead>                <tr>                 <th width=\"200\" scope=\"row\">Cat. No.</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">용량</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">사용펌프</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O02-121-314<br></td>                  <td scope=\"row\" class=\"\">Ultragrade15-4</td>                   <td scope=\"row\" class=\"trfin\" rowspan=\"2\">4 L</td>                   <td scope=\"row\" rowspan=\"1\" class=\"tdfin\">for E2M0.7, E2M1.5</td>                                 </tr>                                <tr>                  <td scope=\"row\" class=\"trfinth\">O02-121-325</td>                  <td scope=\"row\" class=\"trfin\">Ultragrade19-4</td>                                  <td scope=\"row\" rowspan=\"1\" class=\"trfin2\">for RV, E2M18 &amp; 28</td>                </tr>                             </tbody></table>Mechanical Pump Oil Selection Chart     <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>         <tr>           <th width=\"191\" colspan=\"3\" scope=\"col\">Cat. No.</th>                     <td width=\"175\" class=\"trfinth4\" scope=\"col\">O02-121-314</td>           <td width=\"175\" class=\"trfinth3\" scope=\"col\">O02-121-325</td>         </tr>         <tr>           <th colspan=\"3\" scope=\"col\">Model</th>           <td class=\"trfinth4\" scope=\"col\">Ultragrade15-4</td>           <td class=\"trfinth3\" scope=\"col\">Ultragrade19-4</td>         </tr>       </thead>           <tbody>                <tr>           <th rowspan=\"10\" scope=\"col\">Technical Data</th>          <th class=\"tdfin\" rowspan=\"2\" scope=\"row\">Vapor Pressure (mbar)</th>          <th class=\"tdfin\" scope=\"row\"> at 20℃</th>           <td class=\"tdfin\" scope=\"row\">5.8×10-6          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">1×10-8</td>         </tr>          <tr>                           <th class=\"tdfin\" scope=\"row\">at 100℃</th>           <td class=\"tdfin\" scope=\"row\">3.0×10-2</td>           <td colspan=\"1\" class=\"tdfin\" scope=\"col\">1.0×10-3</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Molecular Weight</th>               <td class=\"tdfin\" scope=\"row\">385           </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">420</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Specific Gravity at 15℃</th>                    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">0.86</td>         </tr>         <tr>                   <th class=\"tdfin\" rowspan=\"2\" scope=\"row\">Viscosity cST </th>          <th class=\"tdfin\" scope=\"row\">at 20℃</th>           <td class=\"tdfin\" scope=\"row\">104.2          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">143.7</td>         </tr>         <tr>                           <th class=\"tdfin\" scope=\"row\">at 40℃</th>           <td class=\"tdfin\" scope=\"row\">38.1          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">48.6</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Pour Point ℃</th>                    <td class=\"tdfin\" scope=\"row\">-18          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">-16</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Flash Point ℃</th>                    <td class=\"tdfin\" scope=\"row\">220          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">230</td>         </tr>         <tr>                    <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Auto Ignition Point ℃</th>                             <td colspan=\"2\" class=\"tdfin\" scope=\"col\">355</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Sulphur Content % mass/mass</th>                          <td colspan=\"2\" class=\"tdfin\" scope=\"col\">0</td>         </tr>         <tr>           <th scope=\"col\" class=\"trfin\" rowspan=\"5\">Application</th>          <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Energetic Particle Impact</th>                        <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Conducting Polymers formed</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Thermal Stability</th>                       <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Good</td>         </tr>                  <tr>                 <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Oxidation Resistance</th>                         <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Good</td>         </tr>          <tr>                  <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Chemical Resistance</th>                          <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Fair</td>         </tr>          <tr>            <th class=\"trfin\" colspan=\"2\" scope=\"row\">Radiation Resistance</th>                        <td colspan=\"2\" class=\"trfin2\" scope=\"col\">Fair</td>         </tr>       </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"> </li></ul><ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"> </li></ul><ul>  <li style=\"font-size: 16px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\">Vacuum Pump Oil, Perfluoropolyether / 내화학용 </li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:0px 10px 10px 10px;; text-align:left;\">  ● 열, 화학, 용매, 부식, 독성, 인화, 호환성, 내구성 및 산화성에 문제가 발생할 수 있는 용도에 사용<br>  ● 낮은 증기압 및 완벽한 불연성, 산소와의 안정성<br>  ● 모든 Chemical에 대한 내화학성</li></ul> Fomblin® YVAC 06/6               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:5px\"><thead>                <tr>                 <th width=\"200\" scope=\"row\">Cat. No.</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">용 량</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">사용 펌프</th>                </tr>              </thead>              <tbody>                                <tr>                  <td scope=\"row\" class=\"trfinth\">O02-121-500</td>                  <td scope=\"row\" class=\"trfin\">H11301019</td>                  <td scope=\"row\" class=\"trfin\">1 kg (532 ml)</td>                  <td scope=\"row\" rowspan=\"1\" class=\"trfin2\">PFPE</td>                </tr>                             </tbody></table> <ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:0px 10px 10px 10px; text-align:left;\">● Vapour Pressure : 4×10-6 mbar (at 20℃) <br>                   ● Molecular Weight : 1900   <br>   ● Viscocity : 64 cST (at 20℃)    </li></ul> Krytox® 1506               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:5px\"><thead>                <tr>                 <th width=\"200\" scope=\"row\">Cat. No.</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">용 량</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">사용 펌프 </th>                </tr>              </thead>              <tbody>                                <tr>                  <td height=\"13\" class=\"trfinth\" scope=\"row\">O02-121-510</td>                  <td scope=\"row\" class=\"trfin\">H11301018</td>                  <td scope=\"row\" class=\"trfin\">1 kg (532 ml)</td>                  <td scope=\"row\" rowspan=\"1\" class=\"trfin2\">PFPE</td>                </tr>                             </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:0px 10px 10px 10px; text-align:left;\">● Vapour Pressure : 5.2×10-7 mbar (at 20℃)<br>                   ● Molecular Weight : 2400<br>                   ● Viscocity : 70 cST (at 20℃)  </li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"> </li></ul><ul>Mechanical Pump Oil Selection Chart     <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>         <tr>           <th width=\"191\" colspan=\"3\" scope=\"col\">Cat. No.</th>                     <td width=\"175\" class=\"trfinth4\" scope=\"col\">O02-121-500</td>           <td width=\"175\" class=\"trfinth3\" scope=\"col\">O02-121-510</td>         </tr>         <tr>           <th colspan=\"3\" scope=\"col\">Type</th>           <td class=\"trfinth4\" scope=\"col\">Fombin® 06/6</td>           <td class=\"trfinth3\" scope=\"col\">Krytox® 1506</td>         </tr>       </thead>           <tbody>         <tr>           <th rowspan=\"10\" scope=\"col\">Technical Data</th>          <th class=\"tdfin\" rowspan=\"2\" scope=\"row\">Vapor Pressure (mbar)</th>          <th class=\"tdfin\" scope=\"row\"> at 20℃</th>           <td class=\"tdfin\" scope=\"row\">4×10-6          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">5.2×10-7</td>         </tr>          <tr>                               <th class=\"tdfin\" scope=\"row\">at 100℃</th>           <td class=\"tdfin\" scope=\"row\">5×10-3          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">1.3×10-3</td>         </tr>         <tr>                    <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Molecular Weight</th>                <td class=\"tdfin\" scope=\"row\">1900          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">2400</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Specific Gravity at 15℃</th>               <td colspan=\"2\" class=\"tdfin\" scope=\"col\">1.88</td>         </tr>         <tr>                   <th class=\"tdfin\" rowspan=\"2\" scope=\"row\">Viscosity cST </th>          <th class=\"tdfin\" scope=\"row\">at 20℃</th>           <td class=\"tdfin\" scope=\"row\">64          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">70</td>         </tr>         <tr>                           <th class=\"tdfin\" scope=\"row\">at 40℃</th>           <td class=\"tdfin\" scope=\"row\">25          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">22</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Pour Point ℃</th>                    <td class=\"tdfin\" scope=\"row\">-50          </td><td colspan=\"1\" class=\"tdfin\" scope=\"col\">-45</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Flash Point ℃</th>                         <td colspan=\"2\" class=\"tdfin\" scope=\"col\">None</td>         </tr>         <tr>                    <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Auto Ignition Point ℃</th>                   <td colspan=\"2\" class=\"tdfin\" scope=\"col\">355</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Sulphur Content % mass/mass</th>                 <td colspan=\"2\" class=\"tdfin\" scope=\"col\">0</td>         </tr>         <tr>           <th scope=\"col\" class=\"trfin\" rowspan=\"5\">Application</th>          <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Energetic Particle Impact</th>                        <td colspan=\"2\" class=\"tdfin\" scope=\"col\">No Polymers formed</td>         </tr>         <tr>                   <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Thermal Stability</th>                         <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Excellent</td>         </tr>                  <tr>                 <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Oxidation Resistance</th>             <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Excellent</td>         </tr>          <tr>                  <th class=\"tdfin\" colspan=\"2\" scope=\"row\">Chemical Resistance</th>                          <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Excellent</td>         </tr>          <tr>            <th class=\"trfin\" colspan=\"2\" scope=\"row\">Radiation Resistance</th>                         <td colspan=\"2\" class=\"trfin2\" scope=\"col\">Good</td>         </tr>       </tbody></table></ul></ul>" ],
+  "title" : "Vacuum Pump Oil (진공펌프 오일)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Osmometer[삼투압계]",
+  "content" : [ "■ Freezing Point (빙점 방식) Osmoneter", "- 검체를 순간적으로 얼려 그 어는점을 분석하여 측정하는 방식", "- 수용액의 삼투도는 총 순 수의 응고점과 용액의 빙점을 비교 측정하여 결정함", "(물의 빙점은 0 ℃, 염분 농도 1 Osmol/kg 인 용액의 빙점은 -1.858℃)", "■ Determines The Total Osmolality of Aqueous Solutions", "■ The instrument requires very small sample volumes", "■ Its rapidity allows serial measurements in a very short time.", "■ Gonotec" ],
+  "id" : "1914",
+  "image" : "http://lklab.com/product_image/S-12911.jpg",
+  "specification" : [ {
+    "content" : "Osmometer 기본형 Comunication 기능 및 Option 장착 불가",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "3000 Basic",
+    "number" : "O04-78-101"
+  }, {
+    "content" : "Osmometer Standard Comunication 기능 및 Option 장착 불가",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "3000 Standard",
+    "number" : "O04-78-105"
+  }, {
+    "content" : "Osmometer Standard 내장프린터",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "3000 D",
+    "number" : "O04-78-109"
+  }, {
+    "content" : "Calibration standard 100 mOsmol/kg 10 ampul",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "30.9.0100",
+    "number" : "O04-78-955"
+  }, {
+    "content" : "Calibration standard 290 mOsmol/kg 10 ampul",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "30.9.0290",
+    "number" : "O04-78-959"
+  }, {
+    "content" : "Calibration standard 300 mOsmol/kg 10 ampul",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "30.9.0020",
+    "number" : "O04-78-963"
+  }, {
+    "content" : "Calibration standard 500 mOsmol/kg 10 ampul",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "30.9.0500",
+    "number" : "O04-78-967"
+  }, {
+    "content" : "Calibration standard 850 mOsmol/kg 10 ampul",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "30.9.0850",
+    "number" : "O04-78-971"
+  }, {
+    "content" : "Calibration standard 2000 mOsmol/kg 10 ampul",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "30.9.2000",
+    "number" : "O04-78-975"
+  }, {
+    "content" : "Micro Sample Volume 15 ul",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "32.02",
+    "number" : "O04-78-911"
+  }, {
+    "content" : "Barcode Reader",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "32.03",
+    "number" : "O04-78-915"
+  }, {
+    "content" : "Measuring Vessels for Osmomat 3000",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "30.9.0010",
+    "number" : "O04-78-990"
+  }, {
+    "content" : "Ink ribbon cassette (gonotec)",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "30.9.1020",
+    "number" : "O04-78-993"
+  }, {
+    "content" : "Printer Paper",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "30.9.1010",
+    "number" : "O04-78-995"
+  }, {
+    "content" : "Cleaning Paper",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "35.9.1030",
+    "number" : "O04-78-999"
+  } ],
+  "tableItems" : [ "<ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\">Osmometer</li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none\">               </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th scope=\"row\" class=\"tdfin\" style=\"width:434px\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-101</td>                  <td class=\"tdfin\" scope=\"row\">3000 Basic</td>                  <td scope=\"row\" rowspan=\"2\" class=\"tdfin\" style=\"width: 434px\">기본형, Comunication 기능 및   Option 장착 불가</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-105</td>                  <td class=\"tdfin\" scope=\"row\">3000 Standard</td>                                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O04-78-109</td>                  <td class=\"trfin\" scope=\"row\">3000 D</td>                  <td class=\"trfin2\" scope=\"row\" style=\"width: 434px\">      내장프린터</td>                </tr>              </tbody></table>    ", "Specifications", "Standard Solution", "Accessory" ],
+  "title" : "Osmometer 3000 Series (삼투압 측정기)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Osmometer[삼투압계]",
+  "content" : [ "■ Freezing Point (빙점 방식) Osmoneter", "- 검체를 순간적으로 얼려 그 어는점을 분석하여 측정하는 방식", "- 수용액의 삼투도는 총 순 수의 응고점과 용액의 빙점을 비교 측정하여 결정함", "(물의 빙점은 0 ℃, 염분 농도 1 Osmol/kg 인 용액의 빙점은 -1.858℃)", "■ 많은 수의 샘플을 측정 할때 적당함", "■ Disposable plastic measuring vessels save time and money", "■ Determines The Total Osmolality of Aqueous Solutions", "■ The instrument requires very small sample volumes", "■ Its rapidity allows serial measurements in a very short time", "■ Gonotec" ],
+  "id" : "1915",
+  "image" : "http://lklab.com/product_image/S-12913.jpg",
+  "specification" : [ {
+    "content" : "Osmometer Fully Automatic",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "OSMOMAT-Auto",
+    "number" : "O04-78-200"
+  }, {
+    "content" : "Calibration standard 100 mOsmol/kg 10 ampul",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "30.9.0100",
+    "number" : "O04-78-955"
+  }, {
+    "content" : "Calibration standard 290 mOsmol/kg 10 ampul",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "30.9.0290",
+    "number" : "O04-78-959"
+  }, {
+    "content" : "Calibration standard 300 mOsmol/kg 10 ampul",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "30.9.0020",
+    "number" : "O04-78-963"
+  }, {
+    "content" : "Calibration standard 500 mOsmol/kg 10 ampul",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "30.9.0500",
+    "number" : "O04-78-967"
+  }, {
+    "content" : "Calibration standard 850 mOsmol/kg 10 ampul",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "30.9.0850",
+    "number" : "O04-78-971"
+  }, {
+    "content" : "Calibration standard 2000 mOsmol/kg 10 ampul",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "30.9.2000",
+    "number" : "O04-78-975"
+  }, {
+    "content" : "Measuring Vessels for Osmomat Auto",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "35.9.0010",
+    "number" : "O04-78-991"
+  }, {
+    "content" : "Barcode Reader",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "32.03",
+    "number" : "O04-78-915"
+  }, {
+    "content" : "Printer Paper",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "30.9.1010",
+    "number" : "O04-78-995"
+  }, {
+    "content" : "Cleaning Paper",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "35.9.1030",
+    "number" : "O04-78-999"
+  } ],
+  "tableItems" : [ "<ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\">Osmometer</li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none\">               </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th class=\"tdfin\" scope=\"row\" style=\"width: 434px\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth\">O04-78-200</td>                  <td class=\"trfin\" scope=\"row\">OSMOMAT-Auto</td>                  <td class=\"trfin2\" scope=\"row\" style=\"width: 434px\">Osmometer Fully   Automatic</td>                </tr>              </tbody></table>    <ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:30px 0 10px; text-align:left;\">Specification</li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-top:10px\"> <caption style=\" display:none;\">              </caption><thead>                <tr>                 <th scope=\"col\" style=\"height: 20px\">Cat. No.</th>                 <td class=\"trfinth3\" scope=\"col\" style=\"height: 20px; width: 500px;\"> O04-78-200</td>                </tr>                <tr>                 <th scope=\"col\">Model</th>                 <td class=\"trfinth3\" scope=\"col\">OSMOMAT-Auto</td>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"col\">Sample Volume</th>                  <td class=\"tdfin\" scope=\"col\">50 ul</td>                </tr>                <tr>                 <th scope=\"col\">Test Time</th>                 <td class=\"tdfin\" scope=\"col\">Approx. 70 Seconds</td>                </tr>                <tr>                 <th scope=\"col\">Measuring Range</th>                 <td class=\"tdfin\" scope=\"col\" style=\"height: 20px\"> 0 up to 2500 mOsmol/kg</td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">1 mOsmol/kg Over the entire   range</td>                </tr>                <tr>                  <th scope=\"col\">Crystallization</th>                  <td class=\"tdfin\" scope=\"col\">By inoculation of the sample   with ice crystal</td>                </tr>                <tr>                  <th scope=\"col\">Cooling</th>                  <td class=\"tdfin\" scope=\"col\">Peltier-cooling system with   heat dissipation by air</td>                </tr>                <tr>                  <th scope=\"col\">Data Memory</th>                  <td class=\"tdfin\" scope=\"col\">200 Data</td>                </tr>                <tr>                  <th scope=\"col\">Measurement</th>                  <td class=\"tdfin\" scope=\"col\">Fully automatic measurement of   up to 20 samples</td>                </tr>                <tr>                  <th scope=\"col\">Display</th>                  <td class=\"tdfin\" scope=\"col\">LCD Display, 4 Lines with 20   digits</td>                </tr>                <tr>                 <th scope=\"col\">Ambient Temp.</th>                 <td class=\"tdfin\" scope=\"col\">10 °C - 30 °C</td>                </tr>                <tr>                  <th height=\"16\" class=\"trfinth2\" scope=\"col\">Weight</th>                  <td class=\"trfin2\" scope=\"col\">11.6kg</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:30px 0 10px; text-align:left;\">Standard Solutions</li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none\">               </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th class=\"tdfin\" scope=\"row\" style=\"width: 200px\">삼투압 농도(mOsmol/kg)</th>                 <th class=\"tdfin\" scope=\"row\" style=\"width: 200px\">Ampul</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-955 </td>                  <td scope=\"row\">30.9.0100 </td>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 200px\">100</td>                  <td rowspan=\"6\" class=\"trfin2\" style=\"width: 200px\" scope=\"row\">10</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-959 </td>                  <td scope=\"row\">30.9.0290</td>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 200px\">290</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-963 </td>                  <td scope=\"row\">30.9.0020 </td>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 200px\">300</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-967 </td>                  <td scope=\"row\">30.9.0500</td>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 200px\">500</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-971 </td>                  <td scope=\"row\">30.9.0850 </td>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 200px\">850</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O04-78-975</td>                  <td class=\"trfin\" scope=\"row\">30.9.2000</td>                  <td class=\"trfin2\" scope=\"row\" style=\"width: 200px\">2000</td>                </tr>              </tbody></table>    <ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:30px 0 10px; text-align:left;\">Optional Accessories</li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none\">               </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th class=\"tdfin\" scope=\"row\" style=\"width: 400px\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-991 </td>                  <td scope=\"row\">35.9.0010</td>                  <td class=\"tdfin\" style=\"width: 200px\" scope=\"row\">Measuring Vesselsfor Osmomat Auto</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-915 </td>                  <td scope=\"row\">32.03 </td>                  <td class=\"tdfin\" style=\"width: 200px\" scope=\"row\">Barcode Reader</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O04-78-995 </td>                  <td scope=\"row\">30.9.1010 </td>                  <td class=\"tdfin\" style=\"width: 200px\" scope=\"row\">Printer Paper</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O04-78-999 </td>                  <td class=\"trfin\" scope=\"row\">35.9.1030</td>                  <td class=\"trfin2\" style=\"width: 200px\" scope=\"row\">Cleaning Paper</td>                </tr>              </tbody></table>" ],
+  "title" : "Fully Automatic Osmometer (전 자동 삼투압 측정기)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 열풍 순환방식으로 온도 분포도가 균일함", "■ 5단계 풍량 조절 기능을 통한 시료 확산 방지", "■ Door Open시 Fan 정지 기능, 온도 변화 최소화 및 사용자의 안전성 고려", "■ 3중 강화 유리 투시창. Door Open 없이 내부 관찰", "■ 가스 배출을 위한 상부 Vent Hole", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ 2 가지 타입의 타이머. 구동과 동시에 시작, 목표 온도 도달 후 시작", "■ Auto-tuning, Temperature Calibration 기능", "■ RS485 PC통신 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시(특허 등록)", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ)", "■ LK Labkorea" ],
+  "id" : "1916",
+  "image" : "http://lklab.com/product_image/S-8362.jpg",
+  "specification" : [ {
+    "content" : "Drying Oven Forced, PID 60L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-FS050",
+    "number" : "O01-02-020"
+  }, {
+    "content" : "Drying Oven Forced, PID 100L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-FS100",
+    "number" : "O01-02-024"
+  }, {
+    "content" : "Drying Oven Forced, PID 150L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-FS150",
+    "number" : "O01-02-032"
+  }, {
+    "content" : "Drying Oven Forced, PID 250L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-FS250",
+    "number" : "O01-02-040"
+  }, {
+    "content" : "Validation for Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-FO100",
+    "number" : "O01-91-999"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Wire Shelf for Oven 60L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-FSSH01",
+    "number" : "O01-02-401"
+  }, {
+    "content" : "Wire Shelf for Oven 100L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-FSSH02",
+    "number" : "O01-02-403"
+  }, {
+    "content" : "Wire Shelf for Oven 150L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-FSSH03",
+    "number" : "O01-02-405"
+  }, {
+    "content" : "Wire Shelf for Oven 250L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-FSSH04",
+    "number" : "O01-02-407"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 60L",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "LO-FSSH11",
+    "number" : "O01-02-411"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 100L",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "LO-FSSH12",
+    "number" : "O01-02-413"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 150L",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "LO-FSSH13",
+    "number" : "O01-02-415"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 250L",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "LO-FSSH14",
+    "number" : "O01-02-417"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">               <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-020</td>                  <td scope=\"row\">LO-FS050</td>                  <td rowspan=\"4\" scope=\"row\" class=\"trfin\">PID Controller</td>                  <td class=\"tdfin\" scope=\"row\">60 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-024</td>                  <td scope=\"row\">LO-FS100</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-032</td>                  <td scope=\"row\">LO-FS150</td>                  <td class=\"tdfin\" scope=\"row\">150 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-040</td>                  <td class=\"trfin\" scope=\"row\">LO-FS250</td>                  <td class=\"trfin2\" scope=\"row\">250 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-020</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-024 </td>       <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-032</td>        <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-040</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-FS050</td>    <td class=\"trfinth4\" scope=\"col\">LO-FS100</td>            <td class=\"trfinth4\" scope=\"col\">LO-FS150</td>            <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-FS250</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">60 L</td>    <td scope=\"col\">100 L</td>    <td scope=\"col\">150 L</td>    <td class=\"tdfin\" scope=\"col\">250 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">PID Control, Auto-tuning</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0.01℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run start / Wait start (99 hr 59 min)</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Fan Speed</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 ~ 5 Step</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Ambient +10℃ to +250℃</td>  </tr>  <tr>    <th scope=\"col\">Accuracy at 100℃</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">±0.3℃</td>  </tr>  <tr>    <th scope=\"col\">Uniformity at 100℃</th>    <td scope=\"col\">±1.5℃</td>    <td scope=\"col\">±1.5℃</td>    <td scope=\"col\">±1.7℃</td>    <td class=\"tdfin\" scope=\"col\">±1.8℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior (mm)</th>    <td scope=\"col\">w400×d350×h420</td>    <td scope=\"col\">w480×d400×h530</td>    <td scope=\"col\">w550×d460×h600</td>    <td class=\"tdfin\" scope=\"col\">w700×d600×h600</td>  </tr>  <tr>    <th scope=\"col\"> External (mm)</th>    <td scope=\"col\">w530×d625×h745</td>    <td scope=\"col\">w610×d675×h855</td>    <td scope=\"col\">w680×d735×h925</td>    <td class=\"tdfin\" scope=\"col\">w830×d875×h940</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\"> Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">900 W(4.1 A)</td>    <td scope=\"col\">1.5 kW(6.8 A)</td>    <td scope=\"col\">1.8 kW(8.2 A)</td>    <td class=\"tdfin\" scope=\"col\">2.6 kW(11.9 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"2\" scope=\"col\">Other</th>    <th scope=\"col\">Wire Shelf</th>    <td scope=\"col\">1 ea</td>    <td colspan=\"2\" scope=\"col\">2 ea</td>    <td class=\"tdfin\" scope=\"col\">3 ea</td>  </tr>  <tr>    <th scope=\"col\">Vent Hole</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Φ38 mm×2 ea</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-999 </td>                  <td class=\"trfin\" scope=\"row\">VA-FO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경되어 질 수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <th width=\"200\" scope=\"row\">Model</th>    <th width=\"400\" colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-401</td>    <td scope=\"row\">LO-FSSH01</td>    <td width=\"225\" rowspan=\"4\" scope=\"row\">Spare Wire Shelf</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 60 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-403</td>    <td scope=\"row\">LO-FSSH02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-405</td>    <td scope=\"row\">LO-FSSH03</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 150 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-407</td>    <td scope=\"row\">LO-FSSH04</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 250 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-411</td>     <td scope=\"row\">LO-FSSH11</td>      <td rowspan=\"4\" class=\"trfin\" scope=\"row\">Optional Perforated Plate Shelf</td>      <td class=\"tdfin\" scope=\"row\">for 60 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-413</td>    <td scope=\"row\">LO-FSSH12</td>    <td class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-415</td>    <td scope=\"row\">LO-FSSH13</td>    <td class=\"tdfin\" scope=\"row\">for 150 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-417</td>    <td class=\"trfin\" scope=\"row\">LO-FSSH14</td>    <td class=\"trfin2\" scope=\"row\">for 250 L</td>  </tr></tbody></table> <ul style=\"margin-bottom:40px\">  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;\">● Perforated Shelf 사용시 온도 분포도가 나빠질 수 있음</li></ul>" ],
+  "title" : "Forced Convection Oven (강제 열풍 순환 건조기, Standard-type)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 여러 단계의 온도 상승과 유지시간을 저장하고 선택하여 운전", "■ 온도 Overshoot 억제 및 정밀 제어 가능", "■ 열풍 순환방식으로 온도 분포도가 균일함", "■ Door Open시 Fan 정지 기능, 온도 변화 최소화 및 사용자의 안전성 고려", "■ 3중 강화 유리 투시창. Door Open 없이 내부 관찰", "■ 가스 배출을 위한 상부 Vent hole", "■ 2 Pattern, 18 Segment 프로그램 설정 가능", "■ Auto-tuning 기능 및 온도 Calibration 기능", "■ RS-485 통신 포트 기본 포함", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ)", "■ LK Labkorea" ],
+  "id" : "1917",
+  "image" : "http://lklab.com/product_image/S-8365.jpg",
+  "specification" : [ {
+    "content" : "Drying Oven Forced, Program 60L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-FP505",
+    "number" : "O01-02-022"
+  }, {
+    "content" : "Drying Oven Forced, Program 100L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-FP510",
+    "number" : "O01-02-026"
+  }, {
+    "content" : "Drying Oven Forced, Program 150L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-FP515",
+    "number" : "O01-02-034"
+  }, {
+    "content" : "Drying Oven Forced, Program 250L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-FP525",
+    "number" : "O01-02-042"
+  }, {
+    "content" : "Validation for Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-FO100",
+    "number" : "O01-91-999"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Wire Shelf for Oven 60L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-FSSH01",
+    "number" : "O01-02-401"
+  }, {
+    "content" : "Wire Shelf for Oven 100L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-FSSH02",
+    "number" : "O01-02-403"
+  }, {
+    "content" : "Wire Shelf for Oven 150L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-FSSH03",
+    "number" : "O01-02-405"
+  }, {
+    "content" : "Wire Shelf for Oven 250L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-FSSH04",
+    "number" : "O01-02-407"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 60L",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "LO-FSSH11",
+    "number" : "O01-02-411"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 100L",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "LO-FSSH12",
+    "number" : "O01-02-413"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 150L",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "LO-FSSH13",
+    "number" : "O01-02-415"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 250L",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "LO-FSSH14",
+    "number" : "O01-02-417"
+  } ],
+  "tableItems" : [ "<title>Ambient</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">   <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>  </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-022</td>                  <td scope=\"row\">LO-FP505</td>                  <td rowspan=\"4\" scope=\"row\" class=\"trfin\">Program Controller</td>                  <td class=\"tdfin\" scope=\"row\">60 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-026</td>                  <td scope=\"row\">LO-FP510</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-034</td>                  <td scope=\"row\">LO-FP515</td>                  <td class=\"tdfin\" scope=\"row\">150 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-042</td>                  <td class=\"trfin\" scope=\"row\">LO-FP525</td>                  <td class=\"trfin2\" scope=\"row\">250 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-022</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-026</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-034 </td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-042</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-FP505</td>    <td class=\"trfinth4\" scope=\"col\">LO-FP510</td>    <td class=\"trfinth4\" scope=\"col\">LO-FP515</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-FP525</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">60 L</td>    <td scope=\"col\">100 L</td>    <td scope=\"col\">150 L</td>    <td class=\"tdfin\" scope=\"col\">250 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Program Control</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Program</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">2 Pattern, 18 Segment</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0.01℃</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Fan Speed</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 ~ 5 Step</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Ambient +10 to +250℃</td>  </tr>  <tr>    <th scope=\"col\">Accuracy at 100℃</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">±0.3℃</td>  </tr>  <tr>    <th scope=\"col\">Uniformity at 100℃</th>    <td scope=\"col\">±1.5℃</td>    <td scope=\"col\">±1.5℃</td>    <td scope=\"col\">±1.7℃</td>    <td class=\"tdfin\" scope=\"col\">±1.8℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior (mm)</th>    <td scope=\"col\">w400×d350×h420 mm</td>    <td scope=\"col\">w480×d400×h530 mm</td>    <td scope=\"col\">w550×d460×h600 mm</td>    <td class=\"tdfin\" scope=\"col\">w700×d600×h600 mm</td>  </tr>  <tr>    <th scope=\"col\"> External (mm)</th>    <td scope=\"col\">w530×d625×h745 mm</td>    <td scope=\"col\">w610×d675×h855 mm</td>    <td scope=\"col\">w680×d735×h925 mm</td>    <td class=\"tdfin\" scope=\"col\">w830×d875×h940 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\"> Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">900 W(4.1A)</td>    <td scope=\"col\">1.5 kW(6.8A)</td>    <td scope=\"col\">1.8 kW(8.2A)</td>    <td class=\"tdfin\" scope=\"col\">2.6 kW(11.9A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"2\" scope=\"col\">Other</th>    <th scope=\"col\">Wire Shelf</th>    <td scope=\"col\">1 ea</td>    <td colspan=\"2\" scope=\"col\">2 ea</td>    <td class=\"tdfin\" scope=\"col\">3 ea</td>  </tr>  <tr>    <th scope=\"col\">Vent Hole</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Φ38 mm×2 ea</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-999 </td>                  <td class=\"trfin\" scope=\"row\">VA-FO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경되어 질 수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <th width=\"200\" scope=\"row\">Model</th>    <th colspan=\"2\" width=\"400\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-401</td>    <td scope=\"row\">LO-FSSH01</td>    <td width=\"225\" rowspan=\"4\" scope=\"row\">Spare Wire Shelf</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 60 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-403</td>    <td scope=\"row\">LO-FSSH02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-405</td>    <td scope=\"row\">LO-FSSH03</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 150 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-407</td>    <td scope=\"row\">LO-FSSH04</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 250 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-411</td>     <td scope=\"row\">LO-FSSH11</td>      <td rowspan=\"4\" class=\"trfin\" scope=\"row\">Optional Perforated Plate Shelf</td>      <td class=\"tdfin\" scope=\"row\">for 60 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-413</td>    <td scope=\"row\">LO-FSSH12</td>    <td class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-415</td>    <td scope=\"row\">LO-FSSH13</td>    <td class=\"tdfin\" scope=\"row\">for 150 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-417</td>    <td class=\"trfin\" scope=\"row\">LO-FSSH14</td>    <td class=\"trfin2\" scope=\"row\">for 250 L</td>  </tr></tbody></table>" ],
+  "title" : "Forced Convection Oven (강제 열풍 순환 건조기, Program-type)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 열풍 순환방식으로 온도편차 및 온도 분포도가 균일함", "■ 5단계 풍량 조절 기능을 통한 시료 확산 방지", "■ Door Open시 Fan 정지 기능, 온도 변화 최소화 및 사용자의 안전성 고려", "■ 3중 강화 유리 투시창. Door Open 없이 내부 관찰", "■ 가스 배출을 위한 상부 Vent hole", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ RS485 통신포트 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ Program Control", "- 여러 단계의 온도 상승과 유지시간을 저장하고 선택하여 운전", "- 온도 Overshoot 억제 및 정밀 제어 가능", "- 2 Pattern, 18 Segment 프로그램 설정 가능", "■ Validation Service (IQ, OQ, PQ)", "■ PL Insurance (제조물 배상 책임 보험)", "■ LK Labkorea" ],
+  "id" : "1918",
+  "image" : "http://lklab.com/product_image/S-10862.jpg",
+  "specification" : [ {
+    "content" : "Forced Convection Oven Large-type, PID 360L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-US280S",
+    "number" : "O01-02-045"
+  }, {
+    "content" : "Forced Convection Oven Large-type, PID 588L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-US300S",
+    "number" : "O01-02-047"
+  }, {
+    "content" : "Forced Convection Oven Large-type, Program 360L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-US280P",
+    "number" : "O01-02-055"
+  }, {
+    "content" : "Forced Convection Oven Large-type, Program 588L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-US300P",
+    "number" : "O01-02-057"
+  }, {
+    "content" : "Validation for Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-FO100",
+    "number" : "O01-91-999"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Wire Shelf for Large-type Oven 360L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-USSH01",
+    "number" : "O01-02-421"
+  }, {
+    "content" : "Wire Shelf for Large-type Oven 588L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-USSH02",
+    "number" : "O01-02-423"
+  }, {
+    "content" : "Perforated Plate Shelf for Large-type Oven 360L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-USSH11",
+    "number" : "O01-02-431"
+  }, {
+    "content" : "Perforated Plate Shelf for Large-type Oven 588L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-USSH12",
+    "number" : "O01-02-433"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">Type</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-045</td>                  <td scope=\"row\">LO-US280S</td>                  <td rowspan=\"2\" scope=\"row\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">360 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-047</td>                  <td scope=\"row\">LO-US300S</td>                  <td class=\"tdfin\" scope=\"row\">588 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-055</td>                  <td scope=\"row\">LO-US280P</td>                  <td rowspan=\"2\" class=\"trfin\" scope=\"row\">Program Control</td>                  <td class=\"tdfin\" scope=\"row\">360 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-057</td>                  <td class=\"trfin\" scope=\"row\">LO-US300P</td>                  <td class=\"trfin2\" scope=\"row\">588 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-045</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-047</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-055</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-057</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-US280S</td>    <td class=\"trfinth4\" scope=\"col\">LO-US300S</td>    <td class=\"trfinth4\" scope=\"col\">LO-US280P</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-US300P</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">360 L</td>    <td scope=\"col\">588 L</td>    <td scope=\"col\">360 L</td>    <td class=\"tdfin\" scope=\"col\">588 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"2\" scope=\"col\">PID Control</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Program Control</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0.01℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run start / Wait start (99 hr 59 min)</td>    </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Fan Speed</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1 ~ 5 Step</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Ambient +10 ~ +250℃</td>  </tr>  <tr>    <th scope=\"col\">Accuracy at 100℃</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">±0.3℃</td>  </tr>  <tr>    <th scope=\"col\">Uniformity at 100℃</th>    <td scope=\"col\">±1.8℃</td>    <td scope=\"col\">±2.2℃</td>    <td scope=\"col\">±1.8℃</td>    <td class=\"tdfin\" scope=\"col\">±2.2℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior (mm)</th>    <td scope=\"col\">w600×d600×h1000 mm</td>    <td scope=\"col\">w700×d700×h1200 mm</td>    <td scope=\"col\">w600×d600×h1000 mm</td>    <td class=\"tdfin\" scope=\"col\">w700×d700×h1200 mm</td>  </tr>  <tr>    <th scope=\"col\"> External (mm)</th>    <td scope=\"col\">w740×d875×h1470 mm</td>    <td scope=\"col\">w840×d975×h1670 mm</td>    <td scope=\"col\">w740×d875×h1470 mm</td>    <td class=\"tdfin\" scope=\"col\">w840×d975×h1670 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">3.6kW(16.4A)</td>    <td scope=\"col\">5.2kW(23.7A)</td>    <td scope=\"col\">3.6Kw(16.4A)</td>    <td class=\"tdfin\" scope=\"col\">5.2Kw(23.7A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Industrial Plug</td>  </tr>  <tr>    <th rowspan=\"3\" scope=\"col\">Other</th>    <th scope=\"col\">Wire Shelf</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">4 ea</td>  </tr>  <tr>    <th scope=\"col\">Vent Hole</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Φ38 mm×2 ea</td>   </tr>   <tr>    <th scope=\"col\">Caster</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Leveling Caster</td>   </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-999 </td>                  <td class=\"trfin\" scope=\"row\">VA-FO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경되어 질 수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <th width=\"200\" scope=\"row\">Model</th>    <th width=\"400\" colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-421</td>    <td scope=\"row\">LO-USSH01</td>    <td width=\"225\" rowspan=\"2\" scope=\"row\">Spare Wire Shelf</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 360 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-423</td>    <td scope=\"row\">LO-USSH02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 588 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-431</td>     <td scope=\"row\">LO-USSH11</td>      <td rowspan=\"2\" class=\"trfin\" scope=\"row\"> Optional Perforated Plate Shelf </td>      <td class=\"tdfin\" scope=\"row\">for 360 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-433</td>    <td class=\"trfin\" scope=\"row\">LO-USSH12</td>    <td class=\"trfin2\" scope=\"row\">for 588 L</td>  </tr></tbody></table> " ],
+  "title" : "Forced Convection Oven (강제 열풍 순환 건조기, Large-type)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 열풍 순환방식으로 온도편차 및 온도 분포도가 균일함", "■ Door Open시 Fan 정지기능, 온도 변화 최소화 및 사용자의 안전성 고려", "■ 내열성이 우수한 세라믹 팩킹 적용", "■ 50T 단열과 높은 히터 Capacity으로 온도 상승이 빠름", "■ Graphic LCD Display, 간편한 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ 2 가지 타입의 타이머. 구동과 동시에 시작, 목표 온도 도달 후 시작", "■ 5단계 풍량조절 기능을 통한 시료 확산 방지", "■ RS485 PC통신 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ Program control", "- 여러 단계의 온도 상승과 유지시간을 저장하고 선택하여 운전", "- 온도 Overshoot 억제 및 정밀 제어 가능", "- 2 Pattern, 18 Segment 프로그램 설정 가능", "■ Validation Service (IQ, OQ, PQ)", "■ PL Insurance (제조물 배상 책임 보험)", "■ LK Labkorea" ],
+  "id" : "1919",
+  "image" : "http://lklab.com/product_image/S-8366.jpg",
+  "specification" : [ {
+    "content" : "High Temp, Drying Oven 350℃, PID 100L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-HS480",
+    "number" : "O01-02-065"
+  }, {
+    "content" : "High Temp, Drying Oven 350℃, Program 100L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-HP485",
+    "number" : "O01-02-067"
+  }, {
+    "content" : "High Temp, Drying Oven 350℃, PID 150L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-HS600",
+    "number" : "O01-02-073"
+  }, {
+    "content" : "High Temp, Drying Oven 350℃, Program 150L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-HP605",
+    "number" : "O01-02-075"
+  }, {
+    "content" : "Validation for Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-FO100",
+    "number" : "O01-91-999"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Wire Shelf for 100L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-HSSH01",
+    "number" : "O01-02-441"
+  }, {
+    "content" : "Wire Shelf for 150L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-HSSH02",
+    "number" : "O01-02-443"
+  }, {
+    "content" : "Perforated Plate Shelf for 100L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-HSSH11",
+    "number" : "O01-02-451"
+  }, {
+    "content" : "Perforated Plate Shelf for 150L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-HSSH12",
+    "number" : "O01-02-453"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">   <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>  </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-065</td>                  <td scope=\"row\">LO-HS480</td>                  <td rowspan=\"2\" scope=\"row\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-073</td>                  <td scope=\"row\">LO-HS600</td>                  <td class=\"tdfin\" scope=\"row\">150 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-067</td>                  <td scope=\"row\">LO-HP485</td>                  <td rowspan=\"2\" class=\"trfin\" scope=\"row\">Program Control</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-075</td>                  <td class=\"trfin\" scope=\"row\">LO-HP605</td>                  <td class=\"trfin2\" scope=\"row\">150 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-065</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-073</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-067</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-075</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-HS480</td>    <td class=\"trfinth4\" scope=\"col\">LO-HS600</td>    <td class=\"trfinth4\" scope=\"col\">LO-HP485</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-HP605</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">100 L</td>    <td scope=\"col\">150 L</td>    <td scope=\"col\">100 L</td>    <td class=\"tdfin\" scope=\"col\">150 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"2\" scope=\"col\">PID Control</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Program Control</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0.1℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run start/Wait start(99 hr 59 min)</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Fan Speed</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1 ~ 5 Step</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Ambient +15 ~ +350℃</td>  </tr>  <tr>    <th scope=\"col\">Accuracy at 100℃</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">±0.3℃</td>  </tr>  <tr>    <th scope=\"col\">Uniformity at 100℃</th>    <td scope=\"col\">±2.3℃</td>    <td scope=\"col\">±3.7℃</td>    <td scope=\"col\">±2.3℃</td>    <td class=\"tdfin\" scope=\"col\">±3.7℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior (mm)</th>    <td scope=\"col\">w480×d400×h520 mm</td>    <td scope=\"col\">w600×d500×h520 mm</td>    <td scope=\"col\">w480×d400×h520 mm</td>    <td class=\"tdfin\" scope=\"col\">w600×d500×h520 mm</td>  </tr>  <tr>    <th scope=\"col\"> External (mm)</th> <td scope=\"col\">w670×d675×h930 mm</td>    <td scope=\"col\">w790×d710×h930 mm</td>    <td scope=\"col\">w670×d675×h930 mm</td>    <td class=\"tdfin\" scope=\"col\">w790×d710×h930 mm</td>     </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">2.5 kW (11.3 A)</td>    <td scope=\"col\">3.1 kW (14.1 A)</td>    <td scope=\"col\">2.5 kW (11.3 A)</td>    <td class=\"tdfin\" scope=\"col\">3.1 Kw (14.1 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"2\" scope=\"col\">Other</th>    <th scope=\"col\">Wire Shelf</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">2ea</td>  </tr>  <tr>    <th scope=\"col\">Vent Hole</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Φ38 mm×2 ea</td>  </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-999 </td>                  <td class=\"trfin\" scope=\"row\">VA-FO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될 수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"158\" scope=\"col\">Cat. No.</th>    <th width=\"144\" scope=\"row\">Model</th>    <th colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-441</td>    <td scope=\"row\">LO-HSSH01</td>    <td width=\"225\" rowspan=\"2\" scope=\"row\">Spare Wire Shelf</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-443</td>    <td scope=\"row\">LO-HSSH02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 150 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-451</td>     <td scope=\"row\">LO-HSSH11</td>      <td rowspan=\"2\" class=\"trfin\" scope=\"row\"> Optional Perforated Plate Shelf</td>      <td class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-453</td>    <td class=\"trfin\" scope=\"row\">LO-HSSH12</td>    <td class=\"trfin2\" scope=\"row\">for 150 L</td>  </tr></tbody></table> " ],
+  "title" : "High Temp. Forced Convection Oven (고온용 강제 열풍 순환 건조기, 350℃)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 열풍 순환방식으로 온도편차 및 온도 분포도가 균일함", "■ Door Open시 Fan 정지기능, 온도 변화 최소화 및 사용자의 안전성 고려", "■ 내열성이 우수한 세라믹 팩킹 적용", "■ 50T 단열과 높은 히터 Capacity으로 온도 상승이 빠름", "■ Graphic LCD Display, 간편한 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ 2 가지 타입의 타이머. 구동과 동시에 시작, 목표 온도 도달 후 시작", "■ 5단계 풍량조절 기능을 통한 시료 확산 방지", "■ RS485 PC통신 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ Program control", "- 여러 단계의 온도 상승과 유지시간을 저장하고 선택하여 운전", "- 온도 Overshoot 억제 및 정밀 제어 가능", "- 2 Pattern, 18 Segment 프로그램 설정 가능", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ)", "■ LK Labkorea" ],
+  "id" : "1920",
+  "image" : "http://lklab.com/product_image/S-8368.jpg",
+  "specification" : [ {
+    "content" : "High Temp. Drying Oven 450℃, PID 100L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-US100",
+    "number" : "O01-02-081"
+  }, {
+    "content" : "High Temp. Drying Oven 450℃, PID 150L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-US165",
+    "number" : "O01-02-089"
+  }, {
+    "content" : "High Temp. Drying Oven 450℃, Program 100L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-UP200",
+    "number" : "O01-02-091"
+  }, {
+    "content" : "High Temp. Drying Oven 450℃, Program 150L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-UP350",
+    "number" : "O01-02-093"
+  }, {
+    "content" : "Validation for Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-FO100",
+    "number" : "O01-91-999"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Wire Shelf for Large-type Oven 360L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-USSH01",
+    "number" : "O01-02-421"
+  }, {
+    "content" : "Wire Shelf for Large-type Oven 588L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-USSH02",
+    "number" : "O01-02-423"
+  }, {
+    "content" : "Perforated Plate Shelf for Large-type Oven 360L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-USSH11",
+    "number" : "O01-02-431"
+  }, {
+    "content" : "Perforated Plate Shelf for Large-type Oven 588L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-USSH12",
+    "number" : "O01-02-433"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-081</td>                  <td scope=\"row\">LO-US100</td>                  <td rowspan=\"2\" scope=\"row\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-089</td>                  <td scope=\"row\">LO-US165</td>                  <td class=\"tdfin\" scope=\"row\">150 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-091</td>                  <td scope=\"row\">LO-UP200</td>                  <td rowspan=\"2\" class=\"trfin\" scope=\"row\">Program Control</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-093</td>                  <td class=\"trfin\" scope=\"row\">LO-UP350</td>                  <td class=\"trfin2\" scope=\"row\">150 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-081</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-089</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-091</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-093</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-US100</td>    <td class=\"trfinth4\" scope=\"col\">LO-US165</td>    <td class=\"trfinth4\" scope=\"col\">LO-UP200</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-UP350</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">100 L</td>    <td scope=\"col\">150 L</td>    <td scope=\"col\">100 L</td>    <td class=\"tdfin\" scope=\"col\">150 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"2\" scope=\"col\">PID Control</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Program Control</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0.1℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run start/Wait start(99 hr 59 min)</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Fan Speed</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1 ~ 5 Step</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Ambient +15 ~ +450℃</td>  </tr>  <tr>    <th scope=\"col\">Accuracy at 100℃</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">±0.3℃</td>  </tr>  <tr>    <th scope=\"col\">Uniformity at 100℃</th>    <td scope=\"col\">±2.3℃</td>    <td scope=\"col\">±3.7℃</td>    <td scope=\"col\">±2.3℃</td>    <td class=\"tdfin\" scope=\"col\">±3.7℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior (mm)</th>    <td scope=\"col\">w480×d400×h520 mm</td>    <td scope=\"col\">w600×d500×h520 mm</td>    <td scope=\"col\">w480×d400×h520 mm</td>    <td class=\"tdfin\" scope=\"col\">w600×d500×h520 mm</td>  </tr>  <tr>    <th scope=\"col\"> External (mm)</th>   <td scope=\"col\">w670×d675×h930 mm</td>    <td scope=\"col\">w790×d710×h930 mm</td>    <td scope=\"col\">w670×d675×h930 mm</td>    <td class=\"tdfin\" scope=\"col\">w790×d710×h930 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">3.5 kW (15.9 A)</td>    <td scope=\"col\">4.1 kW (18.7 A)</td>    <td scope=\"col\">3.5 kW (15.9 A)</td>    <td class=\"tdfin\" scope=\"col\">4.1 kW (18.7 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">Industrial Plug</td>  </tr>  <tr>    <th rowspan=\"2\" scope=\"col\">Other</th>    <th scope=\"col\">Wire Shelf</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">2ea</td>    </tr>  <tr>       <th scope=\"col\">Vent Hole</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Φ38 mm×2 ea</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>            Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-999 </td>                  <td class=\"trfin\" scope=\"row\">VA-FO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될 수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"158\" scope=\"col\">Cat. No.</th>    <th width=\"144\" scope=\"row\">Model</th>    <th colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-421</td>    <td scope=\"row\">LO-USSH01</td>    <td width=\"225\" rowspan=\"2\" scope=\"row\">Spare Wire Shelf</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-423</td>    <td scope=\"row\">LO-USSH02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 150 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-431</td>     <td scope=\"row\">LO-USSH11</td>      <td rowspan=\"2\" class=\"trfin\" scope=\"row\">Optional Perforated Plate Shelf</td>      <td class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-433</td>    <td class=\"trfin\" scope=\"row\">LO-USSH12</td>    <td class=\"trfin2\" scope=\"row\">for 150 L</td>  </tr></tbody></table>" ],
+  "title" : "High Temp. Forced Convection Oven (고온용 강제 열풍 순환 건조기, 450℃)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 전기 전자 반도체 등 청정조건을 필요로 하는 실험용 청정 열처리기", "■ 0.03 nm 크기 이상의 입자 99.97% 여과", "■ 열풍 순환방식으로 온도편차 및 온도 분포도가 균일함", "■ 5단계 풍량 조절 기능을 통한 시료 확산 방지", "■ Door Open시 Fan 정지 기능, 온도 변화 최소화 및 사용자의 안전성 고려", "■ 가스 배출을 위한 상부 Vent hole", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ RS485 통신포트 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ Program control", "- 여러 단계의 온도 상승과 유지시간을 저장하고 선택하여 운전", "- 온도 Overshoot 억제 및 정밀 제어 가능", "- 2 Pattern, 18 Segment 프로그램 설정 가능", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ)", "■ LK Labkorea" ],
+  "id" : "1921",
+  "image" : "http://lklab.com/product_image/S-8370.jpg",
+  "specification" : [ {
+    "content" : "Hi-Clean Oven PID 100L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-CS310",
+    "number" : "O01-02-097"
+  }, {
+    "content" : "Hi-Clean Oven PID 180L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-CS315",
+    "number" : "O01-02-105"
+  }, {
+    "content" : "Hi-Clean Oven Program 100L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-CP510",
+    "number" : "O01-02-118"
+  }, {
+    "content" : "Hi-Clean Oven Program 180L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-CP515",
+    "number" : "O01-02-123"
+  }, {
+    "content" : "Validation for Hi-Clean Oven for Hi-Clean Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-CO100",
+    "number" : "O01-91-998"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Spare Wire Shelf for 100 L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-CSSH01",
+    "number" : "O01-02-455"
+  }, {
+    "content" : "Spare Wire Shelf for 180 L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-CSSH02",
+    "number" : "O01-02-456"
+  }, {
+    "content" : "Optional Perforated Plate Shelf for 100 L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-CSSH11",
+    "number" : "O01-02-457"
+  }, {
+    "content" : "Optional Perforated Plate Shelf for 180 L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-CSSH12",
+    "number" : "O01-02-458"
+  }, {
+    "content" : "N2 Purge System Flowmeter 포함 Flowmeter 포함",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "LO-N2FM",
+    "number" : "O01-02-491"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-097</td>                  <td scope=\"row\">LO-CS310</td>                  <td rowspan=\"2\" scope=\"row\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-105</td>                  <td scope=\"row\">LO-CS315</td>                  <td class=\"tdfin\" scope=\"row\">180 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-118</td>                  <td scope=\"row\">LO-CP510</td>                  <td rowspan=\"2\" class=\"trfin\" scope=\"row\">Program Control</td>                  <td class=\"tdfin\" scope=\"row\">100 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-123</td>                  <td class=\"trfin\" scope=\"row\">LO-CP515</td>                  <td class=\"trfin2\" scope=\"row\">180 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-097</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-105</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-118</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-123</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-CS310</td>    <td class=\"trfinth4\" scope=\"col\">LO-CS315</td>    <td class=\"trfinth4\" scope=\"col\">LO-CP510</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-CP515</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">100 L</td>    <td scope=\"col\">180 L</td>    <td scope=\"col\">100 L</td>    <td class=\"tdfin\" scope=\"col\">180 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"2\" scope=\"col\">PID Control</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Program Control</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0.01℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run start/Wait start(99 hr 59 min)</td>    </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Fan Speed</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1 ~ 5 Step</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Ambient +15 ~ +200℃</td>  </tr>  <tr>    <th scope=\"col\">Accuracy at 100℃</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">±0.3℃</td>  </tr>  <tr>    <th scope=\"col\">Uniformity at 100℃</th>    <td scope=\"col\">±4.5℃</td>    <td scope=\"col\">±5.2℃</td>    <td scope=\"col\">±4.5℃</td>    <td class=\"tdfin\" scope=\"col\">±5.2℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior (w×d×h)</th>    <td scope=\"col\">w480×d450×h450 mm</td>    <td scope=\"col\">w600×d500×h600 mm</td>    <td scope=\"col\">w480×d450×h450 mm</td>    <td class=\"tdfin\" scope=\"col\">w600×d500×h600 mm</td>  </tr>  <tr>    <th scope=\"col\"> Exterior (w×d×h)</th>    <td scope=\"col\">w620×d850×h850 mm</td>    <td scope=\"col\">w740×d900×h1000 mm</td>    <td scope=\"col\">w620×d850×h850 mm</td>    <td class=\"tdfin\" scope=\"col\">w740×d900×h1000 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">1.5 kW (6.8 A)</td>    <td scope=\"col\">2.0 kW (9 A)</td>    <td scope=\"col\">1.5 Kw (6.8 A)</td>    <td class=\"tdfin\" scope=\"col\">2.0 Kw (9 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">Standard Plug</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Clean Class</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">100 Class</td>    </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Filter</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">HEPA Filter 0.3 um, 99.97% Efficiency Filter</td>    </tr>  <tr>    <th colspan=\"2\" scope=\"col\">N2 Line (Option)</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">N₂Purging System &amp; Flow Meter</td>    </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Wire Shelf</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">2 ea</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>     Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-998 </td>                  <td class=\"trfin\" scope=\"row\">VA-CO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Clean Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경되어 질 수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"158\" scope=\"col\">Cat. No.</th>    <th width=\"144\" scope=\"row\">Model</th>    <th colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-455</td>    <td scope=\"row\">LO-CSSH01</td>    <td width=\"225\" rowspan=\"2\" scope=\"row\">Spare Wire Shelf</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-456</td>    <td scope=\"row\">LO-CSSH02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 180 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-457</td>     <td scope=\"row\">LO-CSSH11</td>      <td rowspan=\"2\" scope=\"row\"> Optional Perforated Plate Shelf</td>      <td class=\"tdfin\" scope=\"row\">for 100 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-458</td>    <td scope=\"row\">LO-CSSH12</td>    <td class=\"tdfin\" scope=\"row\">for 180 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-491</td>    <td class=\"trfin\" scope=\"row\">LO-N2FM</td>    <td colspan=\"2\" class=\"trfin2\" scope=\"row\">Installing N₂Port &amp; Flow Meter</td>  </tr></tbody></table>" ],
+  "title" : "Hi-Clean Oven, 100 Class (클린 건조기, 100 Class)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 열풍 순환방식으로 온도 분포도가 균일함", "■ Door Open시 Fan 정지 기능, 온도 변화 최소화 및 사용자의 안전성 고려", "■ 비상정지 버튼. 긴급 상황시 즉각적인 장비 정지", "■ 3중 강화 유리 투시창. Door Open 없이 내부 관찰", "■ 가스 배출을 위한 상부 Vent hole", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ 비상정지 버튼. 긴급 상황 시 즉각적인 장비 정지", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ Program type, Size 변경, 전원 변경등 특수 사양도 제작 가능", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ)", "■ LK Labkorea" ],
+  "id" : "1922",
+  "image" : "http://lklab.com/product_image/S-10884.jpg",
+  "specification" : [ {
+    "content" : "Industrial Oven 720L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-FS720",
+    "number" : "O01-02-195"
+  }, {
+    "content" : "Industrial Oven 1000L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-FS1000",
+    "number" : "O01-02-197"
+  }, {
+    "content" : "Industrial Oven 1500L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-FS1500",
+    "number" : "O01-02-199"
+  }, {
+    "content" : "Validation for Oven",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "VA-FO100",
+    "number" : "O01-91-999"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "Wire Shelf for Oven 720L",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "LO-FSSH51",
+    "number" : "O01-02-461"
+  }, {
+    "content" : "Wire Shelf for Oven 1000L",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LO-FSSH52",
+    "number" : "O01-02-463"
+  }, {
+    "content" : "Wire Shelf for Oven 1500L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-FSSH53",
+    "number" : "O01-02-465"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 720L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-FSSH55",
+    "number" : "O01-02-471"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 1000L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-FSSH56",
+    "number" : "O01-02-473"
+  }, {
+    "content" : "Perforated Plate Shelf for Oven 1500L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-FSSH57",
+    "number" : "O01-02-475"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-195</td>                  <td scope=\"row\">LO-FS720</td>                  <td rowspan=\"3\" class=\"trfin\" scope=\"row\">PID Controller</td>                  <td class=\"tdfin\" scope=\"row\">720 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-197</td>                  <td scope=\"row\">LO-FS1000</td>                  <td class=\"tdfin\" scope=\"row\">1000 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-199</td>                  <td class=\"trfin\" scope=\"row\">LO-FS1500</td>                  <td class=\"trfin2\" scope=\"row\">1500 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"189\" class=\"trfinth4\" scope=\"col\">O01-02-195</td>    <td width=\"189\" class=\"trfinth4\" scope=\"col\">O01-02-197</td>    <td width=\"188\" class=\"trfinth3\" scope=\"col\">O01-02-199</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-FS720</td>    <td class=\"trfinth4\" scope=\"col\">LO-FS1000</td>    <td width=\"188\" class=\"trfinth3\" scope=\"col\">LO-FS1500</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">720 L</td>    <td scope=\"col\">1000 L</td>    <td class=\"tdfin\" scope=\"col\">1500 L</td>  </tr>  <tr>    <th width=\"86\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"146\" scope=\"col\">Control</th>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">PID Control, Auto-tuning</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"3\" class=\"tdfin\" scope=\"col\">0.01℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"3\" class=\"tdfin\" scope=\"col\">Run start/Wait start(99 hr 59 min)</td>  </tr>  <tr>    <th width=\"86\" rowspan=\"3\" scope=\"col\">Temperature</th>    <th width=\"146\" scope=\"col\">Range</th>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">Ambient +10 ~ +250℃</td>  </tr>  <tr>    <th scope=\"col\">Accuracy at 100℃</th>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">±0.3℃</td>  </tr>  <tr>    <th scope=\"col\">Uniformity at 100℃</th>    <td scope=\"col\">±2.0℃</td>    <td scope=\"col\">±2.4℃</td>    <td class=\"tdfin\" scope=\"col\">±2.8℃</td>  </tr>  <tr>    <th width=\"86\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"146\" scope=\"col\">Interior</th>    <td scope=\"col\">w1000×d800×h900 mm</td>    <td scope=\"col\">w1100×d910×h1000 mm</td>    <td class=\"tdfin\" scope=\"col\">w1300×d1000×h1200 mm</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td scope=\"col\">w1480×d1000×h1180 mm</td>    <td scope=\"col\">w1580×d1110×h1280 mm</td>    <td class=\"tdfin\" scope=\"col\">w1780×d1200×h1480 mm</td>  </tr>  <tr>    <th width=\"86\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"146\" scope=\"col\">Interior</th>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"86\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"146\" scope=\"col\">Power</th>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">3 Phase, 380Vac, 60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">4.5 kW (6.8 A)</td>    <td scope=\"col\">6 kW (9.1 A)</td>    <td class=\"tdfin\" scope=\"col\">8 kW (12.2 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"3\" scope=\"col\">Industrial Plug</td>  </tr>  <tr>    <th scope=\"col\" rowspan=\"2\">Other</th>    <th scope=\"col\">Damper</th>    <td class=\"tdfin\" colspan=\"3\" scope=\"col\">Φ100 mm Internal Steam, Damper &amp; Duct Hole Base Installation</td>    </tr>  <tr>    <th scope=\"col\">Wire Shelf</th>    <td colspan=\"2\" scope=\"col\">6 ea</td>    <td class=\"tdfin\" scope=\"col\">8 ea</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"3\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>    </tr></tbody></table>   Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-999 </td>                  <td class=\"trfin\" scope=\"row\">VA-FO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될  수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>    Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"158\" scope=\"col\">Cat. No.</th>    <th width=\"144\" scope=\"row\">Model</th>    <th colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-461</td>    <td scope=\"row\">LO-FSSH51</td>    <td width=\"225\" rowspan=\"3\" scope=\"row\">Spare Wire Shelf</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 720 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-463</td>    <td scope=\"row\">LO-FSSH52</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 1000 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-465</td>    <td scope=\"row\">LO-FSSH53</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 1500 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-471</td>     <td scope=\"row\">LO-FSSH55</td>      <td rowspan=\"3\" class=\"trfin\" scope=\"row\"> Optional Perforated Plate Shelf</td>      <td class=\"tdfin\" scope=\"row\">for 720 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-473</td>    <td scope=\"row\">LO-FSSH56</td>    <td class=\"tdfin\" scope=\"row\">for 1000 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-475</td>    <td class=\"trfin\" scope=\"row\">LO-FSSH57</td>    <td class=\"trfin2\" scope=\"row\">for 1500 L</td>  </tr></tbody></table>" ],
+  "title" : "Industrial Oven (산업용 건조기)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 챔버 내부를 진공상태로 유지하여 가열산소에 의한 시료의 물리적,화학적 변화를 억제함", "■ 확산 방지 밸브 적용. 진공해지 시 급격한 외부 공기 유입으로 인한 시료 확산을 방지함", "■ 열전도율이 우수한 DU-AL 선반 채택", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ 2 가지 타입의 타이머. 구동과 동시에 시작, 목표 온도 도달 후 시작", "■ RS485 PC통신 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ Validation Service (IQ, OQ, PQ)", "■ PL Insurance (제조물 배상 책임 보험)", "■ LK Labkorea" ],
+  "id" : "1923",
+  "image" : "http://lklab.com/product_image/S-10885.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Oven PID 8L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-VS232N",
+    "number" : "O01-02-302"
+  }, {
+    "content" : "Vacuum Oven PID 28L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-VS313N",
+    "number" : "O01-02-310"
+  }, {
+    "content" : "Vacuum Oven PID 65L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-VS424N",
+    "number" : "O01-02-318"
+  }, {
+    "content" : "Vacuum Oven PID 125L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-VS525N",
+    "number" : "O01-02-321"
+  }, {
+    "content" : "Validation for Vacuum Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-VO100",
+    "number" : "O01-91-997"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Silicon Gasket for 8L Vacuum Oven",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-VSSG01",
+    "number" : "O01-02-381"
+  }, {
+    "content" : "Silicon Gasket for 28L Vacuum Oven",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-VSSG02",
+    "number" : "O01-02-383"
+  }, {
+    "content" : "Silicon Gasket for 65L Vacuum Oven",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-VSSG03",
+    "number" : "O01-02-385"
+  }, {
+    "content" : "Silicon Gasket for 125L Vacuum Oven",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-VSSG04",
+    "number" : "O01-02-387"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-302</td>                  <td scope=\"row\">LO-VS232N</td>                  <td rowspan=\"4\" scope=\"row\" class=\"trfin\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">8 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-310</td>                  <td scope=\"row\">LO-VS313N</td>                  <td class=\"tdfin\" scope=\"row\">28 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-318</td>                  <td scope=\"row\">LO-VS424N</td>                  <td class=\"tdfin\" scope=\"row\">65 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-321</td>                  <td class=\"trfin\" scope=\"row\">LO-VS525N</td>                  <td class=\"trfin2\" scope=\"row\">125 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-302</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-310</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-318</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-321</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-VS232N</td>    <td class=\"trfinth4\" scope=\"col\">LO-VS313N</td>    <td class=\"trfinth4\" scope=\"col\">LO-VS424N</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-VS525N</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">8 L</td>    <td scope=\"col\">28 L</td>    <td scope=\"col\">65 L</td>    <td class=\"tdfin\" scope=\"col\">125 L </td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">PID Control, Auto-tuning</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0.01℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run Start/Wait start(99 hr 59 min)</td>  </tr>  <tr>    <th width=\"85\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Ambient +50 ~ +250℃</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Vacuum</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">-0.1 Mpa</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Dimension</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td scope=\"col\">w200×d200×h200 mm</td>    <td scope=\"col\">w300×d300×h300 mm</td>    <td scope=\"col\">w400×d400×h400 mm</td>    <td class=\"tdfin\" scope=\"col\">w500×d500×h500 mm</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td scope=\"col\">w370×d350×h510 mm</td>    <td scope=\"col\">w470×d460×h615 mm</td>    <td scope=\"col\">w570×d560×h720 mm</td>    <td class=\"tdfin\" scope=\"col\">w770×d650×h830 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">600 W (2.8 A)</td>    <td scope=\"col\">600 W (2.8 A)</td>    <td scope=\"col\">1.6 kW (7.3 A)</td>    <td class=\"tdfin\" scope=\"col\">2.5 kW (11.2 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"3\" scope=\"col\">Other</th>    <th scope=\"col\">Aluminum Shelf</th>    <td scope=\"col\">1 ea</td>    <td colspan=\"3\" class=\"tdfin\" scope=\"col\">2 ea</td>    </tr>  <tr>    <th scope=\"col\">Vacuum Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple male</td>  </tr>  <tr>    <th scope=\"col\">Vent Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple male</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-997 </td>                  <td class=\"trfin\" scope=\"row\">VA-VO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Vacuum Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될 수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <th width=\"200\" scope=\"row\">Model</th>    <th colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-381</td>    <td scope=\"row\">LO-VSSG01</td>    <td width=\"225\" rowspan=\"4\" class=\"trfin\" scope=\"row\">Spare Silicon Gasket</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 8 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-383</td>    <td scope=\"row\">LO-VSSG02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 28 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-385</td>    <td scope=\"row\">LO-VSSG03</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 65 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-387</td>    <td class=\"trfin\" scope=\"row\">LO-VSSG04</td>    <td width=\"271\" class=\"trfin2\" scope=\"row\">for 125 L</td>  </tr></tbody></table>" ],
+  "title" : "Vacuum Oven (진공 건조기)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 챔버 내부를 진공상태로 유지하여 가열산소에 의한 시료의 물리적, 화학적 변화를 억제함", "■ 확산 방지 밸브 적용. 진공해지 시 급격한 외부 공기 유입으로 인한 시료 확산을 방지함", "■ 열전도율이 우수한 DU-AL 선반 채택", "■ 여러 단계의 온도 상승과 유지시간을 저장하고 선택하여 운전", "■ 온도 Overshoot 억제 및 정밀 제어 가능", "■ 2 Pattern, 18 Segment 프로그램 설정 가능", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ RS-485 통신 포트 기본 포함", "■ Auto-tuning, Temperature Calibration 기능", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ LO-VP525(125L) 모델은 인증 제외", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ)", "■ LK Labkorea" ],
+  "id" : "1924",
+  "image" : "http://lklab.com/product_image/S-10886.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Oven Program 8L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-VP232N",
+    "number" : "O01-02-304"
+  }, {
+    "content" : "Vacuum Oven Program 28L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-VP313N",
+    "number" : "O01-02-312"
+  }, {
+    "content" : "Vacuum Oven Program 65L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-VP424N",
+    "number" : "O01-02-320"
+  }, {
+    "content" : "Vacuum Oven Program 125L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-VP525N",
+    "number" : "O01-02-322"
+  }, {
+    "content" : "Validation for Vacuum Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-VO100",
+    "number" : "O01-91-997"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Silicon Gasket for 8L Vacuum Oven",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-VSSG01",
+    "number" : "O01-02-381"
+  }, {
+    "content" : "Silicon Gasket for 28L Vacuum Oven",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-VSSG02",
+    "number" : "O01-02-383"
+  }, {
+    "content" : "Silicon Gasket for 65L Vacuum Oven",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "LO-VSSG03",
+    "number" : "O01-02-385"
+  }, {
+    "content" : "Silicon Gasket for 125L Vacuum Oven",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "LO-VSSG04",
+    "number" : "O01-02-387"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-304</td>                  <td scope=\"row\">LO-VP232N</td>                  <td rowspan=\"4\" scope=\"row\" class=\"trfin\">Program Control</td>                  <td class=\"tdfin\" scope=\"row\">8 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-312</td>                  <td scope=\"row\">LO-VP313N</td>                  <td class=\"tdfin\" scope=\"row\">28 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-320</td>                  <td scope=\"row\">LO-VP424N</td>                  <td class=\"tdfin\" scope=\"row\">65 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-322</td>                  <td class=\"trfin\" scope=\"row\">LO-VP525N</td>                  <td class=\"trfin2\" scope=\"row\">125 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-304</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-312</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-320</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-322</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-VP232N</td>    <td class=\"trfinth4\" scope=\"col\">LO-VP313N</td>    <td class=\"trfinth4\" scope=\"col\">LO-VP424N</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-VP525N</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">8 L</td>    <td scope=\"col\">28 L</td>    <td scope=\"col\">65 L</td>    <td class=\"tdfin\" scope=\"col\">125 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Program Control, Auto-tuning</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">GLCD(Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">0.01℃</td>  </tr>  <tr>    <th width=\"85\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\"> 50 to 250℃</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Vacuum</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">-0.1 Mpa</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td scope=\"col\">w200×d200×h200 mm</td>    <td scope=\"col\">w300×d300×h300 mm</td>    <td scope=\"col\">w400×d400×h400 mm</td>    <td class=\"tdfin\" scope=\"col\">w500×d500×h500 mm</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td scope=\"col\">w370×d350×h510 mm</td>    <td scope=\"col\">w470×d460×h615 mm</td>    <td scope=\"col\">w570×d560×h720 mm</td>    <td class=\"tdfin\" scope=\"col\">w770×d650×h830 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Pase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">600 W (2.8 A)</td>    <td scope=\"col\">600 W (2.8 A)</td>    <td scope=\"col\">1.6 kW (7.3 A)</td>    <td class=\"tdfin\" scope=\"col\">2.5 kW (11.2 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"3\" scope=\"col\">Other</th>    <th scope=\"col\">Aluminum Shelf</th>    <td scope=\"col\">1 ea</td>    <td colspan=\"3\" class=\"tdfin\" scope=\"col\">2 ea</td>    </tr>  <tr>    <th scope=\"col\">Vacuum Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple male</td>  </tr>  <tr>    <th scope=\"col\">Vent Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple male</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table>   Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-997 </td>                  <td class=\"trfin\" scope=\"row\">VA-VO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Vacuum Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size:  12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될  수 있음</li></ul><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"158\" scope=\"col\">Cat. No.</th>    <th width=\"144\" scope=\"row\">Model</th>    <th colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-381</td>    <td scope=\"row\">LO-VSSG01   </td>    <td width=\"225\" rowspan=\"4\" class=\"trfin\" scope=\"row\">Spare Silicon Gasket</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 8 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-383</td>    <td scope=\"row\">LO-VSSG02</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 28 L</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-385</td>    <td scope=\"row\">LO-VSSG03</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 65 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-387</td>    <td class=\"trfin\" scope=\"row\">LO-VSSG04</td>    <td width=\"271\" class=\"trfin2\" scope=\"row\">for 125 L</td>  </tr></tbody></table>" ],
+  "title" : "Vacuum Oven, Program Type (진공 건조기, Program Type)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 진공오븐을 사용할 때 필요한 장비를 시스템으로 구성 (진공 건조기, 콜드트랩, 진공펌프, 랙)", "■ 챔버 내부를 진공상태로 유지하여 가열산소에 의한 시료의 물리적, 화학적 변화를 억제함", "■ 열전도율이 우수한 DU-AL 선반 채택", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ 2 가지 타입의 타이머. 구동과 동시에 시작, 목표 온도 도달 후 시작", "■ RS485 PC통신 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ 요청에 의해 Program Type도 공급 가능함", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ)", "■ LK Labkorea" ],
+  "id" : "1925",
+  "image" : "http://lklab.com/product_image/S-10887.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Oven System PID 8L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-VS232SN",
+    "number" : "O01-02-335"
+  }, {
+    "content" : "Vacuum Oven System PID 28L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-VS313SN",
+    "number" : "O01-02-339"
+  }, {
+    "content" : "Vacuum Oven System PID 65L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-VS424SN",
+    "number" : "O01-02-343"
+  }, {
+    "content" : "Vacuum Oven System PID 125L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-VS525SN",
+    "number" : "O01-02-347"
+  }, {
+    "content" : "Validation for Vacuum Oven System",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-VOS100",
+    "number" : "O01-91-996"
+  }, {
+    "content" : "2단 Rack 620x600x900mm 620x600x900mm",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "LO-VSRA01",
+    "number" : "O01-02-481"
+  }, {
+    "content" : "2단 Rack 720x600x900mm 720x600x900mm",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LO-VSRA02",
+    "number" : "O01-02-483"
+  }, {
+    "content" : "2단 Rack 820x600x900mm 820x600x900mm",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-VSRA03",
+    "number" : "O01-02-485"
+  }, {
+    "content" : "2단 Rack 920x690x900mm 920x690x900mm",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-VSRA04",
+    "number" : "O01-02-487"
+  } ],
+  "tableItems" : [ "<style>/* standard table style */.st-tablebox{ width:800px; max-width:800px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox p{ line-height: 19px;}.st-tablebox th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* standard table style 900 */.st-tablebox900 { width:900px; max-width:900px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox900 p{ line-height: 19px;}.st-tablebox900 th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox900 td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox900 th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox900 .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox900 .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox900 .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* 첨부파일 관련 스타일 */.st-table_file td{border-left:#cdcdcd solid 0px; border-bottom:#cdcdcd solid 0px; }.auto-style1 {    color: #000000;}</style><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">               <thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">Type</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>   <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-335</td>                  <td scope=\"row\">LO-VS232SN</td>                  <td rowspan=\"4\" scope=\"row\" class=\"trfin\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">8 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-339</td>                  <td scope=\"row\">LO-VS313SN</td>                  <td class=\"tdfin\" scope=\"row\">28 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-343</td>                  <td scope=\"row\">LO-VS424SN</td>                  <td class=\"tdfin\" scope=\"row\">65 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-347</td>                  <td class=\"trfin\" scope=\"row\">LO-VS525SN</td>                  <td class=\"trfin2\" scope=\"row\">125 L</td>                </tr>   </tbody></table><table summary=\"상세규격표\" style=\"margin-top:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-335</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-339</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-343</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-347</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-VS232SN</td>    <td class=\"trfinth4\" scope=\"col\">LO-VS313SN</td>    <td class=\"trfinth4\" scope=\"col\">LO-VS424SN</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-VS525SN</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">8 L</td>    <td scope=\"col\">28 L</td>    <td scope=\"col\">65 L</td>    <td class=\"tdfin\" scope=\"col\">125L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">PID Control, Auto-tuning</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">0.01℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run start/Wait start(99 hr 59 min)</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Vacuum</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">-0.1 Mpa</td>  </tr>  <tr>    <th width=\"85\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">50 to 250℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td scope=\"col\">w200×d200×h200 mm</td>    <td scope=\"col\">w300×d300×h300 mm</td>    <td scope=\"col\">w400×d400×h400 mm</td>    <td class=\"tdfin\" scope=\"col\">w500×d500×h500 mm</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td scope=\"col\">w370×d350×h510 mm</td>    <td scope=\"col\">w470×d460×h615 mm</td>    <td scope=\"col\">w570×d560×h720 mm</td>    <td class=\"tdfin\" scope=\"col\">w770×d650×h830 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">304 Stainless Steel</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">600 W (2.8 A)</td>    <td scope=\"col\">600 W (2.8 A)</td>    <td scope=\"col\">1.6 kW (7.3 A)</td>    <td class=\"tdfin\" scope=\"col\">2.5 kW (11.2 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"3\" scope=\"col\">Other</th>    <th scope=\"col\">Aluminum Shelf</th>    <td scope=\"col\">1 ea</td>    <td colspan=\"3\" class=\"tdfin\" scope=\"col\">2 ea</td>    </tr>  <tr>    <th scope=\"col\">Vacuum Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple Male</td>  </tr>  <tr>    <th scope=\"col\">Vent Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple Male</td>    </tr>     <tr>      <th colspan=\"2\" scope=\"col\">Safety</th>      <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>     </tr>    <tr>      <th width=\"85\" rowspan=\"4\" scope=\"col\"><p>Cold Trap</p>      <p>Bath</p></th>      <th scope=\"col\">Cat. No. / Model</th>      <td colspan=\"4\" class=\"trfinth3\" scope=\"col\">B04-01-230 / CTB40    </td></tr>  <tr>    <th width=\"145\" scope=\"col\">Temp. Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Down to -40℃</td>  </tr>  <tr>    <th scope=\"col\">Capacity</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">4.8L</td>  </tr>  <tr>    <th scope=\"col\">Trap</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Glass Trap (2 ea)</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"8\" scope=\"col\"><p>Vacuum</p>      <p>Pump</p></th>    <th scope=\"col\">Cat. No. / Model</th>    <td class=\"trfinth4\" scope=\"col\">P06-121-105/ED-RV5</td>    <td class=\"trfinth4\" colspan=\"2\" scope=\"col\">P06-121-108/ED-RV8</td>    <td class=\"trfinth3\" scope=\"col\">P06-121-112/ED-RV12</td>  </tr>  <tr>    <th width=\"145\" scope=\"col\">Pumping Speed</th>    <td scope=\"col\">103 L/min</td>    <td colspan=\"2\" scope=\"col\">167 L/min</td>    <td class=\"tdfin\" scope=\"col\">238 L/min</td>  </tr>  <tr>    <th scope=\"col\">Check Valve</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Check Valve</td>  </tr>  <tr>    <th scope=\"col\">Gas Ballast Valve</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">2 Stage Rotary Vane Pump</td>  </tr>  <tr>    <th scope=\"col\">Ultimate Pressure</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1.5×10<sup>-3</sup> Torr</td>  </tr>  <tr>    <th scope=\"col\">(- GB 1)</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">2.3×10<sup>-2</sup> Torr</td>  </tr>  <tr>    <th scope=\"col\">(- GB 2)</th>    <td scope=\"col\">7.5×10<sup>-2</sup> Torr</td>    <td colspan=\"3\" scope=\"col\" class=\"tdfin\">4.6×10<sup>-2</sup> Torr</td>    </tr>  <tr>    <th scope=\"col\">Oil Mist Trap</th>    <td colspan=\"3\" scope=\"col\">EMF10</td>    <td class=\"tdfin\" scope=\"col\">EMF20</td>  </tr>  <tr>  <th rowspan=\"2\" class=\"trfin\">Rack</th>    <th scope=\"col\">Material</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel With Caster</td>  </tr>  <tr>    <th class=\"trfin\" scope=\"col\">Size</th>    <td class=\"trfin\" scope=\"col\">w620×d600×h900 mm</td>    <td class=\"trfin\" scope=\"col\">w720×d600×h900 mm</td>    <td class=\"trfin\" scope=\"col\">w820×d600×h900 mm</td>    <td class=\"trfin2\" scope=\"col\">w920×d690×h900 mm</td>  </tr></tbody></table>Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-996 </td>                  <td class=\"trfin\" scope=\"row\">VA-VOS100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for<br>                  Vacuum Oven System</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될  수 있음</li></ul>     2단 Rack for Vacuum Oven      <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>    <tr>      <th width=\"158\" scope=\"col\">Cat. No.</th>      <th width=\"144\" scope=\"row\">Model</th>      <th class=\"tdfin\" scope=\"row\">Size, w x d x h</th>  </tr></thead>  <tbody>    <tr>      <td class=\"trfinth4\" scope=\"col\">O01-02-481</td>      <td scope=\"row\">LO-VSRA01</td>      <td class=\"tdfin\" scope=\"row\">620×600×900 mm</td>    </tr>    <tr>      <td class=\"trfinth4\" scope=\"col\">O01-02-483</td>      <td scope=\"row\">LO-VSRA02</td>      <td class=\"tdfin\" scope=\"row\">720×600×900 mm</td>    </tr>    <tr>      <td class=\"trfinth4\" scope=\"col\">O01-02-485</td>      <td scope=\"row\">LO-VSRA03</td>      <td class=\"tdfin\" scope=\"row\">820×600×900 mm</td>    </tr>    <tr>      <td class=\"trfinth\" scope=\"col\">O01-02-487</td>      <td class=\"trfin\" scope=\"row\">LO-VSRA04</td>      <td class=\"trfin2\" scope=\"row\">920×690×900 mm</td>      </tr>  </tbody>  </table>" ],
+  "title" : "Process Vacuum Oven System (진공 건조기 시스템)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 챔버 내부를 진공상태로 유지하여 가열산소에 의한 시료의 물리적, 화학적 변화를 억제함", "■ Gasket이 고온에서 견딜 수 있도록 냉각 라인 설치", "■ 확산 방지 밸브 적용. 진공해지 시 급격한 외부 공기 유입으로 인한 시료 확산을 방지함", "■ 열전도율이 우수한 DU-AL 선반 채택", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ 2가지 타입의 타이머 기능", "■ RS485 PC통신 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ Program control", "- 여러 단계의 온도 상승과 유지시간을 저장하고 선택하여 운전", "- 온도 Overshoot 억제 및 정밀 제어 가능", "- 2 Pattern, 18 Segment 프로그램 설정 가능", "■ PL Insurance (제조물 배상 책임 보험)", "■ Validation Service (IQ, OQ, PQ) 가능", "■ LK Labkorea" ],
+  "id" : "1926",
+  "image" : "http://lklab.com/product_image/S-8375.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Oven PID 28L, 고온용",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-VS330N",
+    "number" : "O01-02-357"
+  }, {
+    "content" : "Vacuum Oven PID 65L, 고온용",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-VS380N",
+    "number" : "O01-02-365"
+  }, {
+    "content" : "Vacuum Oven Program 28L, 고온용",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LO-VP330N",
+    "number" : "O01-02-359"
+  }, {
+    "content" : "Vacuum Oven Program 65L, 고온용",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LO-VP380N",
+    "number" : "O01-02-369"
+  }, {
+    "content" : "Validation for Vacuum Oven",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VA-VO100",
+    "number" : "O01-91-997"
+  }, {
+    "content" : "Sign Tower Lamp LED 3 Color 경광등",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SI300",
+    "number" : "O01-96-100"
+  }, {
+    "content" : "RS485 to USB Communication Cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LI-USB",
+    "number" : "B04-01-085"
+  }, {
+    "content" : "Silicon Gasket for 28L Vacuum Oven",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LO-VSSG02",
+    "number" : "O01-02-383"
+  }, {
+    "content" : "Silicon Gasket for 65L Vacuum Oven",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LO-VSSG03",
+    "number" : "O01-02-385"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-357</td>                  <td scope=\"row\">LO-VS330N</td>                  <td rowspan=\"2\" scope=\"row\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">28 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-365</td>                  <td scope=\"row\">LO-VS380N</td>                  <td class=\"tdfin\" scope=\"row\">65 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-359</td>                  <td scope=\"row\">LO-VP330N</td>                  <td rowspan=\"2\" class=\"trfin\" scope=\"row\">Program Control</td>                  <td class=\"tdfin\" scope=\"row\">28 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-369</td>                  <td class=\"trfin\" scope=\"row\">LO-VP380N</td>                  <td class=\"trfin2\" scope=\"row\">65 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-357</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-365</td>    <td width=\"142\" class=\"trfinth4\" scope=\"col\">O01-02-359</td>       <td width=\"142\" class=\"trfinth3\" scope=\"col\">O01-02-369</td></tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-VS330N</td>    <td class=\"trfinth4\" scope=\"col\">LO-VS380N</td>    <td class=\"trfinth4\" scope=\"col\">LO-VP330N</td>    <td width=\"142\" class=\"trfinth3\" scope=\"col\">LO-VP380N</td></tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">28 L</td>    <td scope=\"col\">65 L</td>    <td scope=\"col\">28 L</td>    <td class=\"tdfin\" scope=\"col\">65 L</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"2\" scope=\"col\">PID Control</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Program Control</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">0.01℃</td>  </tr>  <tr>    <th scope=\"col\">Timer</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Run start/Wait start(99 hr 59 min)</td>    </tr>  <tr>    <th width=\"85\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">50 to 300℃</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Vacuum</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">-0.1 Mpa</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td scope=\"col\">w300×d300×h300 mm</td>    <td scope=\"col\">w400×d400×h400 mm</td>    <td scope=\"col\">w300×d300×h300 mm</td>    <td class=\"tdfin\" scope=\"col\">w400×d400×h400 mm</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td scope=\"col\">w470×d460×h615 mm</td>    <td scope=\"col\">w570×d560×h720 mm</td>    <td scope=\"col\">w470×d460×h615 mm</td>    <td class=\"tdfin\" scope=\"col\">w570×d560×h720 mm</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Stainless Steel 304</td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"4\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">1.2 kW (5.5 A)</td>    <td scope=\"col\">2.5 kW (11.4 A)</td>    <td scope=\"col\">1.2 kW (5.5 A)</td>    <td class=\"tdfin\" scope=\"col\">2.5 kW (11.4 A)</td>  </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"4\" scope=\"col\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"4\" scope=\"col\">Other</th>    <th scope=\"col\">Aluminum Shelf</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">2 ea</td>    </tr>  <tr>    <th scope=\"col\">Vacuum Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple male</td>  </tr>  <tr>    <th scope=\"col\">Vent Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple male</td>  </tr>  <tr>    <th scope=\"col\">Water Line Port</th>    <td colspan=\"4\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple male</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Safety</th>    <td colspan=\"4\" class=\"trfin2\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td>  </tr></tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>               Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-997 </td>                  <td class=\"trfin\" scope=\"row\">VA-VO100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Vacuum Oven</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될 수 있음</li></ul>   Optional Accessory <table summary=\"상세규격표\" style=\"margin-bottom:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"158\" scope=\"col\">Cat. No.</th>    <th width=\"144\" scope=\"row\">Model</th>    <th colspan=\"2\" class=\"tdfin\" scope=\"row\">Type</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-96-100</td>    <td scope=\"row\">SI300</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">Sign Tower Lamp</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">B04-01-085</td>    <td scope=\"row\">LI-USB</td>    <td colspan=\"2\" class=\"tdfin\" scope=\"row\">RS485 to USB Communication Cable</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">O01-02-383</td>    <td scope=\"row\">LO-VSSG02</td>    <td width=\"225\" class=\"trfin\" rowspan=\"2\" scope=\"row\">Spare Silicon Gasket</td>    <td width=\"271\" class=\"tdfin\" scope=\"row\">for 28 L</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">O01-02-385</td>    <td class=\"trfin\" scope=\"row\">LO-VSSG03</td>    <td class=\"trfin2\" width=\"271\" scope=\"row\">for 65 L</td>  </tr></tbody></table>" ],
+  "title" : "HighTemp. Vacuum Oven (고온용 진공 건조기, 300℃)",
+  "type" : "expendables_O"
+}, {
+  "classify" : "Oven[건조기]",
+  "content" : [ "■ 고온용 진공오븐을 사용할 때 필요한 장비를 시스템으로 구성", "(고온용 진공 건조기, 콜드트랩, 진공펌프, 저온 순환 수조, 랙)", "■ 고온 사용시 Door gasket 보호용 냉각수 공급이 필요함", "■ 챔버 내부를 진공상태로 유지하여 가열산소에 의한 시료의 물리적, 화학적 변화를 억제함", "■ 열전도율이 우수한 DU-AL 선반 채택", "■ Graphic LCD Display, 간편하고 직관적인 Controller 조작", "■ Auto-tuning, Temperature Calibration 기능", "■ 2 가지 타입의 타이머. 구동과 동시에 시작, 목표 온도 도달 후 시작", "■ RS485 PC통신 기본 포함", "■ Automatical Fault Sensing System 기기 스스로 이상 상황을 감시 (특허 등록)", "■ 2중화 과온 안전장치, 1차 Controller 과온 Alarm과 2차 과온 차단 회로", "■ 요청에 의해 Program Type도 공급 가능함", "■ Validation Service (IQ, OQ, PQ) 가능", "■ PL Insurance (제조물 배상 책임 보험)", "■ LK Labkorea" ],
+  "id" : "1927",
+  "image" : "http://lklab.com/product_image/S-8376.jpg",
+  "specification" : [ {
+    "content" : "Vacuum Oven System PID 28L, 고온용",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LO-VS330SN",
+    "number" : "O01-02-372"
+  }, {
+    "content" : "Vacuum Oven System PID 65L, 고온용",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LO-VS380SN",
+    "number" : "O01-02-375"
+  }, {
+    "content" : "Validation for Vacuum Oven System",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "VA-VOS100",
+    "number" : "O01-91-996"
+  } ],
+  "tableItems" : [ "<meta charset=\"utf-8\"><title>Untitled Document</title><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Type</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">O01-02-372</td>                  <td scope=\"row\">LO-VS330SN</td>                  <td rowspan=\"2\" scope=\"row\" class=\"trfin\">PID Control</td>                  <td class=\"tdfin\" scope=\"row\">28 L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">O01-02-375</td>                  <td class=\"trfin\" scope=\"row\">LO-VS380SN</td>                  <td class=\"trfin2\" scope=\"row\">65 L</td>                </tr>              </tbody></table><table summary=\"상세규격표\" style=\"margin-top:40px\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Cat. No.</th>    <td class=\"trfinth4\" scope=\"col\">O01-02-372</td>    <td class=\"trfinth3\" scope=\"col\">O01-02-375</td>       </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">LO-VS330SN</td>    <td class=\"trfinth3\" scope=\"col\">LO-VS380SN</td>    </tr></thead><tbody>  <tr>    <th colspan=\"2\" scope=\"col\">Capacity</th>    <td scope=\"col\">28 L</td>    <td scope=\"col\" class=\"tdfin\">65 L</td>    </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\">Controller</th>    <th width=\"145\" scope=\"col\">Control</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">PID Control, Auto-tuning</td>    </tr>  <tr>    <th scope=\"col\">Display</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">GLCD (Graphic LCD)</td>  </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">0.01℃</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Vacuum</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">-0.1 Mpa</td>  </tr>  <tr>    <th width=\"85\" scope=\"col\">Temperature</th>    <th width=\"145\" scope=\"col\">Range</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">50 to 300℃</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Size</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td scope=\"col\">w300×d300×h300 mm</td>    <td scope=\"col\" class=\"tdfin\">w400×d400×h400 mm</td>    </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td scope=\"col\">w470×d460×h615 mm</td>    <td scope=\"col\" class=\"tdfin\">w570×d560×h720 mm</td>    </tr>  <tr>    <th width=\"85\" rowspan=\"2\" scope=\"col\">Material</th>    <th width=\"145\" scope=\"col\">Interior</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">304 Stainless Steel </td>  </tr>  <tr>    <th scope=\"col\"> Exterior</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">Powder Coated Steel</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"3\" scope=\"col\"><p>Electric</p>      <p>Supply</p></th>    <th width=\"145\" scope=\"col\">Power</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">1 Phase, 220Vac, 50/60 Hz</td>  </tr>  <tr>    <th scope=\"col\">Max Consumption</th>    <td scope=\"col\">1.2kW (5.5 A)</td>    <td scope=\"col\" class=\"tdfin\">2.5kW (11.4 A)</td>    </tr>  <tr>    <th scope=\"col\">Power Line</th>    <td class=\"tdfin\" colspan=\"2\" scope=\"col\">Standard Plug</td>  </tr>  <tr>    <th rowspan=\"3\" scope=\"col\">Other</th>    <th scope=\"col\">Shelves</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">2 ea</td>    </tr>  <tr>    <th scope=\"col\">Vacuum Port</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple Male</td>  </tr>  <tr>    <th scope=\"col\">Vent Port</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">1/4” Hose Nipple Male</td>  </tr>   <tr>    <th colspan=\"2\" scope=\"col\">Safety</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Over Temp. &amp; Current Protection, Automatical Fault Sensing System</td></tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\"><p>Cold Trap</p>      <p>Bath</p></th>    <th width=\"145\" scope=\"col\">Cat. No. / Model</th>    <td colspan=\"2\" class=\"trfinth3\" scope=\"col\">B04-01-230 / CTB40</td>  </tr>  <tr>    <th scope=\"col\">Temp. Range</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Down to -40℃</td>  </tr>  <tr>    <th scope=\"col\">Capacity</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">4.8L</td>  </tr>  <tr>    <th scope=\"col\">Trap</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Glass Trap (2 ea)</td>  </tr>  <tr>    <th width=\"85\" rowspan=\"4\" scope=\"col\"><p>Low Temp.</p>      <p>Circulation Bath</p></th>    <th width=\"145\" scope=\"col\">Cat. No. / Model</th>    <td colspan=\"2\" class=\"trfinth3\" scope=\"col\">B04-91-410 / LC-LT208</td>  </tr>  <tr>    <th scope=\"col\">Temp. Range</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">-20 ~ +150℃</td>  </tr>  <tr>    <th scope=\"col\">Capacity</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">8 L</td>  </tr>  <tr>    <th scope=\"col\">Pumping Capa.</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">22 L/min, 6.8 psi</td>  </tr>    <tr>    <th width=\"85\" rowspan=\"8\" scope=\"col\"><p>Vacuum</p>      <p>Pump</p></th>    <th width=\"145\" scope=\"col\">Cat. No. / Model</th>    <td colspan=\"2\" class=\"trfinth3\" scope=\"col\">P06-121-105 / ED-RV5</td>  </tr>  <tr>    <th scope=\"col\">Pumping Speed</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">103 L/min</td>  </tr>  <tr>    <th scope=\"col\">Check Valve</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Check Valve</td>  </tr>  <tr>    <th scope=\"col\">Gas Ballast Valve</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">2  Stage Rotary Vane Pump</td>  </tr>  <tr>    <th scope=\"col\">Ultimate Pressure</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">1.5×10<sup>-3</sup> Torr</td>  </tr>  <tr>    <th scope=\"col\">(- GB 1)</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">2.3×10<sup>-2</sup> Torr</td>  </tr>  <tr>    <th scope=\"col\">(- GB 2)</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">7.5×10<sup>-2</sup> Torr</td>    </tr>  <tr>    <th scope=\"col\">Oil Mist Trap</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">EMF10</td>  </tr>  <tr>    <th rowspan=\"2\" scope=\"col\" class=\"trfin\">Rack</th>    <th scope=\"col\">Material</th>    <td colspan=\"2\" scope=\"col\" class=\"tdfin\">Powder Coated Steel With Caster</td>  </tr>  <tr>    <th class=\"trfin\" scope=\"col\">Size</th>    <td colspan=\"2\" class=\"trfin2\" scope=\"col\">w820×d600×h900 mm</td>    </tr></tbody></table>             Validation Service              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                  <th width=\"200\" scope=\"row\">Cat. No</th>                  <th width=\"200\" scope=\"row\">Model</th>                  <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>               <tr>                  <td class=\"trfinth\" scope=\"row\">O01-91-996 </td>                  <td class=\"trfin\" scope=\"row\">VA-VOS100</td>                  <td class=\"trfin2\" scope=\"row\">Validation for Vacuum Oven System</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; text-align:left; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 40px;\"> ● 당사 기본 양식에 따른 IQ/OQ Validation Service 비용이며, 고객 요청에 의하여 비용이 변경될 수 있음</li></ul>" ],
+  "title" : "HighTemp. Process Vacuum Oven System (고온용 진공 건조기 시스템)",
+  "type" : "expendables_O"
+} ]
