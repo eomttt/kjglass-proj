@@ -48,7 +48,12 @@ const ShopItemsByClassified = ({ shopId, products, clickClassify }) => (
             {'분류를 선택해 주세요.'}
         </SubTitle>
         {
-            Object.keys(products).map((classify) => (
+            Object.keys(products).sort((a, b) => {
+                const lowA = a.toLowerCase();
+                const lowB = b.toLowerCase();
+                if (lowA === lowB) return 0;
+                return lowA < lowB ? -1 : 1;
+            }).map((classify) => (
                 <Content key={classify} onClick={() => clickClassify(classify)}>
                     {classify}
                 </Content>

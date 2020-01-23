@@ -163,7 +163,6 @@ const ShopItems = ({
                 />
             );
         }
-        console.log('products', productsByClassify)
         return (
             <ShopItemsByClassified
                 shopId={shopId}

@@ -3,8 +3,13 @@ import { Provider } from 'mobx-react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 
+import * as firebase from 'firebase/app';
 import BascketStore from '../stores/bascket';
 import ItemsStore from '../stores/items';
+
+import 'firebase/database';
+
+import FirebaseConfig from '../firebase.config';
 
 import AppLayout from '../components/AppLayout';
 
@@ -16,8 +21,11 @@ const itemsStore = new ItemsStore();
 const App = ({ Component, pageProps }) => {
     const getDatas = async () => {
         try {
-            const { glasses, expendables } = getData();
-            itemsStore.setItems(glasses, expendables);
+            firebase.initializeApp(FirebaseConfig);
+            const dataBase = firebase.database();
+            const { expendables } = await getData(dataBase);
+    
+            itemsStore.setItems(expendables);
         } catch (error) {
             console.log('Get data error', error);
         }

@@ -1,15 +1,16 @@
-import { observable, action, toJS, extendObservable } from 'mobx';
+import { observable, action, toJS } from 'mobx';
+
+const glassesData = require('../data/kjglass-60495-glass-export.json');
 
 // import glassDummy from '../dummy/glassItem';
 // import expendablesItemDummy from '../dummy/expendablesItem';
 
 export default class ItemsStore {
-    @observable glasses = [];
+    @observable glasses = glassesData;
 
     @observable expendables = [];
 
-    @action setItems = (glasses, expendables) => {
-        this.glasses = [...glasses];
+    @action setItems = (expendables) => {
         this.expendables = [...expendables];
     }
 
