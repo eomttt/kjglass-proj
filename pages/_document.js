@@ -16,6 +16,13 @@ class MyDocument extends Document {
         return (
             <html>
                 <Head>
+                    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+                    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+                    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+                    <link rel="manifest" href="/favicons/site.webmanifest" />
+                    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+                    <meta name="msapplication-TileColor" content="#00aba9" />
+                    <meta name="theme-color" content="#ffffff" />
                     {this.props.styleTags}
                     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10268c3a3e909de2ed288407e0902486"></script>
                 </Head>
