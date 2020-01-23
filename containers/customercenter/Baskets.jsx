@@ -60,7 +60,9 @@ const Baskets = () => {
         && (
             <BasketsComp
                 glassItems={convertItem(glassItems.glass, 'glasses')}
+                glassStore={glasses}
                 expendableItems={convertItem(glassItems.expendables, 'expendables')}
+                expendableStore={expendables}
                 onClickRemove={onClickRemove}
                 openItem={openItem}
             />

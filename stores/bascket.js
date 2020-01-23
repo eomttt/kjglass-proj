@@ -1,3 +1,4 @@
+/* eslint-disable prefer-destructuring */
 import { observable, action, toJS } from 'mobx';
 
 export default class BaskestStore {
@@ -21,9 +22,13 @@ export default class BaskestStore {
           type, itemId, count, specificationItemId, classifiedId,
       } = params;
 
-      console.log('type', type);
+      let itemType = type;
 
-      const findedItem = this.glassItems[type] && this.glassItems[type].filter((item) => {
+      if (type.indexOf('expendables') > -1) {
+          itemType = type.split('_')[0];
+      }
+
+      const findedItem = this.glassItems[itemType] && this.glassItems[itemType].filter((item) => {
           const toJSItem = toJS(item);
 
           if (toJSItem.itemId === itemId) {
@@ -35,7 +40,7 @@ export default class BaskestStore {
       })[0];
 
       if (toJS(findedItem)) {
-          this.glassItems[type] = this.glassItems[type] && this.glassItems[type].map((item) => {
+          this.glassItems[itemType] = this.glassItems[itemType] && this.glassItems[itemType].map((item) => {
               const toJSItem = toJS(item);
 
               if (toJSItem.itemId === itemId) {
@@ -51,7 +56,7 @@ export default class BaskestStore {
               return item;
           });
       } else {
-          this.glassItems[type].push({
+          this.glassItems[itemType].push({
               itemId,
               count,
               specificationItemId,
@@ -59,7 +64,7 @@ export default class BaskestStore {
           });
       }
 
-      localStorage.setItem(type, JSON.stringify(toJS(this.glassItems[type])));
+      localStorage.setItem(itemType, JSON.stringify(toJS(this.glassItems[itemType])));
   }
 
   @action removeBasket = (params) => {
@@ -67,7 +72,13 @@ export default class BaskestStore {
           type, itemId, specificationItemId,
       } = params;
 
-      const findedItem = this.glassItems[type] && this.glassItems[type].filter((item) => {
+      let itemType = type;
+
+      if (type.indexOf('expendables') > -1) {
+          itemType = type.split('_')[0];
+      }
+
+      const findedItem = this.glassItems[itemType] && this.glassItems[itemType].filter((item) => {
           const toJSItem = toJS(item);
 
           if (toJSItem.itemId === itemId) {
@@ -79,7 +90,7 @@ export default class BaskestStore {
       })[0];
 
       if (toJS(findedItem)) {
-          this.glassItems[type] = this.glassItems[type].filter((item) => {
+          this.glassItems[itemType] = this.glassItems[itemType].filter((item) => {
               const toJSItem = toJS(item);
 
               if (toJSItem.itemId === itemId) {
@@ -91,6 +102,6 @@ export default class BaskestStore {
           });
       }
 
-      localStorage.setItem(type, JSON.stringify(toJS(this.glassItems[type])));
+      localStorage.setItem(itemType, JSON.stringify(toJS(this.glassItems[itemType])));
   }
 }
