@@ -11,6 +11,35 @@ import NavBarItems from './NavBarItems';
 const NavBar = ({ sideMenuItems, clickSideItem }) => {
     const [isOpenSideMenu, setIsOpenSideMenu] = useState(false);
 
+    const [scrollTop, setScrollTop] = useState(0);
+
+    const fixBodyStyle = useCallback(() => {
+        const { pageYOffset } = window;
+        const { body } = document;
+
+        body.style.position = 'fixed';
+        body.style.overflow = 'hidden';
+        body.style.left = '0';
+        body.style.right = '0';
+        body.style.top = `-${pageYOffset}px`;
+
+        setScrollTop(pageYOffset);
+    // tslint:disable-next-line: align
+    }, []);
+
+    const releaseBodyStyle = useCallback(() => {
+        const { body } = document;
+
+        body.style.position = '';
+        body.style.overflow = '';
+        body.style.left = '';
+        body.style.right = '';
+        body.style.top = '';
+
+        window.scrollTo(0, scrollTop);
+    // tslint:disable-next-line: align
+    }, [scrollTop]);
+
     const moveMainPage = useCallback(() => {
         Router.push({
             pathname: '/',
@@ -19,11 +48,13 @@ const NavBar = ({ sideMenuItems, clickSideItem }) => {
 
     const openSideMenu = useCallback(() => {
         setIsOpenSideMenu(true);
-    }, []);
+        fixBodyStyle();
+    }, [fixBodyStyle]);
 
     const closeSideMenu = useCallback(() => {
         setIsOpenSideMenu(false);
-    }, []);
+        releaseBodyStyle();
+    }, [releaseBodyStyle]);
 
     const onClickSideItem = useCallback((itemId) => {
         closeSideMenu();

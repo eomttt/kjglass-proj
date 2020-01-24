@@ -23,6 +23,7 @@ class MyDocument extends Document {
                     <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
                     <meta name="msapplication-TileColor" content="#00aba9" />
                     <meta name="theme-color" content="#ffffff" />
+                    <meta title="광진이화확" />
                     {this.props.styleTags}
                     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10268c3a3e909de2ed288407e0902486"></script>
                 </Head>
