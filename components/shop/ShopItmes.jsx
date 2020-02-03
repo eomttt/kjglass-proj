@@ -51,6 +51,7 @@ const Title = styled.div`
     overflow: hidden;
     margin-right: 3%;
     word-break: break-all;
+    align-self: center;
     & img {
         position: absolute;
         height: 13px;
@@ -63,6 +64,7 @@ const Number = styled.div`
     display: inline-block;
     position: relative;
     word-break: break-all;
+    align-self: center;
 `;
 
 const Classify = styled.div`
@@ -70,6 +72,7 @@ const Classify = styled.div`
     display: inline-block;
     position: relative;
     word-break: break-all;
+    align-self: center;
     & img {
         position: absolute;
         height: 13px;
@@ -82,6 +85,7 @@ const Specifications = styled.div`
     display: inline-block;
     text-align: right;
     word-break: break-all;
+    align-self: center;
 `;
 
 const InputContainer = styled.div`

@@ -11,8 +11,11 @@ const Text = styled.div`
     margin: auto;
     text-align: center;
     cursor: pointer;
-    $ div {
+    display: flex;
+    & div {
         display: inline-block;
+        margin: auto;
+        align-self: center;
     }
 
     ${isMobile} {

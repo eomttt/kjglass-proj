@@ -23,6 +23,7 @@ const Container = styled.div`
 const Content = styled.div`
     padding: 10px;
     text-align: initial;
+    width: 100%;
     & div {
         font-size: 10px;
     }
