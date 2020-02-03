@@ -2,6 +2,8 @@ import Document, { Head, Main, NextScript } from 'next/document';
 import PropTypes from 'prop-types';
 import { ServerStyleSheet } from 'styled-components';
 
+import APP_KEY from '../kakao.appkey';
+
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
 class MyDocument extends Document {
@@ -13,6 +15,8 @@ class MyDocument extends Document {
     }
 
     render() {
+        const kakaoUrl = `http://dapi.kakao.com/v2/maps/sdk.js?appkey=${APP_KEY}`;
+
         return (
             <html>
                 <Head>
@@ -25,7 +29,7 @@ class MyDocument extends Document {
                     <meta name="theme-color" content="#ffffff" />
                     <meta title="광진이화확" />
                     {this.props.styleTags}
-                    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10268c3a3e909de2ed288407e0902486"></script>
+                    <script type="text/javascript" src={kakaoUrl}></script>
                 </Head>
                 <body style={{ margin: 0 }}>
                     <Main />
