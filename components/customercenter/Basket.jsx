@@ -16,6 +16,7 @@ const Container = styled.div`
     & img {
         margin-top: 0;
         width: 100px;
+        cursor: pointer;
         ${isMobile} {
             width: auto;
             height: 100px;
@@ -28,6 +29,7 @@ const Content = styled.div`
     margin: auto;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 `;
 
 const Delete = styled.div`

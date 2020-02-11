@@ -87,11 +87,6 @@ const ButtonContainer = styled.div`
     margin: auto 5% auto auto;
     max-height: 20px;
     white-space: nowrap;
-    &: active {
-        box-shadow: none;
-        margin-left: 1px;
-        margin-right: -1px;
-    }
 `;
 
 

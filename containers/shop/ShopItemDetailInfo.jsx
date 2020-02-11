@@ -27,7 +27,7 @@ const ShopItemDetailInfo = observer(({ itemType, itemId, specificationItem, clas
             count,
             classifiedId,
         });
-        alert('장바구니에 저장되었습니다. 장바구니를 통해 확인해주세요');
+        alert('장바구니에 저장되었습니다. 장바구니를 통해 확인해주세요. 고객센터 -> 장바구니 에서 확인하실 수 있습니다.');
     };
 
     return (
