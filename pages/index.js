@@ -1,6 +1,8 @@
 import React, { useCallback, useState } from 'react';
 import Router from 'next/router';
 
+import AppLayout from '../components/AppLayout';
+
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 
@@ -38,7 +40,7 @@ const Home = () => {
     }, [sideBarItems]);
 
     return (
-        <>
+        <AppLayout>
             <NavBar
                 sideMenuItems={sideBarItems}
                 clickSideItem={clickSideItem}
@@ -59,7 +61,7 @@ const Home = () => {
                 </MainItems>
             </ViewContainer>
             <Footer />
-        </>
+        </AppLayout>
     );
 }
 

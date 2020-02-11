@@ -3,6 +3,8 @@ import Router from 'next/router';
 
 import PropTypes from 'prop-types';
 
+import AppLayout from '../components/AppLayout';
+
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import SideBar from '../components/common/SideBar';
@@ -64,7 +66,7 @@ const Info = ({ id }) => {
     }, [sideBarItems]);
 
     return (
-        <>
+        <AppLayout>
             <NavBar
                 sideMenuItems={sideBarItems}
                 clickSideItem={clickSideItem}
@@ -84,7 +86,7 @@ const Info = ({ id }) => {
                 </ViewContent>
             </ViewContainer>
             <Footer />
-        </>
+        </AppLayout>
     );
 };
 

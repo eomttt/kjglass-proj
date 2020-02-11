@@ -37,7 +37,7 @@ const translateMail = (data) => new Promise((resolve, reject) => {
 
     const mailOptions = {
         from: 'FROM < hyunt0413@naver.com >',
-        to: 'hyunt0413@gmail.com',
+        to: SEND_TO_MAIL,
         subject: '견적 문의',
         html: `<div><b>제목: ${title}</b></div>
                <br>

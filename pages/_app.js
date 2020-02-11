@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Provider } from 'mobx-react';
-import Head from 'next/head';
 import PropTypes from 'prop-types';
 
 import * as firebase from 'firebase/app';
@@ -24,7 +23,7 @@ const App = ({ Component, pageProps }) => {
             firebase.initializeApp(FirebaseConfig);
             const dataBase = firebase.database();
             const { expendables } = await getData(dataBase);
-    
+
             itemsStore.setItems(expendables);
         } catch (error) {
             console.log('Get data error', error);
@@ -39,9 +38,6 @@ const App = ({ Component, pageProps }) => {
     return (
         <>
             <Provider bascketStore={bascketStore} itemsStore={itemsStore}>
-                <Head>
-                    <title>광진이화학 KJGLASS</title>
-                </Head>
                 <AppLayout>
                     <Component {...pageProps} />
                 </AppLayout>
