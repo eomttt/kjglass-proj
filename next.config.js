@@ -14,4 +14,7 @@ module.exports = withImages({
         };
         return config;
     },
+    resolve: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx']
+    },
 });
