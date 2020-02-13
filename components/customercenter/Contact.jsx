@@ -85,6 +85,12 @@ const KakaoButton = styled.div`
     margin: 10px auto;
 `;
 
+const Title = styled.div`
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+`;
+
 const Contact = ({ submitContact, openKakao }) => {
     const [title, setTitle] = useState('');
     const [company, setCompany] = useState('');
@@ -110,6 +116,9 @@ const Contact = ({ submitContact, openKakao }) => {
 
     return (
         <Container>
+            <Title>
+                {'* 메일로 문의하시면 장바구니의 담긴 제품이 함께 전송 됩니다.'}
+            </Title>
             <Content>
                 <InputContainer>
                     <div>
