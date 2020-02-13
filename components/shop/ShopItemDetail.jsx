@@ -20,6 +20,7 @@ const Container = styled.div`
 const DetailContent = styled.div`
     display: flex;
     width: 100%;
+    min-height: 1px;
     position: relative;
     ${isMobile} {
         display: inline-block;
@@ -28,11 +29,9 @@ const DetailContent = styled.div`
 
 const PrimaryImage = styled.div`
     width: 35%;
-    display: flex;
     padding: 15px;
     & img {
-        margin: auto;
-        width: 80%;
+        width: 100%;
     }
     ${isMobile} {
         width: 100%;
