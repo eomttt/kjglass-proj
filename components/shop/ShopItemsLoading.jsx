@@ -1,21 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Loading from '~/components/common/Loading';
+
 const Container = styled.div`
     margin: 10px;
     width: 100%;
     display: flex;
-    & div {
-        font-size: 20px;
-        margin: 25% auto auto auto;
-    }
+    position: relative;
 `;
 
 const ShopItemsLoading = () => (
     <Container>
-        <div>
-            {'상품을 가져오는 중 입니다...'}
-        </div>
+        <Loading text={'상품을 가져오는 중입니다...'} />
     </Container>
 );
 

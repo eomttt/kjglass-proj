@@ -1,15 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { subPointColor } from '../../styles/style';
 
-import SortDescending from '../../lib/images/sort-descending.png';
-import SortAscending from '../../lib/images/sort-ascending.png';
-import SearchIcon from '../../lib/images/search.png';
+import Loading from '~/components/common/Loading';
+
+import SortDescending from '~/lib/images/sort-descending.png';
+import SortAscending from '~/lib/images/sort-ascending.png';
+import SearchIcon from '~/lib/images/search.png';
+
+import { subPointColor } from '~/styles/style';
 
 const Container = styled.div`
     margin: 10px;
     width: 100%;
+    position: relative;
 `;
 
 const MenuContent = styled.div`
@@ -120,12 +124,25 @@ const InputBoxContainer = styled.div`
     }
 `;
 
+const ItemContent = styled.div`
+    position: relative;
+`;
+
+
 const ShopItems = ({
     products, onClickProduct,
     isSortByTitle, sortByTitle,
     findByText, setInitItems,
 }) => {
     const [inputText, setInputText] = useState('');
+    const [imageLoadCount, setImageLoadCount] = useState(0);
+    const [isImageAllLoaded, setImageAllLoaded] = useState(false);
+
+    useEffect(() => {
+        if (imageLoadCount >= products.length) {
+            setImageAllLoaded(true);
+        }
+    }, [imageLoadCount]);
 
     const getItemNumber = (product) => {
         if (product.specification) {
@@ -144,6 +161,10 @@ const ShopItems = ({
 
     const setFindItemsByText = () => {
         findByText(inputText);
+    };
+
+    const onLoadImage = () => {
+        setImageLoadCount(imageLoadCount + 1);
     };
 
     return (
@@ -193,9 +214,10 @@ const ShopItems = ({
                     </Specifications>
                 </Detail>
             </MenuContent>
-            {
-                products.map((product) => (
-                    product
+            <ItemContent>
+                {
+                    products.map((product) => (
+                        product
                         && (
                             <div key={product.id}>
                                 {
@@ -203,7 +225,7 @@ const ShopItems = ({
                             && (
                                 <Content onClick={() => onClickProduct(product.id)}>
                                     <Image>
-                                        <img src={`${product.image}?s=52x52`} alt="product" />
+                                        <img src={`${product.image}?s=52x52`} alt="product" onLoad={onLoadImage} />
                                     </Image>
                                     <Detail>
                                         <Title>
@@ -224,8 +246,12 @@ const ShopItems = ({
                                 }
                             </div>
                         )
-                ))
-            }
+                    ))
+                }
+                {
+                    !isImageAllLoaded && <Loading text={'이미지를 가져오고 있습니다...'} />
+                }
+            </ItemContent>
         </Container>
     );
 };
