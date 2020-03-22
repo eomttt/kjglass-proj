@@ -20,7 +20,7 @@ import { ViewContainer, ViewContent } from '../styles/style';
 
 const Products = ({ id, productId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
-        text: 'Refactor Plan',
+        text: 'Reactor Plan',
         id: 1,
         clicked: false,
     }, {
