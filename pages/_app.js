@@ -38,9 +38,7 @@ const App = ({ Component, pageProps }) => {
     return (
         <>
             <Provider bascketStore={bascketStore} itemsStore={itemsStore}>
-                <AppLayout>
-                    <Component {...pageProps} />
-                </AppLayout>
+                <Component {...pageProps} />
             </Provider>
         </>
     );

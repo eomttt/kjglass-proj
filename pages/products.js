@@ -17,8 +17,10 @@ import ExperimentEquipment from '../containers/products/ExperimentEquipment';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
+import refactorPlanDummy from '../data/refactorPlan';
+import experimentDummy from '../data/experimentEquipment';
 
-const Products = ({ id, productId }) => {
+const Products = ({ id, productId, selectedProductMeta }) => {
     const [sideBarItems, setSideBarItems] = useState([{
         text: 'Reactor Plan',
         id: 1,
@@ -40,9 +42,7 @@ const Products = ({ id, productId }) => {
     ]);
 
     const setSelectedItem = useCallback((sideId) => {
-        const sideBarIds = Object.values(sideBarItems).map((sideBarItem) => {
-            return sideBarItem.id;
-        });
+        const sideBarIds = Object.values(sideBarItems).map((sideBarItem) => sideBarItem.id);
 
         const isSupportSideId = sideBarIds.includes(+sideId);
         const itemId = isSupportSideId ? +sideId : 1;
@@ -68,7 +68,9 @@ const Products = ({ id, productId }) => {
     }, [sideBarItems]);
 
     return (
-        <AppLayout>
+        <AppLayout
+            metaInfo={selectedProductMeta}
+        >
             <NavBar
                 sideMenuItems={sideBarItems}
                 clickSideItem={clickSideItem}
@@ -92,10 +94,41 @@ const Products = ({ id, productId }) => {
     );
 };
 
-Products.getInitialProps = async (context) => ({
-    id: context.query.id,
-    productId: context.query.productId,
-});
+Products.getInitialProps = async (context) => {
+    const { id, productId } = context.query;
+
+    let products = [];
+    let selectedProductMeta = {
+        title: null,
+        description: null,
+        image: null,
+    };
+
+    if (productId) {
+        if (!id || id === '1') {
+            products = [...refactorPlanDummy];
+        } else {
+            products = [...experimentDummy];
+        }
+
+        // eslint-disable-next-line prefer-destructuring
+        const selectedProduct = Object.values(products).filter((product) => product.id === id)[0];
+
+        selectedProductMeta = {
+            title: selectedProduct.title,
+            description: selectedProduct.content,
+            image: selectedProduct.images[0],
+        };
+
+        console.log('AAAA', selectedProductMeta);
+    }
+
+    return {
+        id,
+        productId,
+        selectedProductMeta,
+    };
+};
 
 Products.propTypes = {
     id: PropTypes.string,
