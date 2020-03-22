@@ -112,7 +112,7 @@ Products.getInitialProps = async (context) => {
         }
 
         // eslint-disable-next-line prefer-destructuring
-        const selectedProduct = Object.values(products).filter((product) => product.id === id)[0];
+        const selectedProduct = Object.values(products).filter((product) => product.id === productId)[0];
 
         selectedProductMeta = {
             title: selectedProduct.title,
