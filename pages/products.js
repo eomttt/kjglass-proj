@@ -130,11 +130,13 @@ Products.getInitialProps = async (context) => {
 Products.propTypes = {
     id: PropTypes.string,
     productId: PropTypes.string,
+    selectedProductMeta: PropTypes.object,
 };
 
 Products.defaultProps = {
     id: null,
     productId: null,
+    selectedProductMeta: {},
 };
 
 export default Products;

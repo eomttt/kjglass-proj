@@ -14,6 +14,15 @@ const getExpendables = async (dataBase) => {
     return result;
 };
 
+export const getExpendable = async (dataBase, alphabet, id) => {
+    const data = await dataBase.ref(`/expendables_${alphabet}`).once('value');
+    if (data.val()) {
+        const result = data.val().filter((item) => item.id === id)[0];
+        return result;
+    }
+    return [];
+};
+
 const getData = async (dataBase) => ({
     expendables: await getExpendables(dataBase),
 });

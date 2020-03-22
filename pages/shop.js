@@ -3,12 +3,16 @@ import Router from 'next/router';
 
 import PropTypes from 'prop-types';
 
+import * as firebase from 'firebase/app';
+import FirebaseConfig from '../firebase.config';
+
 import AppLayout from '../components/AppLayout';
 
 import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import SideBar from '../components/common/SideBar';
 
+import { getExpendable } from '../containers/Data';
 import NavBar from '../containers/common/NavBar';
 import GlassItems from '../containers/shop/GlassItems';
 import ExpendablesItems from '../containers/shop/ExpendablesItems';
@@ -16,7 +20,11 @@ import DownloadCatalog from '../containers/shop/DownloadCatalog';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
-const Shop = ({ id, classifiedId, productId }) => {
+const glassesData = require('../data/kjglass-60495-glass-export.json');
+
+const Shop = ({
+    id, classifiedId, productId, shopwMetaData,
+}) => {
     const [sideBarItems, setSideBarItems] = useState([{
         text: '광진이화학 제품군',
         id: 1,
@@ -33,9 +41,7 @@ const Shop = ({ id, classifiedId, productId }) => {
     ]);
 
     const setSelectedItem = useCallback((sideId) => {
-        const sideBarIds = Object.values(sideBarItems).map((sideBarItem) => {
-            return sideBarItem.id;
-        });
+        const sideBarIds = Object.values(sideBarItems).map((sideBarItem) => sideBarItem.id);
 
         const isSupportSideId = sideBarIds.includes(+sideId);
         const itemId = isSupportSideId ? +sideId : 1;
@@ -61,7 +67,9 @@ const Shop = ({ id, classifiedId, productId }) => {
     }, [sideBarItems]);
 
     return (
-        <AppLayout>
+        <AppLayout
+            metaInfo={shopwMetaData}
+        >
             <NavBar
                 sideMenuItems={sideBarItems}
                 clickSideItem={clickSideItem}
@@ -87,11 +95,45 @@ const Shop = ({ id, classifiedId, productId }) => {
 
 Shop.getInitialProps = async (context) => {
     const { query } = context;
+    const { id, classifiedId, productId } = query;
+    let shopwMetaData = {
+        title: null,
+        decription: null,
+        image: null,
+    };
+
+    if (classifiedId && productId) {
+        try {
+            const alphabet = decodeURI(classifiedId)[0];
+            let findedData = {};
+            if (!id || id === '1') {
+                const data = glassesData.filter((item) => item.id === productId);
+                findedData = { ...data[0] };
+            } else {
+                if (!firebase.apps.length) {
+                    firebase.initializeApp(FirebaseConfig);
+                }
+                const dataBase = firebase.database();
+                findedData = await getExpendable(dataBase, alphabet, productId);
+            }
+
+            const { title, content, image } = findedData;
+            shopwMetaData = {
+                title,
+                image,
+                decription: content ? content.reduce((acc, cur) => `${acc}, ${cur}`, '') : '',
+            };
+        } catch (error) {
+            console.log('Get initialProps shop error', error);
+        }
+    }
+
 
     return {
-        id: query.id,
-        classifiedId: query.classifiedId ? decodeURI(query.classifiedId) : null,
-        productId: query.productId,
+        id,
+        productId,
+        shopwMetaData,
+        classifiedId: classifiedId ? decodeURI(classifiedId) : null,
     };
 };
 
@@ -99,12 +141,14 @@ Shop.propTypes = {
     id: PropTypes.string,
     classifiedId: PropTypes.string,
     productId: PropTypes.string,
+    shopwMetaData: PropTypes.object,
 };
 
 Shop.defaultProps = {
     id: null,
     classifiedId: null,
     productId: null,
+    shopwMetaData: {},
 };
 
 export default Shop;

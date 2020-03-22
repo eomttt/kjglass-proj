@@ -10,8 +10,6 @@ import 'firebase/database';
 
 import FirebaseConfig from '../firebase.config';
 
-import AppLayout from '../components/AppLayout';
-
 import getData from '../containers/Data';
 
 const bascketStore = new BascketStore();
@@ -20,7 +18,9 @@ const itemsStore = new ItemsStore();
 const App = ({ Component, pageProps }) => {
     const getDatas = async () => {
         try {
-            firebase.initializeApp(FirebaseConfig);
+            if (!firebase.apps.length) {
+                firebase.initializeApp(FirebaseConfig);
+            }
             const dataBase = firebase.database();
             const { expendables } = await getData(dataBase);
 
@@ -47,6 +47,7 @@ const App = ({ Component, pageProps }) => {
 App.getInitialProps = async (context) => {
     const { ctx, Component } = context;
     let pageProps = {};
+
     if (Component.getInitialProps) {
         pageProps = await Component.getInitialProps(ctx);
     }
