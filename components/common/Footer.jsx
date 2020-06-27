@@ -1,13 +1,14 @@
 import React from 'react';
+
 import styled from 'styled-components';
 
 import NavBarItems from '../../containers/common/NavBarItems';
-
-import {
-    pointColor, isMobile, mobileNavBar,
-} from '../../styles/style';
-
 import Logo from '../../lib/images/logo.png';
+import {
+  isMobile,
+  mobileNavBar,
+  pointColor,
+} from '../../styles/style';
 
 const Container = styled.div`
     width: 100%;
@@ -68,7 +69,7 @@ const Footer = () => (
                 {'사업자 등록번호 : 128-19-94958 | 광진이화학 | 대표이사 : 엄준회'}
             </div>
             <div>
-                {'서울특별시 강북구 미아동 319-50 2층 | Tel. 02 - 903 - 8582 / 070-7500-8100,1 | Fax. 02 - 995 - 0359 | E-mail : glassjun22@naver.com, 733@hanmail.net'}
+                {'서울특별시 강북구 미아동 319-50 2층 | 강북구 솔샘로65길 93 2층 | Tel. 02 - 903 - 8582 / 070-7500-8100,1 | Fax. 02 - 995 - 0359 | E-mail : glassjun22@naver.com, 733@hanmail.net'}
             </div>
             <div>
                 {'COPYRIGHT @ 2017 Kwangjin Scientific Galss Ware Instruments , All rights reserved'}

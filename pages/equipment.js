@@ -1,31 +1,37 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import Router from 'next/router';
+import React, {
+  useCallback,
+  useEffect,
+  useState,
+} from 'react';
 
+import Router from 'next/router';
 import PropTypes from 'prop-types';
 
 import AppLayout from '../components/AppLayout';
-
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
+import Header from '../components/common/Header';
 import SideBar from '../components/common/SideBar';
 import EquipmentComp from '../components/equipment/equipment';
-
 import NavBar from '../containers/common/NavBar';
 import GlassInfo from '../containers/equipment/glassInfo';
 import GlassProcessing from '../containers/equipment/glassProcessings';
-
-import { ViewContainer, ViewContent } from '../styles/style';
+import {
+  ViewContainer,
+  ViewContent,
+} from '../styles/style';
 
 const Equipment = ({ id, productId }) => {
     const [sideBarItems, setSideBarItems] = useState([{
         text: '초자기구 세척법',
         id: 1,
         clicked: false,
-    }, {
-        text: 'Glass 정보',
-        id: 2,
-        clicked: false,
-    }, {
+    },
+    // {
+    //     text: 'Glass 정보',
+    //     id: 2,
+    //     clicked: false,
+    // },
+    {
         text: 'Glass 가공작업',
         id: 3,
         clicked: false,
@@ -75,7 +81,7 @@ const Equipment = ({ id, productId }) => {
                         clickSideItem={clickSideItem}
                     />
                     {(!id || id === '1') && <EquipmentComp productId={productId} />}
-                    {id === '2' && <GlassInfo productId={productId} />}
+                    {/* {id === '2' && <GlassInfo productId={productId} />} */}
                     {id === '3' && <GlassProcessing productId={productId} />}
                 </ViewContent>
             </ViewContainer>
