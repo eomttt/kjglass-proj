@@ -1,7 +1,12 @@
 version: 2.1
-orbs:
-  node: circleci/node@3.0.0
+
+jobs:
+  build:
+    steps:
+      - checkout
+      - run: yarn run build
+
 workflows:
-  node-tests:
+  build_and_test:
     jobs:
-      - node/test
+      - build
