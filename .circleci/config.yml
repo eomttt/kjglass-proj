@@ -1,8 +1,11 @@
 version: 2.1
+orbs:
+  node: 'circleci/node:13.0'
 jobs:
   build:
-    docker:
-      - image: 'cimg/base:stable'
+    executor:
+      name: node/default
+      tag: '13'
     steps:
       - checkout
       - node/install-packages:
