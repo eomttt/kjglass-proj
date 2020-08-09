@@ -7,8 +7,9 @@ jobs:
       - image: 'cimg/base:stable'
     steps:
       - checkout
-      - node/install-packages:
-        pkg-manager: yarn
+      - node/install:
+        install-yarn: true
+        node-version: latest
       - run:
           name: Install yarn packages
           command: yarn run install --frozen-lockfile
