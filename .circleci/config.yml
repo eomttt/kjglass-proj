@@ -5,11 +5,10 @@ jobs:
       - image: 'cimg/base:stable'
     steps:
       - checkout
-      - node/install:
-          install-yarn: true
-          node-version: latest
-      - run: yarn run install --frozen-lockfile
-      - run: yarn run build
+      - install
+      - run:
+          name: "build projects"
+          command: yarn run build
 workflows:
   build:
     jobs:
