@@ -1,9 +1,17 @@
 version: 2.1
+orbs:
+  node: circleci/node@x.y
 jobs:
   build:
-    docker: 
-      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
+    docker:
+      - image: 'cimg/base:stable'
     steps:
-      - checkout # check out the code in the project directory
-      - run: "yarn run build"
-      - run: echo "hello world" # run the `echo` command
+      - checkout
+      - node/install:
+          install-yarn: true
+          node-version: latest
+      - run: node --version
+workflows:
+  build:
+    jobs:
+      - build
