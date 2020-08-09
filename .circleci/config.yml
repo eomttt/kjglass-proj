@@ -11,10 +11,10 @@ jobs:
           install-yarn: true
           node-version: latest
       - run:
-          name: Yarn install
+          name: Install pacakges
           command: yarn install --frozen-lockfile
       - run:
-          name: Yarn build
+          name: Build app
           command: yarn run build
 workflows:
   build:
