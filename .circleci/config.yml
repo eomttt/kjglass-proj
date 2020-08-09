@@ -11,6 +11,7 @@ jobs:
           install-yarn: true
           node-version: latest
       - run: node --version
+      - run: yarn run build
 workflows:
   build:
     jobs:
