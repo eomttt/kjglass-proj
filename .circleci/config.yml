@@ -2,12 +2,14 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:lts
+      - image: 'cimg/base:stable'
     steps:
       - checkout
-      - install
-      - run:
-          command: yarn build
+      - node/install:
+          install-yarn: true
+          node-version: latest
+      - run: yarn run install --frozen-lockfile
+      - run: yarn run build
 workflows:
   build:
     jobs:
