@@ -10,7 +10,7 @@ jobs:
       - node/install:
           install-yarn: true
           node-version: latest
-      - run: yarn install --frozen-lockfile
+      - run: yarn run install --frozen-lockfile
       - run: yarn run build
 workflows:
   build:
