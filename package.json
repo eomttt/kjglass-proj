@@ -12,7 +12,8 @@
     "login": "firebase login",
     "init": "firebase init",
     "deploy": "firebase deploy",
-    "hosting": "firebase serve --only hosting"
+    "hosting": "firebase serve --only hosting",
+    "gh-deploy": "sudo gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
