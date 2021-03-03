@@ -51,7 +51,7 @@ const Data = {
     Z: expendablesZ,
 };
 
-const getExpendables = async () => {
+export const getExpendables = () => {
     let result = [];
     for (const alphabet of ALPHABET) {
         const data = Data[alphabet];
@@ -62,10 +62,11 @@ const getExpendables = async () => {
     return result;
 };
 
-export const getExpendable = async (alphabet, id) => Data[alphabet].filter((item) => item.id === id)[0];
+export const getExpendable = (alphabet, id) => {
+    const datum = Data[alphabet];
 
-const getData = async (dataBase) => ({
-    expendables: await getExpendables(dataBase),
-});
-
-export default getData;
+    if (datum) {
+        return datum.filter((item) => item.id === id)[0];
+    }
+    return {};
+};

@@ -10,3 +10,5 @@ mail.config.js
 firebase.config.js
 kakao.appkey.js
 
+.DS_Store
+

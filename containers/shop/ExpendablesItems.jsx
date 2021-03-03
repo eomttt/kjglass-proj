@@ -10,6 +10,7 @@ import ShopItems from './ShopItems';
 const ExpendablesItems = ({ classifiedId, productId }) => {
     const { itemsStore } = useStore();
     const { expendables } = toJS(itemsStore);
+    console.log('expendables', expendables)
 
     return (
         <>

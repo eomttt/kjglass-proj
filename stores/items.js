@@ -11,7 +11,7 @@ export default class ItemsStore {
     @observable expendables = [];
 
     @action setItems = (expendables) => {
-        this.expendables = [...expendables];
+        this.expendables = expendables;
     }
 
     @action getItemInfo = (params) => {
