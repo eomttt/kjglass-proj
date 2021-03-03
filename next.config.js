@@ -5,12 +5,17 @@ module.exports = withImages({
     webpack: (config) => {
         const originalEntry = config.entry;
         config.entry = async () => {
-            const entries = await originalEntry();
-            console.log('Build entries ', entries);
-            if (entries['main.js']) {
-                entries['main.js'].unshift('babel-polyfill'); // <- polyfill here
+            try {
+                const entries = await originalEntry();
+                console.log('Build entries ', entries);
+                if (entries['main.js']) {
+                    entries['main.js'].unshift('babel-polyfill'); // <- polyfill here
+                }
+                return entries;
+            } catch (error) {
+                console.log('Error', error);
             }
-            return entries;
+            return {};
         };
         return config;
     },
