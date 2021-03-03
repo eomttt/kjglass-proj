@@ -3,9 +3,6 @@ import Router from 'next/router';
 
 import PropTypes from 'prop-types';
 
-import * as firebase from 'firebase/app';
-import FirebaseConfig from '../firebase.config';
-
 import AppLayout from '../components/AppLayout';
 
 import Header from '../components/common/Header';
@@ -20,7 +17,7 @@ import DownloadCatalog from '../containers/shop/DownloadCatalog';
 
 import { ViewContainer, ViewContent } from '../styles/style';
 
-const glassesData = require('../data/kjglass-60495-glass-export.json');
+const glassesData = require('../data/glass.json');
 
 const Shop = ({
     id, classifiedId, productId, shopwMetaData,
@@ -93,7 +90,7 @@ const Shop = ({
     );
 };
 
-Shop.getInitialProps = async (context) => {
+Shop.getInitialProps = (context) => {
     const { query } = context;
     const { id, classifiedId, productId } = query;
     let shopwMetaData = {
@@ -110,11 +107,7 @@ Shop.getInitialProps = async (context) => {
                 const data = glassesData.filter((item) => item.id === productId);
                 findedData = { ...data[0] };
             } else {
-                if (!firebase.apps.length) {
-                    firebase.initializeApp(FirebaseConfig);
-                }
-                const dataBase = firebase.database();
-                findedData = await getExpendable(dataBase, alphabet, productId);
+                findedData = getExpendable(alphabet, productId);
             }
 
             const { title, content, image } = findedData;

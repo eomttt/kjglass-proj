@@ -1,28 +1,17 @@
-import React, { useEffect } from 'react';
 import { Provider } from 'mobx-react';
 import PropTypes from 'prop-types';
-
-import * as firebase from 'firebase/app';
+import React, { useEffect } from 'react';
+import getData from '../containers/Data';
 import BascketStore from '../stores/bascket';
 import ItemsStore from '../stores/items';
-
-import 'firebase/database';
-
-import FirebaseConfig from '../firebase.config';
-
-import getData from '../containers/Data';
 
 const bascketStore = new BascketStore();
 const itemsStore = new ItemsStore();
 
 const App = ({ Component, pageProps }) => {
-    const getDatas = async () => {
+    const getDatas = () => {
         try {
-            if (!firebase.apps.length) {
-                firebase.initializeApp(FirebaseConfig);
-            }
-            const dataBase = firebase.database();
-            const { expendables } = await getData(dataBase);
+            const { expendables } = getData();
 
             itemsStore.setItems(expendables);
         } catch (error) {

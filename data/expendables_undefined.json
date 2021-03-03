@@ -1,0 +1,1273 @@
+[ {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ 방수, 방진형 제품으로 습도가 높은 곳이나 지저분한 환경에서도 사용 가능", "■ 3 Points Calibration, Automatic Temperature Compensation", "■ Hold 기능이 내장", "■ 배터리 수명 연장을 위한 자동 Off 기능", "■ Oakton®" ],
+  "id" : "1934",
+  "image" : "http://lklab.com/product_image/S-11538.jpg",
+  "specification" : [ {
+    "content" : "Pocket pH Meter ECOTESTR PH2+ Oakton",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "35423-01",
+    "number" : "P02-55-026"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">        상세 규격 표   </caption><thead>    <tr>      <th width=\"200\" scope=\"row\">Cat. No</th>      <th width=\"200\" scope=\"row\">Model</th>      <th width=\"200\" scope=\"row\">측정 범위</th>      <th width=\"200\" class=\"tdfin\" scope=\"row\">정밀도</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth\" scope=\"row\">P02-55-026</td>      <td class=\"trfin\" scope=\"row\">35423-01</td>      <td class=\"trfin\" scope=\"row\">0.00 ~ 14.00 pH</td>      <td class=\"trfin2\" scope=\"row\">± 0.1 pH</td>    </tr>  </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">        상세 규격 표 </caption><thead>  <tr>    <th width=\"400\" colspan=\"2\" scope=\"col\">Cat. No.</th>    <td width=\"400\" class=\"trfinth3\" scope=\"col\">P02-55-026</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td class=\"trfinth3\" scope=\"col\">35423-01</td>  </tr></thead><tbody>  <tr>    <th rowspan=\"3\" width=\"200\" scope=\"col\">pH</th>    <th width=\"200\" scope=\"col\">Range</th>    <td class=\"tdfin\" scope=\"col\">0.00 ~ 14.00</td>    </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td class=\"tdfin\" scope=\"col\">0.1</td>    </tr>  <tr>    <th scope=\"col\">Accuracy</th>    <td class=\"tdfin\" scope=\"col\">±0.1</td>    </tr>  <tr>    <th rowspan=\"2\" scope=\"col\">Temperature</th>    <th scope=\"col\">Range</th>    <td class=\"tdfin\" scope=\"col\">0 ~ 50℃</td>    </tr>  <tr>    <th scope=\"col\">Resolution</th>    <td class=\"tdfin\" scope=\"col\">0.1 ℃</td>    </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Calibration</th>    <td class=\"tdfin\" scope=\"col\">최대 3 Points</td>    </tr>  <tr>    <th colspan=\"2\" class=\"trfinth2\" scope=\"col\">Power</th>    <td class=\"trfin2\" scope=\"col\">Four 1.5v Button-type Batteries (include)</td>  </tr></tbody></table>" ],
+  "title" : "Pocket pH Tester (포켓형 pH 미터, Waterproof)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ IP67 방수등급 및 Automatic 3 Points Calibration", "■ Valox® Housing Sensor는 대부분의 화학 물질에 내구성을 가짐", "■ Dual Display : pH와 온도가 동시에 표시됨 (35634-30)", "■ 구성 : Protective Plastic Case, Battery, 끈", "■ Oakton®" ],
+  "id" : "1935",
+  "image" : "http://lklab.com/product_image/S-11251.jpg",
+  "specification" : [ {
+    "content" : "Pocket pH Meter, Dual Display -1.0 ~ 15.0 pH ± 0.01 pH",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "35634-30",
+    "number" : "P02-55-015"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">        상세 규격 표   </caption><thead>    <tr>      <th width=\"200\" scope=\"row\">Cat. No</th>      <th width=\"200\" scope=\"row\">Model</th>      <th width=\"200\" scope=\"row\">측정 범위 (pH)</th>      <th width=\"100\" scope=\"row\">정밀도</th>      <th width=\"100\" class=\"tdfin\" scope=\"row\">온도 표시</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth\" scope=\"row\">P02-55-015</td>      <td class=\"trfin\" scope=\"row\">35634-30 </td>       <td rowspan=\"1\" class=\"trfin\" scope=\"row\">-1.00 ~ 15.00</td>      <td rowspan=\"1\" class=\"trfin\" scope=\"row\">± 0.01 pH</td>      <td class=\"trfin2\" scope=\"row\">O</td>    </tr>  </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">        상세 규격 표 </caption><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>      <td width=\"200\" class=\"trfinth3\" scope=\"col\">P02-55-015</td>  </tr>  <tr>    <th scope=\"col\">Model</th>      <td class=\"trfinth3\" scope=\"col\">35634-30</td>  </tr></thead><tbody>  <tr>    <th scope=\"col\">측정 범위</th>    <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-1.0 ~ 15.0 pH</td>    </tr>  <tr>    <th scope=\"col\">분해능</th>    <td colspan=\"1\" class=\"tdfin\" scope=\"col\">0.01 pH</td>    </tr>  <tr>    <th scope=\"col\">정밀도</th>        <td colspan=\"1\" class=\"tdfin\" scope=\"col\">± 0.01 pH</td>    </tr>  <tr>    <th scope=\"col\">온도 표시</th>       <td class=\"tdfin\" scope=\"col\">O</td>  </tr>  <tr>    <th scope=\"col\">온도 보정</th>    <td colspan=\"1\" class=\"tdfin\" scope=\"col\">Automatic, 0 ~ 50℃</td>    </tr>  <tr>    <th scope=\"col\">Calibration</th>    <td colspan=\"1\" class=\"tdfin\" scope=\"col\">up to 3 pH Points</td>    </tr>  <tr>    <th scope=\"col\">Buffer Recognition</th>       <td colspan=\"1\" class=\"tdfin\" scope=\"col\">4.01, 7.00, 10.01 USA<br>4.01, 6.86, 9.18 NIST</td>    </tr>  <tr>    <th class=\"trfinth2\" scope=\"col\">Power</th>    <td colspan=\"1\" class=\"trfin2\" scope=\"col\">4 × 1.5 V Button Cell Battery</td>    </tr></tbody></table>" ],
+  "title" : "Pocket pH Meter (포켓형 pH 미터)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ Soft Solid, Semisolid Material 용으로 알맞음", "■ Test Tube와 같이 입구가 좁은 Container 내용물 pH 측정에 알맞음", "■ 전극교체 가능", "■ 자동 온도 보정 기능으로 다양한 환경에서 정확한 판독 가능", "■ Cole-Parmer / Oakton®" ],
+  "id" : "1936",
+  "image" : "http://lklab.com/product_image/S-13272.jpg",
+  "specification" : [ {
+    "content" : "PH TESTER 50S WATERPROOF DJ",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "35634-25",
+    "number" : "P02-55-040"
+  }, {
+    "content" : "REPLMNT SENSOR FOR 35634-25",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "35634-27",
+    "number" : "P02-55-045"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">        상세 규격 표   </caption><thead>    <tr>      <th width=\"200\" scope=\"row\">Cat. No</th>      <th width=\"200\" scope=\"row\">Model</th>      <th width=\"200\" scope=\"row\">측정 범위</th>      <th width=\"200\" class=\"tdfin\" scope=\"row\">정밀도</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth\" scope=\"row\">P02-55-040</td>      <td class=\"trfin\" scope=\"row\">35634-25</td>      <td class=\"trfin\" scope=\"row\">-1.00 ~ 15.00 pH</td>      <td class=\"trfin2\" scope=\"row\">± 0.01 pH</td>    </tr>  </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">     <thead>         <tr>           <th width=\"191\" colspan=\"1\" scope=\"col\">Cat. No.</th>           <td width=\"175\" class=\"trfinth3\" scope=\"col\">P02-55-040</td>         </tr>         <tr>           <th colspan=\"1\" scope=\"col\">Model</th>           <td class=\"trfinth3\" scope=\"col\">35634-25</td>         </tr>  </thead>           <tbody>         <tr>           <th scope=\"col\">측정 범위</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-1.0 ~ 15.0 pH</td>         </tr>         <tr>           <th scope=\"col\">분해능</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">0.01 pH</td>         </tr>         <tr>           <th scope=\"col\">정밀도</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">± 0.01 pH</td>         </tr>         <tr>           <th scope=\"col\">측정가능온도</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">0 ~  50℃</td>         </tr>         <tr>           <th scope=\"col\">Calibration</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">up to 3 pH Points</td>         </tr>         <tr>           <th scope=\"col\">Buffer Recognition</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">4.01, 7.00, 10.01 USA<br>           4.01, 6.86, 9.18 NIST</td>         </tr>         <tr>           <th class=\"trfin\" scope=\"col\">Power</th>          <td colspan=\"1\" class=\"trfin2\" scope=\"col\">4 × 1.5 V Button Cell Battery</td>         </tr>       </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"> </li></ul>Optional Accessory   <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>    <tr>      <th width=\"200\" scope=\"row\">Cat. No</th>      <th width=\"200\" scope=\"row\">Model</th>      <th width=\"200\" class=\"tdfin\" scope=\"row\">용도</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth\" scope=\"row\">P02-55-045</td>      <td class=\"trfin\" scope=\"row\">35634-27</td>      <td class=\"trfin2\" scope=\"row\">Replacement pH spear sensor</td>    </tr>  </tbody></table>" ],
+  "title" : "Pocket pH Meter (포켓형 pH 미터, Spear Type)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "● 대형 디스플레이와 단순한 버튼 배열 및 메뉴를 통한 간편한 사용법", "● 대형 디스플레이를 통해 측정 데이터, 센서 상태, 최근 Calibration값 등의 정보 확인 가능", "● Automatic & Manual Endpoint Recording & Visual Signal", "● IP67 방수 보호 기능", "● Mettler Toledo" ],
+  "id" : "1937",
+  "image" : "http://lklab.com/product_image/S-11536.jpg",
+  "specification" : [ {
+    "content" : "pH Meter Portable LE438-IP67",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "F2-Standard Kit",
+    "number" : "P08-162-109"
+  }, {
+    "content" : "pH Meter Portable LE438-IP67",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "F2-Field Kit",
+    "number" : "P08-162-113"
+  }, {
+    "content" : "pH Meter Portable LE427-IP67",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "F2-Food Kit",
+    "number" : "P08-162-117"
+  }, {
+    "content" : "pH Electrode 3-in-1 Plastic",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LE438-IP67",
+    "number" : "P08-162-508"
+  }, {
+    "content" : "pH Electrode 2-in-1 식품용",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "LE427-IP67",
+    "number" : "P08-162-512"
+  } ],
+  "tableItems" : [ "<style>/* standard table style */.st-tablebox{ width:800px; max-width:800px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox p{ line-height: 19px;}.st-tablebox th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* standard table style 900 */.st-tablebox900 { width:900px; max-width:900px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox900 p{ line-height: 19px;}.st-tablebox900 th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox900 td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox900 th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox900 .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox900 .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox900 .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* 첨부파일 관련 스타일 */.st-table_file td{border-left:#cdcdcd solid 0px; border-bottom:#cdcdcd solid 0px; }</style><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" style=\"width: 127px\">Cat. No</th>                 <th scope=\"row\" style=\"width: 122px\">Model</th>                 <th scope=\"row\" style=\"width: 143px\">형식</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">전극</th>                </tr>              </thead>              <tbody>                <tr>                  <td class=\"trfinth4\" scope=\"row\" style=\"width: 127px\">P08-162-109 </td>                  <td scope=\"row\" style=\"width: 122px\">F2-Standard Kit</td>                  <td scope=\"row\" style=\"width: 143px\">General</td>                  <td rowspan=\"2\" class=\"tdfin\" scope=\"row\">LE438-IP67</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"row\" style=\"width: 127px\">P08-162-113 </td>                  <td scope=\"row\" style=\"width: 122px\">F2-Field Kit</td>                  <td scope=\"row\" style=\"width: 143px\">현장 측정용</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\" style=\"width: 127px\">P08-162-117 </td>                  <td class=\"trfin\" scope=\"row\" style=\"width: 122px\">F2-Food Kit</td>                  <td class=\"trfin\" scope=\"row\" style=\"width: 143px\">식품용</td>                  <td class=\"trfin2\" scope=\"row\">LE427-IP67</td>                </tr>              </tbody></table> <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <thead>                <tr>                 <th scope=\"row\" width=\"200\" class=\"trfinth4\">F2</th>                 <th width=\"200\" scope=\"row\">Range</th>                 <th width=\"200\" scope=\"row\">Resolution</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">Accuracy</th>                </tr>   </thead>              <tbody>                <tr>                  <th scope=\"row\">pH</th>                  <td scope=\"row\">0.00 ~ 14.00 pH</td>                  <td scope=\"row\">0.01 pH</td>                  <td class=\"tdfin\" scope=\"row\">±0.01 pH</td>                </tr>                <tr>                  <th scope=\"row\">mV</th>                  <td scope=\"row\">-1999 ~ 1999 mV</td>                  <td scope=\"row\">1 mV</td>                  <td class=\"tdfin\" scope=\"row\">±1 mV</td>                </tr>                <tr>                  <th scope=\"row\">Temperature</th>                  <td scope=\"row\">0 ~ 100℃</td>                  <td scope=\"row\">0.1℃</td>                  <td class=\"tdfin\" scope=\"row\">±0.5℃</td>                </tr>                <tr>                  <th scope=\"row\">Calibration</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">최대 3 Points, 4 Buffer Group</td>                </tr>                <tr>                  <th scope=\"row\">Input</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">BNC, Cinch</td>                </tr>                <tr>                  <th scope=\"row\">Temp.                   Compensation</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">ATC &amp; MTC</td>                </tr>                <tr>                  <th scope=\"row\">Memory</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">200 Measurements, 현재 Calibration 결과값</td>                </tr>                <tr>                  <th scope=\"row\">Size</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">w200×d175×h52 mm</td>                </tr>                <tr>                  <th scope=\"row\" class=\"trfin\">Battery</th>                  <td colspan=\"3\" class=\"trfin2\" scope=\"row\">4×1.5V AAA, 200시간 이상 작동</td>                </tr>              </tbody></table>pH Electrode              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"400\" scope=\"row\" class=\"tdfin\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P08-162-508 </td>                  <td scope=\"row\">LE438-IP67</td>                  <td class=\"tdfin\" scope=\"row\">3-in-1 Plastic pH Electrode</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P08-162-512 </td>                  <td class=\"trfin\" scope=\"row\">LE427-IP67</td>                  <td class=\"trfin2\" scope=\"row\">2-in-1 식품용 pH Electrode</td>                </tr>              </tbody></table>" ],
+  "title" : "Portable pH Meter (휴대용 pH 미터, FiveGo™ pH)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ 단순한 메뉴를 통해 쉽게 측정 가능", "■ 컴팩트한 디자인으로 공간을 절약.", "■ 최근 Calibration Data를 포함하여 최대 200개의 측정 Data 저장 가능", "■ RS232 또는 USB 포트를 사용하여 프린터 또는 PC로 간편하고 안전하게 Data 전송.", "■ Mettler Toledo" ],
+  "id" : "1938",
+  "image" : "http://lklab.com/product_image/S-11535.jpg",
+  "specification" : [ {
+    "content" : "pH Meter Bench-top meter ONLY",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "FP20",
+    "number" : "P08-162-100"
+  }, {
+    "content" : "pH Meter Bench-top LE438",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "FP20 Standard",
+    "number" : "P08-162-101"
+  }, {
+    "content" : "pH Meter Bench-top LE410\n재고소진시 까지",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "FP20 Bio",
+    "number" : "P08-162-105"
+  }, {
+    "content" : "FiveEasy Plus pH/mV (Incl. LE422)",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "FP20-Micro",
+    "number" : "P08-162-106"
+  }, {
+    "content" : "FiveEasy Plus pH/mV (Incl. LE420)",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "FP20-TRIS",
+    "number" : "P08-162-107"
+  }, {
+    "content" : "pH Electrode 3-in-1, Plastic for FiveGo",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "LE438",
+    "number" : "P08-162-500"
+  }, {
+    "content" : "pH Electrode 3-in-1 Glass",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LE410",
+    "number" : "P08-162-504"
+  }, {
+    "content" : "LE420 Glass electrode with movable PTFE-sleeve junction",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LE420",
+    "number" : "P08-162-506"
+  }, {
+    "content" : "LE422 Micro pH electrode wihout Temp.",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LE422",
+    "number" : "P08-162-505"
+  } ],
+  "tableItems" : [ "<style>/* standard table style */.st-tablebox{ width:800px; max-width:800px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox p{ line-height: 19px;}.st-tablebox th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* standard table style 900 */.st-tablebox900 { width:900px; max-width:900px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox900 p{ line-height: 19px;}.st-tablebox900 th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox900 td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox900 th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox900 .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox900 .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox900 .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* 첨부파일 관련 스타일 */.st-table_file td{border-left:#cdcdcd solid 0px; border-bottom:#cdcdcd solid 0px; }</style><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" style=\"width: 174px\">Cat. No</th>                 <th scope=\"row\" style=\"width: 145px\">Model</th>                  <th scope=\"row\" class=\"tdfin\">키트구성</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\" style=\"width: 174px\">P08-162-100</td>                  <td scope=\"row\" class=\"\" style=\"width: 145px\">FP20-Meter</td>                   <td scope=\"row\" class=\"tdfin\">미터본체(전극미포함)</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\" style=\"width: 174px\">P08-162-101</td>                  <td scope=\"row\" class=\"\" style=\"width: 145px\">FP20-Standard</td>                  <td scope=\"row\" class=\"tdfin\">LE438 센서가 포함된 표준 키트</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\" style=\"width: 174px\">P08-162-105</td>                  <td scope=\"row\" class=\"\" style=\"width: 145px\">FP20-Bio</td>                  <td scope=\"row\" class=\"tdfin\">LE410 센서가 포함된 키트</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\" style=\"width: 174px\">P08-162-106</td>                  <td scope=\"row\" class=\"\" style=\"width: 145px\">FP20-Micro</td>                  <td scope=\"row\" class=\"tdfin\">LE422 센서가 포함된 키트</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\" style=\"width: 174px\">P08-162-107</td>                  <td class=\"trfin\" scope=\"row\" style=\"width: 145px\">FP20-TRIS</td>                  <td class=\"trfin2\" scope=\"row\">LE420 센서가 포함된 키트</td>                </tr>              </tbody></table> <p><br>Application / 어플리케이션</p><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" style=\"width: 155px\">Model</th>                 <th scope=\"row\" class=\"tdfin\">어플리케이션</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"\" style=\"width: 155px\">FP20-Meter</td>                  <td class=\"tdfin\" scope=\"row\">키트에 포함되지 않는 별도의 특정 센서가 필요할 경우</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"\" style=\"width: 155px\">FP20-Standard</td>                  <td class=\"tdfin\" scope=\"row\">일반적인 수용성 샘플</td>                </tr>                <tr>                  <td scope=\"row\" class=\"\" style=\"width: 155px\">FP20-Bio</td>                  <td class=\"tdfin\" scope=\"row\">산, 염기 등의 수용성 샘플</td>                </tr>                <tr>                  <td scope=\"row\" class=\"\" style=\"width: 155px\">FP20-Micro</td>                  <td class=\"tdfin\" scope=\"row\">바이알 및 시험관 내 소량의 샘플</td>                </tr>                <tr>                  <td class=\"trfin\" scope=\"row\" style=\"width: 155px\">FP20-TRIS</td>                  <td class=\"trfin2\" scope=\"row\">에멀전 및 오일 성분의 샘플 폐수, TRIS 등                  과 같은 측정이 까다롭고 “오염된” 샘플<br></td>                </tr>              </tbody></table> <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <thead>                                <tr>                 <th scope=\"row\" style=\"width: 229px\">FP20</th>                               <th scope=\"row\" class=\"tdfin\" style=\"width: 189px\">Range</th>                               <th scope=\"row\" class=\"tdfin\" style=\"width: 171px\">Resolution</th>                               <th scope=\"row\" class=\"tdfin\">Accuracy</th>                </tr>                   </thead>              <tbody>                <tr>                  <th scope=\"row\" style=\"width: 229px\">pH</th>                                <td class=\"tdfin\" scope=\"row\" style=\"width: 189px\">−2.00~16.00 pH</td>                                <td class=\"tdfin\" scope=\"row\" style=\"width: 171px\">0.01  / 0.1 pH</td>                                <td class=\"tdfin\" scope=\"row\">±0.01 pH</td>                </tr>                <tr>                  <th scope=\"row\" style=\"width: 229px\">mV</th>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 189px\">−2000~2000 mV</td>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 171px\">1  mV</td>                  <td class=\"tdfin\" scope=\"row\">±1 mV</td>                </tr>                               <tr>                  <th scope=\"row\" style=\"width: 229px\">Temperature</th>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 189px\">−5~105 °C (23~221 °F)</td>                  <td class=\"tdfin\" scope=\"row\" style=\"width: 171px\">0.1  °C</td>                  <td class=\"tdfin\" scope=\"row\">±0.3 °C</td>                </tr>                <tr>                  <th scope=\"row\" style=\"width: 229px\">Calibration</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">최대 5 Points, 4 Buffer Group</td>                </tr>                <tr>                  <th scope=\"row\" style=\"width: 229px\">Input</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">BNC, Cinch</td>                </tr>                <tr>                  <th scope=\"row\" style=\"width: 229px\">Temp.                   Compensation</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">ATC &amp; MTC</td>                </tr>                <tr>                  <th scope=\"row\" style=\"width: 229px\">Memory</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">200회 측정값, 최근 교정 결과</td>                </tr>                <tr>                  <th scope=\"row\" style=\"width: 229px\">Size / Display</th>                  <td colspan=\"3\" class=\"tdfin\" scope=\"row\">W227  × D147 × H70 mm   ( 0.63 kg ) / 4.3\"  분할 LCD</td>                </tr>                <tr>                  <th scope=\"row\" class=\"trfin\" style=\"width: 229px\">Power</th>                  <td colspan=\"3\" class=\"trfin2\" scope=\"row\">입력: 100–240 V / 50–60  Hz | 출력: 12 V DC</td>                </tr>              </tbody></table>pH Electrode              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" style=\"width: 144px\">Cat. No</th>                 <th scope=\"row\" style=\"width: 99px\">Model</th>                 <th scope=\"row\" style=\"width: 156px\">플러그/연결</th>                 <th scope=\"row\" class=\"tdfin\">Size</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\" style=\"width: 144px\">P08-162-500 </td>                  <td scope=\"row\" class=\"\" style=\"width: 99px\">LE438</td>                   <td rowspan=\"2\" scope=\"row\" style=\"width: 156px\">BNC / Cinch    (Temp.)</td>                   <td scope=\"row\" class=\"tdfin\">od12 x L120mm, Cable 1m</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\" style=\"width: 144px\">P08-162-504</td>                  <td scope=\"row\" class=\"\" style=\"width: 99px\">LE410</td>                                     <td scope=\"row\" class=\"tdfin\">od12 x L120mm, Cable 1m</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\" style=\"width: 144px\">P08-162-506 </td>                  <td scope=\"row\" class=\"\" style=\"width: 99px\">LE420</td>                   <td class=\"trfin2\" rowspan=\"2\" scope=\"row\" style=\"width: 156px\">BNC</td>                   <td class=\"tdfin\" scope=\"row\">od12 x L120mm, Cable 1m</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\" style=\"width: 144px\">P08-162-505 </td>                  <td class=\"trfin\" scope=\"row\" style=\"width: 99px\">LE422</td>                   <td class=\"trfin2\" scope=\"row\">od4.3 x L90mm, Cable 1m</td>                                  </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th width=\"100\" scope=\"row\">pH Electrode</th>                 <th scope=\"row\" style=\"width: 109px\">플러그/연결</th>                 <th scope=\"row\" class=\"tdfin\">pH Electrode 상세 설명 </th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"\">LE438</td>                   <td rowspan=\"2\" scope=\"row\" style=\"width: 109px\">BNC / Cinch</td>                  <td class=\"tdfin\" scope=\"row\">통합 온도 센서를 갖춘 3-in-1 플라스틱 전극</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"\">LE410</td>                                    <td class=\"tdfin\" scope=\"row\">산성 또는 염기성의 수용성 샘플을 빠르게 측정할 수 있으며 통합형 온도센서와 액체 전해질이 포함된 3-in-1 유리 pH전극, 재충진이 가능함</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"\">LE420</td>                   <td class=\"trfin2\" rowspan=\"2\" scope=\"row\" style=\"width: 109px\">BNC</td>                  <td class=\"tdfin\" scope=\"row\">폐수, 우유 같은 에멀전 및 오일 성분의 샘플과 같은 측정이 까다롭고 “오염된” 샘플 측정에 적합하며 이동식 PTFE 슬리브 접촉부를 가진 유리 전극, 재충진이 가능함</td>                </tr>                <tr>                  <td class=\"trfin\" scope=\"row\">LE422</td>                  <td class=\"trfin2\" scope=\"row\">바이알 및 시험관내의 소형 샘플에 적합하며 겔 전해질이 포함된 4.3 mm 직경의 마이크로 pH 전극</td>                                  </tr>              </tbody></table><p> </p><p> </p><p> </p>" ],
+  "title" : "Bench-top pH Meter (탁상형 pH 미터, FiveEasyPlus™)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "● 정밀형 pH, ORP, Ion Concentration Meter", "● 빠르고 정밀하며 작동이 편리함", "● 모든 작동 사항이 표시되는 Color Display", "● ISM® (Intelligent Sensor Management) 기능", "● 구성", "1) S220-Basic : Meter, Electrode Stand, Protect Cover, Manual, Quick Guide Power Supply, Declaration of Conformity and Test Certificate", "2) S220-Kit : “S220-Basic” 기본 구성품, Expert Pro-ISM 전극, pH 측정가이드, 1회용 Buffer 2개 (pH 4.01, 7.00, 9.21 and 10.00)", "3) S220-Bio : “S220-Kit” 기본구성품, 단 전극만 InLab® Routine Pro-ISM 임", "4) S220-U : “S220-Kit” 기본구성품, 단 전극만 InLab® Versatile Pro 임", "● Mettler Toledo / SevenCompact®" ],
+  "id" : "1939",
+  "image" : "http://lklab.com/product_image/S-8379.jpg",
+  "specification" : [ {
+    "content" : "pH/Ion Meter only SevenCompact",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "S220-Basic",
+    "number" : "P02-162-009"
+  }, {
+    "content" : "pH/Ion Meter Plastic Electrode SevenCompact",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "S220-Kit",
+    "number" : "P02-162-014"
+  }, {
+    "content" : "pH/Ion Meter Glass Electrode SevenCompact",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "S220-Bio",
+    "number" : "P02-162-021"
+  }, {
+    "content" : "pH/Ion Meter Versatile Pro SevenCompact",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "S220-U",
+    "number" : "P02-162-024"
+  }, {
+    "content" : "Compact Printer RS232 No Real Time & Date",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "RS-P25/02",
+    "number" : "B02-162-712"
+  }, {
+    "content" : "InLab cable MultiPin-BNC/RCA 5m (구 51344292 대체)",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "30281898",
+    "number" : "C19-162-808"
+  }, {
+    "content" : "InLab® Expert Pro-ISM",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "30014096",
+    "number" : "P02-162-501"
+  }, {
+    "content" : "InLab Versatile Pro PH Electrode Economy 3-in-1 Polysulfone shaft",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "51343031",
+    "number" : "P02-162-550"
+  }, {
+    "content" : "InLab® Routine Pro-ISM General Purpose 3-in-1 Glass Shaft",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "51344055",
+    "number" : "P02-162-523"
+  }, {
+    "content" : "InLab Power Pro-ISM pH Electrode Premiun 4-in-1 Glass, w/o cable",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "51344211",
+    "number" : "P02-162-526"
+  }, {
+    "content" : "InLab Pure Pro ISM pH Electrode Glass, w/o cable",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "51344172",
+    "number" : "P02-162-535"
+  }, {
+    "content" : "InLab Science Pro-ISM pH Electrode general Purpose 4-in-1 Glass, w/o cable",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "51344072",
+    "number" : "P02-162-544"
+  }, {
+    "content" : "InLab Solids Pro ISM pH Electrode Premiun 4-in-1 Glass, w/o cable",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "51344155",
+    "number" : "P02-162-556"
+  }, {
+    "content" : "Inlab Micro Pro-ISM pH Electrode pH specialists 4-in-1 Glass Shaft",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "51344163",
+    "number" : "P02-162-563"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">구분</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">전극</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\"> P02-162-009</td>                  <td scope=\"row\">S220-Basic</td>                  <td scope=\"row\">Instrument</td>                  <td class=\"tdfin\" scope=\"row\">(포함 안됨)</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\"> P02-162-014</td>                  <td scope=\"row\">S220-Kit</td>                  <td colspan=\"2\" class=\"tdfin\" scope=\"row\">InLab® Expert Pro-ISM, Peek </td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\"> P02-162-021</td>                  <td scope=\"row\">S220-Bio</td>                  <td colspan=\"2\" class=\"tdfin\" scope=\"row\">InLab® Routine Pro-ISM, Glass</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\"> P02-162-024</td>                  <td class=\"trfin\" scope=\"row\">S220-U</td>                  <td colspan=\"2\" class=\"trfin2\" scope=\"row\">InLab® Versatile Pro, PSF</td>                </tr>              </tbody></table>    <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none\">pH Electrode               </caption><thead>                <tr>                 <td scope=\"row\" width=\"200\" class=\"trfinth4\">S220</td>                 <th width=\"200\" scope=\"row\">Range</th>                 <th width=\"200\" scope=\"row\">Resolution</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">Accuracy</th>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"row\">pH</th>                  <td scope=\"row\">-2.000 ~ 20.000</td>                  <td scope=\"row\">0.001 / 0.01 / 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.002</td>                </tr>                <tr>                  <th scope=\"row\">mV</th>                  <td scope=\"row\">-2000.0 ~ 2000.0</td>                  <td scope=\"row\">0.1 / 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.2</td>                </tr>                <tr>                  <th scope=\"row\">Ion Concentration</th>                  <td scope=\"row\">                    <p>0.000 ~ 1000.0%<br>                      0.000 ~ 10000.0 ppm<br>                    1.00<sup>-9</sup> ~ 9.99<sup>9</sup> mg/L</p>                  </td>                  <td scope=\"row\">±Last Significant Digit</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Temp. MTC</th>                  <td scope=\"row\">-30℃ ~ 130℃</td>                  <td scope=\"row\">0.1℃</td>                  <td class=\"tdfin\" scope=\"row\">±0.1℃</td>                </tr>                <tr>                  <th scope=\"row\">Temp. ATC</th>                  <td scope=\"row\">-5℃ ~ 130℃</td>                  <td scope=\"row\">0.1℃</td>                  <td class=\"tdfin\" scope=\"row\">±0.1℃</td>                </tr>                <tr>                  <th scope=\"row\">Calibration</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">                    <p>Points : Max. 5 (Automatic Buffer Recognition)</p>                  <p>Buffer Groups : 8 Pre-defined and 1 user-defined</p>                  <p>Isopotential Point : pH 7.00</p>                  <p>Electrode Status Icon : Shows Quality of Last Calibration</p>                  </td>                </tr>                <tr>                  <th scope=\"row\">System and GLP</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">                    <p>Time and Date : 2 Time Formats, 4 Date Formats</p>                  <p>PIN Protection : Login, Deletion of Data, System Settings</p>                  <p>Instrument Modes : Routine Mode / Expert Mode</p>                  <p>ID Input : User ID, Sample ID, Sensor ID, Sensor SN</p>                </td>                </tr>                <tr>                  <th scope=\"row\">Data Processing</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">                    <p>Data Storage : 1000 Measurements</p>                  <p>Print Formats : Short, Normal, GLP</p>                 </td>                </tr>                <tr>                  <th scope=\"row\">Connector</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">pH (BNC), Temp. (Cinch/RCA), Reference (2 mm Ref.)</td>                </tr>                <tr>                  <th scope=\"row\" class=\"trfin\">Size / Weight</th>                  <td colspan=\"3\" class=\"trfin2\" scope=\"row\">w204×d174×h74 mm / 890 g</td>                </tr>              </tbody></table>  Optional Accessory              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"400\" colspan=\"2\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">B02-162-712</td>                  <td scope=\"row\" class=\"\">RS-P25/02</td>                  <td colspan=\"2\" scope=\"row\" class=\"tdfin\">Printer dot matrix</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">C19-162-808</td>                  <td scope=\"row\" class=\"trfin\">30281898</td>                  <td colspan=\"2\" scope=\"row\" class=\"trfin2\">InLab cable/MultiPin-BNC/RCA 5m</td>                </tr>                             </tbody></table> pH Electrode with Fixed Cable              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-501</td>                  <td scope=\"row\">30014096</td>                  <td scope=\"row\" class=\"tdfin\">InLab® Expert Pro-ISM</td>                </tr>                                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-550</td>                  <td class=\"trfin\" scope=\"row\">51343031</td>                  <td scope=\"row\" class=\"trfin2\">                    <p>InLab® Versatile Pro, 3-in-1 pH Sensor,</p>                  <p>Polysulfone Shaft, ATC, Refillable</p>                 </td>                </tr>              </tbody></table> pH Electrode with Multipin Head              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"150\">Cat. No</th>                 <th width=\"150\" scope=\"row\">Model</th>                 <th width=\"500\" colspan=\"2\" class=\"tdfin\" scope=\"row\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-523</td>                  <td scope=\"row\">51344055</td>                  <td colspan=\"2\" scope=\"row\" class=\"tdfin\">InLab® Routine Pro ISM, 4-in-1 pH Sensor, Glass Shaft, ATC, Refillable</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-563</td>                  <td scope=\"row\">51344163</td>                  <td colspan=\"2\" scope=\"row\" class=\"tdfin\">InLab® Micro Pro ISM, 4-in-1 pH Sensor, Glass Shaft (5 mm), ATC, Refillable</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-526</td>                  <td scope=\"row\">51344211</td>                  <td colspan=\"2\" scope=\"row\" class=\"tdfin\">InLab® Power Pro ISM, 4-in-1 pH Sensor, Glass Shaft, ATC, Reference System</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-535</td>                  <td scope=\"row\">51344172</td>                  <td colspan=\"2\" scope=\"row\" class=\"tdfin\">InLab® Pure Pro ISM, 4-in-1 pH Sensor, Glass Shaft (Immovable), ATC, Refillable</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-544</td>                  <td scope=\"row\">51344072</td>                  <td colspan=\"2\" scope=\"row\" class=\"tdfin\">InLab® Science Pro ISM, 4-in-1 pH Sensor, Glass Shaft (Movable), ATC, Refillable</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-556</td>                  <td class=\"trfin\" scope=\"row\">51344155</td>                  <td colspan=\"2\" scope=\"row\" class=\"trfin2\">InLab® Solids Pro ISM, 4-in-1 pH Sensor, Glass Shaft, Open Junction, ATC</td>                </tr>              </tbody></table> <ul style=\"list-style:none; display:block;  float:left; margin:15px 0 25px;  width:800px;\">  <li style=\"font-size: 12px; color: #666; line-height: 18px;\">● Electrode Only, Cable은 별도 구매해야 함, Optional Accessory 참조</li></ul>" ],
+  "title" : "pH / Ion Meter (pH / Ion 미터)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "● 기기 한 대로 pH, 전도도, 이온을 측정할 수 있는 Module 시스템", "● 기본 Multi Meter에 필요한 Module (pH, 전도도, 이온)을 장착하여 2 가지 기기의 기능을 수행", "(2개의 전도도 모듈 제외)", "● 기본 구성 Model은 일반적으로 많이 사용되는 구성을 System화 시킨 모델", "(Upgrade expansion unit을 이용하여 기능 확장 및 구성 변화 가능)", "● 모듈을 새로 장착 및 교환하여도 그 모듈을 자동으로 인식함", "● Module", "- PH/MV Expansion Unit (Option) - Conductivity Expansion Unit (Included)", "- PH/Ion Expansion Unit (Option) - Blank Expansion Unit (Included)", "● Large Color Display and Intuitive Touch Screen Operation", "● GLP Compliant, Including User Management", "● The USB, Ethernet and RS232 Interface", "● Connection : Barcode Reader, Fingerprint Reader, USB Stick, Network Printer", "● Mettler Toledo / SevenExcellenceTM" ],
+  "id" : "1940",
+  "image" : "http://lklab.com/product_image/S-6350.jpg",
+  "specification" : [ {
+    "content" : "Ph Meter Multi-Function Meter Only",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "S400",
+    "number" : "P02-162-220"
+  }, {
+    "content" : "Ph Meter Multi-Function standard kit /w InLab ® Expert Pro-ISM, S400-K",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "S400-Kit",
+    "number" : "P02-162-226"
+  }, {
+    "content" : "Ph Meter Multi-Function biotechnology kit /w InLab ® Routine Pro-ISM cable kit",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "S400-Bio",
+    "number" : "P02-162-230"
+  }, {
+    "content" : "Ph Meter Multi-Function meter only",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "S500",
+    "number" : "P02-162-252"
+  }, {
+    "content" : "Ph Meter Multi-Function standard kit with Inlab ® Expert Pro-ISM",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "S500-Kit",
+    "number" : "P02-162-256"
+  }, {
+    "content" : "Ph Meter Multi-Function biotechnology kit with InLab ® Routine Pro-ISM cable kit",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "S500-Bio",
+    "number" : "P02-162-260"
+  }, {
+    "content" : "Ph Meter Multi-Function Fluoride kit with perfectION™ Fluoride",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "S500-F",
+    "number" : "P02-162-264"
+  }, {
+    "content" : "Ph Meter Multi-Function meter only",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "S470",
+    "number" : "P02-162-271"
+  }, {
+    "content" : "Ph Meter Multi-Function standard kit with InLab ® Expert Pro-ISM and InLab ® 731-ISM",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "S470-Kit",
+    "number" : "P02-162-275"
+  }, {
+    "content" : "Ph Meter Multi-Function USP/EP kit with InLab ® Pure Pro-ISM, MultiPin™ Cable and InLab ® 741-ISM",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "S470-USP/EP",
+    "number" : "P02-162-279"
+  }, {
+    "content" : "pH/mV, pH/Ion Meter Conductivity meter only",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "S475",
+    "number" : "P02-162-299"
+  }, {
+    "content" : "(정오) PH Electrode (ISM Sensor) premium 4-in-1 Peek Shaft",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "InLab® Expert Go-ISM",
+    "number" : "P02-162-502"
+  }, {
+    "content" : "InLab® Routine Pro-ISM General Purpose 3-in-1 Glass Shaft",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "51344055",
+    "number" : "P02-162-523"
+  }, {
+    "content" : "Conductivity Cell InLab731-ISM",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "30014092",
+    "number" : "C19-162-522"
+  }, {
+    "content" : "Conductivity Cell InLab741-ISM",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "30014094",
+    "number" : "C19-162-542"
+  }, {
+    "content" : "Ion-selective Electrode combined Silver/Sulfide electrode with BNC connector",
+    "id" : "16",
+    "isSelected" : false,
+    "model" : "51344700",
+    "number" : "P02-162-703"
+  }, {
+    "content" : "Ion-selective Electrode combined Calcium electrode with BNC connector",
+    "id" : "17",
+    "isSelected" : false,
+    "model" : "51344703",
+    "number" : "P02-162-707"
+  }, {
+    "content" : "Ion-selective Electrode combined Chloride electrode with BNC connector",
+    "id" : "18",
+    "isSelected" : false,
+    "model" : "51344706",
+    "number" : "P02-162-711"
+  }, {
+    "content" : "Ion-selective Electrode combined Cyanide electrode with BNC connector",
+    "id" : "19",
+    "isSelected" : false,
+    "model" : "51344709",
+    "number" : "P02-162-715"
+  }, {
+    "content" : "Ion-selective Electrode combined Cupric electrode with BNC connector",
+    "id" : "20",
+    "isSelected" : false,
+    "model" : "51344712",
+    "number" : "P02-162-719"
+  }, {
+    "content" : "Ion-selective Electrode combined Fluoride electrode with BNC connector",
+    "id" : "21",
+    "isSelected" : false,
+    "model" : "51344715",
+    "number" : "P02-162-723"
+  }, {
+    "content" : "Ion-selective Electrode combined Iodide electrode with BNC connector",
+    "id" : "22",
+    "isSelected" : false,
+    "model" : "51344718",
+    "number" : "P02-162-727"
+  }, {
+    "content" : "Ion-selective Electrode combined Potassium electrode with BNC connector",
+    "id" : "23",
+    "isSelected" : false,
+    "model" : "51344721",
+    "number" : "P02-162-731"
+  }, {
+    "content" : "Ion-selective Electrode combined Natrium electrode with S7 head",
+    "id" : "24",
+    "isSelected" : false,
+    "model" : "51344724",
+    "number" : "P02-162-735"
+  }, {
+    "content" : "Ion-selective Electrode combined Nitrate electrod with BNC connector",
+    "id" : "25",
+    "isSelected" : false,
+    "model" : "51344727",
+    "number" : "P02-162-739"
+  }, {
+    "content" : "Ion-selective Electrode combined Lead electrode with BNC connector",
+    "id" : "26",
+    "isSelected" : false,
+    "model" : "51344730",
+    "number" : "P02-162-743"
+  }, {
+    "content" : "expansion unit pH/mV",
+    "id" : "27",
+    "isSelected" : false,
+    "model" : "30034472",
+    "number" : "C19-162-850"
+  }, {
+    "content" : "expansion unit conductivity",
+    "id" : "28",
+    "isSelected" : false,
+    "model" : "30034473",
+    "number" : "C19-162-860"
+  }, {
+    "content" : "expansion unit pH/Ion",
+    "id" : "29",
+    "isSelected" : false,
+    "model" : "30034471",
+    "number" : "C19-162-870"
+  }, {
+    "content" : "expansion unit blank",
+    "id" : "30",
+    "isSelected" : false,
+    "model" : "30034475",
+    "number" : "C19-162-880"
+  }, {
+    "content" : "Power adapter with plugs 12V / 10W (included in standard delivery)",
+    "id" : "31",
+    "isSelected" : false,
+    "model" : "11120270",
+    "number" : "C19-162-902"
+  }, {
+    "content" : "Rondolino pH with Rondolino USB-TTL Kit compact stirrer and sample beakers",
+    "id" : "32",
+    "isSelected" : false,
+    "model" : "51302888",
+    "number" : "C19-162-914"
+  }, {
+    "content" : "Gryphon GD4100 Barcode Scanner",
+    "id" : "33",
+    "isSelected" : false,
+    "model" : "21901297",
+    "number" : "C19-162-918"
+  }, {
+    "content" : "USB cable for barcode reader",
+    "id" : "34",
+    "isSelected" : false,
+    "model" : "21901309",
+    "number" : "C19-162-922"
+  }, {
+    "content" : "USB Transfer Cable EasyDirect PC Software",
+    "id" : "35",
+    "isSelected" : false,
+    "model" : "51191926",
+    "number" : "C19-162-926"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none\">Multi-Function pH Meter, Module-Type / 정밀형 pH 미터, 다용도 모듈형, Seven MultiTM               </caption><thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"181\" scope=\"row\">Model</th>                 <th width=\"202\" scope=\"row\">Parameter</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">전극</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-220</td>                  <td scope=\"row\">S400</td>                  <td rowspan=\"3\" scope=\"row\">pH/ mV/ ℃</td>                  <td class=\"tdfin\" scope=\"row\">X (포함 안됨)</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-226</td>                  <td scope=\"row\">S400-Kit</td>                  <td class=\"tdfin\" scope=\"row\">Expert Pro-ISM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-230</td>                  <td scope=\"row\">S400-Bio</td>                  <td class=\"tdfin\" scope=\"row\">Routine Pro-ISM</td>                </tr>                               <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-252</td>                  <td scope=\"row\">S500</td>                  <td rowspan=\"4\" scope=\"row\">pH/ mV/ Ion/ ℃</td>                  <td class=\"tdfin\" scope=\"row\">X (포함 안됨)</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-256</td>                  <td scope=\"row\">S500-Kit</td>                  <td class=\"tdfin\" scope=\"row\">Expert Pro-ISM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-260</td>                  <td scope=\"row\">S500-Bio</td>                  <td class=\"tdfin\" scope=\"row\">Routine Pro-ISM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-264</td>                  <td scope=\"row\">S500-F</td>                  <td class=\"tdfin\" scope=\"row\">PerfectION Fluoride</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-271</td>                  <td scope=\"row\">S470</td>                  <td rowspan=\"3\" scope=\"row\">pH/ mV/ Conductivity/ ℃</td>                  <td class=\"tdfin\" scope=\"row\">X (포함 안됨)</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-275</td>                  <td scope=\"row\">S470-Kit</td>                  <td class=\"tdfin\" scope=\"row\">Expert Pro-ISM, 731</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-279</td>                  <td scope=\"row\">S470-USP/EP</td>                  <td class=\"tdfin\" scope=\"row\">Routine Pro-ISM, 741</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-299</td>                  <td class=\"trfin\" scope=\"row\">S475</td>                  <td class=\"trfin\" scope=\"row\">pH/ mV/ Ion/ Conductivity/ ℃</td>                  <td class=\"trfin2\" scope=\"row\">X (포함 안됨)</td>                </tr>              </tbody></table>     구성 Component<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"194\" scope=\"col\">Model</th>    <th class=\"tdfin\" scope=\"col\">Components</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">S400</td>    <td class=\"tdfin\" scope=\"col\"><p> </p>      <p>Instrument, pH/mV Module, 2 Blank Module Electrode Holder,</p>      <p>Cover, 메뉴얼, Quick Guide, PC Software, Test Certificate</p>      <p> </p></td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S400-Kit</td>    <td class=\"tdfin\" scope=\"col\">S400 구성품, InLab Expert Pro-ISM 2 Buffer Sachets for pH 4.01, 7.00, 9.21 and 10.00</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S400-Bio</td>    <td class=\"tdfin\" scope=\"col\">S400-Kit 구성품, 단 전극은 InLab Routine Pro-ISM</td>  </tr>  <tr>    <td height=\"36\" class=\"trfinth4\" scope=\"col\">S400-ISFET</td>    <td class=\"tdfin\" scope=\"col\">S400-Kit 구성품, 단 전극은 InLab 490</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S500</td>    <td class=\"tdfin\" scope=\"col\"><p> </p>      <p>Instrument, pH/Ion Module, 2 Blank Module Electrode Holder,</p>      <p>Cover, 메뉴얼, Quick Guide, PC Software, Test Certificate</p>      <p> </p></td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S500-Kit</td>    <td class=\"tdfin\" scope=\"col\">S500 구성품, InLab Expert Pro-ISM 2 Buffer Sachets for pH 4.01, 7.00, 9.21 and 10.00</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S500-Bio</td>    <td class=\"tdfin\" scope=\"col\">S500-Kit 구성품, 단 전극은 InLab Routine Pro-ISM</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S500-F</td>    <td class=\"tdfin\" scope=\"col\">S500-Kit 구성품, 단 전극은 Perfect Ion Fluoride</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S470</td>    <td class=\"tdfin\" scope=\"col\">S400 구성품, 단 Blank Module 대신 Conductivity Module</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S470-Kit</td>    <td class=\"tdfin\" scope=\"col\">S470 구성품, InLab Expert Pro-ISM, InLa 731-ISM 2 Buffer Sachets for pH 4.01, 7.00, 9.21 and 10.00</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">S470-USP/EP</td>    <td class=\"tdfin\" scope=\"col\">S470-Kit 구성품, 단 전극은 InLab Pure Pro-ISM, InLab 741-ISM</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">S475</td>    <td class=\"trfin2\" scope=\"col\">S400 구성품, Blank Module 대신 Conductivity Module &amp; pH/Ion Module</td>  </tr></tbody></table> S400, Muti-function pH Meter               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"199\">구분</th>                 <th width=\"181\" scope=\"row\">Measuring Range</th>                 <th width=\"202\" scope=\"row\">Resolution</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Accuracy</th>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"row\">pH</th>                  <td scope=\"row\">-2.000 ~ 20.000</td>                  <td scope=\"row\">0.001, 0.01, 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.002</td>                </tr>                <tr>                  <th scope=\"row\">mV (rel. mV)</th>                  <td scope=\"row\">-2000.0 ~ 2000.0</td>                  <td scope=\"row\">0.1, 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.1</td>                </tr>                <tr>                  <th scope=\"row\">Temperature</th>                  <td scope=\"row\">-30 ~ 130℃</td>                  <td scope=\"row\">0.1℃</td>                  <td class=\"tdfin\" scope=\"row\">±0.1℃</td>                </tr>                <tr>                  <th scope=\"row\">Ion</th>                  <td scope=\"row\">-</td>                  <td scope=\"row\">-</td>                  <td class=\"tdfin\" scope=\"row\">-</td>                </tr>                <tr>                  <th scope=\"row\">Connector</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">pH (BNC), Temp (Cinch/RCA(NTC 30㏀)), Stirrer(Mini-DIN)</td>                </tr>                <tr>                  <th scope=\"row\">Interface</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">Interface (RS232, USB-A, USB-B, LAN)</td>                </tr>                <tr>                  <th scope=\"row\">Power</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">DC 12V-10W</td>                </tr>                <tr>                  <th scope=\"row\" class=\"trfin\">Size</th>                  <td colspan=\"3\" class=\"trfin2\" scope=\"row\">w235×d188×h75 mm, 1120 g</td>                </tr>              </tbody></table>   S500, Muti-function pH Meter               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"199\">구분</th>                 <th width=\"181\" scope=\"row\">Measuring Range</th>                 <th width=\"202\" scope=\"row\">Resolution</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Accuracy</th>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"row\">pH</th>                  <td scope=\"row\">-2.000 ~ 20.000</td>                  <td scope=\"row\">0.001, 0.01, 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.002</td>                </tr>                <tr>                  <th scope=\"row\">mV (rel. mV)</th>                  <td scope=\"row\">-2000.0 ~ 2000.0</td>                  <td scope=\"row\">0.1, 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.1</td>                </tr>                <tr>                  <th scope=\"row\">Temperature</th>                  <td scope=\"row\">-30 ~ 130℃</td>                  <td scope=\"row\">0.1℃</td>                  <td class=\"tdfin\" scope=\"row\">±0.1℃</td>                </tr>                <tr>                  <th scope=\"row\">Ion</th>                  <td scope=\"row\">0 ~ 999999 mg/L</td>                  <td scope=\"row\">0.001 ~ 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Connector</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">pH (BNC), Temp (Cinch/RCA(NTC 30㏀)), Stirrer(Mini-DIN)</td>                </tr>                <tr>                  <th scope=\"row\">Interface</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">Interface (RS232, USB-A, USB-B, LAN)</td>                </tr>                <tr>                  <th scope=\"row\">Power</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">DC 12V-10W</td>                </tr>                <tr>                  <th scope=\"row\" class=\"trfin\">Size</th>                  <td colspan=\"3\" class=\"trfin2\" scope=\"row\">w235×d188×h75 mm, 1120 g</td>                </tr>              </tbody></table>   S470, pH &amp; Conductivity Meter               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"199\">구분</th>                 <th width=\"181\" scope=\"row\">Measuring Range</th>                 <th width=\"202\" scope=\"row\">Resolution</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Accuracy</th>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"row\">pH</th>                  <td scope=\"row\">-2.000 ~ 20.000</td>                  <td scope=\"row\">0.001, 0.01, 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.002</td>                </tr>                <tr>                  <th scope=\"row\">mV (rel. mV)</th>                  <td scope=\"row\">-2000.0 ~ 2000.0</td>                  <td scope=\"row\">0.1, 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.1</td>                </tr>                <tr>                  <th scope=\"row\">Temperature</th>                  <td scope=\"row\">-30 ~ 130℃</td>                  <td scope=\"row\">0.1℃</td>                  <td class=\"tdfin\" scope=\"row\">±0.1℃</td>                </tr>                <tr>                  <th scope=\"row\">Ion</th>                  <td scope=\"row\">-</td>                  <td scope=\"row\">-</td>                  <td class=\"tdfin\" scope=\"row\">-</td>                </tr>                <tr>                  <th scope=\"row\">Conductivity</th>                  <td scope=\"row\">0.001 uS/cm ~ 2000 mS/cm</td>                  <td scope=\"row\">0.001 ~ 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">TDS</th>                  <td scope=\"row\">0.001 ~ 1000 g/L</td>                  <td scope=\"row\">0.001 ~ 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Resistivity</th>                  <td scope=\"row\">0.01 ~ 100.0 ㏀ • cm</td>                  <td scope=\"row\">0.01 ~ 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Salinity</th>                  <td scope=\"row\">0.01 ~ 80.0 psu</td>                  <td scope=\"row\">0.01 ~ 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Connector</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">Conductivity (Mini-DIN), Temp Seasor (Cinch/RCA(NTC 30㏀)), Stirrer(Mini-DIN)</td>                </tr>                <tr>                  <th scope=\"row\">Interface</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">Interface (RS232, USB-A, USB-B, LAN)</td>                </tr>                <tr>                  <th scope=\"row\">Power</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">DC 12V-10W</td>                </tr>                <tr>                  <th scope=\"row\" class=\"trfin\">Size</th>                  <td colspan=\"3\" class=\"trfin2\" scope=\"row\">w235×d188×h75 mm, 1120 g</td>                </tr>              </tbody></table>   S475, Muti-function pH Meter               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"199\">구분</th>                 <th width=\"181\" scope=\"row\">Measuring Range</th>                 <th width=\"202\" scope=\"row\">Resolution</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Accuracy</th>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"row\">pH</th>                  <td scope=\"row\">-2.000 ~ 20.000</td>                  <td scope=\"row\">0.001, 0.01, 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.002</td>                </tr>                <tr>                  <th scope=\"row\">mV (rel. mV)</th>                  <td scope=\"row\">-2000.0 ~ 2000.0</td>                  <td scope=\"row\">0.1, 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.1</td>                </tr>                <tr>                  <th scope=\"row\">Temperature</th>                  <td scope=\"row\">-30 ~ 130℃</td>                  <td scope=\"row\">0.1℃</td>                  <td class=\"tdfin\" scope=\"row\">±0.1℃</td>                </tr>                <tr>                  <th scope=\"row\">Ion</th>                  <td scope=\"row\">-</td>                  <td scope=\"row\">-</td>                  <td class=\"tdfin\" scope=\"row\">-</td>                </tr>                <tr>                  <th scope=\"row\">Conductivity</th>                  <td scope=\"row\">0.001 uS/cm ~ 2000 mS/cm</td>                  <td scope=\"row\">0.001 ~ 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">TDS</th>                  <td scope=\"row\">0.001 ~ 1000 g/L</td>                  <td scope=\"row\">0.001 ~ 1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Resistivity</th>                  <td scope=\"row\">0.01 ~ 100.0 ㏀ • cm</td>                  <td scope=\"row\">0.01 ~ 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Salinity</th>                  <td scope=\"row\">0.01 ~ 80.0 psu</td>                  <td scope=\"row\">0.01 ~ 0.1</td>                  <td class=\"tdfin\" scope=\"row\">±0.5%</td>                </tr>                <tr>                  <th scope=\"row\">Connector</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">pH (BNC), Temp (Cinch/RCA(NTC 30㏀)), Stirrer(Mini-DIN)</td>                </tr>                <tr>                  <th scope=\"row\">Interface</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">Interface (RS232, USB-A, USB-B, LAN)</td>                </tr>                <tr>                  <th scope=\"row\">Power</th>                  <td colspan=\"3\" scope=\"row\" class=\"tdfin\">DC 12V-10W</td>                </tr>                <tr>                  <th scope=\"row\" class=\"trfin\">Size</th>                  <td colspan=\"3\" class=\"trfin2\" scope=\"row\">w235×d188×h75 mm, 1120 g</td>                </tr>              </tbody></table>  Optional Electrode for pH               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Shaft</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-502</td>                  <td scope=\"row\">InLab Expert Pro-ISM ①</td>                  <td scope=\"row\">Peek</td>                  <td class=\"tdfin\" scope=\"row\">Premium, 4-in-1</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-523</td>                  <td scope=\"row\" class=\"trfin\">InLab Routine Pro-ISM ②</td>                  <td scope=\"row\" class=\"trfin\">Glass</td>                  <td class=\"trfin2\" scope=\"row\">General Purpose, 4-in-1</td>                </tr>                 </tbody></table>    Optional Electrode for Conductivity               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"206\" scope=\"row\">Model</th>                 <th width=\"177\" scope=\"row\">Shaft</th>                 <th width=\"216\" scope=\"row\" class=\"tdfin\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">C19-162-522</td>                  <td scope=\"row\">InLab 731 ③</td>                  <td scope=\"row\">Epoxy</td>                  <td class=\"tdfin\" scope=\"row\">4 Graphite Pole</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">C19-162-542</td>                  <td class=\"trfin\" scope=\"row\">InLab 741 ④</td>                  <td class=\"trfin\" scope=\"row\">Steel</td>                  <td class=\"trfin2\" scope=\"row\">2 Steel Pole</td>                </tr>              </tbody></table>    Ion Selective Electrodes, Perfect Ion™ <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"195\" scope=\"col\">Cat. No.</th>    <th width=\"164\" scope=\"row\">Model</th>    <th width=\"439\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-703</td>     <td scope=\"row\">51344700</td>      <td class=\"tdfin\" scope=\"row\">Combined Silver/Sulfide Electrode</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-707</td>     <td scope=\"row\">51344703</td>      <td class=\"tdfin\" scope=\"row\">Combined Calcium Electrode</td>  </tr>  <tr>    <td height=\"36\" class=\"trfinth4\" scope=\"col\">P02-162-711</td>     <td scope=\"row\">51344706</td>      <td class=\"tdfin\" scope=\"row\">Combined Chloride Electrode</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-715</td>     <td scope=\"row\">51344709</td>      <td class=\"tdfin\" scope=\"row\">Combined Cyanide Electrode</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-719</td>     <td scope=\"row\">51344712</td>      <td class=\"tdfin\" scope=\"row\">Combined Cupric Electrode</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-723</td>     <td scope=\"row\">51344715</td>      <td class=\"tdfin\" scope=\"row\">Combined Fluoride Electrode</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-727</td>     <td scope=\"row\">51344718</td>      <td class=\"tdfin\" scope=\"row\">Combined Iodide Electrode</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-731</td>     <td scope=\"row\">51344721</td>      <td class=\"tdfin\" scope=\"row\">Combined Potassium Electrode</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-735</td>     <td scope=\"row\">51344724</td>      <td class=\"tdfin\" scope=\"row\">Combined Natrium Electrode / w S7 head</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-739</td>     <td scope=\"row\">51344727</td>      <td class=\"tdfin\" scope=\"row\">Combined Nitrate Electrode</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-743</td>     <td scope=\"row\" class=\"trfin\">51344730</td>      <td class=\"trfin2\" scope=\"row\">Combined Lead Electrode</td>  </tr></tbody></table> <ul style=\"list-style:none; display:block;  float:left; margin:15px 0 25px;  width:800px;\">  <li style=\"font-size: 12px; color: #666; line-height: 18px;\">● BNC Connector, 1.2 m Cable</li></ul>      Upgrade Expansion Unit  ⑤ <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"195\" scope=\"col\">Cat. No.</th>    <th width=\"164\" scope=\"row\">Model</th>    <th width=\"439\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">C19-162-850</td>    <td scope=\"row\">30034472</td>    <td class=\"tdfin\" scope=\"row\">PH/MV Expansion Unit</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">C19-162-860</td>     <td scope=\"row\">30034473</td>      <td class=\"tdfin\" scope=\"row\">Conductivity Expansion Unit</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">C19-162-870</td>     <td scope=\"row\">30034471</td>      <td class=\"tdfin\" scope=\"row\">PH/Ion Expansion Unit</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">C19-162-880</td>     <td scope=\"row\" class=\"trfin\">30034475</td>      <td class=\"trfin2\" scope=\"row\">Blank Expansion Unit</td>  </tr></tbody></table>     Optional Accessory <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"195\" scope=\"col\">Cat. No.</th>    <th width=\"164\" scope=\"row\">Model</th>    <th width=\"439\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">C19-162-902</td>    <td scope=\"row\">11120270</td>    <td class=\"tdfin\" scope=\"row\">Power adapter / w Plugs 12V / 10W</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">C19-162-914</td>    <td scope=\"row\">51302888</td>    <td class=\"tdfin\" scope=\"row\">Rondolino Sample Changer</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">C19-162-918</td>     <td scope=\"row\">21901297</td>      <td class=\"tdfin\" scope=\"row\">Barcode Reader</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">C19-162-922</td>     <td scope=\"row\">21901309</td>      <td class=\"tdfin\" scope=\"row\">USB Cable for Barcode Reader</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">C19-162-926</td>     <td scope=\"row\" class=\"trfin\">51191926</td>      <td class=\"trfin2\" scope=\"row\">USB A-B Cable for LabX↔PC Software</td>  </tr></tbody></table>" ],
+  "title" : "Multi-Function pH Meter, Module-Type (정밀형 pH 미터, 다용도 모듈형, Seven Multi™)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "● InLab Export Pro ISM-IP67 : Peek 재질의 Plastic 전극", "● 넓은 측정 범위와 정확한 측정값", "● 설명서가 불필요한 쉬운 작동법", "● ISM 모델: 센서가 기기에 연결이 되면 자동으로 센서 ID, 일련번호, 마지막 교정 데이터를 저장함.", "● IP67 등급 : 견고한 방수 하우징", "● USB Interface를 이용한 Data 전송 (S8 Meter)", "● Mettler Toledo" ],
+  "id" : "1941",
+  "image" : "http://lklab.com/product_image/S-11537.jpg",
+  "specification" : [ {
+    "content" : "pH Meter Portable InLab Expert Pro-ISM-IP67",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "S2-Standard Kit",
+    "number" : "P08-162-121"
+  }, {
+    "content" : "pH Meter Portable InLab Expert Pro-ISM-IP67",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "S2-Field Kit",
+    "number" : "P08-162-125"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th scope=\"row\">Model</th>                 <th scope=\"row\">Description</th>                 <th scope=\"row\" class=\"tdfin\">전극</th>                </tr>              </thead>              <tbody>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P08-162-121 </td>                  <td scope=\"row\">S2-Standard Kit</td>                  <td scope=\"row\">General</td>                  <td rowspan=\"2\" class=\"trfin2\" scope=\"row\">InLab Expert Pro-ISM-IP67</td>                </tr>                <tr>                  <td class=\"trfinth\" scope=\"row\">P08-162-125 </td>                  <td class=\"trfin\" scope=\"row\">S2-Field Kit</td>                  <td class=\"trfin\" scope=\"row\">현장 측정용</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th colspan=\"2\" scope=\"col\">Model</th>                 <td class=\"trfinth3\" scope=\"col\">S2</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">pH</th>                  <th scope=\"col\">Range</th>                  <td class=\"tdfin\" scope=\"col\">-20 ~ 20 pH</td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">0.01 / 0.1 pH</td>                </tr>                <tr>                  <th scope=\"col\">Accuracy</th>                  <td class=\"tdfin\" scope=\"col\">±0.01 pH</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">mV</th>                  <th scope=\"col\">Range</th>                  <td class=\"tdfin\" scope=\"col\">-1999 ~ 1999 mV</td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">1 mV</td>                </tr>                <tr>                  <th scope=\"col\">Accuracy</th>                  <td class=\"tdfin\" scope=\"col\">±1 mV</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">Temperature</th>                  <th scope=\"col\">Range</th>                  <td class=\"tdfin\" scope=\"col\">-5 ~ 105℃</td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">0.1℃</td>                </tr>                <tr>                  <th scope=\"col\">Accuracy</th>                  <td class=\"tdfin\" scope=\"col\">±0.5℃</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">Calibration</th>                  <th scope=\"col\">Calibration Point</th>                  <td class=\"tdfin\" scope=\"col\">5</td>                </tr>                <tr>                  <th scope=\"col\">Buffer Group</th>                  <td class=\"tdfin\" scope=\"col\">4</td>                </tr>                <tr>                  <th scope=\"col\">자동 Buffer 인식</th>                  <td class=\"tdfin\" scope=\"col\">Yes</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">측정 Data 저장</th>                  <td class=\"tdfin\" scope=\"col\">200</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Sensor Input</th>                  <td class=\"tdfin\" scope=\"col\">BNC (1012Ω) / RCA (Cinch)</td>                </tr>              </thead>              <tbody>                <tr>                  <th colspan=\"2\" class=\"trfinth2\" scope=\"col\">interface</th>                  <td class=\"trfin2\" scope=\"col\">No</td>                </tr>              </tbody></table>" ],
+  "title" : "Portable pH Meter (휴대용 pH 미터, Seven2Go™)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ 기타 자세한 내용은 S2 pH Meter 참조", "■ Mettler Toledo" ],
+  "id" : "1942",
+  "image" : "http://lklab.com/product_image/S-11717.jpg",
+  "specification" : [ {
+    "content" : "pH Meter Portable InLab Expert Pro-ISM-IP67",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "S8-Standard Kit",
+    "number" : "P08-162-129"
+  }, {
+    "content" : "pH Meter Portable InLab Expert Pro-ISM-IP67",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "S8-Field Kit",
+    "number" : "P08-162-134"
+  }, {
+    "content" : "(정오) pH Meter Portable InLab Routine Pro ISM",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "S8-Biotech Kit",
+    "number" : "P08-162-137"
+  }, {
+    "content" : "InLab® Expert Pro-ISM",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "30014096",
+    "number" : "P02-162-501"
+  }, {
+    "content" : "InLab® Routine Pro-ISM General Purpose 3-in-1 Glass Shaft",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "51344055",
+    "number" : "P02-162-523"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th scope=\"row\">Model</th>                 <th scope=\"row\">Description</th>                 <th scope=\"row\" class=\"tdfin\">전극</th>                </tr>              </thead>              <tbody>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P08-162-129</td>                  <td scope=\"row\">S8-Standard Kit</td>                  <td scope=\"row\">General</td>                  <td rowspan=\"2\" class=\"tdfin\" scope=\"row\">InLab Expert Pro-ISM-IP67</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P08-162-134</td>                  <td scope=\"row\">S8-Field Kit</td>                  <td scope=\"row\">현장 측정용</td>                </tr>                <tr>                  <td class=\"trfinth\" scope=\"row\">P08-162-137</td>                  <td class=\"trfin\" scope=\"row\">S8-Biotech Kit</td>                  <td class=\"trfin\" scope=\"row\">Bio</td>                  <td class=\"trfin2\" scope=\"row\">InLab Routine Pro ISM<br>                  (BNC Cable 포함)</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th colspan=\"2\" scope=\"col\">Model</th>                 <td class=\"trfinth3\" scope=\"col\">S8</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">pH</th>                  <th scope=\"col\">Range</th>                  <td class=\"tdfin\" scope=\"col\">-20 ~ 20 pH</td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">0.001 / 0.01 / 0.1 pH</td>                </tr>                <tr>                  <th scope=\"col\">Accuracy</th>                  <td class=\"tdfin\" scope=\"col\">±0.002 pH</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">mV</th>                  <th scope=\"col\">Range</th>                  <td class=\"tdfin\" scope=\"col\">-2000 ~ 2000 mV</td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">0.1 / 1 mV</td>                </tr>                <tr>                  <th scope=\"col\">Accuracy</th>                  <td class=\"tdfin\" scope=\"col\">±0.1 mV</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">Ion</th>                  <th scope=\"col\">Range</th>                  <td class=\"tdfin\" scope=\"col\">1.0<sup>-9</sup> ~ 9.99×1.0<sup>9</sup></td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">3 or 4 Digits (Auto-range)</td>                </tr>                <tr>                  <th scope=\"col\">Accuracy</th>                  <td class=\"tdfin\" scope=\"col\">±0.5 %</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">Temperature</th>                  <th scope=\"col\">Range</th>                  <td class=\"tdfin\" scope=\"col\">-5 ~ 130℃ (ATC) / -30 ~ 130℃ (MTC)</td>                </tr>                <tr>                  <th scope=\"col\">Resolution</th>                  <td class=\"tdfin\" scope=\"col\">0.1℃</td>                </tr>                <tr>                  <th scope=\"col\">Accuracy</th>                  <td class=\"tdfin\" scope=\"col\">±0.2℃ if T=0 ~ 150℃<br>                  ±0.5℃ if T&lt;0℃ or T&gt;105℃</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"col\">Calibration</th>                  <th scope=\"col\">Calibration Point</th>                  <td class=\"tdfin\" scope=\"col\">5</td>                </tr>                <tr>                  <th scope=\"col\">Buffer Group</th>                  <td class=\"tdfin\" scope=\"col\">8</td>                </tr>                <tr>                  <th scope=\"col\">자동 Buffer 인식</th>                  <td class=\"tdfin\" scope=\"col\">Yes</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">측정 Data 저장</th>                  <td class=\"tdfin\" scope=\"col\">200 (GLP Conform)</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Sensor Input</th>                  <td class=\"tdfin\" scope=\"col\">BNC (1012Ω) / RCA (Cinch) / 2 mm Banana</td>                </tr>              </thead>              <tbody>                <tr>                  <th colspan=\"2\" class=\"trfinth2\" scope=\"col\">interface</th>                  <td class=\"trfin2\" scope=\"col\">Micro-USB (USB Device)</td>                </tr>              </tbody></table>Optional Accessory              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th scope=\"row\">Model</th>                 <th scope=\"row\" class=\"tdfin\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P02-162-501</td>                  <td scope=\"row\">30014096</td>                  <td class=\"tdfin\" scope=\"row\">InLab® Expert Pro-ISM</td>                </tr>                                <tr>                  <td class=\"trfinth\" scope=\"row\">P02-162-523</td>                  <td class=\"trfin\" scope=\"row\">51344055</td>                  <td class=\"trfin2\" scope=\"row\">InLab® Routine Pro-ISM</td>                </tr>              </tbody></table>" ],
+  "title" : "Portable pH / Ion Meter (휴대용 pH / 이온 미터, Seven2Go™)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ 최상의 요구를 만족하는 pH/ 이온/ 용존산소 미터 (IP67)", "■ 7개의 미리 설정된 보정점 중에서 5점 pH보정 또는 사용자가 정한 보정점에서 보정", "■ 500개의 GLP 데이터 저장 (날짜 / 시간, 센서ID, SN, 사용자 및 샘플 ID)", "■ 적외선 통신", "■ Intelligent Sensor Management (ISM®)", "■ Mettler Toledo" ],
+  "id" : "1943",
+  "image" : "http://lklab.com/product_image/S-7825.jpg",
+  "specification" : [ {
+    "content" : "Portable Multi-Meter Meter only(전극 포함 안됨)",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "SG68-B",
+    "number" : "P02-162-250"
+  }, {
+    "content" : "Portable Multi-Meter with InLab Expert Pro-ISM and InLab 605-ISM",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "SG68-ELK",
+    "number" : "P02-162-254"
+  }, {
+    "content" : "Portable Multi-Meter Field Kit with InLab Expert Pro-ISM and InLab 605-ISM",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "SG68-FK2",
+    "number" : "P02-162-258"
+  }, {
+    "content" : "Portable Multi-Meter Field Kit with Inlab Expert Pro-ISM-5m and InLab 605-ISM-5m",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "SG68-FK5",
+    "number" : "P02-162-262"
+  }, {
+    "content" : "Portable Multi-Meter Meter only(전극 포함 안됨)",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "SG78-B",
+    "number" : "P02-162-282"
+  }, {
+    "content" : "Portable Multi-Meter with InLab Expert Pro-ISM and InLab 738-ISM",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "SG78-ELK",
+    "number" : "P02-162-286"
+  }, {
+    "content" : "Portable Multi-Meter Field Kit with InLab Expert Pro-ISM and InLab 738-ISM",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "SG78-FK2",
+    "number" : "P02-162-290"
+  }, {
+    "content" : "Portable Multi-Meter Field Kit with InLab Expert Pro-ISM and InLab 742-ISM",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "SG78-USP/EP",
+    "number" : "P02-162-294"
+  }, {
+    "content" : "Infraed-UBS adapter for SG68 & SG78",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "51302332",
+    "number" : "P02-162-411"
+  }, {
+    "content" : "Infraed-RS232 adapter for SG68 & SG78",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "51302333",
+    "number" : "P02-162-415"
+  }, {
+    "content" : "Clip",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "51302325",
+    "number" : "P02-162-455"
+  }, {
+    "content" : "2-electrode Clip",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "51302319",
+    "number" : "P02-162-459"
+  } ],
+  "tableItems" : [ "pH/이온 / 용존 산소 미터, SG68 <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"400\" scope=\"row\" class=\"tdfin\">Standard Equipment</th>                                 </tr>              </thead>              <tbody>                           <tr>                <td class=\"trfinth4\" scope=\"row\">P02-162-250</td>                <td scope=\"row\">SG68-B</td>                <td class=\"tdfin\" scope=\"row\">Measuring Instrument</td>                </tr>              <tr>                <td class=\"trfinth4\" scope=\"row\">P02-162-254</td>                <td scope=\"row\">SG68-ELK</td>                <td class=\"tdfin\" scope=\"row\">Electrode kit Inlab Expert Pro-ISM,<br>                Inlab 605-ISM(both IP67, 1.8m cable)</td>              </tr>              <tr>                <td class=\"trfinth4\" scope=\"row\">P02-162-258</td>                <td scope=\"row\">SG68-FK2</td>                <td class=\"tdfin\" scope=\"row\">Electrode kit Inlab Expert Pro-ISM,<br>                Inlab 605-ISM(both IP67, 1.8m cable)</td>              </tr>             <tr>                <td class=\"trfinth\" scope=\"row\">P02-162-262</td>                <td class=\"trfin\" scope=\"row\">SG68-FK5</td>                <td class=\"trfin2\" scope=\"row\">Field kit with Inlab Expert Pro-ISM-5m,<br>                Inlab 605-ISM-5m(both IP67, 5m cable)</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;\">● pH, mV, Conductivity, 이온 농도, DO를 측정할 수 있는 휴대용 2 채널 미터  </li></ul>pH/이온 / 전도도 미터, SG78 <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"400\" scope=\"row\" class=\"tdfin\">Standard Equipment</th>                                 </tr>              </thead>              <tbody>                           <tr>                <td class=\"trfinth4\" scope=\"row\">P02-162-282</td>                <td scope=\"row\">SG78-B</td>                <td class=\"tdfin\" scope=\"row\">Measuring Instrument</td>                </tr>              <tr>                <td class=\"trfinth4\" scope=\"row\">P02-162-286</td>                <td scope=\"row\">SG78-ELK</td>                <td class=\"tdfin\" scope=\"row\">Electrode kit Inlab Expert Pro-ISM,<br>                Inlab 738-ISM(both IP67, 1.8m cable)</td>              </tr>              <tr>                <td class=\"trfinth4\" scope=\"row\">P02-162-290</td>                <td scope=\"row\">SG78-FK2</td>                <td class=\"tdfin\" scope=\"row\">Field kit with Inlab Expert Pro-ISM,<br>                Inlab 738-ISM(both IP 67, 1.8m cable)</td>              </tr>             <tr>                <td class=\"trfinth\" scope=\"row\">P02-162-294</td>                <td class=\"trfin\" scope=\"row\">SG78-USP/EP</td>                <td class=\"trfin2\" scope=\"row\">Field kit with Inlab Expert Pro-ISM,<br>                Inlab 738-ISM(both IP 67, 1.8m cable)</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;\">● pH, mV, Conductivity, 이온 농도, 전도도 TDS (Total Dissolved Solids),염도 및 저항을 측정할 수 있는 휴대용 2 채널 미터  </li></ul>Specification       <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>         <tr>           <th height=\"200\" colspan=\"2\" scope=\"col\">Model</th>           <td width=\"300\" class=\"trfinth4\" scope=\"col\">SG68</td>           <td width=\"300\" class=\"trfinth3\" scope=\"col\">SG78</td>         </tr>  </thead>       <tbody>         <tr>           <th width=\"100\" rowspan=\"3\" scope=\"col\">pH<strong></strong></th>           <th width=\"100\" scope=\"col\">Range</th>           <td scope=\"col\">-2.000 ~ 19.999</td>           <td scope=\"col\" class=\"tdfin\">-2.000 ~ 19.999</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">0.001</td>           <td class=\"tdfin\" scope=\"col\">0.001</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">±0.002</td>           <td class=\"tdfin\" scope=\"col\">±0.002</td>         </tr>         <tr>           <th rowspan=\"3\" scope=\"col\">Temperature</th>           <th scope=\"col\">Range</th>           <td scope=\"col\">-5.0℃ ~ 130.0℃</td>           <td class=\"tdfin\" scope=\"col\">-5.0℃ ~ 130.0℃</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">0.1℃</td>           <td class=\"tdfin\" scope=\"col\">0.1℃</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">±0.2℃</td>           <td class=\"tdfin\" scope=\"col\">±0.2℃</td>         </tr>         <tr>           <th rowspan=\"3\" scope=\"col\">mV</th>           <th scope=\"col\">Range</th>           <td scope=\"col\">-1999 ~ 1999</td>           <td class=\"tdfin\" scope=\"col\">-1999 ~ 1999</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">1</td>           <td class=\"tdfin\" scope=\"col\">0.1</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">±1</td>           <td class=\"tdfin\" scope=\"col\">±0.1</td>         </tr>         <tr>           <th rowspan=\"3\" scope=\"col\">Ion</th>           <th scope=\"col\">Range</th>           <td scope=\"col\">0.000 to 999.9%</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">1</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">±5%</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th rowspan=\"3\" scope=\"col\">Saturation</th>           <th scope=\"col\">Range</th>           <td scope=\"col\">0.0 ~ 600%</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">0.1 ~ 1℃</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">±0.5%</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th rowspan=\"3\" scope=\"col\">Oxygen</th>           <th scope=\"col\">Range</th>           <td scope=\"col\">0.00 ~ 99.00</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">0.01</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">±0.5% max. 0.03</td>           <td class=\"tdfin\" scope=\"col\">-</td>         </tr>         <tr>           <th rowspan=\"3\" scope=\"col\">Conductivity</th>           <th scope=\"col\">Range</th>           <td scope=\"col\">-</td>           <td class=\"tdfin\" scope=\"col\">0.01uS/cm ~1000mS/cm</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">-</td>           <td class=\"tdfin\" scope=\"col\">0.01</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">-</td>           <td class=\"tdfin\" scope=\"col\">±0.5%</td>         </tr>         <tr>           <th rowspan=\"3\" scope=\"col\">TDS</th>           <th scope=\"col\">Range</th>           <td scope=\"col\">-</td>           <td class=\"tdfin\" scope=\"col\">0.01mg/L ~ 600g/L</td>         </tr>         <tr>           <th scope=\"col\">Resolution</th>           <td scope=\"col\">-</td>           <td class=\"tdfin\" scope=\"col\">0.01 ~ 1</td>         </tr>         <tr>           <th scope=\"col\">Accuracy</th>           <td scope=\"col\">-</td>           <td class=\"tdfin\" scope=\"col\">±0.5%</td>         </tr>         <tr>           <th class=\"trfinth2\" scope=\"col\">Salinity</th>           <th class=\"trfinth2\" scope=\"col\">Range</th>           <td class=\"trfin\" scope=\"col\">-</td>           <td class=\"trfin2\" scope=\"col\">0.00 ~ 80.00 ppt</td>         </tr>       </tbody>  </table>공통사양       <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><tbody>         <tr>           <th width=\"200\" scope=\"col\">Sensor Inputs</th>           <td width=\"600\" class=\"tdfin\" scope=\"col\">BNC (&gt;10<sup>12</sup> Ω); NTC 30 ㏀ (both IP67)</td>         </tr>         <tr>           <th scope=\"col\">Out Puts</th>           <td class=\"tdfin\" scope=\"col\">IR to printer or PC via RS232 or USB (Only SG8)</td>         </tr>         <tr>           <th scope=\"col\">Power Requirements</th>           <td class=\"tdfin\" scope=\"col\">4×AA batteries 1.5 V or NiMH accumulators 1.3V</td>         </tr>         <tr>           <th scope=\"col\">Operation Conitions</th>           <td class=\"tdfin\" scope=\"col\">0℃ ~ 40℃, 5%~80% rel. humidity (non-cond)</td>         </tr>         <tr>           <th class=\"trfinth2\" scope=\"col\">Package Size</th>           <td class=\"trfin2\" scope=\"col\">w220×d90×h45 mm</td>         </tr>       </tbody>  </table>   Accessories for SG68 &amp; SG78 <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"190\" scope=\"col\">Cat. No.</th>    <th width=\"193\" scope=\"row\">Model</th>    <th width=\"415\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-411</td>    <td scope=\"row\">51302332</td>    <td class=\"tdfin\" scope=\"row\">Infrared-USB adapter</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-415</td>     <td scope=\"row\" class=\"trfin\">51302333</td>      <td class=\"trfin2\" scope=\"row\">Infrared-RS232 adapter</td>  </tr></tbody></table>    Other Accessory <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"190\" scope=\"col\">Cat. No.</th>    <th width=\"193\" scope=\"row\">Model</th>    <th width=\"415\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-455</td>    <td scope=\"row\">51302325</td>    <td class=\"tdfin\" scope=\"row\">Clip</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-459</td>    <td scope=\"row\" class=\"trfin\">51302319</td>    <td class=\"trfin2\" scope=\"row\">2-electrode Clip</td>  </tr></tbody></table> " ],
+  "title" : "Portable Multi Meter (휴대용 멀티 미터, SevenGo Duo Pro™)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ ISM® PLUS 인텔리전트 센서의 통합적인 지원으로 신뢰성 있는 결과", "■ 일상적인 사용을 위한 pH/전도도미터 (IP67)", "■ pH, mV, Conductivity, TDF(Total Dissolved Solids), Salinity 및 Specific", "Resistance을 측정할 수 있는 두 개의 채널", "■ 사전에 정한 3점 pH보정 또는 사용자가 원하는 버퍼로 보정", "■ Intelligent Sensor Management (ISM®)", "■ 99개의 GLP 데이터 저장", "■ Mettler Toledo" ],
+  "id" : "1944",
+  "image" : "http://lklab.com/product_image/S-7823.jpg",
+  "specification" : [ {
+    "content" : "Portable pH/Conductivity Meter Meter only(전극 포함 안됨)",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "SG23-B",
+    "number" : "P02-162-210"
+  }, {
+    "content" : "Portable pH/Conductivity Meter with InLab Expert Pro-ISM and InLab 738-ISM",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "SG23-ELK",
+    "number" : "P02-162-214"
+  }, {
+    "content" : "Portable pH/Conductivity Meter Field Kit with InLab Expert Pro-ISM and InLab 738-ISM",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "SG23-FK2",
+    "number" : "P02-162-218"
+  }, {
+    "content" : "Portable pH/Conductivity Meter Field Ikt with InLab Expert Pro-ISM-5m and Inlab 738-ISM-5m",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "SG23-FK5",
+    "number" : "P02-162-222"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"135\" scope=\"row\">Model</th>                 <th width=\"316\" scope=\"row\">Description</th>                 <th width=\"148\" scope=\"row\" class=\"tdfin\">전극</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-210</td>                  <td scope=\"row\">SG23-B</td>                  <td scope=\"row\">Meter Only</td>                  <td class=\"tdfin\" scope=\"row\">X</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-214</td>                  <td scope=\"row\">SG23-ELK</td>                  <td scope=\"row\">Meter + 2 전극</td>                  <td rowspan=\"3\" class=\"trfin2\" scope=\"row\"><p>Inlab Expert Pro,</p>                  <p>Inlab 738</p></td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-218</td>                  <td scope=\"row\">SG23-FK2</td>                  <td scope=\"row\">SG23-ELK + 표준용액 + Case (1.8 m Field Kit)</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-222</td>                  <td class=\"trfin\" scope=\"row\">SG23-FK5</td>                  <td class=\"trfin\" scope=\"row\">SG23-FK2+(5 m Field Kit)</td>                </tr>              </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th colspan=\"2\" scope=\"col\">Model</th>    <td width=\"506\" class=\"trfinth3\" scope=\"col\">SG23</td></tr></thead><tbody>  <tr>    <th width=\"136\" rowspan=\"2\" scope=\"col\">pH</th>    <th width=\"156\" scope=\"col\">Range</th>    <td class=\"tdfin\" scope=\"col\">0.00 ~ 14.00</td>  </tr>  <tr>    <th scope=\"col\">Resol. / Acc.</th>    <td class=\"tdfin\" scope=\"col\">0.01 / ±0.01</td>  </tr>  <tr>    <th width=\"136\" rowspan=\"2\" scope=\"col\">mV</th>    <th width=\"156\" scope=\"col\">Range</th>    <td class=\"tdfin\" scope=\"col\">-1999 ~ 1999</td>  </tr>  <tr>    <th scope=\"col\">Resol. / Acc.</th>    <td class=\"tdfin\" scope=\"col\">1 / ±1</td>  </tr>  <tr>    <th width=\"136\" rowspan=\"2\" scope=\"col\">온도</th>    <th width=\"156\" scope=\"col\">Range</th>    <td class=\"tdfin\" scope=\"col\">-5.0℃ ~ 105.0℃</td>  </tr>  <tr>    <th scope=\"col\">Resol. / Acc.</th>    <td class=\"tdfin\" scope=\"col\">0.1℃ / ±0.5℃</td>  </tr>  <tr>    <th width=\"136\" rowspan=\"2\" scope=\"col\">전도도</th>    <th width=\"156\" scope=\"col\">Range</th>    <td class=\"tdfin\" scope=\"col\">0.10 uS/cm ~ 500mS/cm</td>  </tr>  <tr>    <th scope=\"col\">Resol. / Acc.</th>    <td class=\"tdfin\" scope=\"col\">0.01 / ±0.5%</td>  </tr>  <tr>    <th width=\"136\" rowspan=\"2\" scope=\"col\">TDS</th>    <th width=\"156\" scope=\"col\">Range</th>    <td class=\"tdfin\" scope=\"col\">0.1mg/L ~ 300g/L</td>  </tr>  <tr>    <th scope=\"col\">Resol. / Acc.</th>    <td class=\"tdfin\" scope=\"col\">0.01 / ±0.5%</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Sensor Inputs</th>    <td class=\"tdfin\" scope=\"col\">0.00 ~ 80.00 ppt</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Resistivity</th>    <td class=\"tdfin\" scope=\"col\">0.00 ~ 100.00mohom • cm</td>  </tr>  <tr>    <th colspan=\"2\" scope=\"col\">Calibration</th>    <td class=\"tdfin\" scope=\"col\">Max.3 points, 4 pre defined buffer groups</td>  </tr>  <tr>    <th colspan=\"2\" class=\"trfin\" scope=\"col\">Power Requirements</th>    <td class=\"trfin2\" scope=\"col\">4×AA Battery 1.5V or NiMH accumlator 1.3V</td>  </tr></tbody></table>" ],
+  "title" : "Portable pH /Conductivity Meter, SG23 (휴대용 pH / 전도도 측정기, SevenGo Duo™)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "● 공통 사항", "1) Shaft Size : od12×L120 mm (단, InLab Reach Pro는 L400 mm임)", "2) 폴리머 전해질 형태의 전극은 전극내의 기준전극이 두 개의 열려있는 이음에 의하여", "측정 물질과 직접 접촉되기 때문에 쉽게 오염되지 않음", "● ISM Sensor : 센서의 ID는 자동으로 식별, 가장 최근의 센서 보정", "DATA는 기기로 전송되어 다음 측정에 사용됨", "● 2-in-1 = pH 기준 전극으로 구성", "● 3-in-1 = pH 기준 전극과 온도 센서로 구성됨", "● Cable이 없는 Electrode는 Cable을 별도 구매해야 함 (#52300009)", "● Mettler Toledo / SevenCompact®" ],
+  "id" : "1945",
+  "image" : "http://lklab.com/product_image/S-6354.jpg",
+  "specification" : [ {
+    "content" : "PH Electrode Premium 3-in-1 Peek shaft",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "InLab Expert Pro",
+    "number" : "P02-162-500"
+  }, {
+    "content" : "InLab® Expert Pro-ISM",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "30014096",
+    "number" : "P02-162-501"
+  }, {
+    "content" : "PH Electrode General purpose 3-in-1 Glass shaft",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "Inlab Routine Pro",
+    "number" : "P02-162-520"
+  }, {
+    "content" : "InLab® Routine Pro-ISM General Purpose 3-in-1 Glass Shaft",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "51344055",
+    "number" : "P02-162-523"
+  }, {
+    "content" : "Inlab Micro Pro-ISM pH Electrode pH specialists 4-in-1 Glass Shaft",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "51344163",
+    "number" : "P02-162-563"
+  }, {
+    "content" : "InLab Power Pro-ISM pH Electrode Premiun 4-in-1 Glass, w/o cable",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "51344211",
+    "number" : "P02-162-526"
+  }, {
+    "content" : "InLab Pure Pro ISM pH Electrode Glass, w/o cable",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "51344172",
+    "number" : "P02-162-535"
+  }, {
+    "content" : "InLab Science Pro-ISM pH Electrode general Purpose 4-in-1 Glass, w/o cable",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "51344072",
+    "number" : "P02-162-544"
+  }, {
+    "content" : "InLab Solids Pro ISM pH Electrode Premiun 4-in-1 Glass, w/o cable",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "51344155",
+    "number" : "P02-162-556"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display: none;\">pH Cell / pH 전극              </caption><thead>                <tr>                 <th scope=\"row\" width=\"93\">Cat. No</th>                 <th width=\"158\" scope=\"row\">Model</th>                 <th width=\"123\" scope=\"row\">측정범위</th>                 <th width=\"93\" scope=\"row\">온도범위</th>                 <th width=\"95\" scope=\"row\">Connector</th>                 <th width=\"99\" scope=\"row\">Shaft 재질</th>                 <th width=\"83\" scope=\"row\" class=\"tdfin\">Shaft 크기</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-500</td>                  <td scope=\"row\">InLab Expert Pro ①</td>                  <td rowspan=\"5\" scope=\"row\">0 ~ 14</td>                  <td rowspan=\"5\" scope=\"row\">0 ~ 100 ℃</td>                  <td rowspan=\"2\" scope=\"row\">BNC/RCA (Cinch)</td>                  <td rowspan=\"2\" scope=\"row\">PEEK</td>                  <td rowspan=\"4\" scope=\"row\" class=\"tdfin\">Ø12 x L120mm</td>                                  </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-501</td>                  <td scope=\"row\">Inlab Expert Pro-ISM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-520</td>                  <td scope=\"row\">InLab Routine Pro ②</td>                  <td rowspan=\"7\" scope=\"row\" class=\"trfin\">MultiPin™</td>                  <td rowspan=\"7\" scope=\"row\" class=\"trfin\">유리</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-523</td>                  <td scope=\"row\">InLab Routine Pro-ISM</td>                </tr>                                               <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-563</td>                  <td scope=\"row\">InLab Micro Pro-ISM</td>                  <td scope=\"row\" class=\"tdfin\">Ø5 x L130mm</td>                                  </tr>                                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-526</td>                  <td scope=\"row\">InLab Power Pro-ISM ③</td>                  <td scope=\"row\">0 ~ 12</td>                  <td scope=\"row\">0 ~ 130 ℃</td>                  <td rowspan=\"3\" class=\"tdfin\" scope=\"row\">Ø12 x L170mm</td>                                 </tr>                               <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-535</td>                  <td scope=\"row\">InLab Pure Pro-ISM</td>                  <td scope=\"row\">1 ~ 11</td>                  <td rowspan=\"1\" scope=\"row\">0 ~ 80 ℃</td>                </tr>                                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-544</td>                  <td scope=\"row\">InLab Science Pro-ISM</td>                  <td scope=\"row\">0 ~ 12</td>                  <td scope=\"row\">0 ~ 100 ℃</td>                </tr>                                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-556</td>                  <td class=\"trfin\" scope=\"row\">InLab Solids Pro-ISM ④</td>                  <td class=\"trfin\" scope=\"row\">1 ~ 11</td>                  <td class=\"trfin\" scope=\"row\">0 ~ 80 ℃</td>                  <td scope=\"row\" class=\"trfin2\">Ø6 x L25mm</td>                                  </tr>              </tbody></table>" ],
+  "title" : "pH Cell (pH 전극)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ Mettler Toledo" ],
+  "id" : "1946",
+  "image" : "http://lklab.com/product_image/S-10751.jpg",
+  "specification" : [ {
+    "content" : "Ion-Selective Electrode Lithium 10-5 ~ 100 mol/Lit.",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "51107673",
+    "number" : "P02-162-848"
+  }, {
+    "content" : "Ion-Selective Electrode Ammonium 10-5 ~ 100 mol/Lit.",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "51340900",
+    "number" : "P02-162-852"
+  }, {
+    "content" : "Ion-Selective Electrode Fluoride 10-6 ~ 100 mol/Lit.",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "51340500",
+    "number" : "P02-162-856"
+  }, {
+    "content" : "Ion-Selective Electrode Sodium 10-7 ~ 100 mol/Lit.",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "51340263",
+    "number" : "P02-162-860"
+  }, {
+    "content" : "Ion-Selective Electrode Cyanide 10-5 ~ 100 mol/Lit.",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "51107681",
+    "number" : "P02-162-864"
+  }, {
+    "content" : "Ion-Selective Electrode Sulfide 10-6 ~ 100 mol/Lit.",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "51107675",
+    "number" : "P02-162-868"
+  }, {
+    "content" : "Ion-Selective Electrode Chloride 10-5 ~ 100 mol/Lit.",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "51340400",
+    "number" : "P02-162-872"
+  }, {
+    "content" : "Ion-Selective Electrode Potassium 10-6 ~ 100 mol/Lit.",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "51340700",
+    "number" : "P02-162-876"
+  }, {
+    "content" : "Ion-Selective Electrode Calcium 10-6 ~ 100 mol/Lit.",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "51340600",
+    "number" : "P02-162-880"
+  }, {
+    "content" : "Ion-Selective Electrode Thiocyanate 10-5 ~ 100 mol/Lit.",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "51107870",
+    "number" : "P02-162-884"
+  }, {
+    "content" : "Ion-Selective Electrode Nitrate 10-5 ~ 100 mol/Lit.",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "51340800",
+    "number" : "P02-162-888"
+  }, {
+    "content" : "Ion-Selective Electrode Copper 10-5 ~ 100 mol/Lit.",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "51107678",
+    "number" : "P02-162-892"
+  }, {
+    "content" : "Ion-Selective Electrode Bromide 10-6 ~ 100 mol/Lit.",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "51340300",
+    "number" : "P02-162-896"
+  }, {
+    "content" : "Ion-Selective Electrode Fluoroborate 10-6 ~ 100 mol/Lit.",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "51107676",
+    "number" : "P02-162-900"
+  }, {
+    "content" : "Ion-Selective Electrode Cadmium 10-5 ~ 100 mol/Lit.",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "51107672",
+    "number" : "P02-162-904"
+  }, {
+    "content" : "Ion-Selective Electrode Iodide 10-6 ~ 100 mol/Lit.",
+    "id" : "16",
+    "isSelected" : false,
+    "model" : "51107680",
+    "number" : "P02-162-908"
+  }, {
+    "content" : "Ion-Selective Electrode Barium 10-5 ~ 100 mol/Lit.",
+    "id" : "17",
+    "isSelected" : false,
+    "model" : "51107674",
+    "number" : "P02-162-912"
+  }, {
+    "content" : "Ion-Selective Electrode Lead 10-5 ~ 100 mol/Lit.",
+    "id" : "18",
+    "isSelected" : false,
+    "model" : "51107873",
+    "number" : "P02-162-916"
+  }, {
+    "content" : "Spare Membrane Kit for Lithum",
+    "id" : "19",
+    "isSelected" : false,
+    "model" : "51107687",
+    "number" : "P02-162-935"
+  }, {
+    "content" : "Spare Membrane Kit for Ammonium",
+    "id" : "20",
+    "isSelected" : false,
+    "model" : "51340012",
+    "number" : "P02-162-938"
+  }, {
+    "content" : "Spare Membrane Kit for Fluoride",
+    "id" : "21",
+    "isSelected" : false,
+    "model" : "51340008",
+    "number" : "P02-162-941"
+  }, {
+    "content" : "Spare Membrane Kit for Cyanide",
+    "id" : "22",
+    "isSelected" : false,
+    "model" : "51107695",
+    "number" : "P02-162-944"
+  }, {
+    "content" : "Spare Membrane Kit for Sulfide",
+    "id" : "23",
+    "isSelected" : false,
+    "model" : "51107689",
+    "number" : "P02-162-947"
+  }, {
+    "content" : "Spare Membrane Kit for Chloride",
+    "id" : "24",
+    "isSelected" : false,
+    "model" : "51340007",
+    "number" : "P02-162-950"
+  }, {
+    "content" : "Spare Membrane Kit for Potassum",
+    "id" : "25",
+    "isSelected" : false,
+    "model" : "51340010",
+    "number" : "P02-162-953"
+  }, {
+    "content" : "Spare Membrane Kit for Calcium",
+    "id" : "26",
+    "isSelected" : false,
+    "model" : "51340009",
+    "number" : "P02-162-956"
+  }, {
+    "content" : "Spare Membrane Kit for Thiocyanate",
+    "id" : "27",
+    "isSelected" : false,
+    "model" : "51107871",
+    "number" : "P02-162-959"
+  }, {
+    "content" : "Spare Membrane Kit for Nitrate",
+    "id" : "28",
+    "isSelected" : false,
+    "model" : "51340011",
+    "number" : "P02-162-962"
+  }, {
+    "content" : "Spare Membrane Kit for Copper",
+    "id" : "29",
+    "isSelected" : false,
+    "model" : "51107692",
+    "number" : "P02-162-965"
+  }, {
+    "content" : "Spare Membrane Kit for Bromide",
+    "id" : "30",
+    "isSelected" : false,
+    "model" : "51340006",
+    "number" : "P02-162-968"
+  }, {
+    "content" : "Spare Membrane Kit for Fluoroborate",
+    "id" : "31",
+    "isSelected" : false,
+    "model" : "51107690",
+    "number" : "P02-162-971"
+  }, {
+    "content" : "Spare Membrane Kit for Cadmiun",
+    "id" : "32",
+    "isSelected" : false,
+    "model" : "51107686",
+    "number" : "P02-162-974"
+  }, {
+    "content" : "Spare Membrane Kit for Lodide",
+    "id" : "33",
+    "isSelected" : false,
+    "model" : "51107694",
+    "number" : "P02-162-977"
+  }, {
+    "content" : "Spare Membrane Kit for Barium",
+    "id" : "34",
+    "isSelected" : false,
+    "model" : "51107688",
+    "number" : "P02-162-980"
+  }, {
+    "content" : "Spare Membrane Kit for Lead",
+    "id" : "35",
+    "isSelected" : false,
+    "model" : "51107874",
+    "number" : "P02-162-983"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Lithum",
+    "id" : "36",
+    "isSelected" : false,
+    "model" : "51107881",
+    "number" : "P02-162-989"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Ammonium",
+    "id" : "37",
+    "isSelected" : false,
+    "model" : "51340035",
+    "number" : "P02-162-992"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Fluoride",
+    "id" : "38",
+    "isSelected" : false,
+    "model" : "51340031",
+    "number" : "P02-162-995"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Cyanide",
+    "id" : "39",
+    "isSelected" : false,
+    "model" : "51107893",
+    "number" : "P02-162-998"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Sulfide",
+    "id" : "40",
+    "isSelected" : false,
+    "model" : "51107894",
+    "number" : "P02-162-S04"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Chloride",
+    "id" : "41",
+    "isSelected" : false,
+    "model" : "51340030",
+    "number" : "P02-162-S08"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Potassium",
+    "id" : "42",
+    "isSelected" : false,
+    "model" : "51340033",
+    "number" : "P02-162-S12"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Calcium",
+    "id" : "43",
+    "isSelected" : false,
+    "model" : "51340032",
+    "number" : "P02-162-S16"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Thiocyanate",
+    "id" : "44",
+    "isSelected" : false,
+    "model" : "51107872",
+    "number" : "P02-162-S20"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Nitrate",
+    "id" : "45",
+    "isSelected" : false,
+    "model" : "51340034",
+    "number" : "P02-162-S24"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Coper",
+    "id" : "46",
+    "isSelected" : false,
+    "model" : "51107889",
+    "number" : "P02-162-S28"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Bromide",
+    "id" : "47",
+    "isSelected" : false,
+    "model" : "51340029",
+    "number" : "P02-162-S32"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Fluoroborate",
+    "id" : "48",
+    "isSelected" : false,
+    "model" : "51107890",
+    "number" : "P02-162-S36"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Cadmiun",
+    "id" : "49",
+    "isSelected" : false,
+    "model" : "51107891",
+    "number" : "P02-162-S40"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Lodide",
+    "id" : "50",
+    "isSelected" : false,
+    "model" : "51107898",
+    "number" : "P02-162-S44"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Barium",
+    "id" : "51",
+    "isSelected" : false,
+    "model" : "51107892",
+    "number" : "P02-162-S48"
+  }, {
+    "content" : "Spare Filling Solution Electrolyte for Lead",
+    "id" : "52",
+    "isSelected" : false,
+    "model" : "51107875",
+    "number" : "P02-162-S52"
+  } ],
+  "tableItems" : [ " Ion-Selective Electrode              <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"102\">Cat. No</th>                 <th width=\"82\" scope=\"row\">Model</th>                 <th width=\"117\" scope=\"row\">Ion</th>                 <th width=\"119\" scope=\"row\">측정범위</th>                 <th width=\"112\" scope=\"row\">Membrane Type</th>                 <th width=\"100\" scope=\"row\">pH Range</th>                 <th width=\"95\" scope=\"row\">몸체 재질</th>                 <th width=\"71\" scope=\"row\" class=\"tdfin\">Cable</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-848</td>                  <td scope=\"row\">51107673</td>                  <td scope=\"row\">Lithium</td>                  <td rowspan=\"2\" scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-5</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L  </td>                  <td rowspan=\"2\" scope=\"row\">Polymer</td>                  <td scope=\"row\">2 ~ 12 pH</td>                  <td rowspan=\"2\" scope=\"row\">POM/PVC</td>                  <td rowspan=\"18\" class=\"trfin2\" scope=\"row\">52300004</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-852</td>                  <td scope=\"row\">51340900</td>                  <td scope=\"row\">Ammonium</td>                  <td scope=\"row\">2 ~ 9 pH</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-856</td>                  <td scope=\"row\">51340500</td>                  <td scope=\"row\">Fluoride</td>                  <td scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-6</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td scope=\"row\">Solid state</td>                  <td scope=\"row\">4 ~ 10 pH</td>                  <td scope=\"row\">POM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-860</td>                  <td scope=\"row\">51340263</td>                  <td scope=\"row\">Sodium</td>                  <td scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-7</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td scope=\"row\">Na-glass</td>                  <td scope=\"row\">8 ~ 11 pH</td>                  <td scope=\"row\">Glass</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-864</td>                  <td scope=\"row\">51107681</td>                  <td scope=\"row\">Cyanide</td>                  <td scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-5</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td rowspan=\"3\" scope=\"row\">Solid state</td>                  <td rowspan=\"2\" scope=\"row\">4 ~ 13 pH</td>                  <td rowspan=\"3\" scope=\"row\">POM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-868</td>                  <td scope=\"row\">51107675</td>                  <td scope=\"row\">Sulfide</td>                  <td scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-6</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-872</td>                  <td scope=\"row\">51340400</td>                  <td scope=\"row\">Chloride</td>                  <td scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-5</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td scope=\"row\">2 ~ 13 pH</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-876</td>                  <td scope=\"row\">51340700</td>                  <td scope=\"row\">Potassium</td>                  <td rowspan=\"2\" scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-6</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td rowspan=\"2\" scope=\"row\">Polymer</td>                  <td rowspan=\"2\" scope=\"row\">2 ~ 12 pH</td>                  <td rowspan=\"2\" scope=\"row\">POM/PVC</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-880</td>                  <td scope=\"row\">51340600</td>                  <td scope=\"row\">Calcium</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-884</td>                  <td scope=\"row\">51107870</td>                  <td scope=\"row\">Thiocyanate</td>                  <td rowspan=\"3\" scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-5</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td scope=\"row\">Solid state</td>                  <td scope=\"row\">2 ~ 10 pH</td>                  <td scope=\"row\">POM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-888</td>                  <td scope=\"row\">51340800</td>                  <td scope=\"row\">Nitrate</td>                  <td scope=\"row\">Polymer</td>                  <td scope=\"row\">2 ~ 12 pH</td>                  <td scope=\"row\">POM/PVC</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-892</td>                  <td scope=\"row\">51107678</td>                  <td scope=\"row\">Copper</td>                  <td rowspan=\"2\" scope=\"row\">Solid state</td>                  <td scope=\"row\">2 ~ 8 pH</td>                  <td rowspan=\"2\" scope=\"row\">POM</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-896</td>                  <td scope=\"row\">51340300</td>                  <td scope=\"row\">Bromide</td>                  <td rowspan=\"2\" scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-6</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td scope=\"row\">2 ~ 13 pH</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P02-162-900</td>                  <td scope=\"row\">51107676</td>                  <td scope=\"row\">Fluoroborate</td>                  <td rowspan=\"2\" scope=\"row\">Polymer</td>                  <td scope=\"row\">2 ~ 12 pH</td>                  <td rowspan=\"2\" scope=\"row\">Polymer</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P02-162-904</td>                  <td scope=\"row\">51107672</td>                  <td scope=\"row\">Cadmium</td>                  <td scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-5</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td scope=\"row\">2 ~ 8 pH</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P02-162-908</td>                  <td scope=\"row\">51107680</td>                  <td scope=\"row\">Iodide</td>                  <td scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-6</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td scope=\"row\">Solid state</td>                  <td scope=\"row\">1 ~ 13 pH</td>                  <td scope=\"row\">Solid state</td>                </tr>                <tr>                  <td class=\"trfinth4\" scope=\"row\">P02-162-912</td>                  <td scope=\"row\">51107674</td>                  <td scope=\"row\">Barium</td>                  <td rowspan=\"2\" class=\"trfin\" scope=\"row\">10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">-5</span> ~ 10<span style=\"font-size:6px; line-height:20px; vertical-align:top;\">0</span> mol/L</td>                  <td class=\"trfin\" rowspan=\"2\" scope=\"row\">Polymer</td>                  <td scope=\"row\">2 ~ 12 pH</td>                  <td class=\"trfin\" rowspan=\"2\" scope=\"row\">Polymer</td>                </tr>                <tr>                  <td class=\"trfinth\" scope=\"row\">P02-162-916</td>                  <td class=\"trfin\" scope=\"row\">51107873</td>                  <td class=\"trfin\" scope=\"row\">Lead</td>                  <td class=\"trfin\" scope=\"row\">2 ~ 8 pH</td>                </tr>                              </tbody></table><ul style=\"list-style:none; display:block;  float:left; margin:15px 0 25px;  width:800px;\">  <li style=\"font-size: 12px; color: #666; line-height: 18px;\">● 단독으로 사용할수 없으며, 기준전극이 필요함. Spare Membrane Kit와 Filling Solution은 아래 참조</li></ul>  Spare Membrane Kit <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"190\" scope=\"col\">Cat. No.</th>    <th width=\"193\" scope=\"row\">Model</th>    <th width=\"415\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-935</td>    <td scope=\"row\">51107687</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Lithum</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-938</td>    <td scope=\"row\">51340012</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Ammonium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-941</td>    <td scope=\"row\">51340008</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Fluoride</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-944</td>    <td scope=\"row\">51107695</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Cyanide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-947</td>    <td scope=\"row\">51107689</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Sulfide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-950</td>    <td scope=\"row\">51340007</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Chloride</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-953</td>    <td scope=\"row\">51340010</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Potassium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-956</td>    <td scope=\"row\">51340009</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Calcium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-959</td>    <td scope=\"row\">51107871</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Thiocyanate</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-962</td>    <td scope=\"row\">51340011</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Nitrate</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-965</td>    <td scope=\"row\">51107692</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Copper</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-968</td>    <td scope=\"row\">51340006</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Bromide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-971</td>    <td scope=\"row\">51107690</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Fluoroborate</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-974</td>    <td scope=\"row\">51107686</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Cadmium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-977</td>    <td scope=\"row\">51107694</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Iodide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-980</td>    <td scope=\"row\">51107688</td>    <td class=\"tdfin\" scope=\"row\">Membrane kit for Barium</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-983</td>    <td class=\"trfin\" scope=\"row\">51107874</td>    <td class=\"trfin2\" scope=\"row\">Membrane kit for Lead</td>  </tr></tbody></table>  Spare Filling Solution <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"190\" scope=\"col\">Cat. No.</th>    <th width=\"193\" scope=\"row\">Model</th>    <th width=\"415\" scope=\"row\" class=\"tdfin\">Electrolyte</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-989</td>    <td scope=\"row\">51107881</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Lithum</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-992</td>    <td scope=\"row\">51340035</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Ammonium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-995</td>    <td scope=\"row\">51340031</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Fluoride</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-998</td>    <td scope=\"row\">51107893</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Cyanide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S04</td>    <td scope=\"row\">51107894</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Sulfide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S08</td>    <td scope=\"row\">51340030</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Chloride</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S12</td>    <td scope=\"row\">51340033</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Potassium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S16</td>    <td scope=\"row\">51340032</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Calcium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S20</td>    <td scope=\"row\">51107872</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Thiocyanate</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S24</td>    <td scope=\"row\">51340034</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Nitrate</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S28</td>    <td scope=\"row\">51107889</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Copper</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S32</td>    <td scope=\"row\">51340029</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Bromide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S36</td>    <td scope=\"row\">51107890</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Fluoroborate</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S40</td>    <td scope=\"row\">51107891</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Cadmium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S44</td>    <td scope=\"row\">51107898</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Iodide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-S48</td>    <td scope=\"row\">51107892</td>    <td class=\"tdfin\" scope=\"row\">Electrolyte for Barium</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-S52</td>    <td class=\"trfin\" scope=\"row\">51107875</td>    <td class=\"trfin2\" scope=\"row\">Electrolyte for Lead</td>  </tr> </tbody></table> " ],
+  "title" : "Ion Cell (이온 전극)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ 각 각의 버퍼는 COA (Certificate of Analysis) 와 같이 제공됨", "(용기 라벨에 인쇄되어 있음)", "■ Mettler Toledo" ],
+  "id" : "1947",
+  "image" : "http://lklab.com/product_image/S-6355.jpg",
+  "specification" : [ {
+    "content" : "pH Standard Solution pH 2.00 250ml",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "51350002",
+    "number" : "P02-162-666"
+  }, {
+    "content" : "pH Standard Solution pH 4.01 250ml",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "51350004",
+    "number" : "P02-162-669"
+  }, {
+    "content" : "pH Standard Solution pH 7.00 250ml",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "51350006",
+    "number" : "P02-162-672"
+  }, {
+    "content" : "pH Standard Solution pH 9.21 250ml",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "51350008",
+    "number" : "P02-162-675"
+  }, {
+    "content" : "pH Standard Solution pH 10.00 250ml",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "51350010",
+    "number" : "P02-162-678"
+  }, {
+    "content" : "pH Standard Solution pH 11.00 250ml",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "51350012",
+    "number" : "P02-162-681"
+  }, {
+    "content" : "pH Standard Solution pH 4.01 30x20ml",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "51302069",
+    "number" : "P02-162-684"
+  }, {
+    "content" : "pH Standard Solution pH 7.00 30x20ml",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "51302047",
+    "number" : "P02-162-687"
+  }, {
+    "content" : "pH Standard Solution pH 9.21 30x20ml",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "51302070",
+    "number" : "P02-162-690"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none\">pH Standard Solution / pH 표준 용액               </caption><thead>                <tr>                 <th scope=\"row\" width=\"199\">Cat. No</th>                 <th width=\"149\" scope=\"row\">Model</th>                 <th width=\"193\" scope=\"row\">pH</th>                 <th width=\"257\" scope=\"row\" class=\"tdfin\">Capacity</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-666</td>                  <td scope=\"row\">51350002</td>                  <td scope=\"row\">2.00</td>                  <td rowspan=\"6\" class=\"tdfin\" scope=\"row\">250 ml bottle</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-669</td>                  <td scope=\"row\">51350004</td>                  <td scope=\"row\">4.01</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-672</td>                  <td scope=\"row\">51350006</td>                  <td scope=\"row\">7.00</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-675</td>                  <td scope=\"row\">51350008</td>                  <td scope=\"row\">9.21</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-678</td>                  <td scope=\"row\">51350010</td>                  <td scope=\"row\">10.00</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-681</td>                  <td scope=\"row\">51350012</td>                  <td scope=\"row\">11.00</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-684</td>                  <td scope=\"row\">51302069</td>                  <td scope=\"row\">4.01</td>                  <td rowspan=\"3\" class=\"trfin2\" scope=\"row\">Sachets 30×20ml</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-687</td>                  <td scope=\"row\">51302047</td>                  <td scope=\"row\">7.00</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-690</td>                  <td class=\"trfin\" scope=\"row\">51302070</td>                  <td class=\"trfin\" scope=\"row\">9.21</td>                </tr>              </tbody></table>" ],
+  "title" : "pH Standard Solution (pH 표준 용액)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ 용량 : 500 ml", "■ Mettler Toledo / SevenCompact®" ],
+  "id" : "1948",
+  "image" : "http://lklab.com/product_image/S-6358.jpg",
+  "specification" : [ {
+    "content" : "Ion Standard Solution Silver 1000mg/L, 500ml",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "51344770",
+    "number" : "P02-162-313"
+  }, {
+    "content" : "Ion Standard Solution Calcium 1000mg/L, 500ml",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "51344771",
+    "number" : "P02-162-316"
+  }, {
+    "content" : "Ion Standard Solution Chloride 1000mg/L, 500ml",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "51344772",
+    "number" : "P02-162-319"
+  }, {
+    "content" : "Ion Standard Solution Cyanide 1000mg/L, 500ml",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "51344773",
+    "number" : "P02-162-322"
+  }, {
+    "content" : "Ion Standard Solution Copper 1000mg/L, 500ml",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "51344774",
+    "number" : "P02-162-325"
+  }, {
+    "content" : "Ion Standard Solution Fluoride 1000mg/L, 500ml",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "51344775",
+    "number" : "P02-162-328"
+  }, {
+    "content" : "Ion Standard Solution Iodide 1000mg/L, 500ml",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "51344776",
+    "number" : "P02-162-331"
+  }, {
+    "content" : "Ion Standard Solution Potassium 1000mg/L, 500ml",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "51344777",
+    "number" : "P02-162-334"
+  }, {
+    "content" : "Ion Standard Solution Sodium 1000mg/L, 500ml",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "51344778",
+    "number" : "P02-162-337"
+  }, {
+    "content" : "Ion Standard Solution Nitrate 1000mg/L, 500ml",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "51344779",
+    "number" : "P02-162-340"
+  }, {
+    "content" : "Ion Standard Solution Lead 1000mg/L, 500ml",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "51344780",
+    "number" : "P02-162-343"
+  }, {
+    "content" : "Ion Standard Solution Sulphide 1000mg/L, 500ml",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "51344781",
+    "number" : "P02-162-346"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\" display:none;\">Standard Solution for Ion Electrode / 이온 전극용 스탠다드 솔루션 </caption><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <th width=\"200\" scope=\"row\">Model</th>    <th width=\"400\" scope=\"row\" class=\"tdfin\">표준용액</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-313</td>    <td scope=\"row\">51344770</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Silver</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-316</td>    <td scope=\"row\">51344771</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Calcium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-319</td>    <td scope=\"row\">51344772</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Chloride</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-322</td>    <td scope=\"row\">51344773</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Cyanide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-325</td>    <td scope=\"row\">51344774</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Copper</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-328</td>    <td scope=\"row\">51344775</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Fluoride</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-331</td>    <td scope=\"row\">51344776</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Iodide</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-334</td>    <td scope=\"row\">51344777</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Potassium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-337</td>    <td scope=\"row\">51344778</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Sodium</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-340</td>    <td scope=\"row\">51344779</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Nitrate</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-343</td>    <td scope=\"row\">51344780</td>    <td class=\"tdfin\" scope=\"row\">1000 mg/L for Lead</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-346</td>     <td scope=\"row\" class=\"trfin\">51344781</td>      <td class=\"trfin2\" scope=\"row\">1000 mg/L for Sulphide</td>  </tr></tbody></table> " ],
+  "title" : "Standard Solution for Ion Electrode (이온 전극용 스탠다드 솔루션)",
+  "type" : "expendables_undefined"
+}, {
+  "classify" : "pH Meter[PH 측정기]",
+  "content" : [ "■ Mettler Toledo" ],
+  "id" : "1949",
+  "image" : "http://lklab.com/product_image/S-7156.jpg",
+  "specification" : [ {
+    "content" : "Electrode for Redox Platinum Ring",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "51343200",
+    "number" : "P02-162-832"
+  }, {
+    "content" : "Electrode for Redox Gold Ring",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "51343204",
+    "number" : "P02-162-836"
+  }, {
+    "content" : "Electrode for Redox Silver Ring",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "51343205",
+    "number" : "P02-162-840"
+  }, {
+    "content" : "Bridge Electrolyte Solution 3mol KCl 25ml",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "51343180",
+    "number" : "P02-162-795"
+  }, {
+    "content" : "Bridge Electrolyte Solution 1mol KNO3 25ml",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "51343182",
+    "number" : "P02-162-797"
+  }, {
+    "content" : "Bridge Electrolyte Solution 1mol KCl 25ml",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "51343181",
+    "number" : "P02-162-799"
+  }, {
+    "content" : "Cable for Electrode InLab cable S7-BNC 52300004 대체",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "30281915",
+    "number" : "P02-162-770"
+  }, {
+    "content" : "Cable for Electrode MultiPin to BNC/RCA 1.2m",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "30281896",
+    "number" : "P02-162-772"
+  }, {
+    "content" : "Cable for Electrode InLab cable S7-2mm 1.2m 52300016 대체",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "30281923",
+    "number" : "P02-162-780"
+  }, {
+    "content" : "Reference Filling Solution A 60 ml (Ca2+, F-) For Ion-selective Electrodes(ISE)",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "51344750",
+    "number" : "P02-162-350"
+  }, {
+    "content" : "Reference Filling Solution B 60 ml (Ag+/S2-, Cl-, CN-, Pb2+) For Ion-selective Electrodes(ISE)",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "51344751",
+    "number" : "P02-162-351"
+  }, {
+    "content" : "Reference Filling Solution C 60 ml For Ion-selective Electrodes(ISE)",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "51344752",
+    "number" : "P02-162-352"
+  }, {
+    "content" : "Reference Filling Solution D 60 ml (Cu2+, I-) For Ion-selective Electrodes(ISE)",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "51344753",
+    "number" : "P02-162-353"
+  }, {
+    "content" : "Reference Filling Solution E 60 ml (K+) For Ion-selective Electrodes(ISE)",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "51344754",
+    "number" : "P02-162-354"
+  }, {
+    "content" : "Reference Filling Solution F 60 ml (NO3-) For Ion-selective Electrodes(ISE)",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "51344755",
+    "number" : "P02-162-355"
+  }, {
+    "content" : "TISAB 3 ISA solutions for Fluoride Electrolytes, 250 mL",
+    "id" : "16",
+    "isSelected" : false,
+    "model" : "51350106",
+    "number" : "P02-162-360"
+  } ],
+  "tableItems" : [ "Electrode for Redox <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <th width=\"200\" scope=\"row\">Model</th>    <th width=\"400\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-832</td>    <td scope=\"row\">51343200</td>    <td class=\"tdfin\" scope=\"row\">Platinum Ring, Glass Shaft, BNC Type ①</td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-836</td>    <td scope=\"row\">51343204</td>    <td class=\"tdfin\" scope=\"row\">Gold Ring, Glass Shaft, BNC Type ②</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-840</td>    <td class=\"trfin\" scope=\"row\">51343205</td>    <td class=\"trfin2\" scope=\"row\">Silver Ring, Glass Shaft, BNC Type ③</td>  </tr></tbody></table> <ul style=\"list-style:none; display:block;  margin:15px 0 25px;  width:800px;\">  <li style=\"font-size: 12px; color: #666; line-height: 18px;\">● Combined metal electrode, glass body<br>● BNC Cable 별매<br>  </li></ul>  Bridge Electrolyte Solution               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">Type</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">용량</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-795</td>                  <td scope=\"row\">51343180</td>                  <td scope=\"row\">3 mol KCl</td>                  <td rowspan=\"3\" class=\"trfin2\" scope=\"row\">25 ml</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-797</td>                  <td scope=\"row\">51343182</td>                  <td scope=\"row\">3 mol KNO₃</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-799</td>                  <td class=\"trfin\" scope=\"row\">51343181</td>                  <td class=\"trfin\" scope=\"row\">1 mol KCl</td>                </tr>              </tbody></table> Cable for Electrode <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <th width=\"200\" scope=\"row\">Model</th>    <th width=\"400\" scope=\"row\" class=\"tdfin\">Description</th></tr></thead><tbody>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-770</td>    <td scope=\"row\">30281915</td>    <td class=\"tdfin\" scope=\"row\">Cable for Electrode InLab cable S7-BNC </td>  </tr>  <tr>    <td class=\"trfinth4\" scope=\"col\">P02-162-772</td>    <td scope=\"row\">30281896</td>    <td class=\"tdfin\" scope=\"row\">Cable for Electrode MultiPin to BNC/RCA 1.2m</td>  </tr>  <tr>    <td class=\"trfinth\" scope=\"col\">P02-162-780</td>    <td scope=\"row\" class=\"trfin\">30281923</td>    <td class=\"trfin2\" scope=\"row\">Cable for Electrode InLab cable S7-2mm 1.2m </td>  </tr></tbody></table> Ion-selective Electrodes(ISE) / Reference Filling Solution               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">Description</th>                 <th width=\"200\" scope=\"row\">Ion</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">용량</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-350</td>                  <td scope=\"row\">51344750</td>                  <td scope=\"row\">Reference Filling Solution A</td>                  <td scope=\"row\">Ca2+, F-</td>                  <td rowspan=\"6\" class=\"trfin2\" scope=\"row\">60ml</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-351</td>                  <td scope=\"row\">51344751</td>                  <td scope=\"row\">Reference Filling Solution B</td>                  <td scope=\"row\">Ag+/S2-, Cl-, CN-, Pb2+</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-352</td>                  <td scope=\"row\">51344752</td>                  <td scope=\"row\">Reference Filling Solution C</td>                  <td scope=\"row\">Silver</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-353</td>                  <td scope=\"row\">51344753</td>                  <td scope=\"row\">Reference Filling Solution D</td>                  <td scope=\"row\">Cu2+, I-</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth4\">P02-162-354</td>                  <td scope=\"row\">51344754</td>                  <td scope=\"row\">Reference Filling Solution E</td>                  <td scope=\"row\">K+</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-355</td>                  <td class=\"trfin\" scope=\"row\">51344755</td>                  <td class=\"trfin\" scope=\"row\">Reference Filling Solution F</td>                  <td class=\"trfin\" scope=\"row\">NO3-</td>                </tr>              </tbody></table>   Electrolytes, TISABⅢ / ISA solutions               <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"200\" scope=\"row\">Ion</th>                 <th width=\"200\" scope=\"row\" class=\"tdfin\">용량</th>                </tr>  </thead>              <tbody>                               <tr>                  <td scope=\"row\" class=\"trfinth\">P02-162-360</td>                  <td class=\"trfin\" scope=\"row\">51350106</td>                  <td class=\"trfin\" scope=\"row\">Fluoride</td>                  <td class=\"trfin2\" scope=\"row\">250ml</td>                </tr>              </tbody></table> " ],
+  "title" : "Other Accessory (그 외 관련 악세사리)",
+  "type" : "expendables_undefined"
+} ]

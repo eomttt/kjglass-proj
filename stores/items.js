@@ -1,6 +1,6 @@
 import { observable, action, toJS } from 'mobx';
 
-const glassesData = require('../data/kjglass-60495-glass-export.json');
+const glassesData = require('../data/glass.json');
 
 // import glassDummy from '../dummy/glassItem';
 // import expendablesItemDummy from '../dummy/expendablesItem';
