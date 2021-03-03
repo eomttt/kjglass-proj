@@ -1,0 +1,112 @@
+[ {
+  "classify" : "Light[광원]",
+  "content" : [ "■ LED Lantern", "■ MD Light" ],
+  "id" : "1771",
+  "image" : "http://lklab.com/product_image/S-8367.jpg",
+  "specification" : [ {
+    "content" : "Hand Lantern 20 lux / 140mm / 60g 2 x AAA / 3.7Wh / 3.5hour",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "8404",
+    "number" : "L01-521-111"
+  }, {
+    "content" : "Hand Lantern 105 lux / 115mm / 84g 1 x AA / 4.2Wh / 8 hour",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "8405",
+    "number" : "L01-521-115"
+  }, {
+    "content" : "Hand Lantern 220 lux / 146mm / 196g AAA x 4 / 4.58Wh / 1~3.5 hour",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "8307",
+    "number" : "L01-521-119"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>  <tr>    <th scope=\"row\" width=\"173\"><strong>Cat. No.</strong></th>    <th width=\"157\" scope=\"row\"><strong>Model</strong></th>    <th width=\"157\" scope=\"row\">밝기</th>    <th width=\"161\" class=\"tdfin\" scope=\"row\">Size</th>    <th width=\"150\" class=\"tdfin\" scope=\"row\">Battery</th>    </tr>  <tr>    <td class=\"trfinth4\" scope=\"row\">L01-521-111</td>    <td scope=\"row\">8404 ①</td>    <td scope=\"row\">20 lux</td>    <td scope=\"row\">140 mm</td>    <td class=\"tdfin\" scope=\"row\">AAA×2</td>    </tr>  <tr>    <td class=\"trfinth4\" scope=\"row\">L01-521-115</td>    <td scope=\"row\">8405 ②</td>    <td scope=\"row\">105 lux</td>    <td scope=\"row\">26 ×115 mm</td>    <td class=\"tdfin\" scope=\"row\">AA×1</td>    </tr>  <tr>    <td class=\"trfinth\" scope=\"row\">L01-521-119</td>    <td class=\"trfin\" scope=\"row\">8307</td>    <td class=\"trfin\" scope=\"row\">220 lux</td>    <td class=\"trfin\" scope=\"row\">37 ×132 mm</td>    <td class=\"trfin2\" scope=\"row\">AAA×4</td>  </tr></thead></table>" ],
+  "title" : "Hand Lantern (손전등)",
+  "type" : "expendables_L"
+}, {
+  "classify" : "Light[광원]",
+  "content" : [ "■ LED Lantern", "■ MD Light" ],
+  "id" : "1772",
+  "image" : "http://lklab.com/product_image/S-8369.jpg",
+  "specification" : [ {
+    "content" : "Head Lantern 140 lux / 117g AAA x 3 / 4.95Wh / 54 hour",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "7497",
+    "number" : "L01-521-222"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">                           <thead>                <tr>                 <th width=\"160\" scope=\"col\">Cat. No.</th>                 <th width=\"160\" scope=\"col\">Model</th>                 <th width=\"160\" scope=\"col\">밝기</th>                 <th width=\"160\" scope=\"col\">무게</th>                 <th width=\"160\" class=\"tdfin\" scope=\"col\">Battery</th>                </tr>              </thead>              <tbody>                <tr>                  <td class=\"trfinth\" scope=\"col\">L01-521-222</td>                  <td class=\"trfin\" scope=\"col\">7497</td>                  <td class=\"trfin\">140 lux</td>                  <td class=\"trfin\">164 g</td>                  <td class=\"trfin2\" scope=\"col\">AAA×4</td>                </tr>              </tbody>            </table>" ],
+  "title" : "Head Lantern (헤드 랜턴)",
+  "type" : "expendables_L"
+}, {
+  "classify" : "Light[광원]",
+  "content" : [ "■ 밝기단계 조절가능", "■ 기존 Light Box 보다 슬림해진 두께", "■ 아크릴 패널, LED 램프 (밝기 3단계)", "■ 마지막 설정을 기억하는 Memory 기능", "■ 적합 사용 용도 : 사진, 애니메이션, 디자인, X-ray 확인", "■ HUION" ],
+  "id" : "1773",
+  "image" : "http://lklab.com/product_image/S-8371.jpg",
+  "specification" : [ {
+    "content" : "Light PAD/USB/A4 310*210mm 360*270*5.1mm",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LLPA4S",
+    "number" : "L01-521-369"
+  }, {
+    "content" : "Light PAD/A4 310*210mm 360*270*7mm",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LLPA4",
+    "number" : "L01-521-371"
+  }, {
+    "content" : "Light PAD/A3 430*310mm 479*361*7mm",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LLPA3",
+    "number" : "L01-521-561"
+  }, {
+    "content" : "Light PAD/A2 520*320mm 600*400*11mm",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LLPA2",
+    "number" : "L01-521-568"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">      <thead>        <tr>          <th scope=\"row\" width=\"160\">Cat. No</th>          <th width=\"160\" scope=\"row\">Model</th>          <th width=\"480\" class=\"tdfin\" scope=\"row\">Viewing Size</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">L01-521-369</td>          <td class=\"tdfinth3\" scope=\"row\">LLPA4S</td>          <td rowspan=\"2\" class=\"tdfin\" scope=\"row\">A4 사이즈, 310×210 mm  </td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">L01-521-371</td>          <td class=\"tdfinth3\" scope=\"row\">LLPA4</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">L01-521-561</td>          <td class=\"tdfinth3\" scope=\"row\">LLPA3</td>          <td class=\"tdfin\" scope=\"row\">A3 사이즈, 430×310 mm   </td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">L01-521-568</td>          <td class=\"trfin\" scope=\"row\">LLPA2</td>          <td class=\"trfin2\" scope=\"row\">A2 사이즈, 520×320 mm </td>  </tr></tbody></table>                        <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">                           <thead>                <tr>                 <th width=\"160\" scope=\"col\">Cat. No.</th>                 <td width=\"160\" class=\"trfinth4\" scope=\"col\">L01-521-369</td>                 <td width=\"160\" class=\"trfinth4\" scope=\"col\">L01-521-371</td>                 <td width=\"160\" class=\"trfinth4\" scope=\"col\">L01-521-561</td>                 <td width=\"160\" class=\"trfinth3\" scope=\"col\">L01-521-568</td>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"col\">Model</th>                  <td class=\"trfinth4\" scope=\"col\">LLPA4S</td>                  <td class=\"trfinth4\" scope=\"col\">LLPA4</td>                  <td class=\"trfinth4\" scope=\"col\">LLPA3</td>                  <td class=\"trfinth3\" scope=\"col\">LLPA2</td>                </tr>                <tr>                  <th scope=\"col\">Brightness Control</th>                  <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Low, Medium, High (3단계 조절)</td>                </tr>                <tr>                  <th scope=\"col\">Power Source</th>                  <td scope=\"col\">USB Cable Only</td>                  <td scope=\"col\">AC Adapter Only</td>                  <td scope=\"col\">AC Adapter Only</td>                  <td class=\"tdfin\" scope=\"col\">AC Adapter Only</td>                </tr>                <tr>                  <th scope=\"col\">AC Adapter (Option)</th>                  <td scope=\"col\">5V / 600mA</td>                  <td scope=\"col\">12V / 3.6W</td>                  <td scope=\"col\">12V / 5W</td>                  <td class=\"tdfin\" scope=\"col\">12V / 6W</td>                </tr>                <tr>                  <th scope=\"col\">Size</th>                  <td scope=\"col\">w360×d270×h5  mm </td>                  <td scope=\"col\">w360×d270×h7  mm</td>                  <td scope=\"col\">w479×d361×h7  mm</td>                  <td class=\"tdfin\" scope=\"col\">w600×d400×h11  mm</td>                </tr>                <tr>                  <th class=\"trfinth2\" scope=\"col\">Weight</th>                  <td class=\"trfin\" scope=\"col\">550 g </td>                  <td class=\"trfin\" scope=\"col\">1.12 kg </td>                  <td class=\"trfin\" scope=\"col\">2.3 kg </td>                  <td class=\"trfin2\" scope=\"col\">3.5 kg </td>                </tr>              </tbody>            </table>" ],
+  "title" : "Light Pad (라이트 패드)",
+  "type" : "expendables_L"
+}, {
+  "classify" : "Light Meter[조도계]",
+  "content" : [ "■ Dual Display : Lux or Foot-candles", "■ Percent Differential Display : From a Reference Point and Selected Light Source", "■ Light Source : Daylight, Tungsten, Fluorescent, Mercury", "■ RS-232 Output 기본 장착", "■ Precise Photodiode and Color-Correction Filter", "■ 최고, 최저, 평균값 표시 가능", "■ 측정 값 Hold Button", "■ 국내 소급가능한 Traceable® 성적서 제공 (ILAC)", "■ Control Company" ],
+  "id" : "1774",
+  "image" : "http://lklab.com/product_image/S-6252.jpg",
+  "specification" : [ {
+    "content" : "Light Meter 0~50.000 Lux 0~5000 FC",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "3252",
+    "number" : "L02-147-011"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">              <caption style=\" display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th width=\"200\" scope=\"col\">Cat. No.</th>                 <th width=\"200\" scope=\"col\">Model</th>                 <th width=\"200\" scope=\"col\">Lux 범위</th>                 <th width=\"200\" class=\"tdfin\" scope=\"col\">Fc 범위</th>                </tr>              </thead>              <tbody>                <tr>                <td class=\"trfinth\" scope=\"row\">L02-147-011</td>                  <td class=\"trfin\" scope=\"col\">3252</td>                  <td class=\"trfin\" scope=\"col\">0 ~ 50,000 lux</td>                  <td class=\"trfin2\" scope=\"col\">0~5000 Fc</td>                </tr>              </tbody>            </table>                            <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th colspan=\"2\" scope=\"row\">Cat. No.</th>                 <td colspan=\"4\" class=\"trfinth3\" scope=\"col\">L02-147-011</td>                </tr>              </thead>              <tbody>                <tr>                  <th colspan=\"2\" scope=\"row\">Model</th>                  <td colspan=\"4\" class=\"trfinth3\" scope=\"col\">3252</td>                </tr>                <tr>                  <th width=\"100\" rowspan=\"3\" scope=\"row\">Iux</th>                  <th width=\"100\" scope=\"row\">Range</th>                  <td width=\"200\" scope=\"row\">1 to 1,999 Iux</td>                  <td width=\"200\" colspan=\"2\" scope=\"row\">2,000 to 19,999 Iux</td>                  <td width=\"200\" class=\"tdfin\" scope=\"row\">20,000 to 50,000 Iux</td>                </tr>                <tr>                  <th scope=\"row\">Resolution</th>                  <td scope=\"row\">1 Iux</td>                  <td colspan=\"2\" scope=\"row\">10 Iux</td>                  <td class=\"tdfin\" scope=\"row\">100 Iux</td>                </tr>                <tr>                  <th scope=\"row\">Accuracy</th>                  <td colspan=\"4\" class=\"tdfin\" scope=\"row\"> 4.5% Full Scale</td>                </tr>                <tr>                  <th rowspan=\"3\" scope=\"row\">Fc</th>                  <th scope=\"row\">Range</th>                  <td scope=\"row\">0 to 199.9 Fc</td>                  <td colspan=\"2\" scope=\"row\">200 to 1999 Fc</td>                  <td class=\"tdfin\" scope=\"row\">2000 to 5000 Fc</td>                </tr>                <tr>                  <th scope=\"row\">Resolution</th>                  <td scope=\"row\">0.1 Fc</td>                  <td colspan=\"2\" scope=\"row\">1 Fc</td>                  <td class=\"tdfin\" scope=\"row\">10 Fc</td>                </tr>                <tr>                  <th scope=\"row\">Accuracy</th>                  <td colspan=\"4\" class=\"tdfin\" scope=\"row\">±4.5% Full Scale</td>                </tr>                <tr>                  <th width=\"200\" colspan=\"2\" scope=\"row\">Probe</th>                  <td colspan=\"4\" class=\"tdfin\" scope=\"row\">Ø 51 mm Photocell, 2.5 M Cable</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Size</th>                  <td colspan=\"4\" class=\"tdfin\" scope=\"row\">w77× d32× h178 mm</td>                </tr>                <tr>                  <th colspan=\"2\" class=\"trfin\">Power</th>                  <td colspan=\"4\" class=\"trfin2\" scope=\"row\">9V Alkaline Battery</td>                </tr>              </tbody></table>" ],
+  "title" : "Light Meter - Luxmeter (조도계)",
+  "type" : "expendables_L"
+}, {
+  "classify" : "Light Meter[조도계]",
+  "content" : [ "■ UV Wavelength Range : 320 to 390 nm", "■ RS-232 Output 기본 장착", "■ Precise Photodiode and Color-Correction Filter", "■ 최고, 최저, 평균값 표시 가능", "■ 측정 값 Hold Button", "■ 국내 소급가능한 Traceable® 성적서 제공 (ILAC)", "■ Control Company" ],
+  "id" : "1775",
+  "image" : "http://lklab.com/product_image/S-6253.jpg",
+  "specification" : [ {
+    "content" : "Light Meter 0 to 1999 uW/cm2 UV 파장 320~390 nm",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "3253",
+    "number" : "L02-147-022"
+  }, {
+    "content" : "Data Acquisition System Computer Program & Cable",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "4136",
+    "number" : "A06-147-205"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">                     <thead>                <tr>                 <th width=\"200\" scope=\"col\">Cat. No.</th>                 <th width=\"200\" scope=\"col\">Model</th>                 <th width=\"200\" scope=\"col\">측정 Runge</th>                 <th width=\"200\" class=\"tdfin\" scope=\"col\">자외선 파장</th>                </tr>              </thead>              <tbody>                <tr>                <td class=\"trfinth4\" scope=\"row\">L02-147-022</td>                  <td scope=\"col\">3253</td>                  <td scope=\"col\">0 ~ 199.9 uW/cm2</td>                  <td class=\"tdfin\" scope=\"col\">320 ~ 390 nm</td>                </tr>                <tr>                <td class=\"trfinth\" scope=\"row\">A06-147-205</td>                  <td class=\"trfin\" scope=\"col\">4136</td>                  <td class=\"trfin2\" scope=\"col\" colspan=\"2\">Data Acquisition System</td>                </tr>              </tbody></table>                        <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">               <thead>                <tr>                 <th width=\"200\" scope=\"row\">Cat. No.</th>                 <td colspan=\"4\" class=\"trfinth3\" scope=\"col\">L02-147-022</td>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"row\">Model</th>                  <td colspan=\"4\" class=\"trfinth3\" scope=\"col\">3253</td>                </tr>                <tr>                  <th scope=\"row\">UV Range</th>                  <td width=\"200\" scope=\"row\">0 to 199.9 uW/cm2</td>                  <td width=\"200\" colspan=\"2\" scope=\"row\">200 to 1.999 mW/cm2</td>                  <td width=\"200\" class=\"tdfin\" scope=\"row\">2.00 to 19.99 mW/cm2</td>                </tr>                <tr>                  <th scope=\"row\">Resolution</th>                  <td scope=\"row\">0.1 uW/cm2</td>                  <td colspan=\"2\" scope=\"row\">0.001 mW/cm2</td>                  <td class=\"tdfin\" scope=\"row\">0.01 mW/cm2</td>                </tr>                <tr>                  <th scope=\"row\">Accuracy</th>                  <td colspan=\"2\" scope=\"row\">±4.2 uW/cm2 + 1 uW/cm2</td>                  <td scope=\"row\">– 0.04 mW/cm2 + 0.01 mW/cm2</td>                  <td scope=\"row\" class=\"tdfin\">– 0.4 mW/cm2 + 0.1 mW/cm2</td>                </tr>                <tr>                  <th scope=\"row\">Probe</th>                  <td colspan=\"4\" scope=\"row\" class=\"tdfin\">19 mm Photocell, 2.5 M Cable</td>                </tr>                <tr>                  <th scope=\"row\">Size</th>                  <td colspan=\"4\" scope=\"row\" class=\"tdfin\">w77× d32× h178 mm</td>                </tr>                <tr>                  <th class=\"trfin\">Power</th>                  <td colspan=\"4\" class=\"trfin2\" scope=\"row\">9V Alkaline Battery</td>                </tr>              </tbody></table>" ],
+  "title" : "Ultravioler Light Meter (자외선용 조도계)",
+  "type" : "expendables_L"
+} ]

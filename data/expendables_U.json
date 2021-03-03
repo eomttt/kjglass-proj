@@ -1,0 +1,1203 @@
+[ {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ 강력한 세정력 : BLT 진동자를 사용하여 저소음이며, 세정력이 강함", "■ Stainless 재질의 Body에 특수도장처리를 하여 화공약품에 대한", "내구성이 강함", "■ 산, 염기와는 사용 불가함", "■ 30분 타이머 스위치 방식으로 간편하게 초음파를 동작시킬 수 있음", "■ 온도 조절 센서가 부착되어 있어 원하는 온도로 보온이 유지됨", "(단, 1.2 Lit. 및 1.8 Lit. 제외)", "■ Basket은 별도 구매해야 함", "■ LK Labkorea" ],
+  "id" : "2932",
+  "image" : "http://lklab.com/product_image/S-10796.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner Analog type 1.2 Liter",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LK-U012",
+    "number" : "U02-56-125"
+  }, {
+    "content" : "Ultrasonic cleaner Analog type 1.8 Liter",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LK-U020",
+    "number" : "U02-56-131"
+  }, {
+    "content" : "Ultrasonic cleaner Analog type 3.3 Liter",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LK-U035",
+    "number" : "U02-56-137"
+  }, {
+    "content" : "Ultrasonic cleaner Analog type 6 Liter",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LK-U065",
+    "number" : "U02-56-143"
+  }, {
+    "content" : "Ultrasonic cleaner Analog type 10 Liter",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "LK-U105",
+    "number" : "U02-56-149"
+  }, {
+    "content" : "Ultrasonic cleaner Analog type 22 Liter",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "LK-U225",
+    "number" : "U02-56-155"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"200\" scope=\"row\">Capacity</th>          <th width=\"200\" class=\"tdfin\" scope=\"row\">Tank Size (w×d×h)</th>        </tr>      </thead>      <tbody>               <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-125</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U012</td>          <td scope=\"row\">1.2 L</td>          <td class=\"tdfin\" scope=\"row\">150 × 135 × 60 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-131</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U020</td>          <td scope=\"row\">1.8 L</td>          <td class=\"tdfin\" scope=\"row\">150 × 135 × 100 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-137</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U035</td>          <td scope=\"row\">3.3 L</td>          <td class=\"tdfin\" scope=\"row\">240 × 140 × 100 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-143</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U065</td>          <td scope=\"row\">6 L</td>          <td class=\"tdfin\" scope=\"row\">290 × 150 × 150 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-149</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U105</td>          <td scope=\"row\">10 L</td>          <td class=\"tdfin\" scope=\"row\"> 290 × 240 × 150 mm</td>        </tr>                <tr>          <td class=\"trfinth\" scope=\"row\">U02-56-155</td>          <td class=\"trfin\" scope=\"row\">LK-U225</td>          <td class=\"trfin\" scope=\"row\">22 L</td>          <td class=\"trfin2\" scope=\"row\">500 × 300 × 150 mm </td>        </tr>      </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th width=\"135\" scope=\"col\">Cat. No.</th>                 <td width=\"110\" class=\"trfinth4\" scope=\"col\">U02-56-125</td>                 <td width=\"111\" class=\"trfinth4\" scope=\"col\">U02-56-131</td>                 <td width=\"111\" class=\"trfinth4\" scope=\"col\">U02-56-137</td>                 <td width=\"111\" class=\"trfinth4\" scope=\"col\">U02-56-143</td>                 <td width=\"111\" class=\"trfinth4\" scope=\"col\">U02-56-149</td>                 <td width=\"111\" class=\"trfinth3\" scope=\"col\">U02-56-155</td>                </tr>                <tr>                 <th scope=\"col\">Model</th>                 <td class=\"trfinth4\" scope=\"col\">LK-U012</td>                 <td class=\"trfinth4\" scope=\"col\">LK-U020</td>                 <td class=\"trfinth4\" scope=\"col\">LK-U035</td>                 <td class=\"trfinth4\" scope=\"col\">LK-U065</td>                 <td class=\"trfinth4\" scope=\"col\">LK-U105</td>                 <td class=\"trfinth3\" scope=\"col\">LK-U225</td>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"col\">Controller</th>                  <td class=\"tdfin\" colspan=\"6\" scope=\"col\">Analog Type (Dial)</td>                </tr>                <tr>                  <th scope=\"col\">Tank Size<br>                  (w×d×h)</th>                  <td scope=\"col\">150×135×60</td>                  <td scope=\"col\">150×135×100</td>                  <td scope=\"col\">240×140×100</td>                  <td scope=\"col\">290×150×150</td>                  <td scope=\"col\">290×240×150</td>                  <td class=\"tdfin\" scope=\"col\">500×300×150</td>                </tr>               <tr>                  <th scope=\"col\">Capacity</th>                  <td scope=\"col\">1.2 L</td>                  <td scope=\"col\">1.8 L</td>                  <td scope=\"col\">3.3 L</td>                  <td scope=\"col\">6 L</td>                  <td scope=\"col\">10 L</td>                  <td class=\"tdfin\" scope=\"col\">22 L</td>                </tr>                               <tr>                  <th scope=\"col\">Output Power</th>                  <td scope=\"col\">50 W</td>                  <td scope=\"col\">60 W</td>                  <td scope=\"col\">100 W</td>                  <td scope=\"col\">150 W</td>                  <td scope=\"col\">200 W</td>                  <td class=\"tdfin\" scope=\"col\">300 W</td>                </tr>                <tr>                  <th scope=\"col\">초음파 주파수</th>                  <td scope=\"col\">28 kHZ</td>                  <td colspan=\"5\" class=\"tdfin\" scope=\"col\">40 kHz</td>                </tr>                <tr>                  <th scope=\"col\">Timer</th>                  <td scope=\"col\">None</td>                  <td colspan=\"5\" class=\"tdfin\" scope=\"col\">0 ~ 30 min</td>                </tr>                <tr>                  <th scope=\"col\">Drain Valve</th>                  <td colspan=\"4\" scope=\"col\">None</td>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">1/2” NPT</td>                </tr>                <tr>                  <th scope=\"col\">Temp.</th>                  <td colspan=\"2\" scope=\"col\"> 75℃ Fixed</td>                  <td colspan=\"4\" class=\"tdfin\" scope=\"col\">30 ~ 85℃ ±10%</td>                </tr>                <tr>                  <th scope=\"col\">Body Meterial</th>                  <td class=\"tdfin\" colspan=\"6\" scope=\"col\">SUS430 특수도장처리</td>                </tr>                <tr>                  <th scope=\"col\">Weight</th>                  <td scope=\"col\">1.7 kg</td>                  <td scope=\"col\">2.7 kg</td>                  <td scope=\"col\">4.2 kg</td>                  <td scope=\"col\">5.6 kg</td>                  <td scope=\"col\">8 kg</td>                  <td class=\"tdfin\" scope=\"col\">11 kg</td>                </tr>               <tr>                  <th class=\"trfinth2\" scope=\"col\">Power</th>                  <td colspan=\"6\" class=\"trfin2\" scope=\"col\">220V, 50/60 Hz</td>                </tr>              </tbody></table>" ],
+  "title" : "Ultrasonic Cleaner (초음파 세척기, Analog type)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ 강력한 세정력 : BLT 진동자를 사용하여 저소음이며, 세정력이 강함", "■ Stainless 재질의 Body에 특수도장처리를 하여 화공약품에 대한", "내구성이 강함", "■ 산, 염기와는 사용 불가함", "■ 실리콘 방수 처리로 강한 내구성", "■ 세정시간을 sec/min으로 선택 가능하며, 최대 60분까지 설정가능함", "(LCD Display)", "■ Heater 동작시 LCD 창에 현재온도/설정온도가 표시됨", "■ 초음파의 출력을 20 ~ 100% 까지 조절 가능", "■ Degas (수조 내 가스 배출), Sweep (초음파 세정 범위 확대) 기능 내장", "■ Basket 포함 (세척제는 별도임)", "■ LK Labkorea" ],
+  "id" : "2933",
+  "image" : "http://lklab.com/product_image/S-10797.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner Digital type 6 Liter",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LK-U065D",
+    "number" : "U02-56-243"
+  }, {
+    "content" : "Ultrasonic cleaner Digital type 10 Liter",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LK-U105D",
+    "number" : "U02-56-249"
+  }, {
+    "content" : "Ultrasonic cleaner Digital type 22 Liter",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LK-U225D",
+    "number" : "U02-56-255"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"200\" scope=\"row\">Capacity</th>          <th width=\"200\" class=\"tdfin\" scope=\"row\">Tank Size (w×d×h)</th>        </tr>      </thead>      <tbody>               <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-243</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U065D</td>          <td scope=\"row\">6 L</td>          <td class=\"tdfin\" scope=\"row\">290 × 150 × 150 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-249</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U105D</td>          <td scope=\"row\">10 L</td>          <td class=\"tdfin\" scope=\"row\">290 × 240 × 150 mm</td>        </tr>    <tr>          <td class=\"trfinth\" scope=\"row\">U02-56-255</td>          <td class=\"trfin\" scope=\"row\">LK-U225D</td>          <td class=\"trfin\" scope=\"row\">22 L</td>          <td class=\"trfin2\" scope=\"row\">500 × 300 × 150 mm </td>        </tr>      </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">    상세 규격 표   </caption><thead>    <tr>      <th width=\"200\" colspan=\"2\" scope=\"col\">Cat. No.</th>      <td width=\"200\" class=\"trfinth4\" scope=\"col\">U02-56-243</td>      <td width=\"200\" class=\"trfinth4\" scope=\"col\">U02-56-249</td>      <td width=\"200\" class=\"trfinth3\" scope=\"col\">U02-56-255</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Model</th>      <td class=\"trfinth4\" scope=\"col\">LK-U065D</td>      <td class=\"trfinth4\" scope=\"col\">LK-U105D</td>      <td class=\"trfinth3\" scope=\"col\">LK-U225D</td>    </tr>  </thead>  <tbody>    <tr>      <th colspan=\"2\" scope=\"col\">Controller</th>      <td class=\"tdfin\" colspan=\"3\" scope=\"col\">Digital Type (LCD Display)</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Tank Size </th>      <td scope=\"col\">w290×d150×h150 mm</td>      <td scope=\"col\">w290×d240×h150 mm</td>      <td class=\"tdfin\" scope=\"col\">w500×d300×h150 mm</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Capacity</th>      <td scope=\"col\">6 L</td>      <td scope=\"col\">10 L</td>      <td class=\"tdfin\" scope=\"col\">22 L</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Output Power</th>      <td scope=\"col\">150 W</td>      <td scope=\"col\">200 W</td>      <td class=\"tdfin\" scope=\"col\">400 W</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">초음파 주파수</th>      <td class=\"tdfin\" colspan=\"3\" scope=\"col\">40 kHz</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Timer</th>      <td class=\"tdfin\" colspan=\"3\" scope=\"col\">0 ~ 60 min    </td></tr>       <tr>      <th colspan=\"2\" scope=\"col\">Drain Valve</th>      <td scope=\"col\">None</td>      <td class=\"tdfin\" colspan=\"2\" scope=\"col\">1/2” NPT</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Temp.</th>      <td class=\"tdfin\" colspan=\"3\" scope=\"col\">30 ~ 85℃ ±10%</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Body Meterial</th>      <td class=\"tdfin\" colspan=\"3\" scope=\"col\">SUS430 특수도장처리</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Weight</th>      <td scope=\"col\">6 kg</td>      <td scope=\"col\">8.5 kg</td>      <td class=\"tdfin\" scope=\"col\">14.5 kg</td>    </tr>   <tr>      <th colspan=\"2\" class=\"trfinth2\" scope=\"col\">Power</th>      <td colspan=\"3\" class=\"trfin2\" scope=\"col\">220V, 50/60 Hz</td>    </tr>  </tbody></table>" ],
+  "title" : "Ultrasonic Cleaner (초음파 세척기, Digital type)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ 강력한 세정력 : BLT 진동자를 사용하여 저소음이며, 세정력이 강함", "■ Stainless 재질의 Body에 특수도장처리를 하여 화공약품에 대한 내구성이 강함", "■ 산, 염기와는 사용 불가함", "■ 세정시간을 sec/min으로 선택 가능하며, 최대 99분까지 설정가능함 (Generator 분리형)", "■ Heater 동작시 LCD 창에 현재온도/설정온도가 표시됨", "■ 초음파의 출력을 5 ~ 100% 조절 가능", "■ Basket은 별도 구매해야 함", "■ LK Labkorea" ],
+  "id" : "2934",
+  "image" : "http://lklab.com/product_image/S-10798.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner Large Capacity 30 Liter",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LK-U300",
+    "number" : "U02-56-350"
+  }, {
+    "content" : "Ultrasonic cleaner Large Capacity 47 Liter",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LK-U470",
+    "number" : "U02-56-356"
+  }, {
+    "content" : "Ultrasonic cleaner Large Capacity 60 Liter",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LK-U600",
+    "number" : "U02-56-362"
+  }, {
+    "content" : "Ultrasonic cleaner Large Capacity 74 Liter",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LK-U740",
+    "number" : "U02-56-368"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"200\" scope=\"row\">용량</th>          <th width=\"200\" class=\"tdfin\" scope=\"row\">Tank Size (w×d×h)</th>        </tr>      </thead>      <tbody>               <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-350</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U300</td>          <td scope=\"row\">30 L</td>          <td class=\"tdfin\" scope=\"row\">400 × 300 × 250 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-356</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U470</td>          <td scope=\"row\">47 L</td>          <td class=\"tdfin\" scope=\"row\">450 × 350 × 300 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-362</td>          <td class=\"tdfinth3\" scope=\"row\">LK-U600</td>          <td scope=\"row\">60 L</td>          <td class=\"tdfin\" scope=\"row\">500 × 400 × 300 mm</td>        </tr>    <tr>          <td class=\"trfinth\" scope=\"row\">U02-56-368</td>          <td class=\"trfin\" scope=\"row\">LK-U740</td>          <td class=\"trfin\" scope=\"row\">74 L</td>          <td class=\"trfin2\" scope=\"row\">550 × 450 × 300 mm</td>        </tr>      </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th width=\"160\" scope=\"col\">Cat. No.</th>                 <td width=\"160\" colspan=\"3\" class=\"trfinth4\" scope=\"col\">U02-56-350</td>                 <td width=\"160\" class=\"trfinth4\" scope=\"col\">U02-56-356</td>                 <td width=\"160\" class=\"trfinth4\" scope=\"col\">U02-56-362</td>                 <td width=\"160\" class=\"trfinth3\" scope=\"col\">U02-56-368</td>                </tr>                <tr>                 <th scope=\"col\">Model</th>                 <td colspan=\"3\" class=\"trfinth4\" scope=\"col\">LK-U300</td>                 <td class=\"trfinth4\" scope=\"col\">LK-U470</td>                 <td class=\"trfinth4\" scope=\"col\">LK-U600</td>                 <td class=\"trfinth3\" scope=\"col\">LK-U740</td>                </tr>              </thead>              <tbody>                <tr>                  <th scope=\"col\">Controller</th>                  <td class=\"tdfin\" colspan=\"6\" scope=\"col\">Generator : Digital Type (LCD Display)</td>                </tr>                <tr>                  <th scope=\"col\">Tank Size (w×d×h)</th>                  <td colspan=\"3\" scope=\"col\">400×300×250 mm</td>                  <td scope=\"col\">450×350×300 mm</td>                  <td scope=\"col\">500×400×300 mm</td>                  <td class=\"tdfin\" scope=\"col\">550×450×300 mm</td>                </tr>               <tr>                  <th scope=\"col\">Capacity</th>                  <td colspan=\"3\" scope=\"col\">30 L</td>                  <td scope=\"col\">47 L</td>                  <td scope=\"col\">60 L</td>                  <td class=\"tdfin\" scope=\"col\">74 L</td>                </tr>                               <tr>                  <th scope=\"col\">Output Power</th>                  <td colspan=\"3\" scope=\"col\">600 W</td>                  <td scope=\"col\">900 W</td>                  <td scope=\"col\">1200 W</td>                  <td class=\"tdfin\" scope=\"col\">1500 W</td>                </tr>                <tr>                  <th scope=\"col\">Frequency</th>                  <td class=\"tdfin\" colspan=\"6\" scope=\"col\">40 kHz</td>                </tr>                <tr>                  <th scope=\"col\">Timer</th>                  <td class=\"tdfin\" colspan=\"6\" scope=\"col\">0 ~ 99 min</td>                </tr>                <tr>                  <th scope=\"col\">Drain Valve</th>                  <td class=\"tdfin\" colspan=\"6\" scope=\"col\">1/2” NPT</td>                </tr>                               <tr>                  <th scope=\"col\">Temp.</th>                  <td class=\"tdfin\" colspan=\"6\" scope=\"col\">Ambient +10℃ to 110℃</td>                </tr>                             <tr>                  <th class=\"trfinth2\" scope=\"col\">Power</th>                  <td colspan=\"6\" class=\"trfin2\" scope=\"col\">220V, 50/60 Hz</td>                </tr>              </tbody></table>" ],
+  "title" : "Large Capacity Ultrasonic Cleaner (대용량 초음파 세척기, Generator 분리형)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ 재질 : Stainless Steel Wire", "■ LK Labkorea" ],
+  "id" : "2935",
+  "image" : "http://lklab.com/product_image/S-10799.jpg",
+  "specification" : [ {
+    "content" : "Basket for 2Lit.",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "LK-BA020",
+    "number" : "U02-56-817"
+  }, {
+    "content" : "Basket for 3.3Lit.",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "LK-BA035",
+    "number" : "U02-56-823"
+  }, {
+    "content" : "Basket for 6.5Lit.",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "LK-BA065",
+    "number" : "U02-56-829"
+  }, {
+    "content" : "Basket for 10.5Lit.",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "LK-BA105",
+    "number" : "U02-56-835"
+  }, {
+    "content" : "Basket for 22.5Lit.",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "LK-BA225",
+    "number" : "U02-56-841"
+  }, {
+    "content" : "Basket for 30Lit.",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "LK-BA300",
+    "number" : "U02-56-847"
+  }, {
+    "content" : "Basket for 47Lit.",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "LK-BA470",
+    "number" : "U02-56-853"
+  }, {
+    "content" : "Basket for 60Lit.",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "LK-BA600",
+    "number" : "U02-56-859"
+  }, {
+    "content" : "Basket for 74Lit.",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "LK-BA740",
+    "number" : "U02-56-865"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"200\" scope=\"row\">용량</th>          <th width=\"200\" class=\"tdfin\" scope=\"row\">Size (w×d×h)</th>        </tr>      </thead>      <tbody>               <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-817</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA020</td>          <td scope=\"row\">2 L</td>          <td class=\"tdfin\" scope=\"row\">120×105×65 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-823</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA035</td>          <td scope=\"row\">3.3 L</td>          <td class=\"tdfin\" scope=\"row\">215×115×65 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-829</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA065</td>          <td scope=\"row\">6.5 L</td>          <td class=\"tdfin\" scope=\"row\">274×123×96 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-835</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA105</td>          <td scope=\"row\">10.5 L</td>          <td class=\"tdfin\" scope=\"row\">262×206×93 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-841</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA225</td>          <td scope=\"row\">22.5 L</td>          <td class=\"tdfin\" scope=\"row\">452×263×93 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-847</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA300</td>          <td scope=\"row\">30 L</td>          <td class=\"tdfin\" scope=\"row\">330×320×140 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-853</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA470</td>          <td scope=\"row\">47 L</td>          <td class=\"tdfin\" scope=\"row\">380×280×190 mm</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-56-859</td>          <td class=\"tdfinth3\" scope=\"row\">LK-BA600</td>          <td scope=\"row\">60 L</td>          <td class=\"tdfin\" scope=\"row\">430×330×190 mm</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">U02-56-865</td>          <td class=\"trfin\" scope=\"row\">LK-BA740<span class=\"tdfinth3\"></span></td>          <td class=\"trfin\" scope=\"row\">74 L</td>          <td class=\"trfin2\" scope=\"row\">480×380×190 mm</td>        </tr>      </tbody></table>" ],
+  "title" : "Optional Basket for Ultrasonic Cleaner (초음파 세척기용 트레이)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ Ultrasonic Frequency : 40Khz", "■ Timmer : 1 ~ 99 min", "■ Ultrasonic Power : 100 W", "■ 공업용 BLT 진동자 : 강력한 파워 및 내구성", "■ 연구실, 실험실, 병원, 전기, 전자, 특수 용도에 사용", "■ 산, 염기와는 사용 불가함", "■ Overall Size/ Weight : w290×d240×h200 mm, 2 Kg", "■ Tank Size : w142×d132×h104 mm", "■ Basket은 포함되어 있음", "■ Kodo" ],
+  "id" : "2936",
+  "image" : "http://lklab.com/product_image/S-10800.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner Portable, 100w 2L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "NXP-1002",
+    "number" : "U02-328-222"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표  </caption><thead>    <tr>      <th scope=\"row\" width=\"200\">Cat. No.</th>      <th width=\"200\" scope=\"row\">Model</th>      <th width=\"200\" class=\"tdfinth3\" scope=\"row\">용량</th>      <th width=\"200\" scope=\"row\" class=\"tdfin\">Power</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth\" scope=\"row\">U02-328-222</td>      <td class=\"trfin\" scope=\"row\">NXP-1002</td>      <td class=\"trfin\" scope=\"row\">2 L</td>      <td class=\"trfin2\" scope=\"row\">100 W</td>    </tr>  </tbody></table>" ],
+  "title" : "Portable Ultrasonic Cleaner (탁상형 초음파 세척기, 2L)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ Ultrasonic Frequency : 40Khz", "■ Timmer : 1 ~ 99 min", "■ Heater Range : 상온 ~ 70℃", "■ 마이콤 제어방식 : 타이머, 출력, 온도조절 용이", "■ 공업용 BLT 진동자 : 강력한 파워 및 내구성", "■ 초음파 출력 조절 : 강,중,약 3단계", "■ 초음파 동작 모드 : Normal, Pulse, Sweep", "■ Degas 기능 : 용존가스를 제거하여 세척력 향상", "■ 연구실, 실험실, 병원, 전기, 전자, 특수 용도에 사용", "■ 산, 염기와는 사용 불가함", "■ Basket은 포함되어 있음", "■ Kodo" ],
+  "id" : "2937",
+  "image" : "http://lklab.com/product_image/S-10802.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner ABS, 40Khz 10L, 300W",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "JAC-3010",
+    "number" : "U02-328-321"
+  }, {
+    "content" : "Ultrasonic cleaner ABS, 40Khz 20L, 500W",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "JAC-5020",
+    "number" : "U02-328-421"
+  }, {
+    "content" : "Ultrasonic cleaner SUS430 분채도장, 40KhZ 5.7L, 200W",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "NXPC-B2005SB",
+    "number" : "U02-328-720"
+  }, {
+    "content" : "Ultrasonic cleaner SUS430 분채도장, 40KhZ 10L, 300W",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "NXPC-B3010SB",
+    "number" : "U02-328-730"
+  }, {
+    "content" : "Ultrasonic cleaner SUS430 분채도장, 40Khz 20L, 500W",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "NXPC-B5020SB",
+    "number" : "U02-328-752"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, 40Khz 5.7L, 200W",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "NXPC-B2005S",
+    "number" : "U02-328-825"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, 40Khz 10L, 300W",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "NXPC-B3010S",
+    "number" : "U02-328-831"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, 40Khz 20L, 500W",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "NXPC-B5020S",
+    "number" : "U02-328-852"
+  }, {
+    "content" : "basket For Ultrasonic Cleaner 5.7L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "UCB057",
+    "number" : "U02-328-005"
+  }, {
+    "content" : "basket For Ultrasonic Cleaner 10L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "UCB100",
+    "number" : "U02-328-010"
+  }, {
+    "content" : "basket For Ultrasonic Cleaner 20L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "UCB200",
+    "number" : "U02-328-020"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"177\">Cat. No</th>          <th width=\"177\" scope=\"row\">Model</th>          <th width=\"177\" scope=\"row\">Capacity</th>          <th class=\"tdfin\" scope=\"row\">Overall Meterial</th>        </tr>      </thead>      <tbody>               <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-321</td>          <td class=\"tdfinth3\" scope=\"row\">JAC-3010</td>          <td scope=\"row\">10 L</td>          <td rowspan=\"2\" class=\"tdfin\" scope=\"row\">ABS</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-421</td>          <td class=\"tdfinth3\" scope=\"row\">JAC-5020</td>          <td scope=\"row\">20 L ①</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-720</td>          <td class=\"tdfinth3\" scope=\"row\">NXPC-B2005SB</td>          <td scope=\"row\">5.7 L</td>          <td rowspan=\"3\" class=\"tdfin\" scope=\"row\">SUS430<br> 분체도장</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-730</td>          <td class=\"tdfinth3\" scope=\"row\">NXPC-B3010SB</td>          <td scope=\"row\">10 L ②</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-752</td>          <td class=\"tdfinth3\" scope=\"row\">NXPC-B5020SB</td>          <td scope=\"row\">20 L ③</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-825</td>          <td class=\"tdfinth3\" scope=\"row\">NXPC-B2005S</td>          <td scope=\"row\">5.7 L</td>          <td rowspan=\"3\" class=\"trfin2\" scope=\"row\">SUS304</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-831</td>          <td class=\"tdfinth3\" scope=\"row\">NXPC-B3010S</td>          <td scope=\"row\">10 L ④</td>        </tr>    <tr>          <td class=\"trfinth\" scope=\"row\">U02-328-852</td>          <td class=\"trfin\" scope=\"row\">NXPC-B5020S</td>          <td class=\"trfin\" scope=\"row\">20 L ⑤</td>        </tr>      </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th height=\"46\" colspan=\"2\" scope=\"col\">Cat. No.</th>                 <td width=\"123\" class=\"trfinth4\" scope=\"col\">U02-328-321</td>                 <td width=\"123\" class=\"trfinth4\" scope=\"col\">U02-328-421</td>                 <td width=\"124\" class=\"trfinth4\" scope=\"col\"><p>U02-328-720</p>                  <p>U02-328-825</p></td>                 <td width=\"124\" class=\"trfinth4\" scope=\"col\"><p>U02-328-730</p>                  <p>U02-328-831</p></td>                 <td width=\"129\" class=\"trfinth3\" scope=\"col\"><p>U02-328-752</p>                  <p>U02-328-852</p></td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Model</th>                  <td width=\"123\" class=\"trfinth4\" scope=\"col\">JAC-3010</td>                  <td width=\"123\" class=\"trfinth4\" scope=\"col\">JAC-5020</td>                  <td width=\"124\" class=\"trfinth4\" scope=\"col\">B2005SB &amp; S</td>                  <td width=\"124\" class=\"trfinth4\" scope=\"col\">B3010SB &amp; S</td>                  <td width=\"129\" class=\"trfinth3\" scope=\"col\">B5020SB &amp; S</td>                </tr>                             </thead>              <tbody>                <tr>                  <th colspan=\"2\" scope=\"col\">Capacity</th>                  <td scope=\"col\">10 L</td>                  <td scope=\"col\">20 L</td>                  <td scope=\"col\">5.7 L</td>                  <td scope=\"col\">10 L</td>                  <td class=\"tdfin\" scope=\"col\">20 L</td>                </tr>                <tr>                  <th width=\"112\" rowspan=\"2\" scope=\"col\">Size<br>                  (w×d×h)</th>                  <th width=\"63\" scope=\"col\">Overall</th>                  <td scope=\"col\">490×368×297 mm</td>                  <td scope=\"col\">721×451×297 mm</td>                  <td scope=\"col\">325×230×320 mm</td>                  <td scope=\"col\">325×330×320 mm</td>                  <td class=\"tdfin\" scope=\"col\">530×330×297 mm</td>                </tr>               <tr>                  <th scope=\"col\">Tank</th>                  <td scope=\"col\">295×240×150 mm</td>                  <td scope=\"col\">500×290×150 mm</td>                  <td scope=\"col\">295×160×150 mm</td>                  <td scope=\"col\">295×240×150 mm</td>                  <td class=\"tdfin\" scope=\"col\">500×290×150 mm</td>                </tr>                               <tr>                  <th colspan=\"2\" scope=\"col\">재질</th>                  <td colspan=\"2\" scope=\"col\">ABS</td>                  <td colspan=\"3\" class=\"tdfin\" scope=\"col\">SUS430 분체도장(-SB), SUS304(-S)</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Temp Range</th>                  <td class=\"tdfin\" colspan=\"5\" scope=\"col\">상온 ~ 70℃</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Time Range</th>                  <td class=\"tdfin\" colspan=\"5\" scope=\"col\">1 ~ 99 Min, 4 hour 연속사용</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Transducer</th>                  <td colspan=\"5\" class=\"tdfin\" scope=\"col\">BLT Type</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Input power</th>                  <td colspan=\"5\" class=\"tdfin\" scope=\"col\">단상 AC220V, 50/60 Hz</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Controller</th>                  <td colspan=\"5\" class=\"tdfin\" scope=\"col\">마이콤 제어 (Digital) 방식</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Ultrasonic Power</th>                  <td scope=\"col\">300 W</td>                  <td scope=\"col\">500 W</td>                  <td scope=\"col\">200 W</td>                  <td scope=\"col\">300 W</td>                  <td class=\"tdfin\" scope=\"col\">500 W</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Heater Power</th>                  <td scope=\"col\">190 W</td>                  <td scope=\"col\">320 W</td>                  <td scope=\"col\">150 W</td>                  <td scope=\"col\">190 W</td>                  <td class=\"tdfin\" scope=\"col\">320 W</td>                </tr>               <tr>                  <th colspan=\"2\" class=\"trfinth2\" scope=\"col\">Weight</th>                  <td class=\"trfin\" scope=\"col\">9 kg</td>                  <td class=\"trfin\" scope=\"col\">14 kg</td>                  <td class=\"trfin\" scope=\"col\">9 kg</td>                  <td class=\"trfin\" scope=\"col\">11 kg</td>                  <td class=\"trfin2\" scope=\"col\">15 kg</td>                </tr>              </tbody></table>" ],
+  "title" : "Portable Ultrasonic Cleaner (탁상형 초음파 세척기, 5.7L ~ 20L)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ Ultrasonic Frequency : 68 / 80/ 100/ 132 Khz 용도에 맞게 선택", "■ Timmer : 1 ~ 99 min", "■ Heater Range : 상온 ~ 70℃", "■ 마이콤 제어방식 : 타이머, 출력, 온도조절 용이", "■ 공업용 BLT 진동자 : 강력한 파워 및 내구성", "■ 초음파 출력 조절 : 강,중,약 3단계", "■ 초음파 동작 모드 : Normal, Pulse, Sweep", "■ Degas 기능 : 용존가스를 제거하여 세척력 향상", "■ 연구실, 실험실, 병원, 전기, 전자, 특수 용도에 사용", "■ 산, 염기와는 사용 불가함", "■ Kodo" ],
+  "id" : "2938",
+  "image" : "http://lklab.com/product_image/S-10805.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner ABS, H-F, 68Khz 10L, 300W",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "3010-68K",
+    "number" : "U02-328-311"
+  }, {
+    "content" : "Ultrasonic cleaner ABS, H-F, 80Khz 10L, 300W",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "3010-80K",
+    "number" : "U02-328-312"
+  }, {
+    "content" : "Ultrasonic cleaner ABS, H-F, 100Khz 10L, 300W",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "3010-100K",
+    "number" : "U02-328-313"
+  }, {
+    "content" : "Ultrasonic cleaner ABS, H-F, 130Khz 10L, 300W",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "3010-130K",
+    "number" : "U02-328-314"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 68Khz 5.7L, 200W",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "B2005S-68K",
+    "number" : "U02-328-551"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 80Khz 5.7L, 200W",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "B2005S-80K",
+    "number" : "U02-328-552"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 100Khz 5.7L, 200W",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "B2005S-100K",
+    "number" : "U02-328-553"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 130Khz 5.7L, 200W",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "B2005S-130K",
+    "number" : "U02-328-554"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 68Khz 10L, 300W",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "B3010S-68K",
+    "number" : "U02-328-531"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 80Khz 10L, 300W",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "B3010S-80K",
+    "number" : "U02-328-532"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 100Khz 10L, 300W",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "B3010S-100K",
+    "number" : "U02-328-533"
+  }, {
+    "content" : "Ultrasonic cleaner SUS304, H-F, 130Khz 10L, 300W",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "B3010S-130K",
+    "number" : "U02-328-534"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"200\" scope=\"row\">용량</th>          <th width=\"200\" class=\"tdfin\" scope=\"row\">Frequency(Khz)</th>        </tr>      </thead>      <tbody>               <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-311</td>          <td class=\"tdfinth3\" scope=\"row\">3010-68K</td>          <td rowspan=\"4\" scope=\"row\">10 L<br>          (ABS)</td>          <td class=\"tdfin\" scope=\"row\">68</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-312</td>          <td class=\"tdfinth3\" scope=\"row\">3010-80K</td>          <td class=\"tdfin\" scope=\"row\">80</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-313</td>          <td class=\"tdfinth3\" scope=\"row\">3010-100K</td>          <td class=\"tdfin\" scope=\"row\">100</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-314</td>          <td class=\"tdfinth3\" scope=\"row\">3010-130K</td>          <td class=\"tdfin\" scope=\"row\">132</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-551</td>          <td class=\"tdfinth3\" scope=\"row\">B2005S-68K</td>          <td rowspan=\"4\" scope=\"row\">5.7 L<br>          (SUS304)</td>          <td class=\"tdfin\" scope=\"row\">68</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-552</td>          <td class=\"tdfinth3\" scope=\"row\">B2005S-80K</td>          <td class=\"tdfin\" scope=\"row\">80</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-553</td>          <td class=\"tdfinth3\" scope=\"row\">B2005S-100K</td>          <td class=\"tdfin\" scope=\"row\">100</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-554</td>          <td class=\"tdfinth3\" scope=\"row\">B2005S-130K</td>          <td class=\"tdfin\" scope=\"row\">132</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-531</td>          <td class=\"tdfinth3\" scope=\"row\">B3010S-68K</td>          <td class=\"trfin\" rowspan=\"4\" scope=\"row\">10 L<br>          (SUS304)</td>          <td class=\"tdfin\" scope=\"row\">68</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-532</td>          <td class=\"tdfinth3\" scope=\"row\">B3010S-80K</td>          <td class=\"tdfin\" scope=\"row\">80</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-533</td>          <td class=\"tdfinth3\" scope=\"row\">B3010S-100K</td>          <td class=\"tdfin\" scope=\"row\">100</td>        </tr>    <tr>          <td class=\"trfinth\" scope=\"row\">U02-328-534</td>          <td class=\"trfin\" scope=\"row\">B3010S-130K</td>          <td class=\"trfin2\" scope=\"row\">132</td>        </tr>      </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <thead>                <tr>                 <th colspan=\"2\" scope=\"row\">/</th>                 <th width=\"199\" scope=\"row\">10 L (ABS)</th>                 <th width=\"199\" scope=\"row\">5.7 L (SUS304)</th>                 <th width=\"205\" class=\"tdfin\" scope=\"row\">10 L (SUS304)</th>                </tr>  </thead>              <tbody>                               <tr>                  <th width=\"134\" rowspan=\"2\" scope=\"row\">Size<br>                    (w×d×h)                  </th><th width=\"61\" scope=\"row\">Tank                                                      </th><td scope=\"row\">295×240×150 mm</td>                  <td scope=\"row\">295×160×150 mm</td>                  <td class=\"tdfin\" scope=\"row\">295×240×150 mm</td>                </tr>                             <tr>                  <th scope=\"row\">Overall                                                      </th><td scope=\"row\">490×368×297 mm</td>                  <td scope=\"row\">325×230×320 mm</td>                  <td class=\"tdfin\" scope=\"row\">325×330×320 mm</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Temp Range                  </th><td class=\"tdfin\" colspan=\"3\" scope=\"row\">상온 ~ 70℃</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Time Range                                                                        </th><td class=\"tdfin\" colspan=\"3\" scope=\"row\">1 ~ 99 Min, 4 hour 연속사용</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Transducer                                                                        </th><td class=\"tdfin\" colspan=\"3\" scope=\"row\">BLT Type</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Input Power                                                                        </th><td class=\"tdfin\" colspan=\"3\" scope=\"row\">단상 AC220V 50/60 Hz</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Body Meterial                                                                        </th><td scope=\"row\">ABS</td>                  <td class=\"tdfin\" colspan=\"2\" scope=\"row\">Stainless Steel 304</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Controller                                                                        </th><td class=\"tdfin\" colspan=\"3\" scope=\"row\">마이콤 제어 (Digital) 방식</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Ulrasonic Power                                                                        </th><td scope=\"row\">300 W</td>                  <td scope=\"row\">200 W</td>                  <td class=\"tdfin\" scope=\"row\">300 W</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"row\">Heater Power                                                                        </th><td colspan=\"2\" scope=\"row\">150 W</td>                  <td class=\"tdfin\" scope=\"row\">190 W</td>                </tr>                              <tr>                  <td colspan=\"2\" class=\"trfinth2\" scope=\"row\">Weight</td>                  <td class=\"trfin\" scope=\"row\">11 Kg</td>                  <td class=\"trfin\" scope=\"row\">8 Kg</td>                  <td class=\"trfin2\" scope=\"row\">11 Kg</td>                </tr>              </tbody></table>" ],
+  "title" : "High Frequency Portable Ultrasonic Cleaner (고주파 탁상용 초음파 세정기)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ 마이콤 제어방식 : 타이머, 출력, 온도조절 용이", "■ 공업용 BLT 진동자 : 강력한 파워 및 내구성", "■ 초음파 출력 조절 : 강,중,약 3단계", "■ 초음파 동작 모드 : Normal, Pulse, Sweep", "■ Degas 기능 : 용존가스를 제거하여 세척력 향상", "■ 연구실, 실험실, 병원, 전기, 전자, 특수 용도에 사용", "■ 산, 염기와는 사용 불가함", "■ 28 Khz (불순물이 크고 강한 파워가 필요할 때) / 40Khz (불순물 작고 정밀한 세척이 필요할 때) 선택 가능", "■ Kodo" ],
+  "id" : "2939",
+  "image" : "http://lklab.com/product_image/S-10807.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner Large Power type 60L, 1200W / 주파수 확인 必",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "NXCS-1200",
+    "number" : "U02-328-626"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표  </caption><thead>    <tr>      <th scope=\"row\" width=\"200\">Cat. No.</th>      <th width=\"200\" scope=\"row\">Model</th>      <th width=\"200\" class=\"tdfinth3\" scope=\"row\">Capacity</th>      <th width=\"200\" scope=\"row\" class=\"tdfin\">Power</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth\" scope=\"row\">U02-328-626</td>      <td class=\"trfin\" scope=\"row\">NXCS-1200</td>      <td class=\"trfin\" scope=\"row\">60 L</td>      <td class=\"trfin2\" scope=\"row\">1200 W</td>    </tr>  </tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th width=\"400\" scope=\"col\">Cat. No.</th>                 <td width=\"400\" class=\"trfinth3\" scope=\"col\">U02-328-626</td>                </tr>                <tr>                 <th scope=\"col\">Model</th>                 <td class=\"trfinth3\" scope=\"col\">NXCS-1200</td>                </tr>              </thead>              <tbody>                  <tr>                  <th scope=\"col\">Overall Size / Tank Size</th>                  <td class=\"tdfin\" scope=\"col\">w710×d410×h590 mm / w500×d350×h350 mm</td>                                 </tr>                <tr>                  <th scope=\"col\">Temp Range</th>                  <td class=\"tdfin\" scope=\"col\">상온 ~ 65℃</td>                </tr>                <tr>                  <th scope=\"col\">Time Range</th>                  <td class=\"tdfin\" scope=\"col\">0 ~ 99 min</td>                </tr>                <tr>                  <th scope=\"col\">Transducer</th>                  <td class=\"tdfin\" scope=\"col\">BLT Type</td>                </tr>                <tr>                  <th scope=\"col\">Ultrasonic Frequency</th>                  <td class=\"tdfin\" scope=\"col\">28 Khz / 40Khz 선택 가능</td>                </tr>                <tr>                  <th scope=\"col\">Input power</th>                  <td class=\"tdfin\" scope=\"col\">AC 220V / 60 Hz</td>                </tr>                <tr>                  <th scope=\"col\">Body Material</th>                  <td class=\"tdfin\" scope=\"col\">SUS 304 (상부), Steel 분체 도색 (하부)</td>                </tr>                <tr>                  <th scope=\"col\">Tank Material</th>                  <td class=\"tdfin\" scope=\"col\">Stainless Steel 304</td>                </tr>                <tr>                  <th scope=\"col\">Ultrasonic Power</th>                  <td class=\"tdfin\" scope=\"col\">1200 W</td>                </tr>                <tr>                  <th scope=\"col\">Heater Power</th>                  <td class=\"tdfin\" scope=\"col\">960 W</td>                </tr>                              <tr>                <th class=\"trfinth2\" scope=\"col\">Weight</th>                  <td class=\"trfin2\" scope=\"col\">50 Kg</td>                </tr>                                      </tbody></table>" ],
+  "title" : "Large Ultrasonic Power Cleaner (대용량 강력 초음파 세척기)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ 다양한 용량의 제품군 (40L ~ 100L)", "■ 28 Khz (불순물이 크고 강한 파워가 필요할 때) / 40Khz (불순물 작고 정밀한 세척이 필요할 때) 선택 가능", "■ 전용 초음파 발진기 사용으로 강력하고 안정적인 출력을 유지", "■ 진동부 뿐만 아니라 모든 외관 및 자재도 SUS-304를 사용하여 내구성 향상 : 어떤 세정제를 사용하여도 무방", "■ 직관적인 조작 기능", "■ 주파수, Power, 시간, 온도 등을 FND를 통해 출력( 동작 상태를 쉽게 파악)", "■ 대용량 봉 히터 채용", "■ 온도 센서, 수위 센서 채용", "■ SWEEP, PULSE 선택 기능", "■ 산, 염기와는 사용 불가함", "■ Basket은 포함되어 있음", "■ 220V 3상 전기 사용", "■ Kodo" ],
+  "id" : "2940",
+  "image" : "http://lklab.com/product_image/S-11007.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner 40L 26 KHz SUS304",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "NXCS-A2604",
+    "number" : "U02-328-904"
+  }, {
+    "content" : "Ultrasonic cleaner 60L 26 KHz SUS304",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "NXCS-A2606",
+    "number" : "U02-328-906"
+  }, {
+    "content" : "Ultrasonic cleaner 80L 26 KHz SUS304",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "NXCS-A2608",
+    "number" : "U02-328-908"
+  }, {
+    "content" : "Ultrasonic cleaner 100L 26 KHz SUS304",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "NXCS-A2610",
+    "number" : "U02-328-910"
+  }, {
+    "content" : "Ultrasonic cleaner 40L 38 KHz SUS304",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "NXCS-A3804",
+    "number" : "U02-328-914"
+  }, {
+    "content" : "Ultrasonic cleaner 60L 38 KHz SUS304",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "NXCS-A3806",
+    "number" : "U02-328-916"
+  }, {
+    "content" : "Ultrasonic cleaner 80L 38 KHz SUS304",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "NXCS-A3808",
+    "number" : "U02-328-918"
+  }, {
+    "content" : "Ultrasonic cleaner 100L 38 KHz SUS304",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "NXCS-A3810",
+    "number" : "U02-328-920"
+  } ],
+  "tableItems" : [ "<style>/* standard table style */.st-tablebox{ width:800px; max-width:800px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox p{ line-height: 19px;}.st-tablebox th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* standard table style 900 */.st-tablebox900 { width:900px; max-width:900px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox900 p{ line-height: 19px;}.st-tablebox900 th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox900 td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox900 th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox900 .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox900 .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox900 .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* 첨부파일 관련 스타일 */.st-table_file td{border-left:#cdcdcd solid 0px; border-bottom:#cdcdcd solid 0px; }</style><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">    상세 규격 표       </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"200\" scope=\"row\">용량</th>          <th width=\"200\" class=\"tdfin\" scope=\"row\">Frequency(Khz)</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-904</td>          <td class=\"tdfinth3\" scope=\"row\">NXCS-A2604</td>          <td scope=\"row\">40 L</td>          <td rowspan=\"4\" class=\"tdfin\" scope=\"row\">26 kHz</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-906</td>          <td class=\"tdfinth3\" scope=\"row\">NXCS-A2606</td>          <td scope=\"row\">60 L</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-908</td>          <td class=\"tdfinth3\" scope=\"row\">NXCS-A2608</td>          <td scope=\"row\">80 L</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-910</td>          <td class=\"tdfinth3\" scope=\"row\">NXCS-A2610</td>          <td scope=\"row\">100 L</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-914</td>          <td class=\"tdfinth3\" scope=\"row\">NXCS-A3804</td>          <td scope=\"row\">40 L</td>          <td rowspan=\"4\" class=\"trfin2\" scope=\"row\">38 kHz</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-916</td>          <td class=\"tdfinth3\" scope=\"row\">NXCS-A3806</td>          <td scope=\"row\">60 L</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-328-918</td>          <td class=\"tdfinth3\" scope=\"row\">NXCS-A3808</td>          <td scope=\"row\">80 L</td>        </tr>        <tr>          <td height=\"36\" class=\"trfinth\" scope=\"row\">U02-328-920</td>          <td class=\"trfin\" scope=\"row\">NXCS-A3810</td>          <td class=\"trfin\" scope=\"row\">100 L</td>        </tr>      </tbody>    </table>  <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">    상세 규격 표   </caption><thead>    <tr>      <th colspan=\"2\" rowspan=\"2\" scope=\"col\">Cat. No.</th>      <td width=\"159\" class=\"trfinth4\" scope=\"col\">U02-328-904</td>      <td width=\"159\" class=\"trfinth4\" scope=\"col\">U02-328-906</td>      <td width=\"159\" class=\"trfinth4\" scope=\"col\">U02-328-908</td>      <td width=\"162\" class=\"trfinth3\" scope=\"col\">U02-328-910</td>    </tr>    <tr>      <td class=\"trfinth4\" scope=\"col\">U02-328-914</td>      <td class=\"trfinth4\" scope=\"col\">U02-328-916      </td>      <td class=\"trfinth4\" scope=\"col\">U02-328-918</td>      <td class=\"trfinth3\" scope=\"col\">U02-328-920</td>    </tr>    <tr>      <th rowspan=\"2\" scope=\"col\">Model</th>      <th scope=\"col\">26 kHz</th>      <td class=\"trfinth4\" scope=\"col\">NXCS-A2604</td>      <td class=\"trfinth4\" scope=\"col\">NXCS-A2606</td>      <td class=\"trfinth4\" scope=\"col\">NXCS-A2608</td>      <td class=\"trfinth3\" scope=\"col\">NXCS-A2610</td>    </tr>    <tr>      <th scope=\"col\">38 kHz</th>      <td class=\"trfinth4\" scope=\"col\">NXCS-A3804</td>      <td class=\"trfinth4\" scope=\"col\">NXCS- A3806</td>      <td class=\"trfinth4\" scope=\"col\">NXCS- A3808</td>      <td class=\"trfinth3\" scope=\"col\">NXCS- A3810</td>    </tr>  </thead>  <tbody>    <tr>      <th colspan=\"2\" scope=\"col\">Capacity</th>      <td scope=\"col\">40L              </td>      <td scope=\"col\">60L</td>      <td scope=\"col\">80L</td>      <td class=\"tdfin\" scope=\"col\">100L</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Temp. Range</th>      <td colspan=\"4\" class=\"tdfin\" scope=\"col\">0 ~ 70 ℃</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Time Range</th>      <td class=\"tdfin\" colspan=\"4\" scope=\"col\">1 ~ 99 min</td>    </tr>    <tr>      <th colspan=\"2\" rowspan=\"2\" scope=\"col\">Transducer</th>      <td class=\"tdfin\" colspan=\"4\" scope=\"col\">BLT Type 28Khz 진동자 사용 (A26XX)</td>    </tr>    <tr>      <td colspan=\"4\" class=\"tdfin\" scope=\"col\">BLT Type 40Khz 진동자 사용 (A38XX)</td>    </tr>       <tr>      <th colspan=\"2\" scope=\"col\">Input Power</th>      <td colspan=\"4\" class=\"tdfin\" scope=\"col\">AC220V / 60Hz</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Body / Tank Material</th>      <td colspan=\"4\" class=\"tdfin\" scope=\"col\">Stainless Steel 304</td>    </tr>    <tr>      <th width=\"89\" rowspan=\"2\" scope=\"col\">Size <br>      (w×d×h)</th>      <th width=\"70\" height=\"57\" scope=\"col\">Tank</th>      <td scope=\"col\">400x400x350 mm</td>      <td scope=\"col\">600x400x350 mm</td>      <td scope=\"col\">800x400x350 mm</td>      <td class=\"tdfin\" scope=\"col\">1000x400x350 mm</td>    </tr>    <tr>      <th scope=\"col\">Overall</th>      <td scope=\"col\">550x604x850 mm</td>      <td scope=\"col\">750x604x850 mm</td>      <td scope=\"col\">950x604x850 mm</td>      <td class=\"tdfin\" scope=\"col\">1150x604x850 mm</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Ultrasonic Power (Max)</th>      <td scope=\"col\">600W</td>      <td scope=\"col\">900W</td>      <td scope=\"col\">1200W</td>      <td class=\"tdfin\" scope=\"col\">1500W</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Heater Power</th>      <td scope=\"col\">1.5KW</td>      <td scope=\"col\">2KW</td>      <td scope=\"col\">3KW</td>      <td class=\"tdfin\" scope=\"col\">4KW</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Drain</th>      <td colspan=\"4\" class=\"tdfin\" scope=\"col\">YES</td>    </tr>    <tr>      <th colspan=\"2\" scope=\"col\">Temp Sensor</th>      <td colspan=\"4\" class=\"tdfin\" scope=\"col\">YES</td>    </tr>   <tr>     <th colspan=\"2\" class=\"trfinth2\" scope=\"col\">Level Sensor</th>      <td colspan=\"4\" class=\"trfin2\" scope=\"col\">YES</td>    </tr>  </tbody></table>" ],
+  "title" : "Large Ultrasonic Cleaner (대용량 초음파 세척기)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ Ultrasonic HF-Frequency : 35 kHz", "■ 세척 기능 향상을 위한 Sweep 및 DEGAS 기능", "■ Tank 재질 : 2mm Stainless Steel AISI 304 (미국철강협회 규격)", "■ Stainless Steel Foil Front Panel 로 세척이 용이함", "■ LED Display for Actual Value and Target Value of Temperature", "■ DEGAS : Adjustable Pulse Sound Level for Removing Unwanted Air Bubbles", "■ Timer for Countdown or Continuous Operation & LED Display of the Rest Time.", "■ Bandelin" ],
+  "id" : "2941",
+  "image" : "http://lklab.com/product_image/S-13079.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic Cleaner Digital SONOREX SUPER Round Type, 18.7L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "DT106",
+    "number" : "U02-193-201"
+  }, {
+    "content" : "Ultrasonic Cleaner, Digital SONOREX SUPER 6L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "DT156",
+    "number" : "U02-193-301"
+  }, {
+    "content" : "Ultrasonic Cleaner, Digital SONOREX SUPER Heating, 9L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "DT156BH",
+    "number" : "U02-193-305"
+  }, {
+    "content" : "Ultrasonic Cleaner, Digital SONOREX SUPER Heating, 13L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "DT512H",
+    "number" : "U02-193-309"
+  }, {
+    "content" : "Ultrasonic Cleaner Digital SONOREX SUPER Heating, 18.7L",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "DT514BH",
+    "number" : "U02-193-205"
+  }, {
+    "content" : "Ultrasonic Cleaner, Digital SONOREX SUPER 28L",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "DT1028",
+    "number" : "U02-193-313"
+  }, {
+    "content" : "Ultrasonic Cleaner, Digital SONOREX SUPER Heating, 28L",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "DT1028H",
+    "number" : "U02-193-317"
+  }, {
+    "content" : "Ultrasonic Cleaner, Digital SONOREX SUPER Heating, 45L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "DT1028CH",
+    "number" : "U02-193-321"
+  }, {
+    "content" : "Ultrasonic Cleaner, Digital SONOREX SUPER Heating, 90L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "DT1050H",
+    "number" : "U02-193-325"
+  } ],
+  "tableItems" : [ "<style>/* standard table style */.st-tablebox{ width:800px; max-width:800px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox p{ line-height: 19px;}.st-tablebox th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* standard table style 900 */.st-tablebox900 { width:900px; max-width:900px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox900 p{ line-height: 19px;}.st-tablebox900 th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox900 td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox900 th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox900 .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox900 .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox900 .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* 첨부파일 관련 스타일 */.st-table_file td{border-left:#cdcdcd solid 0px; border-bottom:#cdcdcd solid 0px; }</style><p>디지털 초음파 세척기 상세 사양, Digital DT-series</p><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:30px\">                <thead>                <tr>                 <th width=\"100\" scope=\"row\">Cat. No.</th>                 <th width=\"100\" scope=\"row\">Model</th>                 <th scope=\"row\">용량</th>                 <th scope=\"row\">Tank Size<br>                  w x d x h</th>                 <th scope=\"row\">External Size<br>                  w x d x h</th>                 <th scope=\"row\">Ultraonic<br>                   Peak Power</th>                 <th scope=\"row\">Heating Power </th>                 <th scope=\"row\" class=\"tdfin\">Outlet<br>Drain Valve </th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-201</td>                  <td scope=\"row\" class=\"\">DT106</td>                  <td scope=\"row\">5.6L</td>                  <td scope=\"row\">Ø240×130 mm</td>                  <td scope=\"row\">Φ265 × h270 mm</td>                  <td scope=\"row\">480 W</td>                  <td scope=\"row\">-</td>                  <td scope=\"row\" rowspan=\"3\" class=\"tdfin\">G1/4\"</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-301</td>                  <td scope=\"row\" class=\"\">DT156</td>                  <td scope=\"row\">6L</td>                  <td scope=\"row\">w500×d140×h100 mm</td>                  <td scope=\"row\">530 x 165 x 245 mm</td>                  <td scope=\"row\">640 W</td>                  <td scope=\"row\">-</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-305</td>                  <td scope=\"row\" class=\"\">DT156BH</td>                  <td scope=\"row\">9L</td>                  <td scope=\"row\">w500×d140×h150 mm</td>                  <td scope=\"row\">530 x 165 x 300 mm</td>                  <td scope=\"row\" rowspan=\"3\">860 W</td>                  <td scope=\"row\">600 W</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-309</td>                  <td scope=\"row\" class=\"\">DT512H</td>                  <td scope=\"row\">13L</td>                  <td scope=\"row\">w300×d240×h200 mm</td>                  <td scope=\"row\">325 x 265 x 350 mm</td>                  <td scope=\"row\">400 W</td>                  <td scope=\"row\" rowspan=\"6\" class=\"trfin2\">G1/2\"</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-205</td>                  <td scope=\"row\" class=\"\">DT514BH</td>                  <td scope=\"row\">18.7L</td>                  <td scope=\"row\">w325×d300×h200 mm</td>                  <td scope=\"row\">355 x 325 x 385 mm</td>                  <td scope=\"row\">600 W</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-313</td>                  <td scope=\"row\" class=\"\">DT1028</td>                  <td scope=\"row\" rowspan=\"2\">28L</td>                  <td scope=\"row\" rowspan=\"2\">w500×d300×h200 mm</td>                  <td scope=\"row\" rowspan=\"2\">535 x 325 x 400 mm</td>                  <td scope=\"row\" rowspan=\"2\">1200 W</td>                  <td scope=\"row\">-</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-317</td>                  <td scope=\"row\" class=\"\">DT1028H</td>                                                 <td scope=\"row\">1300 W</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-321</td>                  <td scope=\"row\" class=\"\">DT1028CH</td>                  <td scope=\"row\">45L</td>                  <td scope=\"row\">w500×d300×h300 mm</td>                  <td scope=\"row\">540 x 340 x 500 mm</td>                  <td scope=\"row\">1200 W</td>                  <td scope=\"row\">1450 W</td>                </tr>                                <tr>                  <td scope=\"row\" class=\"trfinth\">U02-193-325</td>                  <td scope=\"row\" class=\"trfin\">DT1050CH</td>                  <td scope=\"row\" class=\"trfin\">90L</td>                  <td scope=\"row\" class=\"trfin\">w600×d500×h300 mm</td>                  <td scope=\"row\" class=\"trfin\">640 x 540 x 530 mm</td>                  <td scope=\"row\" class=\"trfin\">2400 W</td>                  <td scope=\"row\" class=\"trfin\">1950 W</td>                </tr>                             </tbody></table><p> </p>Bandelin 초음파 세척기용 조절기 상세 사양     <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>         <tr>           <th width=\"191\" colspan=\"1\" scope=\"col\">Type</th>           <td width=\"175\" class=\"trfinth3\" scope=\"col\">Digital, DT-Series</td>           <td width=\"175\" class=\"trfinth3\" scope=\"col\">Analog, RK-Series</td>         </tr>       </thead>           <tbody>         <tr>           <th scope=\"col\">Time Setting (Min)</th>          <td colspan=\"1\" class=\"\" scope=\"col\">1, 2, 3, 4, 5, 10, 15, 30 min (±5%)<br>           Continuous Operation</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">1~15 min (±5%)<br>           Continuous Operation</td>         </tr>          <tr>           <th scope=\"col\">Safety Shut-down</th>          <td colspan=\"1\" class=\"\" scope=\"col\">After 12 hours</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th scope=\"col\">Adjustable Temp. Range</th>           <td colspan=\"1\" class=\"\" scope=\"col\">20~80℃ (Version \"H\")</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">30~80℃ (Version \"H\")</td>         </tr>          <tr>           <th scope=\"col\">Excess Temp. Signal</th>           <td colspan=\"1\" class=\"\" scope=\"col\">Yes</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th scope=\"col\">Protection Against Boiling Retardaion</th>           <td colspan=\"1\" class=\"\" scope=\"col\">Yes</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th scope=\"col\">Setting Accuracy</th>           <td colspan=\"1\" class=\"\" scope=\"col\">±2.5K</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">±5K</td>         </tr>          <tr>           <th scope=\"col\">Filing Mark for Safety Dosage</th>                    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>          <tr>           <th scope=\"col\">Degree of Protection</th>          <td colspan=\"1\" class=\"\" scope=\"col\">IP33</td>           <td colspan=\"1\" class=\"tdfin\" scope=\"col\">IP32</td>         </tr>          <tr>           <th scope=\"col\">Ultrasonic Frequency</th>                   <td colspan=\"2\" class=\"tdfin\" scope=\"col\">35 KHz </td>         </tr>          <tr>           <th scope=\"col\">SweepTec</th>                <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>          <tr>           <th scope=\"col\">Pulse Function</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>          <tr>           <th scope=\"col\">Fast Degassing </th>          <td colspan=\"1\" class=\"\" scope=\"col\">Yes</td>           <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th height=\"15\" scope=\"col\">CE Mark</th>                   <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>                  <tr>           <th class=\"trfin\" scope=\"col\">Main Supply</th>           <td colspan=\"2\" class=\"trfin2\" scope=\"col\">230V, 50/60 Hz</td>         </tr>       </tbody></table>" ],
+  "title" : "Bandelin Digital Ultrasonic Cleaner (디지털 초음파 세척기, Bandelin)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ Turning Knobs for Temperature and Time Control", "■ Ultrasonic HF-Frequency : 35 kHz", "■ 세척 기능 향상을 위한 Sweep 및 DEGAS 기능", "■ Tank 재질 : 2mm Stainless Steel AISI 304 (미국철강협회 규격)", "■ Stainless Steel Foil Front Panel 로 세척이 용이함", "■ Bandelin" ],
+  "id" : "2942",
+  "image" : "http://lklab.com/product_image/S-13075.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Round Type, 5.6L",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "RK106",
+    "number" : "U02-193-501"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER 6 L",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "RK156",
+    "number" : "U02-193-401"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Heating, 9 L",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "RK156BH",
+    "number" : "U02-193-405"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Heating, 13 L",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "RK512H",
+    "number" : "U02-193-409"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Heating, 18.7 L",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "RK514BH",
+    "number" : "U02-193-413"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER 28 L",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "RK1028",
+    "number" : "U02-193-417"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Heating, 28 L",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "RK1028H",
+    "number" : "U02-193-421"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Heating, 39 L",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "RK170H",
+    "number" : "U02-193-425"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Round Type, 39.5L",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "RK1040",
+    "number" : "U02-193-505"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER 45 L",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "RK1028C",
+    "number" : "U02-193-429"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Heating, 45 L",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "RK1028CH",
+    "number" : "U02-193-433"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER 58 L",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "RK1050",
+    "number" : "U02-193-437"
+  }, {
+    "content" : "Ultrasonic cleaner, Analog SONOREX SUPER Heating, 90 L",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "RK1050CH",
+    "number" : "U02-193-441"
+  } ],
+  "tableItems" : [ "<style>/* standard table style */.st-tablebox{ width:800px; max-width:800px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox p{ line-height: 19px;}.st-tablebox th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* standard table style 900 */.st-tablebox900 { width:900px; max-width:900px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox900 p{ line-height: 19px;}.st-tablebox900 th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox900 td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox900 th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox900 .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox900 .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox900 .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* 첨부파일 관련 스타일 */.st-table_file td{border-left:#cdcdcd solid 0px; border-bottom:#cdcdcd solid 0px; }</style><p>아나로그 초음파 세척기 상세 사양, Analog RK-series</p><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:30px\">                <thead>                <tr>                 <th width=\"100\" scope=\"row\">Cat. No.</th>                 <th width=\"100\" scope=\"row\">Model</th>                 <th scope=\"row\">용량</th>                 <th scope=\"row\">Tank Size<br>                  w x d x h</th>                  <th scope=\"row\">External Size<br>                  w x d x h</th>                   <th scope=\"row\">Ultraonic<br>                   Peak Power</th>                    <th scope=\"row\">Heating Power </th>                    <th scope=\"row\" class=\"tdfin\">Outlet<br>Drain Valve </th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-501</td>                  <td scope=\"row\" class=\"\">RK106</td>                  <td scope=\"row\">5.6 L</td>                  <td scope=\"row\">Φ240 × h130 mm</td>                  <td scope=\"row\">Φ265 × h270 mm</td>                  <td scope=\"row\">480 W</td>                  <td scope=\"row\">-</td>                  <td scope=\"row\" class=\"tdfin\" rowspan=\"3\">G1/4\"</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-401</td>                  <td scope=\"row\" class=\"\">RK156</td>                  <td scope=\"row\">6L</td>                  <td scope=\"row\">500 × 140 × 100 mm</td>                  <td scope=\"row\">530 x 165 x 245 mm</td>                  <td scope=\"row\">640 W</td>                  <td scope=\"row\">-</td>                                  </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-405</td>                  <td scope=\"row\" class=\"\">RK156BH</td>                  <td scope=\"row\">9L</td>                  <td scope=\"row\">500 × 140 × 150 mm</td>                  <td scope=\"row\">530 x 165 x 300 mm</td>                  <td scope=\"row\" rowspan=\"3\">860 W</td>                  <td scope=\"row\">600 W</td>                                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-409</td>                  <td scope=\"row\" class=\"\">RK512H</td>                  <td scope=\"row\">13L</td>                  <td scope=\"row\">300 × 240 × 200 mm</td>                  <td scope=\"row\">325 x 265 x 350 mm</td>                                  <td scope=\"row\">400 W</td>                                  <td scope=\"row\" class=\"trfin2\" rowspan=\"10\">G1/2\"</td>                </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-413</td>                  <td scope=\"row\" class=\"\">RK514BH</td>                  <td scope=\"row\">18.7L</td>                  <td scope=\"row\">325 × 300 × 200 mm</td>                  <td scope=\"row\">355 x 325 x 385 mm</td>                          <td scope=\"row\">600 W</td>                             </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-417</td>                  <td scope=\"row\" class=\"\">RK1028</td>                  <td scope=\"row\" rowspan=\"2\">28 L </td>                  <td scope=\"row\" rowspan=\"2\">500 × 300 × 200 mm</td>                  <td scope=\"row\" rowspan=\"2\">535 x 325 x 400 mm</td>                  <td scope=\"row\" rowspan=\"2\">1200 W</td>                  <td scope=\"row\">-</td>                             </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-421</td>                  <td scope=\"row\" class=\"\">RK1028H</td>                                   <td scope=\"row\">1300 W</td>                             </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-425</td>                  <td scope=\"row\" class=\"\">RK170H</td>                  <td scope=\"row\">39L</td>                  <td scope=\"row\">1000 × 200 × 200 mm</td>                  <td scope=\"row\">1050 x 250 x 385 mm</td>                  <td scope=\"row\" rowspan=\"2\">1520 W</td>                  <td scope=\"row\">1600 W</td>                               </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-505</td>                  <td scope=\"row\" class=\"\">RK1040</td>                  <td scope=\"row\">39.5 L</td>                  <td scope=\"row\">Φ500 × h195 mm</td>                  <td scope=\"row\">Φ540 × h500 mm</td>                                  <td scope=\"row\">-</td>                              </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-429</td>                  <td scope=\"row\" class=\"\">RK1028C</td>                  <td scope=\"row\" rowspan=\"2\">45L</td>                  <td scope=\"row\" rowspan=\"2\">500 × 300 × 300 mm</td>                  <td scope=\"row\" rowspan=\"2\">540 x 340 x 500 mm</td>                  <td scope=\"row\">2000 W</td>                  <td scope=\"row\">-</td>                              </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-433</td>                  <td scope=\"row\" class=\"\">RK1028CH</td>                                                        <td scope=\"row\">1200 W</td>                  <td scope=\"row\">1450 W</td>                               </tr>                 <tr>                  <td scope=\"row\" class=\"trfinth4\">U02-193-437</td>                  <td scope=\"row\" class=\"\">RK1050</td>                  <td scope=\"row\">58L</td>                  <td scope=\"row\">600 × 500 × 200 mm</td>                  <td scope=\"row\">640 x 540 x 425 mm</td>                  <td scope=\"row\" class=\"trfin\" rowspan=\"2\">2400 W</td>                  <td scope=\"row\" class=\"\">-</td>                               </tr>                                                <tr>                  <td scope=\"row\" class=\"trfinth\">U02-193-441</td>                  <td scope=\"row\" class=\"trfin\">RK1050CH</td>                  <td scope=\"row\" class=\"trfin\">90L</td>                  <td scope=\"row\" class=\"trfin\">600 × 500 × 300 mm</td>                  <td scope=\"row\" class=\"trfin\">640 x 540 x 530 mm</td>                                   <td scope=\"row\" class=\"trfin\">1950 W</td>                               </tr>                             </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul>Bandelin 초음파 세척기용 조절기 상세 사양     <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>         <tr>           <th width=\"191\" colspan=\"1\" scope=\"col\">Type</th>           <td width=\"175\" class=\"trfinth3\" scope=\"col\">Digital, DT-Series</td>           <td width=\"175\" class=\"trfinth3\" scope=\"col\">Analog, RK-Series</td>         </tr>       </thead>           <tbody>         <tr>           <th scope=\"col\">Time Setting (Min)</th>          <td colspan=\"1\" class=\"\" scope=\"col\">1, 2, 3, 4, 5, 10, 15, 30 min (±5%)<br>           Continuous Operation</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">1~15 min (±5%)<br>           Continuous Operation</td>         </tr>          <tr>           <th scope=\"col\">Safety Shut-down</th>          <td colspan=\"1\" class=\"\" scope=\"col\">After 12 hours</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th scope=\"col\">Adjustable Temp. Range</th>           <td colspan=\"1\" class=\"\" scope=\"col\">20~80℃ (Version \"H\")</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">30~80℃ (Version \"H\")</td>         </tr>          <tr>           <th scope=\"col\">Excess Temp. Signal</th>           <td colspan=\"1\" class=\"\" scope=\"col\">Yes</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th scope=\"col\">Protection Against Boiling Retardaion</th>           <td colspan=\"1\" class=\"\" scope=\"col\">Yes</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th scope=\"col\">Setting Accuracy</th>           <td colspan=\"1\" class=\"\" scope=\"col\">±2.5K</td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">±5K</td>         </tr>          <tr>           <th scope=\"col\">Filing Mark for Safety Dosage</th>                    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>          <tr>           <th scope=\"col\">Degree of Protection</th>          <td colspan=\"1\" class=\"\" scope=\"col\">IP33</td>           <td colspan=\"1\" class=\"tdfin\" scope=\"col\">IP32</td>         </tr>          <tr>           <th scope=\"col\">Ultrasonic Frequency</th>          <td colspan=\"1\" class=\"\" scope=\"col\"> </td>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">35 KHz </td>         </tr>          <tr>           <th scope=\"col\">SweepTec</th>                <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>          <tr>           <th scope=\"col\">Pulse Function</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>          <tr>           <th scope=\"col\">Fast Degassing </th>          <td colspan=\"1\" class=\"\" scope=\"col\">Yes</td>           <td colspan=\"1\" class=\"tdfin\" scope=\"col\">-</td>         </tr>          <tr>           <th height=\"15\" scope=\"col\">CE Mark</th>                   <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Yes</td>         </tr>                  <tr>           <th class=\"trfin\" scope=\"col\">Main Supply</th>           <td colspan=\"2\" class=\"trfin2\" scope=\"col\">230V, 50/60 Hz</td>         </tr>       </tbody></table>" ],
+  "title" : "Bandelin Analog Ultrasonic Cleaner (아날로그식 초음파 세척기, Bandelin)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ 최대 755mm의 Pipet 이나 Burette등 제품 세척용", "■ 구성 : 본체, Insert Basket (K140B), Lid (D140D)", "■ Tank 재질 : Stainless steel AISI 316L, Thickness 2mm", "■ Heating 옵션을 통해 지방산 잔여물 제거 가능 (PR140DH)", "■ Sweep (주파수 변조로 유리표면 손상 예방) 기능", "■ 간편 이동을 위한 Handle 장착", "■ Ball Valve Drain으로 세척액을 쉽고 빠르게 비울 수 있음", "■ Filling Mark : 최소 9L, 최대 18L", "■ Ultrasonic Output : (Peak) 860W", "■ Ultrasonic Frequency : 35 kHz", "■ Timer : 1, 2, 3, 4, 5, 10, 15, 30 min & Continuous", "■ Temperature : Built-in heater 20 – 80 °C, Thermostatically adjustable", "■ External Size : w330 x d330 x h1003mm", "■ 외부 재질 : Stainless steel AISI 304", "■ Power : 230V~(±10%), 50/60 Hz", "■ Bandelin" ],
+  "id" : "2943",
+  "image" : "http://lklab.com/product_image/S-12879.jpg",
+  "specification" : [ {
+    "content" : "Ultrasonic Pipette Cleaner w150×d150×h895mm",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "PR140D",
+    "number" : "U02-193-251"
+  }, {
+    "content" : "Ultrasonic Pipette Cleaner w150×d150×h895mm 700W",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "PR140DH",
+    "number" : "U02-193-255"
+  }, {
+    "content" : "Insert Basket",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "K140B",
+    "number" : "U02-193-261"
+  }, {
+    "content" : "Stainless steel Lid",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "D140D",
+    "number" : "U02-193-271"
+  }, {
+    "content" : "Ultrasonic Detergent for mineral 1L",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "TICKOPUR TR3",
+    "number" : "C29-193-010"
+  }, {
+    "content" : "Ultrasonic Detergent Mildly Alkaline 5L",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "TICKOPUR R33-5",
+    "number" : "C29-193-054"
+  } ],
+  "tableItems" : [ "<style>/* standard table style */.st-tablebox{ width:800px; max-width:800px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox p{ line-height: 19px;}.st-tablebox th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* standard table style 900 */.st-tablebox900 { width:900px; max-width:900px; margin-bottom:10px; height:auto; border-top:#cdcdcd solid 3px;}.st-tablebox900 p{ line-height: 19px;}.st-tablebox900 th{ height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; font-family:Tahoma; font-weight:bold; text-align:center;}.st-tablebox900 td{ height:33px; font-size: 12px; color: #777; font-family:'돋움'; text-align:center;}.st-tablebox900 th,td{border-left:#cdcdcd solid 1px; border-bottom:#cdcdcd solid 1px;}.st-tablebox900 .tdfin{border-left:#cdcdcd solid 1px; border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth2{height:33px; background-color:#fbf8f4; font-size: 12px; color: #666; line-height: 33px; font-family:Tahoma; font-weight:bold; text-align:center; border-bottom:#cdcdcd solid 3px;  }.st-tablebox900 .trfinth3{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;   border-right:#cdcdcd solid 1px;}.st-tablebox900 .trfinth4{background-color:#f5f7f1; font-size: 12px; color: #333; line-height: 33px; font-family:Tahoma; font-weight:bold; border-bottom:#cdcdcd solid 1px;  }.st-tablebox900 .trfin{border-bottom:#cdcdcd solid 3px; }.st-tablebox900 .trfin2{border-bottom:#cdcdcd solid 3px; border-right:#cdcdcd solid 1px;}/* 첨부파일 관련 스타일 */.st-table_file td{border-left:#cdcdcd solid 0px; border-bottom:#cdcdcd solid 0px; }</style><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\" style=\"height: 33px\">Cat No</th>          <th width=\"200\" scope=\"row\" style=\"height: 33px\">Model</th>          <th width=\"200\" scope=\"row\" style=\"height: 33px\">Heater</th>          <th width=\"400\" class=\"tdfin\" scope=\"row\" style=\"height: 33px\">Tank Size,w × d × h</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-193-251 </td>          <td class=\"tdfinth3\" scope=\"row\">PR140D</td>          <td class=\"tdfinth3\" scope=\"row\">X</td>          <td class=\"trfin2\" scope=\"row\" rowspan=\"2\">150 x 150 x 895 mm</td>        </tr>                <tr>          <td height=\"16\" class=\"trfinth\" scope=\"row\">U02-193-255 </td>          <td class=\"trfin\" scope=\"row\">PR140DH</td>          <td class=\"trfin2\" scope=\"row\">700W</td>        </tr>      </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:30px 0 10px; text-align:left;\">Specifications</li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th width=\"200\" colspan=\"2\" scope=\"col\">Cat. No.</th>                 <td width=\"300\" class=\"trfinth4\" scope=\"col\">U02-193-251 </td>                 <td width=\"300\" class=\"trfinth3\" scope=\"col\">U02-193-255 </td>                </tr>                <tr>                 <th colspan=\"2\" scope=\"col\">Model</th>                 <td class=\"trfinth4\" scope=\"col\">PR140D</td>                 <td class=\"trfinth3\" scope=\"col\">PR140DH</td>                </tr>              </thead>              <tbody>                <tr>                  <th rowspan=\"4\" scope=\"col\">Tank</th>                  <th scope=\"col\">Size<br>(w×d×h)</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">150 × 150 × 895 mm</td>                </tr>                <tr>                  <th scope=\"col\">Depth</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">850mm</td>                </tr>                <tr>                  <th scope=\"col\">Filling Mark</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Min.9 L, Max.18 L</td>                </tr>                <tr>                  <th scope=\"col\">Material</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\"> Stainless steel AISI 316L, Thickness 2mm</td>                </tr>                <tr>                  <th height=\"11\" rowspan=\"2\" scope=\"col\">Ultrasonic Output</th>                  <th height=\"5\" scope=\"col\">Peak</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">860 W</td>                </tr>                <tr>                  <th height=\"6\" scope=\"col\">Nominal</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">215 W</td>                </tr>                <tr>                  <th height=\"11\" colspan=\"2\" scope=\"col\">Ultrasonic frequency</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">35 kHz</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Timer</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">1, 2, 3, 4, 5, 10, 15, 30 min   &amp; Continuous</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Temp.</th>                  <td scope=\"col\">X</td>                  <td class=\"tdfin\" scope=\"col\">Built-in heater 20 – 80 °C  <br>                  Thermostatically adjustable<br>                  Heating power : 700 W</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\" style=\"height: 33px\">External Size<br>(w×d×h)</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\" style=\"height: 33px\">330 × 330 × 1003 mm</td>                </tr>                <tr>                  <th colspan=\"2\" scope=\"col\">Housing Material</th>                  <td colspan=\"2\" class=\"tdfin\" scope=\"col\">Stainless steel AISI 304</td>                </tr>               <tr>                  <th colspan=\"2\" class=\"trfinth2\" scope=\"col\">Power</th>                  <td colspan=\"2\" class=\"trfin2\" scope=\"col\">230V~(±10%), 50/60 Hz</td>                </tr>              </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:30px 0 10px; text-align:left;\">Optional Accessory</li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">  <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"400\" class=\"tdfin\" scope=\"row\">Description</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-193-261 </td>          <td class=\"tdfinth3\" scope=\"row\">K140B</td>          <td class=\"tdfin\" scope=\"row\">Insert Basket</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U02-193-271 </td>          <td class=\"tdfinth3\" scope=\"row\">D140D</td>          <td class=\"tdfin\" scope=\"row\">Stainless Steel Lid</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">C29-193-010</td>          <td class=\"tdfinth3\" scope=\"row\">TICKOPUR TR3</td>          <td class=\"tdfin\" scope=\"row\">Ultrasonic Detergent 1L</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">C29-193-054</td>          <td class=\"trfin\" scope=\"row\">TICKOPUR R33</td>          <td class=\"trfin2\" scope=\"row\">Ultrasonic Detergent 5L</td>        </tr>      </tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px; text-align:left;\">● TICKOPUR R33 : Removing of Fatty Residues, 5L (지방 잔류물 제거)</li></ul>" ],
+  "title" : "Ultrasonic Pipette & Burette Cleaner (초음파 피펫&뷰렛 세척기, Bandelin Sonorex®)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultrasonic Cleaner[초음파세척기]",
+  "content" : [ "■ Bandelin 초음파 세척기용 악세사리" ],
+  "id" : "2944",
+  "image" : "http://lklab.com/product_image/S-13081.jpg",
+  "specification" : [ {
+    "content" : "Insert Basket for DT156 & RK156 Bandelin Ultrasoinc Cleaner",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "K6L",
+    "number" : "U02-193-701"
+  }, {
+    "content" : "Insert Basket for DT156BH & RK156BH Bandelin Ultrasoinc Cleaner",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "K6BL",
+    "number" : "U02-193-703"
+  }, {
+    "content" : "Insert Basket for DT512H & RK512H Bandelin Ultrasoinc Cleaner",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "K10B",
+    "number" : "U02-193-705"
+  }, {
+    "content" : "Insert Basket for DT514BH & RK514BH Bandelin Ultrasoinc Cleaner",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "K14B",
+    "number" : "U02-193-709"
+  }, {
+    "content" : "Insert Basket for DT1028 & RK1028 Bandelin Ultrasoinc Cleaner",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "K28",
+    "number" : "U02-193-713"
+  }, {
+    "content" : "Insert Basket for RK170H Bandelin Ultrasoinc Cleaner",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "K7",
+    "number" : "U02-193-717"
+  }, {
+    "content" : "Insert Basket for DT1028C & RK1028C Bandelin Ultrasoinc Cleaner",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "K28C",
+    "number" : "U02-193-721"
+  }, {
+    "content" : "Insert Basket for DT1050 & RK1050 Bandelin Ultrasoinc Cleaner",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "K50",
+    "number" : "U02-193-725"
+  }, {
+    "content" : "Insert Basket for DT1050CH & RK1050CH Bandelin Ultrasoinc Cleaner",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "K50C",
+    "number" : "U02-193-729"
+  }, {
+    "content" : "Insert Basket for RK106 Bandelin Ultrasoinc Cleaner",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "K6",
+    "number" : "U02-193-750"
+  }, {
+    "content" : "Insert Basket for RK1040 Bandelin Ultrasoinc Cleaner",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "K40",
+    "number" : "U02-193-754"
+  }, {
+    "content" : "Stainless Steel Lid for 6L & 9L Bandelin Ultrasoinc Cleaner",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "D156",
+    "number" : "U02-193-801"
+  }, {
+    "content" : "Stainless Steel Lid for 13L Bandelin Ultrasoinc Cleaner",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "D510",
+    "number" : "U02-193-804"
+  }, {
+    "content" : "Stainless Steel Lid for 18.7L Bandelin Ultrasoinc Cleaner",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "D514",
+    "number" : "U02-193-807"
+  }, {
+    "content" : "Stainless Steel Lid for 28L Bandelin Ultrasoinc Cleaner",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "D1028",
+    "number" : "U02-193-811"
+  }, {
+    "content" : "Stainless Steel Lid for 39L Bandelin Ultrasoinc Cleaner",
+    "id" : "16",
+    "isSelected" : false,
+    "model" : "D107",
+    "number" : "U02-193-815"
+  }, {
+    "content" : "Stainless Steel Lid for 45L Bandelin Ultrasoinc Cleaner",
+    "id" : "17",
+    "isSelected" : false,
+    "model" : "D1028C",
+    "number" : "U02-193-819"
+  }, {
+    "content" : "Stainless Steel Lid for 58L & 90L Bandelin Ultrasoinc Cleaner",
+    "id" : "18",
+    "isSelected" : false,
+    "model" : "D1050C",
+    "number" : "U02-193-823"
+  }, {
+    "content" : "Stainless Steel Lid for RK106 Bandelin Ultrasoinc Cleaner",
+    "id" : "19",
+    "isSelected" : false,
+    "model" : "D6",
+    "number" : "U02-193-827"
+  }, {
+    "content" : "Stainless Steel Lid for RK1040 Bandelin Ultrasoinc Cleaner",
+    "id" : "20",
+    "isSelected" : false,
+    "model" : "D40",
+    "number" : "U02-193-831"
+  }, {
+    "content" : "Inset Sieve Basket, Stainless Steel Inner Ø75 mm Bandelin Ultrasoinc Cleaner",
+    "id" : "21",
+    "isSelected" : false,
+    "model" : "KD0",
+    "number" : "U02-193-900"
+  } ],
+  "tableItems" : [ "Insert Basket, Stainless Steel    <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr>        <th scope=\"row\">            Cat. No        </th>        <th scope=\"row\">            Model        </th>        <th scope=\"row\" class=\"tdfin\">            Descripion        </th>        <th scope=\"row\" class=\"tdfin\">            적용 모델        </th>    </tr>    <tr>        <td scope=\"row\" class=\"trfinth4\">            U02-193-701        </td>        <td scope=\"row\">            K6L        </td>        <td class=\"trfin\" scope=\"row\" rowspan=\"11\">            Insert Basket        </td>        <td class=\"tdfin\" scope=\"row\">            DT156 &amp; RK156        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-703</td>        <td>            K6BL</td>        <td class=\"tdfin\">            DT156BH &amp; RK156BH        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-705        </td>        <td>            K10B        </td>        <td class=\"tdfin\">            DT512H &amp; RK512H         </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-709        </td>        <td>            K14B        </td>        <td class=\"tdfin\">            DT514BH &amp; RK514BH        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-713        </td>        <td>            K28        </td>        <td class=\"tdfin\">            DT1028 &amp; RK1028        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-717        </td>        <td>            K7        </td>        <td class=\"tdfin\">            RK170H        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-721        </td>        <td>            K28C        </td>        <td class=\"tdfin\">            DT1028C &amp; RK1028C         </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-725        </td>        <td>            K50        </td>        <td class=\"tdfin\">            DT1050 &amp; RK1050         </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-729        </td>        <td>            K50C        </td>        <td class=\"tdfin\">            DT1050CH &amp; RK1050CH        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-750        </td>        <td>            K6        </td>        <td class=\"tdfin\">            RK106        </td>    </tr>    <tr>        <td class=\"trfinth\">            U02-193-754        </td>        <td class=\"trfin\">            K40        </td>        <td class=\"trfin2\">             RK1040         </td>    </tr></tbody></table>Lid, Stainless Steel    <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr>        <th scope=\"row\">            Cat. No        </th>        <th scope=\"row\">            Model        </th>        <th scope=\"row\" class=\"tdfin\">            Descripion        </th>        <th scope=\"row\" class=\"tdfin\">            적용 모델        </th>    </tr>    <tr>        <td scope=\"row\" class=\"trfinth4\">            U02-193-801        </td>        <td scope=\"row\">            D156        </td>        <td class=\"trfin\" scope=\"row\" rowspan=\"9\">            Lid</td>        <td class=\"tdfin\" scope=\"row\">            DT156 &amp; RK156        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-804        </td>        <td>            D510        </td>        <td class=\"tdfin\">            DT156BH &amp; RK156BH        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-807        </td>        <td>            D514        </td>        <td class=\"tdfin\">            DT512H &amp; RK512H         </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-811        </td>        <td>            D1028        </td>        <td class=\"tdfin\">            DT514BH &amp; RK514BH        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-815        </td>        <td>            D107        </td>        <td class=\"tdfin\">            DT1028 &amp; RK1028        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-819        </td>        <td>            D1028C        </td>        <td class=\"tdfin\">            RK170H        </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-823        </td>        <td>            D1050C        </td>        <td class=\"tdfin\">            DT1028C &amp; RK1028C         </td>    </tr>    <tr>        <td class=\"trfinth4\">            U02-193-827        </td>        <td>            D6        </td>        <td class=\"tdfin\">            DT1050 &amp; RK1050         </td>    </tr>    <tr>        <td class=\"trfinth\">            U02-193-831        </td>        <td class=\"trfin\">            D40        </td>        <td class=\"trfin2\">            DT1050CH &amp; RK1050CH        </td>    </tr></tbody></table>Inset Sieve Basket, Stainless Steel    <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><tbody><tr>        <th scope=\"row\">            Cat. No        </th>        <th scope=\"row\">            Model        </th>        <th scope=\"row\" class=\"tdfin\">            Descripion        </th>        <th scope=\"row\" class=\"tdfin\">            적용 모델        </th>    </tr>    <tr>        <td class=\"trfinth\">            U02-193-900        </td>        <td class=\"trfin\">         KD0</td>        <td class=\"trfin\" scope=\"row\">            Inset Sieve Basket, Inner Ø75 mm        </td>        <td class=\"trfin2\">            Bandelin Ultrasoinc Cleaner 전 모델 사용 가능</td>    </tr></tbody></table> " ],
+  "title" : "Bandelin Ultrasonic Cleaner Accessories (Bandelin 초음파세척기 악세사리)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ Single 또는 Dual 파장의 UV lamp", "■ Intensity는 15 cm 거리에서의 측정 값을 나타냄", "■ Vilber Lourmat" ],
+  "id" : "2945",
+  "image" : "http://lklab.com/product_image/S-10801.jpg",
+  "specification" : [ {
+    "content" : "UV Handy Lamp 2×6 Watt, 365/254nm intensity : 610/400",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "VL-6LC",
+    "number" : "U01-133-194"
+  }, {
+    "content" : "UV Handy Lamp 2×6 Watt, 365/312nm intensity : 610/580",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "VL-6LM",
+    "number" : "U01-133-201"
+  }, {
+    "content" : "UV Handy Lamp 2×6 Watt, 312/254nm intensity : 580/400",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "VL-6MC",
+    "number" : "U01-133-208"
+  }, {
+    "content" : "UV Handy Lamp 1×15 Watt, 365nm(장파장) intensity : 1100",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "VL-115L",
+    "number" : "U01-133-215"
+  }, {
+    "content" : "UV Handy Lamp 1×15 Watt, 254nm(단파장) intensity : 1000",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "VL-115C",
+    "number" : "U01-133-222"
+  }, {
+    "content" : "UV Handy Lamp 1×15 Watt, 312nm(중파장) intensity : 1000",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "VL-115M",
+    "number" : "U01-133-229"
+  }, {
+    "content" : "UV Handy Lamp 2×15 Watt, 365nm(장파장) intensity : 2300",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "VL-215L",
+    "number" : "U01-133-236"
+  }, {
+    "content" : "UV Handy Lamp 2×15 Watt, 254nm(단파장) intensity : 1780",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "VL-215C",
+    "number" : "U01-133-243"
+  }, {
+    "content" : "UV Handy Lamp 2×15 Watt, 312nm(중파장) intensity : 3000",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "VL-215M",
+    "number" : "U01-133-250"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                              <tr>                 <th scope=\"row\" width=\"160\">Cat. No.</th>                 <th width=\"160\" scope=\"row\">Model</th>                 <th width=\"160\" scope=\"row\" class=\"tdfinth3\">Tubes (watt)</th>                 <th width=\"160\" scope=\"row\">Wavelength (nm)</th>                 <th width=\"160\" class=\"tdfin\" scope=\"row\">Intensity (㎼/㎠) </th>                </tr>              </thead>              <tbody>                                <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-194</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-6LC</td>                   <td rowspan=\"3\" class=\"tdfinth3\" scope=\"row\">1×6 W</td>                   <td scope=\"row\" tdfin=\"\">365 / 254</td>                   <td class=\"tdfin\" scope=\"row\">610 / 400</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-201</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-6LM</td>                   <td scope=\"row\" tdfin=\"\">365 / 312</td>                   <td class=\"tdfin\" scope=\"row\">610 / 580</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-208</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-6MC</td>                   <td scope=\"row\" tdfin=\"\">312 / 254</td>                   <td class=\"tdfin\" scope=\"row\">580 / 400</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-215</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-115L</td>                   <td rowspan=\"3\" class=\"tdfinth3\" scope=\"row\">1×15 W</td>                   <td scope=\"row\" tdfin=\"\">365</td>                   <td class=\"tdfin\" scope=\"row\">1,100</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-222</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-115C</td>                   <td scope=\"row\" tdfin=\"\">254</td>                   <td rowspan=\"2\" class=\"tdfin\" scope=\"row\">1,000</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-229</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-115M</td>                   <td scope=\"row\" tdfin=\"\">312</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-236</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-215L</td>                   <td rowspan=\"3\" class=\"trfin\" scope=\"row\">2×15 W</td>                   <td scope=\"row\" tdfin=\"\">365</td>                   <td class=\"tdfin\" scope=\"row\">2,300</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-243</td>                   <td class=\"tdfinth3\" scope=\"row\">VL-215C</td>                   <td scope=\"row\" tdfin=\"\">254</td>                   <td class=\"tdfin\" scope=\"row\">1,780</td>                 </tr>                 <tr>                  <td class=\"trfinth\" scope=\"row\">U01-133-250</td>                  <td class=\"trfin\" scope=\"row\">VL-215M</td>                  <td class=\"trfin\" scope=\"row\">312</td>                  <td class=\"trfin2\" scope=\"row\">3,000</td>                </tr>              </tbody></table>" ],
+  "title" : "UV Hand Lamp (자외선 핸드 램프)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ 같은 용량의 UV Lamp의 Spare Lamp", "■ 조명용 형광등 기구와 같이 사용 가능함", "■ LK Labkorea" ],
+  "id" : "2946",
+  "image" : "http://lklab.com/product_image/S-10803.jpg",
+  "specification" : [ {
+    "content" : "UV Spare Tube Straight Shape Lamp, 254 nm 4 Watt",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "T-4C",
+    "number" : "U01-133-264"
+  }, {
+    "content" : "UV Spare Tube Straight Shape Lamp, 254 nm 6 Watt",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "T-6C",
+    "number" : "U01-133-285"
+  }, {
+    "content" : "UV Spare Tube UC-C, 254 nm 8 Watt",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "T-8C",
+    "number" : "U01-133-290"
+  }, {
+    "content" : "UV Spare Tube Straight Shape Lamp, 254 nm 10 Watt",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "T-10C",
+    "number" : "U01-133-296"
+  }, {
+    "content" : "UV Spare Tube Straight Shape Lamp, 254 nm 15 Watt",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "T-15C",
+    "number" : "U01-133-306"
+  }, {
+    "content" : "UV Spare Tube Straight Shape Lamp, 254 nm 20 Watt",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "T-20C",
+    "number" : "U01-133-322"
+  }, {
+    "content" : "UV Spare Tube Straight Shape Lamp, 254 nm 30 Watt",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "T-30C",
+    "number" : "U01-133-340"
+  }, {
+    "content" : "UV Spare Tube Straight Shape Lamp, 254 nm 40 Watt",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "T-40C",
+    "number" : "U01-133-365"
+  }, {
+    "content" : "UV Spare Lamp Mini-Bowl Shape Lamp, 254 nm 2 Watt",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "T-2C",
+    "number" : "U01-133-477"
+  }, {
+    "content" : "UV Spare Lamp Mini-Bowl Shape Lamp, 254 nm 3 Watt",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "T-3C",
+    "number" : "U01-133-484"
+  }, {
+    "content" : "Spare Tube UC-B, 312 nm 4 Watt",
+    "id" : "11",
+    "isSelected" : false,
+    "model" : "T-4M",
+    "number" : "U01-133-464"
+  }, {
+    "content" : "Spare Tube UC-B, 312 nm 6 Watt (U01-133-292 -> U01-133-470)",
+    "id" : "12",
+    "isSelected" : false,
+    "model" : "T-6M",
+    "number" : "U01-133-470"
+  }, {
+    "content" : "Spare Tube UC-B, 312 nm 15 Watt",
+    "id" : "13",
+    "isSelected" : false,
+    "model" : "T-15M",
+    "number" : "U01-133-478"
+  }, {
+    "content" : "UV Spare Tube UC-A, 365 nm 4 Watt",
+    "id" : "14",
+    "isSelected" : false,
+    "model" : "T-4L",
+    "number" : "U01-133-488"
+  }, {
+    "content" : "UV Spare Tube UC-A, 365 nm 6 Watt",
+    "id" : "15",
+    "isSelected" : false,
+    "model" : "T-6L",
+    "number" : "U01-133-496"
+  }, {
+    "content" : "UV Spare Tube UC-A, 365 nm 8 Watt",
+    "id" : "16",
+    "isSelected" : false,
+    "model" : "T-8L",
+    "number" : "U01-133-500"
+  }, {
+    "content" : "UV Spare Tube UC-A, 365 nm 15 Watt",
+    "id" : "17",
+    "isSelected" : false,
+    "model" : "T-15L",
+    "number" : "U01-133-504"
+  } ],
+  "tableItems" : [ "<h1 style=\"display:inline-block; width:850px; color:#232323; font-size:16px; line-height: 22px;\">UC-C (254 nm), 살균 램프</h1><ul><li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;text-align:left;\">● 자외선 254 nm의 파장역 (UV-C)을 방사<br>● DNA를 파괴하는 자외선, 세균을 사멸 시키는 작용을 함</li></ul>Straight Shape Lamp<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:30px;\"><thead>                              <tr>                 <th scope=\"row\" width=\"135\">Cat. No</th>                 <th width=\"166\" scope=\"row\">Model</th>                 <th width=\"166\" scope=\"row\" class=\"tdfinth3\">Lamp</th>                 <th width=\"166\" scope=\"row\">Size (Ø×L, mm)</th>                 <th width=\"167\" class=\"tdfin\" scope=\"row\">UV output</th>                </tr>              </thead>              <tbody>                                <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-264</td>                   <td class=\"tdfinth3\" scope=\"row\">T-4C</td>                   <td class=\"tdfinth3\" scope=\"row\">4 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×134.5</td>                   <td class=\"tdfin\" scope=\"row\">0.8</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-285</td>                   <td class=\"tdfinth3\" scope=\"row\">T-6C</td>                   <td class=\"tdfinth3\" scope=\"row\">6 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×210.5</td>                   <td class=\"tdfin\" scope=\"row\">1.7</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-290</td>                   <td class=\"tdfinth3\" scope=\"row\">T-8C</td>                   <td class=\"tdfinth3\" scope=\"row\">8 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×287</td>                   <td class=\"tdfin\" scope=\"row\">2.5</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-296</td>                   <td class=\"tdfinth3\" scope=\"row\">T-10C</td>                   <td class=\"tdfinth3\" scope=\"row\">10 W</td>                   <td scope=\"row\" tdfin=\"\">25.5×330</td>                   <td class=\"tdfin\" scope=\"row\">2.7</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-306</td>                   <td class=\"tdfinth3\" scope=\"row\">T-15C</td>                   <td class=\"tdfinth3\" scope=\"row\">15 W</td>                   <td scope=\"row\" tdfin=\"\">25.5×436</td>                   <td class=\"tdfin\" scope=\"row\">4.9</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-322</td>                   <td class=\"tdfinth3\" scope=\"row\">T-20C</td>                   <td class=\"tdfinth3\" scope=\"row\">20 W</td>                   <td scope=\"row\" tdfin=\"\">32.5×580</td>                   <td class=\"tdfin\" scope=\"row\">7.5</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-340</td>                   <td class=\"tdfinth3\" scope=\"row\">T-30C</td>                   <td class=\"tdfinth3\" scope=\"row\">30 W</td>                   <td scope=\"row\" tdfin=\"\">25.5×893</td>                   <td class=\"tdfin\" scope=\"row\">13.4</td>                 </tr>                 <tr>                  <td class=\"trfinth\" scope=\"row\">U01-133-365</td>                  <td class=\"trfin\" scope=\"row\">T-40C</td>                  <td class=\"trfin\" scope=\"row\"><span class=\"tdfinth3\">40 W</span></td>                  <td class=\"trfin\" scope=\"row\">32.5×1198</td>                  <td class=\"trfin2\" scope=\"row\">19.8</td>                </tr>              </tbody></table>Mini-Bowl Shape Lamp<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:30px;\"><thead>                              <tr>                 <th scope=\"row\" width=\"135\">Cat. No</th>                 <th width=\"166\" scope=\"row\">Model</th>                 <th width=\"166\" scope=\"row\" class=\"tdfinth3\">Lamp</th>                 <th width=\"166\" scope=\"row\">Size (Ø×L, mm)</th>                 <th width=\"167\" class=\"tdfin\" scope=\"row\">UV output</th>                </tr>              </thead>              <tbody>                                <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-477</td>                   <td class=\"tdfinth3\" scope=\"row\">T-2C</td>                   <td class=\"tdfinth3\" scope=\"row\">2 W</td>                   <td scope=\"row\" tdfin=\"\">20×55</td>                   <td class=\"tdfin\" scope=\"row\">0.12</td>                 </tr>                 <tr>                  <td class=\"trfinth\" scope=\"row\">U01-133-484</td>                  <td class=\"trfin\" scope=\"row\">T-3C</td>                  <td class=\"trfin\" scope=\"row\"><span class=\"tdfinth3\">3 W</span></td>                  <td class=\"trfin\" scope=\"row\">20×63</td>                  <td class=\"trfin2\" scope=\"row\">1.16</td>                </tr>              </tbody></table><h1 style=\"display:inline-block; width:850px;  color:#232323; font-size:16px; line-height: 22px;\">UC-B (312 nm)</h1><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\" style=\"margin-bottom:30px;\"><thead>                              <tr>                 <th scope=\"row\" width=\"135\">Cat. No.</th>                 <th width=\"166\" scope=\"row\">Model</th>                 <th width=\"166\" scope=\"row\" class=\"tdfinth3\">Lamp</th>                 <th width=\"166\" scope=\"row\">Size (Ø×L, mm)</th>                 <th width=\"167\" class=\"tdfin\" scope=\"row\">UV output</th>                </tr>              </thead>              <tbody>                                <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-464</td>                   <td class=\"tdfinth3\" scope=\"row\">T-4M</td>                   <td class=\"tdfinth3\" scope=\"row\">4 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×134.5</td>                   <td class=\"tdfin\" scope=\"row\">0.8 </td>                 </tr>                  <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-470</td>                   <td class=\"tdfinth3\" scope=\"row\">T-6M</td>                   <td class=\"tdfinth3\" scope=\"row\">6 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×210.5</td>                   <td class=\"tdfin\" scope=\"row\">1.7</td>                  </tr>                 <tr>                  <td class=\"trfinth\" scope=\"row\">U01-133-478</td>                  <td class=\"trfin\" scope=\"row\">T-15M</td>                  <td class=\"trfin\" scope=\"row\"><span class=\"tdfinth3\">15 W</span></td>                  <td class=\"trfin\" scope=\"row\">25.5×436</td>                  <td class=\"trfin2\" scope=\"row\">4.9</td>                </tr>              </tbody></table><h1 style=\"display:inline-block; width:850px;  color:#232323; font-size:16px; line-height: 22px;\">UC-A (365 nm)</h1><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                              <tr>                 <th scope=\"row\" width=\"135\">Cat. No.</th>                 <th width=\"166\" scope=\"row\">Model</th>                 <th width=\"166\" scope=\"row\" class=\"tdfinth3\">Lamp</th>                 <th width=\"166\" scope=\"row\">Size (Ø×L, mm)</th>                 <th width=\"167\" class=\"tdfin\" scope=\"row\">UV output</th>                </tr>              </thead>              <tbody>                                <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-488</td>                   <td class=\"tdfinth3\" scope=\"row\">T-4L</td>                   <td class=\"tdfinth3\" scope=\"row\">4 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×134.5</td>                   <td class=\"tdfin\" scope=\"row\">0.8</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-496</td>                   <td class=\"tdfinth3\" scope=\"row\">T-6L</td>                   <td class=\"tdfinth3\" scope=\"row\">6 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×210.5</td>                   <td class=\"tdfin\" scope=\"row\">1.7</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-500</td>                   <td class=\"tdfinth3\" scope=\"row\">T-8L</td>                   <td class=\"tdfinth3\" scope=\"row\">8 W</td>                   <td scope=\"row\" tdfin=\"\">15.5×287</td>                   <td class=\"tdfin\" scope=\"row\">2.5</td>                 </tr>                 <tr>                  <td class=\"trfinth\" scope=\"row\">U01-133-504</td>                  <td class=\"trfin\" scope=\"row\">T-15L</td>                  <td class=\"trfin\" scope=\"row\"><span class=\"tdfinth3\">15 W</span></td>                  <td class=\"trfin\" scope=\"row\">25.5×436</td>                  <td class=\"trfin2\" scope=\"row\">4.9</td>                </tr>              </tbody></table>                   " ],
+  "title" : "UV Ultraviolet Lamp (자외선 램프)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ Vilber Lourmat" ],
+  "id" : "2947",
+  "image" : "http://lklab.com/product_image/S-10804.jpg",
+  "specification" : [ {
+    "content" : "UV lamp Stand VL-115, 215",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "SVL-30",
+    "number" : "U01-133-734"
+  }, {
+    "content" : "UV lamp Stand VL-4, 6",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "SVL-6",
+    "number" : "U01-133-740"
+  }, {
+    "content" : "UV lamp Handle VL-4, 6",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "SMA",
+    "number" : "U01-133-746"
+  }, {
+    "content" : "UV lamp Braket VL-4, 6",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "SMU",
+    "number" : "U01-133-752"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">            <thead>                              <tr>                 <th scope=\"row\" width=\"136\">Cat. No</th>                 <th width=\"222\" scope=\"row\">Model</th>                 <th width=\"222\" scope=\"row\" class=\"tdfinth3\">형식</th>                 <th width=\"222\" class=\"tdfin\" scope=\"row\">적용 모델</th>                </tr>    </thead>              <tbody>                                <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-734</td>                   <td class=\"tdfinth3\" scope=\"row\">SVL-30</td>                   <td rowspan=\"2\" class=\"tdfinth3\" scope=\"row\">Stand</td>                   <td class=\"tdfin\" scope=\"row\">VL-115, 215</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-740</td>                   <td class=\"tdfinth3\" scope=\"row\">SVL-6</td>                   <td class=\"tdfin\" scope=\"row\">VL-6</td>                 </tr>                 <tr>                   <td class=\"trfinth4\" scope=\"row\">U01-133-746</td>                   <td class=\"tdfinth3\" scope=\"row\">SMA</td>                   <td class=\"tdfinth3\" scope=\"row\">Handle</td>                   <td class=\"tdfin\" scope=\"row\">VL-6</td>                 </tr>                 <tr>                  <td class=\"trfinth\" scope=\"row\">U01-133-752</td>                  <td class=\"trfin\" scope=\"row\">SMU</td>                  <td class=\"trfin\" scope=\"row\">Braket</td>                  <td class=\"trfin2\" scope=\"row\">VL-6</td>                </tr>              </tbody></table>  " ],
+  "title" : "UV Lamp Stand (UV 램프 스탠드)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ Cabinet (Darkroom) Only (UV lamp 별도 구매해야 함)", "■ TLC 용 Darkroom으로 사용", "■ 6 Watt UV 램프를 2개까지 부착하여 사용가능", "■ Vilber Lourmat" ],
+  "id" : "2948",
+  "image" : "http://lklab.com/product_image/S-10806.jpg",
+  "specification" : [ {
+    "content" : "Viewing Cabinet for UV Handy Lamp w300×d280×h240",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "CN-6",
+    "number" : "U01-133-800"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">      <thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"300\" scope=\"row\">Model</th>          <th width=\"300\" class=\"tdfin\" scope=\"row\">Size </th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth\" scope=\"row\">U01-133-800</td>          <td class=\"trfin\" scope=\"row\">CN-6</td>          <td class=\"trfin2\" scope=\"row\">w300×d280×h240 mm</td>  </tr></tbody></table>" ],
+  "title" : "UV Viewing Cabinet only (자외선 차단 박스)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ High Intensity Long-wave 자외선 램프", "■ Intensity : 21.700 ㎼/㎠ (5 cm 거리) / 8,900 ㎼/㎠ (25 cm 거리)", "■ Speciman Staining과 Polymer Curing등에 사용", "■ Lamp와 Transformer는 2m Cord로 연결되어져 있음", "■ Size : w136×d351×h394 mm", "■ UVP" ],
+  "id" : "2949",
+  "image" : "http://lklab.com/product_image/S-10808.jpg",
+  "specification" : [ {
+    "content" : "UV Lamp High Intensity(고휘도) 365nm, 100Watt",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "23050",
+    "number" : "U01-55-143"
+  }, {
+    "content" : "UV Lamp High Intensity(고휘도), Optional Accessory Expolsure Box",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "23051",
+    "number" : "U01-55-623"
+  }, {
+    "content" : "UV Lamp High Intensity(고휘도), Optional Accessory Spare Bulb",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "23053",
+    "number" : "U01-55-635"
+  }, {
+    "content" : "UV Lamp High Intensity(고휘도), Optional Accessory Lamp Visor",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "23054",
+    "number" : "U01-55-641"
+  }, {
+    "content" : "UV Lamp High Intensity(고휘도), Optional Accessory Lamp Funnel",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "23055",
+    "number" : "U01-55-647"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>                              <tr>                 <th scope=\"row\" width=\"135\">Cat. No</th>                 <th width=\"166\" scope=\"row\">Model</th>                 <th width=\"166\" scope=\"row\" class=\"tdfinth3\">Wavelength</th>                 <th width=\"166\" scope=\"row\">Lamp</th>                 <th width=\"167\" class=\"tdfin\" scope=\"row\">Power</th>                </tr>              </thead>              <tbody>                                <tr>                  <td class=\"trfinth\" scope=\"row\">U01-55-143</td>                  <td class=\"trfin\" scope=\"row\">23050</td>                  <td class=\"trfin\" scope=\"row\"><span class=\"tdfinth3\">365 nm</span></td>                  <td class=\"trfin\" scope=\"row\">100 watt</td>                  <td class=\"trfin2\" scope=\"row\">115 V</td>                </tr>              </tbody></table>           Optional Accessory           <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>        <tr>          <th scope=\"row\" width=\"136\">Cat. No</th>          <th width=\"332\" scope=\"row\">Model</th>          <th width=\"332\" class=\"tdfin\" scope=\"row\">Description</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-55-623</td>          <td class=\"tdfinth3\" scope=\"row\">23051</td>          <td class=\"tdfin\" scope=\"row\">Explosure Box</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-55-635</td>          <td class=\"tdfinth3\" scope=\"row\">23053</td>          <td class=\"tdfin\" scope=\"row\">Spare Bulb, 7˚Bean Width</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-55-641</td>          <td class=\"tdfinth3\" scope=\"row\">23054</td>          <td class=\"tdfin\" scope=\"row\">Lamp Visor</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">U01-55-647</td>          <td class=\"trfin\" scope=\"row\">23055</td>          <td class=\"trfin2\" scope=\"row\">Lamp Funnel</td>  </tr></tbody></table>" ],
+  "title" : "High Intensity UV Lamp (고휘도 자외선 램프)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ 핵산을 Membrane 에 고정하거나 PCR 반응시 오염 물질의 제거에 이상적임", "■ 2 가지 UV Energy 설정 범위 : 0 to 99.99 J or 0 to 9.999 J", "■ 시간 설정 범위 : 0 ~ 999.9 min", "■ UV Energy, 일 시간 모두 9 가지를 Preset 할 수 있음", "■ Size : (Internal) w32×d26×h14.5 cm, (External) w30×d35×h30.5 cm", "■ Power : 230V, 50/60 Hz", "■ Vilber Lourmat" ],
+  "id" : "2950",
+  "image" : "http://lklab.com/product_image/S-6977.jpg",
+  "specification" : [ {
+    "content" : "UV Crosslinker 254nm 5×8 Watt",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "BLX254",
+    "number" : "U01-133-551"
+  }, {
+    "content" : "UV Crosslinker 312nm 5×8 Watt",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "BLX312",
+    "number" : "U01-133-558"
+  }, {
+    "content" : "UV Crosslinker 365nm 5×8 Watt",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "BLX365",
+    "number" : "U01-133-565"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">      <caption style=\"display:none;\">상세 규격 표      </caption><thead>        <tr>          <th scope=\"row\" width=\"200\">Cat. No.</th>          <th width=\"200\" scope=\"row\">Model</th>          <th width=\"200\" scope=\"row\">Tube (watt)</th>          <th width=\"200\" class=\"tdfin\" scope=\"row\">파장 (nm)</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-133-551</td>          <td class=\"tdfinth3\" scope=\"row\">BLX254</td>          <td rowspan=\"3\" class=\"trfin\" scope=\"row\">5×8 W</td>          <td class=\"tdfin\" scope=\"row\">254</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-133-558</td>          <td class=\"tdfinth3\" scope=\"row\">BLX312</td>          <td class=\"tdfin\" scope=\"row\">312</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">U01-133-565</td>          <td class=\"trfin\" scope=\"row\">BLX365</td>          <td class=\"trfin2\" scope=\"row\">365</td>  </tr></tbody></table>" ],
+  "title" : "UV Crosslinker (자외선 조사기)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ High & Low Intensity를 선택할 수 있는 스위치 부착 (±100%/±70%)", "■ 사용자에게 편리한 시야 각도와 유해한 UV광선을 차단하여 주는 UV안전 스크린", "■ Filter Size : 200×200 mm", "■ 100 ~ 240 V, 50/60 Hz, 25 kHz", "■ Vilber Lourmat" ],
+  "id" : "2951",
+  "image" : "http://lklab.com/product_image/S-10810.jpg",
+  "specification" : [ {
+    "content" : "UV Transilluminator 파장 : 254nm, Intensity : 7000μW/㎠ 6×8Watt",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "ETC-F20C",
+    "number" : "U01-133-532"
+  }, {
+    "content" : "UV Transilluminator 파장 : 312nm, Intensity : 10000μW/㎠ 6×8Watt",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "ETC-F20M",
+    "number" : "U01-133-539"
+  }, {
+    "content" : "UV Transilluminator 파장 : 365nm, Intensity : 7000μW/㎠ 6×8Watt",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "ETC-F20L",
+    "number" : "U01-133-546"
+  }, {
+    "content" : "UV Transilluminator Conversion Screen UV to white light",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "FC-26WL",
+    "number" : "U01-133-889"
+  }, {
+    "content" : "UV Transilluminator Conversion Screen UV to Blue Light (480nm)",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "FC-26",
+    "number" : "U01-133-895"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">      <thead>        <tr>          <th scope=\"row\" width=\"160\">Cat. No.</th>          <th width=\"160\" scope=\"row\">Model</th>          <th width=\"160\" scope=\"row\" class=\"tdfinth3\">Tube</th>          <th width=\"160\" scope=\"row\">파장</th>          <th width=\"160\" class=\"tdfin\" scope=\"row\">Intensity</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-133-532</td>          <td class=\"tdfinth3\" scope=\"row\">ECX-F20C</td>          <td rowspan=\"3\" class=\"trfin\" scope=\"row\">6×8 W</td>          <td scope=\"row\" tdfin=\"\">254 nm</td>          <td class=\"tdfin\" scope=\"row\">7,000 mW/cm2 </td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-133-539</td>          <td class=\"tdfinth3\" scope=\"row\">ECX-F20M</td>          <td scope=\"row\" tdfin=\"\">312 nm</td>          <td class=\"tdfin\" scope=\"row\">10,000 mW/cm2</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">U01-133-546</td>          <td class=\"trfin\" scope=\"row\">ECX-F20L</td>          <td class=\"trfin\" scope=\"row\">365 nm</td>          <td class=\"trfin2\" scope=\"row\">7,000 mW/cm</td>  </tr></tbody></table>           Conversion Screen           <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>        <tr>          <th scope=\"row\" width=\"136\">Cat. No</th>          <th width=\"332\" scope=\"row\">Model</th>          <th width=\"332\" class=\"tdfin\" scope=\"row\">규격</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-133-889</td>          <td class=\"tdfinth3\" scope=\"row\">FC-26WL</td>          <td class=\"tdfin\" scope=\"row\">UV to white light</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">U01-133-895</td>          <td class=\"trfin\" scope=\"row\">FC-26</td>          <td class=\"trfin2\" scope=\"row\">UV to Blue light (480 nm)</td>  </tr></tbody></table><ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:15px 0 25px;\">● 312 nm Transilluminator와 같이 사용하기 적당함<br>  ● CS-WL : Autoradiography, Protein Gel<br>  ● CS-BL : GFP II, Syber Green, Sypro Orange</li></ul>" ],
+  "title" : "UV Transilluminator (형광 테이블)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ DNA/RNA Detection", "■ DNA Band 관찰을 위해 안전하고 수명이 긴 Blue LED (470 nm)를 사용", "■ Agarose gel cutting 및 Data imaging 분석 시 안전한 실험 환경을 제공", "■ 자유롭게 각도를 조절할 수 있는 고투명의 넓은 UV Filter Cover", "■ UV 보호장비 착용 없이 쉽게 Gel Cutting이 가능", "■ 108개의 고광도 LED 사용으로 높은 휘도, 감도, 균일성을 유지", "■ LED 강도는 UV 조절 다이얼을 이용하여 여러 단계로 조절 가능", "■ 컴팩트한 디자인과 1 KG이 안 되는 가벼운 무게(0.87KG)로 이동성과 작업성이 용이", "■ Knife를 대체한 Gel Cutting Tip 사용으로 안전하고 편리하게 DNA Band를 절단 가능", "■ Mini Darkroom을 이용하여 Gel 관찰이 용이", "■ 구성 : LED Transilluminator, Mini Darkroom, Gel Cutting Tip, DC12V Adapter", "■ LK Labkorea" ],
+  "id" : "2952",
+  "image" : "http://lklab.com/product_image/S-13183.jpg",
+  "specification" : [ {
+    "content" : "LED Blue Light Transilluminator 470nm 220V / 0.35A / 60Hz - DC12V 2.0A",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "3361",
+    "number" : "U01-3110-001"
+  } ],
+  "tableItems" : [ "<ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">                <thead>                <tr>                 <th width=\"200\" scope=\"row\">Cat. No.</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th scope=\"row\" class=\"tdfin\">Description </th>                </tr>              </thead>              <tbody>                                <tr>                  <td scope=\"row\" class=\"trfinth\">U01-3110-001</td>                  <td scope=\"row\" class=\"trfin\">3361</td>                  <td scope=\"row\" rowspan=\"1\" class=\"trfin2\">LED Blue Light Transilluminator470nm220V / 0.35A / 60Hz - DC12V 2.0A</td>                </tr>                             </tbody></table>  <ul>  <li style=\"font-size: 12px; color: #666; list-style:none; line-height: 18px;  width:800px; margin:10px 0 10px; text-align:left;\"></li></ul><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">     <thead>         <tr>           <th width=\"200\" colspan=\"1\" scope=\"col\">Cat. No.</th>           <td width=\"400\" class=\"trfinth3\" scope=\"col\">U01-3110-001</td>         </tr>         <tr>           <th colspan=\"1\" scope=\"col\">Model</th>           <td class=\"trfinth3\" scope=\"col\">3361</td>         </tr>       </thead>           <tbody>         <tr>           <th scope=\"col\">LED Wavelength, Source</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">470 nm, Built-in blue light module</td>         </tr>         <tr>           <th scope=\"col\">Size (Filter, Gel Vieing) mm</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">W210 x D235 x H50 (210 x 210, 160 x 100)</td>         </tr>         <tr>           <th scope=\"col\">Gel Cutting Tip (mm)</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">W6.5 x D1.1 / W4 x D1.1 각 10Tip (1000ul Pipetter  사용)</td>         </tr>         <tr>           <th scope=\"col\">Power Input / Output</th>          <td colspan=\"1\" class=\"tdfin\" scope=\"col\">220V 0.35A 60Hz / DC 12V 2.0A</td>         </tr>         <tr>           <th class=\"trfin\" scope=\"col\">Weight</th>          <td colspan=\"1\" class=\"trfin2\" scope=\"col\">870g</td>         </tr>       </tbody></table>" ],
+  "title" : "LED Blue Light Transilluminator (DNA Band 관찰기)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "id" : "2953",
+  "image" : "http://lklab.com/product_image/S-10811.jpg",
+  "specification" : [ {
+    "content" : "UV Meter 280~400nm 측정범위 : 0~199.9mW/㎠",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "UVA+B",
+    "number" : "U01-201-347"
+  }, {
+    "content" : "UV Meter 280~400nm 측정범위 : 0~1999μW/㎠",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "UVA+B7",
+    "number" : "U01-201-355"
+  }, {
+    "content" : "UV Meter 280~320nm 측정범위 : 0~19.99mW/㎠",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "UVB",
+    "number" : "U01-201-363"
+  }, {
+    "content" : "UV Meter 280~320nm 측정범위 : 0~1999μW/㎠",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "UVB2",
+    "number" : "U01-201-371"
+  }, {
+    "content" : "UV Meter 246~262nm 측정범위 : 0~1999μW/㎠",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "UVC",
+    "number" : "U01-201-379"
+  }, {
+    "content" : "UV Meter 290~400nm UV Index Number",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "UVI",
+    "number" : "U01-201-387"
+  }, {
+    "content" : "UV Meter 280~400nm 측정범위 : 0~199.9MED/hr",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "UVM",
+    "number" : "U01-201-395"
+  } ],
+  "tableItems" : [ "<table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">      <thead>        <tr>          <th scope=\"row\" width=\"160\">Cat. No.</th>          <th width=\"160\" scope=\"row\">Model</th>          <th width=\"160\" scope=\"row\" class=\"tdfinth3\">파장범위</th>          <th width=\"160\" scope=\"row\">측정범위</th>          <th width=\"160\" class=\"tdfin\" scope=\"row\">정밀도</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-347</td>          <td class=\"tdfinth3\" scope=\"row\">UVA+B</td>          <td rowspan=\"2\" class=\"tdfinth3\" scope=\"row\">280 ~ 400</td>          <td scope=\"row\" tdfin=\"\">0 ~ 199.9 mW/cm2</td>          <td class=\"tdfin\" scope=\"row\">±5%</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-355</td>          <td class=\"tdfinth3\" scope=\"row\">UVA+B7</td>          <td scope=\"row\" tdfin=\"\">0 ~ 1999 mW/cm</td>          <td class=\"tdfin\" scope=\"row\">±10%</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-363</td>          <td class=\"tdfinth3\" scope=\"row\">UVB</td>          <td rowspan=\"2\" class=\"tdfinth3\" scope=\"row\">280 ~ 320</td>          <td scope=\"row\" tdfin=\"\">0 ~ 19.99 mV/cm2</td>          <td class=\"tdfin\" scope=\"row\">±5%</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-371</td>          <td class=\"tdfinth3\" scope=\"row\">UVB2</td>          <td scope=\"row\" tdfin=\"\">0 ~ 1999 mW/cm2</td>          <td class=\"tdfin\" scope=\"row\">±10%</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-379</td>          <td class=\"tdfinth3\" scope=\"row\">UVC</td>          <td class=\"tdfinth3\" scope=\"row\">246 ~ 262</td>          <td scope=\"row\" tdfin=\"\">0 ~ 1999 mW/cm2</td>          <td class=\"tdfin\" scope=\"row\">±10%</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-387</td>          <td class=\"tdfinth3\" scope=\"row\">UVI</td>          <td class=\"tdfinth3\" scope=\"row\">290 ~ 400</td>          <td scope=\"row\" tdfin=\"\">UV Index Number</td>          <td class=\"tdfin\" scope=\"row\">±10%</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">U01-201-395</td>          <td class=\"trfin\" scope=\"row\">UVM</td>          <td class=\"trfin\" scope=\"row\">280 ~ 400</td>          <td class=\"trfin\" scope=\"row\">0 ~ 199.9 MED/hr</td>          <td class=\"trfin2\" scope=\"row\">±10%</td>  </tr></tbody></table><table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\">      <thead>        <tr>          <th width=\"100\" height=\"42\" scope=\"row\">Cat. No.</th>          <th width=\"100\" scope=\"row\">Model</th>          <th width=\"100\" scope=\"row\" class=\"tdfinth3\">Type</th>          <th width=\"500\" class=\"tdfin\" scope=\"row\">용도</th>        </tr>      </thead>      <tbody>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-347</td>          <td class=\"tdfinth3\" scope=\"row\">UVA+B</td>          <td class=\"tdfinth3\" scope=\"row\">5.0</td>          <td class=\"tdfin\" scope=\"row\"><p>자외선 램프 수명 테스트, 아크릴 보호막 투과율 측정, </p>          <p>자외선 차단 안경제품, 창문 투과율 측정</p></td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-355</td>          <td class=\"tdfinth3\" scope=\"row\">UVA+B7</td>          <td class=\"tdfinth3\" scope=\"row\">5.7</td>          <td class=\"tdfin\" scope=\"row\">미세단위의 자외선 측정 (실내 자외선 측정)</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-363</td>          <td class=\"tdfinth3\" scope=\"row\">UVB</td>          <td class=\"tdfinth3\" scope=\"row\">6.0</td>          <td class=\"tdfin\" scope=\"row\">자외선 B램프 세기와 수명 테스트</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-371</td>          <td class=\"tdfinth3\" scope=\"row\">UVB2</td>          <td class=\"tdfinth3\" scope=\"row\">6.2</td>          <td class=\"tdfin\" scope=\"row\">미세단위의 자외선 B측정 (실내 자외선 측정)</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-379</td>          <td class=\"tdfinth3\" scope=\"row\">UVC</td>          <td class=\"tdfinth3\" scope=\"row\">8.0</td>          <td class=\"tdfin\" scope=\"row\">자외선의 세기를 측정해서 자외선 지수를 나타냄</td>        </tr>        <tr>          <td class=\"trfinth4\" scope=\"row\">U01-201-387</td>          <td class=\"tdfinth3\" scope=\"row\">UVI</td>          <td class=\"tdfinth3\" scope=\"row\">6.5</td>          <td class=\"tdfin\" scope=\"row\">MED/HR 표시 아크릴 보호막 투과율 측정</td>        </tr>        <tr>          <td class=\"trfinth\" scope=\"row\">U01-201-395</td>          <td class=\"trfin\" scope=\"row\">UVM</td>          <td class=\"trfin\" scope=\"row\">7.0</td>          <td class=\"trfin2\" scope=\"row\">자외선 C램프 세기와 수명 테스트, 자외선 차단 안경제품 비교</td>  </tr></tbody></table>" ],
+  "title" : "UV Meter (자외선 세기 측정기)",
+  "type" : "expendables_U"
+}, {
+  "classify" : "Ultraviolet[자외선]",
+  "content" : [ "■ 자동 단위 변환 기능 내장", "■ 습도와 온도 측정 가능", "■ 버튼 하나로 Min, Average, Max 값 Logging 가능", "■ S/W를 통해 컴퓨터로 결과값 다운로드 가능", "■ Sensor는 별도 구매 (NIST Traceable Calibation Report 포함)", "■ 구성", "- Single Input : Radiometer, 4×AA Battery", "- Dual Input : Radiometer, 2×Wire AC Adapter/Charger (90~265 VAC, L183cm), RS-232 Cable, Battery, Carrying Case", "■ Dual Input 제품은 1,024개의 값까지 저장 가능", "■ Cole-Parmer" ],
+  "id" : "2954",
+  "image" : "http://lklab.com/product_image/S-11253.jpg",
+  "specification" : [ {
+    "content" : "Radiometer Single Input No Data Logging",
+    "id" : "1",
+    "isSelected" : false,
+    "model" : "97650-02",
+    "number" : "U01-55-003"
+  }, {
+    "content" : "Radiometer Dual Input 1 min ~ 2 hours",
+    "id" : "2",
+    "isSelected" : false,
+    "model" : "97650-00",
+    "number" : "U01-55-006"
+  }, {
+    "content" : "UV Sensor UVA 320~400 nm",
+    "id" : "3",
+    "isSelected" : false,
+    "model" : "97650-52",
+    "number" : "U01-55-310"
+  }, {
+    "content" : "UV Sensor UVB 280~340 nm",
+    "id" : "4",
+    "isSelected" : false,
+    "model" : "97650-50",
+    "number" : "U01-55-313"
+  }, {
+    "content" : "UV Sensor UVC/Germicidal 249~261 nm",
+    "id" : "5",
+    "isSelected" : false,
+    "model" : "97650-61",
+    "number" : "U01-55-316"
+  }, {
+    "content" : "UV Sensor UV Radiation 200~400 nm",
+    "id" : "6",
+    "isSelected" : false,
+    "model" : "97650-59",
+    "number" : "U01-55-319"
+  }, {
+    "content" : "Visible Sensor Visible Photopic 380~780 nm",
+    "id" : "7",
+    "isSelected" : false,
+    "model" : "97650-54",
+    "number" : "U01-55-322"
+  }, {
+    "content" : "Visible Sensor PAR 400~700 nm",
+    "id" : "8",
+    "isSelected" : false,
+    "model" : "97650-56",
+    "number" : "U01-55-325"
+  }, {
+    "content" : "Visible Sensor Blue Light Safety 400~520 nm",
+    "id" : "9",
+    "isSelected" : false,
+    "model" : "97650-60",
+    "number" : "U01-55-328"
+  }, {
+    "content" : "Humidity/Temperature/Dew Point Sensor",
+    "id" : "10",
+    "isSelected" : false,
+    "model" : "97650-58",
+    "number" : "U01-55-331"
+  } ],
+  "tableItems" : [ "       <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">상세 규격 표              </caption><thead>                <tr>                 <th scope=\"row\" width=\"200\">Cat. No.</th>                 <th width=\"200\" scope=\"row\">Model</th>                 <th width=\"400\" scope=\"row\" class=\"tdfin\">Description</th>                </tr>              </thead>              <tbody>                <tr>                  <td scope=\"row\" class=\"trfinth4\">U01-55-003</td>                  <td scope=\"row\">97650-02</td>                  <td class=\"tdfin\" scope=\"row\">Single Input</td>                </tr>                <tr>                  <td scope=\"row\" class=\"trfinth\">U01-55-006</td>                  <td class=\"trfin\" scope=\"row\">97650-00</td>                  <td class=\"trfin2\" scope=\"row\">Dual Input</td>                </tr>              </tbody></table>    <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"> <caption style=\"display:none;\">        상세 규격 표 </caption><thead>  <tr>    <th width=\"200\" scope=\"col\">Cat. No.</th>    <td width=\"300\" class=\"trfinth4\" scope=\"col\">U01-55-003</td>    <td width=\"300\" class=\"trfinth3\" scope=\"col\">U01-55-006</td>  </tr>  <tr>    <th scope=\"col\">Model</th>    <td class=\"trfinth4\" scope=\"col\">97650-02</td>    <td class=\"trfinth3\" scope=\"col\">97650-00</td>  </tr>  <tr>    <th scope=\"col\">Input</th>    <td scope=\"col\">Single</td>    <td class=\"tdfin\" scope=\"col\">Dual</td>  </tr></thead><tbody>  <tr>    <th scope=\"col\">Energy Range</th>    <td scope=\"col\">± 4V</td>    <td class=\"tdfin\" scope=\"col\">± 0.4V, ± 4V, <br>      Auto-Ranging</td>    </tr>  <tr>    <th scope=\"col\">Probe Accuracy</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">0.2% FS</td>    </tr>  <tr>    <th scope=\"col\">Display Accuracy</th>    <td colspan=\"2\" class=\"tdfin\" scope=\"col\">0.2% FS</td>    </tr>  <tr>    <th scope=\"col\">Data Logging</th>    <td scope=\"col\">No</td>    <td class=\"tdfin\" scope=\"col\">1 min ~ 2 hr</td>  </tr>  <tr>    <th scope=\"col\">Display</th>    <td scope=\"col\">2 Line LCD</td>    <td class=\"tdfin\" scope=\"col\">Graphical LCD</td>    </tr>  <tr>    <th scope=\"col\">Size (w×d×h)</th>    <td scope=\"col\">102×43×192 mm</td>    <td class=\"tdfin\" scope=\"col\">100×43×192 mm</td>    </tr>  <tr>    <th class=\"trfinth2\" scope=\"col\">Power</th>    <td class=\"trfin\" scope=\"col\">4 × AA Battery</td>    <td class=\"trfin2\" scope=\"col\">4 × AA Battery, <br>      9 ~ 12V AC/DC Charger</td>  </tr></tbody></table><h1 style=\"display:inline-block; width:850px; float:left; color:#232323; font-size:16px; line-height: 22px;\">Optional Sensor</h1>UV Sensor  <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>    <tr>      <th scope=\"row\" width=\"133\">Cat. No</th>      <th width=\"134\" scope=\"row\">Model</th>      <th width=\"133\" scope=\"row\">Description</th>      <th width=\"134\" scope=\"row\">Spectral Response</th>      <th width=\"133\" scope=\"row\">Range</th>      <th width=\"133\" class=\"tdfin\" scope=\"row\">Resolution</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth4\" scope=\"row\">U01-55-310</td>      <td class=\"tdfinth3\" scope=\"row\">97650-52</td>      <td class=\"tdfinth3\" scope=\"row\">UVA</td>      <td scope=\"row\">320 ~ 400 nm</td>      <td scope=\"row\">200 mW/㎠<br>        2,000 W/㎡</td>      <td class=\"tdfin\" scope=\"row\">0.001 mW/㎠<br>      0.01 W/㎡</td>    </tr>    <tr>      <td class=\"trfinth4\" scope=\"row\">U01-55-313</td>      <td class=\"tdfinth3\" scope=\"row\">97650-50</td>      <td class=\"tdfinth3\" scope=\"row\">UVB</td>      <td scope=\"row\">280 ~ 340 nm</td>      <td scope=\"row\">200 MED/hr<br>      1,160 uW/㎠</td>      <td class=\"tdfin\" scope=\"row\">0.001 MED/hr<br>      0.01 uW/㎠</td>    </tr>    <tr>      <td class=\"trfinth4\" scope=\"row\">U01-55-316</td>      <td class=\"tdfinth3\" scope=\"row\">97650-61</td>      <td class=\"tdfinth3\" scope=\"row\">UVC/Germicidal</td>      <td scope=\"row\">249 ~ 261 nm</td>      <td scope=\"row\">2,000 uW/㎠<br>      20,000 mW/㎡</td>      <td class=\"tdfin\" scope=\"row\">0.01 uW/㎠<br>      0.1 mW/㎠</td>    </tr>    <tr>      <td class=\"trfinth\" scope=\"row\">U01-55-319</td>      <td class=\"trfin\" scope=\"row\">97650-59</td>      <td class=\"trfin\" scope=\"row\">UV Radiation</td>      <td class=\"trfin\" scope=\"row\">200 ~ 400 nm</td>      <td class=\"trfin\" scope=\"row\">1,000 uW/㎠<br>        10,000 mW/㎡</td>      <td class=\"trfin2\" scope=\"row\">0.01 uW/㎠<br>      0.1 mW/㎡</td>    </tr>  </tbody></table>Visible Sensor  <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>    <tr>      <th scope=\"row\" width=\"133\">Cat. No</th>      <th width=\"134\" scope=\"row\">Model</th>      <th width=\"133\" scope=\"row\">Description</th>      <th width=\"134\" scope=\"row\">Spectral Response</th>      <th width=\"133\" scope=\"row\">Range</th>      <th width=\"133\" class=\"tdfin\" scope=\"row\">Resolution</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth4\" scope=\"row\">U01-55-322</td>      <td class=\"tdfinth3\" scope=\"row\">97650-54</td>      <td class=\"tdfinth3\" scope=\"row\">Visible Photopic</td>      <td scope=\"row\">380 ~ 780 nm</td>      <td scope=\"row\">150,000 lux<br>      200 W/㎡</td>      <td class=\"tdfin\" scope=\"row\">1 lux<br>      0.001 W/㎡</td>    </tr>    <tr>      <td class=\"trfinth4\" scope=\"row\">U01-55-325</td>      <td class=\"tdfinth3\" scope=\"row\">97650-56</td>      <td class=\"tdfinth3\" scope=\"row\">PAR</td>      <td scope=\"row\">400 ~ 700 nm</td>      <td scope=\"row\">20,000 uE/s/㎡</td>      <td class=\"tdfin\" scope=\"row\">0.1 uE/s/㎡</td>    </tr>    <tr>      <td class=\"trfinth\" scope=\"row\">U01-55-328</td>      <td class=\"trfin\" scope=\"row\">97650-60</td>      <td class=\"trfin\" scope=\"row\">Blue Light Safety</td>      <td class=\"trfin\" scope=\"row\">400 ~ 520 nm</td>      <td class=\"trfin\" scope=\"row\">2,000 uW/㎠<br>      20,000 mW/㎠</td>      <td class=\"trfin2\" scope=\"row\">0.01 uW/㎠<br>0.1 mW/㎠</td>    </tr>  </tbody></table>Humidity/Temperature/Dew Point Sensor  <table summary=\"상세규격표\" class=\"st-tablebox\" cellpadding=\"0\" cellspacing=\"0\"><thead>    <tr>      <th scope=\"row\" width=\"133\">Cat. No</th>      <th width=\"134\" scope=\"row\">Model</th>      <th width=\"133\" scope=\"row\">Description</th>      <th width=\"134\" scope=\"row\">Spectral Response</th>      <th width=\"133\" scope=\"row\">Range</th>      <th width=\"133\" class=\"tdfin\" scope=\"row\">Resolution</th>    </tr>  </thead>  <tbody>    <tr>      <td class=\"trfinth\" scope=\"row\">U01-55-331</td>      <td class=\"trfin\" scope=\"row\">97650-58</td>      <td class=\"trfin\" scope=\"row\">Humidity/Temperature<br>Dew Point</td>      <td class=\"trfin\" scope=\"row\">-</td>      <td class=\"trfin\" scope=\"row\">0 ~ 100% pH</td>      <td class=\"trfin2\" scope=\"row\">0.1% pH</td>    </tr>  </tbody></table>              " ],
+  "title" : "Radiometer (방사계)",
+  "type" : "expendables_U"
+} ]

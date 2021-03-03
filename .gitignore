@@ -1,0 +1,14 @@
+node_modules/
+.next/
+
+.firebase/
+.firebaserc
+firebase.json
+storage.rules
+database.rules.json
+mail.config.js
+firebase.config.js
+kakao.appkey.js
+
+.DS_Store
+
