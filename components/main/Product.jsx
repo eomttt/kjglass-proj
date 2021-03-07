@@ -7,12 +7,13 @@ const Container = styled.div`
   display: inline-block;
   cursor: pointer;
   & img {
-      width: 170px;
+      width: ${(props) => props.width}px;
   }
 `;
 
-const Product = ({ product, clickProduct }) => (
-  <Container onClick={clickProduct}>
+const Product = ({ width, product, clickProduct }) => (
+  <Container width={width} onClick={clickProduct}>
+    <div>{product.id}</div>
     <img src={product.image} alt={'Product'} />
   </Container>
 );
