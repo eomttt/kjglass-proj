@@ -9,43 +9,43 @@ const bascketStore = new BascketStore();
 const itemsStore = new ItemsStore();
 
 const App = ({ Component, pageProps }) => {
-    const getDatas = () => {
-        try {
-            const datum = getExpendables();
-            itemsStore.setItems(datum);
-        } catch (error) {
-            console.log('Get data error', error);
-        }
-    };
+  const getDatas = () => {
+    try {
+      const datum = getExpendables();
+      itemsStore.setItems(datum);
+    } catch (error) {
+      console.log('Get data error', error);
+    }
+  };
 
-    useEffect(() => {
-        bascketStore.initBasket();
-        getDatas();
-    }, []);
+  useEffect(() => {
+    bascketStore.initBasket();
+    getDatas();
+  }, []);
 
-    return (
-        <>
-            <Provider bascketStore={bascketStore} itemsStore={itemsStore}>
-                <Component {...pageProps} />
-            </Provider>
-        </>
-    );
+  return (
+    <>
+      <Provider bascketStore={bascketStore} itemsStore={itemsStore}>
+        <Component {...pageProps} />
+      </Provider>
+    </>
+  );
 };
 
 App.getInitialProps = async (context) => {
-    const { ctx, Component } = context;
-    let pageProps = {};
+  const { ctx, Component } = context;
+  let pageProps = {};
 
-    if (Component.getInitialProps) {
-        pageProps = await Component.getInitialProps(ctx);
-    }
+  if (Component.getInitialProps) {
+    pageProps = await Component.getInitialProps(ctx);
+  }
 
-    return { pageProps };
+  return { pageProps };
 };
 
 App.propTypes = {
-    Component: PropTypes.elementType.isRequired,
-    pageProps: PropTypes.object.isRequired,
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired,
 };
 
 export default App;

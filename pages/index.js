@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Router from 'next/router';
 
 import AppLayout from '../components/AppLayout';
@@ -14,8 +14,11 @@ import SearchProduct from '../containers/main/SearchProduct';
 
 import { ViewContainer } from '../styles/style';
 import { MainItems, MainItem } from '../styles/main';
+import { ProductDetail } from '../components/main/ProductDetail';
+import { Modal } from '../utils/Modal';
 
 const Home = () => {
+  const [productDetail, setProductDetail] = useState();
   const [sideBarItems] = useState([{
     text: '회사소개',
     path: '/info',
@@ -39,29 +42,38 @@ const Home = () => {
     });
   }, [sideBarItems]);
 
+  useEffect(() => {
+    Modal.addEventListener((product) => {
+      setProductDetail(product);
+    });
+  }, []);
+
   return (
-    <AppLayout>
-      <NavBar
-        sideMenuItems={sideBarItems}
-        clickSideItem={clickSideItem}
-      />
-      <ViewContainer>
-        <Header />
-        <ProductPreview />
-        <MainItems>
-          <MainItem>
-            <Notice />
-          </MainItem>
-          <MainItem>
-            <SearchProduct />
-          </MainItem>
-          <MainItem>
-            <CustomerCenter />
-          </MainItem>
-        </MainItems>
-      </ViewContainer>
-      <Footer />
-    </AppLayout>
+    <>
+      <AppLayout>
+        <NavBar
+          sideMenuItems={sideBarItems}
+          clickSideItem={clickSideItem}
+        />
+        <ViewContainer>
+          <Header />
+          <ProductPreview />
+          <MainItems>
+            <MainItem>
+              <Notice />
+            </MainItem>
+            <MainItem>
+              <SearchProduct />
+            </MainItem>
+            <MainItem>
+              <CustomerCenter />
+            </MainItem>
+          </MainItems>
+        </ViewContainer>
+        <Footer />
+      </AppLayout>
+      {productDetail && <ProductDetail product={productDetail} />}
+    </>
   );
 };
 

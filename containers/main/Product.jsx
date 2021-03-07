@@ -1,17 +1,13 @@
-import React from 'react';
-import Router from 'next/router';
-
 import PropTypes from 'prop-types';
-
+import React from 'react';
 import ProductComponent from '../../components/main/Product';
+import { Modal } from '../../utils/Modal';
 
 export const ITEM_WIDTH = 170;
 
 const Product = ({ product }) => {
   const onClickProduct = () => {
-    Router.push({
-      pathname: '/shop',
-    });
+    Modal.emitEvent(product);
   };
 
   return (

@@ -43,30 +43,43 @@ const Arrow = styled.div`
 const ProductList = ({ products }) => {
   const contentRef = useRef();
   const [scrollIndex, setScrollIndex] = useState(0);
-  const isShowPrevious = useMemo(() => scrollIndex !== 0, [scrollIndex]);
-  const isShowNext = useMemo(() => scrollIndex !== products.length, [scrollIndex, products.length]);
+  const [itemCount, setItemCount] = useState(0);
+
+  const maxProductCount = useMemo(() => products.length - 1, [products.length]);
+  const maxScrollIndex = useMemo(
+    () => Math.floor(maxProductCount / itemCount), [maxProductCount, itemCount]
+  );
+
+  const isShowPrevious = useMemo(() => scrollIndex > 0, [scrollIndex]);
+  const isShowNext = useMemo(() => scrollIndex < maxScrollIndex, [scrollIndex, maxScrollIndex]);
+
+  const snapIndent = useMemo(() => ITEM_WIDTH + 20, []);
 
   const clickPrevious = useCallback(() => {
-    setScrollIndex((prev) => {
-      if (prev - 1 < 0) {
-        return 0;
-      }
-      return prev - 1;
-    });
+    setScrollIndex((prev) => (prev - 1 < 0 ? 0 : prev - 1));
   }, []);
 
   const clickNext = useCallback(() => {
-    setScrollIndex((prev) => {
-      if (prev + 1 > products.length) {
-        return products.length;
-      }
-      return prev + 1;
-    });
+    setScrollIndex((prev) => (prev + 1 > maxScrollIndex ? maxScrollIndex : prev + 1));
+  }, [maxScrollIndex]);
+
+  const updateItemCount = useCallback(() => {
+    if (contentRef?.current) {
+      setItemCount(Math.floor(contentRef.current.offsetWidth / snapIndent));
+    }
+  }, [contentRef?.current, snapIndent]);
+
+  useEffect(() => {
+    window.addEventListener('resize', updateItemCount);
+
+    return () => {
+      window.removeEventListener('resize', updateItemCount);
+    };
   }, []);
 
   useEffect(() => {
-    console.log('contentRef', contentRef);
-  }, [contentRef]);
+    updateItemCount();
+  }, []);
 
   return (
     <Container>
@@ -83,7 +96,7 @@ const ProductList = ({ products }) => {
       <Content ref={contentRef}>
         {
           products.map((product) => (
-            <ProductWrapper key={product.id} indent={(ITEM_WIDTH + 20) * scrollIndex}>
+            <ProductWrapper key={product.id} indent={(snapIndent * itemCount) * scrollIndex}>
               <Product product={product} />
             </ProductWrapper>
           ))

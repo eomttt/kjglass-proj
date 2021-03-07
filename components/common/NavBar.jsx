@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import NavBarItems from '../../containers/common/NavBarItems';
 
 import common, {
-    pointColor, navBarHeight, mobileNavBar, isMobile,
+  pointColor, navBarHeight, mobileNavBar, isMobile,
 } from '../../styles/style';
 
 import Logo from '../../lib/images/logo.png';
@@ -85,32 +85,32 @@ const MenuIcon = styled.div`
 `;
 
 const NavBar = ({ moveMainPage, openSideMenu }) => (
-    <Container>
-        <Content>
-            <MenuIcon
-                onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    openSideMenu();
-                }}
-            >
-                <div>
-                    <img src={MenuImage} alt={'Menu'} />
-                </div>
-            </MenuIcon>
-            <ImageContainer onClick={moveMainPage}>
-                <Image src={Logo} />
-            </ImageContainer>
-            <Menu>
-                <NavBarItems />
-            </Menu>
-        </Content>
-    </Container>
+  <Container>
+    <Content>
+      <MenuIcon
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          openSideMenu();
+        }}
+      >
+        <div>
+          <img src={MenuImage} alt={'Menu'} />
+        </div>
+      </MenuIcon>
+      <ImageContainer onClick={moveMainPage}>
+        <Image src={Logo} />
+      </ImageContainer>
+      <Menu>
+        <NavBarItems />
+      </Menu>
+    </Content>
+  </Container>
 );
 
 NavBar.propTypes = {
-    moveMainPage: PropTypes.func.isRequired,
-    openSideMenu: PropTypes.func.isRequired,
+  moveMainPage: PropTypes.func.isRequired,
+  openSideMenu: PropTypes.func.isRequired,
 };
 
 export default NavBar;

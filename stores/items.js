@@ -11,37 +11,35 @@ export default class ItemsStore {
     @observable expendables = [];
 
     @action setItems = (expendables) => {
-        this.expendables = expendables;
+      this.expendables = expendables;
     }
 
     @action getItemInfo = (params) => {
-        const {
-            type, itemId, specificationId,
-        } = params;
+      const {
+        type, itemId, specificationId,
+      } = params;
 
-        let selectedItems = [];
+      let selectedItems = [];
 
-        if (type === 'glasses') {
-            selectedItems = [...toJS(this.glasses)];
-        } else {
-            selectedItems = [...toJS(this.expendables)];
-        }
+      if (type === 'glasses') {
+        selectedItems = [...toJS(this.glasses)];
+      } else {
+        selectedItems = [...toJS(this.expendables)];
+      }
 
-        if (selectedItems.length > 0) {
-            const selectedItem = selectedItems && selectedItems.filter((item) => {
-                if (item) {
-                    return item.id === itemId;
-                }
-                return false;
-            })[0];
-            const selectedSpecificItem = selectedItem && selectedItem.specification.filter((specificationItem) => {
-                return specificationItem.id === specificationId;
-            })[0];
-            return {
-                selectedItem,
-                selectedSpecificItem,
-            };
-        }
-        return null;
+      if (selectedItems.length > 0) {
+        const selectedItem = selectedItems && selectedItems.filter((item) => {
+          if (item) {
+            return item.id === itemId;
+          }
+          return false;
+        })[0];
+        const selectedSpecificItem = selectedItem && selectedItem.specification.filter((specificationItem) => specificationItem.id === specificationId)[0];
+        return {
+          selectedItem,
+          selectedSpecificItem,
+        };
+      }
+      return null;
     }
 }
