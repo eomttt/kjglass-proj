@@ -1,9 +1,19 @@
 import Document, { Head, Main, NextScript, Html } from 'next/document';
 import PropTypes from 'prop-types';
-import { ServerStyleSheet } from 'styled-components';
+import { ServerStyleSheet, createGlobalStyle } from 'styled-components';
 
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
+
+const GlobalStyle = createGlobalStyle`
+	body {
+		padding: 0;
+		margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+	}
+`;
+
+
 class MyDocument extends Document {
     static getInitialProps(context) {
         const sheet = new ServerStyleSheet();
@@ -21,7 +31,8 @@ class MyDocument extends Document {
                     {this.props.styleTags}
                     <script type="text/javascript" src={kakaoUrl}></script>
                 </Head>
-                <body style={{ margin: 0 }}>
+                <body>
+                    <GlobalStyle />
                     <Main />
                     <NextScript />
                 </body>

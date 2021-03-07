@@ -60,25 +60,25 @@ const Menu = styled.div`
 `;
 
 const Footer = () => (
-    <Container>
-        <ImageContainer>
-            <Image src={Logo} />
-        </ImageContainer>
-        <Content>
-            <div>
-                {'사업자 등록번호 : 128-19-94958 | 광진이화학 | 대표이사 : 엄준회'}
-            </div>
-            <div>
-                {'서울특별시 강북구 미아동 319-50 2층 | 강북구 솔샘로65길 93 2층 | Tel. 02 - 903 - 8582 / 070-7500-8100,1 | Fax. 02 - 995 - 0359 | E-mail : glassjun22@naver.com, 733@hanmail.net'}
-            </div>
-            <div>
-                {'COPYRIGHT @ 2017 Kwangjin Scientific Galss Ware Instruments , All rights reserved'}
-            </div>
-        </Content>
-        <Menu>
-            <NavBarItems />
-        </Menu>
-    </Container>
+  <Container>
+    <ImageContainer>
+      <Image src={Logo} />
+    </ImageContainer>
+    <Content>
+      <div>
+        {'사업자 등록번호 : 128-19-94958 | 광진이화학 | 대표이사 : 엄준회'}
+      </div>
+      <div>
+        {'서울특별시 강북구 미아동 319-50 2층 | 강북구 솔샘로65길 93 2층 | Tel. 02 - 903 - 8582 / 070-7500-8100,1 | Fax. 02 - 995 - 0359 | E-mail : glassjun22@naver.com, 733@hanmail.net'}
+      </div>
+      <div>
+        {'COPYRIGHT @ 2017 Kwangjin Scientific Galss Ware Instruments , All rights reserved'}
+      </div>
+    </Content>
+    <Menu>
+      <NavBarItems />
+    </Menu>
+  </Container>
 );
 
 export default Footer;

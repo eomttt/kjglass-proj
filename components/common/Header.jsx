@@ -7,20 +7,20 @@ import { isMobile } from '../../styles/style';
 import HeaderImage from '../../lib/images/subvisual.png';
 
 const Container = styled.div`
+  width: 100%;
+  & img {
     width: 100%;
-    & img {
-        width: 100%;
-    }
+  }
 
-    ${isMobile} {
-        display: none;
-    }
+  ${isMobile} {
+    display: none;
+  }
 `;
 
 const Header = () => (
-    <Container>
-        <img src={HeaderImage} alt={'Header'} />
-    </Container>
+  <Container>
+    <img src={HeaderImage} alt={'Header'} />
+  </Container>
 );
 
 export default Header;
