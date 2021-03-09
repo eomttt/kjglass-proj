@@ -37,10 +37,6 @@ const Contact = () => {
         if (email || number) {
             alert('장바구니에 담긴 정보가 함께 전송 됩니다.');
             try {
-              console.log('Item', {
-                glass: convertItem(glassItems.glass, 'glasses'),
-                expendables: convertItem(glassItems.expendables, 'expendables'),
-            },)
                 await axios.post('/translate-mail', {
                     contactData,
                     item: {
