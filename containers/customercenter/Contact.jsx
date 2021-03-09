@@ -27,7 +27,7 @@ const Contact = () => {
         return {
             ...itemInfo,
             count: item.count,
-            url: `http://kjglass.shop/shop?id=${type === 'glasses' ? 1 : 2}&classifiedId=${encodeURI(itemInfo.selectedItem.classify)}&productId=${item.itemId}`,
+            url: `http://kjglass.co.kr/shop?id=${type === 'glasses' ? 1 : 2}&classifiedId=${encodeURI(itemInfo.selectedItem.classify)}&productId=${item.itemId}`,
         };
     });
 
@@ -37,6 +37,10 @@ const Contact = () => {
         if (email || number) {
             alert('장바구니에 담긴 정보가 함께 전송 됩니다.');
             try {
+              console.log('Item', {
+                glass: convertItem(glassItems.glass, 'glasses'),
+                expendables: convertItem(glassItems.expendables, 'expendables'),
+            },)
                 await axios.post('/translate-mail', {
                     contactData,
                     item: {
