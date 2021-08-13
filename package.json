@@ -22,7 +22,7 @@
     "mobx": "^4.15.4",
     "mobx-react": "^6.1.4",
     "mobx-react-lite": "^1.5.0",
-    "next": "^9.3.2",
+    "next": "^11.1.0",
     "next-images": "^1.1.2",
     "nodemailer": "^6.4.2",
     "nodemailer-smtp-pool": "^2.8.3",
