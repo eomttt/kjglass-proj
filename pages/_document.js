@@ -30,7 +30,7 @@ class MyDocument extends Document {
           {this.props.styleTags}
           <script
             type="text/javascript"
-            src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2e780152a42673e30ed1cc206aedc7da"
+            src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10268c3a3e909de2ed288407e0902486"
           ></script>
         </Head>
         <body>

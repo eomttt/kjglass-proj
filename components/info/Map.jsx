@@ -4,7 +4,6 @@ const Map = () => {
   const mapContainer = useRef();
 
   useEffect(() => {
-    window.Kakao.init();
     const options = {
       center: new window.kakao.maps.LatLng(37.62129, 127.025898),
       level: 3,
