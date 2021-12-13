@@ -1,25 +1,12 @@
 version: '3.7'
 services:
   kjglass:
-    image: node:12
-    container_name: kjglass
-    volumes:
-      - type: bind
-        source: .
-        target: /kjglass
-      - type: volume
-        source: node_modules
-        target: /kjglass/node_modules
-        volume:
-          nocopy: true
-    working_dir: /kjglass
-    init: true
-    environment:
-      NEXT_TELEMETRY_DISABLED: '1'
-    command: >
-      sh -c "npm install --frozen-lockfile &&
-             node server.js"
     ports:
-      - '4040:3000'
-volumes:
-  node_modules:
+      - 80:8080
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
