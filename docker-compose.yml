@@ -17,9 +17,9 @@ services:
     environment:
       NEXT_TELEMETRY_DISABLED: '1'
     command: >
-      sh -c "yarn install --frozen-lockfile &&
+      sh -c "npm install --frozen-lockfile &&
              node server.js"
     ports:
-      - "4040:3000"
+      - '4040:3000'
 volumes:
   node_modules:
