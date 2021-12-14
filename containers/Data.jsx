@@ -1,7 +1,35 @@
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable no-await-in-loop */
 /* eslint-disable no-param-reassign */
-const ALPHABET = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'undefined'];
+const ALPHABET = [
+  'A',
+  'B',
+  'C',
+  'D',
+  'E',
+  'F',
+  'G',
+  'H',
+  'I',
+  'J',
+  'K',
+  'L',
+  'M',
+  'N',
+  'O',
+  'P',
+  'Q',
+  'R',
+  'S',
+  'T',
+  'U',
+  'V',
+  'W',
+  'X',
+  'Y',
+  'Z',
+  'undefined',
+];
 
 const expendablesA = require('../data/expendables_A.json');
 const expendablesB = require('../data/expendables_B.json');
@@ -27,46 +55,46 @@ const expendablesW = require('../data/expendables_W.json');
 const expendablesZ = require('../data/expendables_Z.json');
 
 const Data = {
-    A: expendablesA,
-    B: expendablesB,
-    C: expendablesC,
-    D: expendablesD,
-    E: expendablesE,
-    F: expendablesF,
-    G: expendablesG,
-    H: expendablesH,
-    I: expendablesI,
-    J: expendablesJ,
-    L: expendablesL,
-    M: expendablesM,
-    O: expendablesO,
-    P: expendablesP,
-    R: expendablesR,
-    S: expendablesS,
-    T: expendablesT,
-    U: expendablesU,
-    undefined: expendablesUndefined,
-    V: expendablesV,
-    W: expendablesW,
-    Z: expendablesZ,
+  A: expendablesA,
+  B: expendablesB,
+  C: expendablesC,
+  D: expendablesD,
+  E: expendablesE,
+  F: expendablesF,
+  G: expendablesG,
+  H: expendablesH,
+  I: expendablesI,
+  J: expendablesJ,
+  L: expendablesL,
+  M: expendablesM,
+  O: expendablesO,
+  P: expendablesP,
+  R: expendablesR,
+  S: expendablesS,
+  T: expendablesT,
+  U: expendablesU,
+  undefined: expendablesUndefined,
+  V: expendablesV,
+  W: expendablesW,
+  Z: expendablesZ,
 };
 
 export const getExpendables = () => {
-    let result = [];
-    for (const alphabet of ALPHABET) {
-        const data = Data[alphabet];
-        if (data) {
-            result = [...result, ...data];
-        }
+  let result = [];
+  for (const alphabet of ALPHABET) {
+    const data = Data[alphabet];
+    if (data) {
+      result = [...result, ...data];
     }
-    return result;
+  }
+  return result;
 };
 
 export const getExpendable = (alphabet, id) => {
-    const datum = Data[alphabet];
+  const datum = Data[alphabet];
 
-    if (datum) {
-        return datum.filter((item) => item.id === id)[0];
-    }
-    return {};
+  if (datum) {
+    return datum.filter((item) => item.id === id)[0];
+  }
+  return {};
 };

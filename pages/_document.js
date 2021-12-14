@@ -1,6 +1,6 @@
-import Document, { Head, Main, NextScript, Html } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 import PropTypes from 'prop-types';
-import { ServerStyleSheet, createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, ServerStyleSheet } from 'styled-components';
 
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
@@ -13,36 +13,38 @@ const GlobalStyle = createGlobalStyle`
 	}
 `;
 
-
 class MyDocument extends Document {
-    static getInitialProps(context) {
-        const sheet = new ServerStyleSheet();
-        const page = context.renderPage((App) => (props) => sheet.collectStyles(<App {...props} />));
-        const styleTags = sheet.getStyleElement();
-        return { ...page, styleTags };
-    }
+  static getInitialProps(context) {
+    const sheet = new ServerStyleSheet();
+    const page = context.renderPage(
+      (App) => (props) => sheet.collectStyles(<App {...props} />)
+    );
+    const styleTags = sheet.getStyleElement();
+    return { ...page, styleTags };
+  }
 
-    render() {
-        const kakaoUrl = `http://dapi.kakao.com/v2/maps/sdk.js?appkey=${'2e780152a42673e30ed1cc206aedc7da'}`;
-
-        return (
-            <Html>
-                <Head>
-                    {this.props.styleTags}
-                    <script type="text/javascript" src={kakaoUrl}></script>
-                </Head>
-                <body>
-                    <GlobalStyle />
-                    <Main />
-                    <NextScript />
-                </body>
-            </Html>
-        );
-    }
+  render() {
+    return (
+      <Html>
+        <Head>
+          {this.props.styleTags}
+          <script
+            type="text/javascript"
+            src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10268c3a3e909de2ed288407e0902486"
+          ></script>
+        </Head>
+        <body>
+          <GlobalStyle />
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }
 
 MyDocument.propTypes = {
-    styleTags: PropTypes.array.isRequired,
+  styleTags: PropTypes.array.isRequired,
 };
 
 export default MyDocument;

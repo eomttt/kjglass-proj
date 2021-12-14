@@ -1,10 +1,7 @@
 import React from 'react';
-
 import styled from 'styled-components';
-
-import { isMobile } from '../../styles/style';
-
 import HeaderImage from '../../lib/images/subvisual.png';
+import { isMobile } from '../../styles/style';
 
 const Container = styled.div`
   width: 100%;
