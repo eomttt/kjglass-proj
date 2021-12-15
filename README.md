@@ -14,3 +14,6 @@
 1. Deploy on Vercel
 
 2. Mail sender in Lambda vi serverless
+
+### Mail sender
+https://github.com/eomttt/kjglass-proj-mailer
