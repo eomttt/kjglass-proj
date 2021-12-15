@@ -1,7 +1,8 @@
 # Kjglass Project
 
 ## Refactoring kj hompage
-* [HomePage](http://www.kjglass.co.kr)
+
+- [HomePage](http://www.kjglass.co.kr)
 
 ### React, Mobx, Next, Styled-component
 
@@ -10,17 +11,6 @@
 
 ### Deploy
 
-1. Run script
-> $ ./deploy_kj_node.sh ~/Project/kjgalss-proj/.next
+1. Deploy on Vercel
 
-2. Access ec2 server
-> $ ./connect_kj_node.sh
-
-3. Remove old .next build files
-> $ rm -rf kjglass-proj/.next/
-
-4. Move new .next build files
-> $ mv .next/ kjglass-proj/
-
-[Script in Private Repo](https://github.com/eomttt/personal-data)
-
+2. Mail sender in Lambda vi serverless
