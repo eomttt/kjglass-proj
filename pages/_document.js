@@ -1,6 +1,6 @@
-import Document, { Head, Html, Main, NextScript } from 'next/document';
-import PropTypes from 'prop-types';
-import { createGlobalStyle, ServerStyleSheet } from 'styled-components';
+import Document, { Head, Html, Main, NextScript } from "next/document";
+import PropTypes from "prop-types";
+import { createGlobalStyle, ServerStyleSheet } from "styled-components";
 
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
@@ -32,6 +32,10 @@ class MyDocument extends Document {
             type="text/javascript"
             src="//dapi.kakao.com/v2/maps/sdk.js?appkey=10268c3a3e909de2ed288407e0902486"
           ></script>
+          <meta
+            http-equiv="Content-Security-Policy"
+            content="upgrade-insecure-requests"
+          ></meta>
         </Head>
         <body>
           <GlobalStyle />
