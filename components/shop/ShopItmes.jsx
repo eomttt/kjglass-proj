@@ -217,7 +217,7 @@ const ShopItems = ({
                   <Content onClick={() => onClickProduct(product.id)}>
                     <Image>
                       <img
-                        src={`${product.image}?s=52x52`}
+                        src={`/api/image?redirectUrl=${product.image}`}
                         alt="product"
                         onLoad={onLoadImage}
                       />
